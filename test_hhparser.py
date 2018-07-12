@@ -430,11 +430,11 @@ class TestHHParser(unittest.TestCase):
     def test_getHeroCards(self):
         hh = HHParser(th4)
         herocards = hh.getHeroCards()
-        self.assertEqual(herocards, "Ad 7h") 
+        self.assertEqual(herocards, "Ad7h") 
         
         hh = HHParser(th)
         herocards = hh.getHeroCards()
-        self.assertEqual(herocards, "As Ad")
+        self.assertEqual(herocards, "AsAd")
         
         hh = HHParser(th2)
         herocards = hh.getHeroCards()
@@ -443,11 +443,11 @@ class TestHHParser(unittest.TestCase):
     def test_getKnownCards(self):
         hh = HHParser(th4)
         knowncards = hh.getKnownCards()
-        self.assertEqual(knowncards, {"DiggErr555": "Ad 7h", "epsilonmi27": "Kd 9h"})
+        self.assertEqual(knowncards, {"DiggErr555": "Ad7h", "epsilonmi27": "Kd9h"})
         
         hh = HHParser(th)
         knowncards = hh.getKnownCards()
-        self.assertEqual(knowncards, {"baluoteli": "Jd Qs", "DiggErr555": "As Ad", "bigboyby": "5d 5h", "zaxar393": "9d Kd"})
+        self.assertEqual(knowncards, {"baluoteli": "JdQs", "DiggErr555": "AsAd", "bigboyby": "5d5h", "zaxar393": "9dKd"})
         
         hh = HHParser(th2)
         knowncards = hh.getKnownCards()
@@ -458,7 +458,7 @@ class TestHHParser(unittest.TestCase):
         
         hh = HHParser(th)
         flop = hh.getFlop()
-        self.assertEqual(flop, "3s 2h 7c") 
+        self.assertEqual(flop, "3s2h7c") 
         
         hh = HHParser(th2)
         flop = hh.getFlop()
@@ -466,7 +466,7 @@ class TestHHParser(unittest.TestCase):
         
         hh = HHParser(th4)
         flop = hh.getFlop()
-        self.assertEqual(flop, "5d 4d 4h") 
+        self.assertEqual(flop, "5d4d4h") 
 
     
     def test_getTurn(self):

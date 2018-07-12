@@ -585,7 +585,9 @@ class HHParser:
         
         if self.HeroCards: return  self.HeroCards
         else:
-            if res: self.HeroCards = res.groupdict().get('cards') 
+            if res: 
+#               delete spaces 
+                self.HeroCards = re.sub(r'\s+', '', res.groupdict().get('cards'), flags=re.UNICODE) 
         
         return self.HeroCards
 
@@ -596,7 +598,7 @@ class HHParser:
         
         if self.KnownCardsDict: return self.KnownCardsDict
         else:
-            if res: self.KnownCardsDict = {x[0]: x[1] for x in res}
+            if res: self.KnownCardsDict = {x[0]: re.sub(r'\s+', '', x[1], flags=re.UNICODE) for x in res}
         
         return self.KnownCardsDict
         
@@ -606,7 +608,7 @@ class HHParser:
         
         if self.flop: return  self.flop
         else:
-            if res: self.flop = res.groupdict().get('flop') 
+            if res: self.flop = re.sub(r'\s+', '', res.groupdict().get('flop'), flags=re.UNICODE)
         
         return self.flop
   
