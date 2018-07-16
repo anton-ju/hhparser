@@ -593,7 +593,7 @@ class HHParser:
 
     def getKnownCards(self):
         
-        regex = "Seat \d: (?P<player>.*?)\s?(?:\(button\) showed|\(small blind\) showed|\(big blind\) showed| showed)\s\[(?P<knowncards>.*)\]"
+        regex = "Seat \d: (?P<player>.*?)\s?(?:\(button\) showed|\(small blind\) showed|\(button\) \(small blind\) showed|\(big blind\) showed| showed)\s\[(?P<knowncards>.*)\]"
         res = re.findall(regex, self.summary_str)
         
         if self.KnownCardsDict: return self.KnownCardsDict
