@@ -577,7 +577,17 @@ class TestHHParser(unittest.TestCase):
         hh = HHParser(th7)
         self.assertEqual(hh.getStacks(),{'sabuco_2110': 834,
                                          'DiggErr555': 2166})
-        
+    def test_getBlindsAnte(self):
+        hh = HHParser(th)
+        self.assertEqual(hh.getBlidnsAnte(), {'da_mauso': 2,
+                                          'baluoteli': 2,
+                                          'DiggErr555': 2,
+                                          'bigboyby': 12,
+                                          '2Ran128': 22,
+                                          'zaxar393': 2})
+        hh = HHParser(th7)
+        self.assertEqual(hh.getBlidnsAnte(), {'sabuco_2110': 165,
+                                              'DiggErr555': 90})
     
     def test_tablePosition(self):
         

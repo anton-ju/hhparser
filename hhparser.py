@@ -73,6 +73,7 @@ class HHParser:
         self.r_amounts = {}
         self.players_dict = {}
         self.p_actions = []
+        self.blinds_ante = {}
         #        regex_ps =  "\s?PokerStars\s+?Hand"
         #        regex_888 = "\s?888poker\s+?Hand"
         #        t = re.compile(regex_ps)
@@ -255,11 +256,9 @@ class HHParser:
         return result
 
     def tablePosition(self, player):
+        # сколько еще игроков будут действовать на префлопе после игрока
         return self.preflop_order
 
-    # сколько еще игроков будут действовать на префлопе после игрока
-
-    #   end tablePosition()
     def isChipLeader(self, player):
 
         if self.tournamentPosition(player) == 1:
@@ -655,3 +654,24 @@ class HHParser:
                 self.chipwinnings = {x[0]: int(x[1]) for x in res}
 
         return self.chipwinnings
+
+    def getBlidnsAnte(self):
+        #returns dict {player: bet before preflop}
+        regex = "(?P<player>.*): posts .*?(?P<bet>\d+)"
+
+        if self.blinds_ante:
+            return self.blinds_ante
+        else:
+            res = re.findall(regex, self.caption_str)
+            if res:
+                dic = {}
+                for x in res:
+                    if dic.get(x[0], 0) == 0:
+                        dic[x[0]] = int(x[1])
+                    else:
+                        dic[x[0]] = dic.get(x[0]) + int(x[1])
+
+                self.blinds_ante = dic
+
+        return self.blinds_ante
+
