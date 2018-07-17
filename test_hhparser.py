@@ -564,6 +564,19 @@ class TestHHParser(unittest.TestCase):
         self.assertEqual(hh.tournamentPosition("2Ran128"), 3)
         self.assertEqual(hh.tournamentPosition("zaxar393"), 3)#todo
         self.assertEqual(hh.tournamentPosition("error"), -1)#todo
+
+    def test_getStacks(self):
+        hh = HHParser(th)
+        self.assertEqual(hh.getStacks(), {'da_mauso': 954,
+                                          'baluoteli': 20,
+                                          'DiggErr555': 466,
+                                          'bigboyby': 568,
+                                          '2Ran128': 496,
+                                          'zaxar393': 496})
+
+        hh = HHParser(th7)
+        self.assertEqual(hh.getStacks(),{'sabuco_2110': 834,
+                                         'DiggErr555': 2166})
         
     
     def test_tablePosition(self):
