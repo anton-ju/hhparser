@@ -564,7 +564,30 @@ class TestHHParser(unittest.TestCase):
         self.assertEqual(hh.tournamentPosition("2Ran128"), 3)
         self.assertEqual(hh.tournamentPosition("zaxar393"), 3)#todo
         self.assertEqual(hh.tournamentPosition("error"), -1)#todo
-        
+
+    def test_getStacks(self):
+        hh = HHParser(th)
+        self.assertEqual(hh.getStacks(), {'da_mauso': 954,
+                                          'baluoteli': 20,
+                                          'DiggErr555': 466,
+                                          'bigboyby': 568,
+                                          '2Ran128': 496,
+                                          'zaxar393': 496})
+
+        hh = HHParser(th7)
+        self.assertEqual(hh.getStacks(),{'sabuco_2110': 834,
+                                         'DiggErr555': 2166})
+    def test_getBlindsAnte(self):
+        hh = HHParser(th)
+        self.assertEqual(hh.getBlidnsAnte(), {'da_mauso': 2,
+                                          'baluoteli': 2,
+                                          'DiggErr555': 2,
+                                          'bigboyby': 12,
+                                          '2Ran128': 22,
+                                          'zaxar393': 2})
+        hh = HHParser(th7)
+        self.assertEqual(hh.getBlidnsAnte(), {'sabuco_2110': 165,
+                                              'DiggErr555': 90})
     
     def test_tablePosition(self):
         
