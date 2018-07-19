@@ -20,6 +20,10 @@ ACTIONS = {
 class HHParser:
     PRIZE = []
     POSITIONS = ['BB', 'SB', 'BU', 'CO', 'MP2', 'MP1', 'UTG3', 'UTG2', 'UTG1']
+    UNCALLED_REGEX = "Uncalled.*\((?P<bet>\d+)\).*to (?P<player>.*)"
+    UNCALLED_DICT = {'player': 'bet'}
+    CHIPWON_REGEX = "Seat \d: (?P<player>.*?) .*(?:and won|collected) \((?P<chipwon>.*)\)"
+    CHIPWON_DICT = {'player': 'chipwon'}
 
     def __init__(self, hh):
         #       todo проверка является ли строка hand history
@@ -74,6 +78,12 @@ class HHParser:
         self.players_dict = {}
         self.p_actions = []
         self.blinds_ante = {}
+        self.uncalled = {}
+        self.bounty_won = {}
+        self.prize_won = {}
+        self.finished = {}
+        self.chip_won = {}
+
         #        regex_ps =  "\s?PokerStars\s+?Hand"
         #        regex_888 = "\s?888poker\s+?Hand"
         #        t = re.compile(regex_ps)
@@ -630,30 +640,34 @@ class HHParser:
         return self.river
         pass
 
-    def getWinnings(self):
+    def getBountyWon(self):
         #       winning in tournament
-        regex = "(?P<player>.*) wins the \$(?P<knockout>.*) bounty"
-
-        if self.winnings:
-            return self.winnings
+        regex = "(?P<player>.*) wins the \$(?P<bounty>.*) bounty"
+        if self.bounty_won:
+            return self.bounty_won
         else:
-            res = re.findall(regex, self.showdown_str)
-            if res:
-                self.winnings = {x[0]: float(x[1]) for x in res}
+            self.bounty_won = self._process_regexp(regex, self.showdown_str, type_func=lambda x: float(x), **{'player':'bounty'})
+            return self.bounty_won
 
-        return self.winnings
-
-    def getChipWinnings(self):
-        regex = "Seat \d: (?P<player>.*?) .*(?:and won|collected) \((?P<chipwon>.*)\)"
-
-        if self.chipwinnings:
-            return self.chipwinnings
+    def getPrizeWon(self):
+        regex = "(?P<player>.*?) .*and (?:received|receives) \$(?P<prize>\d+\.\d+)(?:.|\s)"
+        if self.prize_won:
+            return self.prize_won
         else:
-            res = re.findall(regex, self.summary_str)
-            if res:
-                self.chipwinnings = {x[0]: int(x[1]) for x in res}
+            self.prize_won = self._process_regexp(regex, self.showdown_str, type_func=lambda x: float(x), **{'player':'prize'})
+            return self.prize_won
 
-        return self.chipwinnings
+
+    def getChipWon(self):
+
+        if self.chip_won:
+            return self.chip_won
+        else:
+            self.chip_won = self._process_regexp(self.CHIPWON_REGEX,
+                                                 self.summary_str,
+                                                 type_func=lambda x: int(x),
+                                                 **self.CHIPWON_DICT)
+            return self.chip_won
 
     def getBlidnsAnte(self):
         #returns dict {player: bet before preflop}
@@ -674,4 +688,25 @@ class HHParser:
                 self.blinds_ante = dic
 
         return self.blinds_ante
+
+    def getUncalled(self):
+        #returns dict {player: bet}
+        if self.uncalled:
+            return self.uncalled
+        else:
+            self.uncalled = self._process_regexp(self.UNCALLED_REGEX,
+                                                 self.hand_history,
+                                                 type_func=lambda x: int(x),
+                                                 **self.UNCALLED_DICT)
+            return self.uncalled
+
+    def _process_regexp(self, pattern, text, type_func=lambda x:x, *args, **kwargs):
+        # extracts named groups from result of re and converts it into dict or list
+        it = re.finditer(pattern, text)
+        res = ''
+        for x in args:
+            res = [type_func(i.groupdict().get(x)) for i in it]
+        for k, v in kwargs.items():
+            res = {i.groupdict().get(k): type_func(i.groupdict().get(v)) for i in it}
+        return res
 

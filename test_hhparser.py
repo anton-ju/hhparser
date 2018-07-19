@@ -527,31 +527,31 @@ class TestHHParser(unittest.TestCase):
         self.assertEqual(hh.getRiver(), "5c") 
         
 
-    def test_getWinnings(self):
-        hh = HHParser(th)
-        res = hh.getWinnings()
-        self.assertEqual(res, {"DiggErr555": 4.79})
-        
-        hh = HHParser(th2)
-        res = hh.getWinnings()
-        self.assertEqual(res, {})
-        
-        hh = HHParser(th4)
-        res = hh.getWinnings()
-        self.assertEqual(res, {}) 
+    # def test_getWinnings(self):
+    #     hh = HHParser(th)
+    #     res = hh.getWinnings()
+    #     self.assertEqual(res, {"DiggErr555": 4.79})
+    #
+    #     hh = HHParser(th2)
+    #     res = hh.getWinnings()
+    #     self.assertEqual(res, {})
+    #
+    #     hh = HHParser(th4)
+    #     res = hh.getWinnings()
+    #     self.assertEqual(res, {})
     
-    def test_getChipWinnings(self):
-        hh = HHParser(th)
-        res = hh.getChipWinnings()
-        self.assertEqual(res, {"DiggErr555": 1482, "zaxar393": 60})
-        
+    def test_getChipWon(self):
         hh = HHParser(th2)
-        res = hh.getChipWinnings()
-        self.assertEqual(res, {"yaniw777": 96})
-        
+        res = hh.getChipWon()
+        self.assertEqual(res, {'yaniw777': 96})
+
+        hh = HHParser(th)
+        res = hh.getChipWon()
+        self.assertEqual(res, {'DiggErr555': 1482, 'zaxar393': 60})
+
         hh = HHParser(th4)
-        res = hh.getChipWinnings()
-        self.assertEqual(res, {"DiggErr555": 550}) 
+        res = hh.getChipWon()
+        self.assertEqual(res, {'DiggErr555': 550})
         
     
     def test_tournamentPosition(self):
@@ -588,7 +588,31 @@ class TestHHParser(unittest.TestCase):
         hh = HHParser(th7)
         self.assertEqual(hh.getBlidnsAnte(), {'sabuco_2110': 165,
                                               'DiggErr555': 90})
-    
+    def test_getUncalled(self):
+        hh = HHParser(th)
+        self.assertEqual(hh.getUncalled(), {'bigboyby': 72,})
+        hh = HHParser(th2)
+        self.assertEqual(hh.getUncalled(), {'yaniw777': 40,})
+        hh = HHParser(th4)
+        self.assertEqual(hh.getUncalled(), {})
+        hh = HHParser(th6)
+        self.assertEqual(hh.getUncalled(), {'DiggErr555': 671,})
+
+    def test_getPrizeWon(self):
+        hh = HHParser(th7)
+        self.assertEqual(hh.getPrizeWon(), {'sabuco_2110': 36.03,
+                                            'DiggErr555': 36.03})
+
+    def test_getBountyWon(self):
+        hh = HHParser(th7)
+        self.assertEqual(hh.getBountyWon(), {'DiggErr555': 12.01})
+        hh = HHParser(th6)
+        self.assertEqual(hh.getBountyWon(), {})
+        hh = HHParser(th5)
+        self.assertEqual(hh.getBountyWon(), {'DiggErr555': 24.02})
+        hh = HHParser(th)
+        self.assertEqual(hh.getBountyWon(), {'DiggErr555': 4.79})
+
     def test_tablePosition(self):
         
 #        hh = HHParser(th)
