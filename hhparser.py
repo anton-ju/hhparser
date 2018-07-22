@@ -24,6 +24,8 @@ class HHParser:
     UNCALLED_DICT = {'player': 'bet'}
     CHIPWON_REGEX = "Seat \d: (?P<player>.*?) .*(?:and won|collected) \((?P<chipwon>.*)\)"
     CHIPWON_DICT = {'player': 'chipwon'}
+    FINISHES_REGEX = "(?P<player>.*?) (?:finished.*in (?P<place>\d+)(?:nd|rd|th)|wins the tournament)"
+    # {player: None} treats as 1st place
 
     def __init__(self, hh):
         #       todo проверка является ли строка hand history
@@ -81,7 +83,7 @@ class HHParser:
         self.uncalled = {}
         self.bounty_won = {}
         self.prize_won = {}
-        self.finished = {}
+        self.finishes = {}
         self.chip_won = {}
 
         #        regex_ps =  "\s?PokerStars\s+?Hand"
@@ -657,7 +659,6 @@ class HHParser:
             self.prize_won = self._process_regexp(regex, self.showdown_str, type_func=lambda x: float(x), **{'player':'prize'})
             return self.prize_won
 
-
     def getChipWon(self):
 
         if self.chip_won:
@@ -668,6 +669,16 @@ class HHParser:
                                                  type_func=lambda x: int(x),
                                                  **self.CHIPWON_DICT)
             return self.chip_won
+
+    def getFinishes(self):
+        if self.finishes:
+            return self.finishes
+        else:
+            self.finishes = self._process_regexp(self.FINISHES_REGEX,
+                                                   self.showdown_str,
+                                                   type_func=lambda x: int(x),
+                                                   **{'player':'place'})
+            return self.finishes
 
     def getBlidnsAnte(self):
         #returns dict {player: bet before preflop}
@@ -703,10 +714,23 @@ class HHParser:
     def _process_regexp(self, pattern, text, type_func=lambda x:x, *args, **kwargs):
         # extracts named groups from result of re and converts it into dict or list
         it = re.finditer(pattern, text)
-        res = ''
+
+        res = []
         for x in args:
-            res = [type_func(i.groupdict().get(x)) for i in it]
+            for i in it:
+                try:
+                    res.append(type_func(i.groupdict().get(x)))
+                    res = [type_func(i.groupdict().get(x)) for i in it]
+                except TypeError:
+                    res.append(i.groupdict().get(x))
+
+        res = {}
         for k, v in kwargs.items():
-            res = {i.groupdict().get(k): type_func(i.groupdict().get(v)) for i in it}
+            for i in it:
+                try:
+                    res[i.groupdict().get(k)] = type_func(i.groupdict().get(v))
+                except TypeError:
+                    res[i.groupdict().get(k)] = i.groupdict().get(v)
+
         return res
 

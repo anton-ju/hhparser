@@ -269,6 +269,46 @@ Seat 4: sabuco_2110 (big blind) showed [Th Qs] and lost with high card Queen
 Seat 6: DiggErr555 (button) (small blind) showed [Ad 4h] and won (1668) with high card Ace
 """
 
+th8 = """
+PokerStars Hand #186690380861: Tournament #2311064390, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level VIII (75/150) - 2018/05/21 17:40:26 MSK [2018/05/21 10:40:26 ET]
+Table '2311064390 1' 6-max Seat #5 is the button
+Seat 1: DiggErr555 (302 in chips)
+Seat 4: LikeTonyG (2496 in chips)
+Seat 5: SHAOLINWH (202 in chips)
+DiggErr555: posts the ante 15
+LikeTonyG: posts the ante 15
+SHAOLINWH: posts the ante 15
+DiggErr555: posts small blind 75
+LikeTonyG: posts big blind 150
+*** HOLE CARDS ***
+Dealt to DiggErr555 [9c 3d]
+SHAOLINWH: raises 37 to 187 and is all-in
+DiggErr555: calls 112
+LikeTonyG: raises 2294 to 2481 and is all-in
+DiggErr555: calls 100 and is all-in
+Uncalled bet (2194) returned to LikeTonyG
+*** FLOP *** [3s 5c 5h]
+*** TURN *** [3s 5c 5h] [Kh]
+*** RIVER *** [3s 5c 5h Kh] [7s]
+*** SHOW DOWN ***
+DiggErr555: shows [9c 3d] (two pair, Fives and Threes)
+LikeTonyG: shows [6c Kc] (two pair, Kings and Fives)
+LikeTonyG collected 200 from side pot
+SHAOLINWH: shows [9s Jd] (a pair of Fives)
+LikeTonyG collected 606 from main pot
+LikeTonyG wins the $4.79 bounty for eliminating DiggErr555
+LikeTonyG wins the $4.79 bounty for eliminating SHAOLINWH
+DiggErr555 finished the tournament in 2nd place and received $14.37.
+SHAOLINWH finished the tournament in 3rd place
+LikeTonyG wins the tournament and receives $14.37 - congratulations!
+*** SUMMARY ***
+Total pot 806 Main pot 606. Side pot 200. | Rake 0
+Board [3s 5c 5h Kh 7s]
+Seat 1: DiggErr555 (small blind) showed [9c 3d] and lost with two pair, Fives and Threes
+Seat 4: LikeTonyG (big blind) showed [6c Kc] and won (806) with two pair, Kings and Fives
+Seat 5: SHAOLINWH (button) showed [9s Jd] and lost with a pair of Fives
+"""
+
 
 class TestHHParser(unittest.TestCase):
     def test_getDateTimeET(self):
@@ -613,10 +653,18 @@ class TestHHParser(unittest.TestCase):
         hh = HHParser(th)
         self.assertEqual(hh.getBountyWon(), {'DiggErr555': 4.79})
 
+    def test_getFinishes(self):
+        hh = HHParser(th8)
+        self.assertEqual(hh.getFinishes(), {'DiggErr555': 2,
+                                            'SHAOLINWH': 3,
+                                         'LikeTonyG': None})
+        hh = HHParser(th7)
+        self.assertEqual(hh.getFinishes(), {'sabuco_2110': 2,
+                                            'DiggErr555': None})
+
     def test_tablePosition(self):
-        
-#        hh = HHParser(th)
-#        self.assertEqual(hh.tablePosition("DiggErr555"), 2)
+       # hh = HHParser(th)
+       # self.assertEqual(hh.tablePosition("DiggErr555"), 2)
         pass
     
     def test_isChipLeader(self):
