@@ -213,7 +213,7 @@ class HHParser:
 
         #
         eq = np.dot(self.PRIZE[:min_place], p1)
-        return eq
+        return {self.players[i]: round(eq[i],4) for i in range(SZ)}
 
     def tie_factor(self):
         eq = self.icm_eq()

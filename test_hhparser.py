@@ -662,6 +662,23 @@ class TestHHParser(unittest.TestCase):
         self.assertEqual(hh.getFinishes(), {'sabuco_2110': 2,
                                             'DiggErr555': None})
 
+    def test_icm_eq(self):
+        hh = HHParser(th8)
+        self.assertDictEqual(hh.icm_eq(), {'DiggErr555': 0.3032,
+                                            'SHAOLINWH': 0.2042,
+                                         'LikeTonyG': 0.4926})
+        hh = HHParser(th7)
+        self.assertDictEqual(hh.icm_eq(), {'sabuco_2110': 0.500,
+                                            'DiggErr555': 0.500})
+        hh = HHParser(th)
+        self.assertDictEqual(hh.icm_eq(), {'da_mauso': 0.2894,
+                                           'DiggErr555': 0.1633,
+                                           'baluoteli': 0.0076,
+                                           'bigboyby': 0.1944,
+                                           '2Ran128': 0.1727,
+                                            'zaxar393': 0.1727})
+
+
     def test_tablePosition(self):
        # hh = HHParser(th)
        # self.assertEqual(hh.tablePosition("DiggErr555"), 2)
