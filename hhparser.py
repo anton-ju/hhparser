@@ -730,6 +730,10 @@ class HHParser:
                                                  **self.UNCALLED_DICT)
             return self.uncalled
 
+    def positions(self):
+    #     returns dict{player: position}
+        return {self.preflop_order[::-1][i]: self.POSITIONS[i] for i in range(len(self.preflop_order))}
+
     def _process_regexp(self, pattern, text, type_func=lambda x:x, *args, **kwargs):
         # extracts named groups from result of re and converts it into dict or list
         it = re.finditer(pattern, text)
