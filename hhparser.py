@@ -213,7 +213,26 @@ class HHParser:
 
         #
         eq = np.dot(self.PRIZE[:min_place], p1)
-        return {self.players[i]: round(eq[i],4) for i in range(SZ)}
+        return eq
+
+    def icm_eq_dict(self, stacks=None):
+        if stacks is not None:
+            SZ = np.size(stacks)
+        else:
+            SZ = np.size(self.stacks)
+            stacks = np.copy(self.stacks)
+        ind1 = range(0, SZ)
+        min_place = min(SZ, np.size(self.PRIZE))
+        p1 = np.zeros(shape=(min_place, SZ))
+        ind2 = range(0, min_place)
+        # p1 строка - занятое место, столбец - номер игрока
+        for i in ind1:
+            for j in ind2:
+                p1[j, i] = self.p1p(i, j + 1)
+                # в функции место нумеруются с 1 до 3, в матрице с 0 до 2
+        #
+        eq = np.dot(self.PRIZE[:min_place], p1)
+        return {self.players[i]: round(eq[i], 4) for i in range(SZ)}
 
     def tie_factor(self):
         eq = self.icm_eq()

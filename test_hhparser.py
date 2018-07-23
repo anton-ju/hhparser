@@ -664,14 +664,14 @@ class TestHHParser(unittest.TestCase):
 
     def test_icm_eq(self):
         hh = HHParser(th8)
-        self.assertDictEqual(hh.icm_eq(), {'DiggErr555': 0.3032,
+        self.assertDictEqual(hh.icm_eq_dict(), {'DiggErr555': 0.3032,
                                             'SHAOLINWH': 0.2042,
                                          'LikeTonyG': 0.4926})
         hh = HHParser(th7)
-        self.assertDictEqual(hh.icm_eq(), {'sabuco_2110': 0.500,
+        self.assertDictEqual(hh.icm_eq_dict(), {'sabuco_2110': 0.500,
                                             'DiggErr555': 0.500})
         hh = HHParser(th)
-        self.assertDictEqual(hh.icm_eq(), {'da_mauso': 0.2894,
+        self.assertDictEqual(hh.icm_eq_dict(), {'da_mauso': 0.2894,
                                            'DiggErr555': 0.1633,
                                            'baluoteli': 0.0076,
                                            'bigboyby': 0.1944,
