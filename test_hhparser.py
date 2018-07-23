@@ -677,6 +677,22 @@ class TestHHParser(unittest.TestCase):
                                            'bigboyby': 0.1944,
                                            '2Ran128': 0.1727,
                                             'zaxar393': 0.1727})
+    def test_positions(self):
+        hh = HHParser(th8)
+        self.assertDictEqual(hh.positions(), {'DiggErr555': 'SB',
+                                            'SHAOLINWH': 'BU',
+                                         'LikeTonyG': 'BB'})
+        hh = HHParser(th7)
+        self.assertDictEqual(hh.positions(), {'sabuco_2110': 'BB',
+                                            'DiggErr555': 'SB'})
+
+        hh = HHParser(th)
+        self.assertDictEqual(hh.positions(), {'da_mauso': 'MP2',
+                                           'DiggErr555': 'BU',
+                                           'baluoteli': 'CO',
+                                           'bigboyby': 'SB',
+                                           '2Ran128': 'BB',
+                                            'zaxar393': 'MP1'})
 
 
     def test_tablePosition(self):
