@@ -1,0 +1,525 @@
+
+
+PokerStars Hand #188547269608: Tournament #2352937181, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:01:33 MSK [2018/07/09 18:01:33 ET]
+Table '2352937181 1' 6-max Seat #1 is the button
+Seat 1: capt'nclaudy (500 in chips)
+Seat 2: Azrael2016 (500 in chips)
+Seat 3: Kennypoker90 (500 in chips)
+Seat 4: DiggErr555 (500 in chips)
+Seat 5: UgotPHIL'd (500 in chips)
+Seat 6: NL_Classic (500 in chips)
+capt'nclaudy: posts the ante 2
+Azrael2016: posts the ante 2
+Kennypoker90: posts the ante 2
+DiggErr555: posts the ante 2
+UgotPHIL'd: posts the ante 2
+NL_Classic: posts the ante 2
+Azrael2016: posts small blind 10
+Kennypoker90: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Jd 6c]
+DiggErr555: folds
+UgotPHIL'd: folds
+NL_Classic: folds
+capt'nclaudy: folds
+Azrael2016: raises 20 to 40
+Kennypoker90: raises 40 to 80
+Azrael2016: calls 40
+*** FLOP *** [Th Jc Js]
+Azrael2016: bets 418 and is all-in
+Kennypoker90: folds
+Uncalled bet (418) returned to Azrael2016
+Azrael2016 collected 172 from pot
+Azrael2016: doesn't show hand
+*** SUMMARY ***
+Total pot 172 | Rake 0
+Board [Th Jc Js]
+Seat 1: capt'nclaudy (button) folded before Flop (didn't bet)
+Seat 2: Azrael2016 (small blind) collected (172)
+Seat 3: Kennypoker90 (big blind) folded on the Flop
+Seat 4: DiggErr555 folded before Flop (didn't bet)
+Seat 5: UgotPHIL'd folded before Flop (didn't bet)
+Seat 6: NL_Classic folded before Flop (didn't bet)
+
+PokerStars Hand #188547303669: Tournament #2352937181, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:02:26 MSK [2018/07/09 18:02:26 ET]
+Table '2352937181 1' 6-max Seat #2 is the button
+Seat 1: capt'nclaudy (498 in chips)
+Seat 2: Azrael2016 (590 in chips)
+Seat 3: Kennypoker90 (418 in chips)
+Seat 4: DiggErr555 (498 in chips)
+Seat 5: UgotPHIL'd (498 in chips)
+Seat 6: NL_Classic (498 in chips)
+capt'nclaudy: posts the ante 2
+Azrael2016: posts the ante 2
+Kennypoker90: posts the ante 2
+DiggErr555: posts the ante 2
+UgotPHIL'd: posts the ante 2
+NL_Classic: posts the ante 2
+Kennypoker90: posts small blind 10
+DiggErr555: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [5s Ac]
+UgotPHIL'd: folds
+NL_Classic: folds
+capt'nclaudy: folds
+Azrael2016: folds
+Kennypoker90: raises 26 to 46
+DiggErr555: folds
+Uncalled bet (26) returned to Kennypoker90
+Kennypoker90 collected 52 from pot
+Kennypoker90: doesn't show hand
+*** SUMMARY ***
+Total pot 52 | Rake 0
+Seat 1: capt'nclaudy folded before Flop (didn't bet)
+Seat 2: Azrael2016 (button) folded before Flop (didn't bet)
+Seat 3: Kennypoker90 (small blind) collected (52)
+Seat 4: DiggErr555 (big blind) folded before Flop
+Seat 5: UgotPHIL'd folded before Flop (didn't bet)
+Seat 6: NL_Classic folded before Flop (didn't bet)
+
+PokerStars Hand #188547333191: Tournament #2352937181, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:03:12 MSK [2018/07/09 18:03:12 ET]
+Table '2352937181 1' 6-max Seat #3 is the button
+Seat 1: capt'nclaudy (496 in chips)
+Seat 2: Azrael2016 (588 in chips)
+Seat 3: Kennypoker90 (448 in chips)
+Seat 4: DiggErr555 (476 in chips)
+Seat 5: UgotPHIL'd (496 in chips)
+Seat 6: NL_Classic (496 in chips)
+capt'nclaudy: posts the ante 2
+Azrael2016: posts the ante 2
+Kennypoker90: posts the ante 2
+DiggErr555: posts the ante 2
+UgotPHIL'd: posts the ante 2
+NL_Classic: posts the ante 2
+DiggErr555: posts small blind 10
+UgotPHIL'd: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [4c 5s]
+NL_Classic: folds
+capt'nclaudy: raises 20 to 40
+Azrael2016: folds
+Kennypoker90: raises 406 to 446 and is all-in
+DiggErr555: folds
+UgotPHIL'd: folds
+capt'nclaudy: folds
+Uncalled bet (406) returned to Kennypoker90
+Kennypoker90 collected 122 from pot
+Kennypoker90: doesn't show hand
+*** SUMMARY ***
+Total pot 122 | Rake 0
+Seat 1: capt'nclaudy folded before Flop
+Seat 2: Azrael2016 folded before Flop (didn't bet)
+Seat 3: Kennypoker90 (button) collected (122)
+Seat 4: DiggErr555 (small blind) folded before Flop
+Seat 5: UgotPHIL'd (big blind) folded before Flop
+Seat 6: NL_Classic folded before Flop (didn't bet)
+
+PokerStars Hand #188547349821: Tournament #2352937181, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:03:37 MSK [2018/07/09 18:03:37 ET]
+Table '2352937181 1' 6-max Seat #4 is the button
+Seat 1: capt'nclaudy (454 in chips)
+Seat 2: Azrael2016 (586 in chips)
+Seat 3: Kennypoker90 (528 in chips)
+Seat 4: DiggErr555 (464 in chips)
+Seat 5: UgotPHIL'd (474 in chips)
+Seat 6: NL_Classic (494 in chips)
+capt'nclaudy: posts the ante 3
+Azrael2016: posts the ante 3
+Kennypoker90: posts the ante 3
+DiggErr555: posts the ante 3
+UgotPHIL'd: posts the ante 3
+NL_Classic: posts the ante 3
+UgotPHIL'd: posts small blind 15
+NL_Classic: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Qd 4d]
+capt'nclaudy: folds
+Azrael2016: raises 30 to 60
+Kennypoker90: folds
+DiggErr555: folds
+UgotPHIL'd: raises 411 to 471 and is all-in
+NL_Classic: folds
+Azrael2016: calls 411
+*** FLOP *** [5c 7h Kd]
+*** TURN *** [5c 7h Kd] [7s]
+*** RIVER *** [5c 7h Kd 7s] [Th]
+*** SHOW DOWN ***
+UgotPHIL'd: shows [Ah As] (two pair, Aces and Sevens)
+Azrael2016: shows [8d 8c] (two pair, Eights and Sevens)
+UgotPHIL'd collected 990 from pot
+*** SUMMARY ***
+Total pot 990 | Rake 0
+Board [5c 7h Kd 7s Th]
+Seat 1: capt'nclaudy folded before Flop (didn't bet)
+Seat 2: Azrael2016 showed [8d 8c] and lost with two pair, Eights and Sevens
+Seat 3: Kennypoker90 folded before Flop (didn't bet)
+Seat 4: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 5: UgotPHIL'd (small blind) showed [Ah As] and won (990) with two pair, Aces and Sevens
+Seat 6: NL_Classic (big blind) folded before Flop
+
+PokerStars Hand #188547370775: Tournament #2352937181, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:04:09 MSK [2018/07/09 18:04:09 ET]
+Table '2352937181 1' 6-max Seat #5 is the button
+Seat 1: capt'nclaudy (451 in chips)
+Seat 2: Azrael2016 (112 in chips)
+Seat 3: Kennypoker90 (525 in chips)
+Seat 4: DiggErr555 (461 in chips)
+Seat 5: UgotPHIL'd (990 in chips)
+Seat 6: NL_Classic (461 in chips)
+capt'nclaudy: posts the ante 3
+Azrael2016: posts the ante 3
+Kennypoker90: posts the ante 3
+DiggErr555: posts the ante 3
+UgotPHIL'd: posts the ante 3
+NL_Classic: posts the ante 3
+NL_Classic: posts small blind 15
+capt'nclaudy: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Jh 3s]
+Azrael2016: folds
+Kennypoker90: folds
+DiggErr555: folds
+UgotPHIL'd: folds
+NL_Classic: folds
+Uncalled bet (15) returned to capt'nclaudy
+capt'nclaudy collected 48 from pot
+*** SUMMARY ***
+Total pot 48 | Rake 0
+Seat 1: capt'nclaudy (big blind) collected (48)
+Seat 2: Azrael2016 folded before Flop (didn't bet)
+Seat 3: Kennypoker90 folded before Flop (didn't bet)
+Seat 4: DiggErr555 folded before Flop (didn't bet)
+Seat 5: UgotPHIL'd (button) folded before Flop (didn't bet)
+Seat 6: NL_Classic (small blind) folded before Flop
+
+PokerStars Hand #188547378882: Tournament #2352937181, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:04:21 MSK [2018/07/09 18:04:21 ET]
+Table '2352937181 1' 6-max Seat #6 is the button
+Seat 1: capt'nclaudy (481 in chips)
+Seat 2: Azrael2016 (109 in chips)
+Seat 3: Kennypoker90 (522 in chips)
+Seat 4: DiggErr555 (458 in chips)
+Seat 5: UgotPHIL'd (987 in chips)
+Seat 6: NL_Classic (443 in chips)
+capt'nclaudy: posts the ante 3
+Azrael2016: posts the ante 3
+Kennypoker90: posts the ante 3
+DiggErr555: posts the ante 3
+UgotPHIL'd: posts the ante 3
+NL_Classic: posts the ante 3
+capt'nclaudy: posts small blind 15
+Azrael2016: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [7c 2d]
+Kennypoker90: folds
+DiggErr555: folds
+UgotPHIL'd: raises 954 to 984 and is all-in
+NL_Classic: calls 440 and is all-in
+capt'nclaudy: folds
+Azrael2016: calls 76 and is all-in
+Uncalled bet (544) returned to UgotPHIL'd
+*** FLOP *** [Ad Td 7h]
+*** TURN *** [Ad Td 7h] [Js]
+*** RIVER *** [Ad Td 7h Js] [8h]
+*** SHOW DOWN ***
+UgotPHIL'd: shows [9d Kc] (a straight, Seven to Jack)
+NL_Classic: shows [6d Ah] (a pair of Aces)
+UgotPHIL'd collected 668 from side pot
+Azrael2016: shows [Tc Th] (three of a kind, Tens)
+UgotPHIL'd collected 351 from main pot
+UgotPHIL'd wins the $12.01 bounty for eliminating Azrael2016
+UgotPHIL'd wins the $12.01 bounty for eliminating NL_Classic
+NL_Classic finished the tournament in 5th place
+Azrael2016 finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 1019 Main pot 351. Side pot 668. | Rake 0
+Board [Ad Td 7h Js 8h]
+Seat 1: capt'nclaudy (small blind) folded before Flop
+Seat 2: Azrael2016 (big blind) showed [Tc Th] and lost with three of a kind, Tens
+Seat 3: Kennypoker90 folded before Flop (didn't bet)
+Seat 4: DiggErr555 folded before Flop (didn't bet)
+Seat 5: UgotPHIL'd showed [9d Kc] and won (1019) with a straight, Seven to Jack
+Seat 6: NL_Classic (button) showed [6d Ah] and lost with a pair of Aces
+
+PokerStars Hand #188547395122: Tournament #2352937181, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:04:46 MSK [2018/07/09 18:04:46 ET]
+Table '2352937181 1' 6-max Seat #1 is the button
+Seat 1: capt'nclaudy (463 in chips)
+Seat 3: Kennypoker90 (519 in chips)
+Seat 4: DiggErr555 (455 in chips)
+Seat 5: UgotPHIL'd (1563 in chips)
+capt'nclaudy: posts the ante 3
+Kennypoker90: posts the ante 3
+DiggErr555: posts the ante 3
+UgotPHIL'd: posts the ante 3
+Kennypoker90: posts small blind 15
+DiggErr555: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [8s Qs]
+UgotPHIL'd: raises 33 to 63
+capt'nclaudy: calls 63
+Kennypoker90: raises 453 to 516 and is all-in
+DiggErr555: folds
+UgotPHIL'd: raises 453 to 969
+capt'nclaudy: folds
+Uncalled bet (453) returned to UgotPHIL'd
+*** FLOP *** [Tc Jc 4s]
+*** TURN *** [Tc Jc 4s] [2d]
+*** RIVER *** [Tc Jc 4s 2d] [As]
+*** SHOW DOWN ***
+Kennypoker90: shows [9c 9s] (a pair of Nines)
+UgotPHIL'd: shows [Ad Kd] (a pair of Aces)
+UgotPHIL'd collected 1137 from pot
+UgotPHIL'd wins the $12.01 bounty for eliminating Kennypoker90
+Kennypoker90 finished the tournament in 4th place
+*** SUMMARY ***
+Total pot 1137 | Rake 0
+Board [Tc Jc 4s 2d As]
+Seat 1: capt'nclaudy (button) folded before Flop
+Seat 3: Kennypoker90 (small blind) showed [9c 9s] and lost with a pair of Nines
+Seat 4: DiggErr555 (big blind) folded before Flop
+Seat 5: UgotPHIL'd showed [Ad Kd] and won (1137) with a pair of Aces
+
+PokerStars Hand #188547433088: Tournament #2352937181, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:05:44 MSK [2018/07/09 18:05:44 ET]
+Table '2352937181 1' 6-max Seat #4 is the button
+Seat 1: capt'nclaudy (397 in chips)
+Seat 4: DiggErr555 (422 in chips)
+Seat 5: UgotPHIL'd (2181 in chips)
+capt'nclaudy: posts the ante 4
+DiggErr555: posts the ante 4
+UgotPHIL'd: posts the ante 4
+UgotPHIL'd: posts small blind 20
+capt'nclaudy: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [3d Td]
+DiggErr555: folds
+UgotPHIL'd: raises 2137 to 2177 and is all-in
+capt'nclaudy: folds
+Uncalled bet (2137) returned to UgotPHIL'd
+UgotPHIL'd collected 92 from pot
+UgotPHIL'd: doesn't show hand
+*** SUMMARY ***
+Total pot 92 | Rake 0
+Seat 1: capt'nclaudy (big blind) folded before Flop
+Seat 4: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 5: UgotPHIL'd (small blind) collected (92)
+
+PokerStars Hand #188547440249: Tournament #2352937181, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:05:55 MSK [2018/07/09 18:05:55 ET]
+Table '2352937181 1' 6-max Seat #5 is the button
+Seat 1: capt'nclaudy (353 in chips)
+Seat 4: DiggErr555 (418 in chips)
+Seat 5: UgotPHIL'd (2229 in chips)
+capt'nclaudy: posts the ante 4
+DiggErr555: posts the ante 4
+UgotPHIL'd: posts the ante 4
+capt'nclaudy: posts small blind 20
+DiggErr555: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6h Ks]
+UgotPHIL'd: raises 2185 to 2225 and is all-in
+capt'nclaudy: folds
+DiggErr555: folds
+Uncalled bet (2185) returned to UgotPHIL'd
+UgotPHIL'd collected 112 from pot
+UgotPHIL'd: doesn't show hand
+*** SUMMARY ***
+Total pot 112 | Rake 0
+Seat 1: capt'nclaudy (small blind) folded before Flop
+Seat 4: DiggErr555 (big blind) folded before Flop
+Seat 5: UgotPHIL'd (button) collected (112)
+
+PokerStars Hand #188547447078: Tournament #2352937181, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:06:05 MSK [2018/07/09 18:06:05 ET]
+Table '2352937181 1' 6-max Seat #1 is the button
+Seat 1: capt'nclaudy (329 in chips)
+Seat 4: DiggErr555 (374 in chips)
+Seat 5: UgotPHIL'd (2297 in chips)
+capt'nclaudy: posts the ante 4
+DiggErr555: posts the ante 4
+UgotPHIL'd: posts the ante 4
+DiggErr555: posts small blind 20
+UgotPHIL'd: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6d 9c]
+capt'nclaudy: folds
+DiggErr555: folds
+Uncalled bet (20) returned to UgotPHIL'd
+UgotPHIL'd collected 52 from pot
+UgotPHIL'd: doesn't show hand
+*** SUMMARY ***
+Total pot 52 | Rake 0
+Seat 1: capt'nclaudy (button) folded before Flop (didn't bet)
+Seat 4: DiggErr555 (small blind) folded before Flop
+Seat 5: UgotPHIL'd (big blind) collected (52)
+
+PokerStars Hand #188547451685: Tournament #2352937181, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:06:12 MSK [2018/07/09 18:06:12 ET]
+Table '2352937181 1' 6-max Seat #4 is the button
+Seat 1: capt'nclaudy (325 in chips)
+Seat 4: DiggErr555 (350 in chips)
+Seat 5: UgotPHIL'd (2325 in chips)
+capt'nclaudy: posts the ante 4
+DiggErr555: posts the ante 4
+UgotPHIL'd: posts the ante 4
+UgotPHIL'd: posts small blind 20
+capt'nclaudy: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6h Js]
+DiggErr555: folds
+UgotPHIL'd: raises 2281 to 2321 and is all-in
+capt'nclaudy: folds
+Uncalled bet (2281) returned to UgotPHIL'd
+UgotPHIL'd collected 92 from pot
+UgotPHIL'd: doesn't show hand
+*** SUMMARY ***
+Total pot 92 | Rake 0
+Seat 1: capt'nclaudy (big blind) folded before Flop
+Seat 4: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 5: UgotPHIL'd (small blind) collected (92)
+
+PokerStars Hand #188547461615: Tournament #2352937181, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:06:27 MSK [2018/07/09 18:06:27 ET]
+Table '2352937181 1' 6-max Seat #5 is the button
+Seat 1: capt'nclaudy (281 in chips)
+Seat 4: DiggErr555 (346 in chips)
+Seat 5: UgotPHIL'd (2373 in chips)
+capt'nclaudy: posts the ante 6
+DiggErr555: posts the ante 6
+UgotPHIL'd: posts the ante 6
+capt'nclaudy: posts small blind 30
+DiggErr555: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [7c Tc]
+UgotPHIL'd: raises 2307 to 2367 and is all-in
+capt'nclaudy: folds
+DiggErr555: folds
+Uncalled bet (2307) returned to UgotPHIL'd
+UgotPHIL'd collected 168 from pot
+UgotPHIL'd: doesn't show hand
+*** SUMMARY ***
+Total pot 168 | Rake 0
+Seat 1: capt'nclaudy (small blind) folded before Flop
+Seat 4: DiggErr555 (big blind) folded before Flop
+Seat 5: UgotPHIL'd (button) collected (168)
+
+PokerStars Hand #188547471912: Tournament #2352937181, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:06:43 MSK [2018/07/09 18:06:43 ET]
+Table '2352937181 1' 6-max Seat #1 is the button
+Seat 1: capt'nclaudy (245 in chips)
+Seat 4: DiggErr555 (280 in chips)
+Seat 5: UgotPHIL'd (2475 in chips)
+capt'nclaudy: posts the ante 6
+DiggErr555: posts the ante 6
+UgotPHIL'd: posts the ante 6
+DiggErr555: posts small blind 30
+UgotPHIL'd: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Ad 6c]
+capt'nclaudy: raises 168 to 228
+DiggErr555: calls 198
+UgotPHIL'd: raises 168 to 396
+capt'nclaudy: calls 11 and is all-in
+DiggErr555: calls 46 and is all-in
+Uncalled bet (122) returned to UgotPHIL'd
+*** FLOP *** [7h 4s 6s]
+*** TURN *** [7h 4s 6s] [7c]
+*** RIVER *** [7h 4s 6s 7c] [4c]
+*** SHOW DOWN ***
+DiggErr555: shows [Ad 6c] (two pair, Sevens and Sixes)
+UgotPHIL'd: shows [9d Qd] (two pair, Sevens and Fours)
+DiggErr555 collected 70 from side pot
+capt'nclaudy: shows [Ac 5h] (two pair, Sevens and Fours)
+DiggErr555 collected 735 from main pot
+DiggErr555 wins the $12.01 bounty for eliminating capt'nclaudy
+capt'nclaudy finished the tournament in 3rd place
+*** SUMMARY ***
+Total pot 805 Main pot 735. Side pot 70. | Rake 0
+Board [7h 4s 6s 7c 4c]
+Seat 1: capt'nclaudy (button) showed [Ac 5h] and lost with two pair, Sevens and Fours
+Seat 4: DiggErr555 (small blind) showed [Ad 6c] and won (805) with two pair, Sevens and Sixes
+Seat 5: UgotPHIL'd (big blind) showed [9d Qd] and lost with two pair, Sevens and Fours
+
+PokerStars Hand #188547490809: Tournament #2352937181, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:07:12 MSK [2018/07/09 18:07:12 ET]
+Table '2352937181 1' 6-max Seat #5 is the button
+Seat 4: DiggErr555 (805 in chips)
+Seat 5: UgotPHIL'd (2195 in chips)
+DiggErr555: posts the ante 6
+UgotPHIL'd: posts the ante 6
+UgotPHIL'd: posts small blind 30
+DiggErr555: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [7d Ts]
+UgotPHIL'd: calls 30
+DiggErr555: checks
+*** FLOP *** [5c 3s 6s]
+DiggErr555: checks
+UgotPHIL'd: checks
+*** TURN *** [5c 3s 6s] [3h]
+DiggErr555: bets 69
+UgotPHIL'd: calls 69
+*** RIVER *** [5c 3s 6s 3h] [3d]
+DiggErr555: checks
+UgotPHIL'd: bets 180
+DiggErr555: folds
+Uncalled bet (180) returned to UgotPHIL'd
+UgotPHIL'd collected 270 from pot
+UgotPHIL'd: doesn't show hand
+*** SUMMARY ***
+Total pot 270 | Rake 0
+Board [5c 3s 6s 3h 3d]
+Seat 4: DiggErr555 (big blind) folded on the River
+Seat 5: UgotPHIL'd (button) (small blind) collected (270)
+
+PokerStars Hand #188547519842: Tournament #2352937181, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:07:57 MSK [2018/07/09 18:07:57 ET]
+Table '2352937181 1' 6-max Seat #4 is the button
+Seat 4: DiggErr555 (670 in chips)
+Seat 5: UgotPHIL'd (2330 in chips)
+DiggErr555: posts the ante 6
+UgotPHIL'd: posts the ante 6
+DiggErr555: posts small blind 30
+UgotPHIL'd: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [2h Jc]
+DiggErr555: calls 30
+UgotPHIL'd: checks
+*** FLOP *** [3h Qc 7c]
+UgotPHIL'd: checks
+DiggErr555: bets 60
+UgotPHIL'd: calls 60
+*** TURN *** [3h Qc 7c] [2c]
+UgotPHIL'd: checks
+DiggErr555: checks
+*** RIVER *** [3h Qc 7c 2c] [6c]
+UgotPHIL'd: checks
+DiggErr555: bets 202
+UgotPHIL'd: calls 202
+*** SHOW DOWN ***
+DiggErr555: shows [2h Jc] (a flush, Queen high)
+UgotPHIL'd: mucks hand
+DiggErr555 collected 656 from pot
+*** SUMMARY ***
+Total pot 656 | Rake 0
+Board [3h Qc 7c 2c 6c]
+Seat 4: DiggErr555 (button) (small blind) showed [2h Jc] and won (656) with a flush, Queen high
+Seat 5: UgotPHIL'd (big blind) mucked [3c 4s]
+
+PokerStars Hand #188547541745: Tournament #2352937181, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:08:31 MSK [2018/07/09 18:08:31 ET]
+Table '2352937181 1' 6-max Seat #5 is the button
+Seat 4: DiggErr555 (998 in chips)
+Seat 5: UgotPHIL'd (2002 in chips)
+DiggErr555: posts the ante 6
+UgotPHIL'd: posts the ante 6
+UgotPHIL'd: posts small blind 30
+DiggErr555: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Js Tc]
+UgotPHIL'd: raises 60 to 120
+DiggErr555: raises 872 to 992 and is all-in
+UgotPHIL'd: calls 872
+*** FLOP *** [Ah As 9d]
+*** TURN *** [Ah As 9d] [4s]
+*** RIVER *** [Ah As 9d 4s] [2h]
+*** SHOW DOWN ***
+DiggErr555: shows [Js Tc] (a pair of Aces)
+UgotPHIL'd: shows [6d 6c] (two pair, Aces and Sixes)
+UgotPHIL'd collected 1996 from pot
+UgotPHIL'd wins the $12.01 bounty for eliminating DiggErr555
+DiggErr555 finished the tournament in 2nd place and received $36.03.
+UgotPHIL'd wins the tournament and receives $36.03 - congratulations!
+*** SUMMARY ***
+Total pot 1996 | Rake 0
+Board [Ah As 9d 4s 2h]
+Seat 4: DiggErr555 (big blind) showed [Js Tc] and lost with a pair of Aces
+Seat 5: UgotPHIL'd (button) (small blind) showed [6d 6c] and won (1996) with two pair, Aces and Sixes

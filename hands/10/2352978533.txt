@@ -1,0 +1,174 @@
+
+
+PokerStars Hand #188549141931: Tournament #2352978533, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:52:53 MSK [2018/07/09 18:52:53 ET]
+Table '2352978533 1' 6-max Seat #1 is the button
+Seat 1: hanshabraken (500 in chips)
+Seat 2: Luchok123 (500 in chips)
+Seat 3: pokeracer87 (500 in chips)
+Seat 4: Spaiki 11 (500 in chips)
+Seat 5: DiggErr555 (500 in chips)
+Seat 6: HuGuinZ (500 in chips)
+hanshabraken: posts the ante 2
+Luchok123: posts the ante 2
+pokeracer87: posts the ante 2
+Spaiki 11: posts the ante 2
+DiggErr555: posts the ante 2
+HuGuinZ: posts the ante 2
+Luchok123: posts small blind 10
+pokeracer87: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Qs 8d]
+Spaiki 11: folds
+DiggErr555: folds
+HuGuinZ: folds
+hanshabraken: raises 478 to 498 and is all-in
+Luchok123: folds
+pokeracer87: folds
+Uncalled bet (478) returned to hanshabraken
+hanshabraken collected 62 from pot
+hanshabraken: doesn't show hand
+*** SUMMARY ***
+Total pot 62 | Rake 0
+Seat 1: hanshabraken (button) collected (62)
+Seat 2: Luchok123 (small blind) folded before Flop
+Seat 3: pokeracer87 (big blind) folded before Flop
+Seat 4: Spaiki 11 folded before Flop (didn't bet)
+Seat 5: DiggErr555 folded before Flop (didn't bet)
+Seat 6: HuGuinZ folded before Flop (didn't bet)
+
+PokerStars Hand #188549157753: Tournament #2352978533, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:53:21 MSK [2018/07/09 18:53:21 ET]
+Table '2352978533 1' 6-max Seat #2 is the button
+Seat 1: hanshabraken (540 in chips)
+Seat 2: Luchok123 (488 in chips)
+Seat 3: pokeracer87 (478 in chips)
+Seat 4: Spaiki 11 (498 in chips)
+Seat 5: DiggErr555 (498 in chips)
+Seat 6: HuGuinZ (498 in chips)
+hanshabraken: posts the ante 2
+Luchok123: posts the ante 2
+pokeracer87: posts the ante 2
+Spaiki 11: posts the ante 2
+DiggErr555: posts the ante 2
+HuGuinZ: posts the ante 2
+pokeracer87: posts small blind 10
+Spaiki 11: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Kh 8h]
+DiggErr555: folds
+HuGuinZ: raises 35 to 55
+hanshabraken: folds
+Luchok123: folds
+pokeracer87: calls 45
+Spaiki 11: folds
+*** FLOP *** [4c Ah 4s]
+pokeracer87: checks
+HuGuinZ: checks
+*** TURN *** [4c Ah 4s] [9h]
+pokeracer87: checks
+HuGuinZ: bets 71
+pokeracer87: raises 71 to 142
+HuGuinZ: calls 71
+*** RIVER *** [4c Ah 4s 9h] [Jh]
+pokeracer87: bets 279 and is all-in
+HuGuinZ: calls 279
+*** SHOW DOWN ***
+pokeracer87: shows [4h 5h] (a flush, Ace high)
+HuGuinZ: shows [Ad 5d] (two pair, Aces and Fours)
+pokeracer87 collected 984 from pot
+*** SUMMARY ***
+Total pot 984 | Rake 0
+Board [4c Ah 4s 9h Jh]
+Seat 1: hanshabraken folded before Flop (didn't bet)
+Seat 2: Luchok123 (button) folded before Flop (didn't bet)
+Seat 3: pokeracer87 (small blind) showed [4h 5h] and won (984) with a flush, Ace high
+Seat 4: Spaiki 11 (big blind) folded before Flop
+Seat 5: DiggErr555 folded before Flop (didn't bet)
+Seat 6: HuGuinZ showed [Ad 5d] and lost with two pair, Aces and Fours
+
+PokerStars Hand #188549186504: Tournament #2352978533, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:54:13 MSK [2018/07/09 18:54:13 ET]
+Table '2352978533 1' 6-max Seat #3 is the button
+Seat 1: hanshabraken (538 in chips)
+Seat 2: Luchok123 (486 in chips)
+Seat 3: pokeracer87 (984 in chips)
+Seat 4: Spaiki 11 (476 in chips)
+Seat 5: DiggErr555 (496 in chips)
+Seat 6: HuGuinZ (20 in chips)
+hanshabraken: posts the ante 2
+Luchok123: posts the ante 2
+pokeracer87: posts the ante 2
+Spaiki 11: posts the ante 2
+DiggErr555: posts the ante 2
+HuGuinZ: posts the ante 2
+Spaiki 11: posts small blind 10
+DiggErr555: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [7h 7s]
+HuGuinZ: calls 18 and is all-in
+hanshabraken: raises 516 to 536 and is all-in
+Luchok123: calls 484 and is all-in
+pokeracer87: folds
+Spaiki 11: folds
+DiggErr555: calls 474 and is all-in
+Uncalled bet (42) returned to hanshabraken
+*** FLOP *** [6c Kh Js]
+*** TURN *** [6c Kh Js] [Jc]
+*** RIVER *** [6c Kh Js Jc] [Qd]
+*** SHOW DOWN ***
+DiggErr555: shows [7h 7s] (two pair, Jacks and Sevens)
+hanshabraken: shows [Ah 4h] (a pair of Jacks)
+DiggErr555 collected 20 from side pot-2
+Luchok123: shows [As Qh] (two pair, Queens and Jacks)
+Luchok123 collected 1398 from side pot-1
+HuGuinZ: shows [7d 6d] (two pair, Jacks and Sixes)
+Luchok123 collected 94 from main pot
+Luchok123 wins the $4.79 bounty for eliminating HuGuinZ
+HuGuinZ finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 1512 Main pot 94. Side pot-1 1398. Side pot-2 20. | Rake 0
+Board [6c Kh Js Jc Qd]
+Seat 1: hanshabraken showed [Ah 4h] and lost with a pair of Jacks
+Seat 2: Luchok123 showed [As Qh] and won (1492) with two pair, Queens and Jacks
+Seat 3: pokeracer87 (button) folded before Flop (didn't bet)
+Seat 4: Spaiki 11 (small blind) folded before Flop
+Seat 5: DiggErr555 (big blind) showed [7h 7s] and won (20) with two pair, Jacks and Sevens
+Seat 6: HuGuinZ showed [7d 6d] and lost with two pair, Jacks and Sixes
+
+PokerStars Hand #188549207043: Tournament #2352978533, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:54:50 MSK [2018/07/09 18:54:50 ET]
+Table '2352978533 1' 6-max Seat #4 is the button
+Seat 1: hanshabraken (42 in chips)
+Seat 2: Luchok123 (1492 in chips)
+Seat 3: pokeracer87 (982 in chips)
+Seat 4: Spaiki 11 (464 in chips)
+Seat 5: DiggErr555 (20 in chips)
+hanshabraken: posts the ante 3
+Luchok123: posts the ante 3
+pokeracer87: posts the ante 3
+Spaiki 11: posts the ante 3
+DiggErr555: posts the ante 3
+DiggErr555: posts small blind 15
+hanshabraken: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6h Ah]
+Luchok123: raises 1459 to 1489 and is all-in
+pokeracer87: folds
+Spaiki 11: folds
+DiggErr555: calls 2 and is all-in
+hanshabraken: calls 9 and is all-in
+Uncalled bet (1450) returned to Luchok123
+*** FLOP *** [8s Kc 2c]
+*** TURN *** [8s Kc 2c] [5d]
+*** RIVER *** [8s Kc 2c 5d] [9d]
+*** SHOW DOWN ***
+hanshabraken: shows [4d Td] (high card King)
+Luchok123: shows [Qh 9c] (a pair of Nines)
+Luchok123 collected 44 from side pot
+DiggErr555: shows [6h Ah] (high card Ace)
+Luchok123 collected 66 from main pot
+*** SUMMARY ***
+Total pot 110 Main pot 66. Side pot 44. | Rake 0
+Board [8s Kc 2c 5d 9d]
+Seat 1: hanshabraken (big blind) showed [4d Td] and lost with high card King
+Seat 2: Luchok123 showed [Qh 9c] and won (110) with a pair of Nines
+Seat 3: pokeracer87 folded before Flop (didn't bet)
+Seat 4: Spaiki 11 (button) folded before Flop (didn't bet)
+Seat 5: DiggErr555 (small blind) showed [6h Ah] and lost with high card Ace

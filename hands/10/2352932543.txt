@@ -1,0 +1,820 @@
+
+
+PokerStars Hand #188547050076: Tournament #2352932543, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 0:55:00 MSK [2018/07/09 17:55:00 ET]
+Table '2352932543 1' 6-max Seat #1 is the button
+Seat 1: Karagunis (500 in chips)
+Seat 2: time part 90 (500 in chips) is sitting out
+Seat 3: neverlkdback (500 in chips)
+Seat 4: DiggErr555 (500 in chips)
+Seat 5: Claudios122 (500 in chips)
+Seat 6: Arthur"Celt" (500 in chips)
+Karagunis: posts the ante 2
+time part 90: posts the ante 2
+neverlkdback: posts the ante 2
+DiggErr555: posts the ante 2
+Claudios122: posts the ante 2
+Arthur"Celt": posts the ante 2
+time part 90: posts small blind 10
+neverlkdback: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [5d Jd]
+time part 90 has returned
+DiggErr555: folds
+Claudios122: folds
+Arthur"Celt": calls 20
+Karagunis: raises 478 to 498 and is all-in
+time part 90: folds
+neverlkdback: folds
+Arthur"Celt": calls 478 and is all-in
+*** FLOP *** [2d 9d 4s]
+*** TURN *** [2d 9d 4s] [4c]
+*** RIVER *** [2d 9d 4s 4c] [Kd]
+*** SHOW DOWN ***
+Arthur"Celt": shows [2s Ah] (two pair, Fours and Deuces)
+Karagunis: shows [As Ad] (two pair, Aces and Fours)
+Karagunis collected 1038 from pot
+Karagunis wins the $2.38 bounty for eliminating Arthur"Celt"
+Arthur"Celt" finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 1038 | Rake 0
+Board [2d 9d 4s 4c Kd]
+Seat 1: Karagunis (button) showed [As Ad] and won (1038) with two pair, Aces and Fours
+Seat 2: time part 90 (small blind) folded before Flop
+Seat 3: neverlkdback (big blind) folded before Flop
+Seat 4: DiggErr555 folded before Flop (didn't bet)
+Seat 5: Claudios122 folded before Flop (didn't bet)
+Seat 6: Arthur"Celt" showed [2s Ah] and lost with two pair, Fours and Deuces
+
+PokerStars Hand #188547070499: Tournament #2352932543, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 0:55:37 MSK [2018/07/09 17:55:37 ET]
+Table '2352932543 1' 6-max Seat #2 is the button
+Seat 1: Karagunis (1038 in chips)
+Seat 2: time part 90 (488 in chips)
+Seat 3: neverlkdback (478 in chips)
+Seat 4: DiggErr555 (498 in chips)
+Seat 5: Claudios122 (498 in chips)
+Karagunis: posts the ante 2
+time part 90: posts the ante 2
+neverlkdback: posts the ante 2
+DiggErr555: posts the ante 2
+Claudios122: posts the ante 2
+neverlkdback: posts small blind 10
+DiggErr555: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Js As]
+Claudios122: folds
+Karagunis: folds
+time part 90: raises 26 to 46
+neverlkdback: folds
+DiggErr555: raises 450 to 496 and is all-in
+time part 90: folds
+Uncalled bet (450) returned to DiggErr555
+DiggErr555 collected 112 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 112 | Rake 0
+Seat 1: Karagunis folded before Flop (didn't bet)
+Seat 2: time part 90 (button) folded before Flop
+Seat 3: neverlkdback (small blind) folded before Flop
+Seat 4: DiggErr555 (big blind) collected (112)
+Seat 5: Claudios122 folded before Flop (didn't bet)
+
+PokerStars Hand #188547083608: Tournament #2352932543, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 0:56:01 MSK [2018/07/09 17:56:01 ET]
+Table '2352932543 1' 6-max Seat #3 is the button
+Seat 1: Karagunis (1036 in chips)
+Seat 2: time part 90 (440 in chips)
+Seat 3: neverlkdback (466 in chips)
+Seat 4: DiggErr555 (562 in chips)
+Seat 5: Claudios122 (496 in chips)
+Karagunis: posts the ante 2
+time part 90: posts the ante 2
+neverlkdback: posts the ante 2
+DiggErr555: posts the ante 2
+Claudios122: posts the ante 2
+DiggErr555: posts small blind 10
+Claudios122: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6c 2c]
+Karagunis: folds
+time part 90: folds
+neverlkdback: folds
+DiggErr555: folds
+Uncalled bet (10) returned to Claudios122
+Claudios122 collected 30 from pot
+Claudios122: doesn't show hand
+*** SUMMARY ***
+Total pot 30 | Rake 0
+Seat 1: Karagunis folded before Flop (didn't bet)
+Seat 2: time part 90 folded before Flop (didn't bet)
+Seat 3: neverlkdback (button) folded before Flop (didn't bet)
+Seat 4: DiggErr555 (small blind) folded before Flop
+Seat 5: Claudios122 (big blind) collected (30)
+
+PokerStars Hand #188547097790: Tournament #2352932543, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 0:56:27 MSK [2018/07/09 17:56:27 ET]
+Table '2352932543 1' 6-max Seat #4 is the button
+Seat 1: Karagunis (1034 in chips)
+Seat 2: time part 90 (438 in chips)
+Seat 3: neverlkdback (464 in chips)
+Seat 4: DiggErr555 (550 in chips)
+Seat 5: Claudios122 (514 in chips)
+Karagunis: posts the ante 3
+time part 90: posts the ante 3
+neverlkdback: posts the ante 3
+DiggErr555: posts the ante 3
+Claudios122: posts the ante 3
+Claudios122: posts small blind 15
+Karagunis: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Qc 5d]
+time part 90: folds
+neverlkdback: folds
+DiggErr555: folds
+Claudios122: folds
+Uncalled bet (15) returned to Karagunis
+Karagunis collected 45 from pot
+Karagunis: doesn't show hand
+*** SUMMARY ***
+Total pot 45 | Rake 0
+Seat 1: Karagunis (big blind) collected (45)
+Seat 2: time part 90 folded before Flop (didn't bet)
+Seat 3: neverlkdback folded before Flop (didn't bet)
+Seat 4: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 5: Claudios122 (small blind) folded before Flop
+
+PokerStars Hand #188547106745: Tournament #2352932543, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 0:56:43 MSK [2018/07/09 17:56:43 ET]
+Table '2352932543 1' 6-max Seat #5 is the button
+Seat 1: Karagunis (1061 in chips)
+Seat 2: time part 90 (435 in chips)
+Seat 3: neverlkdback (461 in chips)
+Seat 4: DiggErr555 (547 in chips)
+Seat 5: Claudios122 (496 in chips)
+Karagunis: posts the ante 3
+time part 90: posts the ante 3
+neverlkdback: posts the ante 3
+DiggErr555: posts the ante 3
+Claudios122: posts the ante 3
+Karagunis: posts small blind 15
+time part 90: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Kc 9d]
+neverlkdback: folds
+DiggErr555: folds
+Claudios122: folds
+Karagunis: raises 1028 to 1058 and is all-in
+time part 90: calls 402 and is all-in
+Uncalled bet (626) returned to Karagunis
+*** FLOP *** [Kh Td 3s]
+*** TURN *** [Kh Td 3s] [4h]
+*** RIVER *** [Kh Td 3s 4h] [8d]
+*** SHOW DOWN ***
+Karagunis: shows [8c Qh] (a pair of Eights)
+time part 90: shows [Ah 5c] (high card Ace)
+Karagunis collected 879 from pot
+Karagunis wins the $2.38 bounty for eliminating time part 90
+time part 90 finished the tournament in 5th place
+*** SUMMARY ***
+Total pot 879 | Rake 0
+Board [Kh Td 3s 4h 8d]
+Seat 1: Karagunis (small blind) showed [8c Qh] and won (879) with a pair of Eights
+Seat 2: time part 90 (big blind) showed [Ah 5c] and lost with high card Ace
+Seat 3: neverlkdback folded before Flop (didn't bet)
+Seat 4: DiggErr555 folded before Flop (didn't bet)
+Seat 5: Claudios122 (button) folded before Flop (didn't bet)
+
+PokerStars Hand #188547128387: Tournament #2352932543, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 0:57:23 MSK [2018/07/09 17:57:23 ET]
+Table '2352932543 1' 6-max Seat #1 is the button
+Seat 1: Karagunis (1505 in chips)
+Seat 3: neverlkdback (458 in chips)
+Seat 4: DiggErr555 (544 in chips)
+Seat 5: Claudios122 (493 in chips)
+Karagunis: posts the ante 3
+neverlkdback: posts the ante 3
+DiggErr555: posts the ante 3
+Claudios122: posts the ante 3
+neverlkdback: posts small blind 15
+DiggErr555: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Ks 3s]
+Claudios122: folds
+Karagunis: raises 1472 to 1502 and is all-in
+neverlkdback: folds
+DiggErr555: folds
+Uncalled bet (1472) returned to Karagunis
+Karagunis collected 87 from pot
+Karagunis: doesn't show hand
+*** SUMMARY ***
+Total pot 87 | Rake 0
+Seat 1: Karagunis (button) collected (87)
+Seat 3: neverlkdback (small blind) folded before Flop
+Seat 4: DiggErr555 (big blind) folded before Flop
+Seat 5: Claudios122 folded before Flop (didn't bet)
+
+PokerStars Hand #188547133486: Tournament #2352932543, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 0:57:32 MSK [2018/07/09 17:57:32 ET]
+Table '2352932543 1' 6-max Seat #3 is the button
+Seat 1: Karagunis (1559 in chips)
+Seat 3: neverlkdback (440 in chips)
+Seat 4: DiggErr555 (511 in chips)
+Seat 5: Claudios122 (490 in chips)
+Karagunis: posts the ante 3
+neverlkdback: posts the ante 3
+DiggErr555: posts the ante 3
+Claudios122: posts the ante 3
+DiggErr555: posts small blind 15
+Claudios122: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [7c 5d]
+Karagunis: raises 1526 to 1556 and is all-in
+neverlkdback: calls 437 and is all-in
+DiggErr555: folds
+Claudios122: folds
+Uncalled bet (1119) returned to Karagunis
+*** FLOP *** [Qs 9h 8c]
+*** TURN *** [Qs 9h 8c] [6h]
+*** RIVER *** [Qs 9h 8c 6h] [Tc]
+*** SHOW DOWN ***
+Karagunis: shows [2d Ac] (high card Ace)
+neverlkdback: shows [Td Ts] (three of a kind, Tens)
+neverlkdback collected 931 from pot
+*** SUMMARY ***
+Total pot 931 | Rake 0
+Board [Qs 9h 8c 6h Tc]
+Seat 1: Karagunis showed [2d Ac] and lost with high card Ace
+Seat 3: neverlkdback (button) showed [Td Ts] and won (931) with three of a kind, Tens
+Seat 4: DiggErr555 (small blind) folded before Flop
+Seat 5: Claudios122 (big blind) folded before Flop
+
+PokerStars Hand #188547147018: Tournament #2352932543, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 0:57:57 MSK [2018/07/09 17:57:57 ET]
+Table '2352932543 1' 6-max Seat #4 is the button
+Seat 1: Karagunis (1119 in chips)
+Seat 3: neverlkdback (931 in chips)
+Seat 4: DiggErr555 (493 in chips)
+Seat 5: Claudios122 (457 in chips)
+Karagunis: posts the ante 4
+neverlkdback: posts the ante 4
+DiggErr555: posts the ante 4
+Claudios122: posts the ante 4
+Claudios122: posts small blind 20
+Karagunis: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6d 6h]
+neverlkdback: raises 45 to 85
+DiggErr555: raises 404 to 489 and is all-in
+Claudios122: folds
+Karagunis: folds
+neverlkdback: calls 404
+*** FLOP *** [6s Ad 9s]
+*** TURN *** [6s Ad 9s] [Qs]
+*** RIVER *** [6s Ad 9s Qs] [Tc]
+*** SHOW DOWN ***
+neverlkdback: shows [Jd Jh] (a pair of Jacks)
+DiggErr555: shows [6d 6h] (three of a kind, Sixes)
+DiggErr555 collected 1054 from pot
+*** SUMMARY ***
+Total pot 1054 | Rake 0
+Board [6s Ad 9s Qs Tc]
+Seat 1: Karagunis (big blind) folded before Flop
+Seat 3: neverlkdback showed [Jd Jh] and lost with a pair of Jacks
+Seat 4: DiggErr555 (button) showed [6d 6h] and won (1054) with three of a kind, Sixes
+Seat 5: Claudios122 (small blind) folded before Flop
+
+PokerStars Hand #188547160824: Tournament #2352932543, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 0:58:22 MSK [2018/07/09 17:58:22 ET]
+Table '2352932543 1' 6-max Seat #5 is the button
+Seat 1: Karagunis (1075 in chips)
+Seat 3: neverlkdback (438 in chips)
+Seat 4: DiggErr555 (1054 in chips)
+Seat 5: Claudios122 (433 in chips)
+Karagunis: posts the ante 4
+neverlkdback: posts the ante 4
+DiggErr555: posts the ante 4
+Claudios122: posts the ante 4
+Karagunis: posts small blind 20
+neverlkdback: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [7d 7c]
+DiggErr555: raises 40 to 80
+Claudios122: folds
+Karagunis: calls 60
+neverlkdback: calls 40
+*** FLOP *** [5c 2s Ts]
+Karagunis: checks
+neverlkdback: checks
+DiggErr555: bets 100
+Karagunis: folds
+neverlkdback: folds
+Uncalled bet (100) returned to DiggErr555
+DiggErr555 collected 256 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 256 | Rake 0
+Board [5c 2s Ts]
+Seat 1: Karagunis (small blind) folded on the Flop
+Seat 3: neverlkdback (big blind) folded on the Flop
+Seat 4: DiggErr555 collected (256)
+Seat 5: Claudios122 (button) folded before Flop (didn't bet)
+
+PokerStars Hand #188547186378: Tournament #2352932543, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 0:59:09 MSK [2018/07/09 17:59:09 ET]
+Table '2352932543 1' 6-max Seat #1 is the button
+Seat 1: Karagunis (991 in chips)
+Seat 3: neverlkdback (354 in chips)
+Seat 4: DiggErr555 (1226 in chips)
+Seat 5: Claudios122 (429 in chips)
+Karagunis: posts the ante 4
+neverlkdback: posts the ante 4
+DiggErr555: posts the ante 4
+Claudios122: posts the ante 4
+neverlkdback: posts small blind 20
+DiggErr555: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [3d 8d]
+Claudios122: folds
+Karagunis: folds
+neverlkdback: raises 310 to 350 and is all-in
+DiggErr555: folds
+Uncalled bet (310) returned to neverlkdback
+neverlkdback collected 96 from pot
+neverlkdback: doesn't show hand
+*** SUMMARY ***
+Total pot 96 | Rake 0
+Seat 1: Karagunis (button) folded before Flop (didn't bet)
+Seat 3: neverlkdback (small blind) collected (96)
+Seat 4: DiggErr555 (big blind) folded before Flop
+Seat 5: Claudios122 folded before Flop (didn't bet)
+
+PokerStars Hand #188547193138: Tournament #2352932543, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 0:59:22 MSK [2018/07/09 17:59:22 ET]
+Table '2352932543 1' 6-max Seat #3 is the button
+Seat 1: Karagunis (987 in chips)
+Seat 3: neverlkdback (406 in chips)
+Seat 4: DiggErr555 (1182 in chips)
+Seat 5: Claudios122 (425 in chips)
+Karagunis: posts the ante 4
+neverlkdback: posts the ante 4
+DiggErr555: posts the ante 4
+Claudios122: posts the ante 4
+DiggErr555: posts small blind 20
+Claudios122: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Jd 6h]
+Karagunis: raises 40 to 80
+neverlkdback: folds
+DiggErr555: folds
+Claudios122: folds
+Uncalled bet (40) returned to Karagunis
+Karagunis collected 116 from pot
+Karagunis: doesn't show hand
+*** SUMMARY ***
+Total pot 116 | Rake 0
+Seat 1: Karagunis collected (116)
+Seat 3: neverlkdback (button) folded before Flop (didn't bet)
+Seat 4: DiggErr555 (small blind) folded before Flop
+Seat 5: Claudios122 (big blind) folded before Flop
+
+PokerStars Hand #188547199938: Tournament #2352932543, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 0:59:34 MSK [2018/07/09 17:59:34 ET]
+Table '2352932543 1' 6-max Seat #4 is the button
+Seat 1: Karagunis (1059 in chips)
+Seat 3: neverlkdback (402 in chips)
+Seat 4: DiggErr555 (1158 in chips)
+Seat 5: Claudios122 (381 in chips)
+Karagunis: posts the ante 6
+neverlkdback: posts the ante 6
+DiggErr555: posts the ante 6
+Claudios122: posts the ante 6
+Claudios122: posts small blind 30
+Karagunis: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [3s Js]
+neverlkdback: folds
+DiggErr555: folds
+Claudios122: folds
+Uncalled bet (30) returned to Karagunis
+Karagunis collected 84 from pot
+Karagunis: doesn't show hand
+*** SUMMARY ***
+Total pot 84 | Rake 0
+Seat 1: Karagunis (big blind) collected (84)
+Seat 3: neverlkdback folded before Flop (didn't bet)
+Seat 4: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 5: Claudios122 (small blind) folded before Flop
+
+PokerStars Hand #188547206675: Tournament #2352932543, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 0:59:47 MSK [2018/07/09 17:59:47 ET]
+Table '2352932543 1' 6-max Seat #5 is the button
+Seat 1: Karagunis (1107 in chips)
+Seat 3: neverlkdback (396 in chips)
+Seat 4: DiggErr555 (1152 in chips)
+Seat 5: Claudios122 (345 in chips)
+Karagunis: posts the ante 6
+neverlkdback: posts the ante 6
+DiggErr555: posts the ante 6
+Claudios122: posts the ante 6
+Karagunis: posts small blind 30
+neverlkdback: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [2d 4h]
+DiggErr555: folds
+Claudios122: folds
+Karagunis: raises 1041 to 1101 and is all-in
+neverlkdback: folds
+Uncalled bet (1041) returned to Karagunis
+Karagunis collected 144 from pot
+Karagunis: doesn't show hand
+*** SUMMARY ***
+Total pot 144 | Rake 0
+Seat 1: Karagunis (small blind) collected (144)
+Seat 3: neverlkdback (big blind) folded before Flop
+Seat 4: DiggErr555 folded before Flop (didn't bet)
+Seat 5: Claudios122 (button) folded before Flop (didn't bet)
+
+PokerStars Hand #188547214788: Tournament #2352932543, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:00:02 MSK [2018/07/09 18:00:02 ET]
+Table '2352932543 1' 6-max Seat #1 is the button
+Seat 1: Karagunis (1185 in chips)
+Seat 3: neverlkdback (330 in chips)
+Seat 4: DiggErr555 (1146 in chips)
+Seat 5: Claudios122 (339 in chips)
+Karagunis: posts the ante 6
+neverlkdback: posts the ante 6
+DiggErr555: posts the ante 6
+Claudios122: posts the ante 6
+neverlkdback: posts small blind 30
+DiggErr555: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Jc Kh]
+Claudios122: raises 273 to 333 and is all-in
+Karagunis: folds
+neverlkdback: folds
+DiggErr555: calls 273
+*** FLOP *** [2d 9s 4s]
+*** TURN *** [2d 9s 4s] [2s]
+*** RIVER *** [2d 9s 4s 2s] [Kc]
+*** SHOW DOWN ***
+DiggErr555: shows [Jc Kh] (two pair, Kings and Deuces)
+Claudios122: shows [5d 4d] (two pair, Fours and Deuces)
+DiggErr555 collected 720 from pot
+DiggErr555 wins the $2.38 bounty for eliminating Claudios122
+Claudios122 finished the tournament in 4th place
+*** SUMMARY ***
+Total pot 720 | Rake 0
+Board [2d 9s 4s 2s Kc]
+Seat 1: Karagunis (button) folded before Flop (didn't bet)
+Seat 3: neverlkdback (small blind) folded before Flop
+Seat 4: DiggErr555 (big blind) showed [Jc Kh] and won (720) with two pair, Kings and Deuces
+Seat 5: Claudios122 showed [5d 4d] and lost with two pair, Fours and Deuces
+
+PokerStars Hand #188547230547: Tournament #2352932543, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:00:30 MSK [2018/07/09 18:00:30 ET]
+Table '2352932543 1' 6-max Seat #3 is the button
+Seat 1: Karagunis (1179 in chips)
+Seat 3: neverlkdback (294 in chips)
+Seat 4: DiggErr555 (1527 in chips)
+Karagunis: posts the ante 6
+neverlkdback: posts the ante 6
+DiggErr555: posts the ante 6
+DiggErr555: posts small blind 30
+Karagunis: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [5h Qc]
+neverlkdback: folds
+DiggErr555: raises 1461 to 1521 and is all-in
+Karagunis: folds
+Uncalled bet (1461) returned to DiggErr555
+DiggErr555 collected 138 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 138 | Rake 0
+Seat 1: Karagunis (big blind) folded before Flop
+Seat 3: neverlkdback (button) folded before Flop (didn't bet)
+Seat 4: DiggErr555 (small blind) collected (138)
+
+PokerStars Hand #188547241429: Tournament #2352932543, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:00:48 MSK [2018/07/09 18:00:48 ET]
+Table '2352932543 1' 6-max Seat #4 is the button
+Seat 1: Karagunis (1113 in chips)
+Seat 3: neverlkdback (288 in chips)
+Seat 4: DiggErr555 (1599 in chips)
+Karagunis: posts the ante 6
+neverlkdback: posts the ante 6
+DiggErr555: posts the ante 6
+Karagunis: posts small blind 30
+neverlkdback: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Qh 3d]
+DiggErr555: raises 1533 to 1593 and is all-in
+Karagunis: folds
+neverlkdback: calls 222 and is all-in
+Uncalled bet (1311) returned to DiggErr555
+*** FLOP *** [7h Kd 3h]
+*** TURN *** [7h Kd 3h] [2c]
+*** RIVER *** [7h Kd 3h 2c] [9h]
+*** SHOW DOWN ***
+neverlkdback: shows [Ts As] (high card Ace)
+DiggErr555: shows [Qh 3d] (a pair of Threes)
+DiggErr555 collected 612 from pot
+DiggErr555 wins the $2.38 bounty for eliminating neverlkdback
+neverlkdback finished the tournament in 3rd place
+*** SUMMARY ***
+Total pot 612 | Rake 0
+Board [7h Kd 3h 2c 9h]
+Seat 1: Karagunis (small blind) folded before Flop
+Seat 3: neverlkdback (big blind) showed [Ts As] and lost with high card Ace
+Seat 4: DiggErr555 (button) showed [Qh 3d] and won (612) with a pair of Threes
+
+PokerStars Hand #188547254449: Tournament #2352932543, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:01:09 MSK [2018/07/09 18:01:09 ET]
+Table '2352932543 1' 6-max Seat #1 is the button
+Seat 1: Karagunis (1077 in chips)
+Seat 4: DiggErr555 (1923 in chips)
+Karagunis: posts the ante 8
+DiggErr555: posts the ante 8
+Karagunis: posts small blind 40
+DiggErr555: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [3h Jd]
+Karagunis is disconnected
+Karagunis is connected
+Karagunis is disconnected
+Karagunis is connected
+Karagunis: raises 989 to 1069 and is all-in
+DiggErr555: folds
+Uncalled bet (989) returned to Karagunis
+Karagunis collected 176 from pot
+Karagunis: doesn't show hand
+*** SUMMARY ***
+Total pot 176 | Rake 0
+Seat 1: Karagunis (button) (small blind) collected (176)
+Seat 4: DiggErr555 (big blind) folded before Flop
+
+PokerStars Hand #188547268350: Tournament #2352932543, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:01:31 MSK [2018/07/09 18:01:31 ET]
+Table '2352932543 1' 6-max Seat #4 is the button
+Seat 1: Karagunis (1165 in chips)
+Seat 4: DiggErr555 (1835 in chips)
+Karagunis: posts the ante 8
+DiggErr555: posts the ante 8
+DiggErr555: posts small blind 40
+Karagunis: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [8d 3c]
+DiggErr555: folds
+Uncalled bet (40) returned to Karagunis
+Karagunis collected 96 from pot
+Karagunis: doesn't show hand
+*** SUMMARY ***
+Total pot 96 | Rake 0
+Seat 1: Karagunis (big blind) collected (96)
+Seat 4: DiggErr555 (button) (small blind) folded before Flop
+
+PokerStars Hand #188547270591: Tournament #2352932543, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:01:35 MSK [2018/07/09 18:01:35 ET]
+Table '2352932543 1' 6-max Seat #1 is the button
+Seat 1: Karagunis (1213 in chips)
+Seat 4: DiggErr555 (1787 in chips)
+Karagunis: posts the ante 8
+DiggErr555: posts the ante 8
+Karagunis: posts small blind 40
+DiggErr555: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6c Qc]
+Karagunis: folds
+Uncalled bet (40) returned to DiggErr555
+DiggErr555 collected 96 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 96 | Rake 0
+Seat 1: Karagunis (button) (small blind) folded before Flop
+Seat 4: DiggErr555 (big blind) collected (96)
+
+PokerStars Hand #188547274041: Tournament #2352932543, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:01:40 MSK [2018/07/09 18:01:40 ET]
+Table '2352932543 1' 6-max Seat #4 is the button
+Seat 1: Karagunis (1165 in chips)
+Seat 4: DiggErr555 (1835 in chips)
+Karagunis: posts the ante 8
+DiggErr555: posts the ante 8
+DiggErr555: posts small blind 40
+Karagunis: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Td 7s]
+DiggErr555: calls 40
+Karagunis: checks
+*** FLOP *** [5s Qs Kc]
+Karagunis: bets 117
+DiggErr555: folds
+Uncalled bet (117) returned to Karagunis
+Karagunis collected 176 from pot
+Karagunis: doesn't show hand
+*** SUMMARY ***
+Total pot 176 | Rake 0
+Board [5s Qs Kc]
+Seat 1: Karagunis (big blind) collected (176)
+Seat 4: DiggErr555 (button) (small blind) folded on the Flop
+
+PokerStars Hand #188547288121: Tournament #2352932543, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:02:03 MSK [2018/07/09 18:02:03 ET]
+Table '2352932543 1' 6-max Seat #1 is the button
+Seat 1: Karagunis (1253 in chips)
+Seat 4: DiggErr555 (1747 in chips)
+Karagunis: posts the ante 8
+DiggErr555: posts the ante 8
+Karagunis: posts small blind 40
+DiggErr555: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6h 8s]
+Karagunis: folds
+Uncalled bet (40) returned to DiggErr555
+DiggErr555 collected 96 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 96 | Rake 0
+Seat 1: Karagunis (button) (small blind) folded before Flop
+Seat 4: DiggErr555 (big blind) collected (96)
+
+PokerStars Hand #188547292923: Tournament #2352932543, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level VI (50/100) - 2018/07/10 1:02:10 MSK [2018/07/09 18:02:10 ET]
+Table '2352932543 1' 6-max Seat #4 is the button
+Seat 1: Karagunis (1205 in chips)
+Seat 4: DiggErr555 (1795 in chips)
+Karagunis: posts the ante 10
+DiggErr555: posts the ante 10
+DiggErr555: posts small blind 50
+Karagunis: posts big blind 100
+*** HOLE CARDS ***
+Dealt to DiggErr555 [4h Jc]
+DiggErr555: calls 50
+Karagunis: checks
+*** FLOP *** [9s Qd 3c]
+Karagunis: checks
+DiggErr555: bets 100
+Karagunis: folds
+Uncalled bet (100) returned to DiggErr555
+DiggErr555 collected 220 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 220 | Rake 0
+Board [9s Qd 3c]
+Seat 1: Karagunis (big blind) folded on the Flop
+Seat 4: DiggErr555 (button) (small blind) collected (220)
+
+PokerStars Hand #188547307369: Tournament #2352932543, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level VI (50/100) - 2018/07/10 1:02:32 MSK [2018/07/09 18:02:32 ET]
+Table '2352932543 1' 6-max Seat #1 is the button
+Seat 1: Karagunis (1095 in chips)
+Seat 4: DiggErr555 (1905 in chips)
+Karagunis: posts the ante 10
+DiggErr555: posts the ante 10
+Karagunis: posts small blind 50
+DiggErr555: posts big blind 100
+*** HOLE CARDS ***
+Dealt to DiggErr555 [9h 3h]
+Karagunis: calls 50
+DiggErr555: checks
+*** FLOP *** [Qd Jd 8h]
+DiggErr555: checks
+Karagunis: checks
+*** TURN *** [Qd Jd 8h] [Ks]
+DiggErr555: checks
+Karagunis: checks
+*** RIVER *** [Qd Jd 8h Ks] [4d]
+DiggErr555: checks
+Karagunis: checks
+*** SHOW DOWN ***
+DiggErr555: shows [9h 3h] (high card King)
+Karagunis: mucks hand
+DiggErr555 collected 220 from pot
+*** SUMMARY ***
+Total pot 220 | Rake 0
+Board [Qd Jd 8h Ks 4d]
+Seat 1: Karagunis (button) (small blind) mucked [6d 7s]
+Seat 4: DiggErr555 (big blind) showed [9h 3h] and won (220) with high card King
+
+PokerStars Hand #188547334555: Tournament #2352932543, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level VI (50/100) - 2018/07/10 1:03:14 MSK [2018/07/09 18:03:14 ET]
+Table '2352932543 1' 6-max Seat #4 is the button
+Seat 1: Karagunis (985 in chips)
+Seat 4: DiggErr555 (2015 in chips)
+Karagunis: posts the ante 10
+DiggErr555: posts the ante 10
+DiggErr555: posts small blind 50
+Karagunis: posts big blind 100
+*** HOLE CARDS ***
+Dealt to DiggErr555 [As Qs]
+DiggErr555: calls 50
+Karagunis: checks
+*** FLOP *** [3c Ks 7c]
+Karagunis: checks
+DiggErr555: bets 100
+Karagunis: folds
+Uncalled bet (100) returned to DiggErr555
+DiggErr555 collected 220 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 220 | Rake 0
+Board [3c Ks 7c]
+Seat 1: Karagunis (big blind) folded on the Flop
+Seat 4: DiggErr555 (button) (small blind) collected (220)
+
+PokerStars Hand #188547358223: Tournament #2352932543, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level VI (50/100) - 2018/07/10 1:03:50 MSK [2018/07/09 18:03:50 ET]
+Table '2352932543 1' 6-max Seat #1 is the button
+Seat 1: Karagunis (875 in chips)
+Seat 4: DiggErr555 (2125 in chips)
+Karagunis: posts the ante 10
+DiggErr555: posts the ante 10
+Karagunis: posts small blind 50
+DiggErr555: posts big blind 100
+*** HOLE CARDS ***
+Dealt to DiggErr555 [2h Kd]
+Karagunis: raises 765 to 865 and is all-in
+DiggErr555: folds
+Uncalled bet (765) returned to Karagunis
+Karagunis collected 220 from pot
+Karagunis: doesn't show hand
+*** SUMMARY ***
+Total pot 220 | Rake 0
+Seat 1: Karagunis (button) (small blind) collected (220)
+Seat 4: DiggErr555 (big blind) folded before Flop
+
+PokerStars Hand #188547363274: Tournament #2352932543, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level VI (50/100) - 2018/07/10 1:03:57 MSK [2018/07/09 18:03:57 ET]
+Table '2352932543 1' 6-max Seat #4 is the button
+Seat 1: Karagunis (985 in chips)
+Seat 4: DiggErr555 (2015 in chips)
+Karagunis: posts the ante 10
+DiggErr555: posts the ante 10
+DiggErr555: posts small blind 50
+Karagunis: posts big blind 100
+*** HOLE CARDS ***
+Dealt to DiggErr555 [8d 8h]
+DiggErr555: calls 50
+Karagunis: checks
+*** FLOP *** [Kh Jh 9d]
+Karagunis: bets 147
+DiggErr555: folds
+Uncalled bet (147) returned to Karagunis
+Karagunis collected 220 from pot
+Karagunis: doesn't show hand
+*** SUMMARY ***
+Total pot 220 | Rake 0
+Board [Kh Jh 9d]
+Seat 1: Karagunis (big blind) collected (220)
+Seat 4: DiggErr555 (button) (small blind) folded on the Flop
+
+PokerStars Hand #188547376226: Tournament #2352932543, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level VI (50/100) - 2018/07/10 1:04:17 MSK [2018/07/09 18:04:17 ET]
+Table '2352932543 1' 6-max Seat #1 is the button
+Seat 1: Karagunis (1095 in chips)
+Seat 4: DiggErr555 (1905 in chips)
+Karagunis: posts the ante 10
+DiggErr555: posts the ante 10
+Karagunis: posts small blind 50
+DiggErr555: posts big blind 100
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Ks 6c]
+Karagunis: raises 100 to 200
+DiggErr555: folds
+Uncalled bet (100) returned to Karagunis
+Karagunis collected 220 from pot
+Karagunis: doesn't show hand
+*** SUMMARY ***
+Total pot 220 | Rake 0
+Seat 1: Karagunis (button) (small blind) collected (220)
+Seat 4: DiggErr555 (big blind) folded before Flop
+
+PokerStars Hand #188547382767: Tournament #2352932543, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level VII (60/120) - 2018/07/10 1:04:27 MSK [2018/07/09 18:04:27 ET]
+Table '2352932543 1' 6-max Seat #4 is the button
+Seat 1: Karagunis (1205 in chips)
+Seat 4: DiggErr555 (1795 in chips)
+Karagunis: posts the ante 12
+DiggErr555: posts the ante 12
+DiggErr555: posts small blind 60
+Karagunis: posts big blind 120
+*** HOLE CARDS ***
+Dealt to DiggErr555 [2h 5h]
+DiggErr555: calls 60
+Karagunis: checks
+*** FLOP *** [4c Kh 4s]
+Karagunis: bets 176
+DiggErr555: calls 176
+*** TURN *** [4c Kh 4s] [3d]
+Karagunis: bets 897 and is all-in
+DiggErr555: folds
+Uncalled bet (897) returned to Karagunis
+Karagunis collected 616 from pot
+Karagunis: doesn't show hand
+*** SUMMARY ***
+Total pot 616 | Rake 0
+Board [4c Kh 4s 3d]
+Seat 1: Karagunis (big blind) collected (616)
+Seat 4: DiggErr555 (button) (small blind) folded on the Turn
+
+PokerStars Hand #188547405810: Tournament #2352932543, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level VII (60/120) - 2018/07/10 1:05:02 MSK [2018/07/09 18:05:02 ET]
+Table '2352932543 1' 6-max Seat #1 is the button
+Seat 1: Karagunis (1513 in chips)
+Seat 4: DiggErr555 (1487 in chips)
+Karagunis: posts the ante 12
+DiggErr555: posts the ante 12
+Karagunis: posts small blind 60
+DiggErr555: posts big blind 120
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Tc 8c]
+Karagunis: raises 120 to 240
+DiggErr555: raises 1235 to 1475 and is all-in
+Karagunis: calls 1235
+*** FLOP *** [8h 3d Th]
+*** TURN *** [8h 3d Th] [3c]
+*** RIVER *** [8h 3d Th 3c] [Js]
+*** SHOW DOWN ***
+DiggErr555: shows [Tc 8c] (two pair, Tens and Eights)
+Karagunis: shows [Jd 9s] (two pair, Jacks and Threes)
+Karagunis collected 2974 from pot
+Karagunis wins the $2.38 bounty for eliminating DiggErr555
+DiggErr555 finished the tournament in 2nd place and received $7.14.
+Karagunis wins the tournament and receives $7.14 - congratulations!
+*** SUMMARY ***
+Total pot 2974 | Rake 0
+Board [8h 3d Th 3c Js]
+Seat 1: Karagunis (button) (small blind) showed [Jd 9s] and won (2974) with two pair, Jacks and Threes
+Seat 4: DiggErr555 (big blind) showed [Tc 8c] and lost with two pair, Tens and Eights

@@ -1,0 +1,454 @@
+
+
+PokerStars Hand #188547702100: Tournament #2352946229, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:12:41 MSK [2018/07/09 18:12:41 ET]
+Table '2352946229 1' 6-max Seat #1 is the button
+Seat 1: UgotPHIL'd (500 in chips)
+Seat 2: gabibá (500 in chips)
+Seat 3: annap1995 (500 in chips)
+Seat 4: charlieb1994 (500 in chips)
+Seat 5: sabuco_2110 (500 in chips)
+Seat 6: DiggErr555 (500 in chips)
+UgotPHIL'd: posts the ante 2
+gabibá: posts the ante 2
+annap1995: posts the ante 2
+charlieb1994: posts the ante 2
+sabuco_2110: posts the ante 2
+DiggErr555: posts the ante 2
+gabibá: posts small blind 10
+annap1995: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [4d 2d]
+charlieb1994: folds
+sabuco_2110: folds
+DiggErr555: folds
+UgotPHIL'd: raises 20 to 40
+gabibá: calls 30
+annap1995: folds
+*** FLOP *** [Kd Jd 4c]
+gabibá: checks
+UgotPHIL'd: checks
+*** TURN *** [Kd Jd 4c] [Ts]
+gabibá: bets 60
+UgotPHIL'd: calls 60
+*** RIVER *** [Kd Jd 4c Ts] [3d]
+gabibá: bets 398 and is all-in
+UgotPHIL'd: folds
+Uncalled bet (398) returned to gabibá
+gabibá collected 232 from pot
+gabibá: doesn't show hand
+*** SUMMARY ***
+Total pot 232 | Rake 0
+Board [Kd Jd 4c Ts 3d]
+Seat 1: UgotPHIL'd (button) folded on the River
+Seat 2: gabibá (small blind) collected (232)
+Seat 3: annap1995 (big blind) folded before Flop
+Seat 4: charlieb1994 folded before Flop (didn't bet)
+Seat 5: sabuco_2110 folded before Flop (didn't bet)
+Seat 6: DiggErr555 folded before Flop (didn't bet)
+
+PokerStars Hand #188547744983: Tournament #2352946229, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:13:48 MSK [2018/07/09 18:13:48 ET]
+Table '2352946229 1' 6-max Seat #2 is the button
+Seat 1: UgotPHIL'd (398 in chips)
+Seat 2: gabibá (630 in chips)
+Seat 3: annap1995 (478 in chips)
+Seat 4: charlieb1994 (498 in chips)
+Seat 5: sabuco_2110 (498 in chips)
+Seat 6: DiggErr555 (498 in chips)
+UgotPHIL'd: posts the ante 2
+gabibá: posts the ante 2
+annap1995: posts the ante 2
+charlieb1994: posts the ante 2
+sabuco_2110: posts the ante 2
+DiggErr555: posts the ante 2
+annap1995: posts small blind 10
+charlieb1994: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [9c 8h]
+sabuco_2110: folds
+DiggErr555: folds
+UgotPHIL'd: folds
+gabibá: raises 20 to 40
+annap1995: calls 30
+charlieb1994: calls 20
+*** FLOP *** [7h Jd 4h]
+annap1995: bets 20
+charlieb1994: calls 20
+gabibá: folds
+*** TURN *** [7h Jd 4h] [Ad]
+annap1995: bets 20
+charlieb1994: calls 20
+*** RIVER *** [7h Jd 4h Ad] [9s]
+annap1995: bets 220
+charlieb1994: folds
+Uncalled bet (220) returned to annap1995
+annap1995 collected 212 from pot
+annap1995: doesn't show hand
+*** SUMMARY ***
+Total pot 212 | Rake 0
+Board [7h Jd 4h Ad 9s]
+Seat 1: UgotPHIL'd folded before Flop (didn't bet)
+Seat 2: gabibá (button) folded on the Flop
+Seat 3: annap1995 (small blind) collected (212)
+Seat 4: charlieb1994 (big blind) folded on the River
+Seat 5: sabuco_2110 folded before Flop (didn't bet)
+Seat 6: DiggErr555 folded before Flop (didn't bet)
+
+PokerStars Hand #188547769797: Tournament #2352946229, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:14:28 MSK [2018/07/09 18:14:28 ET]
+Table '2352946229 1' 6-max Seat #3 is the button
+Seat 1: UgotPHIL'd (396 in chips)
+Seat 2: gabibá (588 in chips)
+Seat 3: annap1995 (608 in chips)
+Seat 4: charlieb1994 (416 in chips)
+Seat 5: sabuco_2110 (496 in chips)
+Seat 6: DiggErr555 (496 in chips)
+UgotPHIL'd: posts the ante 2
+gabibá: posts the ante 2
+annap1995: posts the ante 2
+charlieb1994: posts the ante 2
+sabuco_2110: posts the ante 2
+DiggErr555: posts the ante 2
+charlieb1994: posts small blind 10
+sabuco_2110: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [7d 5d]
+DiggErr555: folds
+UgotPHIL'd: folds
+gabibá: folds
+annap1995: raises 20 to 40
+charlieb1994: folds
+sabuco_2110: raises 454 to 494 and is all-in
+annap1995: folds
+Uncalled bet (454) returned to sabuco_2110
+sabuco_2110 collected 102 from pot
+*** SUMMARY ***
+Total pot 102 | Rake 0
+Seat 1: UgotPHIL'd folded before Flop (didn't bet)
+Seat 2: gabibá folded before Flop (didn't bet)
+Seat 3: annap1995 (button) folded before Flop
+Seat 4: charlieb1994 (small blind) folded before Flop
+Seat 5: sabuco_2110 (big blind) collected (102)
+Seat 6: DiggErr555 folded before Flop (didn't bet)
+
+PokerStars Hand #188547781999: Tournament #2352946229, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:14:47 MSK [2018/07/09 18:14:47 ET]
+Table '2352946229 1' 6-max Seat #4 is the button
+Seat 1: UgotPHIL'd (394 in chips)
+Seat 2: gabibá (586 in chips)
+Seat 3: annap1995 (566 in chips)
+Seat 4: charlieb1994 (404 in chips)
+Seat 5: sabuco_2110 (556 in chips)
+Seat 6: DiggErr555 (494 in chips)
+UgotPHIL'd: posts the ante 3
+gabibá: posts the ante 3
+annap1995: posts the ante 3
+charlieb1994: posts the ante 3
+sabuco_2110: posts the ante 3
+DiggErr555: posts the ante 3
+sabuco_2110: posts small blind 15
+DiggErr555: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [8h Qd]
+UgotPHIL'd: folds
+gabibá: folds
+annap1995: folds
+charlieb1994: raises 63 to 93
+sabuco_2110: folds
+DiggErr555: folds
+Uncalled bet (63) returned to charlieb1994
+charlieb1994 collected 93 from pot
+charlieb1994: doesn't show hand
+*** SUMMARY ***
+Total pot 93 | Rake 0
+Seat 1: UgotPHIL'd folded before Flop (didn't bet)
+Seat 2: gabibá folded before Flop (didn't bet)
+Seat 3: annap1995 folded before Flop (didn't bet)
+Seat 4: charlieb1994 (button) collected (93)
+Seat 5: sabuco_2110 (small blind) folded before Flop
+Seat 6: DiggErr555 (big blind) folded before Flop
+
+PokerStars Hand #188547793541: Tournament #2352946229, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:15:06 MSK [2018/07/09 18:15:06 ET]
+Table '2352946229 1' 6-max Seat #5 is the button
+Seat 1: UgotPHIL'd (391 in chips)
+Seat 2: gabibá (583 in chips)
+Seat 3: annap1995 (563 in chips)
+Seat 4: charlieb1994 (464 in chips)
+Seat 5: sabuco_2110 (538 in chips)
+Seat 6: DiggErr555 (461 in chips)
+UgotPHIL'd: posts the ante 3
+gabibá: posts the ante 3
+annap1995: posts the ante 3
+charlieb1994: posts the ante 3
+sabuco_2110: posts the ante 3
+DiggErr555: posts the ante 3
+DiggErr555: posts small blind 15
+UgotPHIL'd: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6s 5s]
+gabibá: folds
+annap1995: calls 30
+charlieb1994: folds
+sabuco_2110: folds
+DiggErr555: folds
+UgotPHIL'd: checks
+*** FLOP *** [Js 8s Ts]
+UgotPHIL'd: checks
+annap1995: bets 30
+UgotPHIL'd: folds
+Uncalled bet (30) returned to annap1995
+annap1995 collected 93 from pot
+annap1995: doesn't show hand
+*** SUMMARY ***
+Total pot 93 | Rake 0
+Board [Js 8s Ts]
+Seat 1: UgotPHIL'd (big blind) folded on the Flop
+Seat 2: gabibá folded before Flop (didn't bet)
+Seat 3: annap1995 collected (93)
+Seat 4: charlieb1994 folded before Flop (didn't bet)
+Seat 5: sabuco_2110 (button) folded before Flop (didn't bet)
+Seat 6: DiggErr555 (small blind) folded before Flop
+
+PokerStars Hand #188547812818: Tournament #2352946229, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:15:37 MSK [2018/07/09 18:15:37 ET]
+Table '2352946229 1' 6-max Seat #6 is the button
+Seat 1: UgotPHIL'd (358 in chips)
+Seat 2: gabibá (580 in chips)
+Seat 3: annap1995 (623 in chips)
+Seat 4: charlieb1994 (461 in chips)
+Seat 5: sabuco_2110 (535 in chips)
+Seat 6: DiggErr555 (443 in chips)
+UgotPHIL'd: posts the ante 3
+gabibá: posts the ante 3
+annap1995: posts the ante 3
+charlieb1994: posts the ante 3
+sabuco_2110: posts the ante 3
+DiggErr555: posts the ante 3
+UgotPHIL'd: posts small blind 15
+gabibá: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [4d 2d]
+annap1995: folds
+charlieb1994: folds
+sabuco_2110: raises 502 to 532 and is all-in
+DiggErr555: folds
+UgotPHIL'd: folds
+gabibá: folds
+Uncalled bet (502) returned to sabuco_2110
+sabuco_2110 collected 93 from pot
+*** SUMMARY ***
+Total pot 93 | Rake 0
+Seat 1: UgotPHIL'd (small blind) folded before Flop
+Seat 2: gabibá (big blind) folded before Flop
+Seat 3: annap1995 folded before Flop (didn't bet)
+Seat 4: charlieb1994 folded before Flop (didn't bet)
+Seat 5: sabuco_2110 collected (93)
+Seat 6: DiggErr555 (button) folded before Flop (didn't bet)
+
+PokerStars Hand #188547826880: Tournament #2352946229, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:16:00 MSK [2018/07/09 18:16:00 ET]
+Table '2352946229 1' 6-max Seat #1 is the button
+Seat 1: UgotPHIL'd (340 in chips)
+Seat 2: gabibá (547 in chips)
+Seat 3: annap1995 (620 in chips)
+Seat 4: charlieb1994 (458 in chips)
+Seat 5: sabuco_2110 (595 in chips)
+Seat 6: DiggErr555 (440 in chips)
+UgotPHIL'd: posts the ante 3
+gabibá: posts the ante 3
+annap1995: posts the ante 3
+charlieb1994: posts the ante 3
+sabuco_2110: posts the ante 3
+DiggErr555: posts the ante 3
+gabibá: posts small blind 15
+annap1995: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [7d Ks]
+charlieb1994: folds
+sabuco_2110: calls 30
+DiggErr555: folds
+UgotPHIL'd: folds
+gabibá: calls 15
+annap1995: checks
+*** FLOP *** [8c 4h 8h]
+gabibá: bets 30
+annap1995: folds
+sabuco_2110: folds
+Uncalled bet (30) returned to gabibá
+gabibá collected 108 from pot
+gabibá: doesn't show hand
+*** SUMMARY ***
+Total pot 108 | Rake 0
+Board [8c 4h 8h]
+Seat 1: UgotPHIL'd (button) folded before Flop (didn't bet)
+Seat 2: gabibá (small blind) collected (108)
+Seat 3: annap1995 (big blind) folded on the Flop
+Seat 4: charlieb1994 folded before Flop (didn't bet)
+Seat 5: sabuco_2110 folded on the Flop
+Seat 6: DiggErr555 folded before Flop (didn't bet)
+
+PokerStars Hand #188547852883: Tournament #2352946229, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:16:41 MSK [2018/07/09 18:16:41 ET]
+Table '2352946229 1' 6-max Seat #2 is the button
+Seat 1: UgotPHIL'd (337 in chips)
+Seat 2: gabibá (622 in chips)
+Seat 3: annap1995 (587 in chips)
+Seat 4: charlieb1994 (455 in chips)
+Seat 5: sabuco_2110 (562 in chips)
+Seat 6: DiggErr555 (437 in chips)
+UgotPHIL'd: posts the ante 4
+gabibá: posts the ante 4
+annap1995: posts the ante 4
+charlieb1994: posts the ante 4
+sabuco_2110: posts the ante 4
+DiggErr555: posts the ante 4
+annap1995: posts small blind 20
+charlieb1994: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [9s 7d]
+sabuco_2110: folds
+DiggErr555: folds
+UgotPHIL'd: folds
+gabibá: raises 578 to 618 and is all-in
+annap1995: calls 563 and is all-in
+charlieb1994: folds
+Uncalled bet (35) returned to gabibá
+*** FLOP *** [8h Th Qh]
+*** TURN *** [8h Th Qh] [Tc]
+*** RIVER *** [8h Th Qh Tc] [9c]
+*** SHOW DOWN ***
+annap1995: shows [Jd Jc] (a straight, Eight to Queen)
+gabibá: shows [Ac Qc] (two pair, Queens and Tens)
+annap1995 collected 1230 from pot
+*** SUMMARY ***
+Total pot 1230 | Rake 0
+Board [8h Th Qh Tc 9c]
+Seat 1: UgotPHIL'd folded before Flop (didn't bet)
+Seat 2: gabibá (button) showed [Ac Qc] and lost with two pair, Queens and Tens
+Seat 3: annap1995 (small blind) showed [Jd Jc] and won (1230) with a straight, Eight to Queen
+Seat 4: charlieb1994 (big blind) folded before Flop
+Seat 5: sabuco_2110 folded before Flop (didn't bet)
+Seat 6: DiggErr555 folded before Flop (didn't bet)
+
+PokerStars Hand #188547878116: Tournament #2352946229, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:17:22 MSK [2018/07/09 18:17:22 ET]
+Table '2352946229 1' 6-max Seat #3 is the button
+Seat 1: UgotPHIL'd (333 in chips)
+Seat 2: gabibá (35 in chips)
+Seat 3: annap1995 (1230 in chips)
+Seat 4: charlieb1994 (411 in chips)
+Seat 5: sabuco_2110 (558 in chips)
+Seat 6: DiggErr555 (433 in chips)
+UgotPHIL'd: posts the ante 4
+gabibá: posts the ante 4
+annap1995: posts the ante 4
+charlieb1994: posts the ante 4
+sabuco_2110: posts the ante 4
+DiggErr555: posts the ante 4
+charlieb1994: posts small blind 20
+sabuco_2110: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [2h Kc]
+DiggErr555: folds
+UgotPHIL'd: folds
+gabibá: calls 31 and is all-in
+annap1995: calls 40
+charlieb1994: folds
+sabuco_2110: checks
+*** FLOP *** [Kh Jh Qs]
+sabuco_2110: checks
+annap1995: bets 40
+sabuco_2110: folds
+Uncalled bet (40) returned to annap1995
+*** TURN *** [Kh Jh Qs] [5d]
+*** RIVER *** [Kh Jh Qs 5d] [9s]
+*** SHOW DOWN ***
+annap1995: shows [Tc Jc] (a straight, Nine to King)
+annap1995 collected 18 from side pot
+gabibá: shows [8c Ac] (high card Ace)
+annap1995 collected 137 from main pot
+annap1995 wins the $12.01 bounty for eliminating gabibá
+gabibá finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 155 Main pot 137. Side pot 18. | Rake 0
+Board [Kh Jh Qs 5d 9s]
+Seat 1: UgotPHIL'd folded before Flop (didn't bet)
+Seat 2: gabibá showed [8c Ac] and lost with high card Ace
+Seat 3: annap1995 (button) showed [Tc Jc] and won (155) with a straight, Nine to King
+Seat 4: charlieb1994 (small blind) folded before Flop
+Seat 5: sabuco_2110 (big blind) folded on the Flop
+Seat 6: DiggErr555 folded before Flop (didn't bet)
+
+PokerStars Hand #188547900397: Tournament #2352946229, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:17:58 MSK [2018/07/09 18:17:58 ET]
+Table '2352946229 1' 6-max Seat #4 is the button
+Seat 1: UgotPHIL'd (329 in chips)
+Seat 3: annap1995 (1341 in chips)
+Seat 4: charlieb1994 (387 in chips)
+Seat 5: sabuco_2110 (514 in chips)
+Seat 6: DiggErr555 (429 in chips)
+UgotPHIL'd: posts the ante 4
+annap1995: posts the ante 4
+charlieb1994: posts the ante 4
+sabuco_2110: posts the ante 4
+DiggErr555: posts the ante 4
+sabuco_2110: posts small blind 20
+DiggErr555: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [9c Ks]
+UgotPHIL'd: raises 285 to 325 and is all-in
+annap1995: folds
+charlieb1994: calls 325
+sabuco_2110: folds
+DiggErr555: raises 100 to 425 and is all-in
+charlieb1994: calls 58 and is all-in
+Uncalled bet (42) returned to DiggErr555
+*** FLOP *** [Qc Jd 3s]
+*** TURN *** [Qc Jd 3s] [4d]
+*** RIVER *** [Qc Jd 3s 4d] [8h]
+*** SHOW DOWN ***
+DiggErr555: shows [9c Ks] (high card King)
+charlieb1994: shows [Ad Jh] (a pair of Jacks)
+charlieb1994 collected 116 from side pot
+UgotPHIL'd: shows [Ac 4c] (a pair of Fours)
+charlieb1994 collected 1015 from main pot
+charlieb1994 wins the $12.01 bounty for eliminating UgotPHIL'd
+UgotPHIL'd finished the tournament in 5th place
+*** SUMMARY ***
+Total pot 1131 Main pot 1015. Side pot 116. | Rake 0
+Board [Qc Jd 3s 4d 8h]
+Seat 1: UgotPHIL'd showed [Ac 4c] and lost with a pair of Fours
+Seat 3: annap1995 folded before Flop (didn't bet)
+Seat 4: charlieb1994 (button) showed [Ad Jh] and won (1131) with a pair of Jacks
+Seat 5: sabuco_2110 (small blind) folded before Flop
+Seat 6: DiggErr555 (big blind) showed [9c Ks] and lost with high card King
+
+PokerStars Hand #188547923007: Tournament #2352946229, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:18:34 MSK [2018/07/09 18:18:34 ET]
+Table '2352946229 1' 6-max Seat #5 is the button
+Seat 3: annap1995 (1337 in chips)
+Seat 4: charlieb1994 (1131 in chips)
+Seat 5: sabuco_2110 (490 in chips)
+Seat 6: DiggErr555 (42 in chips)
+annap1995: posts the ante 4
+charlieb1994: posts the ante 4
+sabuco_2110: posts the ante 4
+DiggErr555: posts the ante 4
+DiggErr555: posts small blind 20
+annap1995: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [3d 8d]
+charlieb1994: raises 76 to 116
+sabuco_2110: raises 370 to 486 and is all-in
+DiggErr555: calls 18 and is all-in
+annap1995: folds
+charlieb1994: calls 370
+*** FLOP *** [7s 9h 5d]
+*** TURN *** [7s 9h 5d] [2h]
+*** RIVER *** [7s 9h 5d 2h] [9s]
+*** SHOW DOWN ***
+charlieb1994: shows [Qh Jc] (a pair of Nines)
+sabuco_2110: shows [7c Ks] (two pair, Nines and Sevens)
+sabuco_2110 collected 898 from side pot
+DiggErr555: shows [3d 8d] (a pair of Nines)
+sabuco_2110 collected 168 from main pot
+sabuco_2110 wins the $12.01 bounty for eliminating DiggErr555
+DiggErr555 finished the tournament in 4th place
+*** SUMMARY ***
+Total pot 1066 Main pot 168. Side pot 898. | Rake 0
+Board [7s 9h 5d 2h 9s]
+Seat 3: annap1995 (big blind) folded before Flop
+Seat 4: charlieb1994 showed [Qh Jc] and lost with a pair of Nines
+Seat 5: sabuco_2110 (button) showed [7c Ks] and won (1066) with two pair, Nines and Sevens
+Seat 6: DiggErr555 (small blind) showed [3d 8d] and lost with a pair of Nines

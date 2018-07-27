@@ -1,0 +1,567 @@
+
+
+PokerStars Hand #188547075222: Tournament #2352931107, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 0:55:46 MSK [2018/07/09 17:55:46 ET]
+Table '2352931107 1' 6-max Seat #1 is the button
+Seat 1: DiggErr555 (500 in chips)
+Seat 2: Karagunis (500 in chips)
+Seat 3: ultraluxe (500 in chips)
+Seat 4: sirpat37 (500 in chips)
+Seat 5: TeddyO'hara (500 in chips)
+Seat 6: babz8 (500 in chips)
+DiggErr555: posts the ante 2
+Karagunis: posts the ante 2
+ultraluxe: posts the ante 2
+sirpat37: posts the ante 2
+TeddyO'hara: posts the ante 2
+babz8: posts the ante 2
+Karagunis: posts small blind 10
+ultraluxe: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [9s 5d]
+sirpat37: calls 20
+TeddyO'hara: folds
+babz8: folds
+DiggErr555: folds
+Karagunis: calls 10
+ultraluxe: checks
+*** FLOP *** [7d Qh 6d]
+Karagunis: bets 20
+ultraluxe: folds
+sirpat37: calls 20
+*** TURN *** [7d Qh 6d] [3s]
+Karagunis: checks
+sirpat37: checks
+*** RIVER *** [7d Qh 6d 3s] [4s]
+Karagunis: checks
+sirpat37: checks
+*** SHOW DOWN ***
+Karagunis: shows [8d 7c] (a pair of Sevens)
+sirpat37: mucks hand
+Karagunis collected 112 from pot
+*** SUMMARY ***
+Total pot 112 | Rake 0
+Board [7d Qh 6d 3s 4s]
+Seat 1: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 2: Karagunis (small blind) showed [8d 7c] and won (112) with a pair of Sevens
+Seat 3: ultraluxe (big blind) folded on the Flop
+Seat 4: sirpat37 mucked [Jc Ah]
+Seat 5: TeddyO'hara folded before Flop (didn't bet)
+Seat 6: babz8 folded before Flop (didn't bet)
+
+PokerStars Hand #188547094573: Tournament #2352931107, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 0:56:21 MSK [2018/07/09 17:56:21 ET]
+Table '2352931107 1' 6-max Seat #2 is the button
+Seat 1: DiggErr555 (498 in chips)
+Seat 2: Karagunis (570 in chips)
+Seat 3: ultraluxe (478 in chips)
+Seat 4: sirpat37 (458 in chips)
+Seat 5: TeddyO'hara (498 in chips)
+Seat 6: babz8 (498 in chips)
+DiggErr555: posts the ante 2
+Karagunis: posts the ante 2
+ultraluxe: posts the ante 2
+sirpat37: posts the ante 2
+TeddyO'hara: posts the ante 2
+babz8: posts the ante 2
+ultraluxe: posts small blind 10
+sirpat37: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [7d 9s]
+TeddyO'hara: folds
+babz8: folds
+DiggErr555: folds
+Karagunis: folds
+ultraluxe: folds
+Uncalled bet (10) returned to sirpat37
+sirpat37 collected 32 from pot
+sirpat37: doesn't show hand
+*** SUMMARY ***
+Total pot 32 | Rake 0
+Seat 1: DiggErr555 folded before Flop (didn't bet)
+Seat 2: Karagunis (button) folded before Flop (didn't bet)
+Seat 3: ultraluxe (small blind) folded before Flop
+Seat 4: sirpat37 (big blind) collected (32)
+Seat 5: TeddyO'hara folded before Flop (didn't bet)
+Seat 6: babz8 folded before Flop (didn't bet)
+
+PokerStars Hand #188547100571: Tournament #2352931107, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 0:56:32 MSK [2018/07/09 17:56:32 ET]
+Table '2352931107 1' 6-max Seat #3 is the button
+Seat 1: DiggErr555 (496 in chips)
+Seat 2: Karagunis (568 in chips)
+Seat 3: ultraluxe (466 in chips)
+Seat 4: sirpat37 (478 in chips)
+Seat 5: TeddyO'hara (496 in chips)
+Seat 6: babz8 (496 in chips)
+DiggErr555: posts the ante 2
+Karagunis: posts the ante 2
+ultraluxe: posts the ante 2
+sirpat37: posts the ante 2
+TeddyO'hara: posts the ante 2
+babz8: posts the ante 2
+sirpat37: posts small blind 10
+TeddyO'hara: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Ks 6d]
+babz8: folds
+DiggErr555: folds
+Karagunis: folds
+ultraluxe: folds
+sirpat37: calls 10
+TeddyO'hara: checks
+*** FLOP *** [4d Jh Th]
+sirpat37: checks
+TeddyO'hara: checks
+*** TURN *** [4d Jh Th] [9s]
+sirpat37: bets 20
+TeddyO'hara: folds
+Uncalled bet (20) returned to sirpat37
+sirpat37 collected 52 from pot
+sirpat37: doesn't show hand
+*** SUMMARY ***
+Total pot 52 | Rake 0
+Board [4d Jh Th 9s]
+Seat 1: DiggErr555 folded before Flop (didn't bet)
+Seat 2: Karagunis folded before Flop (didn't bet)
+Seat 3: ultraluxe (button) folded before Flop (didn't bet)
+Seat 4: sirpat37 (small blind) collected (52)
+Seat 5: TeddyO'hara (big blind) folded on the Turn
+Seat 6: babz8 folded before Flop (didn't bet)
+
+PokerStars Hand #188547122962: Tournament #2352931107, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 0:57:13 MSK [2018/07/09 17:57:13 ET]
+Table '2352931107 1' 6-max Seat #4 is the button
+Seat 1: DiggErr555 (494 in chips)
+Seat 2: Karagunis (566 in chips)
+Seat 3: ultraluxe (464 in chips)
+Seat 4: sirpat37 (508 in chips)
+Seat 5: TeddyO'hara (474 in chips)
+Seat 6: babz8 (494 in chips)
+DiggErr555: posts the ante 3
+Karagunis: posts the ante 3
+ultraluxe: posts the ante 3
+sirpat37: posts the ante 3
+TeddyO'hara: posts the ante 3
+babz8: posts the ante 3
+TeddyO'hara: posts small blind 15
+babz8: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [9s Qs]
+DiggErr555: folds
+Karagunis: folds
+ultraluxe: raises 431 to 461 and is all-in
+sirpat37: folds
+TeddyO'hara: folds
+babz8: folds
+Uncalled bet (431) returned to ultraluxe
+ultraluxe collected 93 from pot
+*** SUMMARY ***
+Total pot 93 | Rake 0
+Seat 1: DiggErr555 folded before Flop (didn't bet)
+Seat 2: Karagunis folded before Flop (didn't bet)
+Seat 3: ultraluxe collected (93)
+Seat 4: sirpat37 (button) folded before Flop (didn't bet)
+Seat 5: TeddyO'hara (small blind) folded before Flop
+Seat 6: babz8 (big blind) folded before Flop
+
+PokerStars Hand #188547135064: Tournament #2352931107, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 0:57:35 MSK [2018/07/09 17:57:35 ET]
+Table '2352931107 1' 6-max Seat #5 is the button
+Seat 1: DiggErr555 (491 in chips)
+Seat 2: Karagunis (563 in chips)
+Seat 3: ultraluxe (524 in chips)
+Seat 4: sirpat37 (505 in chips)
+Seat 5: TeddyO'hara (456 in chips)
+Seat 6: babz8 (461 in chips)
+DiggErr555: posts the ante 3
+Karagunis: posts the ante 3
+ultraluxe: posts the ante 3
+sirpat37: posts the ante 3
+TeddyO'hara: posts the ante 3
+babz8: posts the ante 3
+babz8: posts small blind 15
+DiggErr555: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Qh 5c]
+Karagunis: folds
+ultraluxe: folds
+sirpat37: calls 30
+TeddyO'hara: folds
+babz8: folds
+DiggErr555: checks
+*** FLOP *** [3d 8c Jc]
+DiggErr555: checks
+sirpat37: checks
+*** TURN *** [3d 8c Jc] [4s]
+DiggErr555: checks
+sirpat37: bets 47
+DiggErr555: folds
+Uncalled bet (47) returned to sirpat37
+sirpat37 collected 93 from pot
+sirpat37: doesn't show hand
+*** SUMMARY ***
+Total pot 93 | Rake 0
+Board [3d 8c Jc 4s]
+Seat 1: DiggErr555 (big blind) folded on the Turn
+Seat 2: Karagunis folded before Flop (didn't bet)
+Seat 3: ultraluxe folded before Flop (didn't bet)
+Seat 4: sirpat37 collected (93)
+Seat 5: TeddyO'hara (button) folded before Flop (didn't bet)
+Seat 6: babz8 (small blind) folded before Flop
+
+PokerStars Hand #188547151554: Tournament #2352931107, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 0:58:06 MSK [2018/07/09 17:58:06 ET]
+Table '2352931107 1' 6-max Seat #6 is the button
+Seat 1: DiggErr555 (458 in chips)
+Seat 2: Karagunis (560 in chips)
+Seat 3: ultraluxe (521 in chips)
+Seat 4: sirpat37 (565 in chips)
+Seat 5: TeddyO'hara (453 in chips)
+Seat 6: babz8 (443 in chips)
+DiggErr555: posts the ante 3
+Karagunis: posts the ante 3
+ultraluxe: posts the ante 3
+sirpat37: posts the ante 3
+TeddyO'hara: posts the ante 3
+babz8: posts the ante 3
+DiggErr555: posts small blind 15
+Karagunis: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [7s 6s]
+ultraluxe: folds
+sirpat37: calls 30
+TeddyO'hara: folds
+babz8: calls 30
+DiggErr555: folds
+Karagunis: raises 527 to 557 and is all-in
+sirpat37: folds
+babz8: folds
+Uncalled bet (527) returned to Karagunis
+Karagunis collected 123 from pot
+Karagunis: doesn't show hand
+*** SUMMARY ***
+Total pot 123 | Rake 0
+Seat 1: DiggErr555 (small blind) folded before Flop
+Seat 2: Karagunis (big blind) collected (123)
+Seat 3: ultraluxe folded before Flop (didn't bet)
+Seat 4: sirpat37 folded before Flop
+Seat 5: TeddyO'hara folded before Flop (didn't bet)
+Seat 6: babz8 (button) folded before Flop
+
+PokerStars Hand #188547169738: Tournament #2352931107, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 0:58:39 MSK [2018/07/09 17:58:39 ET]
+Table '2352931107 1' 6-max Seat #1 is the button
+Seat 1: DiggErr555 (440 in chips)
+Seat 2: Karagunis (650 in chips)
+Seat 3: ultraluxe (518 in chips)
+Seat 4: sirpat37 (532 in chips)
+Seat 5: TeddyO'hara (450 in chips)
+Seat 6: babz8 (410 in chips)
+DiggErr555: posts the ante 3
+Karagunis: posts the ante 3
+ultraluxe: posts the ante 3
+sirpat37: posts the ante 3
+TeddyO'hara: posts the ante 3
+babz8: posts the ante 3
+Karagunis: posts small blind 15
+ultraluxe: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6s 3c]
+sirpat37: calls 30
+TeddyO'hara: folds
+babz8: folds
+DiggErr555: folds
+Karagunis: folds
+ultraluxe: checks
+*** FLOP *** [7h 3s Tc]
+ultraluxe: checks
+sirpat37: checks
+*** TURN *** [7h 3s Tc] [Jc]
+ultraluxe: checks
+sirpat37: bets 30
+ultraluxe: calls 30
+*** RIVER *** [7h 3s Tc Jc] [9d]
+ultraluxe: checks
+sirpat37: bets 77
+ultraluxe: folds
+Uncalled bet (77) returned to sirpat37
+sirpat37 collected 153 from pot
+sirpat37: doesn't show hand
+*** SUMMARY ***
+Total pot 153 | Rake 0
+Board [7h 3s Tc Jc 9d]
+Seat 1: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 2: Karagunis (small blind) folded before Flop
+Seat 3: ultraluxe (big blind) folded on the River
+Seat 4: sirpat37 collected (153)
+Seat 5: TeddyO'hara folded before Flop (didn't bet)
+Seat 6: babz8 folded before Flop (didn't bet)
+
+PokerStars Hand #188547196322: Tournament #2352931107, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 0:59:28 MSK [2018/07/09 17:59:28 ET]
+Table '2352931107 1' 6-max Seat #2 is the button
+Seat 1: DiggErr555 (437 in chips)
+Seat 2: Karagunis (632 in chips)
+Seat 3: ultraluxe (455 in chips)
+Seat 4: sirpat37 (622 in chips)
+Seat 5: TeddyO'hara (447 in chips)
+Seat 6: babz8 (407 in chips)
+DiggErr555: posts the ante 4
+Karagunis: posts the ante 4
+ultraluxe: posts the ante 4
+sirpat37: posts the ante 4
+TeddyO'hara: posts the ante 4
+babz8: posts the ante 4
+ultraluxe: posts small blind 20
+sirpat37: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [5h Jd]
+TeddyO'hara: folds
+babz8: folds
+DiggErr555: folds
+Karagunis: folds
+ultraluxe: folds
+Uncalled bet (20) returned to sirpat37
+sirpat37 collected 64 from pot
+sirpat37: doesn't show hand
+*** SUMMARY ***
+Total pot 64 | Rake 0
+Seat 1: DiggErr555 folded before Flop (didn't bet)
+Seat 2: Karagunis (button) folded before Flop (didn't bet)
+Seat 3: ultraluxe (small blind) folded before Flop
+Seat 4: sirpat37 (big blind) collected (64)
+Seat 5: TeddyO'hara folded before Flop (didn't bet)
+Seat 6: babz8 folded before Flop (didn't bet)
+
+PokerStars Hand #188547204680: Tournament #2352931107, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 0:59:43 MSK [2018/07/09 17:59:43 ET]
+Table '2352931107 1' 6-max Seat #3 is the button
+Seat 1: DiggErr555 (433 in chips)
+Seat 2: Karagunis (628 in chips)
+Seat 3: ultraluxe (431 in chips)
+Seat 4: sirpat37 (662 in chips)
+Seat 5: TeddyO'hara (443 in chips)
+Seat 6: babz8 (403 in chips)
+DiggErr555: posts the ante 4
+Karagunis: posts the ante 4
+ultraluxe: posts the ante 4
+sirpat37: posts the ante 4
+TeddyO'hara: posts the ante 4
+babz8: posts the ante 4
+sirpat37: posts small blind 20
+TeddyO'hara: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [7c Jc]
+babz8: raises 40 to 80
+DiggErr555: folds
+Karagunis: folds
+ultraluxe: folds
+sirpat37: calls 60
+TeddyO'hara: calls 40
+*** FLOP *** [4c Tc 8d]
+sirpat37: bets 40
+TeddyO'hara: raises 319 to 359 and is all-in
+babz8: folds
+sirpat37: calls 319
+*** TURN *** [4c Tc 8d] [Ah]
+*** RIVER *** [4c Tc 8d Ah] [Kd]
+*** SHOW DOWN ***
+sirpat37: shows [8h 7d] (a pair of Eights)
+TeddyO'hara: shows [Jd Ts] (a pair of Tens)
+TeddyO'hara collected 982 from pot
+*** SUMMARY ***
+Total pot 982 | Rake 0
+Board [4c Tc 8d Ah Kd]
+Seat 1: DiggErr555 folded before Flop (didn't bet)
+Seat 2: Karagunis folded before Flop (didn't bet)
+Seat 3: ultraluxe (button) folded before Flop (didn't bet)
+Seat 4: sirpat37 (small blind) showed [8h 7d] and lost with a pair of Eights
+Seat 5: TeddyO'hara (big blind) showed [Jd Ts] and won (982) with a pair of Tens
+Seat 6: babz8 folded on the Flop
+
+PokerStars Hand #188547228926: Tournament #2352931107, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:00:27 MSK [2018/07/09 18:00:27 ET]
+Table '2352931107 1' 6-max Seat #4 is the button
+Seat 1: DiggErr555 (429 in chips)
+Seat 2: Karagunis (624 in chips)
+Seat 3: ultraluxe (427 in chips)
+Seat 4: sirpat37 (219 in chips)
+Seat 5: TeddyO'hara (982 in chips)
+Seat 6: babz8 (319 in chips)
+DiggErr555: posts the ante 4
+Karagunis: posts the ante 4
+ultraluxe: posts the ante 4
+sirpat37: posts the ante 4
+TeddyO'hara: posts the ante 4
+babz8: posts the ante 4
+TeddyO'hara: posts small blind 20
+babz8: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Jc 9c]
+DiggErr555: raises 385 to 425 and is all-in
+Karagunis: folds
+ultraluxe: folds
+sirpat37: calls 215 and is all-in
+TeddyO'hara: folds
+babz8: folds
+Uncalled bet (210) returned to DiggErr555
+*** FLOP *** [2s 4s 4h]
+*** TURN *** [2s 4s 4h] [8c]
+*** RIVER *** [2s 4s 4h 8c] [Ah]
+*** SHOW DOWN ***
+DiggErr555: shows [Jc 9c] (a pair of Fours)
+sirpat37: shows [2h Ks] (two pair, Fours and Deuces)
+sirpat37 collected 514 from pot
+*** SUMMARY ***
+Total pot 514 | Rake 0
+Board [2s 4s 4h 8c Ah]
+Seat 1: DiggErr555 showed [Jc 9c] and lost with a pair of Fours
+Seat 2: Karagunis folded before Flop (didn't bet)
+Seat 3: ultraluxe folded before Flop (didn't bet)
+Seat 4: sirpat37 (button) showed [2h Ks] and won (514) with two pair, Fours and Deuces
+Seat 5: TeddyO'hara (small blind) folded before Flop
+Seat 6: babz8 (big blind) folded before Flop
+
+PokerStars Hand #188547242192: Tournament #2352931107, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:00:50 MSK [2018/07/09 18:00:50 ET]
+Table '2352931107 1' 6-max Seat #5 is the button
+Seat 1: DiggErr555 (210 in chips)
+Seat 2: Karagunis (620 in chips)
+Seat 3: ultraluxe (423 in chips)
+Seat 4: sirpat37 (514 in chips)
+Seat 5: TeddyO'hara (958 in chips)
+Seat 6: babz8 (275 in chips)
+DiggErr555: posts the ante 4
+Karagunis: posts the ante 4
+ultraluxe: posts the ante 4
+sirpat37: posts the ante 4
+TeddyO'hara: posts the ante 4
+babz8: posts the ante 4
+babz8: posts small blind 20
+DiggErr555: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [4c 2c]
+Karagunis: folds
+ultraluxe: raises 379 to 419 and is all-in
+sirpat37: folds
+TeddyO'hara: folds
+babz8: calls 251 and is all-in
+DiggErr555: folds
+Uncalled bet (148) returned to ultraluxe
+*** FLOP *** [3h Kc 6d]
+*** TURN *** [3h Kc 6d] [Td]
+*** RIVER *** [3h Kc 6d Td] [Ks]
+*** SHOW DOWN ***
+babz8: shows [4d Ah] (a pair of Kings)
+ultraluxe: shows [Qc Qh] (two pair, Kings and Queens)
+ultraluxe collected 606 from pot
+ultraluxe wins the $4.79 bounty for eliminating babz8
+babz8 finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 606 | Rake 0
+Board [3h Kc 6d Td Ks]
+Seat 1: DiggErr555 (big blind) folded before Flop
+Seat 2: Karagunis folded before Flop (didn't bet)
+Seat 3: ultraluxe showed [Qc Qh] and won (606) with two pair, Kings and Queens
+Seat 4: sirpat37 folded before Flop (didn't bet)
+Seat 5: TeddyO'hara (button) folded before Flop (didn't bet)
+Seat 6: babz8 (small blind) showed [4d Ah] and lost with a pair of Kings
+
+PokerStars Hand #188547264196: Tournament #2352931107, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:01:25 MSK [2018/07/09 18:01:25 ET]
+Table '2352931107 1' 6-max Seat #1 is the button
+Seat 1: DiggErr555 (166 in chips)
+Seat 2: Karagunis (616 in chips)
+Seat 3: ultraluxe (754 in chips)
+Seat 4: sirpat37 (510 in chips)
+Seat 5: TeddyO'hara (954 in chips)
+DiggErr555: posts the ante 6
+Karagunis: posts the ante 6
+ultraluxe: posts the ante 6
+sirpat37: posts the ante 6
+TeddyO'hara: posts the ante 6
+Karagunis: posts small blind 30
+ultraluxe: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [4c 8c]
+sirpat37: folds
+TeddyO'hara: folds
+DiggErr555: folds
+Karagunis: raises 550 to 610 and is all-in
+ultraluxe: calls 550
+*** FLOP *** [Ad 2c Ts]
+*** TURN *** [Ad 2c Ts] [As]
+*** RIVER *** [Ad 2c Ts As] [2d]
+*** SHOW DOWN ***
+Karagunis: shows [Th Kd] (two pair, Aces and Tens)
+ultraluxe: shows [Qs Ah] (a full house, Aces full of Deuces)
+ultraluxe collected 1250 from pot
+ultraluxe wins the $4.79 bounty for eliminating Karagunis
+Karagunis finished the tournament in 5th place
+*** SUMMARY ***
+Total pot 1250 | Rake 0
+Board [Ad 2c Ts As 2d]
+Seat 1: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 2: Karagunis (small blind) showed [Th Kd] and lost with two pair, Aces and Tens
+Seat 3: ultraluxe (big blind) showed [Qs Ah] and won (1250) with a full house, Aces full of Deuces
+Seat 4: sirpat37 folded before Flop (didn't bet)
+Seat 5: TeddyO'hara folded before Flop (didn't bet)
+
+PokerStars Hand #188547279950: Tournament #2352931107, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:01:49 MSK [2018/07/09 18:01:49 ET]
+Table '2352931107 1' 6-max Seat #3 is the button
+Seat 1: DiggErr555 (160 in chips)
+Seat 3: ultraluxe (1388 in chips)
+Seat 4: sirpat37 (504 in chips)
+Seat 5: TeddyO'hara (948 in chips)
+DiggErr555: posts the ante 6
+ultraluxe: posts the ante 6
+sirpat37: posts the ante 6
+TeddyO'hara: posts the ante 6
+sirpat37: posts small blind 30
+TeddyO'hara: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [2h 3c]
+DiggErr555: folds
+ultraluxe: raises 1322 to 1382 and is all-in
+sirpat37: calls 468 and is all-in
+TeddyO'hara: folds
+Uncalled bet (884) returned to ultraluxe
+*** FLOP *** [5d 7c 9d]
+*** TURN *** [5d 7c 9d] [Td]
+*** RIVER *** [5d 7c 9d Td] [9c]
+*** SHOW DOWN ***
+sirpat37: shows [9s Qc] (three of a kind, Nines)
+ultraluxe: shows [8s Ts] (two pair, Tens and Nines)
+sirpat37 collected 1080 from pot
+*** SUMMARY ***
+Total pot 1080 | Rake 0
+Board [5d 7c 9d Td 9c]
+Seat 1: DiggErr555 folded before Flop (didn't bet)
+Seat 3: ultraluxe (button) showed [8s Ts] and lost with two pair, Tens and Nines
+Seat 4: sirpat37 (small blind) showed [9s Qc] and won (1080) with three of a kind, Nines
+Seat 5: TeddyO'hara (big blind) folded before Flop
+
+PokerStars Hand #188547292236: Tournament #2352931107, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:02:09 MSK [2018/07/09 18:02:09 ET]
+Table '2352931107 1' 6-max Seat #4 is the button
+Seat 1: DiggErr555 (154 in chips)
+Seat 3: ultraluxe (884 in chips)
+Seat 4: sirpat37 (1080 in chips)
+Seat 5: TeddyO'hara (882 in chips)
+DiggErr555: posts the ante 6
+ultraluxe: posts the ante 6
+sirpat37: posts the ante 6
+TeddyO'hara: posts the ante 6
+TeddyO'hara: posts small blind 30
+DiggErr555: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Ad 2d]
+ultraluxe: raises 60 to 120
+sirpat37: folds
+TeddyO'hara: folds
+DiggErr555: raises 28 to 148 and is all-in
+ultraluxe: calls 28
+*** FLOP *** [Jd 7s 2s]
+*** TURN *** [Jd 7s 2s] [4d]
+*** RIVER *** [Jd 7s 2s 4d] [8s]
+*** SHOW DOWN ***
+DiggErr555: shows [Ad 2d] (a pair of Deuces)
+ultraluxe: shows [3h 8h] (a pair of Eights)
+ultraluxe collected 350 from pot
+ultraluxe wins the $4.79 bounty for eliminating DiggErr555
+DiggErr555 finished the tournament in 4th place
+*** SUMMARY ***
+Total pot 350 | Rake 0
+Board [Jd 7s 2s 4d 8s]
+Seat 1: DiggErr555 (big blind) showed [Ad 2d] and lost with a pair of Deuces
+Seat 3: ultraluxe showed [3h 8h] and won (350) with a pair of Eights
+Seat 4: sirpat37 (button) folded before Flop (didn't bet)
+Seat 5: TeddyO'hara (small blind) folded before Flop

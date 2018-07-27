@@ -1,0 +1,263 @@
+
+
+PokerStars Hand #188547808639: Tournament #2352947832, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:15:30 MSK [2018/07/09 18:15:30 ET]
+Table '2352947832 1' 6-max Seat #1 is the button
+Seat 1: 2Ran128 (500 in chips)
+Seat 2: Arty5961 (500 in chips)
+Seat 3: Audrius1983 (500 in chips)
+Seat 4: MPEG31 (500 in chips)
+Seat 5: DiggErr555 (500 in chips)
+Seat 6: NL_Classic (500 in chips)
+2Ran128: posts the ante 2
+Arty5961: posts the ante 2
+Audrius1983: posts the ante 2
+MPEG31: posts the ante 2
+DiggErr555: posts the ante 2
+NL_Classic: posts the ante 2
+Arty5961: posts small blind 10
+Audrius1983: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Td Qc]
+MPEG31: folds
+DiggErr555: folds
+NL_Classic: folds
+2Ran128: raises 20 to 40
+Arty5961: raises 458 to 498 and is all-in
+Audrius1983: folds
+2Ran128: calls 458 and is all-in
+*** FLOP *** [4s 6c Kc]
+*** TURN *** [4s 6c Kc] [2d]
+*** RIVER *** [4s 6c Kc 2d] [2c]
+*** SHOW DOWN ***
+Arty5961: shows [Kh 6h] (two pair, Kings and Sixes)
+2Ran128: shows [Th Ac] (a pair of Deuces)
+Arty5961 collected 1028 from pot
+Arty5961 wins the $12.01 bounty for eliminating 2Ran128
+2Ran128 finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 1028 | Rake 0
+Board [4s 6c Kc 2d 2c]
+Seat 1: 2Ran128 (button) showed [Th Ac] and lost with a pair of Deuces
+Seat 2: Arty5961 (small blind) showed [Kh 6h] and won (1028) with two pair, Kings and Sixes
+Seat 3: Audrius1983 (big blind) folded before Flop
+Seat 4: MPEG31 folded before Flop (didn't bet)
+Seat 5: DiggErr555 folded before Flop (didn't bet)
+Seat 6: NL_Classic folded before Flop (didn't bet)
+
+PokerStars Hand #188547830330: Tournament #2352947832, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:16:05 MSK [2018/07/09 18:16:05 ET]
+Table '2352947832 1' 6-max Seat #2 is the button
+Seat 2: Arty5961 (1028 in chips)
+Seat 3: Audrius1983 (478 in chips)
+Seat 4: MPEG31 (498 in chips)
+Seat 5: DiggErr555 (498 in chips)
+Seat 6: NL_Classic (498 in chips)
+Arty5961: posts the ante 2
+Audrius1983: posts the ante 2
+MPEG31: posts the ante 2
+DiggErr555: posts the ante 2
+NL_Classic: posts the ante 2
+Audrius1983: posts small blind 10
+MPEG31: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Kc 2c]
+DiggErr555: folds
+NL_Classic: folds
+Arty5961: calls 20
+Audrius1983: calls 10
+MPEG31: checks
+*** FLOP *** [6h 3h Kd]
+Audrius1983: checks
+MPEG31: bets 20
+Arty5961: raises 20 to 40
+Audrius1983: folds
+MPEG31: calls 20
+*** TURN *** [6h 3h Kd] [2s]
+MPEG31: checks
+Arty5961: bets 966 and is all-in
+MPEG31: calls 436 and is all-in
+Uncalled bet (530) returned to Arty5961
+*** RIVER *** [6h 3h Kd 2s] [Ad]
+*** SHOW DOWN ***
+MPEG31: shows [4d Ks] (a pair of Kings)
+Arty5961: shows [Kh 4h] (a pair of Kings)
+MPEG31 collected 511 from pot
+Arty5961 collected 511 from pot
+*** SUMMARY ***
+Total pot 1022 | Rake 0
+Board [6h 3h Kd 2s Ad]
+Seat 2: Arty5961 (button) showed [Kh 4h] and won (511) with a pair of Kings
+Seat 3: Audrius1983 (small blind) folded on the Flop
+Seat 4: MPEG31 (big blind) showed [4d Ks] and won (511) with a pair of Kings
+Seat 5: DiggErr555 folded before Flop (didn't bet)
+Seat 6: NL_Classic folded before Flop (didn't bet)
+
+PokerStars Hand #188547865398: Tournament #2352947832, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:17:01 MSK [2018/07/09 18:17:01 ET]
+Table '2352947832 1' 6-max Seat #3 is the button
+Seat 2: Arty5961 (1041 in chips)
+Seat 3: Audrius1983 (456 in chips)
+Seat 4: MPEG31 (511 in chips)
+Seat 5: DiggErr555 (496 in chips)
+Seat 6: NL_Classic (496 in chips)
+Arty5961: posts the ante 2
+Audrius1983: posts the ante 2
+MPEG31: posts the ante 2
+DiggErr555: posts the ante 2
+NL_Classic: posts the ante 2
+MPEG31: posts small blind 10
+DiggErr555: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Jd Qs]
+NL_Classic: folds
+Arty5961: calls 20
+Audrius1983: raises 434 to 454 and is all-in
+MPEG31: folds
+DiggErr555: folds
+Arty5961: folds
+Uncalled bet (434) returned to Audrius1983
+Audrius1983 collected 80 from pot
+*** SUMMARY ***
+Total pot 80 | Rake 0
+Seat 2: Arty5961 folded before Flop
+Seat 3: Audrius1983 (button) collected (80)
+Seat 4: MPEG31 (small blind) folded before Flop
+Seat 5: DiggErr555 (big blind) folded before Flop
+Seat 6: NL_Classic folded before Flop (didn't bet)
+
+PokerStars Hand #188547880026: Tournament #2352947832, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:17:25 MSK [2018/07/09 18:17:25 ET]
+Table '2352947832 1' 6-max Seat #4 is the button
+Seat 2: Arty5961 (1019 in chips)
+Seat 3: Audrius1983 (514 in chips)
+Seat 4: MPEG31 (499 in chips)
+Seat 5: DiggErr555 (474 in chips)
+Seat 6: NL_Classic (494 in chips)
+Arty5961: posts the ante 3
+Audrius1983: posts the ante 3
+MPEG31: posts the ante 3
+DiggErr555: posts the ante 3
+NL_Classic: posts the ante 3
+DiggErr555: posts small blind 15
+NL_Classic: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [8d Qh]
+Arty5961: folds
+Audrius1983: folds
+MPEG31: folds
+DiggErr555: folds
+Uncalled bet (15) returned to NL_Classic
+NL_Classic collected 45 from pot
+NL_Classic: doesn't show hand
+*** SUMMARY ***
+Total pot 45 | Rake 0
+Seat 2: Arty5961 folded before Flop (didn't bet)
+Seat 3: Audrius1983 folded before Flop (didn't bet)
+Seat 4: MPEG31 (button) folded before Flop (didn't bet)
+Seat 5: DiggErr555 (small blind) folded before Flop
+Seat 6: NL_Classic (big blind) collected (45)
+
+PokerStars Hand #188547894360: Tournament #2352947832, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:17:48 MSK [2018/07/09 18:17:48 ET]
+Table '2352947832 1' 6-max Seat #5 is the button
+Seat 2: Arty5961 (1016 in chips)
+Seat 3: Audrius1983 (511 in chips)
+Seat 4: MPEG31 (496 in chips)
+Seat 5: DiggErr555 (456 in chips)
+Seat 6: NL_Classic (521 in chips)
+Arty5961: posts the ante 3
+Audrius1983: posts the ante 3
+MPEG31: posts the ante 3
+DiggErr555: posts the ante 3
+NL_Classic: posts the ante 3
+NL_Classic: posts small blind 15
+Arty5961: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6d Td]
+Audrius1983: folds
+MPEG31: raises 60 to 90
+DiggErr555: folds
+NL_Classic: folds
+Arty5961: calls 60
+*** FLOP *** [Kh 3d 7h]
+Arty5961: checks
+MPEG31: bets 90
+Arty5961: folds
+Uncalled bet (90) returned to MPEG31
+MPEG31 collected 210 from pot
+MPEG31: doesn't show hand
+*** SUMMARY ***
+Total pot 210 | Rake 0
+Board [Kh 3d 7h]
+Seat 2: Arty5961 (big blind) folded on the Flop
+Seat 3: Audrius1983 folded before Flop (didn't bet)
+Seat 4: MPEG31 collected (210)
+Seat 5: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 6: NL_Classic (small blind) folded before Flop
+
+PokerStars Hand #188547915465: Tournament #2352947832, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:18:22 MSK [2018/07/09 18:18:22 ET]
+Table '2352947832 1' 6-max Seat #6 is the button
+Seat 2: Arty5961 (923 in chips)
+Seat 3: Audrius1983 (508 in chips)
+Seat 4: MPEG31 (613 in chips)
+Seat 5: DiggErr555 (453 in chips)
+Seat 6: NL_Classic (503 in chips)
+Arty5961: posts the ante 3
+Audrius1983: posts the ante 3
+MPEG31: posts the ante 3
+DiggErr555: posts the ante 3
+NL_Classic: posts the ante 3
+Arty5961: posts small blind 15
+Audrius1983: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [5h 2d]
+MPEG31: folds
+DiggErr555: folds
+NL_Classic: folds
+Arty5961: raises 890 to 920 and is all-in
+Audrius1983: folds
+Uncalled bet (890) returned to Arty5961
+Arty5961 collected 75 from pot
+Arty5961: doesn't show hand
+*** SUMMARY ***
+Total pot 75 | Rake 0
+Seat 2: Arty5961 (small blind) collected (75)
+Seat 3: Audrius1983 (big blind) folded before Flop
+Seat 4: MPEG31 folded before Flop (didn't bet)
+Seat 5: DiggErr555 folded before Flop (didn't bet)
+Seat 6: NL_Classic (button) folded before Flop (didn't bet)
+
+PokerStars Hand #188547931361: Tournament #2352947832, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:18:47 MSK [2018/07/09 18:18:47 ET]
+Table '2352947832 1' 6-max Seat #2 is the button
+Seat 2: Arty5961 (965 in chips)
+Seat 3: Audrius1983 (475 in chips)
+Seat 4: MPEG31 (610 in chips)
+Seat 5: DiggErr555 (450 in chips)
+Seat 6: NL_Classic (500 in chips)
+Arty5961: posts the ante 3
+Audrius1983: posts the ante 3
+MPEG31: posts the ante 3
+DiggErr555: posts the ante 3
+NL_Classic: posts the ante 3
+Audrius1983: posts small blind 15
+MPEG31: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [8h Ah]
+DiggErr555: raises 417 to 447 and is all-in
+NL_Classic: folds
+Arty5961: calls 447
+Audrius1983: folds
+MPEG31: folds
+*** FLOP *** [2d 9d 7c]
+*** TURN *** [2d 9d 7c] [Qd]
+*** RIVER *** [2d 9d 7c Qd] [7d]
+*** SHOW DOWN ***
+DiggErr555: shows [8h Ah] (a pair of Sevens)
+Arty5961: shows [Ts Ad] (a flush, Ace high)
+Arty5961 collected 954 from pot
+Arty5961 wins the $12.01 bounty for eliminating DiggErr555
+DiggErr555 finished the tournament in 5th place
+*** SUMMARY ***
+Total pot 954 | Rake 0
+Board [2d 9d 7c Qd 7d]
+Seat 2: Arty5961 (button) showed [Ts Ad] and won (954) with a flush, Ace high
+Seat 3: Audrius1983 (small blind) folded before Flop
+Seat 4: MPEG31 (big blind) folded before Flop
+Seat 5: DiggErr555 showed [8h Ah] and lost with a pair of Sevens
+Seat 6: NL_Classic folded before Flop (didn't bet)

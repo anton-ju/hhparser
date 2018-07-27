@@ -1,0 +1,671 @@
+
+
+PokerStars Hand #188548169511: Tournament #2352955735, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:25:19 MSK [2018/07/09 18:25:19 ET]
+Table '2352955735 1' 6-max Seat #1 is the button
+Seat 1: queste (500 in chips)
+Seat 2: 2Ran128 (500 in chips)
+Seat 3: Val1k (500 in chips)
+Seat 4: DiggErr555 (500 in chips)
+Seat 5: Spaiki 11 (500 in chips)
+Seat 6: brieba (500 in chips)
+queste: posts the ante 2
+2Ran128: posts the ante 2
+Val1k: posts the ante 2
+DiggErr555: posts the ante 2
+Spaiki 11: posts the ante 2
+brieba: posts the ante 2
+2Ran128: posts small blind 10
+Val1k: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [3c 2h]
+DiggErr555: folds
+Spaiki 11: folds
+brieba: folds
+queste: raises 20 to 40
+2Ran128: folds
+Val1k: folds
+Uncalled bet (20) returned to queste
+queste collected 62 from pot
+queste: doesn't show hand
+*** SUMMARY ***
+Total pot 62 | Rake 0
+Seat 1: queste (button) collected (62)
+Seat 2: 2Ran128 (small blind) folded before Flop
+Seat 3: Val1k (big blind) folded before Flop
+Seat 4: DiggErr555 folded before Flop (didn't bet)
+Seat 5: Spaiki 11 folded before Flop (didn't bet)
+Seat 6: brieba folded before Flop (didn't bet)
+
+PokerStars Hand #188548180167: Tournament #2352955735, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:25:36 MSK [2018/07/09 18:25:36 ET]
+Table '2352955735 1' 6-max Seat #2 is the button
+Seat 1: queste (540 in chips)
+Seat 2: 2Ran128 (488 in chips)
+Seat 3: Val1k (478 in chips)
+Seat 4: DiggErr555 (498 in chips)
+Seat 5: Spaiki 11 (498 in chips)
+Seat 6: brieba (498 in chips)
+queste: posts the ante 2
+2Ran128: posts the ante 2
+Val1k: posts the ante 2
+DiggErr555: posts the ante 2
+Spaiki 11: posts the ante 2
+brieba: posts the ante 2
+Val1k: posts small blind 10
+DiggErr555: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [5s 3s]
+Spaiki 11: folds
+brieba: calls 20
+queste: folds
+2Ran128: folds
+Val1k: folds
+DiggErr555: checks
+*** FLOP *** [8c 8h Ad]
+DiggErr555: checks
+brieba: bets 60
+DiggErr555: folds
+Uncalled bet (60) returned to brieba
+brieba collected 62 from pot
+*** SUMMARY ***
+Total pot 62 | Rake 0
+Board [8c 8h Ad]
+Seat 1: queste folded before Flop (didn't bet)
+Seat 2: 2Ran128 (button) folded before Flop (didn't bet)
+Seat 3: Val1k (small blind) folded before Flop
+Seat 4: DiggErr555 (big blind) folded on the Flop
+Seat 5: Spaiki 11 folded before Flop (didn't bet)
+Seat 6: brieba collected (62)
+
+PokerStars Hand #188548196049: Tournament #2352955735, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:26:03 MSK [2018/07/09 18:26:03 ET]
+Table '2352955735 1' 6-max Seat #3 is the button
+Seat 1: queste (538 in chips)
+Seat 2: 2Ran128 (486 in chips)
+Seat 3: Val1k (466 in chips)
+Seat 4: DiggErr555 (476 in chips)
+Seat 5: Spaiki 11 (496 in chips)
+Seat 6: brieba (538 in chips)
+queste: posts the ante 2
+2Ran128: posts the ante 2
+Val1k: posts the ante 2
+DiggErr555: posts the ante 2
+Spaiki 11: posts the ante 2
+brieba: posts the ante 2
+DiggErr555: posts small blind 10
+Spaiki 11: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [9d Ad]
+brieba: folds
+queste: folds
+2Ran128: folds
+Val1k: folds
+DiggErr555: raises 454 to 474 and is all-in
+Spaiki 11: folds
+Uncalled bet (454) returned to DiggErr555
+DiggErr555 collected 52 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 52 | Rake 0
+Seat 1: queste folded before Flop (didn't bet)
+Seat 2: 2Ran128 folded before Flop (didn't bet)
+Seat 3: Val1k (button) folded before Flop (didn't bet)
+Seat 4: DiggErr555 (small blind) collected (52)
+Seat 5: Spaiki 11 (big blind) folded before Flop
+Seat 6: brieba folded before Flop (didn't bet)
+
+PokerStars Hand #188548214258: Tournament #2352955735, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:26:33 MSK [2018/07/09 18:26:33 ET]
+Table '2352955735 1' 6-max Seat #4 is the button
+Seat 1: queste (536 in chips)
+Seat 2: 2Ran128 (484 in chips)
+Seat 3: Val1k (464 in chips)
+Seat 4: DiggErr555 (506 in chips)
+Seat 5: Spaiki 11 (474 in chips)
+Seat 6: brieba (536 in chips)
+queste: posts the ante 3
+2Ran128: posts the ante 3
+Val1k: posts the ante 3
+DiggErr555: posts the ante 3
+Spaiki 11: posts the ante 3
+brieba: posts the ante 3
+Spaiki 11: posts small blind 15
+brieba: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Th 5c]
+queste: folds
+2Ran128: folds
+Val1k: raises 431 to 461 and is all-in
+DiggErr555: folds
+Spaiki 11: folds
+brieba: calls 431
+*** FLOP *** [3c Qc 4d]
+*** TURN *** [3c Qc 4d] [9s]
+*** RIVER *** [3c Qc 4d 9s] [9d]
+*** SHOW DOWN ***
+brieba: shows [Kh Js] (a pair of Nines)
+Val1k: shows [8s 8h] (two pair, Nines and Eights)
+Val1k collected 955 from pot
+*** SUMMARY ***
+Total pot 955 | Rake 0
+Board [3c Qc 4d 9s 9d]
+Seat 1: queste folded before Flop (didn't bet)
+Seat 2: 2Ran128 folded before Flop (didn't bet)
+Seat 3: Val1k showed [8s 8h] and won (955) with two pair, Nines and Eights
+Seat 4: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 5: Spaiki 11 (small blind) folded before Flop
+Seat 6: brieba (big blind) showed [Kh Js] and lost with a pair of Nines
+
+PokerStars Hand #188548236142: Tournament #2352955735, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:27:10 MSK [2018/07/09 18:27:10 ET]
+Table '2352955735 1' 6-max Seat #5 is the button
+Seat 1: queste (533 in chips)
+Seat 2: 2Ran128 (481 in chips)
+Seat 3: Val1k (955 in chips)
+Seat 4: DiggErr555 (503 in chips)
+Seat 5: Spaiki 11 (456 in chips)
+Seat 6: brieba (72 in chips)
+queste: posts the ante 3
+2Ran128: posts the ante 3
+Val1k: posts the ante 3
+DiggErr555: posts the ante 3
+Spaiki 11: posts the ante 3
+brieba: posts the ante 3
+brieba: posts small blind 15
+queste: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [5s 3s]
+2Ran128: raises 448 to 478 and is all-in
+Val1k: folds
+DiggErr555: folds
+Spaiki 11: folds
+brieba: calls 54 and is all-in
+queste: calls 448
+*** FLOP *** [8h Qc 4d]
+*** TURN *** [8h Qc 4d] [4s]
+*** RIVER *** [8h Qc 4d 4s] [5d]
+*** SHOW DOWN ***
+queste: shows [Ac Jh] (a pair of Fours)
+2Ran128: shows [Js Ks] (a pair of Fours - lower kicker)
+queste collected 818 from side pot
+brieba: shows [Qh Th] (two pair, Queens and Fours)
+brieba collected 225 from main pot
+queste wins the $12.01 bounty for eliminating 2Ran128
+2Ran128 finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 1043 Main pot 225. Side pot 818. | Rake 0
+Board [8h Qc 4d 4s 5d]
+Seat 1: queste (big blind) showed [Ac Jh] and won (818) with a pair of Fours
+Seat 2: 2Ran128 showed [Js Ks] and lost with a pair of Fours
+Seat 3: Val1k folded before Flop (didn't bet)
+Seat 4: DiggErr555 folded before Flop (didn't bet)
+Seat 5: Spaiki 11 (button) folded before Flop (didn't bet)
+Seat 6: brieba (small blind) showed [Qh Th] and won (225) with two pair, Queens and Fours
+
+PokerStars Hand #188548255471: Tournament #2352955735, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:27:42 MSK [2018/07/09 18:27:42 ET]
+Table '2352955735 1' 6-max Seat #6 is the button
+Seat 1: queste (870 in chips)
+Seat 3: Val1k (952 in chips)
+Seat 4: DiggErr555 (500 in chips)
+Seat 5: Spaiki 11 (453 in chips)
+Seat 6: brieba (225 in chips)
+queste: posts the ante 3
+Val1k: posts the ante 3
+DiggErr555: posts the ante 3
+Spaiki 11: posts the ante 3
+brieba: posts the ante 3
+queste: posts small blind 15
+Val1k: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [4d 8c]
+DiggErr555: folds
+Spaiki 11: calls 30
+brieba: folds
+queste: folds
+Val1k: checks
+*** FLOP *** [6d 5h Ac]
+Val1k: checks
+Spaiki 11: checks
+*** TURN *** [6d 5h Ac] [Kd]
+Val1k: checks
+Spaiki 11: bets 30
+Val1k: folds
+Uncalled bet (30) returned to Spaiki 11
+Spaiki 11 collected 90 from pot
+Spaiki 11: doesn't show hand
+*** SUMMARY ***
+Total pot 90 | Rake 0
+Board [6d 5h Ac Kd]
+Seat 1: queste (small blind) folded before Flop
+Seat 3: Val1k (big blind) folded on the Turn
+Seat 4: DiggErr555 folded before Flop (didn't bet)
+Seat 5: Spaiki 11 collected (90)
+Seat 6: brieba (button) folded before Flop (didn't bet)
+
+PokerStars Hand #188548281882: Tournament #2352955735, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:28:26 MSK [2018/07/09 18:28:26 ET]
+Table '2352955735 1' 6-max Seat #1 is the button
+Seat 1: queste (852 in chips)
+Seat 3: Val1k (919 in chips)
+Seat 4: DiggErr555 (497 in chips)
+Seat 5: Spaiki 11 (510 in chips)
+Seat 6: brieba (222 in chips)
+queste: posts the ante 3
+Val1k: posts the ante 3
+DiggErr555: posts the ante 3
+Spaiki 11: posts the ante 3
+brieba: posts the ante 3
+Val1k: posts small blind 15
+DiggErr555: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [8h Ks]
+Spaiki 11: folds
+brieba: folds
+queste: folds
+Val1k: folds
+Uncalled bet (15) returned to DiggErr555
+DiggErr555 collected 45 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 45 | Rake 0
+Seat 1: queste (button) folded before Flop (didn't bet)
+Seat 3: Val1k (small blind) folded before Flop
+Seat 4: DiggErr555 (big blind) collected (45)
+Seat 5: Spaiki 11 folded before Flop (didn't bet)
+Seat 6: brieba folded before Flop (didn't bet)
+
+PokerStars Hand #188548297710: Tournament #2352955735, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:28:53 MSK [2018/07/09 18:28:53 ET]
+Table '2352955735 1' 6-max Seat #3 is the button
+Seat 1: queste (849 in chips)
+Seat 3: Val1k (901 in chips)
+Seat 4: DiggErr555 (524 in chips)
+Seat 5: Spaiki 11 (507 in chips)
+Seat 6: brieba (219 in chips)
+queste: posts the ante 4
+Val1k: posts the ante 4
+DiggErr555: posts the ante 4
+Spaiki 11: posts the ante 4
+brieba: posts the ante 4
+DiggErr555: posts small blind 20
+Spaiki 11: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Qc 3c]
+brieba: calls 40
+queste: folds
+Val1k: folds
+DiggErr555: raises 480 to 520 and is all-in
+Spaiki 11: folds
+brieba: calls 175 and is all-in
+Uncalled bet (305) returned to DiggErr555
+*** FLOP *** [3s 8s 2d]
+*** TURN *** [3s 8s 2d] [Jh]
+*** RIVER *** [3s 8s 2d Jh] [Qh]
+*** SHOW DOWN ***
+DiggErr555: shows [Qc 3c] (two pair, Queens and Threes)
+brieba: shows [Tc Js] (a pair of Jacks)
+DiggErr555 collected 490 from pot
+DiggErr555 wins the $12.01 bounty for eliminating brieba
+brieba finished the tournament in 5th place
+*** SUMMARY ***
+Total pot 490 | Rake 0
+Board [3s 8s 2d Jh Qh]
+Seat 1: queste folded before Flop (didn't bet)
+Seat 3: Val1k (button) folded before Flop (didn't bet)
+Seat 4: DiggErr555 (small blind) showed [Qc 3c] and won (490) with two pair, Queens and Threes
+Seat 5: Spaiki 11 (big blind) folded before Flop
+Seat 6: brieba showed [Tc Js] and lost with a pair of Jacks
+
+PokerStars Hand #188548321967: Tournament #2352955735, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:29:34 MSK [2018/07/09 18:29:34 ET]
+Table '2352955735 1' 6-max Seat #4 is the button
+Seat 1: queste (845 in chips)
+Seat 3: Val1k (897 in chips)
+Seat 4: DiggErr555 (795 in chips)
+Seat 5: Spaiki 11 (463 in chips)
+queste: posts the ante 4
+Val1k: posts the ante 4
+DiggErr555: posts the ante 4
+Spaiki 11: posts the ante 4
+Spaiki 11: posts small blind 20
+queste: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [5d Kc]
+Val1k: folds
+DiggErr555: folds
+Spaiki 11: folds
+Uncalled bet (20) returned to queste
+queste collected 56 from pot
+queste: doesn't show hand
+*** SUMMARY ***
+Total pot 56 | Rake 0
+Seat 1: queste (big blind) collected (56)
+Seat 3: Val1k folded before Flop (didn't bet)
+Seat 4: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 5: Spaiki 11 (small blind) folded before Flop
+
+PokerStars Hand #188548328983: Tournament #2352955735, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:29:46 MSK [2018/07/09 18:29:46 ET]
+Table '2352955735 1' 6-max Seat #5 is the button
+Seat 1: queste (877 in chips)
+Seat 3: Val1k (893 in chips)
+Seat 4: DiggErr555 (791 in chips)
+Seat 5: Spaiki 11 (439 in chips)
+queste: posts the ante 4
+Val1k: posts the ante 4
+DiggErr555: posts the ante 4
+Spaiki 11: posts the ante 4
+queste: posts small blind 20
+Val1k: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [5s 9s]
+DiggErr555: folds
+Spaiki 11: folds
+queste: raises 40 to 80
+Val1k: folds
+Uncalled bet (40) returned to queste
+queste collected 96 from pot
+queste: doesn't show hand
+*** SUMMARY ***
+Total pot 96 | Rake 0
+Seat 1: queste (small blind) collected (96)
+Seat 3: Val1k (big blind) folded before Flop
+Seat 4: DiggErr555 folded before Flop (didn't bet)
+Seat 5: Spaiki 11 (button) folded before Flop (didn't bet)
+
+PokerStars Hand #188548340059: Tournament #2352955735, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:30:05 MSK [2018/07/09 18:30:05 ET]
+Table '2352955735 1' 6-max Seat #1 is the button
+Seat 1: queste (929 in chips)
+Seat 3: Val1k (849 in chips)
+Seat 4: DiggErr555 (787 in chips)
+Seat 5: Spaiki 11 (435 in chips)
+queste: posts the ante 4
+Val1k: posts the ante 4
+DiggErr555: posts the ante 4
+Spaiki 11: posts the ante 4
+Val1k: posts small blind 20
+DiggErr555: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Qd 8d]
+Spaiki 11: calls 40
+queste: folds
+Val1k: calls 20
+DiggErr555: checks
+*** FLOP *** [8h Qs 6s]
+Val1k: checks
+DiggErr555: bets 120
+Spaiki 11: raises 271 to 391 and is all-in
+Val1k: folds
+DiggErr555: calls 271
+*** TURN *** [8h Qs 6s] [6c]
+*** RIVER *** [8h Qs 6s 6c] [4h]
+*** SHOW DOWN ***
+DiggErr555: shows [Qd 8d] (two pair, Queens and Eights)
+Spaiki 11: shows [Qc As] (two pair, Queens and Sixes)
+DiggErr555 collected 918 from pot
+DiggErr555 wins the $12.01 bounty for eliminating Spaiki 11
+Spaiki 11 finished the tournament in 4th place
+*** SUMMARY ***
+Total pot 918 | Rake 0
+Board [8h Qs 6s 6c 4h]
+Seat 1: queste (button) folded before Flop (didn't bet)
+Seat 3: Val1k (small blind) folded on the Flop
+Seat 4: DiggErr555 (big blind) showed [Qd 8d] and won (918) with two pair, Queens and Eights
+Seat 5: Spaiki 11 showed [Qc As] and lost with two pair, Queens and Sixes
+
+PokerStars Hand #188548373794: Tournament #2352955735, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:31:01 MSK [2018/07/09 18:31:01 ET]
+Table '2352955735 1' 6-max Seat #3 is the button
+Seat 1: queste (925 in chips)
+Seat 3: Val1k (805 in chips)
+Seat 4: DiggErr555 (1270 in chips)
+queste: posts the ante 6
+Val1k: posts the ante 6
+DiggErr555: posts the ante 6
+DiggErr555: posts small blind 30
+queste: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [3c 4c]
+Val1k: raises 352 to 412
+DiggErr555: folds
+queste: folds
+Uncalled bet (352) returned to Val1k
+Val1k collected 168 from pot
+Val1k: doesn't show hand
+*** SUMMARY ***
+Total pot 168 | Rake 0
+Seat 1: queste (big blind) folded before Flop
+Seat 3: Val1k (button) collected (168)
+Seat 4: DiggErr555 (small blind) folded before Flop
+
+PokerStars Hand #188548388059: Tournament #2352955735, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:31:25 MSK [2018/07/09 18:31:25 ET]
+Table '2352955735 1' 6-max Seat #4 is the button
+Seat 1: queste (859 in chips)
+Seat 3: Val1k (907 in chips)
+Seat 4: DiggErr555 (1234 in chips)
+queste: posts the ante 6
+Val1k: posts the ante 6
+DiggErr555: posts the ante 6
+queste: posts small blind 30
+Val1k: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [2c Ac]
+DiggErr555: raises 1168 to 1228 and is all-in
+queste: folds
+Val1k: folds
+Uncalled bet (1168) returned to DiggErr555
+DiggErr555 collected 168 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 168 | Rake 0
+Seat 1: queste (small blind) folded before Flop
+Seat 3: Val1k (big blind) folded before Flop
+Seat 4: DiggErr555 (button) collected (168)
+
+PokerStars Hand #188548394787: Tournament #2352955735, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:31:37 MSK [2018/07/09 18:31:37 ET]
+Table '2352955735 1' 6-max Seat #1 is the button
+Seat 1: queste (823 in chips)
+Seat 3: Val1k (841 in chips)
+Seat 4: DiggErr555 (1336 in chips)
+queste: posts the ante 6
+Val1k: posts the ante 6
+DiggErr555: posts the ante 6
+Val1k: posts small blind 30
+DiggErr555: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [4d Ad]
+queste: folds
+Val1k: raises 775 to 835 and is all-in
+DiggErr555: calls 775
+*** FLOP *** [Qc 2s 8c]
+*** TURN *** [Qc 2s 8c] [Jc]
+*** RIVER *** [Qc 2s 8c Jc] [Th]
+*** SHOW DOWN ***
+Val1k: shows [Ah 4c] (high card Ace)
+DiggErr555: shows [4d Ad] (high card Ace)
+Val1k collected 844 from pot
+DiggErr555 collected 844 from pot
+*** SUMMARY ***
+Total pot 1688 | Rake 0
+Board [Qc 2s 8c Jc Th]
+Seat 1: queste (button) folded before Flop (didn't bet)
+Seat 3: Val1k (small blind) showed [Ah 4c] and won (844) with high card Ace
+Seat 4: DiggErr555 (big blind) showed [4d Ad] and won (844) with high card Ace
+
+PokerStars Hand #188548414126: Tournament #2352955735, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:32:09 MSK [2018/07/09 18:32:09 ET]
+Table '2352955735 1' 6-max Seat #3 is the button
+Seat 1: queste (817 in chips)
+Seat 3: Val1k (844 in chips)
+Seat 4: DiggErr555 (1339 in chips)
+queste: posts the ante 6
+Val1k: posts the ante 6
+DiggErr555: posts the ante 6
+DiggErr555: posts small blind 30
+queste: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [8c Kc]
+Val1k: folds
+DiggErr555: raises 1273 to 1333 and is all-in
+queste: folds
+Uncalled bet (1273) returned to DiggErr555
+DiggErr555 collected 138 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 138 | Rake 0
+Seat 1: queste (big blind) folded before Flop
+Seat 3: Val1k (button) folded before Flop (didn't bet)
+Seat 4: DiggErr555 (small blind) collected (138)
+
+PokerStars Hand #188548426894: Tournament #2352955735, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:32:31 MSK [2018/07/09 18:32:31 ET]
+Table '2352955735 1' 6-max Seat #4 is the button
+Seat 1: queste (751 in chips)
+Seat 3: Val1k (838 in chips)
+Seat 4: DiggErr555 (1411 in chips)
+queste: posts the ante 6
+Val1k: posts the ante 6
+DiggErr555: posts the ante 6
+queste: posts small blind 30
+Val1k: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [4h Tc]
+DiggErr555: folds
+queste: folds
+Uncalled bet (30) returned to Val1k
+Val1k collected 78 from pot
+Val1k: doesn't show hand
+*** SUMMARY ***
+Total pot 78 | Rake 0
+Seat 1: queste (small blind) folded before Flop
+Seat 3: Val1k (big blind) collected (78)
+Seat 4: DiggErr555 (button) folded before Flop (didn't bet)
+
+PokerStars Hand #188548435100: Tournament #2352955735, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:32:44 MSK [2018/07/09 18:32:44 ET]
+Table '2352955735 1' 6-max Seat #1 is the button
+Seat 1: queste (715 in chips)
+Seat 3: Val1k (880 in chips)
+Seat 4: DiggErr555 (1405 in chips)
+queste: posts the ante 8
+Val1k: posts the ante 8
+DiggErr555: posts the ante 8
+Val1k: posts small blind 40
+DiggErr555: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Kh Jc]
+queste: folds
+Val1k: raises 792 to 872 and is all-in
+DiggErr555: folds
+Uncalled bet (792) returned to Val1k
+Val1k collected 184 from pot
+Val1k: doesn't show hand
+*** SUMMARY ***
+Total pot 184 | Rake 0
+Seat 1: queste (button) folded before Flop (didn't bet)
+Seat 3: Val1k (small blind) collected (184)
+Seat 4: DiggErr555 (big blind) folded before Flop
+
+PokerStars Hand #188548447205: Tournament #2352955735, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:33:04 MSK [2018/07/09 18:33:04 ET]
+Table '2352955735 1' 6-max Seat #3 is the button
+Seat 1: queste (707 in chips)
+Seat 3: Val1k (976 in chips)
+Seat 4: DiggErr555 (1317 in chips)
+queste: posts the ante 8
+Val1k: posts the ante 8
+DiggErr555: posts the ante 8
+DiggErr555: posts small blind 40
+queste: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [4s Qd]
+Val1k: folds
+DiggErr555: raises 1229 to 1309 and is all-in
+queste: calls 619 and is all-in
+Uncalled bet (610) returned to DiggErr555
+*** FLOP *** [9s 8d 7s]
+*** TURN *** [9s 8d 7s] [Kd]
+*** RIVER *** [9s 8d 7s Kd] [Th]
+*** SHOW DOWN ***
+DiggErr555: shows [4s Qd] (high card King)
+queste: shows [7h 7d] (three of a kind, Sevens)
+queste collected 1422 from pot
+*** SUMMARY ***
+Total pot 1422 | Rake 0
+Board [9s 8d 7s Kd Th]
+Seat 1: queste (big blind) showed [7h 7d] and won (1422) with three of a kind, Sevens
+Seat 3: Val1k (button) folded before Flop (didn't bet)
+Seat 4: DiggErr555 (small blind) showed [4s Qd] and lost with high card King
+
+PokerStars Hand #188548460162: Tournament #2352955735, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:33:26 MSK [2018/07/09 18:33:26 ET]
+Table '2352955735 1' 6-max Seat #4 is the button
+Seat 1: queste (1422 in chips)
+Seat 3: Val1k (968 in chips)
+Seat 4: DiggErr555 (610 in chips)
+queste: posts the ante 8
+Val1k: posts the ante 8
+DiggErr555: posts the ante 8
+queste: posts small blind 40
+Val1k: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Tc 5s]
+DiggErr555: folds
+queste: raises 1334 to 1414 and is all-in
+Val1k: calls 880 and is all-in
+Uncalled bet (454) returned to queste
+*** FLOP *** [Jc Qc 9h]
+*** TURN *** [Jc Qc 9h] [5c]
+*** RIVER *** [Jc Qc 9h 5c] [Ks]
+*** SHOW DOWN ***
+queste: shows [Kh 4d] (a pair of Kings)
+Val1k: shows [Ah Ad] (a pair of Aces)
+Val1k collected 1944 from pot
+*** SUMMARY ***
+Total pot 1944 | Rake 0
+Board [Jc Qc 9h 5c Ks]
+Seat 1: queste (small blind) showed [Kh 4d] and lost with a pair of Kings
+Seat 3: Val1k (big blind) showed [Ah Ad] and won (1944) with a pair of Aces
+Seat 4: DiggErr555 (button) folded before Flop (didn't bet)
+
+PokerStars Hand #188548473710: Tournament #2352955735, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:33:49 MSK [2018/07/09 18:33:49 ET]
+Table '2352955735 1' 6-max Seat #1 is the button
+Seat 1: queste (454 in chips)
+Seat 3: Val1k (1944 in chips)
+Seat 4: DiggErr555 (602 in chips)
+queste: posts the ante 8
+Val1k: posts the ante 8
+DiggErr555: posts the ante 8
+Val1k: posts small blind 40
+DiggErr555: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [3d Qd]
+queste: folds
+Val1k: raises 1856 to 1936 and is all-in
+DiggErr555: folds
+Uncalled bet (1856) returned to Val1k
+Val1k collected 184 from pot
+Val1k: doesn't show hand
+*** SUMMARY ***
+Total pot 184 | Rake 0
+Seat 1: queste (button) folded before Flop (didn't bet)
+Seat 3: Val1k (small blind) collected (184)
+Seat 4: DiggErr555 (big blind) folded before Flop
+
+PokerStars Hand #188548482105: Tournament #2352955735, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:34:03 MSK [2018/07/09 18:34:03 ET]
+Table '2352955735 1' 6-max Seat #3 is the button
+Seat 1: queste (446 in chips)
+Seat 3: Val1k (2040 in chips)
+Seat 4: DiggErr555 (514 in chips)
+queste: posts the ante 8
+Val1k: posts the ante 8
+DiggErr555: posts the ante 8
+DiggErr555: posts small blind 40
+queste: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [As Jc]
+Val1k: raises 1952 to 2032 and is all-in
+DiggErr555: calls 466 and is all-in
+queste: folds
+Uncalled bet (1526) returned to Val1k
+*** FLOP *** [8d 2d 7c]
+*** TURN *** [8d 2d 7c] [6d]
+*** RIVER *** [8d 2d 7c 6d] [2s]
+*** SHOW DOWN ***
+DiggErr555: shows [As Jc] (a pair of Deuces)
+Val1k: shows [Jd 7s] (two pair, Sevens and Deuces)
+Val1k collected 1116 from pot
+Val1k wins the $12.01 bounty for eliminating DiggErr555
+DiggErr555 finished the tournament in 3rd place
+*** SUMMARY ***
+Total pot 1116 | Rake 0
+Board [8d 2d 7c 6d 2s]
+Seat 1: queste (big blind) folded before Flop
+Seat 3: Val1k (button) showed [Jd 7s] and won (1116) with two pair, Sevens and Deuces
+Seat 4: DiggErr555 (small blind) showed [As Jc] and lost with a pair of Deuces

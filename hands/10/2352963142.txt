@@ -1,0 +1,814 @@
+
+
+PokerStars Hand #188548463841: Tournament #2352963142, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:33:32 MSK [2018/07/09 18:33:32 ET]
+Table '2352963142 1' 6-max Seat #1 is the button
+Seat 1: DiggErr555 (500 in chips)
+Seat 2: zontag (500 in chips)
+Seat 3: 2Ran128 (500 in chips)
+Seat 4: iPlay4Berte (500 in chips)
+Seat 5: tykhe13 (500 in chips)
+Seat 6: Ath.Bachmann (500 in chips)
+DiggErr555: posts the ante 2
+zontag: posts the ante 2
+2Ran128: posts the ante 2
+iPlay4Berte: posts the ante 2
+tykhe13: posts the ante 2
+Ath.Bachmann: posts the ante 2
+zontag: posts small blind 10
+2Ran128: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [7c As]
+iPlay4Berte: folds
+tykhe13: folds
+Ath.Bachmann: folds
+DiggErr555: raises 20 to 40
+zontag: raises 458 to 498 and is all-in
+2Ran128: folds
+DiggErr555: folds
+Uncalled bet (458) returned to zontag
+zontag collected 112 from pot
+zontag: doesn't show hand
+*** SUMMARY ***
+Total pot 112 | Rake 0
+Seat 1: DiggErr555 (button) folded before Flop
+Seat 2: zontag (small blind) collected (112)
+Seat 3: 2Ran128 (big blind) folded before Flop
+Seat 4: iPlay4Berte folded before Flop (didn't bet)
+Seat 5: tykhe13 folded before Flop (didn't bet)
+Seat 6: Ath.Bachmann folded before Flop (didn't bet)
+
+PokerStars Hand #188548483061: Tournament #2352963142, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:34:05 MSK [2018/07/09 18:34:05 ET]
+Table '2352963142 1' 6-max Seat #2 is the button
+Seat 1: DiggErr555 (458 in chips)
+Seat 2: zontag (570 in chips)
+Seat 3: 2Ran128 (478 in chips)
+Seat 4: iPlay4Berte (498 in chips)
+Seat 5: tykhe13 (498 in chips)
+Seat 6: Ath.Bachmann (498 in chips)
+DiggErr555: posts the ante 2
+zontag: posts the ante 2
+2Ran128: posts the ante 2
+iPlay4Berte: posts the ante 2
+tykhe13: posts the ante 2
+Ath.Bachmann: posts the ante 2
+2Ran128: posts small blind 10
+iPlay4Berte: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [4d Qd]
+tykhe13: folds
+Ath.Bachmann: raises 40 to 60
+DiggErr555: folds
+zontag: folds
+2Ran128: folds
+iPlay4Berte: folds
+Uncalled bet (40) returned to Ath.Bachmann
+Ath.Bachmann collected 62 from pot
+Ath.Bachmann: doesn't show hand
+*** SUMMARY ***
+Total pot 62 | Rake 0
+Seat 1: DiggErr555 folded before Flop (didn't bet)
+Seat 2: zontag (button) folded before Flop (didn't bet)
+Seat 3: 2Ran128 (small blind) folded before Flop
+Seat 4: iPlay4Berte (big blind) folded before Flop
+Seat 5: tykhe13 folded before Flop (didn't bet)
+Seat 6: Ath.Bachmann collected (62)
+
+PokerStars Hand #188548495737: Tournament #2352963142, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:34:26 MSK [2018/07/09 18:34:26 ET]
+Table '2352963142 1' 6-max Seat #3 is the button
+Seat 1: DiggErr555 (456 in chips)
+Seat 2: zontag (568 in chips)
+Seat 3: 2Ran128 (466 in chips)
+Seat 4: iPlay4Berte (476 in chips)
+Seat 5: tykhe13 (496 in chips)
+Seat 6: Ath.Bachmann (538 in chips)
+DiggErr555: posts the ante 2
+zontag: posts the ante 2
+2Ran128: posts the ante 2
+iPlay4Berte: posts the ante 2
+tykhe13: posts the ante 2
+Ath.Bachmann: posts the ante 2
+iPlay4Berte: posts small blind 10
+tykhe13: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [8s 8h]
+Ath.Bachmann: folds
+DiggErr555: raises 434 to 454 and is all-in
+zontag: raises 112 to 566 and is all-in
+2Ran128: folds
+iPlay4Berte: folds
+tykhe13: folds
+Uncalled bet (112) returned to zontag
+*** FLOP *** [Ts 4c 4d]
+*** TURN *** [Ts 4c 4d] [7d]
+*** RIVER *** [Ts 4c 4d 7d] [Ks]
+*** SHOW DOWN ***
+DiggErr555: shows [8s 8h] (two pair, Eights and Fours)
+zontag: shows [Jc As] (a pair of Fours)
+DiggErr555 collected 950 from pot
+*** SUMMARY ***
+Total pot 950 | Rake 0
+Board [Ts 4c 4d 7d Ks]
+Seat 1: DiggErr555 showed [8s 8h] and won (950) with two pair, Eights and Fours
+Seat 2: zontag showed [Jc As] and lost with a pair of Fours
+Seat 3: 2Ran128 (button) folded before Flop (didn't bet)
+Seat 4: iPlay4Berte (small blind) folded before Flop
+Seat 5: tykhe13 (big blind) folded before Flop
+Seat 6: Ath.Bachmann folded before Flop (didn't bet)
+
+PokerStars Hand #188548508879: Tournament #2352963142, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:34:48 MSK [2018/07/09 18:34:48 ET]
+Table '2352963142 1' 6-max Seat #4 is the button
+Seat 1: DiggErr555 (950 in chips)
+Seat 2: zontag (112 in chips)
+Seat 3: 2Ran128 (464 in chips)
+Seat 4: iPlay4Berte (464 in chips)
+Seat 5: tykhe13 (474 in chips)
+Seat 6: Ath.Bachmann (536 in chips)
+DiggErr555: posts the ante 3
+zontag: posts the ante 3
+2Ran128: posts the ante 3
+iPlay4Berte: posts the ante 3
+tykhe13: posts the ante 3
+Ath.Bachmann: posts the ante 3
+tykhe13: posts small blind 15
+Ath.Bachmann: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Js 7s]
+DiggErr555: raises 917 to 947 and is all-in
+zontag: folds
+2Ran128: folds
+iPlay4Berte: folds
+tykhe13: calls 456 and is all-in
+Ath.Bachmann: calls 503 and is all-in
+Uncalled bet (414) returned to DiggErr555
+*** FLOP *** [Kh Td 9d]
+*** TURN *** [Kh Td 9d] [5c]
+*** RIVER *** [Kh Td 9d 5c] [7c]
+*** SHOW DOWN ***
+Ath.Bachmann: shows [Qd Ad] (high card Ace)
+DiggErr555: shows [Js 7s] (a pair of Sevens)
+DiggErr555 collected 124 from side pot
+tykhe13: shows [8c 8d] (a pair of Eights)
+tykhe13 collected 1431 from main pot
+DiggErr555 wins the $4.79 bounty for eliminating Ath.Bachmann
+Ath.Bachmann finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 1555 Main pot 1431. Side pot 124. | Rake 0
+Board [Kh Td 9d 5c 7c]
+Seat 1: DiggErr555 showed [Js 7s] and won (124) with a pair of Sevens
+Seat 2: zontag folded before Flop (didn't bet)
+Seat 3: 2Ran128 folded before Flop (didn't bet)
+Seat 4: iPlay4Berte (button) folded before Flop (didn't bet)
+Seat 5: tykhe13 (small blind) showed [8c 8d] and won (1431) with a pair of Eights
+Seat 6: Ath.Bachmann (big blind) showed [Qd Ad] and lost with high card Ace
+
+PokerStars Hand #188548529691: Tournament #2352963142, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:35:23 MSK [2018/07/09 18:35:23 ET]
+Table '2352963142 1' 6-max Seat #5 is the button
+Seat 1: DiggErr555 (538 in chips)
+Seat 2: zontag (109 in chips)
+Seat 3: 2Ran128 (461 in chips)
+Seat 4: iPlay4Berte (461 in chips)
+Seat 5: tykhe13 (1431 in chips)
+DiggErr555: posts the ante 3
+zontag: posts the ante 3
+2Ran128: posts the ante 3
+iPlay4Berte: posts the ante 3
+tykhe13: posts the ante 3
+DiggErr555: posts small blind 15
+zontag: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6c 4h]
+2Ran128: folds
+iPlay4Berte: raises 428 to 458 and is all-in
+tykhe13: raises 428 to 886
+DiggErr555: folds
+zontag: calls 76 and is all-in
+Uncalled bet (428) returned to tykhe13
+*** FLOP *** [9d Kc 3c]
+*** TURN *** [9d Kc 3c] [Jh]
+*** RIVER *** [9d Kc 3c Jh] [9c]
+*** SHOW DOWN ***
+iPlay4Berte: shows [Qh Qc] (two pair, Queens and Nines)
+tykhe13: shows [Js 4s] (two pair, Jacks and Nines)
+iPlay4Berte collected 704 from side pot
+zontag: shows [2d Kd] (two pair, Kings and Nines)
+zontag collected 348 from main pot
+*** SUMMARY ***
+Total pot 1052 Main pot 348. Side pot 704. | Rake 0
+Board [9d Kc 3c Jh 9c]
+Seat 1: DiggErr555 (small blind) folded before Flop
+Seat 2: zontag (big blind) showed [2d Kd] and won (348) with two pair, Kings and Nines
+Seat 3: 2Ran128 folded before Flop (didn't bet)
+Seat 4: iPlay4Berte showed [Qh Qc] and won (704) with two pair, Queens and Nines
+Seat 5: tykhe13 (button) showed [Js 4s] and lost with two pair, Jacks and Nines
+
+PokerStars Hand #188548549675: Tournament #2352963142, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:35:57 MSK [2018/07/09 18:35:57 ET]
+Table '2352963142 1' 6-max Seat #1 is the button
+Seat 1: DiggErr555 (520 in chips)
+Seat 2: zontag (348 in chips)
+Seat 3: 2Ran128 (458 in chips)
+Seat 4: iPlay4Berte (704 in chips)
+Seat 5: tykhe13 (970 in chips)
+DiggErr555: posts the ante 3
+zontag: posts the ante 3
+2Ran128: posts the ante 3
+iPlay4Berte: posts the ante 3
+tykhe13: posts the ante 3
+zontag: posts small blind 15
+2Ran128: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Kc Js]
+iPlay4Berte: folds
+tykhe13: raises 937 to 967 and is all-in
+DiggErr555: folds
+zontag: folds
+2Ran128: folds
+Uncalled bet (937) returned to tykhe13
+tykhe13 collected 90 from pot
+*** SUMMARY ***
+Total pot 90 | Rake 0
+Seat 1: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 2: zontag (small blind) folded before Flop
+Seat 3: 2Ran128 (big blind) folded before Flop
+Seat 4: iPlay4Berte folded before Flop (didn't bet)
+Seat 5: tykhe13 collected (90)
+
+PokerStars Hand #188548570805: Tournament #2352963142, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:36:32 MSK [2018/07/09 18:36:32 ET]
+Table '2352963142 1' 6-max Seat #2 is the button
+Seat 1: DiggErr555 (517 in chips)
+Seat 2: zontag (330 in chips)
+Seat 3: 2Ran128 (425 in chips)
+Seat 4: iPlay4Berte (701 in chips)
+Seat 5: tykhe13 (1027 in chips)
+DiggErr555: posts the ante 3
+zontag: posts the ante 3
+2Ran128: posts the ante 3
+iPlay4Berte: posts the ante 3
+tykhe13: posts the ante 3
+2Ran128: posts small blind 15
+iPlay4Berte: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [9h Kd]
+tykhe13: raises 30 to 60
+DiggErr555: folds
+zontag: folds
+2Ran128: folds
+iPlay4Berte: folds
+Uncalled bet (30) returned to tykhe13
+tykhe13 collected 90 from pot
+*** SUMMARY ***
+Total pot 90 | Rake 0
+Seat 1: DiggErr555 folded before Flop (didn't bet)
+Seat 2: zontag (button) folded before Flop (didn't bet)
+Seat 3: 2Ran128 (small blind) folded before Flop
+Seat 4: iPlay4Berte (big blind) folded before Flop
+Seat 5: tykhe13 collected (90)
+
+PokerStars Hand #188548583397: Tournament #2352963142, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:36:54 MSK [2018/07/09 18:36:54 ET]
+Table '2352963142 1' 6-max Seat #3 is the button
+Seat 1: DiggErr555 (514 in chips)
+Seat 2: zontag (327 in chips)
+Seat 3: 2Ran128 (407 in chips)
+Seat 4: iPlay4Berte (668 in chips)
+Seat 5: tykhe13 (1084 in chips)
+DiggErr555: posts the ante 4
+zontag: posts the ante 4
+2Ran128: posts the ante 4
+iPlay4Berte: posts the ante 4
+tykhe13: posts the ante 4
+iPlay4Berte: posts small blind 20
+tykhe13: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Th 8c]
+DiggErr555: folds
+zontag: folds
+2Ran128: folds
+iPlay4Berte: folds
+Uncalled bet (20) returned to tykhe13
+tykhe13 collected 60 from pot
+*** SUMMARY ***
+Total pot 60 | Rake 0
+Seat 1: DiggErr555 folded before Flop (didn't bet)
+Seat 2: zontag folded before Flop (didn't bet)
+Seat 3: 2Ran128 (button) folded before Flop (didn't bet)
+Seat 4: iPlay4Berte (small blind) folded before Flop
+Seat 5: tykhe13 (big blind) collected (60)
+
+PokerStars Hand #188548591314: Tournament #2352963142, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:37:07 MSK [2018/07/09 18:37:07 ET]
+Table '2352963142 1' 6-max Seat #4 is the button
+Seat 1: DiggErr555 (510 in chips)
+Seat 2: zontag (323 in chips)
+Seat 3: 2Ran128 (403 in chips)
+Seat 4: iPlay4Berte (644 in chips)
+Seat 5: tykhe13 (1120 in chips)
+DiggErr555: posts the ante 4
+zontag: posts the ante 4
+2Ran128: posts the ante 4
+iPlay4Berte: posts the ante 4
+tykhe13: posts the ante 4
+tykhe13: posts small blind 20
+DiggErr555: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [3d 3h]
+zontag: folds
+2Ran128: raises 359 to 399 and is all-in
+iPlay4Berte: folds
+tykhe13: folds
+DiggErr555: calls 359
+*** FLOP *** [3s 5d 2c]
+*** TURN *** [3s 5d 2c] [Ah]
+*** RIVER *** [3s 5d 2c Ah] [5h]
+*** SHOW DOWN ***
+DiggErr555: shows [3d 3h] (a full house, Threes full of Fives)
+2Ran128: shows [7c Ac] (two pair, Aces and Fives)
+DiggErr555 collected 838 from pot
+DiggErr555 wins the $4.79 bounty for eliminating 2Ran128
+2Ran128 finished the tournament in 5th place
+*** SUMMARY ***
+Total pot 838 | Rake 0
+Board [3s 5d 2c Ah 5h]
+Seat 1: DiggErr555 (big blind) showed [3d 3h] and won (838) with a full house, Threes full of Fives
+Seat 2: zontag folded before Flop (didn't bet)
+Seat 3: 2Ran128 showed [7c Ac] and lost with two pair, Aces and Fives
+Seat 4: iPlay4Berte (button) folded before Flop (didn't bet)
+Seat 5: tykhe13 (small blind) folded before Flop
+
+PokerStars Hand #188548604060: Tournament #2352963142, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:37:29 MSK [2018/07/09 18:37:29 ET]
+Table '2352963142 1' 6-max Seat #5 is the button
+Seat 1: DiggErr555 (945 in chips)
+Seat 2: zontag (319 in chips)
+Seat 4: iPlay4Berte (640 in chips)
+Seat 5: tykhe13 (1096 in chips)
+DiggErr555: posts the ante 4
+zontag: posts the ante 4
+iPlay4Berte: posts the ante 4
+tykhe13: posts the ante 4
+DiggErr555: posts small blind 20
+zontag: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [As Kd]
+iPlay4Berte: folds
+tykhe13: folds
+DiggErr555: raises 901 to 941 and is all-in
+zontag: calls 275 and is all-in
+Uncalled bet (626) returned to DiggErr555
+*** FLOP *** [9c Qs 2c]
+*** TURN *** [9c Qs 2c] [6s]
+*** RIVER *** [9c Qs 2c 6s] [5h]
+*** SHOW DOWN ***
+DiggErr555: shows [As Kd] (high card Ace)
+zontag: shows [Ah Th] (high card Ace - lower kicker)
+DiggErr555 collected 646 from pot
+DiggErr555 wins the $4.79 bounty for eliminating zontag
+zontag finished the tournament in 4th place
+*** SUMMARY ***
+Total pot 646 | Rake 0
+Board [9c Qs 2c 6s 5h]
+Seat 1: DiggErr555 (small blind) showed [As Kd] and won (646) with high card Ace
+Seat 2: zontag (big blind) showed [Ah Th] and lost with high card Ace
+Seat 4: iPlay4Berte folded before Flop (didn't bet)
+Seat 5: tykhe13 (button) folded before Flop (didn't bet)
+
+PokerStars Hand #188548620635: Tournament #2352963142, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:37:56 MSK [2018/07/09 18:37:56 ET]
+Table '2352963142 1' 6-max Seat #1 is the button
+Seat 1: DiggErr555 (1272 in chips)
+Seat 4: iPlay4Berte (636 in chips)
+Seat 5: tykhe13 (1092 in chips)
+DiggErr555: posts the ante 4
+iPlay4Berte: posts the ante 4
+tykhe13: posts the ante 4
+iPlay4Berte: posts small blind 20
+tykhe13: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Ad 4c]
+DiggErr555: raises 40 to 80
+iPlay4Berte: folds
+tykhe13: calls 40
+*** FLOP *** [Qc Jc 5h]
+tykhe13: checks
+DiggErr555: checks
+*** TURN *** [Qc Jc 5h] [Td]
+tykhe13: bets 80
+DiggErr555: folds
+Uncalled bet (80) returned to tykhe13
+tykhe13 collected 192 from pot
+*** SUMMARY ***
+Total pot 192 | Rake 0
+Board [Qc Jc 5h Td]
+Seat 1: DiggErr555 (button) folded on the Turn
+Seat 4: iPlay4Berte (small blind) folded before Flop
+Seat 5: tykhe13 (big blind) collected (192)
+
+PokerStars Hand #188548634873: Tournament #2352963142, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:38:21 MSK [2018/07/09 18:38:21 ET]
+Table '2352963142 1' 6-max Seat #4 is the button
+Seat 1: DiggErr555 (1188 in chips)
+Seat 4: iPlay4Berte (612 in chips)
+Seat 5: tykhe13 (1200 in chips)
+DiggErr555: posts the ante 6
+iPlay4Berte: posts the ante 6
+tykhe13: posts the ante 6
+tykhe13: posts small blind 30
+DiggErr555: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [7d Qh]
+iPlay4Berte: folds
+tykhe13: calls 30
+DiggErr555: raises 1122 to 1182 and is all-in
+tykhe13: calls 1122
+*** FLOP *** [9s Qc 5d]
+*** TURN *** [9s Qc 5d] [Th]
+*** RIVER *** [9s Qc 5d Th] [5c]
+*** SHOW DOWN ***
+tykhe13: shows [7h 7c] (two pair, Sevens and Fives)
+DiggErr555: shows [7d Qh] (two pair, Queens and Fives)
+DiggErr555 collected 2382 from pot
+*** SUMMARY ***
+Total pot 2382 | Rake 0
+Board [9s Qc 5d Th 5c]
+Seat 1: DiggErr555 (big blind) showed [7d Qh] and won (2382) with two pair, Queens and Fives
+Seat 4: iPlay4Berte (button) folded before Flop (didn't bet)
+Seat 5: tykhe13 (small blind) showed [7h 7c] and lost with two pair, Sevens and Fives
+
+PokerStars Hand #188548647427: Tournament #2352963142, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:38:42 MSK [2018/07/09 18:38:42 ET]
+Table '2352963142 1' 6-max Seat #5 is the button
+Seat 1: DiggErr555 (2382 in chips)
+Seat 4: iPlay4Berte (606 in chips)
+Seat 5: tykhe13 (12 in chips)
+DiggErr555: posts the ante 6
+iPlay4Berte: posts the ante 6
+tykhe13: posts the ante 6
+DiggErr555: posts small blind 30
+iPlay4Berte: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [4c 7s]
+tykhe13: calls 6 and is all-in
+DiggErr555: raises 2316 to 2376 and is all-in
+iPlay4Berte: folds
+Uncalled bet (2316) returned to DiggErr555
+*** FLOP *** [2c Ah 5c]
+*** TURN *** [2c Ah 5c] [4h]
+*** RIVER *** [2c Ah 5c 4h] [3d]
+*** SHOW DOWN ***
+DiggErr555: shows [4c 7s] (a straight, Ace to Five)
+DiggErr555 collected 108 from side pot
+tykhe13: shows [9d Td] (a straight, Ace to Five)
+DiggErr555 collected 18 from main pot
+tykhe13 collected 18 from main pot
+*** SUMMARY ***
+Total pot 144 Main pot 36. Side pot 108. | Rake 0
+Board [2c Ah 5c 4h 3d]
+Seat 1: DiggErr555 (small blind) showed [4c 7s] and won (126) with a straight, Ace to Five
+Seat 4: iPlay4Berte (big blind) folded before Flop
+Seat 5: tykhe13 (button) showed [9d Td] and won (18) with a straight, Ace to Five
+
+PokerStars Hand #188548657774: Tournament #2352963142, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:39:00 MSK [2018/07/09 18:39:00 ET]
+Table '2352963142 1' 6-max Seat #1 is the button
+Seat 1: DiggErr555 (2442 in chips)
+Seat 4: iPlay4Berte (540 in chips)
+Seat 5: tykhe13 (18 in chips)
+DiggErr555: posts the ante 6
+iPlay4Berte: posts the ante 6
+tykhe13: posts the ante 6
+iPlay4Berte: posts small blind 30
+tykhe13: posts big blind 12 and is all-in
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Qc 4s]
+DiggErr555: raises 2406 to 2436 and is all-in
+iPlay4Berte: folds
+Uncalled bet (2406) returned to DiggErr555
+*** FLOP *** [2d Tc Td]
+*** TURN *** [2d Tc Td] [Js]
+*** RIVER *** [2d Tc Td Js] [4d]
+*** SHOW DOWN ***
+DiggErr555: shows [Qc 4s] (two pair, Tens and Fours)
+DiggErr555 collected 36 from side pot
+tykhe13: shows [5d Jd] (a flush, Jack high)
+tykhe13 collected 54 from main pot
+*** SUMMARY ***
+Total pot 90 Main pot 54. Side pot 36. | Rake 0
+Board [2d Tc Td Js 4d]
+Seat 1: DiggErr555 (button) showed [Qc 4s] and won (36) with two pair, Tens and Fours
+Seat 4: iPlay4Berte (small blind) folded before Flop
+Seat 5: tykhe13 (big blind) showed [5d Jd] and won (54) with a flush, Jack high
+
+PokerStars Hand #188548666158: Tournament #2352963142, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:39:14 MSK [2018/07/09 18:39:14 ET]
+Table '2352963142 1' 6-max Seat #4 is the button
+Seat 1: DiggErr555 (2442 in chips)
+Seat 4: iPlay4Berte (504 in chips)
+Seat 5: tykhe13 (54 in chips)
+DiggErr555: posts the ante 6
+iPlay4Berte: posts the ante 6
+tykhe13: posts the ante 6
+tykhe13: posts small blind 30
+DiggErr555: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [9h 6s]
+iPlay4Berte: folds
+tykhe13: calls 18 and is all-in
+Uncalled bet (12) returned to DiggErr555
+*** FLOP *** [5h 6c 9s]
+*** TURN *** [5h 6c 9s] [Qc]
+*** RIVER *** [5h 6c 9s Qc] [3d]
+*** SHOW DOWN ***
+tykhe13: shows [9d 7h] (a pair of Nines)
+DiggErr555: shows [9h 6s] (two pair, Nines and Sixes)
+DiggErr555 collected 114 from pot
+DiggErr555 wins the $4.79 bounty for eliminating tykhe13
+tykhe13 finished the tournament in 3rd place
+*** SUMMARY ***
+Total pot 114 | Rake 0
+Board [5h 6c 9s Qc 3d]
+Seat 1: DiggErr555 (big blind) showed [9h 6s] and won (114) with two pair, Nines and Sixes
+Seat 4: iPlay4Berte (button) folded before Flop (didn't bet)
+Seat 5: tykhe13 (small blind) showed [9d 7h] and lost with a pair of Nines
+
+PokerStars Hand #188548674820: Tournament #2352963142, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:39:29 MSK [2018/07/09 18:39:29 ET]
+Table '2352963142 1' 6-max Seat #1 is the button
+Seat 1: DiggErr555 (2502 in chips)
+Seat 4: iPlay4Berte (498 in chips)
+DiggErr555: posts the ante 6
+iPlay4Berte: posts the ante 6
+DiggErr555: posts small blind 30
+iPlay4Berte: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [3s Jc]
+DiggErr555: calls 30
+iPlay4Berte: raises 432 to 492 and is all-in
+DiggErr555: folds
+Uncalled bet (432) returned to iPlay4Berte
+iPlay4Berte collected 132 from pot
+iPlay4Berte: doesn't show hand
+*** SUMMARY ***
+Total pot 132 | Rake 0
+Seat 1: DiggErr555 (button) (small blind) folded before Flop
+Seat 4: iPlay4Berte (big blind) collected (132)
+
+PokerStars Hand #188548683091: Tournament #2352963142, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:39:43 MSK [2018/07/09 18:39:43 ET]
+Table '2352963142 1' 6-max Seat #4 is the button
+Seat 1: DiggErr555 (2436 in chips)
+Seat 4: iPlay4Berte (564 in chips)
+DiggErr555: posts the ante 8
+iPlay4Berte: posts the ante 8
+iPlay4Berte: posts small blind 40
+DiggErr555: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Qs 3s]
+iPlay4Berte: raises 476 to 556 and is all-in
+DiggErr555: calls 476
+*** FLOP *** [7s 9d Kh]
+*** TURN *** [7s 9d Kh] [4d]
+*** RIVER *** [7s 9d Kh 4d] [4c]
+*** SHOW DOWN ***
+DiggErr555: shows [Qs 3s] (a pair of Fours)
+iPlay4Berte: shows [9c 9s] (a full house, Nines full of Fours)
+iPlay4Berte collected 1128 from pot
+*** SUMMARY ***
+Total pot 1128 | Rake 0
+Board [7s 9d Kh 4d 4c]
+Seat 1: DiggErr555 (big blind) showed [Qs 3s] and lost with a pair of Fours
+Seat 4: iPlay4Berte (button) (small blind) showed [9c 9s] and won (1128) with a full house, Nines full of Fours
+
+PokerStars Hand #188548695124: Tournament #2352963142, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:40:04 MSK [2018/07/09 18:40:04 ET]
+Table '2352963142 1' 6-max Seat #1 is the button
+Seat 1: DiggErr555 (1872 in chips)
+Seat 4: iPlay4Berte (1128 in chips)
+DiggErr555: posts the ante 8
+iPlay4Berte: posts the ante 8
+DiggErr555: posts small blind 40
+iPlay4Berte: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [9h 7d]
+DiggErr555: calls 40
+iPlay4Berte: checks
+*** FLOP *** [Kh Kd Ts]
+iPlay4Berte: checks
+DiggErr555: bets 80
+iPlay4Berte: folds
+Uncalled bet (80) returned to DiggErr555
+DiggErr555 collected 176 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 176 | Rake 0
+Board [Kh Kd Ts]
+Seat 1: DiggErr555 (button) (small blind) collected (176)
+Seat 4: iPlay4Berte (big blind) folded on the Flop
+
+PokerStars Hand #188548704951: Tournament #2352963142, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:40:20 MSK [2018/07/09 18:40:20 ET]
+Table '2352963142 1' 6-max Seat #4 is the button
+Seat 1: DiggErr555 (1960 in chips)
+Seat 4: iPlay4Berte (1040 in chips)
+DiggErr555: posts the ante 8
+iPlay4Berte: posts the ante 8
+iPlay4Berte: posts small blind 40
+DiggErr555: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [9c Jc]
+iPlay4Berte: folds
+Uncalled bet (40) returned to DiggErr555
+DiggErr555 collected 96 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 96 | Rake 0
+Seat 1: DiggErr555 (big blind) collected (96)
+Seat 4: iPlay4Berte (button) (small blind) folded before Flop
+
+PokerStars Hand #188548707159: Tournament #2352963142, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:40:24 MSK [2018/07/09 18:40:24 ET]
+Table '2352963142 1' 6-max Seat #1 is the button
+Seat 1: DiggErr555 (2008 in chips)
+Seat 4: iPlay4Berte (992 in chips)
+DiggErr555: posts the ante 8
+iPlay4Berte: posts the ante 8
+DiggErr555: posts small blind 40
+iPlay4Berte: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Tc 3c]
+DiggErr555: calls 40
+iPlay4Berte: checks
+*** FLOP *** [5h 6d 2d]
+iPlay4Berte: checks
+DiggErr555: checks
+*** TURN *** [5h 6d 2d] [2c]
+iPlay4Berte: checks
+DiggErr555: bets 80
+iPlay4Berte: calls 80
+*** RIVER *** [5h 6d 2d 2c] [8c]
+iPlay4Berte: checks
+DiggErr555: checks
+*** SHOW DOWN ***
+iPlay4Berte: shows [6c 3h] (two pair, Sixes and Deuces)
+DiggErr555: mucks hand
+iPlay4Berte collected 336 from pot
+*** SUMMARY ***
+Total pot 336 | Rake 0
+Board [5h 6d 2d 2c 8c]
+Seat 1: DiggErr555 (button) (small blind) mucked [Tc 3c]
+Seat 4: iPlay4Berte (big blind) showed [6c 3h] and won (336) with two pair, Sixes and Deuces
+
+PokerStars Hand #188548719769: Tournament #2352963142, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:40:46 MSK [2018/07/09 18:40:46 ET]
+Table '2352963142 1' 6-max Seat #4 is the button
+Seat 1: DiggErr555 (1840 in chips)
+Seat 4: iPlay4Berte (1160 in chips)
+DiggErr555: posts the ante 8
+iPlay4Berte: posts the ante 8
+iPlay4Berte: posts small blind 40
+DiggErr555: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Ks Jc]
+iPlay4Berte: folds
+Uncalled bet (40) returned to DiggErr555
+DiggErr555 collected 96 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 96 | Rake 0
+Seat 1: DiggErr555 (big blind) collected (96)
+Seat 4: iPlay4Berte (button) (small blind) folded before Flop
+
+PokerStars Hand #188548723880: Tournament #2352963142, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level VI (50/100) - 2018/07/10 1:40:52 MSK [2018/07/09 18:40:52 ET]
+Table '2352963142 1' 6-max Seat #1 is the button
+Seat 1: DiggErr555 (1888 in chips)
+Seat 4: iPlay4Berte (1112 in chips)
+DiggErr555: posts the ante 10
+iPlay4Berte: posts the ante 10
+DiggErr555: posts small blind 50
+iPlay4Berte: posts big blind 100
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Kd 7h]
+DiggErr555: raises 1778 to 1878 and is all-in
+iPlay4Berte: folds
+Uncalled bet (1778) returned to DiggErr555
+DiggErr555 collected 220 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 220 | Rake 0
+Seat 1: DiggErr555 (button) (small blind) collected (220)
+Seat 4: iPlay4Berte (big blind) folded before Flop
+
+PokerStars Hand #188548728446: Tournament #2352963142, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level VI (50/100) - 2018/07/10 1:41:00 MSK [2018/07/09 18:41:00 ET]
+Table '2352963142 1' 6-max Seat #4 is the button
+Seat 1: DiggErr555 (1998 in chips)
+Seat 4: iPlay4Berte (1002 in chips)
+DiggErr555: posts the ante 10
+iPlay4Berte: posts the ante 10
+iPlay4Berte: posts small blind 50
+DiggErr555: posts big blind 100
+*** HOLE CARDS ***
+Dealt to DiggErr555 [9s 6s]
+iPlay4Berte: folds
+Uncalled bet (50) returned to DiggErr555
+DiggErr555 collected 120 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 120 | Rake 0
+Seat 1: DiggErr555 (big blind) collected (120)
+Seat 4: iPlay4Berte (button) (small blind) folded before Flop
+
+PokerStars Hand #188548730728: Tournament #2352963142, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level VI (50/100) - 2018/07/10 1:41:04 MSK [2018/07/09 18:41:04 ET]
+Table '2352963142 1' 6-max Seat #1 is the button
+Seat 1: DiggErr555 (2058 in chips)
+Seat 4: iPlay4Berte (942 in chips)
+DiggErr555: posts the ante 10
+iPlay4Berte: posts the ante 10
+DiggErr555: posts small blind 50
+iPlay4Berte: posts big blind 100
+*** HOLE CARDS ***
+Dealt to DiggErr555 [3c 9c]
+DiggErr555: calls 50
+iPlay4Berte: checks
+*** FLOP *** [5d Tc Ts]
+iPlay4Berte: checks
+DiggErr555: bets 100
+iPlay4Berte: folds
+Uncalled bet (100) returned to DiggErr555
+DiggErr555 collected 220 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 220 | Rake 0
+Board [5d Tc Ts]
+Seat 1: DiggErr555 (button) (small blind) collected (220)
+Seat 4: iPlay4Berte (big blind) folded on the Flop
+
+PokerStars Hand #188548740352: Tournament #2352963142, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level VI (50/100) - 2018/07/10 1:41:21 MSK [2018/07/09 18:41:21 ET]
+Table '2352963142 1' 6-max Seat #4 is the button
+Seat 1: DiggErr555 (2168 in chips)
+Seat 4: iPlay4Berte (832 in chips)
+DiggErr555: posts the ante 10
+iPlay4Berte: posts the ante 10
+iPlay4Berte: posts small blind 50
+DiggErr555: posts big blind 100
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Qs 4c]
+iPlay4Berte: folds
+Uncalled bet (50) returned to DiggErr555
+DiggErr555 collected 120 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 120 | Rake 0
+Seat 1: DiggErr555 (big blind) collected (120)
+Seat 4: iPlay4Berte (button) (small blind) folded before Flop
+
+PokerStars Hand #188548743217: Tournament #2352963142, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level VI (50/100) - 2018/07/10 1:41:26 MSK [2018/07/09 18:41:26 ET]
+Table '2352963142 1' 6-max Seat #1 is the button
+Seat 1: DiggErr555 (2228 in chips)
+Seat 4: iPlay4Berte (772 in chips)
+DiggErr555: posts the ante 10
+iPlay4Berte: posts the ante 10
+DiggErr555: posts small blind 50
+iPlay4Berte: posts big blind 100
+*** HOLE CARDS ***
+Dealt to DiggErr555 [9h 9s]
+DiggErr555: raises 2118 to 2218 and is all-in
+iPlay4Berte: folds
+Uncalled bet (2118) returned to DiggErr555
+DiggErr555 collected 220 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 220 | Rake 0
+Seat 1: DiggErr555 (button) (small blind) collected (220)
+Seat 4: iPlay4Berte (big blind) folded before Flop
+
+PokerStars Hand #188548747210: Tournament #2352963142, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level VI (50/100) - 2018/07/10 1:41:32 MSK [2018/07/09 18:41:32 ET]
+Table '2352963142 1' 6-max Seat #4 is the button
+Seat 1: DiggErr555 (2338 in chips)
+Seat 4: iPlay4Berte (662 in chips)
+DiggErr555: posts the ante 10
+iPlay4Berte: posts the ante 10
+iPlay4Berte: posts small blind 50
+DiggErr555: posts big blind 100
+*** HOLE CARDS ***
+Dealt to DiggErr555 [9d 6h]
+iPlay4Berte: folds
+Uncalled bet (50) returned to DiggErr555
+DiggErr555 collected 120 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 120 | Rake 0
+Seat 1: DiggErr555 (big blind) collected (120)
+Seat 4: iPlay4Berte (button) (small blind) folded before Flop
+
+PokerStars Hand #188548751245: Tournament #2352963142, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level VII (60/120) - 2018/07/10 1:41:39 MSK [2018/07/09 18:41:39 ET]
+Table '2352963142 1' 6-max Seat #1 is the button
+Seat 1: DiggErr555 (2398 in chips)
+Seat 4: iPlay4Berte (602 in chips)
+DiggErr555: posts the ante 12
+iPlay4Berte: posts the ante 12
+DiggErr555: posts small blind 60
+iPlay4Berte: posts big blind 120
+*** HOLE CARDS ***
+Dealt to DiggErr555 [7s 9h]
+DiggErr555: raises 2266 to 2386 and is all-in
+iPlay4Berte: calls 470 and is all-in
+Uncalled bet (1796) returned to DiggErr555
+*** FLOP *** [Th 2c 4h]
+*** TURN *** [Th 2c 4h] [2d]
+*** RIVER *** [Th 2c 4h 2d] [Ad]
+*** SHOW DOWN ***
+iPlay4Berte: shows [7d 6s] (a pair of Deuces)
+DiggErr555: shows [7s 9h] (a pair of Deuces - Ace+Ten+Nine kicker)
+DiggErr555 collected 1204 from pot
+DiggErr555 wins the $4.79 bounty for eliminating iPlay4Berte
+iPlay4Berte finished the tournament in 2nd place and received $14.37.
+DiggErr555 wins the tournament and receives $14.37 - congratulations!
+*** SUMMARY ***
+Total pot 1204 | Rake 0
+Board [Th 2c 4h 2d Ad]
+Seat 1: DiggErr555 (button) (small blind) showed [7s 9h] and won (1204) with a pair of Deuces
+Seat 4: iPlay4Berte (big blind) showed [7d 6s] and lost with a pair of Deuces

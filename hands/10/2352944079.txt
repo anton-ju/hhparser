@@ -1,0 +1,163 @@
+
+
+PokerStars Hand #188547569070: Tournament #2352944079, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:09:13 MSK [2018/07/09 18:09:13 ET]
+Table '2352944079 1' 6-max Seat #1 is the button
+Seat 1: monteirooam (500 in chips)
+Seat 2: salppis (500 in chips)
+Seat 3: DiggErr555 (500 in chips)
+Seat 4: Luchok123 (500 in chips)
+Seat 5: Karagunis (500 in chips)
+Seat 6: MagXedin (500 in chips)
+monteirooam: posts the ante 2
+salppis: posts the ante 2
+DiggErr555: posts the ante 2
+Luchok123: posts the ante 2
+Karagunis: posts the ante 2
+MagXedin: posts the ante 2
+salppis: posts small blind 10
+DiggErr555: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [7c Jh]
+Luchok123: folds
+Karagunis: folds
+MagXedin: folds
+monteirooam: calls 20
+salppis: calls 10
+DiggErr555: checks
+*** FLOP *** [Kc 5h 6s]
+salppis: checks
+DiggErr555: checks
+monteirooam: bets 72
+salppis: calls 72
+DiggErr555: folds
+*** TURN *** [Kc 5h 6s] [3d]
+salppis: checks
+monteirooam: checks
+*** RIVER *** [Kc 5h 6s 3d] [8s]
+salppis: bets 406 and is all-in
+monteirooam: calls 406 and is all-in
+*** SHOW DOWN ***
+salppis: shows [Ah As] (a pair of Aces)
+monteirooam: shows [7d 8h] (a pair of Eights)
+salppis collected 1028 from pot
+salppis wins the $4.79 bounty for eliminating monteirooam
+monteirooam finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 1028 | Rake 0
+Board [Kc 5h 6s 3d 8s]
+Seat 1: monteirooam (button) showed [7d 8h] and lost with a pair of Eights
+Seat 2: salppis (small blind) showed [Ah As] and won (1028) with a pair of Aces
+Seat 3: DiggErr555 (big blind) folded on the Flop
+Seat 4: Luchok123 folded before Flop (didn't bet)
+Seat 5: Karagunis folded before Flop (didn't bet)
+Seat 6: MagXedin folded before Flop (didn't bet)
+
+PokerStars Hand #188547604900: Tournament #2352944079, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:10:09 MSK [2018/07/09 18:10:09 ET]
+Table '2352944079 1' 6-max Seat #2 is the button
+Seat 2: salppis (1028 in chips)
+Seat 3: DiggErr555 (478 in chips)
+Seat 4: Luchok123 (498 in chips)
+Seat 5: Karagunis (498 in chips)
+Seat 6: MagXedin (498 in chips)
+salppis: posts the ante 2
+DiggErr555: posts the ante 2
+Luchok123: posts the ante 2
+Karagunis: posts the ante 2
+MagXedin: posts the ante 2
+DiggErr555: posts small blind 10
+Luchok123: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [7s Ts]
+Karagunis: calls 20
+MagXedin: folds
+salppis: raises 1006 to 1026 and is all-in
+DiggErr555: folds
+Luchok123: folds
+Karagunis: folds
+Uncalled bet (1006) returned to salppis
+salppis collected 80 from pot
+salppis: doesn't show hand
+*** SUMMARY ***
+Total pot 80 | Rake 0
+Seat 2: salppis (button) collected (80)
+Seat 3: DiggErr555 (small blind) folded before Flop
+Seat 4: Luchok123 (big blind) folded before Flop
+Seat 5: Karagunis folded before Flop
+Seat 6: MagXedin folded before Flop (didn't bet)
+
+PokerStars Hand #188547617550: Tournament #2352944079, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:10:29 MSK [2018/07/09 18:10:29 ET]
+Table '2352944079 1' 6-max Seat #3 is the button
+Seat 2: salppis (1086 in chips)
+Seat 3: DiggErr555 (466 in chips)
+Seat 4: Luchok123 (476 in chips)
+Seat 5: Karagunis (476 in chips)
+Seat 6: MagXedin (496 in chips)
+salppis: posts the ante 2
+DiggErr555: posts the ante 2
+Luchok123: posts the ante 2
+Karagunis: posts the ante 2
+MagXedin: posts the ante 2
+Luchok123: posts small blind 10
+Karagunis: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Ks Jc]
+MagXedin: folds
+salppis: raises 30 to 50
+DiggErr555: folds
+Luchok123: folds
+Karagunis: calls 30
+*** FLOP *** [2c 8c 3d]
+Karagunis: checks
+salppis: bets 90
+Karagunis: folds
+Uncalled bet (90) returned to salppis
+salppis collected 120 from pot
+salppis: doesn't show hand
+*** SUMMARY ***
+Total pot 120 | Rake 0
+Board [2c 8c 3d]
+Seat 2: salppis collected (120)
+Seat 3: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 4: Luchok123 (small blind) folded before Flop
+Seat 5: Karagunis (big blind) folded on the Flop
+Seat 6: MagXedin folded before Flop (didn't bet)
+
+PokerStars Hand #188547642729: Tournament #2352944079, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:11:08 MSK [2018/07/09 18:11:08 ET]
+Table '2352944079 1' 6-max Seat #4 is the button
+Seat 2: salppis (1154 in chips)
+Seat 3: DiggErr555 (464 in chips)
+Seat 4: Luchok123 (464 in chips)
+Seat 5: Karagunis (424 in chips)
+Seat 6: MagXedin (494 in chips)
+salppis: posts the ante 3
+DiggErr555: posts the ante 3
+Luchok123: posts the ante 3
+Karagunis: posts the ante 3
+MagXedin: posts the ante 3
+Karagunis: posts small blind 15
+MagXedin: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [9c 9s]
+salppis: raises 1121 to 1151 and is all-in
+DiggErr555: calls 461 and is all-in
+Luchok123: folds
+Karagunis: folds
+MagXedin: folds
+Uncalled bet (690) returned to salppis
+*** FLOP *** [5h 4c 8d]
+*** TURN *** [5h 4c 8d] [5c]
+*** RIVER *** [5h 4c 8d 5c] [4h]
+*** SHOW DOWN ***
+salppis: shows [Tc Th] (two pair, Tens and Fives)
+DiggErr555: shows [9c 9s] (two pair, Nines and Fives)
+salppis collected 982 from pot
+salppis wins the $4.79 bounty for eliminating DiggErr555
+DiggErr555 finished the tournament in 5th place
+*** SUMMARY ***
+Total pot 982 | Rake 0
+Board [5h 4c 8d 5c 4h]
+Seat 2: salppis showed [Tc Th] and won (982) with two pair, Tens and Fives
+Seat 3: DiggErr555 showed [9c 9s] and lost with two pair, Nines and Fives
+Seat 4: Luchok123 (button) folded before Flop (didn't bet)
+Seat 5: Karagunis (small blind) folded before Flop
+Seat 6: MagXedin (big blind) folded before Flop

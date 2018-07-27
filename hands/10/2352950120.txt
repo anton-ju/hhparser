@@ -1,0 +1,1051 @@
+
+
+PokerStars Hand #188547941161: Tournament #2352950120, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:19:03 MSK [2018/07/09 18:19:03 ET]
+Table '2352950120 1' 6-max Seat #1 is the button
+Seat 1: valeron.vrn (500 in chips)
+Seat 2: 2Ran128 (500 in chips)
+Seat 3: Denisov V. (500 in chips)
+Seat 4: brieba (500 in chips)
+Seat 5: DiggErr555 (500 in chips)
+Seat 6: Dvornikovich (500 in chips)
+valeron.vrn: posts the ante 2
+2Ran128: posts the ante 2
+Denisov V.: posts the ante 2
+brieba: posts the ante 2
+DiggErr555: posts the ante 2
+Dvornikovich: posts the ante 2
+2Ran128: posts small blind 10
+Denisov V.: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [2c Ks]
+brieba: raises 20 to 40
+DiggErr555: folds
+Dvornikovich: calls 40
+valeron.vrn: calls 40
+2Ran128: folds
+Denisov V.: folds
+*** FLOP *** [Jc 7s 8h]
+brieba: checks
+Dvornikovich: checks
+valeron.vrn: checks
+*** TURN *** [Jc 7s 8h] [Ac]
+brieba: checks
+Dvornikovich: bets 40
+valeron.vrn: calls 40
+brieba: calls 40
+*** RIVER *** [Jc 7s 8h Ac] [3c]
+brieba: checks
+Dvornikovich: bets 40
+valeron.vrn: calls 40
+brieba: folds
+*** SHOW DOWN ***
+Dvornikovich: shows [Qh Ts] (high card Ace)
+valeron.vrn: shows [Td 7d] (a pair of Sevens)
+valeron.vrn collected 362 from pot
+*** SUMMARY ***
+Total pot 362 | Rake 0
+Board [Jc 7s 8h Ac 3c]
+Seat 1: valeron.vrn (button) showed [Td 7d] and won (362) with a pair of Sevens
+Seat 2: 2Ran128 (small blind) folded before Flop
+Seat 3: Denisov V. (big blind) folded before Flop
+Seat 4: brieba folded on the River
+Seat 5: DiggErr555 folded before Flop (didn't bet)
+Seat 6: Dvornikovich showed [Qh Ts] and lost with high card Ace
+
+PokerStars Hand #188547980708: Tournament #2352950120, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:20:07 MSK [2018/07/09 18:20:07 ET]
+Table '2352950120 1' 6-max Seat #2 is the button
+Seat 1: valeron.vrn (740 in chips)
+Seat 2: 2Ran128 (488 in chips)
+Seat 3: Denisov V. (478 in chips)
+Seat 4: brieba (418 in chips)
+Seat 5: DiggErr555 (498 in chips)
+Seat 6: Dvornikovich (378 in chips)
+valeron.vrn: posts the ante 2
+2Ran128: posts the ante 2
+Denisov V.: posts the ante 2
+brieba: posts the ante 2
+DiggErr555: posts the ante 2
+Dvornikovich: posts the ante 2
+Denisov V.: posts small blind 10
+brieba: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6s 9c]
+DiggErr555: folds
+Dvornikovich: folds
+valeron.vrn: calls 20
+2Ran128: folds
+Denisov V.: folds
+brieba: checks
+*** FLOP *** [2h 9s 8h]
+brieba: checks
+valeron.vrn: checks
+*** TURN *** [2h 9s 8h] [3s]
+brieba: checks
+valeron.vrn: checks
+*** RIVER *** [2h 9s 8h 3s] [3h]
+brieba: checks
+valeron.vrn: bets 60
+brieba: calls 60
+*** SHOW DOWN ***
+valeron.vrn: shows [4c Kh] (a pair of Threes)
+brieba: mucks hand
+valeron.vrn collected 182 from pot
+*** SUMMARY ***
+Total pot 182 | Rake 0
+Board [2h 9s 8h 3s 3h]
+Seat 1: valeron.vrn showed [4c Kh] and won (182) with a pair of Threes
+Seat 2: 2Ran128 (button) folded before Flop (didn't bet)
+Seat 3: Denisov V. (small blind) folded before Flop
+Seat 4: brieba (big blind) mucked [7d Qh]
+Seat 5: DiggErr555 folded before Flop (didn't bet)
+Seat 6: Dvornikovich folded before Flop (didn't bet)
+
+PokerStars Hand #188547997580: Tournament #2352950120, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:20:35 MSK [2018/07/09 18:20:35 ET]
+Table '2352950120 1' 6-max Seat #3 is the button
+Seat 1: valeron.vrn (840 in chips)
+Seat 2: 2Ran128 (486 in chips)
+Seat 3: Denisov V. (466 in chips)
+Seat 4: brieba (336 in chips)
+Seat 5: DiggErr555 (496 in chips)
+Seat 6: Dvornikovich (376 in chips)
+valeron.vrn: posts the ante 2
+2Ran128: posts the ante 2
+Denisov V.: posts the ante 2
+brieba: posts the ante 2
+DiggErr555: posts the ante 2
+Dvornikovich: posts the ante 2
+brieba: posts small blind 10
+DiggErr555: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6c 7h]
+Dvornikovich: raises 20 to 40
+valeron.vrn: calls 40
+2Ran128: folds
+Denisov V.: folds
+brieba: raises 294 to 334 and is all-in
+DiggErr555: folds
+Dvornikovich: raises 40 to 374 and is all-in
+valeron.vrn: folds
+Uncalled bet (40) returned to Dvornikovich
+*** FLOP *** [6s 7d 3s]
+*** TURN *** [6s 7d 3s] [Kh]
+*** RIVER *** [6s 7d 3s Kh] [Jd]
+*** SHOW DOWN ***
+brieba: shows [Ac 8h] (high card Ace)
+Dvornikovich: shows [Js Ts] (a pair of Jacks)
+Dvornikovich collected 740 from pot
+Dvornikovich wins the $12.01 bounty for eliminating brieba
+brieba finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 740 | Rake 0
+Board [6s 7d 3s Kh Jd]
+Seat 1: valeron.vrn folded before Flop
+Seat 2: 2Ran128 folded before Flop (didn't bet)
+Seat 3: Denisov V. (button) folded before Flop (didn't bet)
+Seat 4: brieba (small blind) showed [Ac 8h] and lost with high card Ace
+Seat 5: DiggErr555 (big blind) folded before Flop
+Seat 6: Dvornikovich showed [Js Ts] and won (740) with a pair of Jacks
+
+PokerStars Hand #188548014301: Tournament #2352950120, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:21:02 MSK [2018/07/09 18:21:02 ET]
+Table '2352950120 1' 6-max Seat #5 is the button
+Seat 1: valeron.vrn (798 in chips)
+Seat 2: 2Ran128 (484 in chips)
+Seat 3: Denisov V. (464 in chips)
+Seat 5: DiggErr555 (474 in chips)
+Seat 6: Dvornikovich (780 in chips)
+valeron.vrn: posts the ante 3
+2Ran128: posts the ante 3
+Denisov V.: posts the ante 3
+DiggErr555: posts the ante 3
+Dvornikovich: posts the ante 3
+Dvornikovich: posts small blind 15
+valeron.vrn: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Jd Qd]
+2Ran128: folds
+Denisov V.: folds
+DiggErr555: raises 30 to 60
+Dvornikovich: folds
+valeron.vrn: raises 30 to 90
+DiggErr555: calls 30
+*** FLOP *** [4s Ah Td]
+valeron.vrn: bets 210
+DiggErr555: folds
+Uncalled bet (210) returned to valeron.vrn
+valeron.vrn collected 210 from pot
+valeron.vrn: doesn't show hand
+*** SUMMARY ***
+Total pot 210 | Rake 0
+Board [4s Ah Td]
+Seat 1: valeron.vrn (big blind) collected (210)
+Seat 2: 2Ran128 folded before Flop (didn't bet)
+Seat 3: Denisov V. folded before Flop (didn't bet)
+Seat 5: DiggErr555 (button) folded on the Flop
+Seat 6: Dvornikovich (small blind) folded before Flop
+
+PokerStars Hand #188548035937: Tournament #2352950120, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:21:37 MSK [2018/07/09 18:21:37 ET]
+Table '2352950120 1' 6-max Seat #6 is the button
+Seat 1: valeron.vrn (915 in chips)
+Seat 2: 2Ran128 (481 in chips)
+Seat 3: Denisov V. (461 in chips)
+Seat 5: DiggErr555 (381 in chips)
+Seat 6: Dvornikovich (762 in chips)
+valeron.vrn: posts the ante 3
+2Ran128: posts the ante 3
+Denisov V.: posts the ante 3
+DiggErr555: posts the ante 3
+Dvornikovich: posts the ante 3
+valeron.vrn: posts small blind 15
+2Ran128: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Jd 8h]
+Denisov V.: raises 428 to 458 and is all-in
+DiggErr555: folds
+Dvornikovich: folds
+valeron.vrn: folds
+2Ran128: folds
+Uncalled bet (428) returned to Denisov V.
+Denisov V. collected 90 from pot
+Denisov V.: doesn't show hand
+*** SUMMARY ***
+Total pot 90 | Rake 0
+Seat 1: valeron.vrn (small blind) folded before Flop
+Seat 2: 2Ran128 (big blind) folded before Flop
+Seat 3: Denisov V. collected (90)
+Seat 5: DiggErr555 folded before Flop (didn't bet)
+Seat 6: Dvornikovich (button) folded before Flop (didn't bet)
+
+PokerStars Hand #188548043594: Tournament #2352950120, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:21:50 MSK [2018/07/09 18:21:50 ET]
+Table '2352950120 1' 6-max Seat #1 is the button
+Seat 1: valeron.vrn (897 in chips)
+Seat 2: 2Ran128 (448 in chips)
+Seat 3: Denisov V. (518 in chips)
+Seat 5: DiggErr555 (378 in chips)
+Seat 6: Dvornikovich (759 in chips)
+valeron.vrn: posts the ante 3
+2Ran128: posts the ante 3
+Denisov V.: posts the ante 3
+DiggErr555: posts the ante 3
+Dvornikovich: posts the ante 3
+2Ran128: posts small blind 15
+Denisov V.: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Th Ac]
+DiggErr555: raises 345 to 375 and is all-in
+Dvornikovich: folds
+valeron.vrn: calls 375
+2Ran128: folds
+Denisov V.: folds
+*** FLOP *** [As 2s 4d]
+*** TURN *** [As 2s 4d] [6h]
+*** RIVER *** [As 2s 4d 6h] [Kc]
+*** SHOW DOWN ***
+DiggErr555: shows [Th Ac] (a pair of Aces)
+valeron.vrn: shows [Ah 7c] (a pair of Aces - lower kicker)
+DiggErr555 collected 810 from pot
+*** SUMMARY ***
+Total pot 810 | Rake 0
+Board [As 2s 4d 6h Kc]
+Seat 1: valeron.vrn (button) showed [Ah 7c] and lost with a pair of Aces
+Seat 2: 2Ran128 (small blind) folded before Flop
+Seat 3: Denisov V. (big blind) folded before Flop
+Seat 5: DiggErr555 showed [Th Ac] and won (810) with a pair of Aces
+Seat 6: Dvornikovich folded before Flop (didn't bet)
+
+PokerStars Hand #188548066226: Tournament #2352950120, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:22:27 MSK [2018/07/09 18:22:27 ET]
+Table '2352950120 1' 6-max Seat #2 is the button
+Seat 1: valeron.vrn (519 in chips)
+Seat 2: 2Ran128 (430 in chips)
+Seat 3: Denisov V. (485 in chips)
+Seat 5: DiggErr555 (810 in chips)
+Seat 6: Dvornikovich (756 in chips)
+valeron.vrn: posts the ante 3
+2Ran128: posts the ante 3
+Denisov V.: posts the ante 3
+DiggErr555: posts the ante 3
+Dvornikovich: posts the ante 3
+Denisov V.: posts small blind 15
+DiggErr555: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [8s 2c]
+Dvornikovich: folds
+valeron.vrn: raises 30 to 60
+2Ran128: folds
+Denisov V.: folds
+DiggErr555: folds
+Uncalled bet (30) returned to valeron.vrn
+valeron.vrn collected 90 from pot
+valeron.vrn: doesn't show hand
+*** SUMMARY ***
+Total pot 90 | Rake 0
+Seat 1: valeron.vrn collected (90)
+Seat 2: 2Ran128 (button) folded before Flop (didn't bet)
+Seat 3: Denisov V. (small blind) folded before Flop
+Seat 5: DiggErr555 (big blind) folded before Flop
+Seat 6: Dvornikovich folded before Flop (didn't bet)
+
+PokerStars Hand #188548077156: Tournament #2352950120, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:22:45 MSK [2018/07/09 18:22:45 ET]
+Table '2352950120 1' 6-max Seat #3 is the button
+Seat 1: valeron.vrn (576 in chips)
+Seat 2: 2Ran128 (427 in chips)
+Seat 3: Denisov V. (467 in chips)
+Seat 5: DiggErr555 (777 in chips)
+Seat 6: Dvornikovich (753 in chips)
+valeron.vrn: posts the ante 4
+2Ran128: posts the ante 4
+Denisov V.: posts the ante 4
+DiggErr555: posts the ante 4
+Dvornikovich: posts the ante 4
+DiggErr555: posts small blind 20
+Dvornikovich: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Tc 3d]
+valeron.vrn: raises 40 to 80
+2Ran128: folds
+Denisov V.: folds
+DiggErr555: folds
+Dvornikovich: folds
+Uncalled bet (40) returned to valeron.vrn
+valeron.vrn collected 120 from pot
+valeron.vrn: doesn't show hand
+*** SUMMARY ***
+Total pot 120 | Rake 0
+Seat 1: valeron.vrn collected (120)
+Seat 2: 2Ran128 folded before Flop (didn't bet)
+Seat 3: Denisov V. (button) folded before Flop (didn't bet)
+Seat 5: DiggErr555 (small blind) folded before Flop
+Seat 6: Dvornikovich (big blind) folded before Flop
+
+PokerStars Hand #188548085725: Tournament #2352950120, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:22:59 MSK [2018/07/09 18:22:59 ET]
+Table '2352950120 1' 6-max Seat #5 is the button
+Seat 1: valeron.vrn (652 in chips)
+Seat 2: 2Ran128 (423 in chips)
+Seat 3: Denisov V. (463 in chips)
+Seat 5: DiggErr555 (753 in chips)
+Seat 6: Dvornikovich (709 in chips)
+valeron.vrn: posts the ante 4
+2Ran128: posts the ante 4
+Denisov V.: posts the ante 4
+DiggErr555: posts the ante 4
+Dvornikovich: posts the ante 4
+Dvornikovich: posts small blind 20
+valeron.vrn: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [8d 5d]
+2Ran128: folds
+Denisov V.: raises 419 to 459 and is all-in
+DiggErr555: folds
+Dvornikovich: calls 439
+valeron.vrn: folds
+*** FLOP *** [3h 9s 3s]
+*** TURN *** [3h 9s 3s] [Qh]
+*** RIVER *** [3h 9s 3s Qh] [Kh]
+*** SHOW DOWN ***
+Dvornikovich: shows [7d 7h] (two pair, Sevens and Threes)
+Denisov V.: shows [Ac 8h] (a pair of Threes)
+Dvornikovich collected 978 from pot
+Dvornikovich wins the $12.01 bounty for eliminating Denisov V.
+Denisov V. finished the tournament in 5th place
+*** SUMMARY ***
+Total pot 978 | Rake 0
+Board [3h 9s 3s Qh Kh]
+Seat 1: valeron.vrn (big blind) folded before Flop
+Seat 2: 2Ran128 folded before Flop (didn't bet)
+Seat 3: Denisov V. showed [Ac 8h] and lost with a pair of Threes
+Seat 5: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 6: Dvornikovich (small blind) showed [7d 7h] and won (978) with two pair, Sevens and Threes
+
+PokerStars Hand #188548100267: Tournament #2352950120, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:23:23 MSK [2018/07/09 18:23:23 ET]
+Table '2352950120 1' 6-max Seat #6 is the button
+Seat 1: valeron.vrn (608 in chips)
+Seat 2: 2Ran128 (419 in chips)
+Seat 5: DiggErr555 (749 in chips)
+Seat 6: Dvornikovich (1224 in chips)
+valeron.vrn: posts the ante 4
+2Ran128: posts the ante 4
+DiggErr555: posts the ante 4
+Dvornikovich: posts the ante 4
+valeron.vrn: posts small blind 20
+2Ran128: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [7c 6d]
+DiggErr555: folds
+Dvornikovich: raises 40 to 80
+valeron.vrn: calls 60
+2Ran128: folds
+*** FLOP *** [4c 6h 8h]
+valeron.vrn: bets 40
+Dvornikovich: calls 40
+*** TURN *** [4c 6h 8h] [7d]
+valeron.vrn: bets 40
+Dvornikovich: raises 40 to 80
+valeron.vrn: calls 40
+*** RIVER *** [4c 6h 8h 7d] [Qc]
+valeron.vrn: checks
+Dvornikovich: bets 440
+valeron.vrn: folds
+Uncalled bet (440) returned to Dvornikovich
+Dvornikovich collected 456 from pot
+Dvornikovich: doesn't show hand
+*** SUMMARY ***
+Total pot 456 | Rake 0
+Board [4c 6h 8h 7d Qc]
+Seat 1: valeron.vrn (small blind) folded on the River
+Seat 2: 2Ran128 (big blind) folded before Flop
+Seat 5: DiggErr555 folded before Flop (didn't bet)
+Seat 6: Dvornikovich (button) collected (456)
+
+PokerStars Hand #188548139810: Tournament #2352950120, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:24:29 MSK [2018/07/09 18:24:29 ET]
+Table '2352950120 1' 6-max Seat #1 is the button
+Seat 1: valeron.vrn (404 in chips)
+Seat 2: 2Ran128 (375 in chips)
+Seat 5: DiggErr555 (745 in chips)
+Seat 6: Dvornikovich (1476 in chips)
+valeron.vrn: posts the ante 4
+2Ran128: posts the ante 4
+DiggErr555: posts the ante 4
+Dvornikovich: posts the ante 4
+2Ran128: posts small blind 20
+DiggErr555: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Jd 8c]
+Dvornikovich: raises 40 to 80
+valeron.vrn: raises 40 to 120
+2Ran128: folds
+DiggErr555: folds
+Dvornikovich: calls 40
+*** FLOP *** [4s 3c 8s]
+Dvornikovich: bets 360
+valeron.vrn: calls 280 and is all-in
+Uncalled bet (80) returned to Dvornikovich
+*** TURN *** [4s 3c 8s] [9c]
+*** RIVER *** [4s 3c 8s 9c] [7s]
+*** SHOW DOWN ***
+Dvornikovich: shows [9h 5h] (a pair of Nines)
+valeron.vrn: shows [Kh Jc] (high card King)
+Dvornikovich collected 876 from pot
+Dvornikovich wins the $12.01 bounty for eliminating valeron.vrn
+valeron.vrn finished the tournament in 4th place
+*** SUMMARY ***
+Total pot 876 | Rake 0
+Board [4s 3c 8s 9c 7s]
+Seat 1: valeron.vrn (button) showed [Kh Jc] and lost with high card King
+Seat 2: 2Ran128 (small blind) folded before Flop
+Seat 5: DiggErr555 (big blind) folded before Flop
+Seat 6: Dvornikovich showed [9h 5h] and won (876) with a pair of Nines
+
+PokerStars Hand #188548160293: Tournament #2352950120, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:25:03 MSK [2018/07/09 18:25:03 ET]
+Table '2352950120 1' 6-max Seat #2 is the button
+Seat 2: 2Ran128 (351 in chips)
+Seat 5: DiggErr555 (701 in chips)
+Seat 6: Dvornikovich (1948 in chips)
+2Ran128: posts the ante 6
+DiggErr555: posts the ante 6
+Dvornikovich: posts the ante 6
+DiggErr555: posts small blind 30
+Dvornikovich: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Kd 6c]
+2Ran128: folds
+DiggErr555: folds
+Uncalled bet (30) returned to Dvornikovich
+Dvornikovich collected 78 from pot
+Dvornikovich: doesn't show hand
+*** SUMMARY ***
+Total pot 78 | Rake 0
+Seat 2: 2Ran128 (button) folded before Flop (didn't bet)
+Seat 5: DiggErr555 (small blind) folded before Flop
+Seat 6: Dvornikovich (big blind) collected (78)
+
+PokerStars Hand #188548167837: Tournament #2352950120, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:25:16 MSK [2018/07/09 18:25:16 ET]
+Table '2352950120 1' 6-max Seat #5 is the button
+Seat 2: 2Ran128 (345 in chips)
+Seat 5: DiggErr555 (665 in chips)
+Seat 6: Dvornikovich (1990 in chips)
+2Ran128: posts the ante 6
+DiggErr555: posts the ante 6
+Dvornikovich: posts the ante 6
+Dvornikovich: posts small blind 30
+2Ran128: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Kc 7h]
+DiggErr555: folds
+Dvornikovich: raises 60 to 120
+2Ran128: raises 219 to 339 and is all-in
+Dvornikovich: calls 219
+*** FLOP *** [5d Jc 7s]
+*** TURN *** [5d Jc 7s] [3c]
+*** RIVER *** [5d Jc 7s 3c] [7c]
+*** SHOW DOWN ***
+Dvornikovich: shows [Ks 6h] (a pair of Sevens)
+2Ran128: shows [2h Ad] (a pair of Sevens - Ace kicker)
+2Ran128 collected 696 from pot
+*** SUMMARY ***
+Total pot 696 | Rake 0
+Board [5d Jc 7s 3c 7c]
+Seat 2: 2Ran128 (big blind) showed [2h Ad] and won (696) with a pair of Sevens
+Seat 5: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 6: Dvornikovich (small blind) showed [Ks 6h] and lost with a pair of Sevens
+
+PokerStars Hand #188548181873: Tournament #2352950120, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:25:39 MSK [2018/07/09 18:25:39 ET]
+Table '2352950120 1' 6-max Seat #6 is the button
+Seat 2: 2Ran128 (696 in chips)
+Seat 5: DiggErr555 (659 in chips)
+Seat 6: Dvornikovich (1645 in chips)
+2Ran128: posts the ante 6
+DiggErr555: posts the ante 6
+Dvornikovich: posts the ante 6
+2Ran128: posts small blind 30
+DiggErr555: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [8c Qh]
+Dvornikovich: folds
+2Ran128: raises 630 to 690 and is all-in
+DiggErr555: folds
+Uncalled bet (630) returned to 2Ran128
+2Ran128 collected 138 from pot
+*** SUMMARY ***
+Total pot 138 | Rake 0
+Seat 2: 2Ran128 (small blind) collected (138)
+Seat 5: DiggErr555 (big blind) folded before Flop
+Seat 6: Dvornikovich (button) folded before Flop (didn't bet)
+
+PokerStars Hand #188548186471: Tournament #2352950120, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:25:47 MSK [2018/07/09 18:25:47 ET]
+Table '2352950120 1' 6-max Seat #2 is the button
+Seat 2: 2Ran128 (768 in chips)
+Seat 5: DiggErr555 (593 in chips)
+Seat 6: Dvornikovich (1639 in chips)
+2Ran128: posts the ante 6
+DiggErr555: posts the ante 6
+Dvornikovich: posts the ante 6
+DiggErr555: posts small blind 30
+Dvornikovich: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Qc 6c]
+2Ran128: raises 702 to 762 and is all-in
+DiggErr555: folds
+Dvornikovich: calls 702
+*** FLOP *** [Ac 9d Ks]
+*** TURN *** [Ac 9d Ks] [2s]
+*** RIVER *** [Ac 9d Ks 2s] [Kh]
+*** SHOW DOWN ***
+Dvornikovich: shows [4s 4h] (two pair, Kings and Fours)
+2Ran128: shows [Tc Ah] (two pair, Aces and Kings)
+2Ran128 collected 1572 from pot
+*** SUMMARY ***
+Total pot 1572 | Rake 0
+Board [Ac 9d Ks 2s Kh]
+Seat 2: 2Ran128 (button) showed [Tc Ah] and won (1572) with two pair, Aces and Kings
+Seat 5: DiggErr555 (small blind) folded before Flop
+Seat 6: Dvornikovich (big blind) showed [4s 4h] and lost with two pair, Kings and Fours
+
+PokerStars Hand #188548195797: Tournament #2352950120, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:26:02 MSK [2018/07/09 18:26:02 ET]
+Table '2352950120 1' 6-max Seat #5 is the button
+Seat 2: 2Ran128 (1572 in chips)
+Seat 5: DiggErr555 (557 in chips)
+Seat 6: Dvornikovich (871 in chips)
+2Ran128: posts the ante 6
+DiggErr555: posts the ante 6
+Dvornikovich: posts the ante 6
+Dvornikovich: posts small blind 30
+2Ran128: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [8c Qd]
+DiggErr555: folds
+Dvornikovich: folds
+Uncalled bet (30) returned to 2Ran128
+2Ran128 collected 78 from pot
+*** SUMMARY ***
+Total pot 78 | Rake 0
+Seat 2: 2Ran128 (big blind) collected (78)
+Seat 5: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 6: Dvornikovich (small blind) folded before Flop
+
+PokerStars Hand #188548206042: Tournament #2352950120, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:26:19 MSK [2018/07/09 18:26:19 ET]
+Table '2352950120 1' 6-max Seat #6 is the button
+Seat 2: 2Ran128 (1614 in chips)
+Seat 5: DiggErr555 (551 in chips)
+Seat 6: Dvornikovich (835 in chips)
+2Ran128: posts the ante 8
+DiggErr555: posts the ante 8
+Dvornikovich: posts the ante 8
+2Ran128: posts small blind 40
+DiggErr555: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [2s 3h]
+Dvornikovich: raises 80 to 160
+2Ran128: folds
+DiggErr555: folds
+Uncalled bet (80) returned to Dvornikovich
+Dvornikovich collected 224 from pot
+Dvornikovich: doesn't show hand
+*** SUMMARY ***
+Total pot 224 | Rake 0
+Seat 2: 2Ran128 (small blind) folded before Flop
+Seat 5: DiggErr555 (big blind) folded before Flop
+Seat 6: Dvornikovich (button) collected (224)
+
+PokerStars Hand #188548211454: Tournament #2352950120, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:26:28 MSK [2018/07/09 18:26:28 ET]
+Table '2352950120 1' 6-max Seat #2 is the button
+Seat 2: 2Ran128 (1566 in chips)
+Seat 5: DiggErr555 (463 in chips)
+Seat 6: Dvornikovich (971 in chips)
+2Ran128: posts the ante 8
+DiggErr555: posts the ante 8
+Dvornikovich: posts the ante 8
+DiggErr555: posts small blind 40
+Dvornikovich: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [5c 8d]
+2Ran128: folds
+DiggErr555: folds
+Uncalled bet (40) returned to Dvornikovich
+Dvornikovich collected 104 from pot
+Dvornikovich: doesn't show hand
+*** SUMMARY ***
+Total pot 104 | Rake 0
+Seat 2: 2Ran128 (button) folded before Flop (didn't bet)
+Seat 5: DiggErr555 (small blind) folded before Flop
+Seat 6: Dvornikovich (big blind) collected (104)
+
+PokerStars Hand #188548220499: Tournament #2352950120, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:26:43 MSK [2018/07/09 18:26:43 ET]
+Table '2352950120 1' 6-max Seat #5 is the button
+Seat 2: 2Ran128 (1558 in chips)
+Seat 5: DiggErr555 (415 in chips)
+Seat 6: Dvornikovich (1027 in chips)
+2Ran128: posts the ante 8
+DiggErr555: posts the ante 8
+Dvornikovich: posts the ante 8
+Dvornikovich: posts small blind 40
+2Ran128: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Ac 6c]
+DiggErr555: raises 327 to 407 and is all-in
+Dvornikovich: folds
+2Ran128: calls 327
+*** FLOP *** [7d 3d 7h]
+*** TURN *** [7d 3d 7h] [5s]
+*** RIVER *** [7d 3d 7h 5s] [Th]
+*** SHOW DOWN ***
+2Ran128: shows [8s 4s] (a pair of Sevens)
+DiggErr555: shows [Ac 6c] (a pair of Sevens - Ace kicker)
+DiggErr555 collected 878 from pot
+*** SUMMARY ***
+Total pot 878 | Rake 0
+Board [7d 3d 7h 5s Th]
+Seat 2: 2Ran128 (big blind) showed [8s 4s] and lost with a pair of Sevens
+Seat 5: DiggErr555 (button) showed [Ac 6c] and won (878) with a pair of Sevens
+Seat 6: Dvornikovich (small blind) folded before Flop
+
+PokerStars Hand #188548232653: Tournament #2352950120, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:27:04 MSK [2018/07/09 18:27:04 ET]
+Table '2352950120 1' 6-max Seat #6 is the button
+Seat 2: 2Ran128 (1143 in chips)
+Seat 5: DiggErr555 (878 in chips)
+Seat 6: Dvornikovich (979 in chips)
+2Ran128: posts the ante 8
+DiggErr555: posts the ante 8
+Dvornikovich: posts the ante 8
+2Ran128: posts small blind 40
+DiggErr555: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Js Kd]
+Dvornikovich: folds
+2Ran128: folds
+Uncalled bet (40) returned to DiggErr555
+DiggErr555 collected 104 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 104 | Rake 0
+Seat 2: 2Ran128 (small blind) folded before Flop
+Seat 5: DiggErr555 (big blind) collected (104)
+Seat 6: Dvornikovich (button) folded before Flop (didn't bet)
+
+PokerStars Hand #188548236930: Tournament #2352950120, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:27:11 MSK [2018/07/09 18:27:11 ET]
+Table '2352950120 1' 6-max Seat #2 is the button
+Seat 2: 2Ran128 (1095 in chips)
+Seat 5: DiggErr555 (934 in chips)
+Seat 6: Dvornikovich (971 in chips)
+2Ran128: posts the ante 8
+DiggErr555: posts the ante 8
+Dvornikovich: posts the ante 8
+DiggErr555: posts small blind 40
+Dvornikovich: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [9c 5d]
+2Ran128: folds
+DiggErr555: folds
+Uncalled bet (40) returned to Dvornikovich
+Dvornikovich collected 104 from pot
+Dvornikovich: doesn't show hand
+*** SUMMARY ***
+Total pot 104 | Rake 0
+Seat 2: 2Ran128 (button) folded before Flop (didn't bet)
+Seat 5: DiggErr555 (small blind) folded before Flop
+Seat 6: Dvornikovich (big blind) collected (104)
+
+PokerStars Hand #188548246533: Tournament #2352950120, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level VI (50/100) - 2018/07/10 1:27:27 MSK [2018/07/09 18:27:27 ET]
+Table '2352950120 1' 6-max Seat #5 is the button
+Seat 2: 2Ran128 (1087 in chips)
+Seat 5: DiggErr555 (886 in chips)
+Seat 6: Dvornikovich (1027 in chips)
+2Ran128: posts the ante 10
+DiggErr555: posts the ante 10
+Dvornikovich: posts the ante 10
+Dvornikovich: posts small blind 50
+2Ran128: posts big blind 100
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Jc 5c]
+DiggErr555: folds
+Dvornikovich: folds
+Uncalled bet (50) returned to 2Ran128
+2Ran128 collected 130 from pot
+*** SUMMARY ***
+Total pot 130 | Rake 0
+Seat 2: 2Ran128 (big blind) collected (130)
+Seat 5: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 6: Dvornikovich (small blind) folded before Flop
+
+PokerStars Hand #188548250988: Tournament #2352950120, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level VI (50/100) - 2018/07/10 1:27:35 MSK [2018/07/09 18:27:35 ET]
+Table '2352950120 1' 6-max Seat #6 is the button
+Seat 2: 2Ran128 (1157 in chips)
+Seat 5: DiggErr555 (876 in chips)
+Seat 6: Dvornikovich (967 in chips)
+2Ran128: posts the ante 10
+DiggErr555: posts the ante 10
+Dvornikovich: posts the ante 10
+2Ran128: posts small blind 50
+DiggErr555: posts big blind 100
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Jd 2d]
+Dvornikovich: folds
+2Ran128: folds
+Uncalled bet (50) returned to DiggErr555
+DiggErr555 collected 130 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 130 | Rake 0
+Seat 2: 2Ran128 (small blind) folded before Flop
+Seat 5: DiggErr555 (big blind) collected (130)
+Seat 6: Dvornikovich (button) folded before Flop (didn't bet)
+
+PokerStars Hand #188548258515: Tournament #2352950120, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level VI (50/100) - 2018/07/10 1:27:47 MSK [2018/07/09 18:27:47 ET]
+Table '2352950120 1' 6-max Seat #2 is the button
+Seat 2: 2Ran128 (1097 in chips)
+Seat 5: DiggErr555 (946 in chips)
+Seat 6: Dvornikovich (957 in chips)
+2Ran128: posts the ante 10
+DiggErr555: posts the ante 10
+Dvornikovich: posts the ante 10
+DiggErr555: posts small blind 50
+Dvornikovich: posts big blind 100
+*** HOLE CARDS ***
+Dealt to DiggErr555 [4s 8h]
+2Ran128: folds
+DiggErr555: folds
+Uncalled bet (50) returned to Dvornikovich
+Dvornikovich collected 130 from pot
+Dvornikovich: doesn't show hand
+*** SUMMARY ***
+Total pot 130 | Rake 0
+Seat 2: 2Ran128 (button) folded before Flop (didn't bet)
+Seat 5: DiggErr555 (small blind) folded before Flop
+Seat 6: Dvornikovich (big blind) collected (130)
+
+PokerStars Hand #188548263430: Tournament #2352950120, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level VI (50/100) - 2018/07/10 1:27:56 MSK [2018/07/09 18:27:56 ET]
+Table '2352950120 1' 6-max Seat #5 is the button
+Seat 2: 2Ran128 (1087 in chips)
+Seat 5: DiggErr555 (886 in chips)
+Seat 6: Dvornikovich (1027 in chips)
+2Ran128: posts the ante 10
+DiggErr555: posts the ante 10
+Dvornikovich: posts the ante 10
+Dvornikovich: posts small blind 50
+2Ran128: posts big blind 100
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6d 3c]
+DiggErr555: folds
+Dvornikovich: raises 917 to 1017 and is all-in
+2Ran128: folds
+Uncalled bet (917) returned to Dvornikovich
+Dvornikovich collected 230 from pot
+Dvornikovich: doesn't show hand
+*** SUMMARY ***
+Total pot 230 | Rake 0
+Seat 2: 2Ran128 (big blind) folded before Flop
+Seat 5: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 6: Dvornikovich (small blind) collected (230)
+
+PokerStars Hand #188548270945: Tournament #2352950120, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level VI (50/100) - 2018/07/10 1:28:08 MSK [2018/07/09 18:28:08 ET]
+Table '2352950120 1' 6-max Seat #6 is the button
+Seat 2: 2Ran128 (977 in chips)
+Seat 5: DiggErr555 (876 in chips)
+Seat 6: Dvornikovich (1147 in chips)
+2Ran128: posts the ante 10
+DiggErr555: posts the ante 10
+Dvornikovich: posts the ante 10
+2Ran128: posts small blind 50
+DiggErr555: posts big blind 100
+*** HOLE CARDS ***
+Dealt to DiggErr555 [8c Kc]
+Dvornikovich: calls 100
+2Ran128: calls 50
+DiggErr555: checks
+*** FLOP *** [3s Jd Kd]
+2Ran128: checks
+DiggErr555: checks
+Dvornikovich: checks
+*** TURN *** [3s Jd Kd] [Qs]
+2Ran128: checks
+DiggErr555: checks
+Dvornikovich: checks
+*** RIVER *** [3s Jd Kd Qs] [8d]
+2Ran128: checks
+DiggErr555: bets 115
+Dvornikovich: folds
+2Ran128: folds
+Uncalled bet (115) returned to DiggErr555
+DiggErr555 collected 330 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 330 | Rake 0
+Board [3s Jd Kd Qs 8d]
+Seat 2: 2Ran128 (small blind) folded on the River
+Seat 5: DiggErr555 (big blind) collected (330)
+Seat 6: Dvornikovich (button) folded on the River
+
+PokerStars Hand #188548295275: Tournament #2352950120, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level VI (50/100) - 2018/07/10 1:28:49 MSK [2018/07/09 18:28:49 ET]
+Table '2352950120 1' 6-max Seat #2 is the button
+Seat 2: 2Ran128 (867 in chips)
+Seat 5: DiggErr555 (1096 in chips)
+Seat 6: Dvornikovich (1037 in chips)
+2Ran128: posts the ante 10
+DiggErr555: posts the ante 10
+Dvornikovich: posts the ante 10
+DiggErr555: posts small blind 50
+Dvornikovich: posts big blind 100
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Jd Jc]
+2Ran128: raises 500 to 600
+DiggErr555: raises 486 to 1086 and is all-in
+Dvornikovich: folds
+2Ran128: calls 257 and is all-in
+Uncalled bet (229) returned to DiggErr555
+*** FLOP *** [3h 5h 9h]
+*** TURN *** [3h 5h 9h] [9s]
+*** RIVER *** [3h 5h 9h 9s] [2d]
+*** SHOW DOWN ***
+DiggErr555: shows [Jd Jc] (two pair, Jacks and Nines)
+2Ran128: shows [As 6d] (a pair of Nines)
+DiggErr555 collected 1844 from pot
+DiggErr555 wins the $12.01 bounty for eliminating 2Ran128
+2Ran128 finished the tournament in 3rd place
+*** SUMMARY ***
+Total pot 1844 | Rake 0
+Board [3h 5h 9h 9s 2d]
+Seat 2: 2Ran128 (button) showed [As 6d] and lost with a pair of Nines
+Seat 5: DiggErr555 (small blind) showed [Jd Jc] and won (1844) with two pair, Jacks and Nines
+Seat 6: Dvornikovich (big blind) folded before Flop
+
+PokerStars Hand #188548313108: Tournament #2352950120, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level VII (60/120) - 2018/07/10 1:29:19 MSK [2018/07/09 18:29:19 ET]
+Table '2352950120 1' 6-max Seat #6 is the button
+Seat 5: DiggErr555 (2073 in chips)
+Seat 6: Dvornikovich (927 in chips)
+DiggErr555: posts the ante 12
+Dvornikovich: posts the ante 12
+Dvornikovich: posts small blind 60
+DiggErr555: posts big blind 120
+*** HOLE CARDS ***
+Dealt to DiggErr555 [9h Tc]
+Dvornikovich: calls 60
+DiggErr555: raises 1941 to 2061 and is all-in
+Dvornikovich: calls 795 and is all-in
+Uncalled bet (1146) returned to DiggErr555
+*** FLOP *** [5s Qh Ac]
+*** TURN *** [5s Qh Ac] [Kd]
+*** RIVER *** [5s Qh Ac Kd] [Kh]
+*** SHOW DOWN ***
+DiggErr555: shows [9h Tc] (a pair of Kings)
+Dvornikovich: shows [Kc 3c] (three of a kind, Kings)
+Dvornikovich collected 1854 from pot
+*** SUMMARY ***
+Total pot 1854 | Rake 0
+Board [5s Qh Ac Kd Kh]
+Seat 5: DiggErr555 (big blind) showed [9h Tc] and lost with a pair of Kings
+Seat 6: Dvornikovich (button) (small blind) showed [Kc 3c] and won (1854) with three of a kind, Kings
+
+PokerStars Hand #188548322211: Tournament #2352950120, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level VII (60/120) - 2018/07/10 1:29:34 MSK [2018/07/09 18:29:34 ET]
+Table '2352950120 1' 6-max Seat #5 is the button
+Seat 5: DiggErr555 (1146 in chips)
+Seat 6: Dvornikovich (1854 in chips)
+DiggErr555: posts the ante 12
+Dvornikovich: posts the ante 12
+DiggErr555: posts small blind 60
+Dvornikovich: posts big blind 120
+*** HOLE CARDS ***
+Dealt to DiggErr555 [8s Qc]
+DiggErr555: calls 60
+Dvornikovich: checks
+*** FLOP *** [9d Ah Kc]
+Dvornikovich: checks
+DiggErr555: bets 120
+Dvornikovich: folds
+Uncalled bet (120) returned to DiggErr555
+DiggErr555 collected 264 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 264 | Rake 0
+Board [9d Ah Kc]
+Seat 5: DiggErr555 (button) (small blind) collected (264)
+Seat 6: Dvornikovich (big blind) folded on the Flop
+
+PokerStars Hand #188548330170: Tournament #2352950120, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level VII (60/120) - 2018/07/10 1:29:48 MSK [2018/07/09 18:29:48 ET]
+Table '2352950120 1' 6-max Seat #6 is the button
+Seat 5: DiggErr555 (1278 in chips)
+Seat 6: Dvornikovich (1722 in chips)
+DiggErr555: posts the ante 12
+Dvornikovich: posts the ante 12
+Dvornikovich: posts small blind 60
+DiggErr555: posts big blind 120
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6c 2c]
+Dvornikovich: raises 120 to 240
+DiggErr555: folds
+Uncalled bet (120) returned to Dvornikovich
+Dvornikovich collected 264 from pot
+Dvornikovich: doesn't show hand
+*** SUMMARY ***
+Total pot 264 | Rake 0
+Seat 5: DiggErr555 (big blind) folded before Flop
+Seat 6: Dvornikovich (button) (small blind) collected (264)
+
+PokerStars Hand #188548333796: Tournament #2352950120, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level VII (60/120) - 2018/07/10 1:29:54 MSK [2018/07/09 18:29:54 ET]
+Table '2352950120 1' 6-max Seat #5 is the button
+Seat 5: DiggErr555 (1146 in chips)
+Seat 6: Dvornikovich (1854 in chips)
+DiggErr555: posts the ante 12
+Dvornikovich: posts the ante 12
+DiggErr555: posts small blind 60
+Dvornikovich: posts big blind 120
+*** HOLE CARDS ***
+Dealt to DiggErr555 [4h 2s]
+DiggErr555: folds
+Uncalled bet (60) returned to Dvornikovich
+Dvornikovich collected 144 from pot
+Dvornikovich: doesn't show hand
+*** SUMMARY ***
+Total pot 144 | Rake 0
+Seat 5: DiggErr555 (button) (small blind) folded before Flop
+Seat 6: Dvornikovich (big blind) collected (144)
+
+PokerStars Hand #188548339154: Tournament #2352950120, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level VII (60/120) - 2018/07/10 1:30:03 MSK [2018/07/09 18:30:03 ET]
+Table '2352950120 1' 6-max Seat #6 is the button
+Seat 5: DiggErr555 (1074 in chips)
+Seat 6: Dvornikovich (1926 in chips)
+DiggErr555: posts the ante 12
+Dvornikovich: posts the ante 12
+Dvornikovich: posts small blind 60
+DiggErr555: posts big blind 120
+*** HOLE CARDS ***
+Dealt to DiggErr555 [5d 6c]
+Dvornikovich: raises 120 to 240
+DiggErr555: folds
+Uncalled bet (120) returned to Dvornikovich
+Dvornikovich collected 264 from pot
+Dvornikovich: doesn't show hand
+*** SUMMARY ***
+Total pot 264 | Rake 0
+Seat 5: DiggErr555 (big blind) folded before Flop
+Seat 6: Dvornikovich (button) (small blind) collected (264)
+
+PokerStars Hand #188548342606: Tournament #2352950120, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level VII (60/120) - 2018/07/10 1:30:09 MSK [2018/07/09 18:30:09 ET]
+Table '2352950120 1' 6-max Seat #5 is the button
+Seat 5: DiggErr555 (942 in chips)
+Seat 6: Dvornikovich (2058 in chips)
+DiggErr555: posts the ante 12
+Dvornikovich: posts the ante 12
+DiggErr555: posts small blind 60
+Dvornikovich: posts big blind 120
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Kd 7h]
+DiggErr555: raises 810 to 930 and is all-in
+Dvornikovich: calls 810
+*** FLOP *** [9s Ks Ah]
+*** TURN *** [9s Ks Ah] [Jh]
+*** RIVER *** [9s Ks Ah Jh] [6s]
+*** SHOW DOWN ***
+Dvornikovich: shows [7s 8c] (high card Ace)
+DiggErr555: shows [Kd 7h] (a pair of Kings)
+DiggErr555 collected 1884 from pot
+*** SUMMARY ***
+Total pot 1884 | Rake 0
+Board [9s Ks Ah Jh 6s]
+Seat 5: DiggErr555 (button) (small blind) showed [Kd 7h] and won (1884) with a pair of Kings
+Seat 6: Dvornikovich (big blind) showed [7s 8c] and lost with high card Ace
+
+PokerStars Hand #188548351709: Tournament #2352950120, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level VIII (75/150) - 2018/07/10 1:30:24 MSK [2018/07/09 18:30:24 ET]
+Table '2352950120 1' 6-max Seat #6 is the button
+Seat 5: DiggErr555 (1884 in chips)
+Seat 6: Dvornikovich (1116 in chips)
+DiggErr555: posts the ante 15
+Dvornikovich: posts the ante 15
+Dvornikovich: posts small blind 75
+DiggErr555: posts big blind 150
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Tc Jd]
+Dvornikovich: folds
+Uncalled bet (75) returned to DiggErr555
+DiggErr555 collected 180 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 180 | Rake 0
+Seat 5: DiggErr555 (big blind) collected (180)
+Seat 6: Dvornikovich (button) (small blind) folded before Flop
+
+PokerStars Hand #188548354429: Tournament #2352950120, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level VIII (75/150) - 2018/07/10 1:30:29 MSK [2018/07/09 18:30:29 ET]
+Table '2352950120 1' 6-max Seat #5 is the button
+Seat 5: DiggErr555 (1974 in chips)
+Seat 6: Dvornikovich (1026 in chips)
+DiggErr555: posts the ante 15
+Dvornikovich: posts the ante 15
+DiggErr555: posts small blind 75
+Dvornikovich: posts big blind 150
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Js 5h]
+DiggErr555: folds
+Uncalled bet (75) returned to Dvornikovich
+Dvornikovich collected 180 from pot
+Dvornikovich: doesn't show hand
+*** SUMMARY ***
+Total pot 180 | Rake 0
+Seat 5: DiggErr555 (button) (small blind) folded before Flop
+Seat 6: Dvornikovich (big blind) collected (180)
+
+PokerStars Hand #188548360048: Tournament #2352950120, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level VIII (75/150) - 2018/07/10 1:30:38 MSK [2018/07/09 18:30:38 ET]
+Table '2352950120 1' 6-max Seat #6 is the button
+Seat 5: DiggErr555 (1884 in chips)
+Seat 6: Dvornikovich (1116 in chips)
+DiggErr555: posts the ante 15
+Dvornikovich: posts the ante 15
+Dvornikovich: posts small blind 75
+DiggErr555: posts big blind 150
+*** HOLE CARDS ***
+Dealt to DiggErr555 [9c Kc]
+Dvornikovich: raises 150 to 300
+DiggErr555: raises 1569 to 1869 and is all-in
+Dvornikovich: calls 801 and is all-in
+Uncalled bet (768) returned to DiggErr555
+*** FLOP *** [2d Kh 2s]
+*** TURN *** [2d Kh 2s] [8h]
+*** RIVER *** [2d Kh 2s 8h] [8c]
+*** SHOW DOWN ***
+DiggErr555: shows [9c Kc] (two pair, Kings and Eights)
+Dvornikovich: shows [7s 7d] (two pair, Eights and Sevens)
+DiggErr555 collected 2232 from pot
+DiggErr555 wins the $12.01 bounty for eliminating Dvornikovich
+Dvornikovich finished the tournament in 2nd place and received $36.03.
+DiggErr555 wins the tournament and receives $36.03 - congratulations!
+*** SUMMARY ***
+Total pot 2232 | Rake 0
+Board [2d Kh 2s 8h 8c]
+Seat 5: DiggErr555 (big blind) showed [9c Kc] and won (2232) with two pair, Kings and Eights
+Seat 6: Dvornikovich (button) (small blind) showed [7s 7d] and lost with two pair, Eights and Sevens

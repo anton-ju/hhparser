@@ -1,0 +1,441 @@
+
+
+PokerStars Hand #188548481936: Tournament #2352964387, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:34:03 MSK [2018/07/09 18:34:03 ET]
+Table '2352964387 1' 6-max Seat #1 is the button
+Seat 1: Ath.Bachmann (500 in chips)
+Seat 2: tykhe13 (500 in chips)
+Seat 3: HuGuinZ (500 in chips)
+Seat 4: Luchok123 (500 in chips)
+Seat 5: DiggErr555 (500 in chips)
+Seat 6: pokeracer87 (500 in chips)
+Ath.Bachmann: posts the ante 2
+tykhe13: posts the ante 2
+HuGuinZ: posts the ante 2
+Luchok123: posts the ante 2
+DiggErr555: posts the ante 2
+pokeracer87: posts the ante 2
+tykhe13: posts small blind 10
+HuGuinZ: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Ac 4h]
+Luchok123: folds
+DiggErr555: folds
+pokeracer87: folds
+Ath.Bachmann: raises 40 to 60
+tykhe13: folds
+HuGuinZ: folds
+Uncalled bet (40) returned to Ath.Bachmann
+Ath.Bachmann collected 62 from pot
+Ath.Bachmann: doesn't show hand
+*** SUMMARY ***
+Total pot 62 | Rake 0
+Seat 1: Ath.Bachmann (button) collected (62)
+Seat 2: tykhe13 (small blind) folded before Flop
+Seat 3: HuGuinZ (big blind) folded before Flop
+Seat 4: Luchok123 folded before Flop (didn't bet)
+Seat 5: DiggErr555 folded before Flop (didn't bet)
+Seat 6: pokeracer87 folded before Flop (didn't bet)
+
+PokerStars Hand #188548495587: Tournament #2352964387, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:34:26 MSK [2018/07/09 18:34:26 ET]
+Table '2352964387 1' 6-max Seat #2 is the button
+Seat 1: Ath.Bachmann (540 in chips)
+Seat 2: tykhe13 (488 in chips)
+Seat 3: HuGuinZ (478 in chips)
+Seat 4: Luchok123 (498 in chips)
+Seat 5: DiggErr555 (498 in chips)
+Seat 6: pokeracer87 (498 in chips)
+Ath.Bachmann: posts the ante 2
+tykhe13: posts the ante 2
+HuGuinZ: posts the ante 2
+Luchok123: posts the ante 2
+DiggErr555: posts the ante 2
+pokeracer87: posts the ante 2
+HuGuinZ: posts small blind 10
+Luchok123: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [5c Ts]
+DiggErr555: folds
+pokeracer87: folds
+Ath.Bachmann: folds
+tykhe13: folds
+HuGuinZ: folds
+Uncalled bet (10) returned to Luchok123
+Luchok123 collected 32 from pot
+Luchok123: doesn't show hand
+*** SUMMARY ***
+Total pot 32 | Rake 0
+Seat 1: Ath.Bachmann folded before Flop (didn't bet)
+Seat 2: tykhe13 (button) folded before Flop (didn't bet)
+Seat 3: HuGuinZ (small blind) folded before Flop
+Seat 4: Luchok123 (big blind) collected (32)
+Seat 5: DiggErr555 folded before Flop (didn't bet)
+Seat 6: pokeracer87 folded before Flop (didn't bet)
+
+PokerStars Hand #188548503977: Tournament #2352964387, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:34:40 MSK [2018/07/09 18:34:40 ET]
+Table '2352964387 1' 6-max Seat #3 is the button
+Seat 1: Ath.Bachmann (538 in chips)
+Seat 2: tykhe13 (486 in chips)
+Seat 3: HuGuinZ (466 in chips)
+Seat 4: Luchok123 (518 in chips)
+Seat 5: DiggErr555 (496 in chips)
+Seat 6: pokeracer87 (496 in chips)
+Ath.Bachmann: posts the ante 2
+tykhe13: posts the ante 2
+HuGuinZ: posts the ante 2
+Luchok123: posts the ante 2
+DiggErr555: posts the ante 2
+pokeracer87: posts the ante 2
+Luchok123: posts small blind 10
+DiggErr555: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [4c 5c]
+pokeracer87: folds
+Ath.Bachmann: raises 40 to 60
+tykhe13: folds
+HuGuinZ is disconnected
+HuGuinZ is connected
+HuGuinZ is disconnected
+HuGuinZ is connected
+HuGuinZ: raises 404 to 464 and is all-in
+Luchok123: folds
+DiggErr555: folds
+Ath.Bachmann: folds
+Uncalled bet (404) returned to HuGuinZ
+HuGuinZ collected 162 from pot
+*** SUMMARY ***
+Total pot 162 | Rake 0
+Seat 1: Ath.Bachmann folded before Flop
+Seat 2: tykhe13 folded before Flop (didn't bet)
+Seat 3: HuGuinZ (button) collected (162)
+Seat 4: Luchok123 (small blind) folded before Flop
+Seat 5: DiggErr555 (big blind) folded before Flop
+Seat 6: pokeracer87 folded before Flop (didn't bet)
+
+PokerStars Hand #188548543281: Tournament #2352964387, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:35:46 MSK [2018/07/09 18:35:46 ET]
+Table '2352964387 1' 6-max Seat #4 is the button
+Seat 1: Ath.Bachmann (476 in chips)
+Seat 2: tykhe13 (484 in chips)
+Seat 3: HuGuinZ (566 in chips)
+Seat 4: Luchok123 (506 in chips)
+Seat 5: DiggErr555 (474 in chips)
+Seat 6: pokeracer87 (494 in chips)
+Ath.Bachmann: posts the ante 3
+tykhe13: posts the ante 3
+HuGuinZ: posts the ante 3
+Luchok123: posts the ante 3
+DiggErr555: posts the ante 3
+pokeracer87: posts the ante 3
+DiggErr555: posts small blind 15
+pokeracer87: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Ks Kd]
+Ath.Bachmann: folds
+tykhe13: folds
+HuGuinZ: folds
+Luchok123: raises 473 to 503 and is all-in
+DiggErr555: calls 456 and is all-in
+pokeracer87: calls 461 and is all-in
+Uncalled bet (12) returned to Luchok123
+*** FLOP *** [6h 9c 2s]
+*** TURN *** [6h 9c 2s] [7c]
+*** RIVER *** [6h 9c 2s 7c] [7d]
+*** SHOW DOWN ***
+pokeracer87: shows [Ad Kc] (a pair of Sevens)
+Luchok123: shows [Qh Ac] (a pair of Sevens - lower kicker)
+pokeracer87 collected 40 from side pot
+DiggErr555: shows [Ks Kd] (two pair, Kings and Sevens)
+DiggErr555 collected 1431 from main pot
+*** SUMMARY ***
+Total pot 1471 Main pot 1431. Side pot 40. | Rake 0
+Board [6h 9c 2s 7c 7d]
+Seat 1: Ath.Bachmann folded before Flop (didn't bet)
+Seat 2: tykhe13 folded before Flop (didn't bet)
+Seat 3: HuGuinZ folded before Flop (didn't bet)
+Seat 4: Luchok123 (button) showed [Qh Ac] and lost with a pair of Sevens
+Seat 5: DiggErr555 (small blind) showed [Ks Kd] and won (1431) with two pair, Kings and Sevens
+Seat 6: pokeracer87 (big blind) showed [Ad Kc] and won (40) with a pair of Sevens
+
+PokerStars Hand #188548555587: Tournament #2352964387, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:36:07 MSK [2018/07/09 18:36:07 ET]
+Table '2352964387 1' 6-max Seat #5 is the button
+Seat 1: Ath.Bachmann (473 in chips)
+Seat 2: tykhe13 (481 in chips)
+Seat 3: HuGuinZ (563 in chips)
+Seat 4: Luchok123 (12 in chips)
+Seat 5: DiggErr555 (1431 in chips)
+Seat 6: pokeracer87 (40 in chips)
+Ath.Bachmann: posts the ante 3
+tykhe13: posts the ante 3
+HuGuinZ: posts the ante 3
+Luchok123: posts the ante 3
+DiggErr555: posts the ante 3
+pokeracer87: posts the ante 3
+pokeracer87: posts small blind 15
+Ath.Bachmann: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Ac 9s]
+tykhe13: folds
+HuGuinZ: folds
+Luchok123: calls 9 and is all-in
+DiggErr555: raises 1398 to 1428 and is all-in
+pokeracer87: calls 22 and is all-in
+Ath.Bachmann: calls 440 and is all-in
+Uncalled bet (958) returned to DiggErr555
+*** FLOP *** [Ad 3s 2d]
+*** TURN *** [Ad 3s 2d] [6s]
+*** RIVER *** [Ad 3s 2d 6s] [5c]
+*** SHOW DOWN ***
+Ath.Bachmann: shows [8h 9h] (high card Ace)
+DiggErr555: shows [Ac 9s] (a pair of Aces)
+DiggErr555 collected 866 from side pot-2
+pokeracer87: shows [Kd 2s] (a pair of Deuces)
+DiggErr555 collected 84 from side pot-1
+Luchok123: shows [5h Jd] (a pair of Fives)
+DiggErr555 collected 54 from main pot
+DiggErr555 wins the $4.79 bounty for eliminating Ath.Bachmann
+DiggErr555 wins the $4.79 bounty for eliminating Luchok123
+DiggErr555 wins the $4.79 bounty for eliminating pokeracer87
+Ath.Bachmann finished the tournament in 4th place
+pokeracer87 finished the tournament in 5th place
+Luchok123 finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 1004 Main pot 54. Side pot-1 84. Side pot-2 866. | Rake 0
+Board [Ad 3s 2d 6s 5c]
+Seat 1: Ath.Bachmann (big blind) showed [8h 9h] and lost with high card Ace
+Seat 2: tykhe13 folded before Flop (didn't bet)
+Seat 3: HuGuinZ folded before Flop (didn't bet)
+Seat 4: Luchok123 showed [5h Jd] and lost with a pair of Fives
+Seat 5: DiggErr555 (button) showed [Ac 9s] and won (1004) with a pair of Aces
+Seat 6: pokeracer87 (small blind) showed [Kd 2s] and lost with a pair of Deuces
+
+PokerStars Hand #188548579661: Tournament #2352964387, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:36:47 MSK [2018/07/09 18:36:47 ET]
+Table '2352964387 1' 6-max Seat #2 is the button
+Seat 2: tykhe13 (478 in chips)
+Seat 3: HuGuinZ (560 in chips)
+Seat 5: DiggErr555 (1962 in chips)
+tykhe13: posts the ante 3
+HuGuinZ: posts the ante 3
+DiggErr555: posts the ante 3
+HuGuinZ: posts small blind 15
+DiggErr555: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Jc 2c]
+tykhe13: folds
+HuGuinZ: folds
+Uncalled bet (15) returned to DiggErr555
+DiggErr555 collected 39 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 39 | Rake 0
+Seat 2: tykhe13 (button) folded before Flop (didn't bet)
+Seat 3: HuGuinZ (small blind) folded before Flop
+Seat 5: DiggErr555 (big blind) collected (39)
+
+PokerStars Hand #188548585038: Tournament #2352964387, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:36:56 MSK [2018/07/09 18:36:56 ET]
+Table '2352964387 1' 6-max Seat #3 is the button
+Seat 2: tykhe13 (475 in chips)
+Seat 3: HuGuinZ (542 in chips)
+Seat 5: DiggErr555 (1983 in chips)
+tykhe13: posts the ante 3
+HuGuinZ: posts the ante 3
+DiggErr555: posts the ante 3
+DiggErr555: posts small blind 15
+tykhe13: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [8c Kd]
+HuGuinZ: folds
+DiggErr555: raises 1950 to 1980 and is all-in
+tykhe13: folds
+Uncalled bet (1950) returned to DiggErr555
+DiggErr555 collected 69 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 69 | Rake 0
+Seat 2: tykhe13 (big blind) folded before Flop
+Seat 3: HuGuinZ (button) folded before Flop (didn't bet)
+Seat 5: DiggErr555 (small blind) collected (69)
+
+PokerStars Hand #188548595463: Tournament #2352964387, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:37:14 MSK [2018/07/09 18:37:14 ET]
+Table '2352964387 1' 6-max Seat #5 is the button
+Seat 2: tykhe13 (442 in chips)
+Seat 3: HuGuinZ (539 in chips)
+Seat 5: DiggErr555 (2019 in chips)
+tykhe13: posts the ante 4
+HuGuinZ: posts the ante 4
+DiggErr555: posts the ante 4
+tykhe13: posts small blind 20
+HuGuinZ: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [3s Ac]
+DiggErr555: raises 1975 to 2015 and is all-in
+tykhe13: folds
+HuGuinZ: folds
+Uncalled bet (1975) returned to DiggErr555
+DiggErr555 collected 112 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 112 | Rake 0
+Seat 2: tykhe13 (small blind) folded before Flop
+Seat 3: HuGuinZ (big blind) folded before Flop
+Seat 5: DiggErr555 (button) collected (112)
+
+PokerStars Hand #188548602173: Tournament #2352964387, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:37:26 MSK [2018/07/09 18:37:26 ET]
+Table '2352964387 1' 6-max Seat #2 is the button
+Seat 2: tykhe13 (418 in chips)
+Seat 3: HuGuinZ (495 in chips)
+Seat 5: DiggErr555 (2087 in chips)
+tykhe13: posts the ante 4
+HuGuinZ: posts the ante 4
+DiggErr555: posts the ante 4
+HuGuinZ: posts small blind 20
+DiggErr555: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [7d 9c]
+tykhe13: folds
+HuGuinZ: folds
+Uncalled bet (20) returned to DiggErr555
+DiggErr555 collected 52 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 52 | Rake 0
+Seat 2: tykhe13 (button) folded before Flop (didn't bet)
+Seat 3: HuGuinZ (small blind) folded before Flop
+Seat 5: DiggErr555 (big blind) collected (52)
+
+PokerStars Hand #188548605530: Tournament #2352964387, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:37:31 MSK [2018/07/09 18:37:31 ET]
+Table '2352964387 1' 6-max Seat #3 is the button
+Seat 2: tykhe13 (414 in chips)
+Seat 3: HuGuinZ (471 in chips)
+Seat 5: DiggErr555 (2115 in chips)
+tykhe13: posts the ante 4
+HuGuinZ: posts the ante 4
+DiggErr555: posts the ante 4
+DiggErr555: posts small blind 20
+tykhe13: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6d Td]
+HuGuinZ: folds
+DiggErr555: raises 2071 to 2111 and is all-in
+tykhe13: calls 370 and is all-in
+Uncalled bet (1701) returned to DiggErr555
+*** FLOP *** [Kc 6s Jc]
+*** TURN *** [Kc 6s Jc] [Kh]
+*** RIVER *** [Kc 6s Jc Kh] [4c]
+*** SHOW DOWN ***
+DiggErr555: shows [6d Td] (two pair, Kings and Sixes)
+tykhe13: shows [5h Ac] (a pair of Kings)
+DiggErr555 collected 832 from pot
+DiggErr555 wins the $4.79 bounty for eliminating tykhe13
+tykhe13 finished the tournament in 3rd place
+*** SUMMARY ***
+Total pot 832 | Rake 0
+Board [Kc 6s Jc Kh 4c]
+Seat 2: tykhe13 (big blind) showed [5h Ac] and lost with a pair of Kings
+Seat 3: HuGuinZ (button) folded before Flop (didn't bet)
+Seat 5: DiggErr555 (small blind) showed [6d Td] and won (832) with two pair, Kings and Sixes
+
+PokerStars Hand #188548618482: Tournament #2352964387, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:37:53 MSK [2018/07/09 18:37:53 ET]
+Table '2352964387 1' 6-max Seat #5 is the button
+Seat 3: HuGuinZ (467 in chips)
+Seat 5: DiggErr555 (2533 in chips)
+HuGuinZ: posts the ante 4
+DiggErr555: posts the ante 4
+DiggErr555: posts small blind 20
+HuGuinZ: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Qd 3h]
+DiggErr555: calls 20
+HuGuinZ: raises 423 to 463 and is all-in
+DiggErr555: folds
+Uncalled bet (423) returned to HuGuinZ
+HuGuinZ collected 88 from pot
+*** SUMMARY ***
+Total pot 88 | Rake 0
+Seat 3: HuGuinZ (big blind) collected (88)
+Seat 5: DiggErr555 (button) (small blind) folded before Flop
+
+PokerStars Hand #188548626424: Tournament #2352964387, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:38:06 MSK [2018/07/09 18:38:06 ET]
+Table '2352964387 1' 6-max Seat #3 is the button
+Seat 3: HuGuinZ (511 in chips)
+Seat 5: DiggErr555 (2489 in chips)
+HuGuinZ: posts the ante 6
+DiggErr555: posts the ante 6
+HuGuinZ: posts small blind 30
+DiggErr555: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Kh Qs]
+HuGuinZ: folds
+Uncalled bet (30) returned to DiggErr555
+DiggErr555 collected 72 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 72 | Rake 0
+Seat 3: HuGuinZ (button) (small blind) folded before Flop
+Seat 5: DiggErr555 (big blind) collected (72)
+
+PokerStars Hand #188548628824: Tournament #2352964387, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:38:10 MSK [2018/07/09 18:38:10 ET]
+Table '2352964387 1' 6-max Seat #5 is the button
+Seat 3: HuGuinZ (475 in chips)
+Seat 5: DiggErr555 (2525 in chips)
+HuGuinZ: posts the ante 6
+DiggErr555: posts the ante 6
+DiggErr555: posts small blind 30
+HuGuinZ: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6s 7h]
+DiggErr555: raises 2459 to 2519 and is all-in
+HuGuinZ: folds
+Uncalled bet (2459) returned to DiggErr555
+DiggErr555 collected 132 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 132 | Rake 0
+Seat 3: HuGuinZ (big blind) folded before Flop
+Seat 5: DiggErr555 (button) (small blind) collected (132)
+
+PokerStars Hand #188548634515: Tournament #2352964387, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:38:20 MSK [2018/07/09 18:38:20 ET]
+Table '2352964387 1' 6-max Seat #3 is the button
+Seat 3: HuGuinZ (409 in chips)
+Seat 5: DiggErr555 (2591 in chips)
+HuGuinZ: posts the ante 6
+DiggErr555: posts the ante 6
+HuGuinZ: posts small blind 30
+DiggErr555: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [9h 6h]
+HuGuinZ: folds
+Uncalled bet (30) returned to DiggErr555
+DiggErr555 collected 72 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 72 | Rake 0
+Seat 3: HuGuinZ (button) (small blind) folded before Flop
+Seat 5: DiggErr555 (big blind) collected (72)
+
+PokerStars Hand #188548636950: Tournament #2352964387, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:38:24 MSK [2018/07/09 18:38:24 ET]
+Table '2352964387 1' 6-max Seat #5 is the button
+Seat 3: HuGuinZ (373 in chips)
+Seat 5: DiggErr555 (2627 in chips)
+HuGuinZ: posts the ante 6
+DiggErr555: posts the ante 6
+DiggErr555: posts small blind 30
+HuGuinZ: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Jh 5s]
+DiggErr555: raises 2561 to 2621 and is all-in
+HuGuinZ: calls 307 and is all-in
+Uncalled bet (2254) returned to DiggErr555
+*** FLOP *** [6s Qh Qc]
+*** TURN *** [6s Qh Qc] [7h]
+*** RIVER *** [6s Qh Qc 7h] [Jd]
+*** SHOW DOWN ***
+HuGuinZ: shows [9c Th] (a pair of Queens)
+DiggErr555: shows [Jh 5s] (two pair, Queens and Jacks)
+DiggErr555 collected 746 from pot
+DiggErr555 wins the $4.79 bounty for eliminating HuGuinZ
+HuGuinZ finished the tournament in 2nd place and received $14.37.
+DiggErr555 wins the tournament and receives $14.37 - congratulations!
+*** SUMMARY ***
+Total pot 746 | Rake 0
+Board [6s Qh Qc 7h Jd]
+Seat 3: HuGuinZ (big blind) showed [9c Th] and lost with a pair of Queens
+Seat 5: DiggErr555 (button) (small blind) showed [Jh 5s] and won (746) with two pair, Queens and Jacks

@@ -1,0 +1,669 @@
+
+
+PokerStars Hand #188548383766: Tournament #2352962406, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:31:18 MSK [2018/07/09 18:31:18 ET]
+Table '2352962406 1' 6-max Seat #1 is the button
+Seat 1: Denisov V. (500 in chips)
+Seat 2: FERZ1979 (500 in chips)
+Seat 3: sabuco_2110 (500 in chips)
+Seat 4: Spaiki 11 (500 in chips)
+Seat 5: DiggErr555 (500 in chips)
+Seat 6: NL_Classic (500 in chips)
+Denisov V.: posts the ante 2
+FERZ1979: posts the ante 2
+sabuco_2110: posts the ante 2
+Spaiki 11: posts the ante 2
+DiggErr555: posts the ante 2
+NL_Classic: posts the ante 2
+FERZ1979: posts small blind 10
+sabuco_2110: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [8s Kd]
+Spaiki 11: calls 20
+DiggErr555: folds
+NL_Classic: folds
+Denisov V.: folds
+FERZ1979: calls 10
+sabuco_2110: raises 478 to 498 and is all-in
+Spaiki 11: folds
+FERZ1979: folds
+Uncalled bet (478) returned to sabuco_2110
+sabuco_2110 collected 72 from pot
+*** SUMMARY ***
+Total pot 72 | Rake 0
+Seat 1: Denisov V. (button) folded before Flop (didn't bet)
+Seat 2: FERZ1979 (small blind) folded before Flop
+Seat 3: sabuco_2110 (big blind) collected (72)
+Seat 4: Spaiki 11 folded before Flop
+Seat 5: DiggErr555 folded before Flop (didn't bet)
+Seat 6: NL_Classic folded before Flop (didn't bet)
+
+PokerStars Hand #188548401031: Tournament #2352962406, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:31:47 MSK [2018/07/09 18:31:47 ET]
+Table '2352962406 1' 6-max Seat #2 is the button
+Seat 1: Denisov V. (498 in chips)
+Seat 2: FERZ1979 (478 in chips)
+Seat 3: sabuco_2110 (550 in chips)
+Seat 4: Spaiki 11 (478 in chips)
+Seat 5: DiggErr555 (498 in chips)
+Seat 6: NL_Classic (498 in chips)
+Denisov V.: posts the ante 2
+FERZ1979: posts the ante 2
+sabuco_2110: posts the ante 2
+Spaiki 11: posts the ante 2
+DiggErr555: posts the ante 2
+NL_Classic: posts the ante 2
+sabuco_2110: posts small blind 10
+Spaiki 11: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [2d 6d]
+DiggErr555: folds
+NL_Classic: folds
+Denisov V.: folds
+FERZ1979: folds
+sabuco_2110: calls 10
+Spaiki 11: raises 20 to 40
+sabuco_2110: raises 508 to 548 and is all-in
+Spaiki 11: calls 436 and is all-in
+Uncalled bet (72) returned to sabuco_2110
+*** FLOP *** [2s 4d Qc]
+*** TURN *** [2s 4d Qc] [6h]
+*** RIVER *** [2s 4d Qc 6h] [5s]
+*** SHOW DOWN ***
+sabuco_2110: shows [Ts Kh] (high card King)
+Spaiki 11: shows [6s Ks] (a pair of Sixes)
+Spaiki 11 collected 964 from pot
+*** SUMMARY ***
+Total pot 964 | Rake 0
+Board [2s 4d Qc 6h 5s]
+Seat 1: Denisov V. folded before Flop (didn't bet)
+Seat 2: FERZ1979 (button) folded before Flop (didn't bet)
+Seat 3: sabuco_2110 (small blind) showed [Ts Kh] and lost with high card King
+Seat 4: Spaiki 11 (big blind) showed [6s Ks] and won (964) with a pair of Sixes
+Seat 5: DiggErr555 folded before Flop (didn't bet)
+Seat 6: NL_Classic folded before Flop (didn't bet)
+
+PokerStars Hand #188548430580: Tournament #2352962406, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:32:37 MSK [2018/07/09 18:32:37 ET]
+Table '2352962406 1' 6-max Seat #3 is the button
+Seat 1: Denisov V. (496 in chips)
+Seat 2: FERZ1979 (476 in chips)
+Seat 3: sabuco_2110 (72 in chips)
+Seat 4: Spaiki 11 (964 in chips)
+Seat 5: DiggErr555 (496 in chips)
+Seat 6: NL_Classic (496 in chips)
+Denisov V.: posts the ante 2
+FERZ1979: posts the ante 2
+sabuco_2110: posts the ante 2
+Spaiki 11: posts the ante 2
+DiggErr555: posts the ante 2
+NL_Classic: posts the ante 2
+Spaiki 11: posts small blind 10
+DiggErr555: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Kh Js]
+NL_Classic: folds
+Denisov V.: folds
+FERZ1979: folds
+sabuco_2110: raises 50 to 70 and is all-in
+Spaiki 11: calls 60
+DiggErr555: raises 424 to 494 and is all-in
+Spaiki 11: folds
+Uncalled bet (424) returned to DiggErr555
+*** FLOP *** [Qh 7c 4h]
+*** TURN *** [Qh 7c 4h] [2d]
+*** RIVER *** [Qh 7c 4h 2d] [Jh]
+*** SHOW DOWN ***
+DiggErr555: shows [Kh Js] (a pair of Jacks)
+sabuco_2110: shows [Jd 9d] (a pair of Jacks - lower kicker)
+DiggErr555 collected 222 from pot
+DiggErr555 wins the $12.01 bounty for eliminating sabuco_2110
+sabuco_2110 finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 222 | Rake 0
+Board [Qh 7c 4h 2d Jh]
+Seat 1: Denisov V. folded before Flop (didn't bet)
+Seat 2: FERZ1979 folded before Flop (didn't bet)
+Seat 3: sabuco_2110 (button) showed [Jd 9d] and lost with a pair of Jacks
+Seat 4: Spaiki 11 (small blind) folded before Flop
+Seat 5: DiggErr555 (big blind) showed [Kh Js] and won (222) with a pair of Jacks
+Seat 6: NL_Classic folded before Flop (didn't bet)
+
+PokerStars Hand #188548454155: Tournament #2352962406, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:33:16 MSK [2018/07/09 18:33:16 ET]
+Table '2352962406 1' 6-max Seat #4 is the button
+Seat 1: Denisov V. (494 in chips)
+Seat 2: FERZ1979 (474 in chips)
+Seat 4: Spaiki 11 (892 in chips)
+Seat 5: DiggErr555 (646 in chips)
+Seat 6: NL_Classic (494 in chips)
+Denisov V.: posts the ante 3
+FERZ1979: posts the ante 3
+Spaiki 11: posts the ante 3
+DiggErr555: posts the ante 3
+NL_Classic: posts the ante 3
+DiggErr555: posts small blind 15
+NL_Classic: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [As 3d]
+Denisov V.: folds
+FERZ1979: folds
+Spaiki 11: folds
+DiggErr555: raises 613 to 643 and is all-in
+NL_Classic: folds
+Uncalled bet (613) returned to DiggErr555
+DiggErr555 collected 75 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 75 | Rake 0
+Seat 1: Denisov V. folded before Flop (didn't bet)
+Seat 2: FERZ1979 folded before Flop (didn't bet)
+Seat 4: Spaiki 11 (button) folded before Flop (didn't bet)
+Seat 5: DiggErr555 (small blind) collected (75)
+Seat 6: NL_Classic (big blind) folded before Flop
+
+PokerStars Hand #188548467972: Tournament #2352962406, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:33:39 MSK [2018/07/09 18:33:39 ET]
+Table '2352962406 1' 6-max Seat #5 is the button
+Seat 1: Denisov V. (491 in chips)
+Seat 2: FERZ1979 (471 in chips)
+Seat 4: Spaiki 11 (889 in chips)
+Seat 5: DiggErr555 (688 in chips)
+Seat 6: NL_Classic (461 in chips)
+Denisov V.: posts the ante 3
+FERZ1979: posts the ante 3
+Spaiki 11: posts the ante 3
+DiggErr555: posts the ante 3
+NL_Classic: posts the ante 3
+NL_Classic: posts small blind 15
+Denisov V.: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Js 3c]
+FERZ1979: folds
+Spaiki 11: folds
+DiggErr555: folds
+NL_Classic: raises 428 to 458 and is all-in
+Denisov V.: calls 428
+*** FLOP *** [Kh 2c 8h]
+*** TURN *** [Kh 2c 8h] [6c]
+*** RIVER *** [Kh 2c 8h 6c] [Ac]
+*** SHOW DOWN ***
+NL_Classic: shows [9h Kd] (a pair of Kings)
+Denisov V.: shows [Qd Ah] (a pair of Aces)
+Denisov V. collected 931 from pot
+Denisov V. wins the $12.01 bounty for eliminating NL_Classic
+NL_Classic finished the tournament in 5th place
+*** SUMMARY ***
+Total pot 931 | Rake 0
+Board [Kh 2c 8h 6c Ac]
+Seat 1: Denisov V. (big blind) showed [Qd Ah] and won (931) with a pair of Aces
+Seat 2: FERZ1979 folded before Flop (didn't bet)
+Seat 4: Spaiki 11 folded before Flop (didn't bet)
+Seat 5: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 6: NL_Classic (small blind) showed [9h Kd] and lost with a pair of Kings
+
+PokerStars Hand #188548483980: Tournament #2352962406, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:34:06 MSK [2018/07/09 18:34:06 ET]
+Table '2352962406 1' 6-max Seat #1 is the button
+Seat 1: Denisov V. (961 in chips)
+Seat 2: FERZ1979 (468 in chips)
+Seat 4: Spaiki 11 (886 in chips)
+Seat 5: DiggErr555 (685 in chips)
+Denisov V.: posts the ante 3
+FERZ1979: posts the ante 3
+Spaiki 11: posts the ante 3
+DiggErr555: posts the ante 3
+FERZ1979: posts small blind 15
+Spaiki 11: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Jd 6h]
+DiggErr555: folds
+Denisov V.: folds
+FERZ1979: folds
+Uncalled bet (15) returned to Spaiki 11
+Spaiki 11 collected 42 from pot
+Spaiki 11: doesn't show hand
+*** SUMMARY ***
+Total pot 42 | Rake 0
+Seat 1: Denisov V. (button) folded before Flop (didn't bet)
+Seat 2: FERZ1979 (small blind) folded before Flop
+Seat 4: Spaiki 11 (big blind) collected (42)
+Seat 5: DiggErr555 folded before Flop (didn't bet)
+
+PokerStars Hand #188548494510: Tournament #2352962406, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:34:24 MSK [2018/07/09 18:34:24 ET]
+Table '2352962406 1' 6-max Seat #2 is the button
+Seat 1: Denisov V. (958 in chips)
+Seat 2: FERZ1979 (450 in chips)
+Seat 4: Spaiki 11 (910 in chips)
+Seat 5: DiggErr555 (682 in chips)
+Denisov V.: posts the ante 3
+FERZ1979: posts the ante 3
+Spaiki 11: posts the ante 3
+DiggErr555: posts the ante 3
+Spaiki 11: posts small blind 15
+DiggErr555: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [9d Kh]
+Denisov V.: folds
+FERZ1979: raises 30 to 60
+Spaiki 11: folds
+DiggErr555: folds
+Uncalled bet (30) returned to FERZ1979
+FERZ1979 collected 87 from pot
+FERZ1979: doesn't show hand
+*** SUMMARY ***
+Total pot 87 | Rake 0
+Seat 1: Denisov V. folded before Flop (didn't bet)
+Seat 2: FERZ1979 (button) collected (87)
+Seat 4: Spaiki 11 (small blind) folded before Flop
+Seat 5: DiggErr555 (big blind) folded before Flop
+
+PokerStars Hand #188548505300: Tournament #2352962406, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:34:42 MSK [2018/07/09 18:34:42 ET]
+Table '2352962406 1' 6-max Seat #4 is the button
+Seat 1: Denisov V. (955 in chips)
+Seat 2: FERZ1979 (504 in chips)
+Seat 4: Spaiki 11 (892 in chips)
+Seat 5: DiggErr555 (649 in chips)
+Denisov V.: posts the ante 4
+FERZ1979: posts the ante 4
+Spaiki 11: posts the ante 4
+DiggErr555: posts the ante 4
+DiggErr555: posts small blind 20
+Denisov V.: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [7h 9h]
+FERZ1979: folds
+Spaiki 11: folds
+DiggErr555: folds
+Uncalled bet (20) returned to Denisov V.
+Denisov V. collected 56 from pot
+Denisov V.: doesn't show hand
+*** SUMMARY ***
+Total pot 56 | Rake 0
+Seat 1: Denisov V. (big blind) collected (56)
+Seat 2: FERZ1979 folded before Flop (didn't bet)
+Seat 4: Spaiki 11 (button) folded before Flop (didn't bet)
+Seat 5: DiggErr555 (small blind) folded before Flop
+
+PokerStars Hand #188548520491: Tournament #2352962406, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:35:08 MSK [2018/07/09 18:35:08 ET]
+Table '2352962406 1' 6-max Seat #5 is the button
+Seat 1: Denisov V. (987 in chips)
+Seat 2: FERZ1979 (500 in chips)
+Seat 4: Spaiki 11 (888 in chips)
+Seat 5: DiggErr555 (625 in chips)
+Denisov V.: posts the ante 4
+FERZ1979: posts the ante 4
+Spaiki 11: posts the ante 4
+DiggErr555: posts the ante 4
+Denisov V.: posts small blind 20
+FERZ1979: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Th Ah]
+Spaiki 11: folds
+DiggErr555: raises 40 to 80
+Denisov V.: folds
+FERZ1979: folds
+Uncalled bet (40) returned to DiggErr555
+DiggErr555 collected 116 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 116 | Rake 0
+Seat 1: Denisov V. (small blind) folded before Flop
+Seat 2: FERZ1979 (big blind) folded before Flop
+Seat 4: Spaiki 11 folded before Flop (didn't bet)
+Seat 5: DiggErr555 (button) collected (116)
+
+PokerStars Hand #188548527068: Tournament #2352962406, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:35:19 MSK [2018/07/09 18:35:19 ET]
+Table '2352962406 1' 6-max Seat #1 is the button
+Seat 1: Denisov V. (963 in chips)
+Seat 2: FERZ1979 (456 in chips)
+Seat 4: Spaiki 11 (884 in chips)
+Seat 5: DiggErr555 (697 in chips)
+Denisov V.: posts the ante 4
+FERZ1979: posts the ante 4
+Spaiki 11: posts the ante 4
+DiggErr555: posts the ante 4
+FERZ1979: posts small blind 20
+Spaiki 11: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [4s Td]
+DiggErr555: folds
+Denisov V.: raises 40 to 80
+FERZ1979: folds
+Spaiki 11: folds
+Uncalled bet (40) returned to Denisov V.
+Denisov V. collected 116 from pot
+Denisov V.: doesn't show hand
+*** SUMMARY ***
+Total pot 116 | Rake 0
+Seat 1: Denisov V. (button) collected (116)
+Seat 2: FERZ1979 (small blind) folded before Flop
+Seat 4: Spaiki 11 (big blind) folded before Flop
+Seat 5: DiggErr555 folded before Flop (didn't bet)
+
+PokerStars Hand #188548536747: Tournament #2352962406, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:35:35 MSK [2018/07/09 18:35:35 ET]
+Table '2352962406 1' 6-max Seat #2 is the button
+Seat 1: Denisov V. (1035 in chips)
+Seat 2: FERZ1979 (432 in chips)
+Seat 4: Spaiki 11 (840 in chips)
+Seat 5: DiggErr555 (693 in chips)
+Denisov V.: posts the ante 4
+FERZ1979: posts the ante 4
+Spaiki 11: posts the ante 4
+DiggErr555: posts the ante 4
+Spaiki 11: posts small blind 20
+DiggErr555: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Ks Ad]
+Denisov V.: raises 40 to 80
+FERZ1979: folds
+Spaiki 11: folds
+DiggErr555: raises 609 to 689 and is all-in
+Denisov V.: folds
+Uncalled bet (609) returned to DiggErr555
+DiggErr555 collected 196 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 196 | Rake 0
+Seat 1: Denisov V. folded before Flop
+Seat 2: FERZ1979 (button) folded before Flop (didn't bet)
+Seat 4: Spaiki 11 (small blind) folded before Flop
+Seat 5: DiggErr555 (big blind) collected (196)
+
+PokerStars Hand #188548548696: Tournament #2352962406, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:35:55 MSK [2018/07/09 18:35:55 ET]
+Table '2352962406 1' 6-max Seat #4 is the button
+Seat 1: Denisov V. (951 in chips)
+Seat 2: FERZ1979 (428 in chips)
+Seat 4: Spaiki 11 (816 in chips)
+Seat 5: DiggErr555 (805 in chips)
+Denisov V.: posts the ante 6
+FERZ1979: posts the ante 6
+Spaiki 11: posts the ante 6
+DiggErr555: posts the ante 6
+DiggErr555: posts small blind 30
+Denisov V.: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Th Ts]
+FERZ1979: folds
+Spaiki 11: folds
+DiggErr555: raises 739 to 799 and is all-in
+Denisov V.: folds
+Uncalled bet (739) returned to DiggErr555
+DiggErr555 collected 144 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 144 | Rake 0
+Seat 1: Denisov V. (big blind) folded before Flop
+Seat 2: FERZ1979 folded before Flop (didn't bet)
+Seat 4: Spaiki 11 (button) folded before Flop (didn't bet)
+Seat 5: DiggErr555 (small blind) collected (144)
+
+PokerStars Hand #188548557172: Tournament #2352962406, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:36:09 MSK [2018/07/09 18:36:09 ET]
+Table '2352962406 1' 6-max Seat #5 is the button
+Seat 1: Denisov V. (885 in chips)
+Seat 2: FERZ1979 (422 in chips)
+Seat 4: Spaiki 11 (810 in chips)
+Seat 5: DiggErr555 (883 in chips)
+Denisov V.: posts the ante 6
+FERZ1979: posts the ante 6
+Spaiki 11: posts the ante 6
+DiggErr555: posts the ante 6
+Denisov V.: posts small blind 30
+FERZ1979: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Td 9c]
+Spaiki 11: folds
+DiggErr555: raises 817 to 877 and is all-in
+Denisov V.: folds
+FERZ1979: folds
+Uncalled bet (817) returned to DiggErr555
+DiggErr555 collected 174 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 174 | Rake 0
+Seat 1: Denisov V. (small blind) folded before Flop
+Seat 2: FERZ1979 (big blind) folded before Flop
+Seat 4: Spaiki 11 folded before Flop (didn't bet)
+Seat 5: DiggErr555 (button) collected (174)
+
+PokerStars Hand #188548573082: Tournament #2352962406, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:36:36 MSK [2018/07/09 18:36:36 ET]
+Table '2352962406 1' 6-max Seat #1 is the button
+Seat 1: Denisov V. (849 in chips)
+Seat 2: FERZ1979 (356 in chips)
+Seat 4: Spaiki 11 (804 in chips)
+Seat 5: DiggErr555 (991 in chips)
+Denisov V.: posts the ante 6
+FERZ1979: posts the ante 6
+Spaiki 11: posts the ante 6
+DiggErr555: posts the ante 6
+FERZ1979: posts small blind 30
+Spaiki 11: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [5s 5d]
+DiggErr555: raises 925 to 985 and is all-in
+Denisov V.: folds
+FERZ1979: folds
+Spaiki 11: folds
+Uncalled bet (925) returned to DiggErr555
+DiggErr555 collected 174 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 174 | Rake 0
+Seat 1: Denisov V. (button) folded before Flop (didn't bet)
+Seat 2: FERZ1979 (small blind) folded before Flop
+Seat 4: Spaiki 11 (big blind) folded before Flop
+Seat 5: DiggErr555 collected (174)
+
+PokerStars Hand #188548586344: Tournament #2352962406, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:36:59 MSK [2018/07/09 18:36:59 ET]
+Table '2352962406 1' 6-max Seat #2 is the button
+Seat 1: Denisov V. (843 in chips)
+Seat 2: FERZ1979 (320 in chips)
+Seat 4: Spaiki 11 (738 in chips)
+Seat 5: DiggErr555 (1099 in chips)
+Denisov V.: posts the ante 6
+FERZ1979: posts the ante 6
+Spaiki 11: posts the ante 6
+DiggErr555: posts the ante 6
+Spaiki 11: posts small blind 30
+DiggErr555: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [2c 4h]
+Denisov V.: folds
+FERZ1979: folds
+Spaiki 11: folds
+Uncalled bet (30) returned to DiggErr555
+DiggErr555 collected 84 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 84 | Rake 0
+Seat 1: Denisov V. folded before Flop (didn't bet)
+Seat 2: FERZ1979 (button) folded before Flop (didn't bet)
+Seat 4: Spaiki 11 (small blind) folded before Flop
+Seat 5: DiggErr555 (big blind) collected (84)
+
+PokerStars Hand #188548591148: Tournament #2352962406, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:37:07 MSK [2018/07/09 18:37:07 ET]
+Table '2352962406 1' 6-max Seat #4 is the button
+Seat 1: Denisov V. (837 in chips)
+Seat 2: FERZ1979 (314 in chips)
+Seat 4: Spaiki 11 (702 in chips)
+Seat 5: DiggErr555 (1147 in chips)
+Denisov V.: posts the ante 6
+FERZ1979: posts the ante 6
+Spaiki 11: posts the ante 6
+DiggErr555: posts the ante 6
+DiggErr555: posts small blind 30
+Denisov V.: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [3d 6h]
+FERZ1979: folds
+Spaiki 11: calls 60
+DiggErr555: folds
+Denisov V.: raises 771 to 831 and is all-in
+Spaiki 11: calls 636 and is all-in
+Uncalled bet (135) returned to Denisov V.
+*** FLOP *** [2s Tc 7c]
+*** TURN *** [2s Tc 7c] [Td]
+*** RIVER *** [2s Tc 7c Td] [7d]
+*** SHOW DOWN ***
+Denisov V.: shows [Kh 3h] (two pair, Tens and Sevens)
+Spaiki 11: shows [8d Ad] (two pair, Tens and Sevens - Ace kicker)
+Spaiki 11 collected 1446 from pot
+*** SUMMARY ***
+Total pot 1446 | Rake 0
+Board [2s Tc 7c Td 7d]
+Seat 1: Denisov V. (big blind) showed [Kh 3h] and lost with two pair, Tens and Sevens
+Seat 2: FERZ1979 folded before Flop (didn't bet)
+Seat 4: Spaiki 11 (button) showed [8d Ad] and won (1446) with two pair, Tens and Sevens
+Seat 5: DiggErr555 (small blind) folded before Flop
+
+PokerStars Hand #188548607297: Tournament #2352962406, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:37:34 MSK [2018/07/09 18:37:34 ET]
+Table '2352962406 1' 6-max Seat #5 is the button
+Seat 1: Denisov V. (135 in chips)
+Seat 2: FERZ1979 (308 in chips)
+Seat 4: Spaiki 11 (1446 in chips)
+Seat 5: DiggErr555 (1111 in chips)
+Denisov V.: posts the ante 8
+FERZ1979: posts the ante 8
+Spaiki 11: posts the ante 8
+DiggErr555: posts the ante 8
+Denisov V.: posts small blind 40
+FERZ1979: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [As 3s]
+Spaiki 11: folds
+DiggErr555: raises 1023 to 1103 and is all-in
+Denisov V.: calls 87 and is all-in
+FERZ1979: calls 220 and is all-in
+Uncalled bet (803) returned to DiggErr555
+*** FLOP *** [5s 4c Th]
+*** TURN *** [5s 4c Th] [Jd]
+*** RIVER *** [5s 4c Th Jd] [8h]
+*** SHOW DOWN ***
+FERZ1979: shows [Js Qh] (a pair of Jacks)
+DiggErr555: shows [As 3s] (high card Ace)
+FERZ1979 collected 346 from side pot
+Denisov V.: shows [3d Td] (a pair of Tens)
+FERZ1979 collected 413 from main pot
+FERZ1979 wins the $12.01 bounty for eliminating Denisov V.
+Denisov V. finished the tournament in 4th place
+*** SUMMARY ***
+Total pot 759 Main pot 413. Side pot 346. | Rake 0
+Board [5s 4c Th Jd 8h]
+Seat 1: Denisov V. (small blind) showed [3d Td] and lost with a pair of Tens
+Seat 2: FERZ1979 (big blind) showed [Js Qh] and won (759) with a pair of Jacks
+Seat 4: Spaiki 11 folded before Flop (didn't bet)
+Seat 5: DiggErr555 (button) showed [As 3s] and lost with high card Ace
+
+PokerStars Hand #188548619678: Tournament #2352962406, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:37:55 MSK [2018/07/09 18:37:55 ET]
+Table '2352962406 1' 6-max Seat #2 is the button
+Seat 2: FERZ1979 (759 in chips)
+Seat 4: Spaiki 11 (1438 in chips)
+Seat 5: DiggErr555 (803 in chips)
+FERZ1979: posts the ante 8
+Spaiki 11: posts the ante 8
+DiggErr555: posts the ante 8
+Spaiki 11: posts small blind 40
+DiggErr555: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Jc 5c]
+FERZ1979: folds
+Spaiki 11: folds
+Uncalled bet (40) returned to DiggErr555
+DiggErr555 collected 104 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 104 | Rake 0
+Seat 2: FERZ1979 (button) folded before Flop (didn't bet)
+Seat 4: Spaiki 11 (small blind) folded before Flop
+Seat 5: DiggErr555 (big blind) collected (104)
+
+PokerStars Hand #188548625034: Tournament #2352962406, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:38:04 MSK [2018/07/09 18:38:04 ET]
+Table '2352962406 1' 6-max Seat #4 is the button
+Seat 2: FERZ1979 (751 in chips)
+Seat 4: Spaiki 11 (1390 in chips)
+Seat 5: DiggErr555 (859 in chips)
+FERZ1979: posts the ante 8
+Spaiki 11: posts the ante 8
+DiggErr555: posts the ante 8
+DiggErr555: posts small blind 40
+FERZ1979: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6h 9h]
+Spaiki 11: folds
+DiggErr555: raises 771 to 851 and is all-in
+FERZ1979: calls 663 and is all-in
+Uncalled bet (108) returned to DiggErr555
+*** FLOP *** [5d 8d 8s]
+*** TURN *** [5d 8d 8s] [9s]
+*** RIVER *** [5d 8d 8s 9s] [2d]
+*** SHOW DOWN ***
+DiggErr555: shows [6h 9h] (two pair, Nines and Eights)
+FERZ1979: shows [Ac Ah] (two pair, Aces and Eights)
+FERZ1979 collected 1510 from pot
+*** SUMMARY ***
+Total pot 1510 | Rake 0
+Board [5d 8d 8s 9s 2d]
+Seat 2: FERZ1979 (big blind) showed [Ac Ah] and won (1510) with two pair, Aces and Eights
+Seat 4: Spaiki 11 (button) folded before Flop (didn't bet)
+Seat 5: DiggErr555 (small blind) showed [6h 9h] and lost with two pair, Nines and Eights
+
+PokerStars Hand #188548636885: Tournament #2352962406, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:38:24 MSK [2018/07/09 18:38:24 ET]
+Table '2352962406 1' 6-max Seat #5 is the button
+Seat 2: FERZ1979 (1510 in chips)
+Seat 4: Spaiki 11 (1382 in chips)
+Seat 5: DiggErr555 (108 in chips)
+FERZ1979: posts the ante 8
+Spaiki 11: posts the ante 8
+DiggErr555: posts the ante 8
+FERZ1979: posts small blind 40
+Spaiki 11: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6h 8d]
+DiggErr555: folds
+FERZ1979: calls 40
+Spaiki 11: checks
+*** FLOP *** [6c 6d 4s]
+FERZ1979: bets 80
+Spaiki 11: calls 80
+*** TURN *** [6c 6d 4s] [Qh]
+FERZ1979: checks
+Spaiki 11: checks
+*** RIVER *** [6c 6d 4s Qh] [Qd]
+FERZ1979: checks
+Spaiki 11: checks
+*** SHOW DOWN ***
+FERZ1979: shows [7d 5s] (two pair, Queens and Sixes)
+Spaiki 11: shows [8c 5h] (two pair, Queens and Sixes - Eight kicker)
+Spaiki 11 collected 344 from pot
+*** SUMMARY ***
+Total pot 344 | Rake 0
+Board [6c 6d 4s Qh Qd]
+Seat 2: FERZ1979 (small blind) showed [7d 5s] and lost with two pair, Queens and Sixes
+Seat 4: Spaiki 11 (big blind) showed [8c 5h] and won (344) with two pair, Queens and Sixes
+Seat 5: DiggErr555 (button) folded before Flop (didn't bet)
+
+PokerStars Hand #188548660763: Tournament #2352962406, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:39:05 MSK [2018/07/09 18:39:05 ET]
+Table '2352962406 1' 6-max Seat #2 is the button
+Seat 2: FERZ1979 (1342 in chips)
+Seat 4: Spaiki 11 (1558 in chips)
+Seat 5: DiggErr555 (100 in chips)
+FERZ1979: posts the ante 8
+Spaiki 11: posts the ante 8
+DiggErr555: posts the ante 8
+Spaiki 11: posts small blind 40
+DiggErr555: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [2h Kd]
+FERZ1979: calls 80
+Spaiki 11: folds
+DiggErr555: raises 12 to 92 and is all-in
+FERZ1979: calls 12
+*** FLOP *** [4s 4c 4d]
+*** TURN *** [4s 4c 4d] [5c]
+*** RIVER *** [4s 4c 4d 5c] [9d]
+*** SHOW DOWN ***
+DiggErr555: shows [2h Kd] (three of a kind, Fours)
+FERZ1979: shows [2d 2s] (a full house, Fours full of Deuces)
+FERZ1979 collected 248 from pot
+FERZ1979 wins the $12.01 bounty for eliminating DiggErr555
+DiggErr555 finished the tournament in 3rd place
+*** SUMMARY ***
+Total pot 248 | Rake 0
+Board [4s 4c 4d 5c 9d]
+Seat 2: FERZ1979 (button) showed [2d 2s] and won (248) with a full house, Fours full of Deuces
+Seat 4: Spaiki 11 (small blind) folded before Flop
+Seat 5: DiggErr555 (big blind) showed [2h Kd] and lost with three of a kind, Fours

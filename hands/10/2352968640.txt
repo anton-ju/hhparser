@@ -1,0 +1,180 @@
+
+
+PokerStars Hand #188548699434: Tournament #2352968640, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:40:11 MSK [2018/07/09 18:40:11 ET]
+Table '2352968640 1' 6-max Seat #1 is the button
+Seat 1: DiggErr555 (500 in chips)
+Seat 2: Alicat142 (500 in chips)
+Seat 3: Ath.Bachmann (500 in chips)
+Seat 4: bigatello1967 (500 in chips)
+Seat 5: MaliOdBubanja (500 in chips)
+Seat 6: 2Ran128 (500 in chips)
+DiggErr555: posts the ante 2
+Alicat142: posts the ante 2
+Ath.Bachmann: posts the ante 2
+bigatello1967: posts the ante 2
+MaliOdBubanja: posts the ante 2
+2Ran128: posts the ante 2
+Alicat142: posts small blind 10
+Ath.Bachmann: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6s 7h]
+bigatello1967: folds
+MaliOdBubanja: folds
+2Ran128: folds
+DiggErr555: folds
+Alicat142: folds
+Uncalled bet (10) returned to Ath.Bachmann
+Ath.Bachmann collected 32 from pot
+Ath.Bachmann: doesn't show hand
+*** SUMMARY ***
+Total pot 32 | Rake 0
+Seat 1: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 2: Alicat142 (small blind) folded before Flop
+Seat 3: Ath.Bachmann (big blind) collected (32)
+Seat 4: bigatello1967 folded before Flop (didn't bet)
+Seat 5: MaliOdBubanja folded before Flop (didn't bet)
+Seat 6: 2Ran128 folded before Flop (didn't bet)
+
+PokerStars Hand #188548705106: Tournament #2352968640, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:40:21 MSK [2018/07/09 18:40:21 ET]
+Table '2352968640 1' 6-max Seat #2 is the button
+Seat 1: DiggErr555 (498 in chips)
+Seat 2: Alicat142 (488 in chips)
+Seat 3: Ath.Bachmann (520 in chips)
+Seat 4: bigatello1967 (498 in chips)
+Seat 5: MaliOdBubanja (498 in chips)
+Seat 6: 2Ran128 (498 in chips)
+DiggErr555: posts the ante 2
+Alicat142: posts the ante 2
+Ath.Bachmann: posts the ante 2
+bigatello1967: posts the ante 2
+MaliOdBubanja: posts the ante 2
+2Ran128: posts the ante 2
+Ath.Bachmann: posts small blind 10
+bigatello1967: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Ts 4s]
+MaliOdBubanja: folds
+2Ran128: folds
+DiggErr555: folds
+Alicat142: calls 20
+Ath.Bachmann: folds
+bigatello1967: checks
+*** FLOP *** [8c 6s 3c]
+bigatello1967: checks
+Alicat142: checks
+*** TURN *** [8c 6s 3c] [6c]
+bigatello1967: checks
+Alicat142: bets 20
+bigatello1967: calls 20
+*** RIVER *** [8c 6s 3c 6c] [9c]
+bigatello1967: checks
+Alicat142: bets 20
+bigatello1967: raises 20 to 40
+Alicat142: calls 20
+*** SHOW DOWN ***
+bigatello1967: shows [7s Kc] (a flush, King high)
+Alicat142: mucks hand
+bigatello1967 collected 182 from pot
+*** SUMMARY ***
+Total pot 182 | Rake 0
+Board [8c 6s 3c 6c 9c]
+Seat 1: DiggErr555 folded before Flop (didn't bet)
+Seat 2: Alicat142 (button) mucked [Kd Qc]
+Seat 3: Ath.Bachmann (small blind) folded before Flop
+Seat 4: bigatello1967 (big blind) showed [7s Kc] and won (182) with a flush, King high
+Seat 5: MaliOdBubanja folded before Flop (didn't bet)
+Seat 6: 2Ran128 folded before Flop (didn't bet)
+
+PokerStars Hand #188548724585: Tournament #2352968640, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:40:54 MSK [2018/07/09 18:40:54 ET]
+Table '2352968640 1' 6-max Seat #3 is the button
+Seat 1: DiggErr555 (496 in chips)
+Seat 2: Alicat142 (406 in chips)
+Seat 3: Ath.Bachmann (508 in chips)
+Seat 4: bigatello1967 (598 in chips)
+Seat 5: MaliOdBubanja (496 in chips)
+Seat 6: 2Ran128 (496 in chips)
+DiggErr555: posts the ante 2
+Alicat142: posts the ante 2
+Ath.Bachmann: posts the ante 2
+bigatello1967: posts the ante 2
+MaliOdBubanja: posts the ante 2
+2Ran128: posts the ante 2
+bigatello1967: posts small blind 10
+MaliOdBubanja: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [8h 2h]
+2Ran128: folds
+DiggErr555: folds
+Alicat142: folds
+Ath.Bachmann: folds
+bigatello1967: raises 576 to 596 and is all-in
+MaliOdBubanja: calls 474 and is all-in
+Uncalled bet (102) returned to bigatello1967
+*** FLOP *** [7d 3d 5s]
+*** TURN *** [7d 3d 5s] [Ad]
+*** RIVER *** [7d 3d 5s Ad] [3h]
+*** SHOW DOWN ***
+bigatello1967: shows [Jc Kd] (a pair of Threes)
+MaliOdBubanja: shows [Qh Kh] (a pair of Threes - Ace+King+Queen kicker)
+MaliOdBubanja collected 1000 from pot
+*** SUMMARY ***
+Total pot 1000 | Rake 0
+Board [7d 3d 5s Ad 3h]
+Seat 1: DiggErr555 folded before Flop (didn't bet)
+Seat 2: Alicat142 folded before Flop (didn't bet)
+Seat 3: Ath.Bachmann (button) folded before Flop (didn't bet)
+Seat 4: bigatello1967 (small blind) showed [Jc Kd] and lost with a pair of Threes
+Seat 5: MaliOdBubanja (big blind) showed [Qh Kh] and won (1000) with a pair of Threes
+Seat 6: 2Ran128 folded before Flop (didn't bet)
+
+PokerStars Hand #188548740177: Tournament #2352968640, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:41:20 MSK [2018/07/09 18:41:20 ET]
+Table '2352968640 1' 6-max Seat #4 is the button
+Seat 1: DiggErr555 (494 in chips)
+Seat 2: Alicat142 (404 in chips)
+Seat 3: Ath.Bachmann (506 in chips)
+Seat 4: bigatello1967 (102 in chips)
+Seat 5: MaliOdBubanja (1000 in chips)
+Seat 6: 2Ran128 (494 in chips)
+DiggErr555: posts the ante 3
+Alicat142: posts the ante 3
+Ath.Bachmann: posts the ante 3
+bigatello1967: posts the ante 3
+MaliOdBubanja: posts the ante 3
+2Ran128: posts the ante 3
+MaliOdBubanja: posts small blind 15
+2Ran128: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [8c Ad]
+DiggErr555: raises 30 to 60
+Alicat142: folds
+Ath.Bachmann: folds
+bigatello1967: calls 60
+MaliOdBubanja: folds
+2Ran128: calls 30
+*** FLOP *** [4h Kc 4s]
+2Ran128: checks
+DiggErr555: bets 75
+bigatello1967: calls 39 and is all-in
+2Ran128: raises 356 to 431 and is all-in
+DiggErr555: calls 356 and is all-in
+*** TURN *** [4h Kc 4s] [9d]
+*** RIVER *** [4h Kc 4s 9d] [4c]
+*** SHOW DOWN ***
+2Ran128: shows [8h Ks] (a full house, Fours full of Kings)
+DiggErr555: shows [8c Ad] (three of a kind, Fours)
+2Ran128 collected 784 from side pot
+bigatello1967: shows [Qc 7c] (three of a kind, Fours)
+2Ran128 collected 330 from main pot
+2Ran128 wins the $4.79 bounty for eliminating DiggErr555
+2Ran128 wins the $4.79 bounty for eliminating bigatello1967
+DiggErr555 finished the tournament in 5th place
+bigatello1967 finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 1114 Main pot 330. Side pot 784. | Rake 0
+Board [4h Kc 4s 9d 4c]
+Seat 1: DiggErr555 showed [8c Ad] and lost with three of a kind, Fours
+Seat 2: Alicat142 folded before Flop (didn't bet)
+Seat 3: Ath.Bachmann folded before Flop (didn't bet)
+Seat 4: bigatello1967 (button) showed [Qc 7c] and lost with three of a kind, Fours
+Seat 5: MaliOdBubanja (small blind) folded before Flop
+Seat 6: 2Ran128 (big blind) showed [8h Ks] and won (1114) with a full house, Fours full of Kings

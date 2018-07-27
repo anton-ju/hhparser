@@ -1,0 +1,424 @@
+
+
+PokerStars Hand #188549007518: Tournament #2352975269, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:49:06 MSK [2018/07/09 18:49:06 ET]
+Table '2352975269 1' 6-max Seat #1 is the button
+Seat 1: HHHH0000 (500 in chips)
+Seat 2: nvucea96 (500 in chips)
+Seat 3: DiggErr555 (500 in chips)
+Seat 4: Karagunis (500 in chips)
+Seat 5: Yarven (500 in chips)
+Seat 6: time part 90 (500 in chips)
+HHHH0000: posts the ante 2
+nvucea96: posts the ante 2
+DiggErr555: posts the ante 2
+Karagunis: posts the ante 2
+Yarven: posts the ante 2
+time part 90: posts the ante 2
+nvucea96: posts small blind 10
+DiggErr555: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [3d 2s]
+Karagunis: folds
+Yarven: calls 20
+time part 90: folds
+HHHH0000: calls 20
+nvucea96: folds
+DiggErr555: checks
+*** FLOP *** [Qd Qh 7d]
+DiggErr555: checks
+Yarven: bets 478 and is all-in
+HHHH0000: folds
+DiggErr555: folds
+Uncalled bet (478) returned to Yarven
+Yarven collected 82 from pot
+*** SUMMARY ***
+Total pot 82 | Rake 0
+Board [Qd Qh 7d]
+Seat 1: HHHH0000 (button) folded on the Flop
+Seat 2: nvucea96 (small blind) folded before Flop
+Seat 3: DiggErr555 (big blind) folded on the Flop
+Seat 4: Karagunis folded before Flop (didn't bet)
+Seat 5: Yarven collected (82)
+Seat 6: time part 90 folded before Flop (didn't bet)
+
+PokerStars Hand #188549028723: Tournament #2352975269, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:49:44 MSK [2018/07/09 18:49:44 ET]
+Table '2352975269 1' 6-max Seat #2 is the button
+Seat 1: HHHH0000 (478 in chips)
+Seat 2: nvucea96 (488 in chips)
+Seat 3: DiggErr555 (478 in chips)
+Seat 4: Karagunis (498 in chips)
+Seat 5: Yarven (560 in chips)
+Seat 6: time part 90 (498 in chips)
+HHHH0000: posts the ante 2
+nvucea96: posts the ante 2
+DiggErr555: posts the ante 2
+Karagunis: posts the ante 2
+Yarven: posts the ante 2
+time part 90: posts the ante 2
+DiggErr555: posts small blind 10
+Karagunis: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Ac 9h]
+Yarven: raises 20 to 40
+time part 90: raises 456 to 496 and is all-in
+HHHH0000: folds
+nvucea96: folds
+DiggErr555: folds
+Karagunis: folds
+Yarven: folds
+Uncalled bet (456) returned to time part 90
+time part 90 collected 122 from pot
+*** SUMMARY ***
+Total pot 122 | Rake 0
+Seat 1: HHHH0000 folded before Flop (didn't bet)
+Seat 2: nvucea96 (button) folded before Flop (didn't bet)
+Seat 3: DiggErr555 (small blind) folded before Flop
+Seat 4: Karagunis (big blind) folded before Flop
+Seat 5: Yarven folded before Flop
+Seat 6: time part 90 collected (122)
+
+PokerStars Hand #188549037977: Tournament #2352975269, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:50:00 MSK [2018/07/09 18:50:00 ET]
+Table '2352975269 1' 6-max Seat #3 is the button
+Seat 1: HHHH0000 (476 in chips)
+Seat 2: nvucea96 (486 in chips)
+Seat 3: DiggErr555 (466 in chips)
+Seat 4: Karagunis (476 in chips)
+Seat 5: Yarven (518 in chips)
+Seat 6: time part 90 (578 in chips)
+HHHH0000: posts the ante 2
+nvucea96: posts the ante 2
+DiggErr555: posts the ante 2
+Karagunis: posts the ante 2
+Yarven: posts the ante 2
+time part 90: posts the ante 2
+Karagunis: posts small blind 10
+Yarven: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [3c 2s]
+time part 90: folds
+HHHH0000: folds
+nvucea96: raises 20 to 40
+DiggErr555: folds
+Karagunis: calls 30
+Yarven: calls 20
+*** FLOP *** [Qh 4h 9d]
+Karagunis: bets 40
+Yarven: folds
+nvucea96: calls 40
+*** TURN *** [Qh 4h 9d] [3h]
+Karagunis: checks
+nvucea96: bets 106
+Karagunis: raises 288 to 394 and is all-in
+nvucea96: folds
+Uncalled bet (288) returned to Karagunis
+Karagunis collected 424 from pot
+Karagunis: doesn't show hand
+*** SUMMARY ***
+Total pot 424 | Rake 0
+Board [Qh 4h 9d 3h]
+Seat 1: HHHH0000 folded before Flop (didn't bet)
+Seat 2: nvucea96 folded on the Turn
+Seat 3: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 4: Karagunis (small blind) collected (424)
+Seat 5: Yarven (big blind) folded on the Flop
+Seat 6: time part 90 folded before Flop (didn't bet)
+
+PokerStars Hand #188549092363: Tournament #2352975269, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:51:24 MSK [2018/07/09 18:51:24 ET]
+Table '2352975269 1' 6-max Seat #4 is the button
+Seat 1: HHHH0000 (474 in chips)
+Seat 2: nvucea96 (298 in chips)
+Seat 3: DiggErr555 (464 in chips)
+Seat 4: Karagunis (712 in chips)
+Seat 5: Yarven (476 in chips)
+Seat 6: time part 90 (576 in chips)
+HHHH0000: posts the ante 3
+nvucea96: posts the ante 3
+DiggErr555: posts the ante 3
+Karagunis: posts the ante 3
+Yarven: posts the ante 3
+time part 90: posts the ante 3
+Yarven: posts small blind 15
+time part 90: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Ah Qc]
+HHHH0000: folds
+nvucea96: folds
+DiggErr555: raises 30 to 60
+Karagunis: folds
+Yarven: folds
+time part 90: calls 30
+*** FLOP *** [2s 2c 3s]
+time part 90: checks
+DiggErr555: bets 53
+time part 90: calls 53
+*** TURN *** [2s 2c 3s] [Tc]
+time part 90: checks
+DiggErr555: bets 91
+time part 90: raises 119 to 210
+DiggErr555: folds
+Uncalled bet (119) returned to time part 90
+time part 90 collected 441 from pot
+*** SUMMARY ***
+Total pot 441 | Rake 0
+Board [2s 2c 3s Tc]
+Seat 1: HHHH0000 folded before Flop (didn't bet)
+Seat 2: nvucea96 folded before Flop (didn't bet)
+Seat 3: DiggErr555 folded on the Turn
+Seat 4: Karagunis (button) folded before Flop (didn't bet)
+Seat 5: Yarven (small blind) folded before Flop
+Seat 6: time part 90 (big blind) collected (441)
+
+PokerStars Hand #188549126901: Tournament #2352975269, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:52:26 MSK [2018/07/09 18:52:26 ET]
+Table '2352975269 1' 6-max Seat #5 is the button
+Seat 1: HHHH0000 (471 in chips)
+Seat 2: nvucea96 (295 in chips)
+Seat 3: DiggErr555 (257 in chips)
+Seat 4: Karagunis (709 in chips)
+Seat 5: Yarven (458 in chips)
+Seat 6: time part 90 (810 in chips)
+HHHH0000: posts the ante 3
+nvucea96: posts the ante 3
+DiggErr555: posts the ante 3
+Karagunis: posts the ante 3
+Yarven: posts the ante 3
+time part 90: posts the ante 3
+time part 90: posts small blind 15
+HHHH0000: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Jd Td]
+nvucea96: folds
+DiggErr555: raises 224 to 254 and is all-in
+Karagunis: folds
+Yarven: folds
+time part 90: raises 553 to 807 and is all-in
+HHHH0000: folds
+Uncalled bet (553) returned to time part 90
+*** FLOP *** [Kh Tc Ah]
+*** TURN *** [Kh Tc Ah] [7h]
+*** RIVER *** [Kh Tc Ah 7h] [8d]
+*** SHOW DOWN ***
+time part 90: shows [4s 5h] (high card Ace)
+DiggErr555: shows [Jd Td] (a pair of Tens)
+DiggErr555 collected 556 from pot
+*** SUMMARY ***
+Total pot 556 | Rake 0
+Board [Kh Tc Ah 7h 8d]
+Seat 1: HHHH0000 (big blind) folded before Flop
+Seat 2: nvucea96 folded before Flop (didn't bet)
+Seat 3: DiggErr555 showed [Jd Td] and won (556) with a pair of Tens
+Seat 4: Karagunis folded before Flop (didn't bet)
+Seat 5: Yarven (button) folded before Flop (didn't bet)
+Seat 6: time part 90 (small blind) showed [4s 5h] and lost with high card Ace
+
+PokerStars Hand #188549143783: Tournament #2352975269, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:52:56 MSK [2018/07/09 18:52:56 ET]
+Table '2352975269 1' 6-max Seat #6 is the button
+Seat 1: HHHH0000 (438 in chips)
+Seat 2: nvucea96 (292 in chips)
+Seat 3: DiggErr555 (556 in chips)
+Seat 4: Karagunis (706 in chips)
+Seat 5: Yarven (455 in chips)
+Seat 6: time part 90 (553 in chips)
+HHHH0000: posts the ante 3
+nvucea96: posts the ante 3
+DiggErr555: posts the ante 3
+Karagunis: posts the ante 3
+Yarven: posts the ante 3
+time part 90: posts the ante 3
+HHHH0000: posts small blind 15
+nvucea96: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6s 7c]
+DiggErr555: folds
+Karagunis: folds
+Yarven: raises 45 to 75
+time part 90: folds
+HHHH0000: calls 60
+nvucea96: folds
+*** FLOP *** [Tc 4h 2h]
+HHHH0000: bets 60
+Yarven: calls 60
+*** TURN *** [Tc 4h 2h] [5s]
+HHHH0000: bets 60
+Yarven: calls 60
+*** RIVER *** [Tc 4h 2h 5s] [9s]
+HHHH0000: bets 90
+Yarven: folds
+Uncalled bet (90) returned to HHHH0000
+HHHH0000 collected 438 from pot
+HHHH0000: doesn't show hand
+*** SUMMARY ***
+Total pot 438 | Rake 0
+Board [Tc 4h 2h 5s 9s]
+Seat 1: HHHH0000 (small blind) collected (438)
+Seat 2: nvucea96 (big blind) folded before Flop
+Seat 3: DiggErr555 folded before Flop (didn't bet)
+Seat 4: Karagunis folded before Flop (didn't bet)
+Seat 5: Yarven folded on the River
+Seat 6: time part 90 (button) folded before Flop (didn't bet)
+
+PokerStars Hand #188549178142: Tournament #2352975269, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:53:58 MSK [2018/07/09 18:53:58 ET]
+Table '2352975269 1' 6-max Seat #1 is the button
+Seat 1: HHHH0000 (678 in chips)
+Seat 2: nvucea96 (259 in chips)
+Seat 3: DiggErr555 (553 in chips)
+Seat 4: Karagunis (703 in chips)
+Seat 5: Yarven (257 in chips)
+Seat 6: time part 90 (550 in chips)
+HHHH0000: posts the ante 3
+nvucea96: posts the ante 3
+DiggErr555: posts the ante 3
+Karagunis: posts the ante 3
+Yarven: posts the ante 3
+time part 90: posts the ante 3
+nvucea96: posts small blind 15
+DiggErr555: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Kh 6s]
+Karagunis: folds
+Yarven: folds
+time part 90: folds
+HHHH0000: folds
+nvucea96: raises 226 to 256 and is all-in
+DiggErr555: calls 226
+*** FLOP *** [5h Td 3d]
+*** TURN *** [5h Td 3d] [8c]
+*** RIVER *** [5h Td 3d 8c] [Js]
+*** SHOW DOWN ***
+nvucea96: shows [Jc 8s] (two pair, Jacks and Eights)
+DiggErr555: shows [Kh 6s] (high card King)
+nvucea96 collected 530 from pot
+*** SUMMARY ***
+Total pot 530 | Rake 0
+Board [5h Td 3d 8c Js]
+Seat 1: HHHH0000 (button) folded before Flop (didn't bet)
+Seat 2: nvucea96 (small blind) showed [Jc 8s] and won (530) with two pair, Jacks and Eights
+Seat 3: DiggErr555 (big blind) showed [Kh 6s] and lost with high card King
+Seat 4: Karagunis folded before Flop (didn't bet)
+Seat 5: Yarven folded before Flop (didn't bet)
+Seat 6: time part 90 folded before Flop (didn't bet)
+
+PokerStars Hand #188549202813: Tournament #2352975269, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:54:43 MSK [2018/07/09 18:54:43 ET]
+Table '2352975269 1' 6-max Seat #2 is the button
+Seat 1: HHHH0000 (675 in chips)
+Seat 2: nvucea96 (530 in chips)
+Seat 3: DiggErr555 (294 in chips)
+Seat 4: Karagunis (700 in chips)
+Seat 5: Yarven (254 in chips)
+Seat 6: time part 90 (547 in chips)
+HHHH0000: posts the ante 4
+nvucea96: posts the ante 4
+DiggErr555: posts the ante 4
+Karagunis: posts the ante 4
+Yarven: posts the ante 4
+time part 90: posts the ante 4
+DiggErr555: posts small blind 20
+Karagunis: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Jc 3c]
+Yarven: folds
+time part 90 has timed out
+time part 90: folds
+time part 90 is sitting out
+HHHH0000: folds
+time part 90 has returned
+nvucea96: raises 40 to 80
+DiggErr555: folds
+Karagunis: folds
+Uncalled bet (40) returned to nvucea96
+nvucea96 collected 124 from pot
+*** SUMMARY ***
+Total pot 124 | Rake 0
+Seat 1: HHHH0000 folded before Flop (didn't bet)
+Seat 2: nvucea96 (button) collected (124)
+Seat 3: DiggErr555 (small blind) folded before Flop
+Seat 4: Karagunis (big blind) folded before Flop
+Seat 5: Yarven folded before Flop (didn't bet)
+Seat 6: time part 90 folded before Flop (didn't bet)
+
+PokerStars Hand #188549224604: Tournament #2352975269, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:55:26 MSK [2018/07/09 18:55:26 ET]
+Table '2352975269 1' 6-max Seat #3 is the button
+Seat 1: HHHH0000 (671 in chips)
+Seat 2: nvucea96 (610 in chips)
+Seat 3: DiggErr555 (270 in chips)
+Seat 4: Karagunis (656 in chips)
+Seat 5: Yarven (250 in chips)
+Seat 6: time part 90 (543 in chips)
+HHHH0000: posts the ante 4
+nvucea96: posts the ante 4
+DiggErr555: posts the ante 4
+Karagunis: posts the ante 4
+Yarven: posts the ante 4
+time part 90: posts the ante 4
+Karagunis: posts small blind 20
+Yarven: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [4d Qs]
+time part 90: folds
+HHHH0000: raises 40 to 80
+nvucea96: folds
+DiggErr555: folds
+Karagunis: folds
+Yarven: calls 40
+*** FLOP *** [Td Qc 4c]
+Yarven: bets 166 and is all-in
+HHHH0000: calls 166
+*** TURN *** [Td Qc 4c] [6s]
+*** RIVER *** [Td Qc 4c 6s] [Ad]
+*** SHOW DOWN ***
+Yarven: shows [4h 9c] (a pair of Fours)
+HHHH0000: shows [Kc As] (a pair of Aces)
+HHHH0000 collected 536 from pot
+HHHH0000 wins the $2.38 bounty for eliminating Yarven
+Yarven finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 536 | Rake 0
+Board [Td Qc 4c 6s Ad]
+Seat 1: HHHH0000 showed [Kc As] and won (536) with a pair of Aces
+Seat 2: nvucea96 folded before Flop (didn't bet)
+Seat 3: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 4: Karagunis (small blind) folded before Flop
+Seat 5: Yarven (big blind) showed [4h 9c] and lost with a pair of Fours
+Seat 6: time part 90 folded before Flop (didn't bet)
+
+PokerStars Hand #188549234526: Tournament #2352975269, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:55:48 MSK [2018/07/09 18:55:48 ET]
+Table '2352975269 1' 6-max Seat #4 is the button
+Seat 1: HHHH0000 (957 in chips)
+Seat 2: nvucea96 (606 in chips)
+Seat 3: DiggErr555 (266 in chips)
+Seat 4: Karagunis (632 in chips)
+Seat 6: time part 90 (539 in chips)
+HHHH0000: posts the ante 4
+nvucea96: posts the ante 4
+DiggErr555: posts the ante 4
+Karagunis: posts the ante 4
+time part 90: posts the ante 4
+time part 90: posts small blind 20
+HHHH0000: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6s Ah]
+nvucea96: folds
+DiggErr555: raises 222 to 262 and is all-in
+Karagunis: raises 366 to 628 and is all-in
+time part 90: folds
+HHHH0000: calls 588
+*** FLOP *** [3h 4c Ac]
+*** TURN *** [3h 4c Ac] [Jh]
+*** RIVER *** [3h 4c Ac Jh] [9s]
+*** SHOW DOWN ***
+HHHH0000: shows [9d Ad] (two pair, Aces and Nines)
+Karagunis: shows [5d 5s] (a pair of Fives)
+HHHH0000 collected 732 from side pot
+DiggErr555: shows [6s Ah] (a pair of Aces)
+HHHH0000 collected 826 from main pot
+HHHH0000 wins the $2.38 bounty for eliminating DiggErr555
+HHHH0000 wins the $2.38 bounty for eliminating Karagunis
+Karagunis finished the tournament in 4th place
+DiggErr555 finished the tournament in 5th place
+*** SUMMARY ***
+Total pot 1558 Main pot 826. Side pot 732. | Rake 0
+Board [3h 4c Ac Jh 9s]
+Seat 1: HHHH0000 (big blind) showed [9d Ad] and won (1558) with two pair, Aces and Nines
+Seat 2: nvucea96 folded before Flop (didn't bet)
+Seat 3: DiggErr555 showed [6s Ah] and lost with a pair of Aces
+Seat 4: Karagunis (button) showed [5d 5s] and lost with a pair of Fives
+Seat 6: time part 90 (small blind) folded before Flop

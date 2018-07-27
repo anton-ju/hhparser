@@ -1,0 +1,936 @@
+
+
+PokerStars Hand #188547734717: Tournament #2352947294, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:13:32 MSK [2018/07/09 18:13:32 ET]
+Table '2352947294 1' 6-max Seat #1 is the button
+Seat 1: monteirooam (500 in chips)
+Seat 2: babz8 (500 in chips)
+Seat 3: DiggErr555 (500 in chips)
+Seat 4: ultraluxe (500 in chips)
+Seat 5: TeddyO'hara (500 in chips)
+Seat 6: shagvaladyan (500 in chips)
+monteirooam: posts the ante 2
+babz8: posts the ante 2
+DiggErr555: posts the ante 2
+ultraluxe: posts the ante 2
+TeddyO'hara: posts the ante 2
+shagvaladyan: posts the ante 2
+babz8: posts small blind 10
+DiggErr555: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [3c Ah]
+ultraluxe: folds
+TeddyO'hara: folds
+shagvaladyan: folds
+monteirooam: folds
+babz8: folds
+Uncalled bet (10) returned to DiggErr555
+DiggErr555 collected 32 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 32 | Rake 0
+Seat 1: monteirooam (button) folded before Flop (didn't bet)
+Seat 2: babz8 (small blind) folded before Flop
+Seat 3: DiggErr555 (big blind) collected (32)
+Seat 4: ultraluxe folded before Flop (didn't bet)
+Seat 5: TeddyO'hara folded before Flop (didn't bet)
+Seat 6: shagvaladyan folded before Flop (didn't bet)
+
+PokerStars Hand #188547743332: Tournament #2352947294, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:13:46 MSK [2018/07/09 18:13:46 ET]
+Table '2352947294 1' 6-max Seat #2 is the button
+Seat 1: monteirooam (498 in chips)
+Seat 2: babz8 (488 in chips)
+Seat 3: DiggErr555 (520 in chips)
+Seat 4: ultraluxe (498 in chips)
+Seat 5: TeddyO'hara (498 in chips)
+Seat 6: shagvaladyan (498 in chips)
+monteirooam: posts the ante 2
+babz8: posts the ante 2
+DiggErr555: posts the ante 2
+ultraluxe: posts the ante 2
+TeddyO'hara: posts the ante 2
+shagvaladyan: posts the ante 2
+DiggErr555: posts small blind 10
+ultraluxe: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Ac Jc]
+TeddyO'hara: folds
+shagvaladyan: folds
+monteirooam: folds
+babz8: folds
+DiggErr555: raises 498 to 518 and is all-in
+ultraluxe: folds
+Uncalled bet (498) returned to DiggErr555
+DiggErr555 collected 52 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 52 | Rake 0
+Seat 1: monteirooam folded before Flop (didn't bet)
+Seat 2: babz8 (button) folded before Flop (didn't bet)
+Seat 3: DiggErr555 (small blind) collected (52)
+Seat 4: ultraluxe (big blind) folded before Flop
+Seat 5: TeddyO'hara folded before Flop (didn't bet)
+Seat 6: shagvaladyan folded before Flop (didn't bet)
+
+PokerStars Hand #188547755650: Tournament #2352947294, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:14:05 MSK [2018/07/09 18:14:05 ET]
+Table '2352947294 1' 6-max Seat #3 is the button
+Seat 1: monteirooam (496 in chips)
+Seat 2: babz8 (486 in chips)
+Seat 3: DiggErr555 (550 in chips)
+Seat 4: ultraluxe (476 in chips)
+Seat 5: TeddyO'hara (496 in chips)
+Seat 6: shagvaladyan (496 in chips)
+monteirooam: posts the ante 2
+babz8: posts the ante 2
+DiggErr555: posts the ante 2
+ultraluxe: posts the ante 2
+TeddyO'hara: posts the ante 2
+shagvaladyan: posts the ante 2
+ultraluxe: posts small blind 10
+TeddyO'hara: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [8s 8c]
+shagvaladyan: folds
+monteirooam: raises 62 to 82
+babz8: calls 82
+DiggErr555: folds
+ultraluxe: folds
+TeddyO'hara: folds
+*** FLOP *** [3s 7s 5s]
+monteirooam: checks
+babz8: checks
+*** TURN *** [3s 7s 5s] [2h]
+monteirooam: bets 206
+babz8: calls 206
+*** RIVER *** [3s 7s 5s 2h] [3h]
+monteirooam: bets 206 and is all-in
+babz8: calls 196 and is all-in
+Uncalled bet (10) returned to monteirooam
+*** SHOW DOWN ***
+monteirooam: shows [4c 4d] (two pair, Fours and Threes)
+babz8: shows [As 2s] (a flush, Ace high)
+babz8 collected 1010 from pot
+*** SUMMARY ***
+Total pot 1010 | Rake 0
+Board [3s 7s 5s 2h 3h]
+Seat 1: monteirooam showed [4c 4d] and lost with two pair, Fours and Threes
+Seat 2: babz8 showed [As 2s] and won (1010) with a flush, Ace high
+Seat 3: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 4: ultraluxe (small blind) folded before Flop
+Seat 5: TeddyO'hara (big blind) folded before Flop
+Seat 6: shagvaladyan folded before Flop (didn't bet)
+
+PokerStars Hand #188547796391: Tournament #2352947294, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:15:10 MSK [2018/07/09 18:15:10 ET]
+Table '2352947294 1' 6-max Seat #4 is the button
+Seat 1: monteirooam (10 in chips)
+Seat 2: babz8 (1010 in chips)
+Seat 3: DiggErr555 (548 in chips)
+Seat 4: ultraluxe (464 in chips)
+Seat 5: TeddyO'hara (474 in chips)
+Seat 6: shagvaladyan (494 in chips)
+monteirooam: posts the ante 3
+babz8: posts the ante 3
+DiggErr555: posts the ante 3
+ultraluxe: posts the ante 3
+TeddyO'hara: posts the ante 3
+shagvaladyan: posts the ante 3
+TeddyO'hara: posts small blind 15
+shagvaladyan: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [4h Th]
+monteirooam: calls 7 and is all-in
+babz8: raises 977 to 1007 and is all-in
+DiggErr555: folds
+ultraluxe: folds
+TeddyO'hara: folds
+shagvaladyan: folds
+Uncalled bet (977) returned to babz8
+*** FLOP *** [Ts 8c 6h]
+*** TURN *** [Ts 8c 6h] [Jd]
+*** RIVER *** [Ts 8c 6h Jd] [Kd]
+*** SHOW DOWN ***
+babz8: shows [9d Ah] (high card Ace)
+babz8 collected 54 from side pot
+monteirooam: shows [2d As] (high card Ace - lower kicker)
+babz8 collected 46 from main pot
+babz8 wins the $4.79 bounty for eliminating monteirooam
+monteirooam finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 100 Main pot 46. Side pot 54. | Rake 0
+Board [Ts 8c 6h Jd Kd]
+Seat 1: monteirooam showed [2d As] and lost with high card Ace
+Seat 2: babz8 showed [9d Ah] and won (100) with high card Ace
+Seat 3: DiggErr555 folded before Flop (didn't bet)
+Seat 4: ultraluxe (button) folded before Flop (didn't bet)
+Seat 5: TeddyO'hara (small blind) folded before Flop
+Seat 6: shagvaladyan (big blind) folded before Flop
+
+PokerStars Hand #188547820588: Tournament #2352947294, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:15:49 MSK [2018/07/09 18:15:49 ET]
+Table '2352947294 1' 6-max Seat #5 is the button
+Seat 2: babz8 (1077 in chips)
+Seat 3: DiggErr555 (545 in chips)
+Seat 4: ultraluxe (461 in chips)
+Seat 5: TeddyO'hara (456 in chips)
+Seat 6: shagvaladyan (461 in chips)
+babz8: posts the ante 3
+DiggErr555: posts the ante 3
+ultraluxe: posts the ante 3
+TeddyO'hara: posts the ante 3
+shagvaladyan: posts the ante 3
+shagvaladyan: posts small blind 15
+babz8: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [3d 6c]
+DiggErr555: folds
+ultraluxe: folds
+TeddyO'hara: folds
+shagvaladyan: raises 30 to 60
+babz8: folds
+Uncalled bet (30) returned to shagvaladyan
+shagvaladyan collected 75 from pot
+shagvaladyan: doesn't show hand
+*** SUMMARY ***
+Total pot 75 | Rake 0
+Seat 2: babz8 (big blind) folded before Flop
+Seat 3: DiggErr555 folded before Flop (didn't bet)
+Seat 4: ultraluxe folded before Flop (didn't bet)
+Seat 5: TeddyO'hara (button) folded before Flop (didn't bet)
+Seat 6: shagvaladyan (small blind) collected (75)
+
+PokerStars Hand #188547832125: Tournament #2352947294, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:16:08 MSK [2018/07/09 18:16:08 ET]
+Table '2352947294 1' 6-max Seat #6 is the button
+Seat 2: babz8 (1044 in chips)
+Seat 3: DiggErr555 (542 in chips)
+Seat 4: ultraluxe (458 in chips)
+Seat 5: TeddyO'hara (453 in chips)
+Seat 6: shagvaladyan (503 in chips)
+babz8: posts the ante 3
+DiggErr555: posts the ante 3
+ultraluxe: posts the ante 3
+TeddyO'hara: posts the ante 3
+shagvaladyan: posts the ante 3
+babz8: posts small blind 15
+DiggErr555: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [3d 4h]
+ultraluxe: folds
+TeddyO'hara: folds
+shagvaladyan: folds
+babz8: raises 30 to 60
+DiggErr555: folds
+Uncalled bet (30) returned to babz8
+babz8 collected 75 from pot
+babz8: doesn't show hand
+*** SUMMARY ***
+Total pot 75 | Rake 0
+Seat 2: babz8 (small blind) collected (75)
+Seat 3: DiggErr555 (big blind) folded before Flop
+Seat 4: ultraluxe folded before Flop (didn't bet)
+Seat 5: TeddyO'hara folded before Flop (didn't bet)
+Seat 6: shagvaladyan (button) folded before Flop (didn't bet)
+
+PokerStars Hand #188547844870: Tournament #2352947294, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:16:28 MSK [2018/07/09 18:16:28 ET]
+Table '2352947294 1' 6-max Seat #2 is the button
+Seat 2: babz8 (1086 in chips)
+Seat 3: DiggErr555 (509 in chips)
+Seat 4: ultraluxe (455 in chips)
+Seat 5: TeddyO'hara (450 in chips)
+Seat 6: shagvaladyan (500 in chips)
+babz8: posts the ante 3
+DiggErr555: posts the ante 3
+ultraluxe: posts the ante 3
+TeddyO'hara: posts the ante 3
+shagvaladyan: posts the ante 3
+DiggErr555: posts small blind 15
+ultraluxe: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Ac Jc]
+TeddyO'hara: folds
+shagvaladyan: folds
+babz8: raises 90 to 120
+DiggErr555: folds
+ultraluxe: folds
+Uncalled bet (90) returned to babz8
+babz8 collected 90 from pot
+babz8: doesn't show hand
+*** SUMMARY ***
+Total pot 90 | Rake 0
+Seat 2: babz8 (button) collected (90)
+Seat 3: DiggErr555 (small blind) folded before Flop
+Seat 4: ultraluxe (big blind) folded before Flop
+Seat 5: TeddyO'hara folded before Flop (didn't bet)
+Seat 6: shagvaladyan folded before Flop (didn't bet)
+
+PokerStars Hand #188547862858: Tournament #2352947294, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:16:57 MSK [2018/07/09 18:16:57 ET]
+Table '2352947294 1' 6-max Seat #3 is the button
+Seat 2: babz8 (1143 in chips)
+Seat 3: DiggErr555 (491 in chips)
+Seat 4: ultraluxe (422 in chips)
+Seat 5: TeddyO'hara (447 in chips)
+Seat 6: shagvaladyan (497 in chips)
+babz8: posts the ante 4
+DiggErr555: posts the ante 4
+ultraluxe: posts the ante 4
+TeddyO'hara: posts the ante 4
+shagvaladyan: posts the ante 4
+ultraluxe: posts small blind 20
+TeddyO'hara: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [9c Jd]
+shagvaladyan: folds
+babz8: folds
+DiggErr555: raises 447 to 487 and is all-in
+ultraluxe: folds
+TeddyO'hara: calls 403 and is all-in
+Uncalled bet (44) returned to DiggErr555
+*** FLOP *** [3d 2c 9s]
+*** TURN *** [3d 2c 9s] [7d]
+*** RIVER *** [3d 2c 9s 7d] [Js]
+*** SHOW DOWN ***
+TeddyO'hara: shows [Th Ts] (a pair of Tens)
+DiggErr555: shows [9c Jd] (two pair, Jacks and Nines)
+DiggErr555 collected 926 from pot
+DiggErr555 wins the $4.79 bounty for eliminating TeddyO'hara
+TeddyO'hara finished the tournament in 5th place
+*** SUMMARY ***
+Total pot 926 | Rake 0
+Board [3d 2c 9s 7d Js]
+Seat 2: babz8 folded before Flop (didn't bet)
+Seat 3: DiggErr555 (button) showed [9c Jd] and won (926) with two pair, Jacks and Nines
+Seat 4: ultraluxe (small blind) folded before Flop
+Seat 5: TeddyO'hara (big blind) showed [Th Ts] and lost with a pair of Tens
+Seat 6: shagvaladyan folded before Flop (didn't bet)
+
+PokerStars Hand #188547878755: Tournament #2352947294, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:17:23 MSK [2018/07/09 18:17:23 ET]
+Table '2352947294 1' 6-max Seat #4 is the button
+Seat 2: babz8 (1139 in chips)
+Seat 3: DiggErr555 (970 in chips)
+Seat 4: ultraluxe (398 in chips)
+Seat 6: shagvaladyan (493 in chips)
+babz8: posts the ante 4
+DiggErr555: posts the ante 4
+ultraluxe: posts the ante 4
+shagvaladyan: posts the ante 4
+shagvaladyan: posts small blind 20
+babz8: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [9s 7s]
+DiggErr555: folds
+ultraluxe: raises 354 to 394 and is all-in
+shagvaladyan: folds
+babz8: calls 354
+*** FLOP *** [5c Ks 8s]
+*** TURN *** [5c Ks 8s] [Kd]
+*** RIVER *** [5c Ks 8s Kd] [6h]
+*** SHOW DOWN ***
+babz8: shows [Ts Kh] (three of a kind, Kings)
+ultraluxe: shows [4c As] (a pair of Kings)
+babz8 collected 824 from pot
+babz8 wins the $4.79 bounty for eliminating ultraluxe
+ultraluxe finished the tournament in 4th place
+*** SUMMARY ***
+Total pot 824 | Rake 0
+Board [5c Ks 8s Kd 6h]
+Seat 2: babz8 (big blind) showed [Ts Kh] and won (824) with three of a kind, Kings
+Seat 3: DiggErr555 folded before Flop (didn't bet)
+Seat 4: ultraluxe (button) showed [4c As] and lost with a pair of Kings
+Seat 6: shagvaladyan (small blind) folded before Flop
+
+PokerStars Hand #188547893465: Tournament #2352947294, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:17:47 MSK [2018/07/09 18:17:47 ET]
+Table '2352947294 1' 6-max Seat #6 is the button
+Seat 2: babz8 (1565 in chips)
+Seat 3: DiggErr555 (966 in chips)
+Seat 6: shagvaladyan (469 in chips)
+babz8: posts the ante 4
+DiggErr555: posts the ante 4
+shagvaladyan: posts the ante 4
+babz8: posts small blind 20
+DiggErr555: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [4c Ah]
+shagvaladyan: folds
+babz8: raises 1521 to 1561 and is all-in
+DiggErr555: folds
+Uncalled bet (1521) returned to babz8
+babz8 collected 92 from pot
+babz8: doesn't show hand
+*** SUMMARY ***
+Total pot 92 | Rake 0
+Seat 2: babz8 (small blind) collected (92)
+Seat 3: DiggErr555 (big blind) folded before Flop
+Seat 6: shagvaladyan (button) folded before Flop (didn't bet)
+
+PokerStars Hand #188547906901: Tournament #2352947294, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:18:08 MSK [2018/07/09 18:18:08 ET]
+Table '2352947294 1' 6-max Seat #2 is the button
+Seat 2: babz8 (1613 in chips)
+Seat 3: DiggErr555 (922 in chips)
+Seat 6: shagvaladyan (465 in chips)
+babz8: posts the ante 4
+DiggErr555: posts the ante 4
+shagvaladyan: posts the ante 4
+DiggErr555: posts small blind 20
+shagvaladyan: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [5c 3s]
+babz8: folds
+DiggErr555: raises 878 to 918 and is all-in
+shagvaladyan: folds
+Uncalled bet (878) returned to DiggErr555
+DiggErr555 collected 92 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 92 | Rake 0
+Seat 2: babz8 (button) folded before Flop (didn't bet)
+Seat 3: DiggErr555 (small blind) collected (92)
+Seat 6: shagvaladyan (big blind) folded before Flop
+
+PokerStars Hand #188547921634: Tournament #2352947294, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:18:32 MSK [2018/07/09 18:18:32 ET]
+Table '2352947294 1' 6-max Seat #3 is the button
+Seat 2: babz8 (1609 in chips)
+Seat 3: DiggErr555 (970 in chips)
+Seat 6: shagvaladyan (421 in chips)
+babz8: posts the ante 6
+DiggErr555: posts the ante 6
+shagvaladyan: posts the ante 6
+shagvaladyan: posts small blind 30
+babz8: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [3h Qs]
+DiggErr555: folds
+shagvaladyan: calls 30
+babz8: checks
+*** FLOP *** [6s Js 2h]
+shagvaladyan: bets 92
+babz8: folds
+Uncalled bet (92) returned to shagvaladyan
+shagvaladyan collected 138 from pot
+shagvaladyan: doesn't show hand
+*** SUMMARY ***
+Total pot 138 | Rake 0
+Board [6s Js 2h]
+Seat 2: babz8 (big blind) folded on the Flop
+Seat 3: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 6: shagvaladyan (small blind) collected (138)
+
+PokerStars Hand #188547938929: Tournament #2352947294, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:19:00 MSK [2018/07/09 18:19:00 ET]
+Table '2352947294 1' 6-max Seat #6 is the button
+Seat 2: babz8 (1543 in chips)
+Seat 3: DiggErr555 (964 in chips)
+Seat 6: shagvaladyan (493 in chips)
+babz8: posts the ante 6
+DiggErr555: posts the ante 6
+shagvaladyan: posts the ante 6
+babz8: posts small blind 30
+DiggErr555: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6s Jd]
+shagvaladyan: folds
+babz8: raises 60 to 120
+DiggErr555: folds
+Uncalled bet (60) returned to babz8
+babz8 collected 138 from pot
+babz8: doesn't show hand
+*** SUMMARY ***
+Total pot 138 | Rake 0
+Seat 2: babz8 (small blind) collected (138)
+Seat 3: DiggErr555 (big blind) folded before Flop
+Seat 6: shagvaladyan (button) folded before Flop (didn't bet)
+
+PokerStars Hand #188547945655: Tournament #2352947294, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:19:10 MSK [2018/07/09 18:19:10 ET]
+Table '2352947294 1' 6-max Seat #2 is the button
+Seat 2: babz8 (1615 in chips)
+Seat 3: DiggErr555 (898 in chips)
+Seat 6: shagvaladyan (487 in chips)
+babz8: posts the ante 6
+DiggErr555: posts the ante 6
+shagvaladyan: posts the ante 6
+DiggErr555: posts small blind 30
+shagvaladyan: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Td Jd]
+babz8: raises 60 to 120
+DiggErr555: folds
+shagvaladyan: raises 361 to 481 and is all-in
+babz8: calls 361
+*** FLOP *** [Th 3c 6d]
+*** TURN *** [Th 3c 6d] [2d]
+*** RIVER *** [Th 3c 6d 2d] [8h]
+*** SHOW DOWN ***
+shagvaladyan: shows [Kh Jh] (high card King)
+babz8: shows [Js 5s] (high card Jack)
+shagvaladyan collected 1010 from pot
+*** SUMMARY ***
+Total pot 1010 | Rake 0
+Board [Th 3c 6d 2d 8h]
+Seat 2: babz8 (button) showed [Js 5s] and lost with high card Jack
+Seat 3: DiggErr555 (small blind) folded before Flop
+Seat 6: shagvaladyan (big blind) showed [Kh Jh] and won (1010) with high card King
+
+PokerStars Hand #188547966329: Tournament #2352947294, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:19:44 MSK [2018/07/09 18:19:44 ET]
+Table '2352947294 1' 6-max Seat #3 is the button
+Seat 2: babz8 (1128 in chips)
+Seat 3: DiggErr555 (862 in chips)
+Seat 6: shagvaladyan (1010 in chips)
+babz8: posts the ante 6
+DiggErr555: posts the ante 6
+shagvaladyan: posts the ante 6
+shagvaladyan: posts small blind 30
+babz8: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Js 4d]
+DiggErr555: folds
+shagvaladyan: calls 30
+babz8: raises 1062 to 1122 and is all-in
+shagvaladyan: folds
+Uncalled bet (1062) returned to babz8
+babz8 collected 138 from pot
+babz8: doesn't show hand
+*** SUMMARY ***
+Total pot 138 | Rake 0
+Seat 2: babz8 (big blind) collected (138)
+Seat 3: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 6: shagvaladyan (small blind) folded before Flop
+
+PokerStars Hand #188547978779: Tournament #2352947294, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:20:04 MSK [2018/07/09 18:20:04 ET]
+Table '2352947294 1' 6-max Seat #6 is the button
+Seat 2: babz8 (1200 in chips)
+Seat 3: DiggErr555 (856 in chips)
+Seat 6: shagvaladyan (944 in chips)
+babz8: posts the ante 6
+DiggErr555: posts the ante 6
+shagvaladyan: posts the ante 6
+babz8: posts small blind 30
+DiggErr555: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [2d 7c]
+shagvaladyan: folds
+babz8: raises 138 to 198
+DiggErr555: folds
+Uncalled bet (138) returned to babz8
+babz8 collected 138 from pot
+babz8: doesn't show hand
+*** SUMMARY ***
+Total pot 138 | Rake 0
+Seat 2: babz8 (small blind) collected (138)
+Seat 3: DiggErr555 (big blind) folded before Flop
+Seat 6: shagvaladyan (button) folded before Flop (didn't bet)
+
+PokerStars Hand #188547987392: Tournament #2352947294, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:20:18 MSK [2018/07/09 18:20:18 ET]
+Table '2352947294 1' 6-max Seat #2 is the button
+Seat 2: babz8 (1272 in chips)
+Seat 3: DiggErr555 (790 in chips)
+Seat 6: shagvaladyan (938 in chips)
+babz8: posts the ante 8
+DiggErr555: posts the ante 8
+shagvaladyan: posts the ante 8
+DiggErr555: posts small blind 40
+shagvaladyan: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [9c 2s]
+babz8: raises 224 to 304
+DiggErr555: folds
+shagvaladyan: folds
+Uncalled bet (224) returned to babz8
+babz8 collected 224 from pot
+babz8: doesn't show hand
+*** SUMMARY ***
+Total pot 224 | Rake 0
+Seat 2: babz8 (button) collected (224)
+Seat 3: DiggErr555 (small blind) folded before Flop
+Seat 6: shagvaladyan (big blind) folded before Flop
+
+PokerStars Hand #188547994602: Tournament #2352947294, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:20:30 MSK [2018/07/09 18:20:30 ET]
+Table '2352947294 1' 6-max Seat #3 is the button
+Seat 2: babz8 (1408 in chips)
+Seat 3: DiggErr555 (742 in chips)
+Seat 6: shagvaladyan (850 in chips)
+babz8: posts the ante 8
+DiggErr555: posts the ante 8
+shagvaladyan: posts the ante 8
+shagvaladyan: posts small blind 40
+babz8: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6d 3h]
+DiggErr555: folds
+shagvaladyan: folds
+Uncalled bet (40) returned to babz8
+babz8 collected 104 from pot
+babz8: doesn't show hand
+*** SUMMARY ***
+Total pot 104 | Rake 0
+Seat 2: babz8 (big blind) collected (104)
+Seat 3: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 6: shagvaladyan (small blind) folded before Flop
+
+PokerStars Hand #188547998980: Tournament #2352947294, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:20:37 MSK [2018/07/09 18:20:37 ET]
+Table '2352947294 1' 6-max Seat #6 is the button
+Seat 2: babz8 (1464 in chips)
+Seat 3: DiggErr555 (734 in chips)
+Seat 6: shagvaladyan (802 in chips)
+babz8: posts the ante 8
+DiggErr555: posts the ante 8
+shagvaladyan: posts the ante 8
+babz8: posts small blind 40
+DiggErr555: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [4h Js]
+shagvaladyan: raises 714 to 794 and is all-in
+babz8: folds
+DiggErr555: folds
+Uncalled bet (714) returned to shagvaladyan
+shagvaladyan collected 224 from pot
+shagvaladyan: doesn't show hand
+*** SUMMARY ***
+Total pot 224 | Rake 0
+Seat 2: babz8 (small blind) folded before Flop
+Seat 3: DiggErr555 (big blind) folded before Flop
+Seat 6: shagvaladyan (button) collected (224)
+
+PokerStars Hand #188548008005: Tournament #2352947294, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:20:52 MSK [2018/07/09 18:20:52 ET]
+Table '2352947294 1' 6-max Seat #2 is the button
+Seat 2: babz8 (1416 in chips)
+Seat 3: DiggErr555 (646 in chips)
+Seat 6: shagvaladyan (938 in chips)
+babz8: posts the ante 8
+DiggErr555: posts the ante 8
+shagvaladyan: posts the ante 8
+DiggErr555: posts small blind 40
+shagvaladyan: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [4c Tc]
+babz8: raises 224 to 304
+DiggErr555: folds
+shagvaladyan: folds
+Uncalled bet (224) returned to babz8
+babz8 collected 224 from pot
+babz8: doesn't show hand
+*** SUMMARY ***
+Total pot 224 | Rake 0
+Seat 2: babz8 (button) collected (224)
+Seat 3: DiggErr555 (small blind) folded before Flop
+Seat 6: shagvaladyan (big blind) folded before Flop
+
+PokerStars Hand #188548017666: Tournament #2352947294, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:21:08 MSK [2018/07/09 18:21:08 ET]
+Table '2352947294 1' 6-max Seat #3 is the button
+Seat 2: babz8 (1552 in chips)
+Seat 3: DiggErr555 (598 in chips)
+Seat 6: shagvaladyan (850 in chips)
+babz8: posts the ante 8
+DiggErr555: posts the ante 8
+shagvaladyan: posts the ante 8
+shagvaladyan: posts small blind 40
+babz8: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Qh 9c]
+DiggErr555: folds
+shagvaladyan: folds
+Uncalled bet (40) returned to babz8
+babz8 collected 104 from pot
+babz8: doesn't show hand
+*** SUMMARY ***
+Total pot 104 | Rake 0
+Seat 2: babz8 (big blind) collected (104)
+Seat 3: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 6: shagvaladyan (small blind) folded before Flop
+
+PokerStars Hand #188548028002: Tournament #2352947294, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level VI (50/100) - 2018/07/10 1:21:24 MSK [2018/07/09 18:21:24 ET]
+Table '2352947294 1' 6-max Seat #6 is the button
+Seat 2: babz8 (1608 in chips)
+Seat 3: DiggErr555 (590 in chips)
+Seat 6: shagvaladyan (802 in chips)
+babz8: posts the ante 10
+DiggErr555: posts the ante 10
+shagvaladyan: posts the ante 10
+babz8: posts small blind 50
+DiggErr555: posts big blind 100
+*** HOLE CARDS ***
+Dealt to DiggErr555 [2s 9d]
+shagvaladyan: raises 692 to 792 and is all-in
+babz8: folds
+DiggErr555: folds
+Uncalled bet (692) returned to shagvaladyan
+shagvaladyan collected 280 from pot
+shagvaladyan: doesn't show hand
+*** SUMMARY ***
+Total pot 280 | Rake 0
+Seat 2: babz8 (small blind) folded before Flop
+Seat 3: DiggErr555 (big blind) folded before Flop
+Seat 6: shagvaladyan (button) collected (280)
+
+PokerStars Hand #188548036772: Tournament #2352947294, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level VI (50/100) - 2018/07/10 1:21:39 MSK [2018/07/09 18:21:39 ET]
+Table '2352947294 1' 6-max Seat #2 is the button
+Seat 2: babz8 (1548 in chips)
+Seat 3: DiggErr555 (480 in chips)
+Seat 6: shagvaladyan (972 in chips)
+babz8: posts the ante 10
+DiggErr555: posts the ante 10
+shagvaladyan: posts the ante 10
+DiggErr555: posts small blind 50
+shagvaladyan: posts big blind 100
+*** HOLE CARDS ***
+Dealt to DiggErr555 [7d 9h]
+babz8: raises 1438 to 1538 and is all-in
+DiggErr555: folds
+shagvaladyan: folds
+Uncalled bet (1438) returned to babz8
+babz8 collected 280 from pot
+babz8: doesn't show hand
+*** SUMMARY ***
+Total pot 280 | Rake 0
+Seat 2: babz8 (button) collected (280)
+Seat 3: DiggErr555 (small blind) folded before Flop
+Seat 6: shagvaladyan (big blind) folded before Flop
+
+PokerStars Hand #188548043522: Tournament #2352947294, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level VI (50/100) - 2018/07/10 1:21:50 MSK [2018/07/09 18:21:50 ET]
+Table '2352947294 1' 6-max Seat #3 is the button
+Seat 2: babz8 (1718 in chips)
+Seat 3: DiggErr555 (420 in chips)
+Seat 6: shagvaladyan (862 in chips)
+babz8: posts the ante 10
+DiggErr555: posts the ante 10
+shagvaladyan: posts the ante 10
+shagvaladyan: posts small blind 50
+babz8: posts big blind 100
+*** HOLE CARDS ***
+Dealt to DiggErr555 [8d 6s]
+DiggErr555: folds
+shagvaladyan: calls 50
+babz8: raises 1608 to 1708 and is all-in
+shagvaladyan: folds
+Uncalled bet (1608) returned to babz8
+babz8 collected 230 from pot
+babz8: doesn't show hand
+*** SUMMARY ***
+Total pot 230 | Rake 0
+Seat 2: babz8 (big blind) collected (230)
+Seat 3: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 6: shagvaladyan (small blind) folded before Flop
+
+PokerStars Hand #188548052396: Tournament #2352947294, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level VI (50/100) - 2018/07/10 1:22:04 MSK [2018/07/09 18:22:04 ET]
+Table '2352947294 1' 6-max Seat #6 is the button
+Seat 2: babz8 (1838 in chips)
+Seat 3: DiggErr555 (410 in chips)
+Seat 6: shagvaladyan (752 in chips)
+babz8: posts the ante 10
+DiggErr555: posts the ante 10
+shagvaladyan: posts the ante 10
+babz8: posts small blind 50
+DiggErr555: posts big blind 100
+*** HOLE CARDS ***
+Dealt to DiggErr555 [8d Kc]
+shagvaladyan: folds
+babz8: raises 1728 to 1828 and is all-in
+DiggErr555: calls 300 and is all-in
+Uncalled bet (1428) returned to babz8
+*** FLOP *** [3s Ks 8c]
+*** TURN *** [3s Ks 8c] [8h]
+*** RIVER *** [3s Ks 8c 8h] [Js]
+*** SHOW DOWN ***
+babz8: shows [Kd 2c] (two pair, Kings and Eights)
+DiggErr555: shows [8d Kc] (a full house, Eights full of Kings)
+DiggErr555 collected 830 from pot
+*** SUMMARY ***
+Total pot 830 | Rake 0
+Board [3s Ks 8c 8h Js]
+Seat 2: babz8 (small blind) showed [Kd 2c] and lost with two pair, Kings and Eights
+Seat 3: DiggErr555 (big blind) showed [8d Kc] and won (830) with a full house, Eights full of Kings
+Seat 6: shagvaladyan (button) folded before Flop (didn't bet)
+
+PokerStars Hand #188548064714: Tournament #2352947294, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level VI (50/100) - 2018/07/10 1:22:25 MSK [2018/07/09 18:22:25 ET]
+Table '2352947294 1' 6-max Seat #2 is the button
+Seat 2: babz8 (1428 in chips)
+Seat 3: DiggErr555 (830 in chips)
+Seat 6: shagvaladyan (742 in chips)
+babz8: posts the ante 10
+DiggErr555: posts the ante 10
+shagvaladyan: posts the ante 10
+DiggErr555: posts small blind 50
+shagvaladyan: posts big blind 100
+*** HOLE CARDS ***
+Dealt to DiggErr555 [7c 4d]
+babz8: folds
+DiggErr555: raises 720 to 820 and is all-in
+shagvaladyan: calls 632 and is all-in
+Uncalled bet (88) returned to DiggErr555
+*** FLOP *** [2h 9h 7d]
+*** TURN *** [2h 9h 7d] [7s]
+*** RIVER *** [2h 9h 7d 7s] [5s]
+*** SHOW DOWN ***
+DiggErr555: shows [7c 4d] (three of a kind, Sevens)
+shagvaladyan: shows [Ks Js] (a pair of Sevens)
+DiggErr555 collected 1494 from pot
+DiggErr555 wins the $4.79 bounty for eliminating shagvaladyan
+shagvaladyan finished the tournament in 3rd place
+*** SUMMARY ***
+Total pot 1494 | Rake 0
+Board [2h 9h 7d 7s 5s]
+Seat 2: babz8 (button) folded before Flop (didn't bet)
+Seat 3: DiggErr555 (small blind) showed [7c 4d] and won (1494) with three of a kind, Sevens
+Seat 6: shagvaladyan (big blind) showed [Ks Js] and lost with a pair of Sevens
+
+PokerStars Hand #188548084620: Tournament #2352947294, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level VI (50/100) - 2018/07/10 1:22:57 MSK [2018/07/09 18:22:57 ET]
+Table '2352947294 1' 6-max Seat #3 is the button
+Seat 2: babz8 (1418 in chips)
+Seat 3: DiggErr555 (1582 in chips)
+babz8: posts the ante 10
+DiggErr555: posts the ante 10
+DiggErr555: posts small blind 50
+babz8: posts big blind 100
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Th Jd]
+DiggErr555: raises 1472 to 1572 and is all-in
+babz8: folds
+Uncalled bet (1472) returned to DiggErr555
+DiggErr555 collected 220 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 220 | Rake 0
+Seat 2: babz8 (big blind) folded before Flop
+Seat 3: DiggErr555 (button) (small blind) collected (220)
+
+PokerStars Hand #188548092110: Tournament #2352947294, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level VII (60/120) - 2018/07/10 1:23:10 MSK [2018/07/09 18:23:10 ET]
+Table '2352947294 1' 6-max Seat #2 is the button
+Seat 2: babz8 (1308 in chips)
+Seat 3: DiggErr555 (1692 in chips)
+babz8: posts the ante 12
+DiggErr555: posts the ante 12
+babz8: posts small blind 60
+DiggErr555: posts big blind 120
+*** HOLE CARDS ***
+Dealt to DiggErr555 [2c Qd]
+babz8: raises 1176 to 1296 and is all-in
+DiggErr555: folds
+Uncalled bet (1176) returned to babz8
+babz8 collected 264 from pot
+babz8: doesn't show hand
+*** SUMMARY ***
+Total pot 264 | Rake 0
+Seat 2: babz8 (button) (small blind) collected (264)
+Seat 3: DiggErr555 (big blind) folded before Flop
+
+PokerStars Hand #188548097557: Tournament #2352947294, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level VII (60/120) - 2018/07/10 1:23:19 MSK [2018/07/09 18:23:19 ET]
+Table '2352947294 1' 6-max Seat #3 is the button
+Seat 2: babz8 (1440 in chips)
+Seat 3: DiggErr555 (1560 in chips)
+babz8: posts the ante 12
+DiggErr555: posts the ante 12
+DiggErr555: posts small blind 60
+babz8: posts big blind 120
+*** HOLE CARDS ***
+Dealt to DiggErr555 [9c Ac]
+DiggErr555: calls 60
+babz8: checks
+*** FLOP *** [2d Jh 8d]
+babz8: checks
+DiggErr555: checks
+*** TURN *** [2d Jh 8d] [9h]
+babz8: bets 120
+DiggErr555: calls 120
+*** RIVER *** [2d Jh 8d 9h] [6d]
+babz8: bets 240
+DiggErr555: folds
+Uncalled bet (240) returned to babz8
+babz8 collected 504 from pot
+babz8: doesn't show hand
+*** SUMMARY ***
+Total pot 504 | Rake 0
+Board [2d Jh 8d 9h 6d]
+Seat 2: babz8 (big blind) collected (504)
+Seat 3: DiggErr555 (button) (small blind) folded on the River
+
+PokerStars Hand #188548120533: Tournament #2352947294, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level VII (60/120) - 2018/07/10 1:23:57 MSK [2018/07/09 18:23:57 ET]
+Table '2352947294 1' 6-max Seat #2 is the button
+Seat 2: babz8 (1692 in chips)
+Seat 3: DiggErr555 (1308 in chips)
+babz8: posts the ante 12
+DiggErr555: posts the ante 12
+babz8: posts small blind 60
+DiggErr555: posts big blind 120
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Ks 6h]
+babz8: folds
+Uncalled bet (60) returned to DiggErr555
+DiggErr555 collected 144 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 144 | Rake 0
+Seat 2: babz8 (button) (small blind) folded before Flop
+Seat 3: DiggErr555 (big blind) collected (144)
+
+PokerStars Hand #188548125001: Tournament #2352947294, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level VII (60/120) - 2018/07/10 1:24:04 MSK [2018/07/09 18:24:04 ET]
+Table '2352947294 1' 6-max Seat #3 is the button
+Seat 2: babz8 (1620 in chips)
+Seat 3: DiggErr555 (1380 in chips)
+babz8: posts the ante 12
+DiggErr555: posts the ante 12
+DiggErr555: posts small blind 60
+babz8: posts big blind 120
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Kc Qh]
+DiggErr555: calls 60
+babz8: checks
+*** FLOP *** [Qd As 3d]
+babz8: bets 240
+DiggErr555: calls 240
+*** TURN *** [Qd As 3d] [2c]
+babz8: checks
+DiggErr555: bets 260
+babz8: calls 260
+*** RIVER *** [Qd As 3d 2c] [4d]
+babz8: bets 988 and is all-in
+DiggErr555: folds
+Uncalled bet (988) returned to babz8
+babz8 collected 1264 from pot
+babz8: doesn't show hand
+*** SUMMARY ***
+Total pot 1264 | Rake 0
+Board [Qd As 3d 2c 4d]
+Seat 2: babz8 (big blind) collected (1264)
+Seat 3: DiggErr555 (button) (small blind) folded on the River
+
+PokerStars Hand #188548149167: Tournament #2352947294, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level VII (60/120) - 2018/07/10 1:24:45 MSK [2018/07/09 18:24:45 ET]
+Table '2352947294 1' 6-max Seat #2 is the button
+Seat 2: babz8 (2252 in chips)
+Seat 3: DiggErr555 (748 in chips)
+babz8: posts the ante 12
+DiggErr555: posts the ante 12
+babz8: posts small blind 60
+DiggErr555: posts big blind 120
+*** HOLE CARDS ***
+Dealt to DiggErr555 [9c 2c]
+babz8: raises 2120 to 2240 and is all-in
+DiggErr555: folds
+Uncalled bet (2120) returned to babz8
+babz8 collected 264 from pot
+babz8: doesn't show hand
+*** SUMMARY ***
+Total pot 264 | Rake 0
+Seat 2: babz8 (button) (small blind) collected (264)
+Seat 3: DiggErr555 (big blind) folded before Flop
+
+PokerStars Hand #188548157853: Tournament #2352947294, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level VII (60/120) - 2018/07/10 1:24:59 MSK [2018/07/09 18:24:59 ET]
+Table '2352947294 1' 6-max Seat #3 is the button
+Seat 2: babz8 (2384 in chips)
+Seat 3: DiggErr555 (616 in chips)
+babz8: posts the ante 12
+DiggErr555: posts the ante 12
+DiggErr555: posts small blind 60
+babz8: posts big blind 120
+*** HOLE CARDS ***
+Dealt to DiggErr555 [2h Jh]
+DiggErr555: raises 484 to 604 and is all-in
+babz8: calls 484
+*** FLOP *** [2s Kh Kc]
+*** TURN *** [2s Kh Kc] [Tc]
+*** RIVER *** [2s Kh Kc Tc] [7d]
+*** SHOW DOWN ***
+babz8: shows [Qs Th] (two pair, Kings and Tens)
+DiggErr555: shows [2h Jh] (two pair, Kings and Deuces)
+babz8 collected 1232 from pot
+babz8 wins the $4.79 bounty for eliminating DiggErr555
+DiggErr555 finished the tournament in 2nd place and received $14.37.
+babz8 wins the tournament and receives $14.37 - congratulations!
+*** SUMMARY ***
+Total pot 1232 | Rake 0
+Board [2s Kh Kc Tc 7d]
+Seat 2: babz8 (big blind) showed [Qs Th] and won (1232) with two pair, Kings and Tens
+Seat 3: DiggErr555 (button) (small blind) showed [2h Jh] and lost with two pair, Kings and Deuces

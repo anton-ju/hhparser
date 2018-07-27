@@ -1,0 +1,547 @@
+
+
+PokerStars Hand #188548829756: Tournament #2352971486, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:43:55 MSK [2018/07/09 18:43:55 ET]
+Table '2352971486 1' 6-max Seat #1 is the button
+Seat 1: Luchok123 (500 in chips)
+Seat 2: pokeracer87 (500 in chips)
+Seat 3: fabsnb95 (500 in chips)
+Seat 4: Metnetbet (500 in chips)
+Seat 5: DiggErr555 (500 in chips)
+Seat 6: Ath.Bachmann (500 in chips)
+Luchok123: posts the ante 2
+pokeracer87: posts the ante 2
+fabsnb95: posts the ante 2
+Metnetbet: posts the ante 2
+DiggErr555: posts the ante 2
+Ath.Bachmann: posts the ante 2
+pokeracer87: posts small blind 10
+fabsnb95: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6s 3h]
+Metnetbet: calls 20
+DiggErr555: folds
+Ath.Bachmann: folds
+Luchok123: folds
+pokeracer87: calls 10
+fabsnb95: checks
+*** FLOP *** [2d 9d Jc]
+pokeracer87: checks
+fabsnb95: checks
+Metnetbet: bets 40
+pokeracer87: calls 40
+fabsnb95: folds
+*** TURN *** [2d 9d Jc] [Qc]
+pokeracer87: checks
+Metnetbet: bets 40
+pokeracer87: raises 60 to 100
+Metnetbet: calls 60
+*** RIVER *** [2d 9d Jc Qc] [4c]
+pokeracer87: bets 338 and is all-in
+Metnetbet: calls 338 and is all-in
+*** SHOW DOWN ***
+pokeracer87: shows [Jh 3c] (a pair of Jacks)
+Metnetbet: shows [9c 6c] (a flush, Queen high)
+Metnetbet collected 1028 from pot
+Metnetbet wins the $4.79 bounty for eliminating pokeracer87
+pokeracer87 finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 1028 | Rake 0
+Board [2d 9d Jc Qc 4c]
+Seat 1: Luchok123 (button) folded before Flop (didn't bet)
+Seat 2: pokeracer87 (small blind) showed [Jh 3c] and lost with a pair of Jacks
+Seat 3: fabsnb95 (big blind) folded on the Flop
+Seat 4: Metnetbet showed [9c 6c] and won (1028) with a flush, Queen high
+Seat 5: DiggErr555 folded before Flop (didn't bet)
+Seat 6: Ath.Bachmann folded before Flop (didn't bet)
+
+PokerStars Hand #188548871648: Tournament #2352971486, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:45:08 MSK [2018/07/09 18:45:08 ET]
+Table '2352971486 1' 6-max Seat #3 is the button
+Seat 1: Luchok123 (498 in chips)
+Seat 3: fabsnb95 (478 in chips)
+Seat 4: Metnetbet (1028 in chips)
+Seat 5: DiggErr555 (498 in chips)
+Seat 6: Ath.Bachmann (498 in chips)
+Luchok123: posts the ante 2
+fabsnb95: posts the ante 2
+Metnetbet: posts the ante 2
+DiggErr555: posts the ante 2
+Ath.Bachmann: posts the ante 2
+Metnetbet: posts small blind 10
+DiggErr555: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6d 9h]
+Ath.Bachmann: folds
+Luchok123: folds
+fabsnb95: folds
+Metnetbet: calls 10
+DiggErr555: checks
+*** FLOP *** [3h Ks 5d]
+Metnetbet: checks
+DiggErr555: bets 20
+Metnetbet: folds
+Uncalled bet (20) returned to DiggErr555
+DiggErr555 collected 50 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 50 | Rake 0
+Board [3h Ks 5d]
+Seat 1: Luchok123 folded before Flop (didn't bet)
+Seat 3: fabsnb95 (button) folded before Flop (didn't bet)
+Seat 4: Metnetbet (small blind) folded on the Flop
+Seat 5: DiggErr555 (big blind) collected (50)
+Seat 6: Ath.Bachmann folded before Flop (didn't bet)
+
+PokerStars Hand #188548885921: Tournament #2352971486, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:45:33 MSK [2018/07/09 18:45:33 ET]
+Table '2352971486 1' 6-max Seat #4 is the button
+Seat 1: Luchok123 (496 in chips)
+Seat 3: fabsnb95 (476 in chips)
+Seat 4: Metnetbet (1006 in chips)
+Seat 5: DiggErr555 (526 in chips)
+Seat 6: Ath.Bachmann (496 in chips)
+Luchok123: posts the ante 2
+fabsnb95: posts the ante 2
+Metnetbet: posts the ante 2
+DiggErr555: posts the ante 2
+Ath.Bachmann: posts the ante 2
+DiggErr555: posts small blind 10
+Ath.Bachmann: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [7c 9d]
+Luchok123: raises 474 to 494 and is all-in
+fabsnb95: folds
+Metnetbet: folds
+DiggErr555: folds
+Ath.Bachmann: folds
+Uncalled bet (474) returned to Luchok123
+Luchok123 collected 60 from pot
+Luchok123: doesn't show hand
+*** SUMMARY ***
+Total pot 60 | Rake 0
+Seat 1: Luchok123 collected (60)
+Seat 3: fabsnb95 folded before Flop (didn't bet)
+Seat 4: Metnetbet (button) folded before Flop (didn't bet)
+Seat 5: DiggErr555 (small blind) folded before Flop
+Seat 6: Ath.Bachmann (big blind) folded before Flop
+
+PokerStars Hand #188548894532: Tournament #2352971486, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:45:48 MSK [2018/07/09 18:45:48 ET]
+Table '2352971486 1' 6-max Seat #5 is the button
+Seat 1: Luchok123 (534 in chips)
+Seat 3: fabsnb95 (474 in chips)
+Seat 4: Metnetbet (1004 in chips)
+Seat 5: DiggErr555 (514 in chips)
+Seat 6: Ath.Bachmann (474 in chips)
+Luchok123: posts the ante 3
+fabsnb95: posts the ante 3
+Metnetbet: posts the ante 3
+DiggErr555: posts the ante 3
+Ath.Bachmann: posts the ante 3
+Ath.Bachmann: posts small blind 15
+Luchok123: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [9s 5h]
+fabsnb95: folds
+Metnetbet: raises 60 to 90
+DiggErr555: folds
+Ath.Bachmann: folds
+Luchok123: folds
+Uncalled bet (60) returned to Metnetbet
+Metnetbet collected 90 from pot
+Metnetbet: doesn't show hand
+*** SUMMARY ***
+Total pot 90 | Rake 0
+Seat 1: Luchok123 (big blind) folded before Flop
+Seat 3: fabsnb95 folded before Flop (didn't bet)
+Seat 4: Metnetbet collected (90)
+Seat 5: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 6: Ath.Bachmann (small blind) folded before Flop
+
+PokerStars Hand #188548904600: Tournament #2352971486, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:46:05 MSK [2018/07/09 18:46:05 ET]
+Table '2352971486 1' 6-max Seat #6 is the button
+Seat 1: Luchok123 (501 in chips)
+Seat 3: fabsnb95 (471 in chips)
+Seat 4: Metnetbet (1061 in chips)
+Seat 5: DiggErr555 (511 in chips)
+Seat 6: Ath.Bachmann (456 in chips)
+Luchok123: posts the ante 3
+fabsnb95: posts the ante 3
+Metnetbet: posts the ante 3
+DiggErr555: posts the ante 3
+Ath.Bachmann: posts the ante 3
+Luchok123: posts small blind 15
+fabsnb95: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [9s 2c]
+Metnetbet: folds
+DiggErr555: folds
+Ath.Bachmann: raises 30 to 60
+Luchok123: folds
+fabsnb95: calls 30
+*** FLOP *** [Jh Ac 3s]
+fabsnb95: checks
+Ath.Bachmann: bets 90
+fabsnb95: calls 90
+*** TURN *** [Jh Ac 3s] [9h]
+fabsnb95: checks
+Ath.Bachmann: checks
+*** RIVER *** [Jh Ac 3s 9h] [Qc]
+fabsnb95: bets 221
+Ath.Bachmann: folds
+Uncalled bet (221) returned to fabsnb95
+fabsnb95 collected 330 from pot
+fabsnb95: doesn't show hand
+*** SUMMARY ***
+Total pot 330 | Rake 0
+Board [Jh Ac 3s 9h Qc]
+Seat 1: Luchok123 (small blind) folded before Flop
+Seat 3: fabsnb95 (big blind) collected (330)
+Seat 4: Metnetbet folded before Flop (didn't bet)
+Seat 5: DiggErr555 folded before Flop (didn't bet)
+Seat 6: Ath.Bachmann (button) folded on the River
+
+PokerStars Hand #188548926837: Tournament #2352971486, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:46:44 MSK [2018/07/09 18:46:44 ET]
+Table '2352971486 1' 6-max Seat #1 is the button
+Seat 1: Luchok123 (483 in chips)
+Seat 3: fabsnb95 (648 in chips)
+Seat 4: Metnetbet (1058 in chips)
+Seat 5: DiggErr555 (508 in chips)
+Seat 6: Ath.Bachmann (303 in chips)
+Luchok123: posts the ante 3
+fabsnb95: posts the ante 3
+Metnetbet: posts the ante 3
+DiggErr555: posts the ante 3
+Ath.Bachmann: posts the ante 3
+fabsnb95: posts small blind 15
+Metnetbet: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Ts 6s]
+DiggErr555: folds
+Ath.Bachmann: folds
+Luchok123: folds
+fabsnb95: calls 15
+Metnetbet: checks
+*** FLOP *** [Jh 8s 8d]
+fabsnb95: checks
+Metnetbet: checks
+*** TURN *** [Jh 8s 8d] [4c]
+fabsnb95: bets 36
+Metnetbet: calls 36
+*** RIVER *** [Jh 8s 8d 4c] [Ac]
+fabsnb95: checks
+Metnetbet: bets 60
+fabsnb95: calls 60
+*** SHOW DOWN ***
+Metnetbet: shows [8h 5c] (three of a kind, Eights)
+fabsnb95: mucks hand
+Metnetbet collected 267 from pot
+*** SUMMARY ***
+Total pot 267 | Rake 0
+Board [Jh 8s 8d 4c Ac]
+Seat 1: Luchok123 (button) folded before Flop (didn't bet)
+Seat 3: fabsnb95 (small blind) mucked [7s Jd]
+Seat 4: Metnetbet (big blind) showed [8h 5c] and won (267) with three of a kind, Eights
+Seat 5: DiggErr555 folded before Flop (didn't bet)
+Seat 6: Ath.Bachmann folded before Flop (didn't bet)
+
+PokerStars Hand #188548954503: Tournament #2352971486, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:47:33 MSK [2018/07/09 18:47:33 ET]
+Table '2352971486 1' 6-max Seat #3 is the button
+Seat 1: Luchok123 (480 in chips)
+Seat 3: fabsnb95 (519 in chips)
+Seat 4: Metnetbet (1196 in chips)
+Seat 5: DiggErr555 (505 in chips)
+Seat 6: Ath.Bachmann (300 in chips)
+Luchok123: posts the ante 3
+fabsnb95: posts the ante 3
+Metnetbet: posts the ante 3
+DiggErr555: posts the ante 3
+Ath.Bachmann: posts the ante 3
+Metnetbet: posts small blind 15
+DiggErr555: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [8s Td]
+Ath.Bachmann: folds
+Luchok123: folds
+fabsnb95: folds
+Metnetbet: raises 30 to 60
+DiggErr555: calls 30
+*** FLOP *** [Jd 6s Ad]
+Metnetbet: bets 60
+DiggErr555: folds
+Uncalled bet (60) returned to Metnetbet
+Metnetbet collected 135 from pot
+*** SUMMARY ***
+Total pot 135 | Rake 0
+Board [Jd 6s Ad]
+Seat 1: Luchok123 folded before Flop (didn't bet)
+Seat 3: fabsnb95 (button) folded before Flop (didn't bet)
+Seat 4: Metnetbet (small blind) collected (135)
+Seat 5: DiggErr555 (big blind) folded on the Flop
+Seat 6: Ath.Bachmann folded before Flop (didn't bet)
+
+PokerStars Hand #188548968110: Tournament #2352971486, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:47:57 MSK [2018/07/09 18:47:57 ET]
+Table '2352971486 1' 6-max Seat #4 is the button
+Seat 1: Luchok123 (477 in chips)
+Seat 3: fabsnb95 (516 in chips)
+Seat 4: Metnetbet (1268 in chips)
+Seat 5: DiggErr555 (442 in chips)
+Seat 6: Ath.Bachmann (297 in chips)
+Luchok123: posts the ante 4
+fabsnb95: posts the ante 4
+Metnetbet: posts the ante 4
+DiggErr555: posts the ante 4
+Ath.Bachmann: posts the ante 4
+DiggErr555: posts small blind 20
+Ath.Bachmann: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [4c Qh]
+Luchok123: raises 433 to 473 and is all-in
+fabsnb95: folds
+Metnetbet: folds
+DiggErr555: folds
+Ath.Bachmann: folds
+Uncalled bet (433) returned to Luchok123
+Luchok123 collected 120 from pot
+Luchok123: doesn't show hand
+*** SUMMARY ***
+Total pot 120 | Rake 0
+Seat 1: Luchok123 collected (120)
+Seat 3: fabsnb95 folded before Flop (didn't bet)
+Seat 4: Metnetbet (button) folded before Flop (didn't bet)
+Seat 5: DiggErr555 (small blind) folded before Flop
+Seat 6: Ath.Bachmann (big blind) folded before Flop
+
+PokerStars Hand #188548975263: Tournament #2352971486, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:48:10 MSK [2018/07/09 18:48:10 ET]
+Table '2352971486 1' 6-max Seat #5 is the button
+Seat 1: Luchok123 (553 in chips)
+Seat 3: fabsnb95 (512 in chips)
+Seat 4: Metnetbet (1264 in chips)
+Seat 5: DiggErr555 (418 in chips)
+Seat 6: Ath.Bachmann (253 in chips)
+Luchok123: posts the ante 4
+fabsnb95: posts the ante 4
+Metnetbet: posts the ante 4
+DiggErr555: posts the ante 4
+Ath.Bachmann: posts the ante 4
+Ath.Bachmann: posts small blind 20
+Luchok123: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [As 5h]
+fabsnb95: folds
+Metnetbet: raises 40 to 80
+DiggErr555: folds
+Ath.Bachmann: folds
+Luchok123: calls 40
+*** FLOP *** [Kh 7h Js]
+Luchok123: checks
+Metnetbet: checks
+*** TURN *** [Kh 7h Js] [5c]
+Luchok123: checks
+Metnetbet: bets 200
+Luchok123: folds
+Uncalled bet (200) returned to Metnetbet
+Metnetbet collected 200 from pot
+*** SUMMARY ***
+Total pot 200 | Rake 0
+Board [Kh 7h Js 5c]
+Seat 1: Luchok123 (big blind) folded on the Turn
+Seat 3: fabsnb95 folded before Flop (didn't bet)
+Seat 4: Metnetbet collected (200)
+Seat 5: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 6: Ath.Bachmann (small blind) folded before Flop
+
+PokerStars Hand #188549002400: Tournament #2352971486, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:48:58 MSK [2018/07/09 18:48:58 ET]
+Table '2352971486 1' 6-max Seat #6 is the button
+Seat 1: Luchok123 (469 in chips)
+Seat 3: fabsnb95 (508 in chips)
+Seat 4: Metnetbet (1380 in chips)
+Seat 5: DiggErr555 (414 in chips)
+Seat 6: Ath.Bachmann (229 in chips)
+Luchok123: posts the ante 4
+fabsnb95: posts the ante 4
+Metnetbet: posts the ante 4
+DiggErr555: posts the ante 4
+Ath.Bachmann: posts the ante 4
+Luchok123: posts small blind 20
+fabsnb95: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6c 8d]
+Metnetbet: calls 40
+DiggErr555: folds
+Ath.Bachmann: raises 185 to 225 and is all-in
+Luchok123: raises 240 to 465 and is all-in
+fabsnb95: folds
+Metnetbet: folds
+Uncalled bet (240) returned to Luchok123
+*** FLOP *** [Jc 9h 2s]
+*** TURN *** [Jc 9h 2s] [5s]
+*** RIVER *** [Jc 9h 2s 5s] [7d]
+*** SHOW DOWN ***
+Luchok123: shows [4s 4c] (a pair of Fours)
+Ath.Bachmann: shows [As Jd] (a pair of Jacks)
+Ath.Bachmann collected 550 from pot
+*** SUMMARY ***
+Total pot 550 | Rake 0
+Board [Jc 9h 2s 5s 7d]
+Seat 1: Luchok123 (small blind) showed [4s 4c] and lost with a pair of Fours
+Seat 3: fabsnb95 (big blind) folded before Flop
+Seat 4: Metnetbet folded before Flop
+Seat 5: DiggErr555 folded before Flop (didn't bet)
+Seat 6: Ath.Bachmann (button) showed [As Jd] and won (550) with a pair of Jacks
+
+PokerStars Hand #188549015229: Tournament #2352971486, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:49:20 MSK [2018/07/09 18:49:20 ET]
+Table '2352971486 1' 6-max Seat #1 is the button
+Seat 1: Luchok123 (240 in chips)
+Seat 3: fabsnb95 (464 in chips)
+Seat 4: Metnetbet (1336 in chips)
+Seat 5: DiggErr555 (410 in chips)
+Seat 6: Ath.Bachmann (550 in chips)
+Luchok123: posts the ante 4
+fabsnb95: posts the ante 4
+Metnetbet: posts the ante 4
+DiggErr555: posts the ante 4
+Ath.Bachmann: posts the ante 4
+fabsnb95: posts small blind 20
+Metnetbet: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [9s Tc]
+DiggErr555: folds
+Ath.Bachmann: folds
+Luchok123: folds
+fabsnb95: folds
+Uncalled bet (20) returned to Metnetbet
+Metnetbet collected 60 from pot
+*** SUMMARY ***
+Total pot 60 | Rake 0
+Seat 1: Luchok123 (button) folded before Flop (didn't bet)
+Seat 3: fabsnb95 (small blind) folded before Flop
+Seat 4: Metnetbet (big blind) collected (60)
+Seat 5: DiggErr555 folded before Flop (didn't bet)
+Seat 6: Ath.Bachmann folded before Flop (didn't bet)
+
+PokerStars Hand #188549022582: Tournament #2352971486, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:49:33 MSK [2018/07/09 18:49:33 ET]
+Table '2352971486 1' 6-max Seat #3 is the button
+Seat 1: Luchok123 (236 in chips)
+Seat 3: fabsnb95 (440 in chips)
+Seat 4: Metnetbet (1372 in chips)
+Seat 5: DiggErr555 (406 in chips)
+Seat 6: Ath.Bachmann (546 in chips)
+Luchok123: posts the ante 6
+fabsnb95: posts the ante 6
+Metnetbet: posts the ante 6
+DiggErr555: posts the ante 6
+Ath.Bachmann: posts the ante 6
+Metnetbet: posts small blind 30
+DiggErr555: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6d Tc]
+Ath.Bachmann: folds
+Luchok123: folds
+fabsnb95: calls 60
+Metnetbet: calls 30
+DiggErr555: checks
+*** FLOP *** [2c Jd 5s]
+Metnetbet: checks
+DiggErr555: checks
+fabsnb95: checks
+*** TURN *** [2c Jd 5s] [Td]
+Metnetbet: checks
+DiggErr555: checks
+fabsnb95: checks
+*** RIVER *** [2c Jd 5s Td] [9h]
+Metnetbet: checks
+DiggErr555: checks
+fabsnb95: checks
+*** SHOW DOWN ***
+Metnetbet: shows [4s 2d] (a pair of Deuces)
+DiggErr555: shows [6d Tc] (a pair of Tens)
+fabsnb95: mucks hand
+DiggErr555 collected 210 from pot
+*** SUMMARY ***
+Total pot 210 | Rake 0
+Board [2c Jd 5s Td 9h]
+Seat 1: Luchok123 folded before Flop (didn't bet)
+Seat 3: fabsnb95 (button) mucked [Ah 5d]
+Seat 4: Metnetbet (small blind) showed [4s 2d] and lost with a pair of Deuces
+Seat 5: DiggErr555 (big blind) showed [6d Tc] and won (210) with a pair of Tens
+Seat 6: Ath.Bachmann folded before Flop (didn't bet)
+
+PokerStars Hand #188549065769: Tournament #2352971486, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:50:50 MSK [2018/07/09 18:50:50 ET]
+Table '2352971486 1' 6-max Seat #4 is the button
+Seat 1: Luchok123 (230 in chips)
+Seat 3: fabsnb95 (374 in chips)
+Seat 4: Metnetbet (1306 in chips)
+Seat 5: DiggErr555 (550 in chips)
+Seat 6: Ath.Bachmann (540 in chips)
+Luchok123: posts the ante 6
+fabsnb95: posts the ante 6
+Metnetbet: posts the ante 6
+DiggErr555: posts the ante 6
+Ath.Bachmann: posts the ante 6
+DiggErr555: posts small blind 30
+Ath.Bachmann: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6s 9s]
+Luchok123: folds
+fabsnb95: folds
+Metnetbet: folds
+DiggErr555: raises 484 to 544 and is all-in
+Ath.Bachmann: calls 474 and is all-in
+Uncalled bet (10) returned to DiggErr555
+*** FLOP *** [2c Kc 9c]
+*** TURN *** [2c Kc 9c] [Th]
+*** RIVER *** [2c Kc 9c Th] [8d]
+*** SHOW DOWN ***
+DiggErr555: shows [6s 9s] (a pair of Nines)
+Ath.Bachmann: shows [Ks Qd] (a pair of Kings)
+Ath.Bachmann collected 1098 from pot
+*** SUMMARY ***
+Total pot 1098 | Rake 0
+Board [2c Kc 9c Th 8d]
+Seat 1: Luchok123 folded before Flop (didn't bet)
+Seat 3: fabsnb95 folded before Flop (didn't bet)
+Seat 4: Metnetbet (button) folded before Flop (didn't bet)
+Seat 5: DiggErr555 (small blind) showed [6s 9s] and lost with a pair of Nines
+Seat 6: Ath.Bachmann (big blind) showed [Ks Qd] and won (1098) with a pair of Kings
+
+PokerStars Hand #188549077968: Tournament #2352971486, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:51:12 MSK [2018/07/09 18:51:12 ET]
+Table '2352971486 1' 6-max Seat #5 is the button
+Seat 1: Luchok123 (224 in chips)
+Seat 3: fabsnb95 (368 in chips)
+Seat 4: Metnetbet (1300 in chips)
+Seat 5: DiggErr555 (10 in chips)
+Seat 6: Ath.Bachmann (1098 in chips)
+Luchok123: posts the ante 6
+fabsnb95: posts the ante 6
+Metnetbet: posts the ante 6
+DiggErr555: posts the ante 6
+Ath.Bachmann: posts the ante 6
+Ath.Bachmann: posts small blind 30
+Luchok123: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [4d As]
+fabsnb95: folds
+Metnetbet: folds
+DiggErr555: calls 4 and is all-in
+Ath.Bachmann: raises 1032 to 1092 and is all-in
+Luchok123: calls 158 and is all-in
+Uncalled bet (874) returned to Ath.Bachmann
+*** FLOP *** [Kc 2s Ac]
+*** TURN *** [Kc 2s Ac] [6s]
+*** RIVER *** [Kc 2s Ac 6s] [Jd]
+*** SHOW DOWN ***
+Ath.Bachmann: shows [Kh 2h] (two pair, Kings and Deuces)
+Luchok123: shows [8s 7c] (high card Ace)
+Ath.Bachmann collected 428 from side pot
+DiggErr555: shows [4d As] (a pair of Aces)
+Ath.Bachmann collected 42 from main pot
+Ath.Bachmann wins the $4.79 bounty for eliminating Luchok123
+Ath.Bachmann wins the $4.79 bounty for eliminating DiggErr555
+Luchok123 finished the tournament in 4th place
+DiggErr555 finished the tournament in 5th place
+*** SUMMARY ***
+Total pot 470 Main pot 42. Side pot 428. | Rake 0
+Board [Kc 2s Ac 6s Jd]
+Seat 1: Luchok123 (big blind) showed [8s 7c] and lost with high card Ace
+Seat 3: fabsnb95 folded before Flop (didn't bet)
+Seat 4: Metnetbet folded before Flop (didn't bet)
+Seat 5: DiggErr555 (button) showed [4d As] and lost with a pair of Aces
+Seat 6: Ath.Bachmann (small blind) showed [Kh 2h] and won (470) with two pair, Kings and Deuces

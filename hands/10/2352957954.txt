@@ -1,0 +1,787 @@
+
+
+PokerStars Hand #188548372095: Tournament #2352957954, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:30:58 MSK [2018/07/09 18:30:58 ET]
+Table '2352957954 1' 6-max Seat #1 is the button
+Seat 1: MaliOdBubanja (500 in chips)
+Seat 2: 2Ran128 (500 in chips)
+Seat 3: valeron.vrn (500 in chips)
+Seat 4: NL_Classic (500 in chips)
+Seat 5: agusalde (500 in chips)
+Seat 6: DiggErr555 (500 in chips)
+MaliOdBubanja: posts the ante 2
+2Ran128: posts the ante 2
+valeron.vrn: posts the ante 2
+NL_Classic: posts the ante 2
+agusalde: posts the ante 2
+DiggErr555: posts the ante 2
+2Ran128: posts small blind 10
+valeron.vrn: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Kd Js]
+NL_Classic: raises 20 to 40
+agusalde: folds
+DiggErr555: folds
+MaliOdBubanja: folds
+2Ran128: folds
+valeron.vrn: raises 20 to 60
+NL_Classic: calls 20
+*** FLOP *** [8d 2h 6s]
+valeron.vrn: bets 20
+NL_Classic: folds
+Uncalled bet (20) returned to valeron.vrn
+valeron.vrn collected 142 from pot
+valeron.vrn: doesn't show hand
+*** SUMMARY ***
+Total pot 142 | Rake 0
+Board [8d 2h 6s]
+Seat 1: MaliOdBubanja (button) folded before Flop (didn't bet)
+Seat 2: 2Ran128 (small blind) folded before Flop
+Seat 3: valeron.vrn (big blind) collected (142)
+Seat 4: NL_Classic folded on the Flop
+Seat 5: agusalde folded before Flop (didn't bet)
+Seat 6: DiggErr555 folded before Flop (didn't bet)
+
+PokerStars Hand #188548401407: Tournament #2352957954, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:31:48 MSK [2018/07/09 18:31:48 ET]
+Table '2352957954 1' 6-max Seat #2 is the button
+Seat 1: MaliOdBubanja (498 in chips)
+Seat 2: 2Ran128 (488 in chips)
+Seat 3: valeron.vrn (580 in chips)
+Seat 4: NL_Classic (438 in chips)
+Seat 5: agusalde (498 in chips)
+Seat 6: DiggErr555 (498 in chips)
+MaliOdBubanja: posts the ante 2
+2Ran128: posts the ante 2
+valeron.vrn: posts the ante 2
+NL_Classic: posts the ante 2
+agusalde: posts the ante 2
+DiggErr555: posts the ante 2
+valeron.vrn: posts small blind 10
+NL_Classic: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [7c Kc]
+agusalde: folds
+DiggErr555: folds
+MaliOdBubanja: calls 20
+2Ran128: folds
+valeron.vrn: calls 10
+NL_Classic: checks
+*** FLOP *** [4d 5c Ac]
+valeron.vrn: bets 20
+NL_Classic: folds
+MaliOdBubanja: calls 20
+*** TURN *** [4d 5c Ac] [8c]
+valeron.vrn: bets 20
+MaliOdBubanja: calls 20
+*** RIVER *** [4d 5c Ac 8c] [Tc]
+valeron.vrn: bets 20
+MaliOdBubanja: folds
+Uncalled bet (20) returned to valeron.vrn
+valeron.vrn collected 152 from pot
+valeron.vrn: doesn't show hand
+*** SUMMARY ***
+Total pot 152 | Rake 0
+Board [4d 5c Ac 8c Tc]
+Seat 1: MaliOdBubanja folded on the River
+Seat 2: 2Ran128 (button) folded before Flop (didn't bet)
+Seat 3: valeron.vrn (small blind) collected (152)
+Seat 4: NL_Classic (big blind) folded on the Flop
+Seat 5: agusalde folded before Flop (didn't bet)
+Seat 6: DiggErr555 folded before Flop (didn't bet)
+
+PokerStars Hand #188548426720: Tournament #2352957954, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:32:30 MSK [2018/07/09 18:32:30 ET]
+Table '2352957954 1' 6-max Seat #3 is the button
+Seat 1: MaliOdBubanja (436 in chips)
+Seat 2: 2Ran128 (486 in chips)
+Seat 3: valeron.vrn (670 in chips)
+Seat 4: NL_Classic (416 in chips)
+Seat 5: agusalde (496 in chips)
+Seat 6: DiggErr555 (496 in chips)
+MaliOdBubanja: posts the ante 2
+2Ran128: posts the ante 2
+valeron.vrn: posts the ante 2
+NL_Classic: posts the ante 2
+agusalde: posts the ante 2
+DiggErr555: posts the ante 2
+NL_Classic: posts small blind 10
+agusalde: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [4s Qs]
+DiggErr555: folds
+MaliOdBubanja: calls 20
+2Ran128: folds
+valeron.vrn: calls 20
+NL_Classic: folds
+agusalde: raises 82 to 102
+MaliOdBubanja: folds
+valeron.vrn: calls 82
+*** FLOP *** [Ad 6s 5h]
+agusalde: bets 392 and is all-in
+valeron.vrn: calls 392
+*** TURN *** [Ad 6s 5h] [Jc]
+*** RIVER *** [Ad 6s 5h Jc] [Qh]
+*** SHOW DOWN ***
+agusalde: shows [Tc Kc] (a straight, Ten to Ace)
+valeron.vrn: shows [8c 7c] (high card Ace)
+agusalde collected 1030 from pot
+*** SUMMARY ***
+Total pot 1030 | Rake 0
+Board [Ad 6s 5h Jc Qh]
+Seat 1: MaliOdBubanja folded before Flop
+Seat 2: 2Ran128 folded before Flop (didn't bet)
+Seat 3: valeron.vrn (button) showed [8c 7c] and lost with high card Ace
+Seat 4: NL_Classic (small blind) folded before Flop
+Seat 5: agusalde (big blind) showed [Tc Kc] and won (1030) with a straight, Ten to Ace
+Seat 6: DiggErr555 folded before Flop (didn't bet)
+
+PokerStars Hand #188548450567: Tournament #2352957954, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:33:10 MSK [2018/07/09 18:33:10 ET]
+Table '2352957954 1' 6-max Seat #4 is the button
+Seat 1: MaliOdBubanja (414 in chips)
+Seat 2: 2Ran128 (484 in chips)
+Seat 3: valeron.vrn (174 in chips)
+Seat 4: NL_Classic (404 in chips)
+Seat 5: agusalde (1030 in chips)
+Seat 6: DiggErr555 (494 in chips)
+MaliOdBubanja: posts the ante 3
+2Ran128: posts the ante 3
+valeron.vrn: posts the ante 3
+NL_Classic: posts the ante 3
+agusalde: posts the ante 3
+DiggErr555: posts the ante 3
+agusalde: posts small blind 15
+DiggErr555: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [9d 3h]
+MaliOdBubanja: calls 30
+2Ran128: folds
+valeron.vrn: raises 30 to 60
+NL_Classic: folds
+agusalde: folds
+DiggErr555: folds
+MaliOdBubanja: raises 351 to 411 and is all-in
+valeron.vrn: calls 111 and is all-in
+Uncalled bet (240) returned to MaliOdBubanja
+*** FLOP *** [6s Th Ah]
+*** TURN *** [6s Th Ah] [Ac]
+*** RIVER *** [6s Th Ah Ac] [Jd]
+*** SHOW DOWN ***
+MaliOdBubanja: shows [2c 2h] (two pair, Aces and Deuces)
+valeron.vrn: shows [Qd Jh] (two pair, Aces and Jacks)
+valeron.vrn collected 405 from pot
+*** SUMMARY ***
+Total pot 405 | Rake 0
+Board [6s Th Ah Ac Jd]
+Seat 1: MaliOdBubanja showed [2c 2h] and lost with two pair, Aces and Deuces
+Seat 2: 2Ran128 folded before Flop (didn't bet)
+Seat 3: valeron.vrn showed [Qd Jh] and won (405) with two pair, Aces and Jacks
+Seat 4: NL_Classic (button) folded before Flop (didn't bet)
+Seat 5: agusalde (small blind) folded before Flop
+Seat 6: DiggErr555 (big blind) folded before Flop
+
+PokerStars Hand #188548469350: Tournament #2352957954, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:33:41 MSK [2018/07/09 18:33:41 ET]
+Table '2352957954 1' 6-max Seat #5 is the button
+Seat 1: MaliOdBubanja (240 in chips)
+Seat 2: 2Ran128 (481 in chips)
+Seat 3: valeron.vrn (405 in chips)
+Seat 4: NL_Classic (401 in chips)
+Seat 5: agusalde (1012 in chips)
+Seat 6: DiggErr555 (461 in chips)
+MaliOdBubanja: posts the ante 3
+2Ran128: posts the ante 3
+valeron.vrn: posts the ante 3
+NL_Classic: posts the ante 3
+agusalde: posts the ante 3
+DiggErr555: posts the ante 3
+DiggErr555: posts small blind 15
+MaliOdBubanja: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Jc Kh]
+2Ran128: folds
+valeron.vrn: calls 30
+NL_Classic: folds
+agusalde has timed out
+agusalde: folds
+agusalde is sitting out
+agusalde has returned
+DiggErr555: raises 428 to 458 and is all-in
+MaliOdBubanja: folds
+valeron.vrn: folds
+Uncalled bet (428) returned to DiggErr555
+DiggErr555 collected 108 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 108 | Rake 0
+Seat 1: MaliOdBubanja (big blind) folded before Flop
+Seat 2: 2Ran128 folded before Flop (didn't bet)
+Seat 3: valeron.vrn folded before Flop
+Seat 4: NL_Classic folded before Flop (didn't bet)
+Seat 5: agusalde (button) folded before Flop (didn't bet)
+Seat 6: DiggErr555 (small blind) collected (108)
+
+PokerStars Hand #188548503332: Tournament #2352957954, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:34:39 MSK [2018/07/09 18:34:39 ET]
+Table '2352957954 1' 6-max Seat #6 is the button
+Seat 1: MaliOdBubanja (207 in chips)
+Seat 2: 2Ran128 (478 in chips)
+Seat 3: valeron.vrn (372 in chips)
+Seat 4: NL_Classic (398 in chips)
+Seat 5: agusalde (1009 in chips)
+Seat 6: DiggErr555 (536 in chips)
+MaliOdBubanja: posts the ante 3
+2Ran128: posts the ante 3
+valeron.vrn: posts the ante 3
+NL_Classic: posts the ante 3
+agusalde: posts the ante 3
+DiggErr555: posts the ante 3
+MaliOdBubanja: posts small blind 15
+2Ran128: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [2h 2c]
+valeron.vrn: calls 30
+NL_Classic: folds
+agusalde: calls 30
+DiggErr555: raises 503 to 533 and is all-in
+MaliOdBubanja: folds
+2Ran128: folds
+valeron.vrn: folds
+agusalde: folds
+Uncalled bet (503) returned to DiggErr555
+DiggErr555 collected 153 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 153 | Rake 0
+Seat 1: MaliOdBubanja (small blind) folded before Flop
+Seat 2: 2Ran128 (big blind) folded before Flop
+Seat 3: valeron.vrn folded before Flop
+Seat 4: NL_Classic folded before Flop (didn't bet)
+Seat 5: agusalde folded before Flop
+Seat 6: DiggErr555 (button) collected (153)
+
+PokerStars Hand #188548520863: Tournament #2352957954, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:35:08 MSK [2018/07/09 18:35:08 ET]
+Table '2352957954 1' 6-max Seat #1 is the button
+Seat 1: MaliOdBubanja (189 in chips)
+Seat 2: 2Ran128 (445 in chips)
+Seat 3: valeron.vrn (339 in chips)
+Seat 4: NL_Classic (395 in chips)
+Seat 5: agusalde (976 in chips)
+Seat 6: DiggErr555 (656 in chips)
+MaliOdBubanja: posts the ante 3
+2Ran128: posts the ante 3
+valeron.vrn: posts the ante 3
+NL_Classic: posts the ante 3
+agusalde: posts the ante 3
+DiggErr555: posts the ante 3
+2Ran128: posts small blind 15
+valeron.vrn: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [7d Ad]
+NL_Classic: folds
+agusalde: calls 30
+DiggErr555: raises 45 to 75
+MaliOdBubanja: folds
+2Ran128: folds
+valeron.vrn: folds
+agusalde: calls 45
+*** FLOP *** [5c 5d 2c]
+agusalde: checks
+MaliOdBubanja is disconnected
+MaliOdBubanja is disconnected
+DiggErr555: bets 75
+agusalde: folds
+Uncalled bet (75) returned to DiggErr555
+DiggErr555 collected 213 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 213 | Rake 0
+Board [5c 5d 2c]
+Seat 1: MaliOdBubanja (button) folded before Flop (didn't bet)
+Seat 2: 2Ran128 (small blind) folded before Flop
+Seat 3: valeron.vrn (big blind) folded before Flop
+Seat 4: NL_Classic folded before Flop (didn't bet)
+Seat 5: agusalde folded on the Flop
+Seat 6: DiggErr555 collected (213)
+
+PokerStars Hand #188548546695: Tournament #2352957954, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:35:52 MSK [2018/07/09 18:35:52 ET]
+Table '2352957954 1' 6-max Seat #2 is the button
+Seat 1: MaliOdBubanja (186 in chips)
+Seat 2: 2Ran128 (427 in chips)
+Seat 3: valeron.vrn (306 in chips)
+Seat 4: NL_Classic (392 in chips)
+Seat 5: agusalde (898 in chips)
+Seat 6: DiggErr555 (791 in chips)
+MaliOdBubanja: posts the ante 4
+2Ran128: posts the ante 4
+valeron.vrn: posts the ante 4
+NL_Classic: posts the ante 4
+agusalde: posts the ante 4
+DiggErr555: posts the ante 4
+valeron.vrn: posts small blind 20
+NL_Classic: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Kc 5d]
+agusalde: folds
+DiggErr555: folds
+MaliOdBubanja: raises 142 to 182 and is all-in
+2Ran128: raises 241 to 423 and is all-in
+valeron.vrn: folds
+NL_Classic: folds
+Uncalled bet (241) returned to 2Ran128
+*** FLOP *** [6d 4d Ts]
+*** TURN *** [6d 4d Ts] [Th]
+*** RIVER *** [6d 4d Ts Th] [4c]
+*** SHOW DOWN ***
+MaliOdBubanja: shows [Kd Ah] (two pair, Tens and Fours)
+2Ran128: shows [Jh 8s] (two pair, Tens and Fours - lower kicker)
+MaliOdBubanja collected 448 from pot
+*** SUMMARY ***
+Total pot 448 | Rake 0
+Board [6d 4d Ts Th 4c]
+Seat 1: MaliOdBubanja showed [Kd Ah] and won (448) with two pair, Tens and Fours
+Seat 2: 2Ran128 (button) showed [Jh 8s] and lost with two pair, Tens and Fours
+Seat 3: valeron.vrn (small blind) folded before Flop
+Seat 4: NL_Classic (big blind) folded before Flop
+Seat 5: agusalde folded before Flop (didn't bet)
+Seat 6: DiggErr555 folded before Flop (didn't bet)
+
+PokerStars Hand #188548568880: Tournament #2352957954, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:36:29 MSK [2018/07/09 18:36:29 ET]
+Table '2352957954 1' 6-max Seat #3 is the button
+Seat 1: MaliOdBubanja (448 in chips)
+Seat 2: 2Ran128 (241 in chips)
+Seat 3: valeron.vrn (282 in chips)
+Seat 4: NL_Classic (348 in chips)
+Seat 5: agusalde (894 in chips)
+Seat 6: DiggErr555 (787 in chips)
+MaliOdBubanja: posts the ante 4
+2Ran128: posts the ante 4
+valeron.vrn: posts the ante 4
+NL_Classic: posts the ante 4
+agusalde: posts the ante 4
+DiggErr555: posts the ante 4
+NL_Classic: posts small blind 20
+agusalde: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6s 5s]
+DiggErr555: folds
+MaliOdBubanja: folds
+2Ran128: folds
+valeron.vrn: calls 40
+NL_Classic: folds
+agusalde: checks
+*** FLOP *** [4h 5h Th]
+agusalde: bets 124
+valeron.vrn: folds
+Uncalled bet (124) returned to agusalde
+agusalde collected 124 from pot
+agusalde: doesn't show hand
+*** SUMMARY ***
+Total pot 124 | Rake 0
+Board [4h 5h Th]
+Seat 1: MaliOdBubanja folded before Flop (didn't bet)
+Seat 2: 2Ran128 folded before Flop (didn't bet)
+Seat 3: valeron.vrn (button) folded on the Flop
+Seat 4: NL_Classic (small blind) folded before Flop
+Seat 5: agusalde (big blind) collected (124)
+Seat 6: DiggErr555 folded before Flop (didn't bet)
+
+PokerStars Hand #188548587150: Tournament #2352957954, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:37:00 MSK [2018/07/09 18:37:00 ET]
+Table '2352957954 1' 6-max Seat #4 is the button
+Seat 1: MaliOdBubanja (444 in chips)
+Seat 2: 2Ran128 (237 in chips)
+Seat 3: valeron.vrn (238 in chips)
+Seat 4: NL_Classic (324 in chips)
+Seat 5: agusalde (974 in chips)
+Seat 6: DiggErr555 (783 in chips)
+MaliOdBubanja: posts the ante 4
+2Ran128: posts the ante 4
+valeron.vrn: posts the ante 4
+NL_Classic: posts the ante 4
+agusalde: posts the ante 4
+DiggErr555: posts the ante 4
+agusalde: posts small blind 20
+DiggErr555: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [3s 6d]
+MaliOdBubanja: folds
+2Ran128: folds
+valeron.vrn: calls 40
+NL_Classic: folds
+agusalde: folds
+DiggErr555: checks
+*** FLOP *** [Qc Js Qs]
+DiggErr555: checks
+valeron.vrn: checks
+*** TURN *** [Qc Js Qs] [Qh]
+DiggErr555: checks
+valeron.vrn: checks
+*** RIVER *** [Qc Js Qs Qh] [5d]
+DiggErr555: bets 43
+valeron.vrn: raises 151 to 194 and is all-in
+DiggErr555: folds
+Uncalled bet (151) returned to valeron.vrn
+valeron.vrn collected 210 from pot
+valeron.vrn: doesn't show hand
+*** SUMMARY ***
+Total pot 210 | Rake 0
+Board [Qc Js Qs Qh 5d]
+Seat 1: MaliOdBubanja folded before Flop (didn't bet)
+Seat 2: 2Ran128 folded before Flop (didn't bet)
+Seat 3: valeron.vrn collected (210)
+Seat 4: NL_Classic (button) folded before Flop (didn't bet)
+Seat 5: agusalde (small blind) folded before Flop
+Seat 6: DiggErr555 (big blind) folded on the River
+
+PokerStars Hand #188548619751: Tournament #2352957954, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:37:55 MSK [2018/07/09 18:37:55 ET]
+Table '2352957954 1' 6-max Seat #5 is the button
+Seat 1: MaliOdBubanja (440 in chips)
+Seat 2: 2Ran128 (233 in chips)
+Seat 3: valeron.vrn (361 in chips)
+Seat 4: NL_Classic (320 in chips)
+Seat 5: agusalde (950 in chips)
+Seat 6: DiggErr555 (696 in chips)
+MaliOdBubanja: posts the ante 4
+2Ran128: posts the ante 4
+valeron.vrn: posts the ante 4
+NL_Classic: posts the ante 4
+agusalde: posts the ante 4
+DiggErr555: posts the ante 4
+DiggErr555: posts small blind 20
+MaliOdBubanja: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [2d Jd]
+2Ran128: folds
+valeron.vrn: calls 40
+NL_Classic: raises 276 to 316 and is all-in
+agusalde: folds
+DiggErr555: folds
+MaliOdBubanja: folds
+valeron.vrn: calls 276
+*** FLOP *** [4d 2c 5d]
+*** TURN *** [4d 2c 5d] [Ts]
+*** RIVER *** [4d 2c 5d Ts] [2s]
+*** SHOW DOWN ***
+valeron.vrn: shows [6h 7h] (a pair of Deuces)
+NL_Classic: shows [Kd Js] (a pair of Deuces - King kicker)
+NL_Classic collected 716 from pot
+*** SUMMARY ***
+Total pot 716 | Rake 0
+Board [4d 2c 5d Ts 2s]
+Seat 1: MaliOdBubanja (big blind) folded before Flop
+Seat 2: 2Ran128 folded before Flop (didn't bet)
+Seat 3: valeron.vrn showed [6h 7h] and lost with a pair of Deuces
+Seat 4: NL_Classic showed [Kd Js] and won (716) with a pair of Deuces
+Seat 5: agusalde (button) folded before Flop (didn't bet)
+Seat 6: DiggErr555 (small blind) folded before Flop
+
+PokerStars Hand #188548642218: Tournament #2352957954, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:38:33 MSK [2018/07/09 18:38:33 ET]
+Table '2352957954 1' 6-max Seat #6 is the button
+Seat 1: MaliOdBubanja (396 in chips)
+Seat 2: 2Ran128 (229 in chips)
+Seat 3: valeron.vrn (41 in chips)
+Seat 4: NL_Classic (716 in chips)
+Seat 5: agusalde (946 in chips)
+Seat 6: DiggErr555 (672 in chips)
+MaliOdBubanja: posts the ante 6
+2Ran128: posts the ante 6
+valeron.vrn: posts the ante 6
+NL_Classic: posts the ante 6
+agusalde: posts the ante 6
+DiggErr555: posts the ante 6
+MaliOdBubanja: posts small blind 30
+2Ran128: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [2h Jh]
+valeron.vrn: calls 35 and is all-in
+NL_Classic: raises 650 to 710 and is all-in
+agusalde: raises 230 to 940 and is all-in
+DiggErr555: folds
+MaliOdBubanja: folds
+2Ran128: calls 163 and is all-in
+Uncalled bet (230) returned to agusalde
+*** FLOP *** [8h 2c 5s]
+*** TURN *** [8h 2c 5s] [Qd]
+*** RIVER *** [8h 2c 5s Qd] [Jc]
+*** SHOW DOWN ***
+NL_Classic: shows [9d Jd] (a pair of Jacks)
+agusalde: shows [4h 4c] (a pair of Fours)
+NL_Classic collected 974 from side pot-2
+2Ran128: shows [3s 9c] (high card Queen)
+NL_Classic collected 564 from side pot-1
+valeron.vrn: shows [Qh Qs] (three of a kind, Queens)
+valeron.vrn collected 206 from main pot
+NL_Classic wins the $12.01 bounty for eliminating 2Ran128
+2Ran128 finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 1744 Main pot 206. Side pot-1 564. Side pot-2 974. | Rake 0
+Board [8h 2c 5s Qd Jc]
+Seat 1: MaliOdBubanja (small blind) folded before Flop
+Seat 2: 2Ran128 (big blind) showed [3s 9c] and lost with high card Queen
+Seat 3: valeron.vrn showed [Qh Qs] and won (206) with three of a kind, Queens
+Seat 4: NL_Classic showed [9d Jd] and won (1538) with a pair of Jacks
+Seat 5: agusalde showed [4h 4c] and lost with a pair of Fours
+Seat 6: DiggErr555 (button) folded before Flop (didn't bet)
+
+PokerStars Hand #188548661748: Tournament #2352957954, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:39:06 MSK [2018/07/09 18:39:06 ET]
+Table '2352957954 1' 6-max Seat #1 is the button
+Seat 1: MaliOdBubanja (360 in chips)
+Seat 3: valeron.vrn (206 in chips)
+Seat 4: NL_Classic (1538 in chips)
+Seat 5: agusalde (230 in chips)
+Seat 6: DiggErr555 (666 in chips)
+MaliOdBubanja: posts the ante 6
+valeron.vrn: posts the ante 6
+NL_Classic: posts the ante 6
+agusalde: posts the ante 6
+DiggErr555: posts the ante 6
+valeron.vrn: posts small blind 30
+NL_Classic: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Jc Jd]
+agusalde: folds
+DiggErr555: raises 600 to 660 and is all-in
+MaliOdBubanja: calls 354 and is all-in
+valeron.vrn: calls 170 and is all-in
+NL_Classic: calls 600
+*** FLOP *** [3d Ts Qs]
+*** TURN *** [3d Ts Qs] [4c]
+*** RIVER *** [3d Ts Qs 4c] [9d]
+*** SHOW DOWN ***
+NL_Classic: shows [7d Kd] (high card King)
+DiggErr555: shows [Jc Jd] (a pair of Jacks)
+DiggErr555 collected 612 from side pot-2
+MaliOdBubanja: shows [Td Ah] (a pair of Tens)
+DiggErr555 collected 462 from side pot-1
+valeron.vrn: shows [Tc 8d] (a pair of Tens)
+DiggErr555 collected 830 from main pot
+DiggErr555 wins the $12.01 bounty for eliminating MaliOdBubanja
+DiggErr555 wins the $12.01 bounty for eliminating valeron.vrn
+MaliOdBubanja finished the tournament in 4th place
+valeron.vrn finished the tournament in 5th place
+*** SUMMARY ***
+Total pot 1904 Main pot 830. Side pot-1 462. Side pot-2 612. | Rake 0
+Board [3d Ts Qs 4c 9d]
+Seat 1: MaliOdBubanja (button) showed [Td Ah] and lost with a pair of Tens
+Seat 3: valeron.vrn (small blind) showed [Tc 8d] and lost with a pair of Tens
+Seat 4: NL_Classic (big blind) showed [7d Kd] and lost with high card King
+Seat 5: agusalde folded before Flop (didn't bet)
+Seat 6: DiggErr555 showed [Jc Jd] and won (1904) with a pair of Jacks
+
+PokerStars Hand #188548675777: Tournament #2352957954, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:39:31 MSK [2018/07/09 18:39:31 ET]
+Table '2352957954 1' 6-max Seat #4 is the button
+Seat 4: NL_Classic (872 in chips)
+Seat 5: agusalde (224 in chips)
+Seat 6: DiggErr555 (1904 in chips)
+NL_Classic: posts the ante 6
+agusalde: posts the ante 6
+DiggErr555: posts the ante 6
+agusalde: posts small blind 30
+DiggErr555: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [7d 4c]
+NL_Classic: folds
+agusalde: folds
+Uncalled bet (30) returned to DiggErr555
+DiggErr555 collected 78 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 78 | Rake 0
+Seat 4: NL_Classic (button) folded before Flop (didn't bet)
+Seat 5: agusalde (small blind) folded before Flop
+Seat 6: DiggErr555 (big blind) collected (78)
+
+PokerStars Hand #188548683817: Tournament #2352957954, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:39:44 MSK [2018/07/09 18:39:44 ET]
+Table '2352957954 1' 6-max Seat #5 is the button
+Seat 4: NL_Classic (866 in chips)
+Seat 5: agusalde (188 in chips)
+Seat 6: DiggErr555 (1946 in chips)
+NL_Classic: posts the ante 6
+agusalde: posts the ante 6
+DiggErr555: posts the ante 6
+DiggErr555: posts small blind 30
+NL_Classic: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6s 5s]
+agusalde: folds
+DiggErr555: raises 1880 to 1940 and is all-in
+NL_Classic: folds
+Uncalled bet (1880) returned to DiggErr555
+DiggErr555 collected 138 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 138 | Rake 0
+Seat 4: NL_Classic (big blind) folded before Flop
+Seat 5: agusalde (button) folded before Flop (didn't bet)
+Seat 6: DiggErr555 (small blind) collected (138)
+
+PokerStars Hand #188548689031: Tournament #2352957954, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:39:53 MSK [2018/07/09 18:39:53 ET]
+Table '2352957954 1' 6-max Seat #6 is the button
+Seat 4: NL_Classic (800 in chips)
+Seat 5: agusalde (182 in chips)
+Seat 6: DiggErr555 (2018 in chips)
+NL_Classic: posts the ante 6
+agusalde: posts the ante 6
+DiggErr555: posts the ante 6
+NL_Classic: posts small blind 30
+agusalde: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [9c 6c]
+DiggErr555: raises 1952 to 2012 and is all-in
+NL_Classic: folds
+agusalde: calls 116 and is all-in
+Uncalled bet (1836) returned to DiggErr555
+*** FLOP *** [9d 3h Td]
+*** TURN *** [9d 3h Td] [6h]
+*** RIVER *** [9d 3h Td 6h] [6s]
+*** SHOW DOWN ***
+agusalde: shows [9s As] (two pair, Nines and Sixes)
+DiggErr555: shows [9c 6c] (a full house, Sixes full of Nines)
+DiggErr555 collected 400 from pot
+DiggErr555 wins the $12.01 bounty for eliminating agusalde
+agusalde finished the tournament in 3rd place
+*** SUMMARY ***
+Total pot 400 | Rake 0
+Board [9d 3h Td 6h 6s]
+Seat 4: NL_Classic (small blind) folded before Flop
+Seat 5: agusalde (big blind) showed [9s As] and lost with two pair, Nines and Sixes
+Seat 6: DiggErr555 (button) showed [9c 6c] and won (400) with a full house, Sixes full of Nines
+
+PokerStars Hand #188548701793: Tournament #2352957954, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:40:15 MSK [2018/07/09 18:40:15 ET]
+Table '2352957954 1' 6-max Seat #4 is the button
+Seat 4: NL_Classic (764 in chips)
+Seat 6: DiggErr555 (2236 in chips)
+NL_Classic: posts the ante 8
+DiggErr555: posts the ante 8
+NL_Classic: posts small blind 40
+DiggErr555: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6d 5h]
+NL_Classic: folds
+Uncalled bet (40) returned to DiggErr555
+DiggErr555 collected 96 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 96 | Rake 0
+Seat 4: NL_Classic (button) (small blind) folded before Flop
+Seat 6: DiggErr555 (big blind) collected (96)
+
+PokerStars Hand #188548704640: Tournament #2352957954, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:40:20 MSK [2018/07/09 18:40:20 ET]
+Table '2352957954 1' 6-max Seat #6 is the button
+Seat 4: NL_Classic (716 in chips)
+Seat 6: DiggErr555 (2284 in chips)
+NL_Classic: posts the ante 8
+DiggErr555: posts the ante 8
+DiggErr555: posts small blind 40
+NL_Classic: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [2s 4h]
+DiggErr555: folds
+Uncalled bet (40) returned to NL_Classic
+NL_Classic collected 96 from pot
+NL_Classic: doesn't show hand
+*** SUMMARY ***
+Total pot 96 | Rake 0
+Seat 4: NL_Classic (big blind) collected (96)
+Seat 6: DiggErr555 (button) (small blind) folded before Flop
+
+PokerStars Hand #188548707852: Tournament #2352957954, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:40:25 MSK [2018/07/09 18:40:25 ET]
+Table '2352957954 1' 6-max Seat #4 is the button
+Seat 4: NL_Classic (764 in chips)
+Seat 6: DiggErr555 (2236 in chips)
+NL_Classic: posts the ante 8
+DiggErr555: posts the ante 8
+NL_Classic: posts small blind 40
+DiggErr555: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [4c 8h]
+NL_Classic: calls 40
+DiggErr555: checks
+*** FLOP *** [8c Jc Jh]
+DiggErr555: checks
+NL_Classic: bets 80
+DiggErr555: calls 80
+*** TURN *** [8c Jc Jh] [5c]
+DiggErr555: checks
+NL_Classic: bets 168
+DiggErr555: raises 1900 to 2068 and is all-in
+NL_Classic: calls 428 and is all-in
+Uncalled bet (1472) returned to DiggErr555
+*** RIVER *** [8c Jc Jh 5c] [4s]
+*** SHOW DOWN ***
+DiggErr555: shows [4c 8h] (two pair, Jacks and Eights)
+NL_Classic: shows [Js Kh] (three of a kind, Jacks)
+NL_Classic collected 1528 from pot
+*** SUMMARY ***
+Total pot 1528 | Rake 0
+Board [8c Jc Jh 5c 4s]
+Seat 4: NL_Classic (button) (small blind) showed [Js Kh] and won (1528) with three of a kind, Jacks
+Seat 6: DiggErr555 (big blind) showed [4c 8h] and lost with two pair, Jacks and Eights
+
+PokerStars Hand #188548731654: Tournament #2352957954, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:41:06 MSK [2018/07/09 18:41:06 ET]
+Table '2352957954 1' 6-max Seat #6 is the button
+Seat 4: NL_Classic (1528 in chips)
+Seat 6: DiggErr555 (1472 in chips)
+NL_Classic: posts the ante 8
+DiggErr555: posts the ante 8
+DiggErr555: posts small blind 40
+NL_Classic: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Ks 8s]
+DiggErr555: raises 80 to 160
+NL_Classic: calls 80
+*** FLOP *** [Td Qh 2h]
+NL_Classic: checks
+DiggErr555: bets 117
+NL_Classic: folds
+Uncalled bet (117) returned to DiggErr555
+DiggErr555 collected 336 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 336 | Rake 0
+Board [Td Qh 2h]
+Seat 4: NL_Classic (big blind) folded on the Flop
+Seat 6: DiggErr555 (button) (small blind) collected (336)
+
+PokerStars Hand #188548756079: Tournament #2352957954, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:41:47 MSK [2018/07/09 18:41:47 ET]
+Table '2352957954 1' 6-max Seat #4 is the button
+Seat 4: NL_Classic (1360 in chips)
+Seat 6: DiggErr555 (1640 in chips)
+NL_Classic: posts the ante 8
+DiggErr555: posts the ante 8
+NL_Classic: posts small blind 40
+DiggErr555: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [4h 2c]
+NL_Classic: folds
+Uncalled bet (40) returned to DiggErr555
+DiggErr555 collected 96 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 96 | Rake 0
+Seat 4: NL_Classic (button) (small blind) folded before Flop
+Seat 6: DiggErr555 (big blind) collected (96)
+
+PokerStars Hand #188548760123: Tournament #2352957954, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level VI (50/100) - 2018/07/10 1:41:54 MSK [2018/07/09 18:41:54 ET]
+Table '2352957954 1' 6-max Seat #6 is the button
+Seat 4: NL_Classic (1312 in chips)
+Seat 6: DiggErr555 (1688 in chips)
+NL_Classic: posts the ante 10
+DiggErr555: posts the ante 10
+DiggErr555: posts small blind 50
+NL_Classic: posts big blind 100
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Jc 8c]
+DiggErr555: raises 1578 to 1678 and is all-in
+NL_Classic: calls 1202 and is all-in
+Uncalled bet (376) returned to DiggErr555
+*** FLOP *** [9c 4c 9h]
+*** TURN *** [9c 4c 9h] [5c]
+*** RIVER *** [9c 4c 9h 5c] [4h]
+*** SHOW DOWN ***
+NL_Classic: shows [Qc Qd] (two pair, Queens and Nines)
+DiggErr555: shows [Jc 8c] (a flush, Jack high)
+DiggErr555 collected 2624 from pot
+DiggErr555 wins the $12.01 bounty for eliminating NL_Classic
+NL_Classic finished the tournament in 2nd place and received $36.03.
+DiggErr555 wins the tournament and receives $36.03 - congratulations!
+*** SUMMARY ***
+Total pot 2624 | Rake 0
+Board [9c 4c 9h 5c 4h]
+Seat 4: NL_Classic (big blind) showed [Qc Qd] and lost with two pair, Queens and Nines
+Seat 6: DiggErr555 (button) (small blind) showed [Jc 8c] and won (2624) with a flush, Jack high

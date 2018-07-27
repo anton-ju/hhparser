@@ -1,0 +1,1222 @@
+
+
+PokerStars Hand #188548078479: Tournament #2352955071, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:22:47 MSK [2018/07/09 18:22:47 ET]
+Table '2352955071 1' 6-max Seat #1 is the button
+Seat 1: DiggErr555 (500 in chips)
+Seat 2: Ath.Bachmann (500 in chips)
+Seat 3: tykhe13 (500 in chips)
+Seat 4: ultraluxe (500 in chips)
+Seat 5: MaliOdBubanja (500 in chips)
+Seat 6: Karagunis (500 in chips)
+DiggErr555: posts the ante 2
+Ath.Bachmann: posts the ante 2
+tykhe13: posts the ante 2
+ultraluxe: posts the ante 2
+MaliOdBubanja: posts the ante 2
+Karagunis: posts the ante 2
+Ath.Bachmann: posts small blind 10
+tykhe13: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [9h 6s]
+ultraluxe: folds
+MaliOdBubanja: folds
+Karagunis: calls 20
+DiggErr555: folds
+Ath.Bachmann: raises 80 to 100
+tykhe13: folds
+Karagunis: folds
+Uncalled bet (80) returned to Ath.Bachmann
+Ath.Bachmann collected 72 from pot
+Ath.Bachmann: doesn't show hand
+*** SUMMARY ***
+Total pot 72 | Rake 0
+Seat 1: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 2: Ath.Bachmann (small blind) collected (72)
+Seat 3: tykhe13 (big blind) folded before Flop
+Seat 4: ultraluxe folded before Flop (didn't bet)
+Seat 5: MaliOdBubanja folded before Flop (didn't bet)
+Seat 6: Karagunis folded before Flop
+
+PokerStars Hand #188548093656: Tournament #2352955071, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:23:12 MSK [2018/07/09 18:23:12 ET]
+Table '2352955071 1' 6-max Seat #2 is the button
+Seat 1: DiggErr555 (498 in chips)
+Seat 2: Ath.Bachmann (550 in chips)
+Seat 3: tykhe13 (478 in chips)
+Seat 4: ultraluxe (498 in chips)
+Seat 5: MaliOdBubanja (498 in chips)
+Seat 6: Karagunis (478 in chips)
+DiggErr555: posts the ante 2
+Ath.Bachmann: posts the ante 2
+tykhe13: posts the ante 2
+ultraluxe: posts the ante 2
+MaliOdBubanja: posts the ante 2
+Karagunis: posts the ante 2
+tykhe13: posts small blind 10
+ultraluxe: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6d Td]
+MaliOdBubanja: folds
+Karagunis: raises 20 to 40
+DiggErr555: folds
+Ath.Bachmann: folds
+tykhe13: folds
+ultraluxe: folds
+Uncalled bet (20) returned to Karagunis
+Karagunis collected 62 from pot
+Karagunis: doesn't show hand
+*** SUMMARY ***
+Total pot 62 | Rake 0
+Seat 1: DiggErr555 folded before Flop (didn't bet)
+Seat 2: Ath.Bachmann (button) folded before Flop (didn't bet)
+Seat 3: tykhe13 (small blind) folded before Flop
+Seat 4: ultraluxe (big blind) folded before Flop
+Seat 5: MaliOdBubanja folded before Flop (didn't bet)
+Seat 6: Karagunis collected (62)
+
+PokerStars Hand #188548102304: Tournament #2352955071, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:23:27 MSK [2018/07/09 18:23:27 ET]
+Table '2352955071 1' 6-max Seat #3 is the button
+Seat 1: DiggErr555 (496 in chips)
+Seat 2: Ath.Bachmann (548 in chips)
+Seat 3: tykhe13 (466 in chips)
+Seat 4: ultraluxe (476 in chips)
+Seat 5: MaliOdBubanja (496 in chips)
+Seat 6: Karagunis (518 in chips)
+DiggErr555: posts the ante 2
+Ath.Bachmann: posts the ante 2
+tykhe13: posts the ante 2
+ultraluxe: posts the ante 2
+MaliOdBubanja: posts the ante 2
+Karagunis: posts the ante 2
+ultraluxe: posts small blind 10
+MaliOdBubanja: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Ts 2d]
+Karagunis: calls 20
+DiggErr555: folds
+Ath.Bachmann: folds
+tykhe13: raises 444 to 464 and is all-in
+ultraluxe: folds
+MaliOdBubanja: folds
+Karagunis: folds
+Uncalled bet (444) returned to tykhe13
+tykhe13 collected 82 from pot
+*** SUMMARY ***
+Total pot 82 | Rake 0
+Seat 1: DiggErr555 folded before Flop (didn't bet)
+Seat 2: Ath.Bachmann folded before Flop (didn't bet)
+Seat 3: tykhe13 (button) collected (82)
+Seat 4: ultraluxe (small blind) folded before Flop
+Seat 5: MaliOdBubanja (big blind) folded before Flop
+Seat 6: Karagunis folded before Flop
+
+PokerStars Hand #188548115705: Tournament #2352955071, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:23:49 MSK [2018/07/09 18:23:49 ET]
+Table '2352955071 1' 6-max Seat #4 is the button
+Seat 1: DiggErr555 (494 in chips)
+Seat 2: Ath.Bachmann (546 in chips)
+Seat 3: tykhe13 (526 in chips)
+Seat 4: ultraluxe (464 in chips)
+Seat 5: MaliOdBubanja (474 in chips)
+Seat 6: Karagunis (496 in chips)
+DiggErr555: posts the ante 3
+Ath.Bachmann: posts the ante 3
+tykhe13: posts the ante 3
+ultraluxe: posts the ante 3
+MaliOdBubanja: posts the ante 3
+Karagunis: posts the ante 3
+MaliOdBubanja: posts small blind 15
+Karagunis: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [2h 9s]
+DiggErr555: folds
+Ath.Bachmann: raises 60 to 90
+tykhe13: folds
+ultraluxe: folds
+MaliOdBubanja: folds
+Karagunis: folds
+Uncalled bet (60) returned to Ath.Bachmann
+Ath.Bachmann collected 93 from pot
+Ath.Bachmann: doesn't show hand
+*** SUMMARY ***
+Total pot 93 | Rake 0
+Seat 1: DiggErr555 folded before Flop (didn't bet)
+Seat 2: Ath.Bachmann collected (93)
+Seat 3: tykhe13 folded before Flop (didn't bet)
+Seat 4: ultraluxe (button) folded before Flop (didn't bet)
+Seat 5: MaliOdBubanja (small blind) folded before Flop
+Seat 6: Karagunis (big blind) folded before Flop
+
+PokerStars Hand #188548123531: Tournament #2352955071, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:24:02 MSK [2018/07/09 18:24:02 ET]
+Table '2352955071 1' 6-max Seat #5 is the button
+Seat 1: DiggErr555 (491 in chips)
+Seat 2: Ath.Bachmann (606 in chips)
+Seat 3: tykhe13 (523 in chips)
+Seat 4: ultraluxe (461 in chips)
+Seat 5: MaliOdBubanja (456 in chips)
+Seat 6: Karagunis (463 in chips)
+DiggErr555: posts the ante 3
+Ath.Bachmann: posts the ante 3
+tykhe13: posts the ante 3
+ultraluxe: posts the ante 3
+MaliOdBubanja: posts the ante 3
+Karagunis: posts the ante 3
+Karagunis: posts small blind 15
+DiggErr555: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [5c 8s]
+Ath.Bachmann: folds
+tykhe13: folds
+ultraluxe: folds
+MaliOdBubanja: folds
+Karagunis: raises 430 to 460 and is all-in
+DiggErr555: folds
+Uncalled bet (430) returned to Karagunis
+Karagunis collected 78 from pot
+Karagunis: doesn't show hand
+*** SUMMARY ***
+Total pot 78 | Rake 0
+Seat 1: DiggErr555 (big blind) folded before Flop
+Seat 2: Ath.Bachmann folded before Flop (didn't bet)
+Seat 3: tykhe13 folded before Flop (didn't bet)
+Seat 4: ultraluxe folded before Flop (didn't bet)
+Seat 5: MaliOdBubanja (button) folded before Flop (didn't bet)
+Seat 6: Karagunis (small blind) collected (78)
+
+PokerStars Hand #188548135908: Tournament #2352955071, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:24:22 MSK [2018/07/09 18:24:22 ET]
+Table '2352955071 1' 6-max Seat #6 is the button
+Seat 1: DiggErr555 (458 in chips)
+Seat 2: Ath.Bachmann (603 in chips)
+Seat 3: tykhe13 (520 in chips)
+Seat 4: ultraluxe (458 in chips)
+Seat 5: MaliOdBubanja (453 in chips)
+Seat 6: Karagunis (508 in chips)
+DiggErr555: posts the ante 3
+Ath.Bachmann: posts the ante 3
+tykhe13: posts the ante 3
+ultraluxe: posts the ante 3
+MaliOdBubanja: posts the ante 3
+Karagunis: posts the ante 3
+DiggErr555: posts small blind 15
+Ath.Bachmann: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Jd 9h]
+tykhe13: folds
+ultraluxe: folds
+MaliOdBubanja: calls 30
+Karagunis: calls 30
+DiggErr555: folds
+Ath.Bachmann: checks
+*** FLOP *** [Th 4s 8c]
+Ath.Bachmann: checks
+MaliOdBubanja: checks
+Karagunis: checks
+*** TURN *** [Th 4s 8c] [6h]
+Ath.Bachmann: bets 60
+MaliOdBubanja: calls 60
+Karagunis: folds
+*** RIVER *** [Th 4s 8c 6h] [8s]
+Ath.Bachmann: bets 180
+MaliOdBubanja: folds
+Uncalled bet (180) returned to Ath.Bachmann
+Ath.Bachmann collected 243 from pot
+Ath.Bachmann: doesn't show hand
+*** SUMMARY ***
+Total pot 243 | Rake 0
+Board [Th 4s 8c 6h 8s]
+Seat 1: DiggErr555 (small blind) folded before Flop
+Seat 2: Ath.Bachmann (big blind) collected (243)
+Seat 3: tykhe13 folded before Flop (didn't bet)
+Seat 4: ultraluxe folded before Flop (didn't bet)
+Seat 5: MaliOdBubanja folded on the River
+Seat 6: Karagunis (button) folded on the Turn
+
+PokerStars Hand #188548160300: Tournament #2352955071, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:25:03 MSK [2018/07/09 18:25:03 ET]
+Table '2352955071 1' 6-max Seat #1 is the button
+Seat 1: DiggErr555 (440 in chips)
+Seat 2: Ath.Bachmann (753 in chips)
+Seat 3: tykhe13 (517 in chips)
+Seat 4: ultraluxe (455 in chips)
+Seat 5: MaliOdBubanja (360 in chips)
+Seat 6: Karagunis (475 in chips)
+DiggErr555: posts the ante 3
+Ath.Bachmann: posts the ante 3
+tykhe13: posts the ante 3
+ultraluxe: posts the ante 3
+MaliOdBubanja: posts the ante 3
+Karagunis: posts the ante 3
+Ath.Bachmann: posts small blind 15
+tykhe13: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [4s 3s]
+ultraluxe: folds
+MaliOdBubanja: folds
+Karagunis: folds
+DiggErr555: folds
+Ath.Bachmann: folds
+Uncalled bet (15) returned to tykhe13
+tykhe13 collected 48 from pot
+*** SUMMARY ***
+Total pot 48 | Rake 0
+Seat 1: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 2: Ath.Bachmann (small blind) folded before Flop
+Seat 3: tykhe13 (big blind) collected (48)
+Seat 4: ultraluxe folded before Flop (didn't bet)
+Seat 5: MaliOdBubanja folded before Flop (didn't bet)
+Seat 6: Karagunis folded before Flop (didn't bet)
+
+PokerStars Hand #188548166802: Tournament #2352955071, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:25:14 MSK [2018/07/09 18:25:14 ET]
+Table '2352955071 1' 6-max Seat #2 is the button
+Seat 1: DiggErr555 (437 in chips)
+Seat 2: Ath.Bachmann (735 in chips)
+Seat 3: tykhe13 (547 in chips)
+Seat 4: ultraluxe (452 in chips)
+Seat 5: MaliOdBubanja (357 in chips)
+Seat 6: Karagunis (472 in chips)
+DiggErr555: posts the ante 4
+Ath.Bachmann: posts the ante 4
+tykhe13: posts the ante 4
+ultraluxe: posts the ante 4
+MaliOdBubanja: posts the ante 4
+Karagunis: posts the ante 4
+tykhe13: posts small blind 20
+ultraluxe: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Qh 8d]
+MaliOdBubanja: folds
+Karagunis: folds
+DiggErr555: folds
+Ath.Bachmann: folds
+tykhe13: calls 20
+ultraluxe: raises 408 to 448 and is all-in
+tykhe13: calls 408
+*** FLOP *** [3s Ks 9c]
+*** TURN *** [3s Ks 9c] [Th]
+*** RIVER *** [3s Ks 9c Th] [5s]
+*** SHOW DOWN ***
+tykhe13: shows [Kh Ad] (a pair of Kings)
+ultraluxe: shows [7s Qs] (a flush, King high)
+ultraluxe collected 920 from pot
+*** SUMMARY ***
+Total pot 920 | Rake 0
+Board [3s Ks 9c Th 5s]
+Seat 1: DiggErr555 folded before Flop (didn't bet)
+Seat 2: Ath.Bachmann (button) folded before Flop (didn't bet)
+Seat 3: tykhe13 (small blind) showed [Kh Ad] and lost with a pair of Kings
+Seat 4: ultraluxe (big blind) showed [7s Qs] and won (920) with a flush, King high
+Seat 5: MaliOdBubanja folded before Flop (didn't bet)
+Seat 6: Karagunis folded before Flop (didn't bet)
+
+PokerStars Hand #188548187825: Tournament #2352955071, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:25:49 MSK [2018/07/09 18:25:49 ET]
+Table '2352955071 1' 6-max Seat #3 is the button
+Seat 1: DiggErr555 (433 in chips)
+Seat 2: Ath.Bachmann (731 in chips)
+Seat 3: tykhe13 (95 in chips)
+Seat 4: ultraluxe (920 in chips)
+Seat 5: MaliOdBubanja (353 in chips)
+Seat 6: Karagunis (468 in chips)
+DiggErr555: posts the ante 4
+Ath.Bachmann: posts the ante 4
+tykhe13: posts the ante 4
+ultraluxe: posts the ante 4
+MaliOdBubanja: posts the ante 4
+Karagunis: posts the ante 4
+ultraluxe: posts small blind 20
+MaliOdBubanja: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Qc Ks]
+Karagunis: folds
+DiggErr555: raises 389 to 429 and is all-in
+Ath.Bachmann: folds
+tykhe13: folds
+ultraluxe: folds
+MaliOdBubanja: folds
+Uncalled bet (389) returned to DiggErr555
+DiggErr555 collected 124 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 124 | Rake 0
+Seat 1: DiggErr555 collected (124)
+Seat 2: Ath.Bachmann folded before Flop (didn't bet)
+Seat 3: tykhe13 (button) folded before Flop (didn't bet)
+Seat 4: ultraluxe (small blind) folded before Flop
+Seat 5: MaliOdBubanja (big blind) folded before Flop
+Seat 6: Karagunis folded before Flop (didn't bet)
+
+PokerStars Hand #188548199109: Tournament #2352955071, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:26:08 MSK [2018/07/09 18:26:08 ET]
+Table '2352955071 1' 6-max Seat #4 is the button
+Seat 1: DiggErr555 (513 in chips)
+Seat 2: Ath.Bachmann (727 in chips)
+Seat 3: tykhe13 (91 in chips)
+Seat 4: ultraluxe (896 in chips)
+Seat 5: MaliOdBubanja (309 in chips)
+Seat 6: Karagunis (464 in chips)
+DiggErr555: posts the ante 4
+Ath.Bachmann: posts the ante 4
+tykhe13: posts the ante 4
+ultraluxe: posts the ante 4
+MaliOdBubanja: posts the ante 4
+Karagunis: posts the ante 4
+MaliOdBubanja: posts small blind 20
+Karagunis: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [9s Qs]
+DiggErr555: raises 469 to 509 and is all-in
+Ath.Bachmann: folds
+tykhe13: folds
+ultraluxe: folds
+MaliOdBubanja: folds
+Karagunis: folds
+Uncalled bet (469) returned to DiggErr555
+DiggErr555 collected 124 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 124 | Rake 0
+Seat 1: DiggErr555 collected (124)
+Seat 2: Ath.Bachmann folded before Flop (didn't bet)
+Seat 3: tykhe13 folded before Flop (didn't bet)
+Seat 4: ultraluxe (button) folded before Flop (didn't bet)
+Seat 5: MaliOdBubanja (small blind) folded before Flop
+Seat 6: Karagunis (big blind) folded before Flop
+
+PokerStars Hand #188548208950: Tournament #2352955071, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:26:24 MSK [2018/07/09 18:26:24 ET]
+Table '2352955071 1' 6-max Seat #5 is the button
+Seat 1: DiggErr555 (593 in chips)
+Seat 2: Ath.Bachmann (723 in chips)
+Seat 3: tykhe13 (87 in chips)
+Seat 4: ultraluxe (892 in chips)
+Seat 5: MaliOdBubanja (285 in chips)
+Seat 6: Karagunis (420 in chips)
+DiggErr555: posts the ante 4
+Ath.Bachmann: posts the ante 4
+tykhe13: posts the ante 4
+ultraluxe: posts the ante 4
+MaliOdBubanja: posts the ante 4
+Karagunis: posts the ante 4
+Karagunis: posts small blind 20
+DiggErr555: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Qh Js]
+Ath.Bachmann: folds
+tykhe13: folds
+ultraluxe: folds
+MaliOdBubanja: raises 241 to 281 and is all-in
+Karagunis: folds
+DiggErr555: calls 241
+*** FLOP *** [Kh 4c 8d]
+*** TURN *** [Kh 4c 8d] [7s]
+*** RIVER *** [Kh 4c 8d 7s] [9c]
+*** SHOW DOWN ***
+DiggErr555: shows [Qh Js] (high card King)
+MaliOdBubanja: shows [Td Qc] (high card King - lower kicker)
+DiggErr555 collected 606 from pot
+DiggErr555 wins the $4.79 bounty for eliminating MaliOdBubanja
+MaliOdBubanja finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 606 | Rake 0
+Board [Kh 4c 8d 7s 9c]
+Seat 1: DiggErr555 (big blind) showed [Qh Js] and won (606) with high card King
+Seat 2: Ath.Bachmann folded before Flop (didn't bet)
+Seat 3: tykhe13 folded before Flop (didn't bet)
+Seat 4: ultraluxe folded before Flop (didn't bet)
+Seat 5: MaliOdBubanja (button) showed [Td Qc] and lost with high card King
+Seat 6: Karagunis (small blind) folded before Flop
+
+PokerStars Hand #188548232014: Tournament #2352955071, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:27:03 MSK [2018/07/09 18:27:03 ET]
+Table '2352955071 1' 6-max Seat #6 is the button
+Seat 1: DiggErr555 (914 in chips)
+Seat 2: Ath.Bachmann (719 in chips)
+Seat 3: tykhe13 (83 in chips)
+Seat 4: ultraluxe (888 in chips)
+Seat 6: Karagunis (396 in chips)
+DiggErr555: posts the ante 6
+Ath.Bachmann: posts the ante 6
+tykhe13: posts the ante 6
+ultraluxe: posts the ante 6
+Karagunis: posts the ante 6
+DiggErr555: posts small blind 30
+Ath.Bachmann: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [2h 4d]
+tykhe13: raises 17 to 77 and is all-in
+ultraluxe: raises 805 to 882 and is all-in
+Karagunis: folds
+DiggErr555: folds
+Ath.Bachmann: folds
+Uncalled bet (805) returned to ultraluxe
+*** FLOP *** [Td 6d 9c]
+*** TURN *** [Td 6d 9c] [Ts]
+*** RIVER *** [Td 6d 9c Ts] [7c]
+*** SHOW DOWN ***
+tykhe13: shows [Kd 7d] (two pair, Tens and Sevens)
+ultraluxe: shows [5s 5h] (two pair, Tens and Fives)
+tykhe13 collected 274 from pot
+*** SUMMARY ***
+Total pot 274 | Rake 0
+Board [Td 6d 9c Ts 7c]
+Seat 1: DiggErr555 (small blind) folded before Flop
+Seat 2: Ath.Bachmann (big blind) folded before Flop
+Seat 3: tykhe13 showed [Kd 7d] and won (274) with two pair, Tens and Sevens
+Seat 4: ultraluxe showed [5s 5h] and lost with two pair, Tens and Fives
+Seat 6: Karagunis (button) folded before Flop (didn't bet)
+
+PokerStars Hand #188548256128: Tournament #2352955071, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:27:43 MSK [2018/07/09 18:27:43 ET]
+Table '2352955071 1' 6-max Seat #1 is the button
+Seat 1: DiggErr555 (878 in chips)
+Seat 2: Ath.Bachmann (653 in chips)
+Seat 3: tykhe13 (274 in chips)
+Seat 4: ultraluxe (805 in chips)
+Seat 6: Karagunis (390 in chips)
+DiggErr555: posts the ante 6
+Ath.Bachmann: posts the ante 6
+tykhe13: posts the ante 6
+ultraluxe: posts the ante 6
+Karagunis: posts the ante 6
+Ath.Bachmann: posts small blind 30
+tykhe13: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Kd 5c]
+ultraluxe: folds
+Karagunis: folds
+DiggErr555: raises 812 to 872 and is all-in
+Ath.Bachmann: folds
+tykhe13: folds
+Uncalled bet (812) returned to DiggErr555
+DiggErr555 collected 180 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 180 | Rake 0
+Seat 1: DiggErr555 (button) collected (180)
+Seat 2: Ath.Bachmann (small blind) folded before Flop
+Seat 3: tykhe13 (big blind) folded before Flop
+Seat 4: ultraluxe folded before Flop (didn't bet)
+Seat 6: Karagunis folded before Flop (didn't bet)
+
+PokerStars Hand #188548266819: Tournament #2352955071, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:28:01 MSK [2018/07/09 18:28:01 ET]
+Table '2352955071 1' 6-max Seat #2 is the button
+Seat 1: DiggErr555 (992 in chips)
+Seat 2: Ath.Bachmann (617 in chips)
+Seat 3: tykhe13 (208 in chips)
+Seat 4: ultraluxe (799 in chips)
+Seat 6: Karagunis (384 in chips)
+DiggErr555: posts the ante 6
+Ath.Bachmann: posts the ante 6
+tykhe13: posts the ante 6
+ultraluxe: posts the ante 6
+Karagunis: posts the ante 6
+tykhe13: posts small blind 30
+ultraluxe: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [5h As]
+Karagunis: folds
+DiggErr555: raises 926 to 986 and is all-in
+Ath.Bachmann: calls 611 and is all-in
+tykhe13: folds
+ultraluxe: folds
+Uncalled bet (375) returned to DiggErr555
+*** FLOP *** [3h 3d Kd]
+*** TURN *** [3h 3d Kd] [8s]
+*** RIVER *** [3h 3d Kd 8s] [5s]
+*** SHOW DOWN ***
+DiggErr555: shows [5h As] (two pair, Fives and Threes)
+Ath.Bachmann: shows [Qc Ac] (a pair of Threes)
+DiggErr555 collected 1342 from pot
+DiggErr555 wins the $4.79 bounty for eliminating Ath.Bachmann
+Ath.Bachmann finished the tournament in 5th place
+*** SUMMARY ***
+Total pot 1342 | Rake 0
+Board [3h 3d Kd 8s 5s]
+Seat 1: DiggErr555 showed [5h As] and won (1342) with two pair, Fives and Threes
+Seat 2: Ath.Bachmann (button) showed [Qc Ac] and lost with a pair of Threes
+Seat 3: tykhe13 (small blind) folded before Flop
+Seat 4: ultraluxe (big blind) folded before Flop
+Seat 6: Karagunis folded before Flop (didn't bet)
+
+PokerStars Hand #188548284437: Tournament #2352955071, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:28:31 MSK [2018/07/09 18:28:31 ET]
+Table '2352955071 1' 6-max Seat #3 is the button
+Seat 1: DiggErr555 (1717 in chips)
+Seat 3: tykhe13 (172 in chips)
+Seat 4: ultraluxe (733 in chips)
+Seat 6: Karagunis (378 in chips)
+DiggErr555: posts the ante 6
+tykhe13: posts the ante 6
+ultraluxe: posts the ante 6
+Karagunis: posts the ante 6
+ultraluxe: posts small blind 30
+Karagunis: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Qd 2c]
+DiggErr555: raises 1651 to 1711 and is all-in
+tykhe13: calls 166 and is all-in
+ultraluxe: folds
+Karagunis: calls 312 and is all-in
+Uncalled bet (1339) returned to DiggErr555
+*** FLOP *** [Ac Qc 7h]
+*** TURN *** [Ac Qc 7h] [9h]
+*** RIVER *** [Ac Qc 7h 9h] [5c]
+*** SHOW DOWN ***
+Karagunis: shows [5d Ks] (a pair of Fives)
+DiggErr555: shows [Qd 2c] (a pair of Queens)
+DiggErr555 collected 412 from side pot
+tykhe13: shows [Kd As] (a pair of Aces)
+tykhe13 collected 552 from main pot
+DiggErr555 wins the $4.79 bounty for eliminating Karagunis
+Karagunis finished the tournament in 4th place
+*** SUMMARY ***
+Total pot 964 Main pot 552. Side pot 412. | Rake 0
+Board [Ac Qc 7h 9h 5c]
+Seat 1: DiggErr555 showed [Qd 2c] and won (412) with a pair of Queens
+Seat 3: tykhe13 (button) showed [Kd As] and won (552) with a pair of Aces
+Seat 4: ultraluxe (small blind) folded before Flop
+Seat 6: Karagunis (big blind) showed [5d Ks] and lost with a pair of Fives
+
+PokerStars Hand #188548299262: Tournament #2352955071, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:28:56 MSK [2018/07/09 18:28:56 ET]
+Table '2352955071 1' 6-max Seat #4 is the button
+Seat 1: DiggErr555 (1751 in chips)
+Seat 3: tykhe13 (552 in chips)
+Seat 4: ultraluxe (697 in chips)
+DiggErr555: posts the ante 6
+tykhe13: posts the ante 6
+ultraluxe: posts the ante 6
+DiggErr555: posts small blind 30
+tykhe13: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [8c 7c]
+ultraluxe: folds
+DiggErr555: raises 1685 to 1745 and is all-in
+tykhe13: folds
+Uncalled bet (1685) returned to DiggErr555
+DiggErr555 collected 138 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 138 | Rake 0
+Seat 1: DiggErr555 (small blind) collected (138)
+Seat 3: tykhe13 (big blind) folded before Flop
+Seat 4: ultraluxe (button) folded before Flop (didn't bet)
+
+PokerStars Hand #188548308612: Tournament #2352955071, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:29:11 MSK [2018/07/09 18:29:11 ET]
+Table '2352955071 1' 6-max Seat #1 is the button
+Seat 1: DiggErr555 (1823 in chips)
+Seat 3: tykhe13 (486 in chips)
+Seat 4: ultraluxe (691 in chips)
+DiggErr555: posts the ante 8
+tykhe13: posts the ante 8
+ultraluxe: posts the ante 8
+tykhe13: posts small blind 40
+ultraluxe: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Qd 5d]
+DiggErr555: raises 1735 to 1815 and is all-in
+tykhe13: calls 438 and is all-in
+ultraluxe: folds
+Uncalled bet (1337) returned to DiggErr555
+*** FLOP *** [2h 8d 3d]
+*** TURN *** [2h 8d 3d] [9h]
+*** RIVER *** [2h 8d 3d 9h] [4h]
+*** SHOW DOWN ***
+tykhe13: shows [Ah As] (a pair of Aces)
+DiggErr555: shows [Qd 5d] (high card Queen)
+tykhe13 collected 1060 from pot
+*** SUMMARY ***
+Total pot 1060 | Rake 0
+Board [2h 8d 3d 9h 4h]
+Seat 1: DiggErr555 (button) showed [Qd 5d] and lost with high card Queen
+Seat 3: tykhe13 (small blind) showed [Ah As] and won (1060) with a pair of Aces
+Seat 4: ultraluxe (big blind) folded before Flop
+
+PokerStars Hand #188548318513: Tournament #2352955071, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:29:28 MSK [2018/07/09 18:29:28 ET]
+Table '2352955071 1' 6-max Seat #3 is the button
+Seat 1: DiggErr555 (1337 in chips)
+Seat 3: tykhe13 (1060 in chips)
+Seat 4: ultraluxe (603 in chips)
+DiggErr555: posts the ante 8
+tykhe13: posts the ante 8
+ultraluxe: posts the ante 8
+ultraluxe: posts small blind 40
+DiggErr555: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [As Kh]
+tykhe13: folds
+ultraluxe: raises 515 to 595 and is all-in
+DiggErr555: calls 515
+*** FLOP *** [Qd 6h 4c]
+*** TURN *** [Qd 6h 4c] [5d]
+*** RIVER *** [Qd 6h 4c 5d] [2s]
+*** SHOW DOWN ***
+ultraluxe: shows [Kd 8d] (high card King)
+DiggErr555: shows [As Kh] (high card Ace)
+DiggErr555 collected 1214 from pot
+DiggErr555 wins the $4.79 bounty for eliminating ultraluxe
+ultraluxe finished the tournament in 3rd place
+*** SUMMARY ***
+Total pot 1214 | Rake 0
+Board [Qd 6h 4c 5d 2s]
+Seat 1: DiggErr555 (big blind) showed [As Kh] and won (1214) with high card Ace
+Seat 3: tykhe13 (button) folded before Flop (didn't bet)
+Seat 4: ultraluxe (small blind) showed [Kd 8d] and lost with high card King
+
+PokerStars Hand #188548329617: Tournament #2352955071, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:29:47 MSK [2018/07/09 18:29:47 ET]
+Table '2352955071 1' 6-max Seat #1 is the button
+Seat 1: DiggErr555 (1948 in chips)
+Seat 3: tykhe13 (1052 in chips)
+DiggErr555: posts the ante 8
+tykhe13: posts the ante 8
+DiggErr555: posts small blind 40
+tykhe13: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [4s 6d]
+DiggErr555: calls 40
+tykhe13: checks
+*** FLOP *** [Kd Ah 8c]
+tykhe13: checks
+DiggErr555: bets 80
+tykhe13: calls 80
+*** TURN *** [Kd Ah 8c] [Js]
+tykhe13: checks
+DiggErr555: checks
+*** RIVER *** [Kd Ah 8c Js] [Jc]
+tykhe13: checks
+DiggErr555: checks
+*** SHOW DOWN ***
+tykhe13: shows [7s Kh] (two pair, Kings and Jacks)
+DiggErr555: mucks hand
+tykhe13 collected 336 from pot
+*** SUMMARY ***
+Total pot 336 | Rake 0
+Board [Kd Ah 8c Js Jc]
+Seat 1: DiggErr555 (button) (small blind) mucked [4s 6d]
+Seat 3: tykhe13 (big blind) showed [7s Kh] and won (336) with two pair, Kings and Jacks
+
+PokerStars Hand #188548349425: Tournament #2352955071, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:30:20 MSK [2018/07/09 18:30:20 ET]
+Table '2352955071 1' 6-max Seat #3 is the button
+Seat 1: DiggErr555 (1780 in chips)
+Seat 3: tykhe13 (1220 in chips)
+DiggErr555: posts the ante 8
+tykhe13: posts the ante 8
+tykhe13: posts small blind 40
+DiggErr555: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Js 8h]
+tykhe13: raises 80 to 160
+DiggErr555: calls 80
+*** FLOP *** [6h 9h 2d]
+DiggErr555: checks
+tykhe13: bets 240
+DiggErr555: folds
+Uncalled bet (240) returned to tykhe13
+tykhe13 collected 336 from pot
+*** SUMMARY ***
+Total pot 336 | Rake 0
+Board [6h 9h 2d]
+Seat 1: DiggErr555 (big blind) folded on the Flop
+Seat 3: tykhe13 (button) (small blind) collected (336)
+
+PokerStars Hand #188548362032: Tournament #2352955071, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:30:41 MSK [2018/07/09 18:30:41 ET]
+Table '2352955071 1' 6-max Seat #1 is the button
+Seat 1: DiggErr555 (1612 in chips)
+Seat 3: tykhe13 (1388 in chips)
+DiggErr555: posts the ante 8
+tykhe13: posts the ante 8
+DiggErr555: posts small blind 40
+tykhe13: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [2d 8c]
+DiggErr555: folds
+Uncalled bet (40) returned to tykhe13
+tykhe13 collected 96 from pot
+*** SUMMARY ***
+Total pot 96 | Rake 0
+Seat 1: DiggErr555 (button) (small blind) folded before Flop
+Seat 3: tykhe13 (big blind) collected (96)
+
+PokerStars Hand #188548367170: Tournament #2352955071, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level VI (50/100) - 2018/07/10 1:30:50 MSK [2018/07/09 18:30:50 ET]
+Table '2352955071 1' 6-max Seat #3 is the button
+Seat 1: DiggErr555 (1564 in chips)
+Seat 3: tykhe13 (1436 in chips)
+DiggErr555: posts the ante 10
+tykhe13: posts the ante 10
+tykhe13: posts small blind 50
+DiggErr555: posts big blind 100
+*** HOLE CARDS ***
+Dealt to DiggErr555 [4s Td]
+tykhe13: calls 50
+DiggErr555: checks
+*** FLOP *** [Jd 5c Jc]
+DiggErr555: checks
+tykhe13: checks
+*** TURN *** [Jd 5c Jc] [2c]
+DiggErr555: checks
+tykhe13: bets 145
+DiggErr555: folds
+Uncalled bet (145) returned to tykhe13
+tykhe13 collected 220 from pot
+*** SUMMARY ***
+Total pot 220 | Rake 0
+Board [Jd 5c Jc 2c]
+Seat 1: DiggErr555 (big blind) folded on the Turn
+Seat 3: tykhe13 (button) (small blind) collected (220)
+
+PokerStars Hand #188548393591: Tournament #2352955071, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level VI (50/100) - 2018/07/10 1:31:35 MSK [2018/07/09 18:31:35 ET]
+Table '2352955071 1' 6-max Seat #1 is the button
+Seat 1: DiggErr555 (1454 in chips)
+Seat 3: tykhe13 (1546 in chips)
+DiggErr555: posts the ante 10
+tykhe13: posts the ante 10
+DiggErr555: posts small blind 50
+tykhe13: posts big blind 100
+*** HOLE CARDS ***
+Dealt to DiggErr555 [3c 2c]
+DiggErr555: calls 50
+tykhe13: raises 1436 to 1536 and is all-in
+DiggErr555: folds
+Uncalled bet (1436) returned to tykhe13
+tykhe13 collected 220 from pot
+*** SUMMARY ***
+Total pot 220 | Rake 0
+Seat 1: DiggErr555 (button) (small blind) folded before Flop
+Seat 3: tykhe13 (big blind) collected (220)
+
+PokerStars Hand #188548411038: Tournament #2352955071, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level VI (50/100) - 2018/07/10 1:32:04 MSK [2018/07/09 18:32:04 ET]
+Table '2352955071 1' 6-max Seat #3 is the button
+Seat 1: DiggErr555 (1344 in chips)
+Seat 3: tykhe13 (1656 in chips)
+DiggErr555: posts the ante 10
+tykhe13: posts the ante 10
+tykhe13: posts small blind 50
+DiggErr555: posts big blind 100
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Tc 4d]
+tykhe13: calls 50
+DiggErr555: checks
+*** FLOP *** [9h As 2c]
+DiggErr555: checks
+tykhe13: bets 100
+DiggErr555: folds
+Uncalled bet (100) returned to tykhe13
+tykhe13 collected 220 from pot
+*** SUMMARY ***
+Total pot 220 | Rake 0
+Board [9h As 2c]
+Seat 1: DiggErr555 (big blind) folded on the Flop
+Seat 3: tykhe13 (button) (small blind) collected (220)
+
+PokerStars Hand #188548420593: Tournament #2352955071, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level VI (50/100) - 2018/07/10 1:32:20 MSK [2018/07/09 18:32:20 ET]
+Table '2352955071 1' 6-max Seat #1 is the button
+Seat 1: DiggErr555 (1234 in chips)
+Seat 3: tykhe13 (1766 in chips)
+DiggErr555: posts the ante 10
+tykhe13: posts the ante 10
+DiggErr555: posts small blind 50
+tykhe13: posts big blind 100
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Jd 7d]
+DiggErr555: raises 1124 to 1224 and is all-in
+tykhe13: folds
+Uncalled bet (1124) returned to DiggErr555
+DiggErr555 collected 220 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 220 | Rake 0
+Seat 1: DiggErr555 (button) (small blind) collected (220)
+Seat 3: tykhe13 (big blind) folded before Flop
+
+PokerStars Hand #188548424759: Tournament #2352955071, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level VI (50/100) - 2018/07/10 1:32:27 MSK [2018/07/09 18:32:27 ET]
+Table '2352955071 1' 6-max Seat #3 is the button
+Seat 1: DiggErr555 (1344 in chips)
+Seat 3: tykhe13 (1656 in chips)
+DiggErr555: posts the ante 10
+tykhe13: posts the ante 10
+tykhe13: posts small blind 50
+DiggErr555: posts big blind 100
+*** HOLE CARDS ***
+Dealt to DiggErr555 [2d 9c]
+tykhe13: calls 50
+DiggErr555: checks
+*** FLOP *** [5c Kc Jd]
+DiggErr555: checks
+tykhe13: checks
+*** TURN *** [5c Kc Jd] [3s]
+DiggErr555: checks
+tykhe13: bets 100
+DiggErr555: folds
+Uncalled bet (100) returned to tykhe13
+tykhe13 collected 220 from pot
+*** SUMMARY ***
+Total pot 220 | Rake 0
+Board [5c Kc Jd 3s]
+Seat 1: DiggErr555 (big blind) folded on the Turn
+Seat 3: tykhe13 (button) (small blind) collected (220)
+
+PokerStars Hand #188548439755: Tournament #2352955071, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level VI (50/100) - 2018/07/10 1:32:52 MSK [2018/07/09 18:32:52 ET]
+Table '2352955071 1' 6-max Seat #1 is the button
+Seat 1: DiggErr555 (1234 in chips)
+Seat 3: tykhe13 (1766 in chips)
+DiggErr555: posts the ante 10
+tykhe13: posts the ante 10
+DiggErr555: posts small blind 50
+tykhe13: posts big blind 100
+*** HOLE CARDS ***
+Dealt to DiggErr555 [As 4s]
+DiggErr555: raises 1124 to 1224 and is all-in
+tykhe13: folds
+Uncalled bet (1124) returned to DiggErr555
+DiggErr555 collected 220 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 220 | Rake 0
+Seat 1: DiggErr555 (button) (small blind) collected (220)
+Seat 3: tykhe13 (big blind) folded before Flop
+
+PokerStars Hand #188548451183: Tournament #2352955071, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level VII (60/120) - 2018/07/10 1:33:11 MSK [2018/07/09 18:33:11 ET]
+Table '2352955071 1' 6-max Seat #3 is the button
+Seat 1: DiggErr555 (1344 in chips)
+Seat 3: tykhe13 (1656 in chips)
+DiggErr555: posts the ante 12
+tykhe13: posts the ante 12
+tykhe13: posts small blind 60
+DiggErr555: posts big blind 120
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Ks 5h]
+tykhe13: raises 120 to 240
+DiggErr555: folds
+Uncalled bet (120) returned to tykhe13
+tykhe13 collected 264 from pot
+*** SUMMARY ***
+Total pot 264 | Rake 0
+Seat 1: DiggErr555 (big blind) folded before Flop
+Seat 3: tykhe13 (button) (small blind) collected (264)
+
+PokerStars Hand #188548459777: Tournament #2352955071, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level VII (60/120) - 2018/07/10 1:33:26 MSK [2018/07/09 18:33:26 ET]
+Table '2352955071 1' 6-max Seat #1 is the button
+Seat 1: DiggErr555 (1212 in chips)
+Seat 3: tykhe13 (1788 in chips)
+DiggErr555: posts the ante 12
+tykhe13: posts the ante 12
+DiggErr555: posts small blind 60
+tykhe13: posts big blind 120
+*** HOLE CARDS ***
+Dealt to DiggErr555 [4s 3d]
+DiggErr555: folds
+Uncalled bet (60) returned to tykhe13
+tykhe13 collected 144 from pot
+*** SUMMARY ***
+Total pot 144 | Rake 0
+Seat 1: DiggErr555 (button) (small blind) folded before Flop
+Seat 3: tykhe13 (big blind) collected (144)
+
+PokerStars Hand #188548463320: Tournament #2352955071, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level VII (60/120) - 2018/07/10 1:33:31 MSK [2018/07/09 18:33:31 ET]
+Table '2352955071 1' 6-max Seat #3 is the button
+Seat 1: DiggErr555 (1140 in chips)
+Seat 3: tykhe13 (1860 in chips)
+DiggErr555: posts the ante 12
+tykhe13: posts the ante 12
+tykhe13: posts small blind 60
+DiggErr555: posts big blind 120
+*** HOLE CARDS ***
+Dealt to DiggErr555 [4d 8d]
+tykhe13: folds
+Uncalled bet (60) returned to DiggErr555
+DiggErr555 collected 144 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 144 | Rake 0
+Seat 1: DiggErr555 (big blind) collected (144)
+Seat 3: tykhe13 (button) (small blind) folded before Flop
+
+PokerStars Hand #188548468163: Tournament #2352955071, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level VII (60/120) - 2018/07/10 1:33:39 MSK [2018/07/09 18:33:39 ET]
+Table '2352955071 1' 6-max Seat #1 is the button
+Seat 1: DiggErr555 (1212 in chips)
+Seat 3: tykhe13 (1788 in chips)
+DiggErr555: posts the ante 12
+tykhe13: posts the ante 12
+DiggErr555: posts small blind 60
+tykhe13: posts big blind 120
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6d Jh]
+DiggErr555: calls 60
+tykhe13: checks
+*** FLOP *** [7h Ks 3d]
+tykhe13: checks
+DiggErr555: bets 120
+tykhe13: folds
+Uncalled bet (120) returned to DiggErr555
+DiggErr555 collected 264 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 264 | Rake 0
+Board [7h Ks 3d]
+Seat 1: DiggErr555 (button) (small blind) collected (264)
+Seat 3: tykhe13 (big blind) folded on the Flop
+
+PokerStars Hand #188548495007: Tournament #2352955071, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level VII (60/120) - 2018/07/10 1:34:25 MSK [2018/07/09 18:34:25 ET]
+Table '2352955071 1' 6-max Seat #3 is the button
+Seat 1: DiggErr555 (1344 in chips)
+Seat 3: tykhe13 (1656 in chips)
+DiggErr555: posts the ante 12
+tykhe13: posts the ante 12
+tykhe13: posts small blind 60
+DiggErr555: posts big blind 120
+*** HOLE CARDS ***
+Dealt to DiggErr555 [4s 2h]
+tykhe13: folds
+Uncalled bet (60) returned to DiggErr555
+DiggErr555 collected 144 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 144 | Rake 0
+Seat 1: DiggErr555 (big blind) collected (144)
+Seat 3: tykhe13 (button) (small blind) folded before Flop
+
+PokerStars Hand #188548497364: Tournament #2352955071, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level VII (60/120) - 2018/07/10 1:34:29 MSK [2018/07/09 18:34:29 ET]
+Table '2352955071 1' 6-max Seat #1 is the button
+Seat 1: DiggErr555 (1416 in chips)
+Seat 3: tykhe13 (1584 in chips)
+DiggErr555: posts the ante 12
+tykhe13: posts the ante 12
+DiggErr555: posts small blind 60
+tykhe13: posts big blind 120
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Js 4c]
+DiggErr555: calls 60
+tykhe13: raises 1452 to 1572 and is all-in
+DiggErr555: folds
+Uncalled bet (1452) returned to tykhe13
+tykhe13 collected 264 from pot
+*** SUMMARY ***
+Total pot 264 | Rake 0
+Seat 1: DiggErr555 (button) (small blind) folded before Flop
+Seat 3: tykhe13 (big blind) collected (264)
+
+PokerStars Hand #188548508030: Tournament #2352955071, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level VIII (75/150) - 2018/07/10 1:34:47 MSK [2018/07/09 18:34:47 ET]
+Table '2352955071 1' 6-max Seat #3 is the button
+Seat 1: DiggErr555 (1284 in chips)
+Seat 3: tykhe13 (1716 in chips)
+DiggErr555: posts the ante 15
+tykhe13: posts the ante 15
+tykhe13: posts small blind 75
+DiggErr555: posts big blind 150
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Js Jc]
+tykhe13: raises 1551 to 1701 and is all-in
+DiggErr555: calls 1119 and is all-in
+Uncalled bet (432) returned to tykhe13
+*** FLOP *** [8s Jd 2c]
+*** TURN *** [8s Jd 2c] [Qh]
+*** RIVER *** [8s Jd 2c Qh] [7c]
+*** SHOW DOWN ***
+DiggErr555: shows [Js Jc] (three of a kind, Jacks)
+tykhe13: shows [Kc Qc] (a pair of Queens)
+DiggErr555 collected 2568 from pot
+*** SUMMARY ***
+Total pot 2568 | Rake 0
+Board [8s Jd 2c Qh 7c]
+Seat 1: DiggErr555 (big blind) showed [Js Jc] and won (2568) with three of a kind, Jacks
+Seat 3: tykhe13 (button) (small blind) showed [Kc Qc] and lost with a pair of Queens
+
+PokerStars Hand #188548522192: Tournament #2352955071, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level VIII (75/150) - 2018/07/10 1:35:11 MSK [2018/07/09 18:35:11 ET]
+Table '2352955071 1' 6-max Seat #1 is the button
+Seat 1: DiggErr555 (2568 in chips)
+Seat 3: tykhe13 (432 in chips)
+DiggErr555: posts the ante 15
+tykhe13: posts the ante 15
+DiggErr555: posts small blind 75
+tykhe13: posts big blind 150
+*** HOLE CARDS ***
+Dealt to DiggErr555 [8s Qc]
+DiggErr555: raises 2403 to 2553 and is all-in
+tykhe13: folds
+Uncalled bet (2403) returned to DiggErr555
+DiggErr555 collected 330 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 330 | Rake 0
+Seat 1: DiggErr555 (button) (small blind) collected (330)
+Seat 3: tykhe13 (big blind) folded before Flop
+
+PokerStars Hand #188548545254: Tournament #2352955071, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level VIII (75/150) - 2018/07/10 1:35:49 MSK [2018/07/09 18:35:49 ET]
+Table '2352955071 1' 6-max Seat #3 is the button
+Seat 1: DiggErr555 (2733 in chips)
+Seat 3: tykhe13 (267 in chips)
+DiggErr555: posts the ante 15
+tykhe13: posts the ante 15
+tykhe13: posts small blind 75
+DiggErr555: posts big blind 150
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Ah 9c]
+tykhe13: folds
+Uncalled bet (75) returned to DiggErr555
+DiggErr555 collected 180 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 180 | Rake 0
+Seat 1: DiggErr555 (big blind) collected (180)
+Seat 3: tykhe13 (button) (small blind) folded before Flop
+
+PokerStars Hand #188548553204: Tournament #2352955071, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level VIII (75/150) - 2018/07/10 1:36:03 MSK [2018/07/09 18:36:03 ET]
+Table '2352955071 1' 6-max Seat #1 is the button
+Seat 1: DiggErr555 (2823 in chips)
+Seat 3: tykhe13 (177 in chips)
+DiggErr555: posts the ante 15
+tykhe13: posts the ante 15
+DiggErr555: posts small blind 75
+tykhe13: posts big blind 150
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6h 2d]
+DiggErr555: raises 2658 to 2808 and is all-in
+tykhe13: calls 12 and is all-in
+Uncalled bet (2646) returned to DiggErr555
+*** FLOP *** [Ts Th 2c]
+*** TURN *** [Ts Th 2c] [3s]
+*** RIVER *** [Ts Th 2c 3s] [9s]
+*** SHOW DOWN ***
+tykhe13: shows [4h 3h] (two pair, Tens and Threes)
+DiggErr555: shows [6h 2d] (two pair, Tens and Deuces)
+tykhe13 collected 354 from pot
+*** SUMMARY ***
+Total pot 354 | Rake 0
+Board [Ts Th 2c 3s 9s]
+Seat 1: DiggErr555 (button) (small blind) showed [6h 2d] and lost with two pair, Tens and Deuces
+Seat 3: tykhe13 (big blind) showed [4h 3h] and won (354) with two pair, Tens and Threes
+
+PokerStars Hand #188548563016: Tournament #2352955071, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level VIII (75/150) - 2018/07/10 1:36:19 MSK [2018/07/09 18:36:19 ET]
+Table '2352955071 1' 6-max Seat #3 is the button
+Seat 1: DiggErr555 (2646 in chips)
+Seat 3: tykhe13 (354 in chips)
+DiggErr555: posts the ante 15
+tykhe13: posts the ante 15
+tykhe13: posts small blind 75
+DiggErr555: posts big blind 150
+*** HOLE CARDS ***
+Dealt to DiggErr555 [8c 2d]
+tykhe13: raises 189 to 339 and is all-in
+DiggErr555: calls 189
+*** FLOP *** [4s Th 4d]
+*** TURN *** [4s Th 4d] [3h]
+*** RIVER *** [4s Th 4d 3h] [4h]
+*** SHOW DOWN ***
+DiggErr555: shows [8c 2d] (three of a kind, Fours)
+tykhe13: shows [As 2h] (three of a kind, Fours - Ace kicker)
+tykhe13 collected 708 from pot
+*** SUMMARY ***
+Total pot 708 | Rake 0
+Board [4s Th 4d 3h 4h]
+Seat 1: DiggErr555 (big blind) showed [8c 2d] and lost with three of a kind, Fours
+Seat 3: tykhe13 (button) (small blind) showed [As 2h] and won (708) with three of a kind, Fours
+
+PokerStars Hand #188548574524: Tournament #2352955071, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level VIII (75/150) - 2018/07/10 1:36:39 MSK [2018/07/09 18:36:39 ET]
+Table '2352955071 1' 6-max Seat #1 is the button
+Seat 1: DiggErr555 (2292 in chips)
+Seat 3: tykhe13 (708 in chips)
+DiggErr555: posts the ante 15
+tykhe13: posts the ante 15
+DiggErr555: posts small blind 75
+tykhe13: posts big blind 150
+*** HOLE CARDS ***
+Dealt to DiggErr555 [8s 2s]
+DiggErr555: raises 2127 to 2277 and is all-in
+tykhe13: folds
+Uncalled bet (2127) returned to DiggErr555
+DiggErr555 collected 330 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 330 | Rake 0
+Seat 1: DiggErr555 (button) (small blind) collected (330)
+Seat 3: tykhe13 (big blind) folded before Flop
+
+PokerStars Hand #188548583968: Tournament #2352955071, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level VIII (75/150) - 2018/07/10 1:36:55 MSK [2018/07/09 18:36:55 ET]
+Table '2352955071 1' 6-max Seat #3 is the button
+Seat 1: DiggErr555 (2457 in chips)
+Seat 3: tykhe13 (543 in chips)
+DiggErr555: posts the ante 15
+tykhe13: posts the ante 15
+tykhe13: posts small blind 75
+DiggErr555: posts big blind 150
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6s Ac]
+tykhe13: raises 378 to 528 and is all-in
+DiggErr555: calls 378
+*** FLOP *** [3s 2c 9d]
+*** TURN *** [3s 2c 9d] [3d]
+*** RIVER *** [3s 2c 9d 3d] [4h]
+*** SHOW DOWN ***
+DiggErr555: shows [6s Ac] (a pair of Threes)
+tykhe13: shows [9h 7c] (two pair, Nines and Threes)
+tykhe13 collected 1086 from pot
+*** SUMMARY ***
+Total pot 1086 | Rake 0
+Board [3s 2c 9d 3d 4h]
+Seat 1: DiggErr555 (big blind) showed [6s Ac] and lost with a pair of Threes
+Seat 3: tykhe13 (button) (small blind) showed [9h 7c] and won (1086) with two pair, Nines and Threes
+
+PokerStars Hand #188548601749: Tournament #2352955071, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level IX (90/180) - 2018/07/10 1:37:25 MSK [2018/07/09 18:37:25 ET]
+Table '2352955071 1' 6-max Seat #1 is the button
+Seat 1: DiggErr555 (1914 in chips)
+Seat 3: tykhe13 (1086 in chips)
+DiggErr555: posts the ante 18
+tykhe13: posts the ante 18
+DiggErr555: posts small blind 90
+tykhe13: posts big blind 180
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Kd Qc]
+DiggErr555: raises 1716 to 1896 and is all-in
+tykhe13: calls 888 and is all-in
+Uncalled bet (828) returned to DiggErr555
+*** FLOP *** [6s 5c 6c]
+*** TURN *** [6s 5c 6c] [5s]
+*** RIVER *** [6s 5c 6c 5s] [9s]
+*** SHOW DOWN ***
+tykhe13: shows [Kh Qh] (two pair, Sixes and Fives)
+DiggErr555: shows [Kd Qc] (two pair, Sixes and Fives)
+tykhe13 collected 1086 from pot
+DiggErr555 collected 1086 from pot
+*** SUMMARY ***
+Total pot 2172 | Rake 0
+Board [6s 5c 6c 5s 9s]
+Seat 1: DiggErr555 (button) (small blind) showed [Kd Qc] and won (1086) with two pair, Sixes and Fives
+Seat 3: tykhe13 (big blind) showed [Kh Qh] and won (1086) with two pair, Sixes and Fives
+
+PokerStars Hand #188548613378: Tournament #2352955071, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level IX (90/180) - 2018/07/10 1:37:44 MSK [2018/07/09 18:37:44 ET]
+Table '2352955071 1' 6-max Seat #3 is the button
+Seat 1: DiggErr555 (1914 in chips)
+Seat 3: tykhe13 (1086 in chips)
+DiggErr555: posts the ante 18
+tykhe13: posts the ante 18
+tykhe13: posts small blind 90
+DiggErr555: posts big blind 180
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Kd 5s]
+tykhe13: folds
+Uncalled bet (90) returned to DiggErr555
+DiggErr555 collected 216 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 216 | Rake 0
+Seat 1: DiggErr555 (big blind) collected (216)
+Seat 3: tykhe13 (button) (small blind) folded before Flop
+
+PokerStars Hand #188548620922: Tournament #2352955071, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level IX (90/180) - 2018/07/10 1:37:57 MSK [2018/07/09 18:37:57 ET]
+Table '2352955071 1' 6-max Seat #1 is the button
+Seat 1: DiggErr555 (2022 in chips)
+Seat 3: tykhe13 (978 in chips)
+DiggErr555: posts the ante 18
+tykhe13: posts the ante 18
+DiggErr555: posts small blind 90
+tykhe13: posts big blind 180
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Jh Jc]
+DiggErr555: raises 1824 to 2004 and is all-in
+tykhe13: calls 780 and is all-in
+Uncalled bet (1044) returned to DiggErr555
+*** FLOP *** [9c 9s Qd]
+*** TURN *** [9c 9s Qd] [7c]
+*** RIVER *** [9c 9s Qd 7c] [5h]
+*** SHOW DOWN ***
+tykhe13: shows [As Td] (a pair of Nines)
+DiggErr555: shows [Jh Jc] (two pair, Jacks and Nines)
+DiggErr555 collected 1956 from pot
+DiggErr555 wins the $4.79 bounty for eliminating tykhe13
+tykhe13 finished the tournament in 2nd place and received $14.37.
+DiggErr555 wins the tournament and receives $14.37 - congratulations!
+*** SUMMARY ***
+Total pot 1956 | Rake 0
+Board [9c 9s Qd 7c 5h]
+Seat 1: DiggErr555 (button) (small blind) showed [Jh Jc] and won (1956) with two pair, Jacks and Nines
+Seat 3: tykhe13 (big blind) showed [As Td] and lost with a pair of Nines

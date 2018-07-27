@@ -1,0 +1,199 @@
+
+
+PokerStars Hand #188548789894: Tournament #2352969491, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:42:46 MSK [2018/07/09 18:42:46 ET]
+Table '2352969491 1' 6-max Seat #1 is the button
+Seat 1: DiggErr555 (500 in chips)
+Seat 2: Ath.Bachmann (500 in chips)
+Seat 3: hanshabraken (500 in chips)
+Seat 4: iPlay4Berte (500 in chips)
+Seat 5: Spaiki 11 (500 in chips)
+Seat 6: chesscool333 (500 in chips)
+DiggErr555: posts the ante 2
+Ath.Bachmann: posts the ante 2
+hanshabraken: posts the ante 2
+iPlay4Berte: posts the ante 2
+Spaiki 11: posts the ante 2
+chesscool333: posts the ante 2
+Ath.Bachmann: posts small blind 10
+hanshabraken: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Qh Ts]
+iPlay4Berte: raises 478 to 498 and is all-in
+Spaiki 11 has timed out
+Spaiki 11: folds
+Spaiki 11 is sitting out
+chesscool333: folds
+DiggErr555: folds
+Ath.Bachmann: folds
+hanshabraken: folds
+Uncalled bet (478) returned to iPlay4Berte
+Spaiki 11 has returned
+iPlay4Berte collected 62 from pot
+iPlay4Berte: doesn't show hand
+*** SUMMARY ***
+Total pot 62 | Rake 0
+Seat 1: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 2: Ath.Bachmann (small blind) folded before Flop
+Seat 3: hanshabraken (big blind) folded before Flop
+Seat 4: iPlay4Berte collected (62)
+Seat 5: Spaiki 11 folded before Flop (didn't bet)
+Seat 6: chesscool333 folded before Flop (didn't bet)
+
+PokerStars Hand #188548813531: Tournament #2352969491, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:43:27 MSK [2018/07/09 18:43:27 ET]
+Table '2352969491 1' 6-max Seat #2 is the button
+Seat 1: DiggErr555 (498 in chips)
+Seat 2: Ath.Bachmann (488 in chips)
+Seat 3: hanshabraken (478 in chips)
+Seat 4: iPlay4Berte (540 in chips)
+Seat 5: Spaiki 11 (498 in chips)
+Seat 6: chesscool333 (498 in chips)
+DiggErr555: posts the ante 2
+Ath.Bachmann: posts the ante 2
+hanshabraken: posts the ante 2
+iPlay4Berte: posts the ante 2
+Spaiki 11: posts the ante 2
+chesscool333: posts the ante 2
+hanshabraken: posts small blind 10
+iPlay4Berte: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Th Kh]
+Spaiki 11: folds
+chesscool333: folds
+DiggErr555: raises 20 to 40
+Ath.Bachmann: folds
+hanshabraken: folds
+iPlay4Berte: raises 498 to 538 and is all-in
+DiggErr555: folds
+Uncalled bet (498) returned to iPlay4Berte
+iPlay4Berte collected 102 from pot
+iPlay4Berte: doesn't show hand
+*** SUMMARY ***
+Total pot 102 | Rake 0
+Seat 1: DiggErr555 folded before Flop
+Seat 2: Ath.Bachmann (button) folded before Flop (didn't bet)
+Seat 3: hanshabraken (small blind) folded before Flop
+Seat 4: iPlay4Berte (big blind) collected (102)
+Seat 5: Spaiki 11 folded before Flop (didn't bet)
+Seat 6: chesscool333 folded before Flop (didn't bet)
+
+PokerStars Hand #188548826278: Tournament #2352969491, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:43:49 MSK [2018/07/09 18:43:49 ET]
+Table '2352969491 1' 6-max Seat #3 is the button
+Seat 1: DiggErr555 (456 in chips)
+Seat 2: Ath.Bachmann (486 in chips)
+Seat 3: hanshabraken (466 in chips)
+Seat 4: iPlay4Berte (600 in chips)
+Seat 5: Spaiki 11 (496 in chips)
+Seat 6: chesscool333 (496 in chips)
+DiggErr555: posts the ante 2
+Ath.Bachmann: posts the ante 2
+hanshabraken: posts the ante 2
+iPlay4Berte: posts the ante 2
+Spaiki 11: posts the ante 2
+chesscool333: posts the ante 2
+iPlay4Berte: posts small blind 10
+Spaiki 11: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Ad Ts]
+chesscool333: folds
+DiggErr555: raises 20 to 40
+Ath.Bachmann: folds
+hanshabraken: folds
+iPlay4Berte: raises 558 to 598 and is all-in
+Spaiki 11: folds
+DiggErr555: folds
+Uncalled bet (558) returned to iPlay4Berte
+iPlay4Berte collected 112 from pot
+iPlay4Berte: doesn't show hand
+*** SUMMARY ***
+Total pot 112 | Rake 0
+Seat 1: DiggErr555 folded before Flop
+Seat 2: Ath.Bachmann folded before Flop (didn't bet)
+Seat 3: hanshabraken (button) folded before Flop (didn't bet)
+Seat 4: iPlay4Berte (small blind) collected (112)
+Seat 5: Spaiki 11 (big blind) folded before Flop
+Seat 6: chesscool333 folded before Flop (didn't bet)
+
+PokerStars Hand #188548838994: Tournament #2352969491, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:44:11 MSK [2018/07/09 18:44:11 ET]
+Table '2352969491 1' 6-max Seat #4 is the button
+Seat 1: DiggErr555 (414 in chips)
+Seat 2: Ath.Bachmann (484 in chips)
+Seat 3: hanshabraken (464 in chips)
+Seat 4: iPlay4Berte (670 in chips)
+Seat 5: Spaiki 11 (474 in chips)
+Seat 6: chesscool333 (494 in chips)
+DiggErr555: posts the ante 3
+Ath.Bachmann: posts the ante 3
+hanshabraken: posts the ante 3
+iPlay4Berte: posts the ante 3
+Spaiki 11: posts the ante 3
+chesscool333: posts the ante 3
+Spaiki 11: posts small blind 15
+chesscool333: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [8c Td]
+DiggErr555: folds
+Ath.Bachmann: folds
+hanshabraken: folds
+iPlay4Berte: raises 637 to 667 and is all-in
+Spaiki 11: calls 456 and is all-in
+chesscool333: calls 461 and is all-in
+Uncalled bet (176) returned to iPlay4Berte
+*** FLOP *** [Ts 6h 9h]
+*** TURN *** [Ts 6h 9h] [2d]
+*** RIVER *** [Ts 6h 9h 2d] [Qc]
+*** SHOW DOWN ***
+chesscool333: shows [Ac 4d] (high card Ace)
+iPlay4Berte: shows [8s 8h] (a pair of Eights)
+iPlay4Berte collected 40 from side pot
+Spaiki 11: shows [Ks 7s] (high card King)
+iPlay4Berte collected 1431 from main pot
+iPlay4Berte wins the $4.79 bounty for eliminating Spaiki 11
+iPlay4Berte wins the $4.79 bounty for eliminating chesscool333
+chesscool333 finished the tournament in 5th place
+Spaiki 11 finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 1471 Main pot 1431. Side pot 40. | Rake 0
+Board [Ts 6h 9h 2d Qc]
+Seat 1: DiggErr555 folded before Flop (didn't bet)
+Seat 2: Ath.Bachmann folded before Flop (didn't bet)
+Seat 3: hanshabraken folded before Flop (didn't bet)
+Seat 4: iPlay4Berte (button) showed [8s 8h] and won (1471) with a pair of Eights
+Seat 5: Spaiki 11 (small blind) showed [Ks 7s] and lost with high card King
+Seat 6: chesscool333 (big blind) showed [Ac 4d] and lost with high card Ace
+
+PokerStars Hand #188548852213: Tournament #2352969491, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:44:34 MSK [2018/07/09 18:44:34 ET]
+Table '2352969491 1' 6-max Seat #1 is the button
+Seat 1: DiggErr555 (411 in chips)
+Seat 2: Ath.Bachmann (481 in chips)
+Seat 3: hanshabraken (461 in chips)
+Seat 4: iPlay4Berte (1647 in chips)
+DiggErr555: posts the ante 3
+Ath.Bachmann: posts the ante 3
+hanshabraken: posts the ante 3
+iPlay4Berte: posts the ante 3
+Ath.Bachmann: posts small blind 15
+hanshabraken: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Ks Kc]
+iPlay4Berte: folds
+DiggErr555: raises 30 to 60
+Ath.Bachmann: raises 418 to 478 and is all-in
+hanshabraken: folds
+DiggErr555: calls 348 and is all-in
+Uncalled bet (70) returned to Ath.Bachmann
+*** FLOP *** [5s 7c Qc]
+*** TURN *** [5s 7c Qc] [9h]
+*** RIVER *** [5s 7c Qc 9h] [8s]
+*** SHOW DOWN ***
+Ath.Bachmann: shows [6s Ac] (a straight, Five to Nine)
+DiggErr555: shows [Ks Kc] (a pair of Kings)
+Ath.Bachmann collected 858 from pot
+Ath.Bachmann wins the $4.79 bounty for eliminating DiggErr555
+DiggErr555 finished the tournament in 4th place
+*** SUMMARY ***
+Total pot 858 | Rake 0
+Board [5s 7c Qc 9h 8s]
+Seat 1: DiggErr555 (button) showed [Ks Kc] and lost with a pair of Kings
+Seat 2: Ath.Bachmann (small blind) showed [6s Ac] and won (858) with a straight, Five to Nine
+Seat 3: hanshabraken (big blind) folded before Flop
+Seat 4: iPlay4Berte folded before Flop (didn't bet)

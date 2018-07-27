@@ -1,0 +1,418 @@
+
+
+PokerStars Hand #188547675807: Tournament #2352946465, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:11:59 MSK [2018/07/09 18:11:59 ET]
+Table '2352946465 1' 6-max Seat #1 is the button
+Seat 1: MagXedin (500 in chips)
+Seat 2: ultraluxe (500 in chips)
+Seat 3: anomer13 (500 in chips)
+Seat 4: paulns8888 (500 in chips)
+Seat 5: DiggErr555 (500 in chips)
+Seat 6: MaliOdBubanja (500 in chips)
+MagXedin: posts the ante 2
+ultraluxe: posts the ante 2
+anomer13: posts the ante 2
+paulns8888: posts the ante 2
+DiggErr555: posts the ante 2
+MaliOdBubanja: posts the ante 2
+ultraluxe: posts small blind 10
+anomer13: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6h Ah]
+paulns8888: folds
+DiggErr555: raises 20 to 40
+MaliOdBubanja: folds
+MagXedin: calls 40
+ultraluxe: folds
+anomer13: raises 142 to 182
+DiggErr555: folds
+MagXedin: folds
+Uncalled bet (142) returned to anomer13
+anomer13 collected 142 from pot
+anomer13: doesn't show hand
+*** SUMMARY ***
+Total pot 142 | Rake 0
+Seat 1: MagXedin (button) folded before Flop
+Seat 2: ultraluxe (small blind) folded before Flop
+Seat 3: anomer13 (big blind) collected (142)
+Seat 4: paulns8888 folded before Flop (didn't bet)
+Seat 5: DiggErr555 folded before Flop
+Seat 6: MaliOdBubanja folded before Flop (didn't bet)
+
+PokerStars Hand #188547696069: Tournament #2352946465, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:12:31 MSK [2018/07/09 18:12:31 ET]
+Table '2352946465 1' 6-max Seat #2 is the button
+Seat 1: MagXedin (458 in chips)
+Seat 2: ultraluxe (488 in chips)
+Seat 3: anomer13 (600 in chips)
+Seat 4: paulns8888 (498 in chips)
+Seat 5: DiggErr555 (458 in chips)
+Seat 6: MaliOdBubanja (498 in chips)
+MagXedin: posts the ante 2
+ultraluxe: posts the ante 2
+anomer13: posts the ante 2
+paulns8888: posts the ante 2
+DiggErr555: posts the ante 2
+MaliOdBubanja: posts the ante 2
+anomer13: posts small blind 10
+paulns8888: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [3s Qd]
+DiggErr555: folds
+MaliOdBubanja: folds
+MagXedin: folds
+ultraluxe: folds
+anomer13: raises 52 to 72
+paulns8888: folds
+Uncalled bet (52) returned to anomer13
+anomer13 collected 52 from pot
+anomer13: doesn't show hand
+*** SUMMARY ***
+Total pot 52 | Rake 0
+Seat 1: MagXedin folded before Flop (didn't bet)
+Seat 2: ultraluxe (button) folded before Flop (didn't bet)
+Seat 3: anomer13 (small blind) collected (52)
+Seat 4: paulns8888 (big blind) folded before Flop
+Seat 5: DiggErr555 folded before Flop (didn't bet)
+Seat 6: MaliOdBubanja folded before Flop (didn't bet)
+
+PokerStars Hand #188547705399: Tournament #2352946465, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:12:46 MSK [2018/07/09 18:12:46 ET]
+Table '2352946465 1' 6-max Seat #3 is the button
+Seat 1: MagXedin (456 in chips)
+Seat 2: ultraluxe (486 in chips)
+Seat 3: anomer13 (630 in chips)
+Seat 4: paulns8888 (476 in chips)
+Seat 5: DiggErr555 (456 in chips)
+Seat 6: MaliOdBubanja (496 in chips)
+MagXedin: posts the ante 2
+ultraluxe: posts the ante 2
+anomer13: posts the ante 2
+paulns8888: posts the ante 2
+DiggErr555: posts the ante 2
+MaliOdBubanja: posts the ante 2
+paulns8888: posts small blind 10
+DiggErr555: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6c 3s]
+MaliOdBubanja: calls 20
+MagXedin: folds
+ultraluxe: folds
+anomer13: folds
+paulns8888: calls 10
+DiggErr555: checks
+*** FLOP *** [Ah 7s 3c]
+paulns8888: checks
+DiggErr555: checks
+MaliOdBubanja: checks
+*** TURN *** [Ah 7s 3c] [Qs]
+paulns8888: bets 40
+DiggErr555: folds
+MaliOdBubanja: folds
+Uncalled bet (40) returned to paulns8888
+paulns8888 collected 72 from pot
+paulns8888: doesn't show hand
+*** SUMMARY ***
+Total pot 72 | Rake 0
+Board [Ah 7s 3c Qs]
+Seat 1: MagXedin folded before Flop (didn't bet)
+Seat 2: ultraluxe folded before Flop (didn't bet)
+Seat 3: anomer13 (button) folded before Flop (didn't bet)
+Seat 4: paulns8888 (small blind) collected (72)
+Seat 5: DiggErr555 (big blind) folded on the Turn
+Seat 6: MaliOdBubanja folded on the Turn
+
+PokerStars Hand #188547723635: Tournament #2352946465, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:13:15 MSK [2018/07/09 18:13:15 ET]
+Table '2352946465 1' 6-max Seat #4 is the button
+Seat 1: MagXedin (454 in chips)
+Seat 2: ultraluxe (484 in chips)
+Seat 3: anomer13 (628 in chips)
+Seat 4: paulns8888 (526 in chips)
+Seat 5: DiggErr555 (434 in chips)
+Seat 6: MaliOdBubanja (474 in chips)
+MagXedin: posts the ante 3
+ultraluxe: posts the ante 3
+anomer13: posts the ante 3
+paulns8888: posts the ante 3
+DiggErr555: posts the ante 3
+MaliOdBubanja: posts the ante 3
+DiggErr555: posts small blind 15
+MaliOdBubanja: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [3h 8h]
+MagXedin: folds
+ultraluxe: folds
+anomer13: folds
+paulns8888: folds
+DiggErr555: folds
+Uncalled bet (15) returned to MaliOdBubanja
+MaliOdBubanja collected 48 from pot
+*** SUMMARY ***
+Total pot 48 | Rake 0
+Seat 1: MagXedin folded before Flop (didn't bet)
+Seat 2: ultraluxe folded before Flop (didn't bet)
+Seat 3: anomer13 folded before Flop (didn't bet)
+Seat 4: paulns8888 (button) folded before Flop (didn't bet)
+Seat 5: DiggErr555 (small blind) folded before Flop
+Seat 6: MaliOdBubanja (big blind) collected (48)
+
+PokerStars Hand #188547734677: Tournament #2352946465, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:13:32 MSK [2018/07/09 18:13:32 ET]
+Table '2352946465 1' 6-max Seat #5 is the button
+Seat 1: MagXedin (451 in chips)
+Seat 2: ultraluxe (481 in chips)
+Seat 3: anomer13 (625 in chips)
+Seat 4: paulns8888 (523 in chips)
+Seat 5: DiggErr555 (416 in chips)
+Seat 6: MaliOdBubanja (504 in chips)
+MagXedin: posts the ante 3
+ultraluxe: posts the ante 3
+anomer13: posts the ante 3
+paulns8888: posts the ante 3
+DiggErr555: posts the ante 3
+MaliOdBubanja: posts the ante 3
+MaliOdBubanja: posts small blind 15
+MagXedin: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Js 6h]
+ultraluxe: folds
+anomer13: raises 60 to 90
+paulns8888: calls 90
+DiggErr555: folds
+MaliOdBubanja: folds
+MagXedin: raises 358 to 448 and is all-in
+anomer13: raises 174 to 622 and is all-in
+paulns8888: calls 430 and is all-in
+Uncalled bet (102) returned to anomer13
+*** FLOP *** [4h 2d Ts]
+*** TURN *** [4h 2d Ts] [4c]
+*** RIVER *** [4h 2d Ts 4c] [9c]
+*** SHOW DOWN ***
+anomer13: shows [Qc Qd] (two pair, Queens and Fours)
+paulns8888: shows [Kd Ks] (two pair, Kings and Fours)
+paulns8888 collected 144 from side pot
+MagXedin: shows [Qh Ad] (a pair of Fours)
+paulns8888 collected 1377 from main pot
+paulns8888 wins the $4.79 bounty for eliminating MagXedin
+MagXedin finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 1521 Main pot 1377. Side pot 144. | Rake 0
+Board [4h 2d Ts 4c 9c]
+Seat 1: MagXedin (big blind) showed [Qh Ad] and lost with a pair of Fours
+Seat 2: ultraluxe folded before Flop (didn't bet)
+Seat 3: anomer13 showed [Qc Qd] and lost with two pair, Queens and Fours
+Seat 4: paulns8888 showed [Kd Ks] and won (1521) with two pair, Kings and Fours
+Seat 5: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 6: MaliOdBubanja (small blind) folded before Flop
+
+PokerStars Hand #188547757894: Tournament #2352946465, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:14:09 MSK [2018/07/09 18:14:09 ET]
+Table '2352946465 1' 6-max Seat #6 is the button
+Seat 2: ultraluxe (478 in chips)
+Seat 3: anomer13 (102 in chips)
+Seat 4: paulns8888 (1521 in chips)
+Seat 5: DiggErr555 (413 in chips)
+Seat 6: MaliOdBubanja (486 in chips)
+ultraluxe: posts the ante 3
+anomer13: posts the ante 3
+paulns8888: posts the ante 3
+DiggErr555: posts the ante 3
+MaliOdBubanja: posts the ante 3
+ultraluxe: posts small blind 15
+anomer13: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Ah 8c]
+paulns8888: calls 30
+DiggErr555: raises 380 to 410 and is all-in
+MaliOdBubanja: folds
+ultraluxe: folds
+anomer13: calls 69 and is all-in
+paulns8888: folds
+Uncalled bet (311) returned to DiggErr555
+*** FLOP *** [5c 8d 3s]
+*** TURN *** [5c 8d 3s] [4h]
+*** RIVER *** [5c 8d 3s 4h] [Kh]
+*** SHOW DOWN ***
+anomer13: shows [6h 3c] (a pair of Threes)
+DiggErr555: shows [Ah 8c] (a pair of Eights)
+DiggErr555 collected 258 from pot
+DiggErr555 wins the $4.79 bounty for eliminating anomer13
+anomer13 finished the tournament in 5th place
+*** SUMMARY ***
+Total pot 258 | Rake 0
+Board [5c 8d 3s 4h Kh]
+Seat 2: ultraluxe (small blind) folded before Flop
+Seat 3: anomer13 (big blind) showed [6h 3c] and lost with a pair of Threes
+Seat 4: paulns8888 folded before Flop
+Seat 5: DiggErr555 showed [Ah 8c] and won (258) with a pair of Eights
+Seat 6: MaliOdBubanja (button) folded before Flop (didn't bet)
+
+PokerStars Hand #188547773971: Tournament #2352946465, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:14:35 MSK [2018/07/09 18:14:35 ET]
+Table '2352946465 1' 6-max Seat #2 is the button
+Seat 2: ultraluxe (460 in chips)
+Seat 4: paulns8888 (1488 in chips)
+Seat 5: DiggErr555 (569 in chips)
+Seat 6: MaliOdBubanja (483 in chips)
+ultraluxe: posts the ante 3
+paulns8888: posts the ante 3
+DiggErr555: posts the ante 3
+MaliOdBubanja: posts the ante 3
+paulns8888: posts small blind 15
+DiggErr555: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Jd 5c]
+MaliOdBubanja: raises 450 to 480 and is all-in
+ultraluxe: folds
+paulns8888: folds
+DiggErr555: folds
+Uncalled bet (450) returned to MaliOdBubanja
+MaliOdBubanja collected 87 from pot
+MaliOdBubanja: doesn't show hand
+*** SUMMARY ***
+Total pot 87 | Rake 0
+Seat 2: ultraluxe (button) folded before Flop (didn't bet)
+Seat 4: paulns8888 (small blind) folded before Flop
+Seat 5: DiggErr555 (big blind) folded before Flop
+Seat 6: MaliOdBubanja collected (87)
+
+PokerStars Hand #188547794440: Tournament #2352946465, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:15:07 MSK [2018/07/09 18:15:07 ET]
+Table '2352946465 1' 6-max Seat #4 is the button
+Seat 2: ultraluxe (457 in chips)
+Seat 4: paulns8888 (1470 in chips)
+Seat 5: DiggErr555 (536 in chips)
+Seat 6: MaliOdBubanja (537 in chips)
+ultraluxe: posts the ante 4
+paulns8888: posts the ante 4
+DiggErr555: posts the ante 4
+MaliOdBubanja: posts the ante 4
+DiggErr555: posts small blind 20
+MaliOdBubanja: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6h 2h]
+ultraluxe: folds
+paulns8888: calls 40
+DiggErr555: folds
+MaliOdBubanja: raises 40 to 80
+paulns8888: calls 40
+*** FLOP *** [8h 8c 2s]
+MaliOdBubanja: bets 453 and is all-in
+paulns8888: folds
+Uncalled bet (453) returned to MaliOdBubanja
+MaliOdBubanja collected 196 from pot
+*** SUMMARY ***
+Total pot 196 | Rake 0
+Board [8h 8c 2s]
+Seat 2: ultraluxe folded before Flop (didn't bet)
+Seat 4: paulns8888 (button) folded on the Flop
+Seat 5: DiggErr555 (small blind) folded before Flop
+Seat 6: MaliOdBubanja (big blind) collected (196)
+
+PokerStars Hand #188547815471: Tournament #2352946465, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:15:41 MSK [2018/07/09 18:15:41 ET]
+Table '2352946465 1' 6-max Seat #5 is the button
+Seat 2: ultraluxe (453 in chips)
+Seat 4: paulns8888 (1386 in chips)
+Seat 5: DiggErr555 (512 in chips)
+Seat 6: MaliOdBubanja (649 in chips)
+ultraluxe: posts the ante 4
+paulns8888: posts the ante 4
+DiggErr555: posts the ante 4
+MaliOdBubanja: posts the ante 4
+MaliOdBubanja: posts small blind 20
+ultraluxe: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [7s 9h]
+paulns8888: folds
+DiggErr555: folds
+MaliOdBubanja: folds
+Uncalled bet (20) returned to ultraluxe
+ultraluxe collected 56 from pot
+*** SUMMARY ***
+Total pot 56 | Rake 0
+Seat 2: ultraluxe (big blind) collected (56)
+Seat 4: paulns8888 folded before Flop (didn't bet)
+Seat 5: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 6: MaliOdBubanja (small blind) folded before Flop
+
+PokerStars Hand #188547820237: Tournament #2352946465, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:15:49 MSK [2018/07/09 18:15:49 ET]
+Table '2352946465 1' 6-max Seat #6 is the button
+Seat 2: ultraluxe (485 in chips)
+Seat 4: paulns8888 (1382 in chips)
+Seat 5: DiggErr555 (508 in chips)
+Seat 6: MaliOdBubanja (625 in chips)
+ultraluxe: posts the ante 4
+paulns8888: posts the ante 4
+DiggErr555: posts the ante 4
+MaliOdBubanja: posts the ante 4
+ultraluxe: posts small blind 20
+paulns8888: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Jd Ts]
+DiggErr555: folds
+MaliOdBubanja: folds
+ultraluxe: folds
+Uncalled bet (20) returned to paulns8888
+paulns8888 collected 56 from pot
+paulns8888: doesn't show hand
+*** SUMMARY ***
+Total pot 56 | Rake 0
+Seat 2: ultraluxe (small blind) folded before Flop
+Seat 4: paulns8888 (big blind) collected (56)
+Seat 5: DiggErr555 folded before Flop (didn't bet)
+Seat 6: MaliOdBubanja (button) folded before Flop (didn't bet)
+
+PokerStars Hand #188547827809: Tournament #2352946465, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:16:01 MSK [2018/07/09 18:16:01 ET]
+Table '2352946465 1' 6-max Seat #2 is the button
+Seat 2: ultraluxe (461 in chips)
+Seat 4: paulns8888 (1414 in chips)
+Seat 5: DiggErr555 (504 in chips)
+Seat 6: MaliOdBubanja (621 in chips)
+ultraluxe: posts the ante 4
+paulns8888: posts the ante 4
+DiggErr555: posts the ante 4
+MaliOdBubanja: posts the ante 4
+paulns8888: posts small blind 20
+DiggErr555: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6s Td]
+MaliOdBubanja: raises 577 to 617 and is all-in
+ultraluxe: folds
+paulns8888: folds
+DiggErr555: folds
+Uncalled bet (577) returned to MaliOdBubanja
+MaliOdBubanja collected 116 from pot
+*** SUMMARY ***
+Total pot 116 | Rake 0
+Seat 2: ultraluxe (button) folded before Flop (didn't bet)
+Seat 4: paulns8888 (small blind) folded before Flop
+Seat 5: DiggErr555 (big blind) folded before Flop
+Seat 6: MaliOdBubanja collected (116)
+
+PokerStars Hand #188547839520: Tournament #2352946465, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:16:20 MSK [2018/07/09 18:16:20 ET]
+Table '2352946465 1' 6-max Seat #4 is the button
+Seat 2: ultraluxe (457 in chips)
+Seat 4: paulns8888 (1390 in chips)
+Seat 5: DiggErr555 (460 in chips)
+Seat 6: MaliOdBubanja (693 in chips)
+ultraluxe: posts the ante 6
+paulns8888: posts the ante 6
+DiggErr555: posts the ante 6
+MaliOdBubanja: posts the ante 6
+DiggErr555: posts small blind 30
+MaliOdBubanja: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Qc Qs]
+ultraluxe: folds
+paulns8888: folds
+DiggErr555: raises 394 to 454 and is all-in
+MaliOdBubanja: calls 394
+*** FLOP *** [6d Ts 3c]
+*** TURN *** [6d Ts 3c] [Ks]
+*** RIVER *** [6d Ts 3c Ks] [2h]
+*** SHOW DOWN ***
+DiggErr555: shows [Qc Qs] (a pair of Queens)
+MaliOdBubanja: shows [Kc Js] (a pair of Kings)
+MaliOdBubanja collected 932 from pot
+MaliOdBubanja wins the $4.79 bounty for eliminating DiggErr555
+DiggErr555 finished the tournament in 4th place
+*** SUMMARY ***
+Total pot 932 | Rake 0
+Board [6d Ts 3c Ks 2h]
+Seat 2: ultraluxe folded before Flop (didn't bet)
+Seat 4: paulns8888 (button) folded before Flop (didn't bet)
+Seat 5: DiggErr555 (small blind) showed [Qc Qs] and lost with a pair of Queens
+Seat 6: MaliOdBubanja (big blind) showed [Kc Js] and won (932) with a pair of Kings

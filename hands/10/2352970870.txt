@@ -1,0 +1,496 @@
+
+
+PokerStars Hand #188548955224: Tournament #2352970870, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:47:34 MSK [2018/07/09 18:47:34 ET]
+Table '2352970870 1' 6-max Seat #1 is the button
+Seat 1: NL_Classic (500 in chips)
+Seat 2: Ruzako (500 in chips)
+Seat 3: DiggErr555 (500 in chips)
+Seat 4: sega1989 (500 in chips)
+Seat 5: sabuco_2110 (500 in chips)
+Seat 6: FERZ1979 (500 in chips)
+NL_Classic: posts the ante 2
+Ruzako: posts the ante 2
+DiggErr555: posts the ante 2
+sega1989: posts the ante 2
+sabuco_2110: posts the ante 2
+FERZ1979: posts the ante 2
+Ruzako: posts small blind 10
+DiggErr555: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6c Ts]
+sega1989: folds
+sabuco_2110: raises 478 to 498 and is all-in
+FERZ1979: folds
+NL_Classic: folds
+Ruzako: folds
+DiggErr555: folds
+Uncalled bet (478) returned to sabuco_2110
+sabuco_2110 collected 62 from pot
+*** SUMMARY ***
+Total pot 62 | Rake 0
+Seat 1: NL_Classic (button) folded before Flop (didn't bet)
+Seat 2: Ruzako (small blind) folded before Flop
+Seat 3: DiggErr555 (big blind) folded before Flop
+Seat 4: sega1989 folded before Flop (didn't bet)
+Seat 5: sabuco_2110 collected (62)
+Seat 6: FERZ1979 folded before Flop (didn't bet)
+
+PokerStars Hand #188548964139: Tournament #2352970870, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:47:50 MSK [2018/07/09 18:47:50 ET]
+Table '2352970870 1' 6-max Seat #2 is the button
+Seat 1: NL_Classic (498 in chips)
+Seat 2: Ruzako (488 in chips)
+Seat 3: DiggErr555 (478 in chips)
+Seat 4: sega1989 (498 in chips)
+Seat 5: sabuco_2110 (540 in chips)
+Seat 6: FERZ1979 (498 in chips)
+NL_Classic: posts the ante 2
+Ruzako: posts the ante 2
+DiggErr555: posts the ante 2
+sega1989: posts the ante 2
+sabuco_2110: posts the ante 2
+FERZ1979: posts the ante 2
+DiggErr555: posts small blind 10
+sega1989: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Jh 2h]
+sabuco_2110: raises 518 to 538 and is all-in
+FERZ1979: folds
+NL_Classic: folds
+Ruzako: folds
+DiggErr555: folds
+sega1989: calls 476 and is all-in
+Uncalled bet (42) returned to sabuco_2110
+*** FLOP *** [5s 9d Ac]
+*** TURN *** [5s 9d Ac] [4h]
+*** RIVER *** [5s 9d Ac 4h] [Qd]
+*** SHOW DOWN ***
+sega1989: shows [As Qc] (two pair, Aces and Queens)
+sabuco_2110: shows [Ks Ad] (a pair of Aces)
+sega1989 collected 1014 from pot
+*** SUMMARY ***
+Total pot 1014 | Rake 0
+Board [5s 9d Ac 4h Qd]
+Seat 1: NL_Classic folded before Flop (didn't bet)
+Seat 2: Ruzako (button) folded before Flop (didn't bet)
+Seat 3: DiggErr555 (small blind) folded before Flop
+Seat 4: sega1989 (big blind) showed [As Qc] and won (1014) with two pair, Aces and Queens
+Seat 5: sabuco_2110 showed [Ks Ad] and lost with a pair of Aces
+Seat 6: FERZ1979 folded before Flop (didn't bet)
+
+PokerStars Hand #188548974482: Tournament #2352970870, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:48:08 MSK [2018/07/09 18:48:08 ET]
+Table '2352970870 1' 6-max Seat #3 is the button
+Seat 1: NL_Classic (496 in chips)
+Seat 2: Ruzako (486 in chips)
+Seat 3: DiggErr555 (466 in chips)
+Seat 4: sega1989 (1014 in chips)
+Seat 5: sabuco_2110 (42 in chips)
+Seat 6: FERZ1979 (496 in chips)
+NL_Classic: posts the ante 2
+Ruzako: posts the ante 2
+DiggErr555: posts the ante 2
+sega1989: posts the ante 2
+sabuco_2110: posts the ante 2
+FERZ1979: posts the ante 2
+sega1989: posts small blind 10
+sabuco_2110: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6h 2h]
+FERZ1979: calls 20
+NL_Classic: folds
+Ruzako: folds
+DiggErr555: folds
+sega1989: raises 992 to 1012 and is all-in
+sabuco_2110: calls 20 and is all-in
+FERZ1979: folds
+Uncalled bet (972) returned to sega1989
+*** FLOP *** [6d 8d Th]
+*** TURN *** [6d 8d Th] [9s]
+*** RIVER *** [6d 8d Th 9s] [9h]
+*** SHOW DOWN ***
+sega1989: shows [As 4d] (a pair of Nines)
+sabuco_2110: shows [Kc Ad] (a pair of Nines - Ace+King kicker)
+sabuco_2110 collected 112 from pot
+*** SUMMARY ***
+Total pot 112 | Rake 0
+Board [6d 8d Th 9s 9h]
+Seat 1: NL_Classic folded before Flop (didn't bet)
+Seat 2: Ruzako folded before Flop (didn't bet)
+Seat 3: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 4: sega1989 (small blind) showed [As 4d] and lost with a pair of Nines
+Seat 5: sabuco_2110 (big blind) showed [Kc Ad] and won (112) with a pair of Nines
+Seat 6: FERZ1979 folded before Flop
+
+PokerStars Hand #188548994184: Tournament #2352970870, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:48:43 MSK [2018/07/09 18:48:43 ET]
+Table '2352970870 1' 6-max Seat #4 is the button
+Seat 1: NL_Classic (494 in chips)
+Seat 2: Ruzako (484 in chips)
+Seat 3: DiggErr555 (464 in chips)
+Seat 4: sega1989 (972 in chips)
+Seat 5: sabuco_2110 (112 in chips)
+Seat 6: FERZ1979 (474 in chips)
+NL_Classic: posts the ante 3
+Ruzako: posts the ante 3
+DiggErr555: posts the ante 3
+sega1989: posts the ante 3
+sabuco_2110: posts the ante 3
+FERZ1979: posts the ante 3
+sabuco_2110: posts small blind 15
+FERZ1979: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [5h Js]
+NL_Classic: folds
+Ruzako: folds
+DiggErr555: folds
+sega1989: raises 939 to 969 and is all-in
+sabuco_2110: calls 94 and is all-in
+FERZ1979: folds
+Uncalled bet (860) returned to sega1989
+*** FLOP *** [Ad 9d 6c]
+*** TURN *** [Ad 9d 6c] [Qc]
+*** RIVER *** [Ad 9d 6c Qc] [8c]
+*** SHOW DOWN ***
+sabuco_2110: shows [Qd 6s] (two pair, Queens and Sixes)
+sega1989: shows [Qs 9c] (two pair, Queens and Nines)
+sega1989 collected 266 from pot
+sega1989 wins the $12.01 bounty for eliminating sabuco_2110
+sabuco_2110 finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 266 | Rake 0
+Board [Ad 9d 6c Qc 8c]
+Seat 1: NL_Classic folded before Flop (didn't bet)
+Seat 2: Ruzako folded before Flop (didn't bet)
+Seat 3: DiggErr555 folded before Flop (didn't bet)
+Seat 4: sega1989 (button) showed [Qs 9c] and won (266) with two pair, Queens and Nines
+Seat 5: sabuco_2110 (small blind) showed [Qd 6s] and lost with two pair, Queens and Sixes
+Seat 6: FERZ1979 (big blind) folded before Flop
+
+PokerStars Hand #188549006367: Tournament #2352970870, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:49:04 MSK [2018/07/09 18:49:04 ET]
+Table '2352970870 1' 6-max Seat #6 is the button
+Seat 1: NL_Classic (491 in chips)
+Seat 2: Ruzako (481 in chips)
+Seat 3: DiggErr555 (461 in chips)
+Seat 4: sega1989 (1126 in chips)
+Seat 6: FERZ1979 (441 in chips)
+NL_Classic: posts the ante 3
+Ruzako: posts the ante 3
+DiggErr555: posts the ante 3
+sega1989: posts the ante 3
+FERZ1979: posts the ante 3
+NL_Classic: posts small blind 15
+Ruzako: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [8c 5s]
+DiggErr555: folds
+sega1989: raises 30 to 60
+FERZ1979: folds
+NL_Classic: folds
+Ruzako: calls 30
+*** FLOP *** [Td 3s 2c]
+Ruzako: checks
+sega1989: checks
+*** TURN *** [Td 3s 2c] [7s]
+Ruzako: bets 418 and is all-in
+sega1989: folds
+Uncalled bet (418) returned to Ruzako
+Ruzako collected 150 from pot
+Ruzako: doesn't show hand
+*** SUMMARY ***
+Total pot 150 | Rake 0
+Board [Td 3s 2c 7s]
+Seat 1: NL_Classic (small blind) folded before Flop
+Seat 2: Ruzako (big blind) collected (150)
+Seat 3: DiggErr555 folded before Flop (didn't bet)
+Seat 4: sega1989 folded on the Turn
+Seat 6: FERZ1979 (button) folded before Flop (didn't bet)
+
+PokerStars Hand #188549031412: Tournament #2352970870, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:49:49 MSK [2018/07/09 18:49:49 ET]
+Table '2352970870 1' 6-max Seat #1 is the button
+Seat 1: NL_Classic (473 in chips)
+Seat 2: Ruzako (568 in chips)
+Seat 3: DiggErr555 (458 in chips)
+Seat 4: sega1989 (1063 in chips)
+Seat 6: FERZ1979 (438 in chips)
+NL_Classic: posts the ante 3
+Ruzako: posts the ante 3
+DiggErr555: posts the ante 3
+sega1989: posts the ante 3
+FERZ1979: posts the ante 3
+Ruzako: posts small blind 15
+DiggErr555: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [5s 9c]
+sega1989: folds
+FERZ1979: calls 30
+NL_Classic: folds
+Ruzako: folds
+DiggErr555: checks
+*** FLOP *** [Kd Ts Th]
+DiggErr555: checks
+FERZ1979: checks
+*** TURN *** [Kd Ts Th] [Ac]
+DiggErr555: checks
+FERZ1979: checks
+*** RIVER *** [Kd Ts Th Ac] [Jh]
+DiggErr555: bets 43
+FERZ1979: raises 362 to 405 and is all-in
+DiggErr555: folds
+Uncalled bet (362) returned to FERZ1979
+FERZ1979 collected 176 from pot
+FERZ1979: doesn't show hand
+*** SUMMARY ***
+Total pot 176 | Rake 0
+Board [Kd Ts Th Ac Jh]
+Seat 1: NL_Classic (button) folded before Flop (didn't bet)
+Seat 2: Ruzako (small blind) folded before Flop
+Seat 3: DiggErr555 (big blind) folded on the River
+Seat 4: sega1989 folded before Flop (didn't bet)
+Seat 6: FERZ1979 collected (176)
+
+PokerStars Hand #188549053845: Tournament #2352970870, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:50:29 MSK [2018/07/09 18:50:29 ET]
+Table '2352970870 1' 6-max Seat #2 is the button
+Seat 1: NL_Classic (470 in chips)
+Seat 2: Ruzako (550 in chips)
+Seat 3: DiggErr555 (382 in chips)
+Seat 4: sega1989 (1060 in chips)
+Seat 6: FERZ1979 (538 in chips)
+NL_Classic: posts the ante 3
+Ruzako: posts the ante 3
+DiggErr555: posts the ante 3
+sega1989: posts the ante 3
+FERZ1979: posts the ante 3
+DiggErr555: posts small blind 15
+sega1989: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Th 8c]
+FERZ1979: folds
+NL_Classic: folds
+Ruzako: folds
+DiggErr555: folds
+Uncalled bet (15) returned to sega1989
+sega1989 collected 45 from pot
+sega1989: doesn't show hand
+*** SUMMARY ***
+Total pot 45 | Rake 0
+Seat 1: NL_Classic folded before Flop (didn't bet)
+Seat 2: Ruzako (button) folded before Flop (didn't bet)
+Seat 3: DiggErr555 (small blind) folded before Flop
+Seat 4: sega1989 (big blind) collected (45)
+Seat 6: FERZ1979 folded before Flop (didn't bet)
+
+PokerStars Hand #188549068215: Tournament #2352970870, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:50:54 MSK [2018/07/09 18:50:54 ET]
+Table '2352970870 1' 6-max Seat #3 is the button
+Seat 1: NL_Classic (467 in chips)
+Seat 2: Ruzako (547 in chips)
+Seat 3: DiggErr555 (364 in chips)
+Seat 4: sega1989 (1087 in chips)
+Seat 6: FERZ1979 (535 in chips)
+NL_Classic: posts the ante 4
+Ruzako: posts the ante 4
+DiggErr555: posts the ante 4
+sega1989: posts the ante 4
+FERZ1979: posts the ante 4
+sega1989: posts small blind 20
+FERZ1979: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [9d 6d]
+NL_Classic: folds
+Ruzako: folds
+DiggErr555: folds
+sega1989: folds
+Uncalled bet (20) returned to FERZ1979
+FERZ1979 collected 60 from pot
+FERZ1979: doesn't show hand
+*** SUMMARY ***
+Total pot 60 | Rake 0
+Seat 1: NL_Classic folded before Flop (didn't bet)
+Seat 2: Ruzako folded before Flop (didn't bet)
+Seat 3: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 4: sega1989 (small blind) folded before Flop
+Seat 6: FERZ1979 (big blind) collected (60)
+
+PokerStars Hand #188549077947: Tournament #2352970870, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:51:12 MSK [2018/07/09 18:51:12 ET]
+Table '2352970870 1' 6-max Seat #4 is the button
+Seat 1: NL_Classic (463 in chips)
+Seat 2: Ruzako (543 in chips)
+Seat 3: DiggErr555 (360 in chips)
+Seat 4: sega1989 (1063 in chips)
+Seat 6: FERZ1979 (571 in chips)
+NL_Classic: posts the ante 4
+Ruzako: posts the ante 4
+DiggErr555: posts the ante 4
+sega1989: posts the ante 4
+FERZ1979: posts the ante 4
+FERZ1979: posts small blind 20
+NL_Classic: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [8d 5c]
+Ruzako: raises 499 to 539 and is all-in
+DiggErr555: folds
+sega1989: folds
+FERZ1979: folds
+NL_Classic: folds
+Uncalled bet (499) returned to Ruzako
+Ruzako collected 120 from pot
+Ruzako: doesn't show hand
+*** SUMMARY ***
+Total pot 120 | Rake 0
+Seat 1: NL_Classic (big blind) folded before Flop
+Seat 2: Ruzako collected (120)
+Seat 3: DiggErr555 folded before Flop (didn't bet)
+Seat 4: sega1989 (button) folded before Flop (didn't bet)
+Seat 6: FERZ1979 (small blind) folded before Flop
+
+PokerStars Hand #188549092570: Tournament #2352970870, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:51:24 MSK [2018/07/09 18:51:24 ET]
+Table '2352970870 1' 6-max Seat #6 is the button
+Seat 1: NL_Classic (419 in chips)
+Seat 2: Ruzako (619 in chips)
+Seat 3: DiggErr555 (356 in chips)
+Seat 4: sega1989 (1059 in chips)
+Seat 6: FERZ1979 (547 in chips)
+NL_Classic: posts the ante 4
+Ruzako: posts the ante 4
+DiggErr555: posts the ante 4
+sega1989: posts the ante 4
+FERZ1979: posts the ante 4
+NL_Classic: posts small blind 20
+Ruzako: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Th 6c]
+DiggErr555: folds
+sega1989: raises 1015 to 1055 and is all-in
+FERZ1979: folds
+NL_Classic: folds
+Ruzako: calls 575 and is all-in
+Uncalled bet (440) returned to sega1989
+*** FLOP *** [2h 3c 9s]
+*** TURN *** [2h 3c 9s] [9d]
+*** RIVER *** [2h 3c 9s 9d] [Qh]
+*** SHOW DOWN ***
+Ruzako: shows [Js Qs] (two pair, Queens and Nines)
+sega1989: shows [7d 5d] (a pair of Nines)
+Ruzako collected 1270 from pot
+*** SUMMARY ***
+Total pot 1270 | Rake 0
+Board [2h 3c 9s 9d Qh]
+Seat 1: NL_Classic (small blind) folded before Flop
+Seat 2: Ruzako (big blind) showed [Js Qs] and won (1270) with two pair, Queens and Nines
+Seat 3: DiggErr555 folded before Flop (didn't bet)
+Seat 4: sega1989 showed [7d 5d] and lost with a pair of Nines
+Seat 6: FERZ1979 (button) folded before Flop (didn't bet)
+
+PokerStars Hand #188549107247: Tournament #2352970870, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:51:50 MSK [2018/07/09 18:51:50 ET]
+Table '2352970870 1' 6-max Seat #1 is the button
+Seat 1: NL_Classic (395 in chips)
+Seat 2: Ruzako (1270 in chips)
+Seat 3: DiggErr555 (352 in chips)
+Seat 4: sega1989 (440 in chips)
+Seat 6: FERZ1979 (543 in chips)
+NL_Classic: posts the ante 4
+Ruzako: posts the ante 4
+DiggErr555: posts the ante 4
+sega1989: posts the ante 4
+FERZ1979: posts the ante 4
+Ruzako: posts small blind 20
+DiggErr555: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [9d Tc]
+sega1989: folds
+FERZ1979: folds
+NL_Classic: raises 351 to 391 and is all-in
+Ruzako: raises 875 to 1266 and is all-in
+DiggErr555: folds
+Uncalled bet (875) returned to Ruzako
+*** FLOP *** [Qs 5s Qh]
+*** TURN *** [Qs 5s Qh] [8h]
+*** RIVER *** [Qs 5s Qh 8h] [Kc]
+*** SHOW DOWN ***
+Ruzako: shows [Td Jd] (a pair of Queens)
+NL_Classic: shows [Ad Qc] (three of a kind, Queens)
+NL_Classic collected 842 from pot
+*** SUMMARY ***
+Total pot 842 | Rake 0
+Board [Qs 5s Qh 8h Kc]
+Seat 1: NL_Classic (button) showed [Ad Qc] and won (842) with three of a kind, Queens
+Seat 2: Ruzako (small blind) showed [Td Jd] and lost with a pair of Queens
+Seat 3: DiggErr555 (big blind) folded before Flop
+Seat 4: sega1989 folded before Flop (didn't bet)
+Seat 6: FERZ1979 folded before Flop (didn't bet)
+
+PokerStars Hand #188549130686: Tournament #2352970870, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:52:33 MSK [2018/07/09 18:52:33 ET]
+Table '2352970870 1' 6-max Seat #2 is the button
+Seat 1: NL_Classic (842 in chips)
+Seat 2: Ruzako (875 in chips)
+Seat 3: DiggErr555 (308 in chips)
+Seat 4: sega1989 (436 in chips)
+Seat 6: FERZ1979 (539 in chips)
+NL_Classic: posts the ante 6
+Ruzako: posts the ante 6
+DiggErr555: posts the ante 6
+sega1989: posts the ante 6
+FERZ1979: posts the ante 6
+DiggErr555: posts small blind 30
+sega1989: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [3d Ah]
+FERZ1979: folds
+NL_Classic: raises 776 to 836 and is all-in
+Ruzako: raises 33 to 869 and is all-in
+DiggErr555: folds
+sega1989: folds
+Uncalled bet (33) returned to Ruzako
+*** FLOP *** [9h 4d Th]
+*** TURN *** [9h 4d Th] [Jd]
+*** RIVER *** [9h 4d Th Jd] [8c]
+*** SHOW DOWN ***
+NL_Classic: shows [Tc As] (a pair of Tens)
+Ruzako: shows [Js Kd] (a pair of Jacks)
+Ruzako collected 1792 from pot
+Ruzako wins the $12.01 bounty for eliminating NL_Classic
+NL_Classic finished the tournament in 5th place
+*** SUMMARY ***
+Total pot 1792 | Rake 0
+Board [9h 4d Th Jd 8c]
+Seat 1: NL_Classic showed [Tc As] and lost with a pair of Tens
+Seat 2: Ruzako (button) showed [Js Kd] and won (1792) with a pair of Jacks
+Seat 3: DiggErr555 (small blind) folded before Flop
+Seat 4: sega1989 (big blind) folded before Flop
+Seat 6: FERZ1979 folded before Flop (didn't bet)
+
+PokerStars Hand #188549149534: Tournament #2352970870, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:53:07 MSK [2018/07/09 18:53:07 ET]
+Table '2352970870 1' 6-max Seat #3 is the button
+Seat 2: Ruzako (1825 in chips)
+Seat 3: DiggErr555 (272 in chips)
+Seat 4: sega1989 (370 in chips)
+Seat 6: FERZ1979 (533 in chips)
+Ruzako: posts the ante 6
+DiggErr555: posts the ante 6
+sega1989: posts the ante 6
+FERZ1979: posts the ante 6
+sega1989: posts small blind 30
+FERZ1979: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [3d Ah]
+Ruzako: folds
+DiggErr555: raises 206 to 266 and is all-in
+sega1989: raises 98 to 364 and is all-in
+FERZ1979: calls 304
+*** FLOP *** [Js 9h 7c]
+*** TURN *** [Js 9h 7c] [9d]
+*** RIVER *** [Js 9h 7c 9d] [Qh]
+*** SHOW DOWN ***
+sega1989: shows [Kd 8s] (a pair of Nines)
+FERZ1979: shows [8c 7h] (two pair, Nines and Sevens)
+FERZ1979 collected 196 from side pot
+DiggErr555: shows [3d Ah] (a pair of Nines)
+FERZ1979 collected 822 from main pot
+FERZ1979 wins the $12.01 bounty for eliminating DiggErr555
+FERZ1979 wins the $12.01 bounty for eliminating sega1989
+sega1989 finished the tournament in 3rd place
+DiggErr555 finished the tournament in 4th place
+*** SUMMARY ***
+Total pot 1018 Main pot 822. Side pot 196. | Rake 0
+Board [Js 9h 7c 9d Qh]
+Seat 2: Ruzako folded before Flop (didn't bet)
+Seat 3: DiggErr555 (button) showed [3d Ah] and lost with a pair of Nines
+Seat 4: sega1989 (small blind) showed [Kd 8s] and lost with a pair of Nines
+Seat 6: FERZ1979 (big blind) showed [8c 7h] and won (1018) with two pair, Nines and Sevens

@@ -1,0 +1,785 @@
+
+
+PokerStars Hand #188547081722: Tournament #2352932788, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 0:55:58 MSK [2018/07/09 17:55:58 ET]
+Table '2352932788 1' 6-max Seat #1 is the button
+Seat 1: anomer13 (500 in chips)
+Seat 2: Dkquality (500 in chips)
+Seat 3: jacobarni (500 in chips)
+Seat 4: DiggErr555 (500 in chips)
+Seat 5: Lexuzz9 (500 in chips)
+Seat 6: Claudios122 (500 in chips)
+anomer13: posts the ante 2
+Dkquality: posts the ante 2
+jacobarni: posts the ante 2
+DiggErr555: posts the ante 2
+Lexuzz9: posts the ante 2
+Claudios122: posts the ante 2
+Dkquality: posts small blind 10
+jacobarni: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Th 3h]
+DiggErr555: folds
+Lexuzz9: raises 20 to 40
+Claudios122: folds
+anomer13: folds
+Dkquality: calls 30
+jacobarni: folds
+*** FLOP *** [Jc 7d Tc]
+Dkquality: checks
+Lexuzz9: bets 40
+Dkquality: folds
+Uncalled bet (40) returned to Lexuzz9
+Lexuzz9 collected 112 from pot
+Lexuzz9: doesn't show hand
+*** SUMMARY ***
+Total pot 112 | Rake 0
+Board [Jc 7d Tc]
+Seat 1: anomer13 (button) folded before Flop (didn't bet)
+Seat 2: Dkquality (small blind) folded on the Flop
+Seat 3: jacobarni (big blind) folded before Flop
+Seat 4: DiggErr555 folded before Flop (didn't bet)
+Seat 5: Lexuzz9 collected (112)
+Seat 6: Claudios122 folded before Flop (didn't bet)
+
+PokerStars Hand #188547102094: Tournament #2352932788, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 0:56:35 MSK [2018/07/09 17:56:35 ET]
+Table '2352932788 1' 6-max Seat #2 is the button
+Seat 1: anomer13 (498 in chips)
+Seat 2: Dkquality (458 in chips)
+Seat 3: jacobarni (478 in chips)
+Seat 4: DiggErr555 (498 in chips)
+Seat 5: Lexuzz9 (570 in chips)
+Seat 6: Claudios122 (498 in chips)
+anomer13: posts the ante 2
+Dkquality: posts the ante 2
+jacobarni: posts the ante 2
+DiggErr555: posts the ante 2
+Lexuzz9: posts the ante 2
+Claudios122: posts the ante 2
+jacobarni: posts small blind 10
+DiggErr555: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Kc 3h]
+Lexuzz9: raises 20 to 40
+Claudios122: folds
+anomer13: calls 40
+Dkquality: folds
+jacobarni: folds
+DiggErr555: folds
+*** FLOP *** [Qc Ah 4d]
+Lexuzz9: checks
+anomer13: bets 45
+Lexuzz9: folds
+Uncalled bet (45) returned to anomer13
+anomer13 collected 122 from pot
+anomer13: doesn't show hand
+*** SUMMARY ***
+Total pot 122 | Rake 0
+Board [Qc Ah 4d]
+Seat 1: anomer13 collected (122)
+Seat 2: Dkquality (button) folded before Flop (didn't bet)
+Seat 3: jacobarni (small blind) folded before Flop
+Seat 4: DiggErr555 (big blind) folded before Flop
+Seat 5: Lexuzz9 folded on the Flop
+Seat 6: Claudios122 folded before Flop (didn't bet)
+
+PokerStars Hand #188547122762: Tournament #2352932788, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 0:57:13 MSK [2018/07/09 17:57:13 ET]
+Table '2352932788 1' 6-max Seat #3 is the button
+Seat 1: anomer13 (578 in chips)
+Seat 2: Dkquality (456 in chips)
+Seat 3: jacobarni (466 in chips)
+Seat 4: DiggErr555 (476 in chips)
+Seat 5: Lexuzz9 (528 in chips)
+Seat 6: Claudios122 (496 in chips)
+anomer13: posts the ante 2
+Dkquality: posts the ante 2
+jacobarni: posts the ante 2
+DiggErr555: posts the ante 2
+Lexuzz9: posts the ante 2
+Claudios122: posts the ante 2
+DiggErr555: posts small blind 10
+Lexuzz9: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Ad 9h]
+Claudios122: folds
+anomer13: folds
+Dkquality: raises 62 to 82
+jacobarni: folds
+DiggErr555: folds
+Lexuzz9: folds
+Uncalled bet (62) returned to Dkquality
+Dkquality collected 62 from pot
+*** SUMMARY ***
+Total pot 62 | Rake 0
+Seat 1: anomer13 folded before Flop (didn't bet)
+Seat 2: Dkquality collected (62)
+Seat 3: jacobarni (button) folded before Flop (didn't bet)
+Seat 4: DiggErr555 (small blind) folded before Flop
+Seat 5: Lexuzz9 (big blind) folded before Flop
+Seat 6: Claudios122 folded before Flop (didn't bet)
+
+PokerStars Hand #188547135188: Tournament #2352932788, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 0:57:35 MSK [2018/07/09 17:57:35 ET]
+Table '2352932788 1' 6-max Seat #4 is the button
+Seat 1: anomer13 (576 in chips)
+Seat 2: Dkquality (496 in chips)
+Seat 3: jacobarni (464 in chips)
+Seat 4: DiggErr555 (464 in chips)
+Seat 5: Lexuzz9 (506 in chips)
+Seat 6: Claudios122 (494 in chips)
+anomer13: posts the ante 3
+Dkquality: posts the ante 3
+jacobarni: posts the ante 3
+DiggErr555: posts the ante 3
+Lexuzz9: posts the ante 3
+Claudios122: posts the ante 3
+Lexuzz9: posts small blind 15
+Claudios122: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [8h 6d]
+anomer13: folds
+Dkquality: folds
+jacobarni: folds
+DiggErr555: folds
+Lexuzz9: raises 30 to 60
+Claudios122: folds
+Uncalled bet (30) returned to Lexuzz9
+Lexuzz9 collected 78 from pot
+Lexuzz9: doesn't show hand
+*** SUMMARY ***
+Total pot 78 | Rake 0
+Seat 1: anomer13 folded before Flop (didn't bet)
+Seat 2: Dkquality folded before Flop (didn't bet)
+Seat 3: jacobarni folded before Flop (didn't bet)
+Seat 4: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 5: Lexuzz9 (small blind) collected (78)
+Seat 6: Claudios122 (big blind) folded before Flop
+
+PokerStars Hand #188547142477: Tournament #2352932788, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 0:57:49 MSK [2018/07/09 17:57:49 ET]
+Table '2352932788 1' 6-max Seat #5 is the button
+Seat 1: anomer13 (573 in chips)
+Seat 2: Dkquality (493 in chips)
+Seat 3: jacobarni (461 in chips)
+Seat 4: DiggErr555 (461 in chips)
+Seat 5: Lexuzz9 (551 in chips)
+Seat 6: Claudios122 (461 in chips)
+anomer13: posts the ante 3
+Dkquality: posts the ante 3
+jacobarni: posts the ante 3
+DiggErr555: posts the ante 3
+Lexuzz9: posts the ante 3
+Claudios122: posts the ante 3
+Claudios122: posts small blind 15
+anomer13: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Js Ts]
+Dkquality: folds
+jacobarni: raises 30 to 60
+DiggErr555: folds
+Lexuzz9: folds
+Claudios122: folds
+anomer13: folds
+Uncalled bet (30) returned to jacobarni
+jacobarni collected 93 from pot
+jacobarni: doesn't show hand
+*** SUMMARY ***
+Total pot 93 | Rake 0
+Seat 1: anomer13 (big blind) folded before Flop
+Seat 2: Dkquality folded before Flop (didn't bet)
+Seat 3: jacobarni collected (93)
+Seat 4: DiggErr555 folded before Flop (didn't bet)
+Seat 5: Lexuzz9 (button) folded before Flop (didn't bet)
+Seat 6: Claudios122 (small blind) folded before Flop
+
+PokerStars Hand #188547152711: Tournament #2352932788, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 0:58:08 MSK [2018/07/09 17:58:08 ET]
+Table '2352932788 1' 6-max Seat #6 is the button
+Seat 1: anomer13 (540 in chips)
+Seat 2: Dkquality (490 in chips)
+Seat 3: jacobarni (521 in chips)
+Seat 4: DiggErr555 (458 in chips)
+Seat 5: Lexuzz9 (548 in chips)
+Seat 6: Claudios122 (443 in chips)
+anomer13: posts the ante 3
+Dkquality: posts the ante 3
+jacobarni: posts the ante 3
+DiggErr555: posts the ante 3
+Lexuzz9: posts the ante 3
+Claudios122: posts the ante 3
+anomer13: posts small blind 15
+Dkquality: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [3h Qs]
+jacobarni: folds
+DiggErr555: folds
+Lexuzz9: raises 30 to 60
+Claudios122: folds
+anomer13: folds
+Dkquality: folds
+Uncalled bet (30) returned to Lexuzz9
+Lexuzz9 collected 93 from pot
+Lexuzz9: doesn't show hand
+*** SUMMARY ***
+Total pot 93 | Rake 0
+Seat 1: anomer13 (small blind) folded before Flop
+Seat 2: Dkquality (big blind) folded before Flop
+Seat 3: jacobarni folded before Flop (didn't bet)
+Seat 4: DiggErr555 folded before Flop (didn't bet)
+Seat 5: Lexuzz9 collected (93)
+Seat 6: Claudios122 (button) folded before Flop (didn't bet)
+
+PokerStars Hand #188547164005: Tournament #2352932788, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 0:58:28 MSK [2018/07/09 17:58:28 ET]
+Table '2352932788 1' 6-max Seat #1 is the button
+Seat 1: anomer13 (522 in chips)
+Seat 2: Dkquality (457 in chips)
+Seat 3: jacobarni (518 in chips)
+Seat 4: DiggErr555 (455 in chips)
+Seat 5: Lexuzz9 (608 in chips)
+Seat 6: Claudios122 (440 in chips)
+anomer13: posts the ante 3
+Dkquality: posts the ante 3
+jacobarni: posts the ante 3
+DiggErr555: posts the ante 3
+Lexuzz9: posts the ante 3
+Claudios122: posts the ante 3
+Dkquality: posts small blind 15
+jacobarni: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [4s 6d]
+DiggErr555: folds
+Lexuzz9: folds
+Claudios122: folds
+anomer13: folds
+Dkquality: calls 15
+jacobarni: raises 60 to 90
+Dkquality: calls 60
+*** FLOP *** [6c 8h 9d]
+Dkquality: checks
+jacobarni: bets 60
+Dkquality: calls 60
+*** TURN *** [6c 8h 9d] [Ad]
+Dkquality: bets 304 and is all-in
+jacobarni: folds
+Uncalled bet (304) returned to Dkquality
+Dkquality collected 318 from pot
+*** SUMMARY ***
+Total pot 318 | Rake 0
+Board [6c 8h 9d Ad]
+Seat 1: anomer13 (button) folded before Flop (didn't bet)
+Seat 2: Dkquality (small blind) collected (318)
+Seat 3: jacobarni (big blind) folded on the Turn
+Seat 4: DiggErr555 folded before Flop (didn't bet)
+Seat 5: Lexuzz9 folded before Flop (didn't bet)
+Seat 6: Claudios122 folded before Flop (didn't bet)
+
+PokerStars Hand #188547189383: Tournament #2352932788, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 0:59:15 MSK [2018/07/09 17:59:15 ET]
+Table '2352932788 1' 6-max Seat #2 is the button
+Seat 1: anomer13 (519 in chips)
+Seat 2: Dkquality (622 in chips)
+Seat 3: jacobarni (365 in chips)
+Seat 4: DiggErr555 (452 in chips)
+Seat 5: Lexuzz9 (605 in chips)
+Seat 6: Claudios122 (437 in chips)
+anomer13: posts the ante 4
+Dkquality: posts the ante 4
+jacobarni: posts the ante 4
+DiggErr555: posts the ante 4
+Lexuzz9: posts the ante 4
+Claudios122: posts the ante 4
+jacobarni: posts small blind 20
+DiggErr555: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [3s Kd]
+Lexuzz9: raises 40 to 80
+Claudios122: folds
+anomer13: folds
+Dkquality: folds
+jacobarni: folds
+DiggErr555: folds
+Uncalled bet (40) returned to Lexuzz9
+Lexuzz9 collected 124 from pot
+Lexuzz9: doesn't show hand
+*** SUMMARY ***
+Total pot 124 | Rake 0
+Seat 1: anomer13 folded before Flop (didn't bet)
+Seat 2: Dkquality (button) folded before Flop (didn't bet)
+Seat 3: jacobarni (small blind) folded before Flop
+Seat 4: DiggErr555 (big blind) folded before Flop
+Seat 5: Lexuzz9 collected (124)
+Seat 6: Claudios122 folded before Flop (didn't bet)
+
+PokerStars Hand #188547199002: Tournament #2352932788, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 0:59:33 MSK [2018/07/09 17:59:33 ET]
+Table '2352932788 1' 6-max Seat #3 is the button
+Seat 1: anomer13 (515 in chips)
+Seat 2: Dkquality (618 in chips)
+Seat 3: jacobarni (341 in chips)
+Seat 4: DiggErr555 (408 in chips)
+Seat 5: Lexuzz9 (685 in chips)
+Seat 6: Claudios122 (433 in chips)
+anomer13: posts the ante 4
+Dkquality: posts the ante 4
+jacobarni: posts the ante 4
+DiggErr555: posts the ante 4
+Lexuzz9: posts the ante 4
+Claudios122: posts the ante 4
+DiggErr555: posts small blind 20
+Lexuzz9: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [5d Js]
+Claudios122: folds
+anomer13: folds
+Dkquality: folds
+jacobarni: folds
+DiggErr555: folds
+Uncalled bet (20) returned to Lexuzz9
+Lexuzz9 collected 64 from pot
+Lexuzz9: doesn't show hand
+*** SUMMARY ***
+Total pot 64 | Rake 0
+Seat 1: anomer13 folded before Flop (didn't bet)
+Seat 2: Dkquality folded before Flop (didn't bet)
+Seat 3: jacobarni (button) folded before Flop (didn't bet)
+Seat 4: DiggErr555 (small blind) folded before Flop
+Seat 5: Lexuzz9 (big blind) collected (64)
+Seat 6: Claudios122 folded before Flop (didn't bet)
+
+PokerStars Hand #188547206624: Tournament #2352932788, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 0:59:46 MSK [2018/07/09 17:59:46 ET]
+Table '2352932788 1' 6-max Seat #4 is the button
+Seat 1: anomer13 (511 in chips)
+Seat 2: Dkquality (614 in chips)
+Seat 3: jacobarni (337 in chips)
+Seat 4: DiggErr555 (384 in chips)
+Seat 5: Lexuzz9 (725 in chips)
+Seat 6: Claudios122 (429 in chips)
+anomer13: posts the ante 4
+Dkquality: posts the ante 4
+jacobarni: posts the ante 4
+DiggErr555: posts the ante 4
+Lexuzz9: posts the ante 4
+Claudios122: posts the ante 4
+Lexuzz9: posts small blind 20
+Claudios122: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [8d 7d]
+anomer13: folds
+Dkquality: folds
+jacobarni: folds
+DiggErr555: folds
+Lexuzz9: calls 20
+Claudios122: checks
+*** FLOP *** [6h 6s 4h]
+Lexuzz9: bets 40
+Claudios122: folds
+Uncalled bet (40) returned to Lexuzz9
+Lexuzz9 collected 104 from pot
+Lexuzz9: doesn't show hand
+*** SUMMARY ***
+Total pot 104 | Rake 0
+Board [6h 6s 4h]
+Seat 1: anomer13 folded before Flop (didn't bet)
+Seat 2: Dkquality folded before Flop (didn't bet)
+Seat 3: jacobarni folded before Flop (didn't bet)
+Seat 4: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 5: Lexuzz9 (small blind) collected (104)
+Seat 6: Claudios122 (big blind) folded on the Flop
+
+PokerStars Hand #188547235790: Tournament #2352932788, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:00:39 MSK [2018/07/09 18:00:39 ET]
+Table '2352932788 1' 6-max Seat #5 is the button
+Seat 1: anomer13 (507 in chips)
+Seat 2: Dkquality (610 in chips)
+Seat 3: jacobarni (333 in chips)
+Seat 4: DiggErr555 (380 in chips)
+Seat 5: Lexuzz9 (785 in chips)
+Seat 6: Claudios122 (385 in chips)
+anomer13: posts the ante 4
+Dkquality: posts the ante 4
+jacobarni: posts the ante 4
+DiggErr555: posts the ante 4
+Lexuzz9: posts the ante 4
+Claudios122: posts the ante 4
+Claudios122: posts small blind 20
+anomer13: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [3c Qs]
+Dkquality: raises 124 to 164
+jacobarni: raises 165 to 329 and is all-in
+DiggErr555: folds
+Lexuzz9: folds
+Claudios122: raises 52 to 381 and is all-in
+anomer13: folds
+Dkquality: calls 217
+*** FLOP *** [9s Jh 5d]
+*** TURN *** [9s Jh 5d] [8h]
+*** RIVER *** [9s Jh 5d 8h] [Kd]
+*** SHOW DOWN ***
+Claudios122: shows [9d Qh] (a pair of Nines)
+Dkquality: shows [Ad 6c] (high card Ace)
+Claudios122 collected 104 from side pot
+jacobarni: shows [Jd Kc] (two pair, Kings and Jacks)
+jacobarni collected 1051 from main pot
+*** SUMMARY ***
+Total pot 1155 Main pot 1051. Side pot 104. | Rake 0
+Board [9s Jh 5d 8h Kd]
+Seat 1: anomer13 (big blind) folded before Flop
+Seat 2: Dkquality showed [Ad 6c] and lost with high card Ace
+Seat 3: jacobarni showed [Jd Kc] and won (1051) with two pair, Kings and Jacks
+Seat 4: DiggErr555 folded before Flop (didn't bet)
+Seat 5: Lexuzz9 (button) folded before Flop (didn't bet)
+Seat 6: Claudios122 (small blind) showed [9d Qh] and won (104) with a pair of Nines
+
+PokerStars Hand #188547258011: Tournament #2352932788, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:01:15 MSK [2018/07/09 18:01:15 ET]
+Table '2352932788 1' 6-max Seat #6 is the button
+Seat 1: anomer13 (463 in chips)
+Seat 2: Dkquality (225 in chips)
+Seat 3: jacobarni (1051 in chips)
+Seat 4: DiggErr555 (376 in chips)
+Seat 5: Lexuzz9 (781 in chips)
+Seat 6: Claudios122 (104 in chips)
+anomer13: posts the ante 6
+Dkquality: posts the ante 6
+jacobarni: posts the ante 6
+DiggErr555: posts the ante 6
+Lexuzz9: posts the ante 6
+Claudios122: posts the ante 6
+anomer13: posts small blind 30
+Dkquality: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [7s 6s]
+jacobarni: folds
+DiggErr555: folds
+Lexuzz9: raises 60 to 120
+Claudios122: calls 98 and is all-in
+anomer13: folds
+Dkquality: raises 99 to 219 and is all-in
+Lexuzz9: calls 99
+*** FLOP *** [5c Qc Qh]
+*** TURN *** [5c Qc Qh] [9h]
+*** RIVER *** [5c Qc Qh 9h] [9c]
+*** SHOW DOWN ***
+Dkquality: shows [4d Ac] (two pair, Queens and Nines)
+Lexuzz9: shows [Td Jd] (two pair, Queens and Nines - lower kicker)
+Dkquality collected 242 from side pot
+Claudios122: shows [3d Qd] (a full house, Queens full of Nines)
+Claudios122 collected 360 from main pot
+*** SUMMARY ***
+Total pot 602 Main pot 360. Side pot 242. | Rake 0
+Board [5c Qc Qh 9h 9c]
+Seat 1: anomer13 (small blind) folded before Flop
+Seat 2: Dkquality (big blind) showed [4d Ac] and won (242) with two pair, Queens and Nines
+Seat 3: jacobarni folded before Flop (didn't bet)
+Seat 4: DiggErr555 folded before Flop (didn't bet)
+Seat 5: Lexuzz9 showed [Td Jd] and lost with two pair, Queens and Nines
+Seat 6: Claudios122 (button) showed [3d Qd] and won (360) with a full house, Queens full of Nines
+
+PokerStars Hand #188547277432: Tournament #2352932788, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:01:46 MSK [2018/07/09 18:01:46 ET]
+Table '2352932788 1' 6-max Seat #1 is the button
+Seat 1: anomer13 (427 in chips)
+Seat 2: Dkquality (242 in chips)
+Seat 3: jacobarni (1045 in chips)
+Seat 4: DiggErr555 (370 in chips)
+Seat 5: Lexuzz9 (556 in chips)
+Seat 6: Claudios122 (360 in chips)
+anomer13: posts the ante 6
+Dkquality: posts the ante 6
+jacobarni: posts the ante 6
+DiggErr555: posts the ante 6
+Lexuzz9: posts the ante 6
+Claudios122: posts the ante 6
+Dkquality: posts small blind 30
+jacobarni: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Jh 3d]
+DiggErr555: folds
+Lexuzz9: folds
+Claudios122: raises 294 to 354 and is all-in
+anomer13: folds
+Dkquality: folds
+jacobarni: folds
+Uncalled bet (294) returned to Claudios122
+Claudios122 collected 186 from pot
+Claudios122: doesn't show hand
+*** SUMMARY ***
+Total pot 186 | Rake 0
+Seat 1: anomer13 (button) folded before Flop (didn't bet)
+Seat 2: Dkquality (small blind) folded before Flop
+Seat 3: jacobarni (big blind) folded before Flop
+Seat 4: DiggErr555 folded before Flop (didn't bet)
+Seat 5: Lexuzz9 folded before Flop (didn't bet)
+Seat 6: Claudios122 collected (186)
+
+PokerStars Hand #188547290402: Tournament #2352932788, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:02:06 MSK [2018/07/09 18:02:06 ET]
+Table '2352932788 1' 6-max Seat #2 is the button
+Seat 1: anomer13 (421 in chips)
+Seat 2: Dkquality (206 in chips)
+Seat 3: jacobarni (979 in chips)
+Seat 4: DiggErr555 (364 in chips)
+Seat 5: Lexuzz9 (550 in chips)
+Seat 6: Claudios122 (480 in chips)
+anomer13: posts the ante 6
+Dkquality: posts the ante 6
+jacobarni: posts the ante 6
+DiggErr555: posts the ante 6
+Lexuzz9: posts the ante 6
+Claudios122: posts the ante 6
+jacobarni: posts small blind 30
+DiggErr555: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Js 8h]
+Lexuzz9: folds
+Claudios122: folds
+anomer13: folds
+Dkquality: folds
+jacobarni: calls 30
+DiggErr555: checks
+*** FLOP *** [Qd 7h 8c]
+jacobarni: checks
+DiggErr555: bets 60
+jacobarni: folds
+Uncalled bet (60) returned to DiggErr555
+DiggErr555 collected 156 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 156 | Rake 0
+Board [Qd 7h 8c]
+Seat 1: anomer13 folded before Flop (didn't bet)
+Seat 2: Dkquality (button) folded before Flop (didn't bet)
+Seat 3: jacobarni (small blind) folded on the Flop
+Seat 4: DiggErr555 (big blind) collected (156)
+Seat 5: Lexuzz9 folded before Flop (didn't bet)
+Seat 6: Claudios122 folded before Flop (didn't bet)
+
+PokerStars Hand #188547307850: Tournament #2352932788, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:02:33 MSK [2018/07/09 18:02:33 ET]
+Table '2352932788 1' 6-max Seat #3 is the button
+Seat 1: anomer13 (415 in chips)
+Seat 2: Dkquality (200 in chips)
+Seat 3: jacobarni (913 in chips)
+Seat 4: DiggErr555 (454 in chips)
+Seat 5: Lexuzz9 (544 in chips)
+Seat 6: Claudios122 (474 in chips)
+anomer13: posts the ante 6
+Dkquality: posts the ante 6
+jacobarni: posts the ante 6
+DiggErr555: posts the ante 6
+Lexuzz9: posts the ante 6
+Claudios122: posts the ante 6
+DiggErr555: posts small blind 30
+Lexuzz9: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Ks 4h]
+Claudios122: folds
+anomer13: folds
+Dkquality: raises 134 to 194 and is all-in
+jacobarni: raises 134 to 328
+DiggErr555: folds
+Lexuzz9: raises 210 to 538 and is all-in
+jacobarni: calls 210
+*** FLOP *** [4c Jc 5d]
+*** TURN *** [4c Jc 5d] [3s]
+*** RIVER *** [4c Jc 5d 3s] [6d]
+*** SHOW DOWN ***
+Lexuzz9: shows [8h 8c] (a pair of Eights)
+jacobarni: shows [7s Qs] (a straight, Three to Seven)
+jacobarni collected 688 from side pot
+Dkquality: shows [Ad 9s] (high card Ace)
+jacobarni collected 648 from main pot
+jacobarni wins the $2.38 bounty for eliminating Dkquality
+jacobarni wins the $2.38 bounty for eliminating Lexuzz9
+Lexuzz9 finished the tournament in 5th place
+Dkquality finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 1336 Main pot 648. Side pot 688. | Rake 0
+Board [4c Jc 5d 3s 6d]
+Seat 1: anomer13 folded before Flop (didn't bet)
+Seat 2: Dkquality showed [Ad 9s] and lost with high card Ace
+Seat 3: jacobarni (button) showed [7s Qs] and won (1336) with a straight, Three to Seven
+Seat 4: DiggErr555 (small blind) folded before Flop
+Seat 5: Lexuzz9 (big blind) showed [8h 8c] and lost with a pair of Eights
+Seat 6: Claudios122 folded before Flop (didn't bet)
+
+PokerStars Hand #188547346815: Tournament #2352932788, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:03:32 MSK [2018/07/09 18:03:32 ET]
+Table '2352932788 1' 6-max Seat #4 is the button
+Seat 1: anomer13 (409 in chips)
+Seat 3: jacobarni (1705 in chips)
+Seat 4: DiggErr555 (418 in chips)
+Seat 6: Claudios122 (468 in chips)
+anomer13: posts the ante 6
+jacobarni: posts the ante 6
+DiggErr555: posts the ante 6
+Claudios122: posts the ante 6
+Claudios122: posts small blind 30
+anomer13: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [As 3s]
+jacobarni: raises 60 to 120
+DiggErr555: folds
+Claudios122: folds
+anomer13: calls 60
+*** FLOP *** [5s 3h Ah]
+anomer13: checks
+jacobarni: checks
+*** TURN *** [5s 3h Ah] [8d]
+anomer13: checks
+jacobarni: checks
+*** RIVER *** [5s 3h Ah 8d] [8c]
+anomer13: checks
+jacobarni: checks
+*** SHOW DOWN ***
+anomer13: shows [Qs 9s] (a pair of Eights)
+jacobarni: shows [Kc 9d] (a pair of Eights - Ace+King kicker)
+jacobarni collected 294 from pot
+*** SUMMARY ***
+Total pot 294 | Rake 0
+Board [5s 3h Ah 8d 8c]
+Seat 1: anomer13 (big blind) showed [Qs 9s] and lost with a pair of Eights
+Seat 3: jacobarni showed [Kc 9d] and won (294) with a pair of Eights
+Seat 4: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 6: Claudios122 (small blind) folded before Flop
+
+PokerStars Hand #188547365398: Tournament #2352932788, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:04:01 MSK [2018/07/09 18:04:01 ET]
+Table '2352932788 1' 6-max Seat #6 is the button
+Seat 1: anomer13 (283 in chips)
+Seat 3: jacobarni (1873 in chips)
+Seat 4: DiggErr555 (412 in chips)
+Seat 6: Claudios122 (432 in chips)
+anomer13: posts the ante 8
+jacobarni: posts the ante 8
+DiggErr555: posts the ante 8
+Claudios122: posts the ante 8
+anomer13: posts small blind 40
+jacobarni: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [2d Ks]
+DiggErr555: folds
+Claudios122: raises 344 to 424 and is all-in
+anomer13: calls 235 and is all-in
+jacobarni: calls 344
+*** FLOP *** [Qs 3s 3c]
+*** TURN *** [Qs 3s 3c] [9d]
+*** RIVER *** [Qs 3s 3c 9d] [9c]
+*** SHOW DOWN ***
+jacobarni: shows [9h Js] (a full house, Nines full of Threes)
+Claudios122: shows [2s As] (two pair, Nines and Threes)
+jacobarni collected 298 from side pot
+anomer13: shows [9s Ac] (a full house, Nines full of Threes)
+anomer13 collected 429 from main pot
+jacobarni collected 428 from main pot
+jacobarni wins the $2.38 bounty for eliminating Claudios122
+Claudios122 finished the tournament in 4th place
+*** SUMMARY ***
+Total pot 1155 Main pot 857. Side pot 298. | Rake 0
+Board [Qs 3s 3c 9d 9c]
+Seat 1: anomer13 (small blind) showed [9s Ac] and won (429) with a full house, Nines full of Threes
+Seat 3: jacobarni (big blind) showed [9h Js] and won (726) with a full house, Nines full of Threes
+Seat 4: DiggErr555 folded before Flop (didn't bet)
+Seat 6: Claudios122 (button) showed [2s As] and lost with two pair, Nines and Threes
+
+PokerStars Hand #188547380579: Tournament #2352932788, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:04:24 MSK [2018/07/09 18:04:24 ET]
+Table '2352932788 1' 6-max Seat #1 is the button
+Seat 1: anomer13 (429 in chips)
+Seat 3: jacobarni (2167 in chips)
+Seat 4: DiggErr555 (404 in chips)
+anomer13: posts the ante 8
+jacobarni: posts the ante 8
+DiggErr555: posts the ante 8
+jacobarni: posts small blind 40
+DiggErr555: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Ac Kd]
+anomer13: raises 341 to 421 and is all-in
+jacobarni: folds
+DiggErr555: calls 316 and is all-in
+Uncalled bet (25) returned to anomer13
+*** FLOP *** [Jh 3c 6h]
+*** TURN *** [Jh 3c 6h] [As]
+*** RIVER *** [Jh 3c 6h As] [7d]
+*** SHOW DOWN ***
+DiggErr555: shows [Ac Kd] (a pair of Aces)
+anomer13: shows [2d 2s] (a pair of Deuces)
+DiggErr555 collected 856 from pot
+*** SUMMARY ***
+Total pot 856 | Rake 0
+Board [Jh 3c 6h As 7d]
+Seat 1: anomer13 (button) showed [2d 2s] and lost with a pair of Deuces
+Seat 3: jacobarni (small blind) folded before Flop
+Seat 4: DiggErr555 (big blind) showed [Ac Kd] and won (856) with a pair of Aces
+
+PokerStars Hand #188547393022: Tournament #2352932788, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:04:43 MSK [2018/07/09 18:04:43 ET]
+Table '2352932788 1' 6-max Seat #3 is the button
+Seat 1: anomer13 (25 in chips)
+Seat 3: jacobarni (2119 in chips)
+Seat 4: DiggErr555 (856 in chips)
+anomer13: posts the ante 8
+jacobarni: posts the ante 8
+DiggErr555: posts the ante 8
+DiggErr555: posts small blind 40
+anomer13: posts big blind 17 and is all-in
+*** HOLE CARDS ***
+Dealt to DiggErr555 [9h Th]
+jacobarni: raises 120 to 160
+DiggErr555: raises 688 to 848 and is all-in
+jacobarni: calls 688
+*** FLOP *** [6d Ts 6s]
+*** TURN *** [6d Ts 6s] [3s]
+*** RIVER *** [6d Ts 6s 3s] [8s]
+*** SHOW DOWN ***
+DiggErr555: shows [9h Th] (two pair, Tens and Sixes)
+jacobarni: shows [Ac 7h] (a pair of Sixes)
+DiggErr555 collected 1662 from side pot
+anomer13: shows [9d 2d] (a pair of Sixes)
+DiggErr555 collected 75 from main pot
+DiggErr555 wins the $2.38 bounty for eliminating anomer13
+anomer13 finished the tournament in 3rd place
+*** SUMMARY ***
+Total pot 1737 Main pot 75. Side pot 1662. | Rake 0
+Board [6d Ts 6s 3s 8s]
+Seat 1: anomer13 (big blind) showed [9d 2d] and lost with a pair of Sixes
+Seat 3: jacobarni (button) showed [Ac 7h] and lost with a pair of Sixes
+Seat 4: DiggErr555 (small blind) showed [9h Th] and won (1737) with two pair, Tens and Sixes
+
+PokerStars Hand #188547405674: Tournament #2352932788, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:05:02 MSK [2018/07/09 18:05:02 ET]
+Table '2352932788 1' 6-max Seat #4 is the button
+Seat 3: jacobarni (1263 in chips)
+Seat 4: DiggErr555 (1737 in chips)
+jacobarni: posts the ante 8
+DiggErr555: posts the ante 8
+DiggErr555: posts small blind 40
+jacobarni: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Qc 9s]
+DiggErr555: calls 40
+jacobarni: raises 160 to 240
+DiggErr555: calls 160
+*** FLOP *** [3d 7h 2s]
+jacobarni: bets 1015 and is all-in
+DiggErr555: folds
+Uncalled bet (1015) returned to jacobarni
+jacobarni collected 496 from pot
+jacobarni: doesn't show hand
+*** SUMMARY ***
+Total pot 496 | Rake 0
+Board [3d 7h 2s]
+Seat 3: jacobarni (big blind) collected (496)
+Seat 4: DiggErr555 (button) (small blind) folded on the Flop
+
+PokerStars Hand #188547418503: Tournament #2352932788, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:05:21 MSK [2018/07/09 18:05:21 ET]
+Table '2352932788 1' 6-max Seat #3 is the button
+Seat 3: jacobarni (1511 in chips)
+Seat 4: DiggErr555 (1489 in chips)
+jacobarni: posts the ante 8
+DiggErr555: posts the ante 8
+jacobarni: posts small blind 40
+DiggErr555: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Jd Qh]
+jacobarni: calls 40
+DiggErr555: raises 1401 to 1481 and is all-in
+jacobarni: calls 1401
+*** FLOP *** [8d 2d 6s]
+*** TURN *** [8d 2d 6s] [Ad]
+*** RIVER *** [8d 2d 6s Ad] [Ts]
+*** SHOW DOWN ***
+DiggErr555: shows [Jd Qh] (high card Ace)
+jacobarni: shows [7d Kh] (high card Ace - King kicker)
+jacobarni collected 2978 from pot
+*** SUMMARY ***
+Total pot 2978 | Rake 0
+Board [8d 2d 6s Ad Ts]
+Seat 3: jacobarni (button) (small blind) showed [7d Kh] and won (2978) with high card Ace
+Seat 4: DiggErr555 (big blind) showed [Jd Qh] and lost with high card Ace

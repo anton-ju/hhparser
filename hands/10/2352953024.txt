@@ -1,0 +1,47 @@
+
+
+PokerStars Hand #188548065225: Tournament #2352953024, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:22:25 MSK [2018/07/09 18:22:25 ET]
+Table '2352953024 1' 6-max Seat #1 is the button
+Seat 1: brieba (500 in chips)
+Seat 2: sabuco_2110 (500 in chips)
+Seat 3: DiggErr555 (500 in chips)
+Seat 4: 2Ran128 (500 in chips)
+Seat 5: FERZ1979 (500 in chips)
+Seat 6: Denisov V. (500 in chips)
+brieba: posts the ante 2
+sabuco_2110: posts the ante 2
+DiggErr555: posts the ante 2
+2Ran128: posts the ante 2
+FERZ1979: posts the ante 2
+Denisov V.: posts the ante 2
+sabuco_2110: posts small blind 10
+DiggErr555: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Js Jh]
+2Ran128: folds
+FERZ1979: folds
+Denisov V.: folds
+brieba: raises 478 to 498 and is all-in
+sabuco_2110: calls 488 and is all-in
+DiggErr555: calls 478 and is all-in
+*** FLOP *** [9h 3h Th]
+*** TURN *** [9h 3h Th] [8s]
+*** RIVER *** [9h 3h Th 8s] [Jc]
+*** SHOW DOWN ***
+sabuco_2110: shows [7c Kc] (a straight, Seven to Jack)
+DiggErr555: shows [Js Jh] (three of a kind, Jacks)
+brieba: shows [Jd As] (a pair of Jacks)
+sabuco_2110 collected 1506 from pot
+sabuco_2110 wins the $12.01 bounty for eliminating brieba
+sabuco_2110 wins the $12.01 bounty for eliminating DiggErr555
+brieba finished the tournament in 5th place
+DiggErr555 finished the tournament in 5th place
+*** SUMMARY ***
+Total pot 1506 | Rake 0
+Board [9h 3h Th 8s Jc]
+Seat 1: brieba (button) showed [Jd As] and lost with a pair of Jacks
+Seat 2: sabuco_2110 (small blind) showed [7c Kc] and won (1506) with a straight, Seven to Jack
+Seat 3: DiggErr555 (big blind) showed [Js Jh] and lost with three of a kind, Jacks
+Seat 4: 2Ran128 folded before Flop (didn't bet)
+Seat 5: FERZ1979 folded before Flop (didn't bet)
+Seat 6: Denisov V. folded before Flop (didn't bet)

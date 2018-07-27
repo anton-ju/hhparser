@@ -1,0 +1,50 @@
+
+
+PokerStars Hand #188547135182: Tournament #2352934485, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 0:57:35 MSK [2018/07/09 17:57:35 ET]
+Table '2352934485 1' 6-max Seat #1 is the button
+Seat 1: Claudios122 (500 in chips)
+Seat 2: nvucea96 (500 in chips)
+Seat 3: Mishator (500 in chips)
+Seat 4: DiggErr555 (500 in chips)
+Seat 5: anu201103 (500 in chips)
+Seat 6: gladlaksenpj (500 in chips)
+Claudios122: posts the ante 2
+nvucea96: posts the ante 2
+Mishator: posts the ante 2
+DiggErr555: posts the ante 2
+anu201103: posts the ante 2
+gladlaksenpj: posts the ante 2
+nvucea96: posts small blind 10
+Mishator: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Ah 8h]
+DiggErr555: raises 20 to 40
+anu201103: calls 40
+gladlaksenpj: folds
+Claudios122: folds
+nvucea96: folds
+Mishator: folds
+*** FLOP *** [Kd 8d As]
+DiggErr555: bets 80
+anu201103: calls 80
+*** TURN *** [Kd 8d As] [8s]
+DiggErr555: bets 147
+anu201103: calls 147
+*** RIVER *** [Kd 8d As 8s] [9s]
+DiggErr555: bets 231 and is all-in
+anu201103: calls 231 and is all-in
+*** SHOW DOWN ***
+DiggErr555: shows [Ah 8h] (a full house, Eights full of Aces)
+anu201103: shows [Kh Ks] (a full house, Kings full of Eights)
+anu201103 collected 1038 from pot
+anu201103 wins the $2.38 bounty for eliminating DiggErr555
+DiggErr555 finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 1038 | Rake 0
+Board [Kd 8d As 8s 9s]
+Seat 1: Claudios122 (button) folded before Flop (didn't bet)
+Seat 2: nvucea96 (small blind) folded before Flop
+Seat 3: Mishator (big blind) folded before Flop
+Seat 4: DiggErr555 showed [Ah 8h] and lost with a full house, Eights full of Aces
+Seat 5: anu201103 showed [Kh Ks] and won (1038) with a full house, Kings full of Eights
+Seat 6: gladlaksenpj folded before Flop (didn't bet)

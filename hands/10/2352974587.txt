@@ -1,0 +1,80 @@
+
+
+PokerStars Hand #188548962250: Tournament #2352974587, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:47:47 MSK [2018/07/09 18:47:47 ET]
+Table '2352974587 1' 6-max Seat #1 is the button
+Seat 1: Franky1408 (500 in chips)
+Seat 2: Karagunis (500 in chips)
+Seat 3: saklari (500 in chips)
+Seat 4: DiggErr555 (500 in chips)
+Seat 5: SLY SID (500 in chips)
+Seat 6: Silver666666 (500 in chips)
+Franky1408: posts the ante 2
+Karagunis: posts the ante 2
+saklari: posts the ante 2
+DiggErr555: posts the ante 2
+SLY SID: posts the ante 2
+Silver666666: posts the ante 2
+Karagunis: posts small blind 10
+saklari: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Kd 8d]
+DiggErr555: folds
+SLY SID: folds
+Silver666666: folds
+Franky1408: raises 478 to 498 and is all-in
+Karagunis: folds
+saklari: folds
+Uncalled bet (478) returned to Franky1408
+Franky1408 collected 62 from pot
+*** SUMMARY ***
+Total pot 62 | Rake 0
+Seat 1: Franky1408 (button) collected (62)
+Seat 2: Karagunis (small blind) folded before Flop
+Seat 3: saklari (big blind) folded before Flop
+Seat 4: DiggErr555 folded before Flop (didn't bet)
+Seat 5: SLY SID folded before Flop (didn't bet)
+Seat 6: Silver666666 folded before Flop (didn't bet)
+
+PokerStars Hand #188548971494: Tournament #2352974587, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:48:03 MSK [2018/07/09 18:48:03 ET]
+Table '2352974587 1' 6-max Seat #2 is the button
+Seat 1: Franky1408 (540 in chips)
+Seat 2: Karagunis (488 in chips)
+Seat 3: saklari (478 in chips)
+Seat 4: DiggErr555 (498 in chips)
+Seat 5: SLY SID (498 in chips)
+Seat 6: Silver666666 (498 in chips)
+Franky1408: posts the ante 2
+Karagunis: posts the ante 2
+saklari: posts the ante 2
+DiggErr555: posts the ante 2
+SLY SID: posts the ante 2
+Silver666666: posts the ante 2
+saklari: posts small blind 10
+DiggErr555: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Kh Qc]
+SLY SID: folds
+Silver666666: folds
+Franky1408: raises 20 to 40
+Karagunis: folds
+saklari: folds
+DiggErr555: raises 456 to 496 and is all-in
+Franky1408: calls 456
+*** FLOP *** [2d 6h 3d]
+*** TURN *** [2d 6h 3d] [4s]
+*** RIVER *** [2d 6h 3d 4s] [9d]
+*** SHOW DOWN ***
+DiggErr555: shows [Kh Qc] (high card King)
+Franky1408: shows [Ad 5d] (a flush, Ace high)
+Franky1408 collected 1014 from pot
+Franky1408 wins the $2.38 bounty for eliminating DiggErr555
+DiggErr555 finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 1014 | Rake 0
+Board [2d 6h 3d 4s 9d]
+Seat 1: Franky1408 showed [Ad 5d] and won (1014) with a flush, Ace high
+Seat 2: Karagunis (button) folded before Flop (didn't bet)
+Seat 3: saklari (small blind) folded before Flop
+Seat 4: DiggErr555 (big blind) showed [Kh Qc] and lost with high card King
+Seat 5: SLY SID folded before Flop (didn't bet)
+Seat 6: Silver666666 folded before Flop (didn't bet)

@@ -1,0 +1,49 @@
+
+
+PokerStars Hand #188547598184: Tournament #2352944901, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:09:59 MSK [2018/07/09 18:09:59 ET]
+Table '2352944901 1' 6-max Seat #1 is the button
+Seat 1: DiggErr555 (500 in chips)
+Seat 2: MelaninMan (500 in chips)
+Seat 3: UgotPHIL'd (500 in chips)
+Seat 4: Jamsie00 (500 in chips)
+Seat 5: MagXedin (500 in chips)
+Seat 6: strybid` (500 in chips)
+DiggErr555: posts the ante 2
+MelaninMan: posts the ante 2
+UgotPHIL'd: posts the ante 2
+Jamsie00: posts the ante 2
+MagXedin: posts the ante 2
+strybid`: posts the ante 2
+MelaninMan: posts small blind 10
+UgotPHIL'd: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Qc Qs]
+Jamsie00: folds
+MagXedin: raises 20 to 40
+strybid`: calls 40
+DiggErr555: raises 458 to 498 and is all-in
+MelaninMan: folds
+UgotPHIL'd: calls 478 and is all-in
+MagXedin: folds
+strybid`: calls 458 and is all-in
+*** FLOP *** [Jh 4s 8s]
+*** TURN *** [Jh 4s 8s] [4h]
+*** RIVER *** [Jh 4s 8s 4h] [Js]
+*** SHOW DOWN ***
+UgotPHIL'd: shows [As Ac] (two pair, Aces and Jacks)
+strybid`: shows [Tc 7c] (two pair, Jacks and Fours)
+DiggErr555: shows [Qc Qs] (two pair, Queens and Jacks)
+UgotPHIL'd collected 1556 from pot
+UgotPHIL'd wins the $12.01 bounty for eliminating DiggErr555
+UgotPHIL'd wins the $12.01 bounty for eliminating strybid`
+DiggErr555 finished the tournament in 5th place
+strybid` finished the tournament in 5th place
+*** SUMMARY ***
+Total pot 1556 | Rake 0
+Board [Jh 4s 8s 4h Js]
+Seat 1: DiggErr555 (button) showed [Qc Qs] and lost with two pair, Queens and Jacks
+Seat 2: MelaninMan (small blind) folded before Flop
+Seat 3: UgotPHIL'd (big blind) showed [As Ac] and won (1556) with two pair, Aces and Jacks
+Seat 4: Jamsie00 folded before Flop (didn't bet)
+Seat 5: MagXedin folded before Flop
+Seat 6: strybid` showed [Tc 7c] and lost with two pair, Jacks and Fours

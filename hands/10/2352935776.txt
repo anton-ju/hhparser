@@ -1,0 +1,170 @@
+
+
+PokerStars Hand #188547209981: Tournament #2352935776, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 0:59:53 MSK [2018/07/09 17:59:53 ET]
+Table '2352935776 1' 6-max Seat #1 is the button
+Seat 1: Val1k (500 in chips)
+Seat 2: Arty5961 (500 in chips)
+Seat 3: Denisov V. (500 in chips)
+Seat 4: Jamsie00 (500 in chips)
+Seat 5: DiggErr555 (500 in chips)
+Seat 6: chesscool333 (500 in chips)
+Val1k: posts the ante 2
+Arty5961: posts the ante 2
+Denisov V.: posts the ante 2
+Jamsie00: posts the ante 2
+DiggErr555: posts the ante 2
+chesscool333: posts the ante 2
+Arty5961: posts small blind 10
+Denisov V.: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Qd 2h]
+Jamsie00: folds
+DiggErr555: folds
+chesscool333: folds
+Val1k: folds
+Arty5961: calls 10
+Denisov V.: checks
+*** FLOP *** [Ks 4c 5c]
+Arty5961: bets 52
+Denisov V.: folds
+Uncalled bet (52) returned to Arty5961
+Arty5961 collected 52 from pot
+*** SUMMARY ***
+Total pot 52 | Rake 0
+Board [Ks 4c 5c]
+Seat 1: Val1k (button) folded before Flop (didn't bet)
+Seat 2: Arty5961 (small blind) collected (52)
+Seat 3: Denisov V. (big blind) folded on the Flop
+Seat 4: Jamsie00 folded before Flop (didn't bet)
+Seat 5: DiggErr555 folded before Flop (didn't bet)
+Seat 6: chesscool333 folded before Flop (didn't bet)
+
+PokerStars Hand #188547237801: Tournament #2352935776, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:00:42 MSK [2018/07/09 18:00:42 ET]
+Table '2352935776 1' 6-max Seat #2 is the button
+Seat 1: Val1k (498 in chips)
+Seat 2: Arty5961 (530 in chips)
+Seat 3: Denisov V. (478 in chips)
+Seat 4: Jamsie00 (498 in chips)
+Seat 5: DiggErr555 (498 in chips)
+Seat 6: chesscool333 (498 in chips)
+Val1k: posts the ante 2
+Arty5961: posts the ante 2
+Denisov V.: posts the ante 2
+Jamsie00: posts the ante 2
+DiggErr555: posts the ante 2
+chesscool333: posts the ante 2
+Denisov V.: posts small blind 10
+Jamsie00: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [5d 7h]
+DiggErr555: folds
+chesscool333: folds
+Val1k: raises 20 to 40
+Arty5961: calls 40
+Denisov V.: folds
+Jamsie00: calls 20
+*** FLOP *** [Ac Kh Jh]
+Jamsie00: checks
+Val1k: checks
+Arty5961: bets 142
+Jamsie00: calls 142
+Val1k: raises 314 to 456 and is all-in
+Arty5961: raises 32 to 488 and is all-in
+Jamsie00: calls 314 and is all-in
+Uncalled bet (32) returned to Arty5961
+*** TURN *** [Ac Kh Jh] [Ts]
+*** RIVER *** [Ac Kh Jh Ts] [9c]
+*** SHOW DOWN ***
+Jamsie00: shows [Qd As] (a straight, Ten to Ace)
+Val1k: shows [9d Ad] (two pair, Aces and Nines)
+Arty5961: shows [Js Kc] (two pair, Kings and Jacks)
+Jamsie00 collected 1510 from pot
+Jamsie00 wins the $12.01 bounty for eliminating Val1k
+Val1k finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 1510 | Rake 0
+Board [Ac Kh Jh Ts 9c]
+Seat 1: Val1k showed [9d Ad] and lost with two pair, Aces and Nines
+Seat 2: Arty5961 (button) showed [Js Kc] and lost with two pair, Kings and Jacks
+Seat 3: Denisov V. (small blind) folded before Flop
+Seat 4: Jamsie00 (big blind) showed [Qd As] and won (1510) with a straight, Ten to Ace
+Seat 5: DiggErr555 folded before Flop (didn't bet)
+Seat 6: chesscool333 folded before Flop (didn't bet)
+
+PokerStars Hand #188547290838: Tournament #2352935776, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:02:07 MSK [2018/07/09 18:02:07 ET]
+Table '2352935776 1' 6-max Seat #3 is the button
+Seat 2: Arty5961 (32 in chips)
+Seat 3: Denisov V. (466 in chips)
+Seat 4: Jamsie00 (1510 in chips)
+Seat 5: DiggErr555 (496 in chips)
+Seat 6: chesscool333 (496 in chips)
+Arty5961: posts the ante 2
+Denisov V.: posts the ante 2
+Jamsie00: posts the ante 2
+DiggErr555: posts the ante 2
+chesscool333: posts the ante 2
+Jamsie00: posts small blind 10
+DiggErr555: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Th 7h]
+chesscool333: folds
+Arty5961: raises 10 to 30 and is all-in
+Denisov V.: raises 434 to 464 and is all-in
+Jamsie00: folds
+DiggErr555: folds
+Uncalled bet (434) returned to Denisov V.
+*** FLOP *** [7d 2s Ks]
+*** TURN *** [7d 2s Ks] [Ts]
+*** RIVER *** [7d 2s Ks Ts] [7c]
+*** SHOW DOWN ***
+Arty5961: shows [3s 8s] (a flush, King high)
+Denisov V.: shows [Kh Qs] (two pair, Kings and Sevens)
+Arty5961 collected 100 from pot
+*** SUMMARY ***
+Total pot 100 | Rake 0
+Board [7d 2s Ks Ts 7c]
+Seat 2: Arty5961 showed [3s 8s] and won (100) with a flush, King high
+Seat 3: Denisov V. (button) showed [Kh Qs] and lost with two pair, Kings and Sevens
+Seat 4: Jamsie00 (small blind) folded before Flop
+Seat 5: DiggErr555 (big blind) folded before Flop
+Seat 6: chesscool333 folded before Flop (didn't bet)
+
+PokerStars Hand #188547310470: Tournament #2352935776, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:02:37 MSK [2018/07/09 18:02:37 ET]
+Table '2352935776 1' 6-max Seat #4 is the button
+Seat 2: Arty5961 (100 in chips)
+Seat 3: Denisov V. (434 in chips)
+Seat 4: Jamsie00 (1498 in chips)
+Seat 5: DiggErr555 (474 in chips)
+Seat 6: chesscool333 (494 in chips)
+Arty5961: posts the ante 3
+Denisov V.: posts the ante 3
+Jamsie00: posts the ante 3
+DiggErr555: posts the ante 3
+chesscool333: posts the ante 3
+DiggErr555: posts small blind 15
+chesscool333: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Kd Jd]
+Arty5961: folds
+Denisov V.: folds
+Jamsie00: raises 30 to 60
+DiggErr555: raises 411 to 471 and is all-in
+chesscool333: folds
+Jamsie00: calls 411
+*** FLOP *** [9d Js 2c]
+*** TURN *** [9d Js 2c] [Qh]
+*** RIVER *** [9d Js 2c Qh] [8c]
+*** SHOW DOWN ***
+DiggErr555: shows [Kd Jd] (a pair of Jacks)
+Jamsie00: shows [Jh Jc] (three of a kind, Jacks)
+Jamsie00 collected 987 from pot
+Jamsie00 wins the $12.01 bounty for eliminating DiggErr555
+DiggErr555 finished the tournament in 5th place
+*** SUMMARY ***
+Total pot 987 | Rake 0
+Board [9d Js 2c Qh 8c]
+Seat 2: Arty5961 folded before Flop (didn't bet)
+Seat 3: Denisov V. folded before Flop (didn't bet)
+Seat 4: Jamsie00 (button) showed [Jh Jc] and won (987) with three of a kind, Jacks
+Seat 5: DiggErr555 (small blind) showed [Kd Jd] and lost with a pair of Jacks
+Seat 6: chesscool333 (big blind) folded before Flop

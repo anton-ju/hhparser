@@ -1,0 +1,670 @@
+
+
+PokerStars Hand #188548123141: Tournament #2352956408, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:24:01 MSK [2018/07/09 18:24:01 ET]
+Table '2352956408 1' 6-max Seat #1 is the button
+Seat 1: 2Ran128 (500 in chips)
+Seat 2: pokeracer87 (500 in chips)
+Seat 3: Luchok123 (500 in chips)
+Seat 4: ultraluxe (500 in chips)
+Seat 5: DiggErr555 (500 in chips)
+Seat 6: bigatello1967 (500 in chips)
+2Ran128: posts the ante 2
+pokeracer87: posts the ante 2
+Luchok123: posts the ante 2
+ultraluxe: posts the ante 2
+DiggErr555: posts the ante 2
+bigatello1967: posts the ante 2
+pokeracer87: posts small blind 10
+Luchok123: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Td 8h]
+ultraluxe: folds
+DiggErr555: folds
+bigatello1967: raises 40 to 60
+2Ran128: folds
+pokeracer87: folds
+Luchok123: folds
+Uncalled bet (40) returned to bigatello1967
+bigatello1967 collected 62 from pot
+bigatello1967: doesn't show hand
+*** SUMMARY ***
+Total pot 62 | Rake 0
+Seat 1: 2Ran128 (button) folded before Flop (didn't bet)
+Seat 2: pokeracer87 (small blind) folded before Flop
+Seat 3: Luchok123 (big blind) folded before Flop
+Seat 4: ultraluxe folded before Flop (didn't bet)
+Seat 5: DiggErr555 folded before Flop (didn't bet)
+Seat 6: bigatello1967 collected (62)
+
+PokerStars Hand #188548138912: Tournament #2352956408, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:24:27 MSK [2018/07/09 18:24:27 ET]
+Table '2352956408 1' 6-max Seat #2 is the button
+Seat 1: 2Ran128 (498 in chips)
+Seat 2: pokeracer87 (488 in chips)
+Seat 3: Luchok123 (478 in chips)
+Seat 4: ultraluxe (498 in chips)
+Seat 5: DiggErr555 (498 in chips)
+Seat 6: bigatello1967 (540 in chips)
+2Ran128: posts the ante 2
+pokeracer87: posts the ante 2
+Luchok123: posts the ante 2
+ultraluxe: posts the ante 2
+DiggErr555: posts the ante 2
+bigatello1967: posts the ante 2
+Luchok123: posts small blind 10
+ultraluxe: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Tc Qs]
+DiggErr555: folds
+bigatello1967: calls 20
+2Ran128: folds
+pokeracer87: folds
+Luchok123: calls 10
+ultraluxe: checks
+*** FLOP *** [Td 2d Js]
+Luchok123: bets 70
+ultraluxe: folds
+bigatello1967: raises 350 to 420
+Luchok123: raises 36 to 456 and is all-in
+bigatello1967: calls 36
+*** TURN *** [Td 2d Js] [3h]
+*** RIVER *** [Td 2d Js 3h] [3s]
+*** SHOW DOWN ***
+Luchok123: shows [Jc 9s] (two pair, Jacks and Threes)
+bigatello1967: shows [9h Jd] (two pair, Jacks and Threes)
+Luchok123 collected 492 from pot
+bigatello1967 collected 492 from pot
+*** SUMMARY ***
+Total pot 984 | Rake 0
+Board [Td 2d Js 3h 3s]
+Seat 1: 2Ran128 folded before Flop (didn't bet)
+Seat 2: pokeracer87 (button) folded before Flop (didn't bet)
+Seat 3: Luchok123 (small blind) showed [Jc 9s] and won (492) with two pair, Jacks and Threes
+Seat 4: ultraluxe (big blind) folded on the Flop
+Seat 5: DiggErr555 folded before Flop (didn't bet)
+Seat 6: bigatello1967 showed [9h Jd] and won (492) with two pair, Jacks and Threes
+
+PokerStars Hand #188548168635: Tournament #2352956408, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:25:17 MSK [2018/07/09 18:25:17 ET]
+Table '2352956408 1' 6-max Seat #3 is the button
+Seat 1: 2Ran128 (496 in chips)
+Seat 2: pokeracer87 (486 in chips)
+Seat 3: Luchok123 (492 in chips)
+Seat 4: ultraluxe (476 in chips)
+Seat 5: DiggErr555 (496 in chips)
+Seat 6: bigatello1967 (554 in chips)
+2Ran128: posts the ante 2
+pokeracer87: posts the ante 2
+Luchok123: posts the ante 2
+ultraluxe: posts the ante 2
+DiggErr555: posts the ante 2
+bigatello1967: posts the ante 2
+ultraluxe: posts small blind 10
+DiggErr555: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [5d Jh]
+bigatello1967: raises 180 to 200
+2Ran128: folds
+pokeracer87: folds
+Luchok123: folds
+ultraluxe: folds
+DiggErr555: folds
+Uncalled bet (180) returned to bigatello1967
+bigatello1967 collected 62 from pot
+bigatello1967: doesn't show hand
+*** SUMMARY ***
+Total pot 62 | Rake 0
+Seat 1: 2Ran128 folded before Flop (didn't bet)
+Seat 2: pokeracer87 folded before Flop (didn't bet)
+Seat 3: Luchok123 (button) folded before Flop (didn't bet)
+Seat 4: ultraluxe (small blind) folded before Flop
+Seat 5: DiggErr555 (big blind) folded before Flop
+Seat 6: bigatello1967 collected (62)
+
+PokerStars Hand #188548186428: Tournament #2352956408, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:25:47 MSK [2018/07/09 18:25:47 ET]
+Table '2352956408 1' 6-max Seat #4 is the button
+Seat 1: 2Ran128 (494 in chips)
+Seat 2: pokeracer87 (484 in chips)
+Seat 3: Luchok123 (490 in chips)
+Seat 4: ultraluxe (464 in chips)
+Seat 5: DiggErr555 (474 in chips)
+Seat 6: bigatello1967 (594 in chips)
+2Ran128: posts the ante 3
+pokeracer87: posts the ante 3
+Luchok123: posts the ante 3
+ultraluxe: posts the ante 3
+DiggErr555: posts the ante 3
+bigatello1967: posts the ante 3
+DiggErr555: posts small blind 15
+bigatello1967: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Qs 8h]
+2Ran128: folds
+pokeracer87: raises 30 to 60
+Luchok123: folds
+ultraluxe: folds
+DiggErr555: folds
+bigatello1967: raises 531 to 591 and is all-in
+pokeracer87: calls 421 and is all-in
+Uncalled bet (110) returned to bigatello1967
+*** FLOP *** [Jd Js 6s]
+*** TURN *** [Jd Js 6s] [8c]
+*** RIVER *** [Jd Js 6s 8c] [2c]
+*** SHOW DOWN ***
+bigatello1967: shows [Kc Ah] (a pair of Jacks)
+pokeracer87: shows [7h Ad] (a pair of Jacks - lower kicker)
+bigatello1967 collected 995 from pot
+bigatello1967 wins the $4.79 bounty for eliminating pokeracer87
+pokeracer87 finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 995 | Rake 0
+Board [Jd Js 6s 8c 2c]
+Seat 1: 2Ran128 folded before Flop (didn't bet)
+Seat 2: pokeracer87 showed [7h Ad] and lost with a pair of Jacks
+Seat 3: Luchok123 folded before Flop (didn't bet)
+Seat 4: ultraluxe (button) folded before Flop (didn't bet)
+Seat 5: DiggErr555 (small blind) folded before Flop
+Seat 6: bigatello1967 (big blind) showed [Kc Ah] and won (995) with a pair of Jacks
+
+PokerStars Hand #188548200734: Tournament #2352956408, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:26:11 MSK [2018/07/09 18:26:11 ET]
+Table '2352956408 1' 6-max Seat #5 is the button
+Seat 1: 2Ran128 (491 in chips)
+Seat 3: Luchok123 (487 in chips)
+Seat 4: ultraluxe (461 in chips)
+Seat 5: DiggErr555 (456 in chips)
+Seat 6: bigatello1967 (1105 in chips)
+2Ran128: posts the ante 3
+Luchok123: posts the ante 3
+ultraluxe: posts the ante 3
+DiggErr555: posts the ante 3
+bigatello1967: posts the ante 3
+bigatello1967: posts small blind 15
+2Ran128: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Js Jc]
+Luchok123: folds
+ultraluxe: folds
+DiggErr555: raises 30 to 60
+bigatello1967: folds
+2Ran128: raises 428 to 488 and is all-in
+DiggErr555: calls 393 and is all-in
+Uncalled bet (35) returned to 2Ran128
+*** FLOP *** [8s Jh Kh]
+*** TURN *** [8s Jh Kh] [Qs]
+*** RIVER *** [8s Jh Kh Qs] [Qc]
+*** SHOW DOWN ***
+2Ran128: shows [Kd Tc] (two pair, Kings and Queens)
+DiggErr555: shows [Js Jc] (a full house, Jacks full of Queens)
+DiggErr555 collected 936 from pot
+*** SUMMARY ***
+Total pot 936 | Rake 0
+Board [8s Jh Kh Qs Qc]
+Seat 1: 2Ran128 (big blind) showed [Kd Tc] and lost with two pair, Kings and Queens
+Seat 3: Luchok123 folded before Flop (didn't bet)
+Seat 4: ultraluxe folded before Flop (didn't bet)
+Seat 5: DiggErr555 (button) showed [Js Jc] and won (936) with a full house, Jacks full of Queens
+Seat 6: bigatello1967 (small blind) folded before Flop
+
+PokerStars Hand #188548218831: Tournament #2352956408, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:26:41 MSK [2018/07/09 18:26:41 ET]
+Table '2352956408 1' 6-max Seat #6 is the button
+Seat 1: 2Ran128 (35 in chips)
+Seat 3: Luchok123 (484 in chips)
+Seat 4: ultraluxe (458 in chips)
+Seat 5: DiggErr555 (936 in chips)
+Seat 6: bigatello1967 (1087 in chips)
+2Ran128: posts the ante 3
+Luchok123: posts the ante 3
+ultraluxe: posts the ante 3
+DiggErr555: posts the ante 3
+bigatello1967: posts the ante 3
+2Ran128: posts small blind 15
+Luchok123: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [8c 6s]
+ultraluxe: folds
+DiggErr555: calls 30
+bigatello1967: raises 270 to 300
+2Ran128: calls 17 and is all-in
+Luchok123: raises 181 to 481 and is all-in
+DiggErr555: folds
+bigatello1967: calls 181
+*** FLOP *** [Tc Td 5s]
+*** TURN *** [Tc Td 5s] [Ac]
+*** RIVER *** [Tc Td 5s Ac] [9c]
+*** SHOW DOWN ***
+Luchok123: shows [2c 2h] (two pair, Tens and Deuces)
+bigatello1967: shows [Qh 3c] (a pair of Tens)
+Luchok123 collected 898 from side pot
+2Ran128: shows [Ks 2d] (a pair of Tens)
+Luchok123 collected 141 from main pot
+Luchok123 wins the $4.79 bounty for eliminating 2Ran128
+2Ran128 finished the tournament in 5th place
+*** SUMMARY ***
+Total pot 1039 Main pot 141. Side pot 898. | Rake 0
+Board [Tc Td 5s Ac 9c]
+Seat 1: 2Ran128 (small blind) showed [Ks 2d] and lost with a pair of Tens
+Seat 3: Luchok123 (big blind) showed [2c 2h] and won (1039) with two pair, Tens and Deuces
+Seat 4: ultraluxe folded before Flop (didn't bet)
+Seat 5: DiggErr555 folded before Flop
+Seat 6: bigatello1967 (button) showed [Qh 3c] and lost with a pair of Tens
+
+PokerStars Hand #188548244132: Tournament #2352956408, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:27:23 MSK [2018/07/09 18:27:23 ET]
+Table '2352956408 1' 6-max Seat #3 is the button
+Seat 3: Luchok123 (1039 in chips)
+Seat 4: ultraluxe (455 in chips)
+Seat 5: DiggErr555 (903 in chips)
+Seat 6: bigatello1967 (603 in chips)
+Luchok123: posts the ante 3
+ultraluxe: posts the ante 3
+DiggErr555: posts the ante 3
+bigatello1967: posts the ante 3
+ultraluxe: posts small blind 15
+DiggErr555: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Qc 4s]
+bigatello1967: folds
+Luchok123: folds
+ultraluxe: folds
+Uncalled bet (15) returned to DiggErr555
+DiggErr555 collected 42 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 42 | Rake 0
+Seat 3: Luchok123 (button) folded before Flop (didn't bet)
+Seat 4: ultraluxe (small blind) folded before Flop
+Seat 5: DiggErr555 (big blind) collected (42)
+Seat 6: bigatello1967 folded before Flop (didn't bet)
+
+PokerStars Hand #188548251426: Tournament #2352956408, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:27:36 MSK [2018/07/09 18:27:36 ET]
+Table '2352956408 1' 6-max Seat #4 is the button
+Seat 3: Luchok123 (1036 in chips)
+Seat 4: ultraluxe (437 in chips)
+Seat 5: DiggErr555 (927 in chips)
+Seat 6: bigatello1967 (600 in chips)
+Luchok123: posts the ante 4
+ultraluxe: posts the ante 4
+DiggErr555: posts the ante 4
+bigatello1967: posts the ante 4
+DiggErr555: posts small blind 20
+bigatello1967: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6h Jd]
+Luchok123: folds
+ultraluxe: folds
+DiggErr555: raises 883 to 923 and is all-in
+bigatello1967: calls 556 and is all-in
+Uncalled bet (327) returned to DiggErr555
+*** FLOP *** [2s Qd 6c]
+*** TURN *** [2s Qd 6c] [7c]
+*** RIVER *** [2s Qd 6c 7c] [8h]
+*** SHOW DOWN ***
+DiggErr555: shows [6h Jd] (a pair of Sixes)
+bigatello1967: shows [Kd 9d] (high card King)
+DiggErr555 collected 1208 from pot
+DiggErr555 wins the $4.79 bounty for eliminating bigatello1967
+bigatello1967 finished the tournament in 4th place
+*** SUMMARY ***
+Total pot 1208 | Rake 0
+Board [2s Qd 6c 7c 8h]
+Seat 3: Luchok123 folded before Flop (didn't bet)
+Seat 4: ultraluxe (button) folded before Flop (didn't bet)
+Seat 5: DiggErr555 (small blind) showed [6h Jd] and won (1208) with a pair of Sixes
+Seat 6: bigatello1967 (big blind) showed [Kd 9d] and lost with high card King
+
+PokerStars Hand #188548266669: Tournament #2352956408, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:28:01 MSK [2018/07/09 18:28:01 ET]
+Table '2352956408 1' 6-max Seat #5 is the button
+Seat 3: Luchok123 (1032 in chips)
+Seat 4: ultraluxe (433 in chips)
+Seat 5: DiggErr555 (1535 in chips)
+Luchok123: posts the ante 4
+ultraluxe: posts the ante 4
+DiggErr555: posts the ante 4
+Luchok123: posts small blind 20
+ultraluxe: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [4s 7c]
+DiggErr555: raises 40 to 80
+Luchok123: folds
+ultraluxe: folds
+Uncalled bet (40) returned to DiggErr555
+DiggErr555 collected 112 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 112 | Rake 0
+Seat 3: Luchok123 (small blind) folded before Flop
+Seat 4: ultraluxe (big blind) folded before Flop
+Seat 5: DiggErr555 (button) collected (112)
+
+PokerStars Hand #188548275584: Tournament #2352956408, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:28:16 MSK [2018/07/09 18:28:16 ET]
+Table '2352956408 1' 6-max Seat #3 is the button
+Seat 3: Luchok123 (1008 in chips)
+Seat 4: ultraluxe (389 in chips)
+Seat 5: DiggErr555 (1603 in chips)
+Luchok123: posts the ante 4
+ultraluxe: posts the ante 4
+DiggErr555: posts the ante 4
+ultraluxe: posts small blind 20
+DiggErr555: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6h 8h]
+Luchok123: folds
+ultraluxe: folds
+Uncalled bet (20) returned to DiggErr555
+DiggErr555 collected 52 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 52 | Rake 0
+Seat 3: Luchok123 (button) folded before Flop (didn't bet)
+Seat 4: ultraluxe (small blind) folded before Flop
+Seat 5: DiggErr555 (big blind) collected (52)
+
+PokerStars Hand #188548279789: Tournament #2352956408, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:28:23 MSK [2018/07/09 18:28:23 ET]
+Table '2352956408 1' 6-max Seat #4 is the button
+Seat 3: Luchok123 (1004 in chips)
+Seat 4: ultraluxe (365 in chips)
+Seat 5: DiggErr555 (1631 in chips)
+Luchok123: posts the ante 4
+ultraluxe: posts the ante 4
+DiggErr555: posts the ante 4
+DiggErr555: posts small blind 20
+Luchok123: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Ah 2c]
+ultraluxe: folds
+DiggErr555: raises 1587 to 1627 and is all-in
+Luchok123: folds
+Uncalled bet (1587) returned to DiggErr555
+DiggErr555 collected 92 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 92 | Rake 0
+Seat 3: Luchok123 (big blind) folded before Flop
+Seat 4: ultraluxe (button) folded before Flop (didn't bet)
+Seat 5: DiggErr555 (small blind) collected (92)
+
+PokerStars Hand #188548290062: Tournament #2352956408, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:28:40 MSK [2018/07/09 18:28:40 ET]
+Table '2352956408 1' 6-max Seat #5 is the button
+Seat 3: Luchok123 (960 in chips)
+Seat 4: ultraluxe (361 in chips)
+Seat 5: DiggErr555 (1679 in chips)
+Luchok123: posts the ante 6
+ultraluxe: posts the ante 6
+DiggErr555: posts the ante 6
+Luchok123: posts small blind 30
+ultraluxe: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6c 3h]
+DiggErr555: raises 1613 to 1673 and is all-in
+Luchok123: folds
+ultraluxe: folds
+Uncalled bet (1613) returned to DiggErr555
+DiggErr555 collected 168 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 168 | Rake 0
+Seat 3: Luchok123 (small blind) folded before Flop
+Seat 4: ultraluxe (big blind) folded before Flop
+Seat 5: DiggErr555 (button) collected (168)
+
+PokerStars Hand #188548298741: Tournament #2352956408, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:28:55 MSK [2018/07/09 18:28:55 ET]
+Table '2352956408 1' 6-max Seat #3 is the button
+Seat 3: Luchok123 (924 in chips)
+Seat 4: ultraluxe (295 in chips)
+Seat 5: DiggErr555 (1781 in chips)
+Luchok123: posts the ante 6
+ultraluxe: posts the ante 6
+DiggErr555: posts the ante 6
+ultraluxe: posts small blind 30
+DiggErr555: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [3d 8s]
+Luchok123: folds
+ultraluxe: folds
+Uncalled bet (30) returned to DiggErr555
+DiggErr555 collected 78 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 78 | Rake 0
+Seat 3: Luchok123 (button) folded before Flop (didn't bet)
+Seat 4: ultraluxe (small blind) folded before Flop
+Seat 5: DiggErr555 (big blind) collected (78)
+
+PokerStars Hand #188548303840: Tournament #2352956408, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:29:03 MSK [2018/07/09 18:29:03 ET]
+Table '2352956408 1' 6-max Seat #4 is the button
+Seat 3: Luchok123 (918 in chips)
+Seat 4: ultraluxe (259 in chips)
+Seat 5: DiggErr555 (1823 in chips)
+Luchok123: posts the ante 6
+ultraluxe: posts the ante 6
+DiggErr555: posts the ante 6
+DiggErr555: posts small blind 30
+Luchok123: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Ts 5d]
+ultraluxe: raises 180 to 240
+DiggErr555: folds
+Luchok123: raises 180 to 420
+ultraluxe: calls 13 and is all-in
+Uncalled bet (167) returned to Luchok123
+*** FLOP *** [Jc Jh Kd]
+*** TURN *** [Jc Jh Kd] [3s]
+*** RIVER *** [Jc Jh Kd 3s] [8d]
+*** SHOW DOWN ***
+Luchok123: shows [7c Kh] (two pair, Kings and Jacks)
+ultraluxe: shows [4h Ah] (a pair of Jacks)
+Luchok123 collected 554 from pot
+Luchok123 wins the $4.79 bounty for eliminating ultraluxe
+ultraluxe finished the tournament in 3rd place
+*** SUMMARY ***
+Total pot 554 | Rake 0
+Board [Jc Jh Kd 3s 8d]
+Seat 3: Luchok123 (big blind) showed [7c Kh] and won (554) with two pair, Kings and Jacks
+Seat 4: ultraluxe (button) showed [4h Ah] and lost with a pair of Jacks
+Seat 5: DiggErr555 (small blind) folded before Flop
+
+PokerStars Hand #188548326659: Tournament #2352956408, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:29:42 MSK [2018/07/09 18:29:42 ET]
+Table '2352956408 1' 6-max Seat #3 is the button
+Seat 3: Luchok123 (1213 in chips)
+Seat 5: DiggErr555 (1787 in chips)
+Luchok123: posts the ante 6
+DiggErr555: posts the ante 6
+Luchok123: posts small blind 30
+DiggErr555: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [7h 2c]
+Luchok123: raises 60 to 120
+DiggErr555: folds
+Uncalled bet (60) returned to Luchok123
+Luchok123 collected 132 from pot
+Luchok123: doesn't show hand
+*** SUMMARY ***
+Total pot 132 | Rake 0
+Seat 3: Luchok123 (button) (small blind) collected (132)
+Seat 5: DiggErr555 (big blind) folded before Flop
+
+PokerStars Hand #188548333001: Tournament #2352956408, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:29:53 MSK [2018/07/09 18:29:53 ET]
+Table '2352956408 1' 6-max Seat #5 is the button
+Seat 3: Luchok123 (1279 in chips)
+Seat 5: DiggErr555 (1721 in chips)
+Luchok123: posts the ante 6
+DiggErr555: posts the ante 6
+DiggErr555: posts small blind 30
+Luchok123: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [8c 3c]
+DiggErr555: raises 60 to 120
+Luchok123: folds
+Uncalled bet (60) returned to DiggErr555
+DiggErr555 collected 132 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 132 | Rake 0
+Seat 3: Luchok123 (big blind) folded before Flop
+Seat 5: DiggErr555 (button) (small blind) collected (132)
+
+PokerStars Hand #188548341074: Tournament #2352956408, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:30:06 MSK [2018/07/09 18:30:06 ET]
+Table '2352956408 1' 6-max Seat #3 is the button
+Seat 3: Luchok123 (1213 in chips)
+Seat 5: DiggErr555 (1787 in chips)
+Luchok123: posts the ante 8
+DiggErr555: posts the ante 8
+Luchok123: posts small blind 40
+DiggErr555: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Ac 7h]
+Luchok123: folds
+Uncalled bet (40) returned to DiggErr555
+DiggErr555 collected 96 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 96 | Rake 0
+Seat 3: Luchok123 (button) (small blind) folded before Flop
+Seat 5: DiggErr555 (big blind) collected (96)
+
+PokerStars Hand #188548344547: Tournament #2352956408, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:30:12 MSK [2018/07/09 18:30:12 ET]
+Table '2352956408 1' 6-max Seat #5 is the button
+Seat 3: Luchok123 (1165 in chips)
+Seat 5: DiggErr555 (1835 in chips)
+Luchok123: posts the ante 8
+DiggErr555: posts the ante 8
+DiggErr555: posts small blind 40
+Luchok123: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Qh 4h]
+DiggErr555: raises 1747 to 1827 and is all-in
+Luchok123: calls 1077 and is all-in
+Uncalled bet (670) returned to DiggErr555
+*** FLOP *** [5c Kc Qc]
+*** TURN *** [5c Kc Qc] [3d]
+*** RIVER *** [5c Kc Qc 3d] [9d]
+*** SHOW DOWN ***
+Luchok123: shows [Qd Th] (a pair of Queens)
+DiggErr555: shows [Qh 4h] (a pair of Queens - lower kicker)
+Luchok123 collected 2330 from pot
+*** SUMMARY ***
+Total pot 2330 | Rake 0
+Board [5c Kc Qc 3d 9d]
+Seat 3: Luchok123 (big blind) showed [Qd Th] and won (2330) with a pair of Queens
+Seat 5: DiggErr555 (button) (small blind) showed [Qh 4h] and lost with a pair of Queens
+
+PokerStars Hand #188548354892: Tournament #2352956408, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:30:29 MSK [2018/07/09 18:30:29 ET]
+Table '2352956408 1' 6-max Seat #3 is the button
+Seat 3: Luchok123 (2330 in chips)
+Seat 5: DiggErr555 (670 in chips)
+Luchok123: posts the ante 8
+DiggErr555: posts the ante 8
+Luchok123: posts small blind 40
+DiggErr555: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [8d Tc]
+Luchok123: folds
+Uncalled bet (40) returned to DiggErr555
+DiggErr555 collected 96 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 96 | Rake 0
+Seat 3: Luchok123 (button) (small blind) folded before Flop
+Seat 5: DiggErr555 (big blind) collected (96)
+
+PokerStars Hand #188548357577: Tournament #2352956408, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:30:34 MSK [2018/07/09 18:30:34 ET]
+Table '2352956408 1' 6-max Seat #5 is the button
+Seat 3: Luchok123 (2282 in chips)
+Seat 5: DiggErr555 (718 in chips)
+Luchok123: posts the ante 8
+DiggErr555: posts the ante 8
+DiggErr555: posts small blind 40
+Luchok123: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [5s 3c]
+DiggErr555: folds
+Uncalled bet (40) returned to Luchok123
+Luchok123 collected 96 from pot
+Luchok123: doesn't show hand
+*** SUMMARY ***
+Total pot 96 | Rake 0
+Seat 3: Luchok123 (big blind) collected (96)
+Seat 5: DiggErr555 (button) (small blind) folded before Flop
+
+PokerStars Hand #188548360851: Tournament #2352956408, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:30:39 MSK [2018/07/09 18:30:39 ET]
+Table '2352956408 1' 6-max Seat #3 is the button
+Seat 3: Luchok123 (2330 in chips)
+Seat 5: DiggErr555 (670 in chips)
+Luchok123: posts the ante 8
+DiggErr555: posts the ante 8
+Luchok123: posts small blind 40
+DiggErr555: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [5c Ad]
+Luchok123: folds
+Uncalled bet (40) returned to DiggErr555
+DiggErr555 collected 96 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 96 | Rake 0
+Seat 3: Luchok123 (button) (small blind) folded before Flop
+Seat 5: DiggErr555 (big blind) collected (96)
+
+PokerStars Hand #188548365146: Tournament #2352956408, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level VI (50/100) - 2018/07/10 1:30:47 MSK [2018/07/09 18:30:47 ET]
+Table '2352956408 1' 6-max Seat #5 is the button
+Seat 3: Luchok123 (2282 in chips)
+Seat 5: DiggErr555 (718 in chips)
+Luchok123: posts the ante 10
+DiggErr555: posts the ante 10
+DiggErr555: posts small blind 50
+Luchok123: posts big blind 100
+*** HOLE CARDS ***
+Dealt to DiggErr555 [3s 9c]
+DiggErr555: folds
+Uncalled bet (50) returned to Luchok123
+Luchok123 collected 120 from pot
+Luchok123: doesn't show hand
+*** SUMMARY ***
+Total pot 120 | Rake 0
+Seat 3: Luchok123 (big blind) collected (120)
+Seat 5: DiggErr555 (button) (small blind) folded before Flop
+
+PokerStars Hand #188548367609: Tournament #2352956408, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level VI (50/100) - 2018/07/10 1:30:51 MSK [2018/07/09 18:30:51 ET]
+Table '2352956408 1' 6-max Seat #3 is the button
+Seat 3: Luchok123 (2342 in chips)
+Seat 5: DiggErr555 (658 in chips)
+Luchok123: posts the ante 10
+DiggErr555: posts the ante 10
+Luchok123: posts small blind 50
+DiggErr555: posts big blind 100
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Jh 2c]
+Luchok123: raises 2232 to 2332 and is all-in
+DiggErr555: folds
+Uncalled bet (2232) returned to Luchok123
+Luchok123 collected 220 from pot
+Luchok123: doesn't show hand
+*** SUMMARY ***
+Total pot 220 | Rake 0
+Seat 3: Luchok123 (button) (small blind) collected (220)
+Seat 5: DiggErr555 (big blind) folded before Flop
+
+PokerStars Hand #188548374747: Tournament #2352956408, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level VI (50/100) - 2018/07/10 1:31:03 MSK [2018/07/09 18:31:03 ET]
+Table '2352956408 1' 6-max Seat #5 is the button
+Seat 3: Luchok123 (2452 in chips)
+Seat 5: DiggErr555 (548 in chips)
+Luchok123: posts the ante 10
+DiggErr555: posts the ante 10
+DiggErr555: posts small blind 50
+Luchok123: posts big blind 100
+*** HOLE CARDS ***
+Dealt to DiggErr555 [8s Kd]
+DiggErr555: raises 438 to 538 and is all-in
+Luchok123: calls 438
+*** FLOP *** [Td 2h Tc]
+*** TURN *** [Td 2h Tc] [Qh]
+*** RIVER *** [Td 2h Tc Qh] [3d]
+*** SHOW DOWN ***
+Luchok123: shows [Ad 6h] (a pair of Tens)
+DiggErr555: shows [8s Kd] (a pair of Tens - lower kicker)
+Luchok123 collected 1096 from pot
+Luchok123 wins the $4.79 bounty for eliminating DiggErr555
+DiggErr555 finished the tournament in 2nd place and received $14.37.
+Luchok123 wins the tournament and receives $14.37 - congratulations!
+*** SUMMARY ***
+Total pot 1096 | Rake 0
+Board [Td 2h Tc Qh 3d]
+Seat 3: Luchok123 (big blind) showed [Ad 6h] and won (1096) with a pair of Tens
+Seat 5: DiggErr555 (button) (small blind) showed [8s Kd] and lost with a pair of Tens

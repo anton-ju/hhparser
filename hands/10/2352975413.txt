@@ -1,0 +1,505 @@
+
+
+PokerStars Hand #188549034115: Tournament #2352975413, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:49:54 MSK [2018/07/09 18:49:54 ET]
+Table '2352975413 1' 6-max Seat #1 is the button
+Seat 1: sabuco_2110 (500 in chips)
+Seat 2: vIpEr9427 (500 in chips)
+Seat 3: Karagunis (500 in chips)
+Seat 4: DiggErr555 (500 in chips)
+Seat 5: louis-rkvcl (500 in chips)
+Seat 6: rozumelec (500 in chips)
+sabuco_2110: posts the ante 2
+vIpEr9427: posts the ante 2
+Karagunis: posts the ante 2
+DiggErr555: posts the ante 2
+louis-rkvcl: posts the ante 2
+rozumelec: posts the ante 2
+vIpEr9427: posts small blind 10
+Karagunis: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Kd 3c]
+DiggErr555: folds
+louis-rkvcl: folds
+rozumelec: calls 20
+sabuco_2110: raises 478 to 498 and is all-in
+vIpEr9427: folds
+Karagunis: calls 478 and is all-in
+rozumelec: folds
+*** FLOP *** [5d Qs 8d]
+*** TURN *** [5d Qs 8d] [2c]
+*** RIVER *** [5d Qs 8d 2c] [9h]
+*** SHOW DOWN ***
+Karagunis: shows [Kc Ac] (high card Ace)
+sabuco_2110: shows [Tc Td] (a pair of Tens)
+sabuco_2110 collected 1038 from pot
+sabuco_2110 wins the $4.79 bounty for eliminating Karagunis
+Karagunis finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 1038 | Rake 0
+Board [5d Qs 8d 2c 9h]
+Seat 1: sabuco_2110 (button) showed [Tc Td] and won (1038) with a pair of Tens
+Seat 2: vIpEr9427 (small blind) folded before Flop
+Seat 3: Karagunis (big blind) showed [Kc Ac] and lost with high card Ace
+Seat 4: DiggErr555 folded before Flop (didn't bet)
+Seat 5: louis-rkvcl folded before Flop (didn't bet)
+Seat 6: rozumelec folded before Flop
+
+PokerStars Hand #188549049708: Tournament #2352975413, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:50:21 MSK [2018/07/09 18:50:21 ET]
+Table '2352975413 1' 6-max Seat #2 is the button
+Seat 1: sabuco_2110 (1038 in chips)
+Seat 2: vIpEr9427 (488 in chips)
+Seat 4: DiggErr555 (498 in chips)
+Seat 5: louis-rkvcl (498 in chips)
+Seat 6: rozumelec (478 in chips)
+sabuco_2110: posts the ante 2
+vIpEr9427: posts the ante 2
+DiggErr555: posts the ante 2
+louis-rkvcl: posts the ante 2
+rozumelec: posts the ante 2
+DiggErr555: posts small blind 10
+louis-rkvcl: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [9s 2h]
+rozumelec: calls 20
+sabuco_2110: raises 60 to 80
+vIpEr9427: calls 80
+DiggErr555: folds
+louis-rkvcl: folds
+rozumelec: calls 60
+*** FLOP *** [Qs 8c 6h]
+rozumelec: checks
+sabuco_2110: checks
+vIpEr9427: checks
+*** TURN *** [Qs 8c 6h] [Ac]
+rozumelec: checks
+sabuco_2110: bets 60
+vIpEr9427: folds
+rozumelec: calls 60
+*** RIVER *** [Qs 8c 6h Ac] [3c]
+rozumelec: bets 120
+sabuco_2110: calls 120
+*** SHOW DOWN ***
+rozumelec: shows [8s Ad] (two pair, Aces and Eights)
+sabuco_2110: mucks hand
+rozumelec collected 640 from pot
+*** SUMMARY ***
+Total pot 640 | Rake 0
+Board [Qs 8c 6h Ac 3c]
+Seat 1: sabuco_2110 mucked [As Kc]
+Seat 2: vIpEr9427 (button) folded on the Turn
+Seat 4: DiggErr555 (small blind) folded before Flop
+Seat 5: louis-rkvcl (big blind) folded before Flop
+Seat 6: rozumelec showed [8s Ad] and won (640) with two pair, Aces and Eights
+
+PokerStars Hand #188549091836: Tournament #2352975413, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:51:23 MSK [2018/07/09 18:51:23 ET]
+Table '2352975413 1' 6-max Seat #4 is the button
+Seat 1: sabuco_2110 (776 in chips)
+Seat 2: vIpEr9427 (406 in chips)
+Seat 4: DiggErr555 (486 in chips)
+Seat 5: louis-rkvcl (476 in chips)
+Seat 6: rozumelec (856 in chips)
+sabuco_2110: posts the ante 2
+vIpEr9427: posts the ante 2
+DiggErr555: posts the ante 2
+louis-rkvcl: posts the ante 2
+rozumelec: posts the ante 2
+louis-rkvcl: posts small blind 10
+rozumelec: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [3c Th]
+sabuco_2110: folds
+vIpEr9427: folds
+DiggErr555: folds
+louis-rkvcl: raises 454 to 474 and is all-in
+rozumelec: folds
+Uncalled bet (454) returned to louis-rkvcl
+louis-rkvcl collected 50 from pot
+louis-rkvcl: doesn't show hand
+*** SUMMARY ***
+Total pot 50 | Rake 0
+Seat 1: sabuco_2110 folded before Flop (didn't bet)
+Seat 2: vIpEr9427 folded before Flop (didn't bet)
+Seat 4: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 5: louis-rkvcl (small blind) collected (50)
+Seat 6: rozumelec (big blind) folded before Flop
+
+PokerStars Hand #188549114266: Tournament #2352975413, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:52:03 MSK [2018/07/09 18:52:03 ET]
+Table '2352975413 1' 6-max Seat #5 is the button
+Seat 1: sabuco_2110 (774 in chips)
+Seat 2: vIpEr9427 (404 in chips)
+Seat 4: DiggErr555 (484 in chips)
+Seat 5: louis-rkvcl (504 in chips)
+Seat 6: rozumelec (834 in chips)
+sabuco_2110: posts the ante 3
+vIpEr9427: posts the ante 3
+DiggErr555: posts the ante 3
+louis-rkvcl: posts the ante 3
+rozumelec: posts the ante 3
+rozumelec: posts small blind 15
+sabuco_2110: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [5c Ts]
+vIpEr9427: folds
+DiggErr555: folds
+louis-rkvcl: folds
+rozumelec: raises 90 to 120
+sabuco_2110: calls 90
+*** FLOP *** [6c 5s 7h]
+rozumelec: checks
+sabuco_2110: bets 651 and is all-in
+rozumelec: folds
+Uncalled bet (651) returned to sabuco_2110
+sabuco_2110 collected 255 from pot
+*** SUMMARY ***
+Total pot 255 | Rake 0
+Board [6c 5s 7h]
+Seat 1: sabuco_2110 (big blind) collected (255)
+Seat 2: vIpEr9427 folded before Flop (didn't bet)
+Seat 4: DiggErr555 folded before Flop (didn't bet)
+Seat 5: louis-rkvcl (button) folded before Flop (didn't bet)
+Seat 6: rozumelec (small blind) folded on the Flop
+
+PokerStars Hand #188549128022: Tournament #2352975413, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:52:28 MSK [2018/07/09 18:52:28 ET]
+Table '2352975413 1' 6-max Seat #6 is the button
+Seat 1: sabuco_2110 (906 in chips)
+Seat 2: vIpEr9427 (401 in chips)
+Seat 4: DiggErr555 (481 in chips)
+Seat 5: louis-rkvcl (501 in chips)
+Seat 6: rozumelec (711 in chips)
+sabuco_2110: posts the ante 3
+vIpEr9427: posts the ante 3
+DiggErr555: posts the ante 3
+louis-rkvcl: posts the ante 3
+rozumelec: posts the ante 3
+sabuco_2110: posts small blind 15
+vIpEr9427: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [7d 9d]
+DiggErr555: folds
+louis-rkvcl: folds
+rozumelec: folds
+sabuco_2110: folds
+Uncalled bet (15) returned to vIpEr9427
+vIpEr9427 collected 45 from pot
+*** SUMMARY ***
+Total pot 45 | Rake 0
+Seat 1: sabuco_2110 (small blind) folded before Flop
+Seat 2: vIpEr9427 (big blind) collected (45)
+Seat 4: DiggErr555 folded before Flop (didn't bet)
+Seat 5: louis-rkvcl folded before Flop (didn't bet)
+Seat 6: rozumelec (button) folded before Flop (didn't bet)
+
+PokerStars Hand #188549134463: Tournament #2352975413, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:52:39 MSK [2018/07/09 18:52:39 ET]
+Table '2352975413 1' 6-max Seat #1 is the button
+Seat 1: sabuco_2110 (888 in chips)
+Seat 2: vIpEr9427 (428 in chips)
+Seat 4: DiggErr555 (478 in chips)
+Seat 5: louis-rkvcl (498 in chips)
+Seat 6: rozumelec (708 in chips)
+sabuco_2110: posts the ante 3
+vIpEr9427: posts the ante 3
+DiggErr555: posts the ante 3
+louis-rkvcl: posts the ante 3
+rozumelec: posts the ante 3
+vIpEr9427: posts small blind 15
+DiggErr555: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [9c Tc]
+louis-rkvcl: folds
+rozumelec: raises 30 to 60
+sabuco_2110: folds
+vIpEr9427: folds
+DiggErr555: calls 30
+*** FLOP *** [Qd 4s 6d]
+DiggErr555: checks
+rozumelec: bets 60
+DiggErr555: folds
+Uncalled bet (60) returned to rozumelec
+rozumelec collected 150 from pot
+*** SUMMARY ***
+Total pot 150 | Rake 0
+Board [Qd 4s 6d]
+Seat 1: sabuco_2110 (button) folded before Flop (didn't bet)
+Seat 2: vIpEr9427 (small blind) folded before Flop
+Seat 4: DiggErr555 (big blind) folded on the Flop
+Seat 5: louis-rkvcl folded before Flop (didn't bet)
+Seat 6: rozumelec collected (150)
+
+PokerStars Hand #188549160726: Tournament #2352975413, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:53:27 MSK [2018/07/09 18:53:27 ET]
+Table '2352975413 1' 6-max Seat #2 is the button
+Seat 1: sabuco_2110 (885 in chips)
+Seat 2: vIpEr9427 (410 in chips)
+Seat 4: DiggErr555 (415 in chips)
+Seat 5: louis-rkvcl (495 in chips)
+Seat 6: rozumelec (795 in chips)
+sabuco_2110: posts the ante 3
+vIpEr9427: posts the ante 3
+DiggErr555: posts the ante 3
+louis-rkvcl: posts the ante 3
+rozumelec: posts the ante 3
+DiggErr555: posts small blind 15
+louis-rkvcl: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [8d Kc]
+rozumelec: calls 30
+sabuco_2110: folds
+vIpEr9427: folds
+DiggErr555: folds
+louis-rkvcl: checks
+*** FLOP *** [7c 6h 3d]
+louis-rkvcl: checks
+rozumelec: bets 30
+louis-rkvcl: folds
+Uncalled bet (30) returned to rozumelec
+rozumelec collected 90 from pot
+*** SUMMARY ***
+Total pot 90 | Rake 0
+Board [7c 6h 3d]
+Seat 1: sabuco_2110 folded before Flop (didn't bet)
+Seat 2: vIpEr9427 (button) folded before Flop (didn't bet)
+Seat 4: DiggErr555 (small blind) folded before Flop
+Seat 5: louis-rkvcl (big blind) folded on the Flop
+Seat 6: rozumelec collected (90)
+
+PokerStars Hand #188549182872: Tournament #2352975413, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:54:06 MSK [2018/07/09 18:54:06 ET]
+Table '2352975413 1' 6-max Seat #4 is the button
+Seat 1: sabuco_2110 (882 in chips)
+Seat 2: vIpEr9427 (407 in chips)
+Seat 4: DiggErr555 (397 in chips)
+Seat 5: louis-rkvcl (462 in chips)
+Seat 6: rozumelec (852 in chips)
+sabuco_2110: posts the ante 4
+vIpEr9427: posts the ante 4
+DiggErr555: posts the ante 4
+louis-rkvcl: posts the ante 4
+rozumelec: posts the ante 4
+louis-rkvcl: posts small blind 20
+rozumelec: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Jh 8s]
+sabuco_2110: raises 838 to 878 and is all-in
+vIpEr9427: folds
+DiggErr555: folds
+louis-rkvcl: calls 438 and is all-in
+rozumelec: folds
+Uncalled bet (420) returned to sabuco_2110
+*** FLOP *** [6d 9d 3h]
+*** TURN *** [6d 9d 3h] [2s]
+*** RIVER *** [6d 9d 3h 2s] [7s]
+*** SHOW DOWN ***
+louis-rkvcl: shows [Ad Ah] (a pair of Aces)
+sabuco_2110: shows [6h 6s] (three of a kind, Sixes)
+sabuco_2110 collected 976 from pot
+sabuco_2110 wins the $4.79 bounty for eliminating louis-rkvcl
+louis-rkvcl finished the tournament in 5th place
+*** SUMMARY ***
+Total pot 976 | Rake 0
+Board [6d 9d 3h 2s 7s]
+Seat 1: sabuco_2110 showed [6h 6s] and won (976) with three of a kind, Sixes
+Seat 2: vIpEr9427 folded before Flop (didn't bet)
+Seat 4: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 5: louis-rkvcl (small blind) showed [Ad Ah] and lost with a pair of Aces
+Seat 6: rozumelec (big blind) folded before Flop
+
+PokerStars Hand #188549191556: Tournament #2352975413, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:54:22 MSK [2018/07/09 18:54:22 ET]
+Table '2352975413 1' 6-max Seat #6 is the button
+Seat 1: sabuco_2110 (1396 in chips)
+Seat 2: vIpEr9427 (403 in chips)
+Seat 4: DiggErr555 (393 in chips)
+Seat 6: rozumelec (808 in chips)
+sabuco_2110: posts the ante 4
+vIpEr9427: posts the ante 4
+DiggErr555: posts the ante 4
+rozumelec: posts the ante 4
+sabuco_2110: posts small blind 20
+vIpEr9427: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [As 6s]
+DiggErr555: raises 349 to 389 and is all-in
+rozumelec: folds
+sabuco_2110: folds
+vIpEr9427: calls 349
+*** FLOP *** [5d Tc 6d]
+*** TURN *** [5d Tc 6d] [2c]
+*** RIVER *** [5d Tc 6d 2c] [2d]
+*** SHOW DOWN ***
+vIpEr9427: shows [Jc 8c] (a pair of Deuces)
+DiggErr555: shows [As 6s] (two pair, Sixes and Deuces)
+DiggErr555 collected 814 from pot
+*** SUMMARY ***
+Total pot 814 | Rake 0
+Board [5d Tc 6d 2c 2d]
+Seat 1: sabuco_2110 (small blind) folded before Flop
+Seat 2: vIpEr9427 (big blind) showed [Jc 8c] and lost with a pair of Deuces
+Seat 4: DiggErr555 showed [As 6s] and won (814) with two pair, Sixes and Deuces
+Seat 6: rozumelec (button) folded before Flop (didn't bet)
+
+PokerStars Hand #188549209267: Tournament #2352975413, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:54:54 MSK [2018/07/09 18:54:54 ET]
+Table '2352975413 1' 6-max Seat #1 is the button
+Seat 1: sabuco_2110 (1372 in chips)
+Seat 2: vIpEr9427 (10 in chips)
+Seat 4: DiggErr555 (814 in chips)
+Seat 6: rozumelec (804 in chips)
+sabuco_2110: posts the ante 4
+vIpEr9427: posts the ante 4
+DiggErr555: posts the ante 4
+rozumelec: posts the ante 4
+vIpEr9427: posts small blind 6 and is all-in
+DiggErr555: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [8h Jh]
+rozumelec: raises 120 to 160
+sabuco_2110: raises 1208 to 1368 and is all-in
+DiggErr555: folds
+rozumelec: calls 640 and is all-in
+Uncalled bet (568) returned to sabuco_2110
+*** FLOP *** [8s Jc 7h]
+*** TURN *** [8s Jc 7h] [5c]
+*** RIVER *** [8s Jc 7h 5c] [Qh]
+*** SHOW DOWN ***
+rozumelec: shows [Ac 7d] (a pair of Sevens)
+sabuco_2110: shows [2s 4s] (high card Queen)
+rozumelec collected 1622 from side pot
+vIpEr9427: shows [Ad Js] (a pair of Jacks)
+vIpEr9427 collected 40 from main pot
+*** SUMMARY ***
+Total pot 1662 Main pot 40. Side pot 1622. | Rake 0
+Board [8s Jc 7h 5c Qh]
+Seat 1: sabuco_2110 (button) showed [2s 4s] and lost with high card Queen
+Seat 2: vIpEr9427 (small blind) showed [Ad Js] and won (40) with a pair of Jacks
+Seat 4: DiggErr555 (big blind) folded before Flop
+Seat 6: rozumelec showed [Ac 7d] and won (1622) with a pair of Sevens
+
+PokerStars Hand #188549220925: Tournament #2352975413, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:55:18 MSK [2018/07/09 18:55:18 ET]
+Table '2352975413 1' 6-max Seat #2 is the button
+Seat 1: sabuco_2110 (568 in chips)
+Seat 2: vIpEr9427 (40 in chips)
+Seat 4: DiggErr555 (770 in chips)
+Seat 6: rozumelec (1622 in chips)
+sabuco_2110: posts the ante 4
+vIpEr9427: posts the ante 4
+DiggErr555: posts the ante 4
+rozumelec: posts the ante 4
+DiggErr555: posts small blind 20
+rozumelec: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6c Qc]
+sabuco_2110: raises 524 to 564 and is all-in
+vIpEr9427: folds
+DiggErr555: folds
+rozumelec: folds
+Uncalled bet (524) returned to sabuco_2110
+sabuco_2110 collected 116 from pot
+*** SUMMARY ***
+Total pot 116 | Rake 0
+Seat 1: sabuco_2110 collected (116)
+Seat 2: vIpEr9427 (button) folded before Flop (didn't bet)
+Seat 4: DiggErr555 (small blind) folded before Flop
+Seat 6: rozumelec (big blind) folded before Flop
+
+PokerStars Hand #188549228244: Tournament #2352975413, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:55:34 MSK [2018/07/09 18:55:34 ET]
+Table '2352975413 1' 6-max Seat #4 is the button
+Seat 1: sabuco_2110 (640 in chips)
+Seat 2: vIpEr9427 (36 in chips)
+Seat 4: DiggErr555 (746 in chips)
+Seat 6: rozumelec (1578 in chips)
+sabuco_2110: posts the ante 6
+vIpEr9427: posts the ante 6
+DiggErr555: posts the ante 6
+rozumelec: posts the ante 6
+rozumelec: posts small blind 30
+sabuco_2110: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Qd 8d]
+vIpEr9427: calls 30 and is all-in
+DiggErr555: raises 680 to 740 and is all-in
+rozumelec: folds
+sabuco_2110: calls 574 and is all-in
+Uncalled bet (106) returned to DiggErr555
+*** FLOP *** [5d 2s 5s]
+*** TURN *** [5d 2s 5s] [Js]
+*** RIVER *** [5d 2s 5s Js] [Tc]
+*** SHOW DOWN ***
+sabuco_2110: shows [2h Ad] (two pair, Fives and Deuces)
+DiggErr555: shows [Qd 8d] (a pair of Fives)
+sabuco_2110 collected 1208 from side pot
+vIpEr9427: shows [6c 5c] (three of a kind, Fives)
+vIpEr9427 collected 144 from main pot
+*** SUMMARY ***
+Total pot 1352 Main pot 144. Side pot 1208. | Rake 0
+Board [5d 2s 5s Js Tc]
+Seat 1: sabuco_2110 (big blind) showed [2h Ad] and won (1208) with two pair, Fives and Deuces
+Seat 2: vIpEr9427 showed [6c 5c] and won (144) with three of a kind, Fives
+Seat 4: DiggErr555 (button) showed [Qd 8d] and lost with a pair of Fives
+Seat 6: rozumelec (small blind) folded before Flop
+
+PokerStars Hand #188549237705: Tournament #2352975413, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:55:55 MSK [2018/07/09 18:55:55 ET]
+Table '2352975413 1' 6-max Seat #6 is the button
+Seat 1: sabuco_2110 (1208 in chips)
+Seat 2: vIpEr9427 (144 in chips)
+Seat 4: DiggErr555 (106 in chips)
+Seat 6: rozumelec (1542 in chips)
+sabuco_2110: posts the ante 6
+vIpEr9427: posts the ante 6
+DiggErr555: posts the ante 6
+rozumelec: posts the ante 6
+sabuco_2110: posts small blind 30
+vIpEr9427: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [5d 8c]
+DiggErr555: folds
+rozumelec: raises 120 to 180
+sabuco_2110: raises 1022 to 1202 and is all-in
+vIpEr9427: folds
+rozumelec: calls 1022
+*** FLOP *** [8h 6d 7h]
+*** TURN *** [8h 6d 7h] [Th]
+*** RIVER *** [8h 6d 7h Th] [5h]
+*** SHOW DOWN ***
+sabuco_2110: shows [9h Kd] (a flush, Ten high)
+rozumelec: shows [Td Ts] (three of a kind, Tens)
+sabuco_2110 collected 2488 from pot
+*** SUMMARY ***
+Total pot 2488 | Rake 0
+Board [8h 6d 7h Th 5h]
+Seat 1: sabuco_2110 (small blind) showed [9h Kd] and won (2488) with a flush, Ten high
+Seat 2: vIpEr9427 (big blind) folded before Flop
+Seat 4: DiggErr555 folded before Flop (didn't bet)
+Seat 6: rozumelec (button) showed [Td Ts] and lost with three of a kind, Tens
+
+PokerStars Hand #188549248703: Tournament #2352975413, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:56:19 MSK [2018/07/09 18:56:19 ET]
+Table '2352975413 1' 6-max Seat #1 is the button
+Seat 1: sabuco_2110 (2488 in chips)
+Seat 2: vIpEr9427 (78 in chips)
+Seat 4: DiggErr555 (100 in chips)
+Seat 6: rozumelec (334 in chips)
+sabuco_2110: posts the ante 6
+vIpEr9427: posts the ante 6
+DiggErr555: posts the ante 6
+rozumelec: posts the ante 6
+vIpEr9427: posts small blind 30
+DiggErr555: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6h 8h]
+rozumelec: raises 268 to 328 and is all-in
+sabuco_2110: calls 328
+vIpEr9427: folds
+DiggErr555: calls 34 and is all-in
+*** FLOP *** [7c 3c Js]
+*** TURN *** [7c 3c Js] [Qc]
+*** RIVER *** [7c 3c Js Qc] [As]
+*** SHOW DOWN ***
+rozumelec: shows [Jd Ah] (two pair, Aces and Jacks)
+sabuco_2110: shows [9c Ts] (high card Ace)
+rozumelec collected 468 from side pot
+DiggErr555: shows [6h 8h] (high card Ace)
+rozumelec collected 336 from main pot
+rozumelec wins the $4.79 bounty for eliminating DiggErr555
+DiggErr555 finished the tournament in 4th place
+*** SUMMARY ***
+Total pot 804 Main pot 336. Side pot 468. | Rake 0
+Board [7c 3c Js Qc As]
+Seat 1: sabuco_2110 (button) showed [9c Ts] and lost with high card Ace
+Seat 2: vIpEr9427 (small blind) folded before Flop
+Seat 4: DiggErr555 (big blind) showed [6h 8h] and lost with high card Ace
+Seat 6: rozumelec showed [Jd Ah] and won (804) with two pair, Aces and Jacks

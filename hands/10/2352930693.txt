@@ -1,0 +1,455 @@
+
+
+PokerStars Hand #188547040401: Tournament #2352930693, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 0:54:46 MSK [2018/07/09 17:54:46 ET]
+Table '2352930693 1' 6-max Seat #1 is the button
+Seat 1: time part 90 (500 in chips)
+Seat 2: Karagunis (500 in chips)
+Seat 3: DiggErr555 (500 in chips)
+Seat 4: andyW1997 (500 in chips)
+Seat 5: Claudios122 (500 in chips)
+Seat 6: neverlkdback (500 in chips)
+time part 90: posts the ante 2
+Karagunis: posts the ante 2
+DiggErr555: posts the ante 2
+andyW1997: posts the ante 2
+Claudios122: posts the ante 2
+neverlkdback: posts the ante 2
+Karagunis: posts small blind 10
+DiggErr555: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Kd 4h]
+andyW1997: folds
+Claudios122: folds
+neverlkdback: folds
+time part 90: raises 478 to 498 and is all-in
+Karagunis: folds
+DiggErr555: folds
+Uncalled bet (478) returned to time part 90
+time part 90 collected 62 from pot
+*** SUMMARY ***
+Total pot 62 | Rake 0
+Seat 1: time part 90 (button) collected (62)
+Seat 2: Karagunis (small blind) folded before Flop
+Seat 3: DiggErr555 (big blind) folded before Flop
+Seat 4: andyW1997 folded before Flop (didn't bet)
+Seat 5: Claudios122 folded before Flop (didn't bet)
+Seat 6: neverlkdback folded before Flop (didn't bet)
+
+PokerStars Hand #188547055452: Tournament #2352930693, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 0:55:09 MSK [2018/07/09 17:55:09 ET]
+Table '2352930693 1' 6-max Seat #2 is the button
+Seat 1: time part 90 (540 in chips)
+Seat 2: Karagunis (488 in chips)
+Seat 3: DiggErr555 (478 in chips)
+Seat 4: andyW1997 (498 in chips)
+Seat 5: Claudios122 (498 in chips)
+Seat 6: neverlkdback (498 in chips)
+time part 90: posts the ante 2
+Karagunis: posts the ante 2
+DiggErr555: posts the ante 2
+andyW1997: posts the ante 2
+Claudios122: posts the ante 2
+neverlkdback: posts the ante 2
+DiggErr555: posts small blind 10
+andyW1997: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [3s Jd]
+Claudios122: folds
+neverlkdback: folds
+time part 90: raises 22 to 42
+Karagunis: folds
+DiggErr555: folds
+andyW1997: calls 22
+*** FLOP *** [6c 8s Ts]
+andyW1997: checks
+time part 90: checks
+*** TURN *** [6c 8s Ts] [Kd]
+andyW1997: checks
+time part 90: bets 70
+andyW1997: folds
+Uncalled bet (70) returned to time part 90
+time part 90 collected 106 from pot
+*** SUMMARY ***
+Total pot 106 | Rake 0
+Board [6c 8s Ts Kd]
+Seat 1: time part 90 collected (106)
+Seat 2: Karagunis (button) folded before Flop (didn't bet)
+Seat 3: DiggErr555 (small blind) folded before Flop
+Seat 4: andyW1997 (big blind) folded on the Turn
+Seat 5: Claudios122 folded before Flop (didn't bet)
+Seat 6: neverlkdback folded before Flop (didn't bet)
+
+PokerStars Hand #188547084766: Tournament #2352930693, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 0:56:04 MSK [2018/07/09 17:56:04 ET]
+Table '2352930693 1' 6-max Seat #3 is the button
+Seat 1: time part 90 (602 in chips)
+Seat 2: Karagunis (486 in chips)
+Seat 3: DiggErr555 (466 in chips)
+Seat 4: andyW1997 (454 in chips)
+Seat 5: Claudios122 (496 in chips)
+Seat 6: neverlkdback (496 in chips)
+time part 90: posts the ante 2
+Karagunis: posts the ante 2
+DiggErr555: posts the ante 2
+andyW1997: posts the ante 2
+Claudios122: posts the ante 2
+neverlkdback: posts the ante 2
+andyW1997: posts small blind 10
+Claudios122: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Qs 6c]
+neverlkdback: raises 25 to 45
+time part 90: folds
+Karagunis: folds
+DiggErr555: folds
+andyW1997: calls 35
+Claudios122: raises 449 to 494 and is all-in
+neverlkdback: calls 449 and is all-in
+andyW1997: calls 407 and is all-in
+*** FLOP *** [2d 3s 9s]
+*** TURN *** [2d 3s 9s] [9c]
+*** RIVER *** [2d 3s 9s 9c] [As]
+*** SHOW DOWN ***
+Claudios122: shows [8h 8d] (two pair, Nines and Eights)
+neverlkdback: shows [Kd Kh] (two pair, Kings and Nines)
+neverlkdback collected 84 from side pot
+andyW1997: shows [Ad Jd] (two pair, Aces and Nines)
+andyW1997 collected 1368 from main pot
+neverlkdback wins the $2.38 bounty for eliminating Claudios122
+Claudios122 finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 1452 Main pot 1368. Side pot 84. | Rake 0
+Board [2d 3s 9s 9c As]
+Seat 1: time part 90 folded before Flop (didn't bet)
+Seat 2: Karagunis folded before Flop (didn't bet)
+Seat 3: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 4: andyW1997 (small blind) showed [Ad Jd] and won (1368) with two pair, Aces and Nines
+Seat 5: Claudios122 (big blind) showed [8h 8d] and lost with two pair, Nines and Eights
+Seat 6: neverlkdback showed [Kd Kh] and won (84) with two pair, Kings and Nines
+
+PokerStars Hand #188547108399: Tournament #2352930693, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 0:56:46 MSK [2018/07/09 17:56:46 ET]
+Table '2352930693 1' 6-max Seat #4 is the button
+Seat 1: time part 90 (600 in chips)
+Seat 2: Karagunis (484 in chips)
+Seat 3: DiggErr555 (464 in chips)
+Seat 4: andyW1997 (1368 in chips)
+Seat 6: neverlkdback (84 in chips)
+time part 90: posts the ante 3
+Karagunis: posts the ante 3
+DiggErr555: posts the ante 3
+andyW1997: posts the ante 3
+neverlkdback: posts the ante 3
+neverlkdback: posts small blind 15
+time part 90: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Td 8c]
+Karagunis: folds
+DiggErr555: folds
+andyW1997: raises 30 to 60
+neverlkdback: raises 21 to 81 and is all-in
+time part 90: calls 51
+andyW1997: calls 21
+*** FLOP *** [3s 5s Ah]
+time part 90: checks
+andyW1997: checks
+*** TURN *** [3s 5s Ah] [3d]
+time part 90: checks
+andyW1997: checks
+*** RIVER *** [3s 5s Ah 3d] [Jh]
+time part 90: checks
+andyW1997: checks
+*** SHOW DOWN ***
+neverlkdback: shows [As 9c] (two pair, Aces and Threes)
+time part 90: mucks hand
+andyW1997: mucks hand
+neverlkdback collected 258 from pot
+*** SUMMARY ***
+Total pot 258 | Rake 0
+Board [3s 5s Ah 3d Jh]
+Seat 1: time part 90 (big blind) mucked [7h 4h]
+Seat 2: Karagunis folded before Flop (didn't bet)
+Seat 3: DiggErr555 folded before Flop (didn't bet)
+Seat 4: andyW1997 (button) mucked [6h Js]
+Seat 6: neverlkdback (small blind) showed [As 9c] and won (258) with two pair, Aces and Threes
+
+PokerStars Hand #188547138752: Tournament #2352930693, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 0:57:42 MSK [2018/07/09 17:57:42 ET]
+Table '2352930693 1' 6-max Seat #6 is the button
+Seat 1: time part 90 (516 in chips)
+Seat 2: Karagunis (481 in chips)
+Seat 3: DiggErr555 (461 in chips)
+Seat 4: andyW1997 (1284 in chips)
+Seat 6: neverlkdback (258 in chips)
+time part 90: posts the ante 3
+Karagunis: posts the ante 3
+DiggErr555: posts the ante 3
+andyW1997: posts the ante 3
+neverlkdback: posts the ante 3
+time part 90: posts small blind 15
+Karagunis: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [7c 8s]
+DiggErr555: folds
+andyW1997: folds
+neverlkdback: folds
+time part 90: calls 15
+Karagunis: checks
+*** FLOP *** [3c As Jh]
+time part 90: bets 30
+Karagunis: folds
+Uncalled bet (30) returned to time part 90
+time part 90 collected 75 from pot
+*** SUMMARY ***
+Total pot 75 | Rake 0
+Board [3c As Jh]
+Seat 1: time part 90 (small blind) collected (75)
+Seat 2: Karagunis (big blind) folded on the Flop
+Seat 3: DiggErr555 folded before Flop (didn't bet)
+Seat 4: andyW1997 folded before Flop (didn't bet)
+Seat 6: neverlkdback (button) folded before Flop (didn't bet)
+
+PokerStars Hand #188547155268: Tournament #2352930693, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 0:58:12 MSK [2018/07/09 17:58:12 ET]
+Table '2352930693 1' 6-max Seat #1 is the button
+Seat 1: time part 90 (558 in chips)
+Seat 2: Karagunis (448 in chips)
+Seat 3: DiggErr555 (458 in chips)
+Seat 4: andyW1997 (1281 in chips)
+Seat 6: neverlkdback (255 in chips)
+time part 90: posts the ante 3
+Karagunis: posts the ante 3
+DiggErr555: posts the ante 3
+andyW1997: posts the ante 3
+neverlkdback: posts the ante 3
+Karagunis: posts small blind 15
+DiggErr555: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [7s Qd]
+andyW1997: folds
+neverlkdback: folds
+time part 90: raises 39 to 69
+Karagunis: calls 54
+DiggErr555: folds
+*** FLOP *** [Jh Ah Qc]
+Karagunis: checks
+time part 90: bets 65
+Karagunis: calls 65
+*** TURN *** [Jh Ah Qc] [Kd]
+Karagunis: checks
+time part 90: checks
+*** RIVER *** [Jh Ah Qc Kd] [Td]
+Karagunis: checks
+time part 90: checks
+*** SHOW DOWN ***
+Karagunis: shows [7d Ad] (a straight, Ten to Ace)
+time part 90: shows [8h 7h] (a straight, Ten to Ace)
+Karagunis collected 157 from pot
+time part 90 collected 156 from pot
+*** SUMMARY ***
+Total pot 313 | Rake 0
+Board [Jh Ah Qc Kd Td]
+Seat 1: time part 90 (button) showed [8h 7h] and won (156) with a straight, Ten to Ace
+Seat 2: Karagunis (small blind) showed [7d Ad] and won (157) with a straight, Ten to Ace
+Seat 3: DiggErr555 (big blind) folded before Flop
+Seat 4: andyW1997 folded before Flop (didn't bet)
+Seat 6: neverlkdback folded before Flop (didn't bet)
+
+PokerStars Hand #188547186362: Tournament #2352930693, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 0:59:09 MSK [2018/07/09 17:59:09 ET]
+Table '2352930693 1' 6-max Seat #2 is the button
+Seat 1: time part 90 (577 in chips)
+Seat 2: Karagunis (468 in chips)
+Seat 3: DiggErr555 (425 in chips)
+Seat 4: andyW1997 (1278 in chips)
+Seat 6: neverlkdback (252 in chips)
+time part 90: posts the ante 3
+Karagunis: posts the ante 3
+DiggErr555: posts the ante 3
+andyW1997: posts the ante 3
+neverlkdback: posts the ante 3
+DiggErr555: posts small blind 15
+andyW1997: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [3c Jd]
+neverlkdback: folds
+time part 90: raises 33 to 63
+Karagunis: folds
+DiggErr555: folds
+andyW1997: folds
+Uncalled bet (33) returned to time part 90
+time part 90 collected 90 from pot
+*** SUMMARY ***
+Total pot 90 | Rake 0
+Seat 1: time part 90 collected (90)
+Seat 2: Karagunis (button) folded before Flop (didn't bet)
+Seat 3: DiggErr555 (small blind) folded before Flop
+Seat 4: andyW1997 (big blind) folded before Flop
+Seat 6: neverlkdback folded before Flop (didn't bet)
+
+PokerStars Hand #188547196540: Tournament #2352930693, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 0:59:28 MSK [2018/07/09 17:59:28 ET]
+Table '2352930693 1' 6-max Seat #3 is the button
+Seat 1: time part 90 (634 in chips)
+Seat 2: Karagunis (465 in chips)
+Seat 3: DiggErr555 (407 in chips)
+Seat 4: andyW1997 (1245 in chips)
+Seat 6: neverlkdback (249 in chips)
+time part 90: posts the ante 4
+Karagunis: posts the ante 4
+DiggErr555: posts the ante 4
+andyW1997: posts the ante 4
+neverlkdback: posts the ante 4
+andyW1997: posts small blind 20
+neverlkdback: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [As 3c]
+time part 90: folds
+Karagunis: folds
+DiggErr555: raises 363 to 403 and is all-in
+andyW1997: folds
+neverlkdback: calls 205 and is all-in
+Uncalled bet (158) returned to DiggErr555
+*** FLOP *** [7d Th Qc]
+*** TURN *** [7d Th Qc] [Kh]
+*** RIVER *** [7d Th Qc Kh] [7c]
+*** SHOW DOWN ***
+neverlkdback: shows [Ad Ac] (two pair, Aces and Sevens)
+DiggErr555: shows [As 3c] (a pair of Sevens)
+neverlkdback collected 530 from pot
+*** SUMMARY ***
+Total pot 530 | Rake 0
+Board [7d Th Qc Kh 7c]
+Seat 1: time part 90 folded before Flop (didn't bet)
+Seat 2: Karagunis folded before Flop (didn't bet)
+Seat 3: DiggErr555 (button) showed [As 3c] and lost with a pair of Sevens
+Seat 4: andyW1997 (small blind) folded before Flop
+Seat 6: neverlkdback (big blind) showed [Ad Ac] and won (530) with two pair, Aces and Sevens
+
+PokerStars Hand #188547206988: Tournament #2352930693, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 0:59:47 MSK [2018/07/09 17:59:47 ET]
+Table '2352930693 1' 6-max Seat #4 is the button
+Seat 1: time part 90 (630 in chips)
+Seat 2: Karagunis (461 in chips)
+Seat 3: DiggErr555 (158 in chips)
+Seat 4: andyW1997 (1221 in chips)
+Seat 6: neverlkdback (530 in chips)
+time part 90: posts the ante 4
+Karagunis: posts the ante 4
+DiggErr555: posts the ante 4
+andyW1997: posts the ante 4
+neverlkdback: posts the ante 4
+neverlkdback: posts small blind 20
+time part 90: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [7c 3h]
+Karagunis: folds
+DiggErr555: folds
+andyW1997: calls 40
+neverlkdback: calls 20
+time part 90: checks
+*** FLOP *** [9c 7h 4c]
+neverlkdback: checks
+time part 90: checks
+andyW1997: checks
+*** TURN *** [9c 7h 4c] [Ks]
+neverlkdback: checks
+time part 90: bets 80
+andyW1997: calls 80
+neverlkdback: folds
+*** RIVER *** [9c 7h 4c Ks] [3c]
+time part 90: bets 120
+andyW1997: calls 120
+*** SHOW DOWN ***
+time part 90: shows [Ts 8c] (high card King)
+andyW1997: shows [8h Kd] (a pair of Kings)
+andyW1997 collected 540 from pot
+*** SUMMARY ***
+Total pot 540 | Rake 0
+Board [9c 7h 4c Ks 3c]
+Seat 1: time part 90 (big blind) showed [Ts 8c] and lost with high card King
+Seat 2: Karagunis folded before Flop (didn't bet)
+Seat 3: DiggErr555 folded before Flop (didn't bet)
+Seat 4: andyW1997 (button) showed [8h Kd] and won (540) with a pair of Kings
+Seat 6: neverlkdback (small blind) folded on the Turn
+
+PokerStars Hand #188547248479: Tournament #2352930693, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:01:00 MSK [2018/07/09 18:01:00 ET]
+Table '2352930693 1' 6-max Seat #6 is the button
+Seat 1: time part 90 (386 in chips)
+Seat 2: Karagunis (457 in chips)
+Seat 3: DiggErr555 (154 in chips)
+Seat 4: andyW1997 (1517 in chips)
+Seat 6: neverlkdback (486 in chips)
+time part 90: posts the ante 4
+Karagunis: posts the ante 4
+DiggErr555: posts the ante 4
+andyW1997: posts the ante 4
+neverlkdback: posts the ante 4
+time part 90: posts small blind 20
+Karagunis: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Qd 7d]
+DiggErr555: folds
+andyW1997: calls 40
+neverlkdback: folds
+Karagunis is disconnected
+time part 90: calls 20
+Karagunis is disconnected
+Karagunis is connected
+Karagunis: checks
+*** FLOP *** [7s 8d 9d]
+time part 90: checks
+Karagunis: checks
+andyW1997: checks
+*** TURN *** [7s 8d 9d] [Ah]
+time part 90: checks
+Karagunis: checks
+andyW1997: checks
+*** RIVER *** [7s 8d 9d Ah] [6s]
+time part 90: bets 120
+Karagunis: folds
+andyW1997: calls 120
+*** SHOW DOWN ***
+time part 90: shows [Th 8c] (a straight, Six to Ten)
+andyW1997: mucks hand
+time part 90 collected 380 from pot
+*** SUMMARY ***
+Total pot 380 | Rake 0
+Board [7s 8d 9d Ah 6s]
+Seat 1: time part 90 (small blind) showed [Th 8c] and won (380) with a straight, Six to Ten
+Seat 2: Karagunis (big blind) folded on the River
+Seat 3: DiggErr555 folded before Flop (didn't bet)
+Seat 4: andyW1997 mucked [Ad Qh]
+Seat 6: neverlkdback (button) folded before Flop (didn't bet)
+
+PokerStars Hand #188547294159: Tournament #2352930693, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:02:12 MSK [2018/07/09 18:02:12 ET]
+Table '2352930693 1' 6-max Seat #1 is the button
+Seat 1: time part 90 (602 in chips)
+Seat 2: Karagunis (413 in chips)
+Seat 3: DiggErr555 (150 in chips)
+Seat 4: andyW1997 (1353 in chips)
+Seat 6: neverlkdback (482 in chips)
+time part 90: posts the ante 4
+Karagunis: posts the ante 4
+DiggErr555: posts the ante 4
+andyW1997: posts the ante 4
+neverlkdback: posts the ante 4
+Karagunis: posts small blind 20
+DiggErr555: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Qh Kc]
+andyW1997: calls 40
+neverlkdback: folds
+time part 90: folds
+Karagunis: folds
+DiggErr555: raises 106 to 146 and is all-in
+andyW1997: calls 106
+*** FLOP *** [Th 5c 7c]
+*** TURN *** [Th 5c 7c] [5d]
+*** RIVER *** [Th 5c 7c 5d] [5h]
+*** SHOW DOWN ***
+DiggErr555: shows [Qh Kc] (three of a kind, Fives)
+andyW1997: shows [Kh Kd] (a full house, Fives full of Kings)
+andyW1997 collected 332 from pot
+andyW1997 wins the $2.38 bounty for eliminating DiggErr555
+DiggErr555 finished the tournament in 5th place
+*** SUMMARY ***
+Total pot 332 | Rake 0
+Board [Th 5c 7c 5d 5h]
+Seat 1: time part 90 (button) folded before Flop (didn't bet)
+Seat 2: Karagunis (small blind) folded before Flop
+Seat 3: DiggErr555 (big blind) showed [Qh Kc] and lost with three of a kind, Fives
+Seat 4: andyW1997 showed [Kh Kd] and won (332) with a full house, Fives full of Kings
+Seat 6: neverlkdback folded before Flop (didn't bet)

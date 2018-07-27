@@ -1,0 +1,1102 @@
+
+
+PokerStars Hand #188549043614: Tournament #2352975270, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:50:10 MSK [2018/07/09 18:50:10 ET]
+Table '2352975270 1' 6-max Seat #1 is the button
+Seat 1: vIpEr9427 (500 in chips)
+Seat 2: Denisov V. (500 in chips)
+Seat 3: Chang Chi (500 in chips)
+Seat 4: sabuco_2110 (500 in chips)
+Seat 5: shagvaladyan (500 in chips)
+Seat 6: DiggErr555 (500 in chips)
+vIpEr9427: posts the ante 2
+Denisov V.: posts the ante 2
+Chang Chi: posts the ante 2
+sabuco_2110: posts the ante 2
+shagvaladyan: posts the ante 2
+DiggErr555: posts the ante 2
+Denisov V.: posts small blind 10
+Chang Chi: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [7s 2d]
+sabuco_2110: calls 20
+shagvaladyan: folds
+DiggErr555: folds
+vIpEr9427: folds
+Denisov V.: folds
+Chang Chi: checks
+*** FLOP *** [7d 3h Ad]
+Chang Chi: bets 100
+sabuco_2110: raises 100 to 200
+Chang Chi: calls 100
+*** TURN *** [7d 3h Ad] [9d]
+Chang Chi: checks
+sabuco_2110: bets 278 and is all-in
+Chang Chi: folds
+Uncalled bet (278) returned to sabuco_2110
+sabuco_2110 collected 462 from pot
+*** SUMMARY ***
+Total pot 462 | Rake 0
+Board [7d 3h Ad 9d]
+Seat 1: vIpEr9427 (button) folded before Flop (didn't bet)
+Seat 2: Denisov V. (small blind) folded before Flop
+Seat 3: Chang Chi (big blind) folded on the Turn
+Seat 4: sabuco_2110 collected (462)
+Seat 5: shagvaladyan folded before Flop (didn't bet)
+Seat 6: DiggErr555 folded before Flop (didn't bet)
+
+PokerStars Hand #188549074069: Tournament #2352975270, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:51:05 MSK [2018/07/09 18:51:05 ET]
+Table '2352975270 1' 6-max Seat #2 is the button
+Seat 1: vIpEr9427 (498 in chips)
+Seat 2: Denisov V. (488 in chips)
+Seat 3: Chang Chi (278 in chips)
+Seat 4: sabuco_2110 (740 in chips)
+Seat 5: shagvaladyan (498 in chips)
+Seat 6: DiggErr555 (498 in chips)
+vIpEr9427: posts the ante 2
+Denisov V.: posts the ante 2
+Chang Chi: posts the ante 2
+sabuco_2110: posts the ante 2
+shagvaladyan: posts the ante 2
+DiggErr555: posts the ante 2
+Chang Chi: posts small blind 10
+sabuco_2110: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [5s Ac]
+shagvaladyan: folds
+DiggErr555: folds
+vIpEr9427: raises 476 to 496 and is all-in
+Denisov V.: folds
+Chang Chi: folds
+sabuco_2110: folds
+Uncalled bet (476) returned to vIpEr9427
+vIpEr9427 collected 62 from pot
+*** SUMMARY ***
+Total pot 62 | Rake 0
+Seat 1: vIpEr9427 collected (62)
+Seat 2: Denisov V. (button) folded before Flop (didn't bet)
+Seat 3: Chang Chi (small blind) folded before Flop
+Seat 4: sabuco_2110 (big blind) folded before Flop
+Seat 5: shagvaladyan folded before Flop (didn't bet)
+Seat 6: DiggErr555 folded before Flop (didn't bet)
+
+PokerStars Hand #188549090440: Tournament #2352975270, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:51:20 MSK [2018/07/09 18:51:20 ET]
+Table '2352975270 1' 6-max Seat #3 is the button
+Seat 1: vIpEr9427 (538 in chips)
+Seat 2: Denisov V. (486 in chips)
+Seat 3: Chang Chi (266 in chips)
+Seat 4: sabuco_2110 (718 in chips)
+Seat 5: shagvaladyan (496 in chips)
+Seat 6: DiggErr555 (496 in chips)
+vIpEr9427: posts the ante 2
+Denisov V.: posts the ante 2
+Chang Chi: posts the ante 2
+sabuco_2110: posts the ante 2
+shagvaladyan: posts the ante 2
+DiggErr555: posts the ante 2
+sabuco_2110: posts small blind 10
+shagvaladyan: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [7c 2s]
+DiggErr555: folds
+vIpEr9427: raises 516 to 536 and is all-in
+Denisov V.: folds
+Chang Chi: folds
+sabuco_2110: folds
+shagvaladyan: folds
+Uncalled bet (516) returned to vIpEr9427
+vIpEr9427 collected 62 from pot
+*** SUMMARY ***
+Total pot 62 | Rake 0
+Seat 1: vIpEr9427 collected (62)
+Seat 2: Denisov V. folded before Flop (didn't bet)
+Seat 3: Chang Chi (button) folded before Flop (didn't bet)
+Seat 4: sabuco_2110 (small blind) folded before Flop
+Seat 5: shagvaladyan (big blind) folded before Flop
+Seat 6: DiggErr555 folded before Flop (didn't bet)
+
+PokerStars Hand #188549101201: Tournament #2352975270, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:51:40 MSK [2018/07/09 18:51:40 ET]
+Table '2352975270 1' 6-max Seat #4 is the button
+Seat 1: vIpEr9427 (578 in chips)
+Seat 2: Denisov V. (484 in chips)
+Seat 3: Chang Chi (264 in chips)
+Seat 4: sabuco_2110 (706 in chips)
+Seat 5: shagvaladyan (474 in chips)
+Seat 6: DiggErr555 (494 in chips)
+vIpEr9427: posts the ante 3
+Denisov V.: posts the ante 3
+Chang Chi: posts the ante 3
+sabuco_2110: posts the ante 3
+shagvaladyan: posts the ante 3
+DiggErr555: posts the ante 3
+shagvaladyan: posts small blind 15
+DiggErr555: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [5h Qh]
+vIpEr9427: folds
+Denisov V.: folds
+Chang Chi: folds
+sabuco_2110: raises 673 to 703 and is all-in
+shagvaladyan: folds
+DiggErr555: folds
+Uncalled bet (673) returned to sabuco_2110
+sabuco_2110 collected 93 from pot
+*** SUMMARY ***
+Total pot 93 | Rake 0
+Seat 1: vIpEr9427 folded before Flop (didn't bet)
+Seat 2: Denisov V. folded before Flop (didn't bet)
+Seat 3: Chang Chi folded before Flop (didn't bet)
+Seat 4: sabuco_2110 (button) collected (93)
+Seat 5: shagvaladyan (small blind) folded before Flop
+Seat 6: DiggErr555 (big blind) folded before Flop
+
+PokerStars Hand #188549111297: Tournament #2352975270, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:51:58 MSK [2018/07/09 18:51:58 ET]
+Table '2352975270 1' 6-max Seat #5 is the button
+Seat 1: vIpEr9427 (575 in chips)
+Seat 2: Denisov V. (481 in chips)
+Seat 3: Chang Chi (261 in chips)
+Seat 4: sabuco_2110 (766 in chips)
+Seat 5: shagvaladyan (456 in chips)
+Seat 6: DiggErr555 (461 in chips)
+vIpEr9427: posts the ante 3
+Denisov V.: posts the ante 3
+Chang Chi: posts the ante 3
+sabuco_2110: posts the ante 3
+shagvaladyan: posts the ante 3
+DiggErr555: posts the ante 3
+DiggErr555: posts small blind 15
+vIpEr9427: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Th Jc]
+Denisov V.: folds
+Chang Chi: folds
+sabuco_2110: folds
+shagvaladyan: folds
+DiggErr555: raises 428 to 458 and is all-in
+vIpEr9427: folds
+Uncalled bet (428) returned to DiggErr555
+DiggErr555 collected 78 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 78 | Rake 0
+Seat 1: vIpEr9427 (big blind) folded before Flop
+Seat 2: Denisov V. folded before Flop (didn't bet)
+Seat 3: Chang Chi folded before Flop (didn't bet)
+Seat 4: sabuco_2110 folded before Flop (didn't bet)
+Seat 5: shagvaladyan (button) folded before Flop (didn't bet)
+Seat 6: DiggErr555 (small blind) collected (78)
+
+PokerStars Hand #188549119097: Tournament #2352975270, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:52:12 MSK [2018/07/09 18:52:12 ET]
+Table '2352975270 1' 6-max Seat #6 is the button
+Seat 1: vIpEr9427 (542 in chips)
+Seat 2: Denisov V. (478 in chips)
+Seat 3: Chang Chi (258 in chips)
+Seat 4: sabuco_2110 (763 in chips)
+Seat 5: shagvaladyan (453 in chips)
+Seat 6: DiggErr555 (506 in chips)
+vIpEr9427: posts the ante 3
+Denisov V.: posts the ante 3
+Chang Chi: posts the ante 3
+sabuco_2110: posts the ante 3
+shagvaladyan: posts the ante 3
+DiggErr555: posts the ante 3
+vIpEr9427: posts small blind 15
+Denisov V.: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Ks 8d]
+Chang Chi: calls 30
+sabuco_2110: raises 730 to 760 and is all-in
+shagvaladyan: folds
+DiggErr555: folds
+vIpEr9427: folds
+Denisov V.: folds
+Chang Chi: folds
+Uncalled bet (730) returned to sabuco_2110
+sabuco_2110 collected 123 from pot
+*** SUMMARY ***
+Total pot 123 | Rake 0
+Seat 1: vIpEr9427 (small blind) folded before Flop
+Seat 2: Denisov V. (big blind) folded before Flop
+Seat 3: Chang Chi folded before Flop
+Seat 4: sabuco_2110 collected (123)
+Seat 5: shagvaladyan folded before Flop (didn't bet)
+Seat 6: DiggErr555 (button) folded before Flop (didn't bet)
+
+PokerStars Hand #188549132928: Tournament #2352975270, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:52:37 MSK [2018/07/09 18:52:37 ET]
+Table '2352975270 1' 6-max Seat #1 is the button
+Seat 1: vIpEr9427 (524 in chips)
+Seat 2: Denisov V. (445 in chips)
+Seat 3: Chang Chi (225 in chips)
+Seat 4: sabuco_2110 (853 in chips)
+Seat 5: shagvaladyan (450 in chips)
+Seat 6: DiggErr555 (503 in chips)
+vIpEr9427: posts the ante 3
+Denisov V.: posts the ante 3
+Chang Chi: posts the ante 3
+sabuco_2110: posts the ante 3
+shagvaladyan: posts the ante 3
+DiggErr555: posts the ante 3
+Denisov V.: posts small blind 15
+Chang Chi: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Jc 7d]
+sabuco_2110: folds
+shagvaladyan: folds
+DiggErr555: folds
+vIpEr9427: raises 491 to 521 and is all-in
+Denisov V.: folds
+Chang Chi: calls 192 and is all-in
+Uncalled bet (299) returned to vIpEr9427
+*** FLOP *** [5d Td 6d]
+*** TURN *** [5d Td 6d] [Ad]
+*** RIVER *** [5d Td 6d Ad] [Ts]
+*** SHOW DOWN ***
+Chang Chi: shows [4s 4d] (a flush, Ace high)
+vIpEr9427: shows [Ah 8s] (two pair, Aces and Tens)
+Chang Chi collected 477 from pot
+*** SUMMARY ***
+Total pot 477 | Rake 0
+Board [5d Td 6d Ad Ts]
+Seat 1: vIpEr9427 (button) showed [Ah 8s] and lost with two pair, Aces and Tens
+Seat 2: Denisov V. (small blind) folded before Flop
+Seat 3: Chang Chi (big blind) showed [4s 4d] and won (477) with a flush, Ace high
+Seat 4: sabuco_2110 folded before Flop (didn't bet)
+Seat 5: shagvaladyan folded before Flop (didn't bet)
+Seat 6: DiggErr555 folded before Flop (didn't bet)
+
+PokerStars Hand #188549147009: Tournament #2352975270, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:53:02 MSK [2018/07/09 18:53:02 ET]
+Table '2352975270 1' 6-max Seat #2 is the button
+Seat 1: vIpEr9427 (299 in chips)
+Seat 2: Denisov V. (427 in chips)
+Seat 3: Chang Chi (477 in chips)
+Seat 4: sabuco_2110 (850 in chips)
+Seat 5: shagvaladyan (447 in chips)
+Seat 6: DiggErr555 (500 in chips)
+vIpEr9427: posts the ante 4
+Denisov V.: posts the ante 4
+Chang Chi: posts the ante 4
+sabuco_2110: posts the ante 4
+shagvaladyan: posts the ante 4
+DiggErr555: posts the ante 4
+Chang Chi: posts small blind 20
+sabuco_2110: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Kd 8h]
+shagvaladyan: folds
+DiggErr555: folds
+vIpEr9427: folds
+Denisov V.: folds
+Chang Chi: calls 20
+sabuco_2110: checks
+*** FLOP *** [Qs 3d 3s]
+Chang Chi has timed out
+Chang Chi: checks
+sabuco_2110: checks
+*** TURN *** [Qs 3d 3s] [9c]
+Chang Chi: checks
+sabuco_2110: bets 40
+Chang Chi: folds
+Uncalled bet (40) returned to sabuco_2110
+sabuco_2110 collected 104 from pot
+*** SUMMARY ***
+Total pot 104 | Rake 0
+Board [Qs 3d 3s 9c]
+Seat 1: vIpEr9427 folded before Flop (didn't bet)
+Seat 2: Denisov V. (button) folded before Flop (didn't bet)
+Seat 3: Chang Chi (small blind) folded on the Turn
+Seat 4: sabuco_2110 (big blind) collected (104)
+Seat 5: shagvaladyan folded before Flop (didn't bet)
+Seat 6: DiggErr555 folded before Flop (didn't bet)
+
+PokerStars Hand #188549178646: Tournament #2352975270, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:53:59 MSK [2018/07/09 18:53:59 ET]
+Table '2352975270 1' 6-max Seat #3 is the button
+Seat 1: vIpEr9427 (295 in chips)
+Seat 2: Denisov V. (423 in chips)
+Seat 3: Chang Chi (433 in chips)
+Seat 4: sabuco_2110 (910 in chips)
+Seat 5: shagvaladyan (443 in chips)
+Seat 6: DiggErr555 (496 in chips)
+vIpEr9427: posts the ante 4
+Denisov V.: posts the ante 4
+Chang Chi: posts the ante 4
+sabuco_2110: posts the ante 4
+shagvaladyan: posts the ante 4
+DiggErr555: posts the ante 4
+sabuco_2110: posts small blind 20
+shagvaladyan: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6h 9h]
+DiggErr555: folds
+vIpEr9427: folds
+Denisov V.: folds
+Chang Chi: folds
+sabuco_2110: calls 20
+shagvaladyan: raises 399 to 439 and is all-in
+sabuco_2110: folds
+Uncalled bet (399) returned to shagvaladyan
+shagvaladyan collected 104 from pot
+shagvaladyan: doesn't show hand
+*** SUMMARY ***
+Total pot 104 | Rake 0
+Seat 1: vIpEr9427 folded before Flop (didn't bet)
+Seat 2: Denisov V. folded before Flop (didn't bet)
+Seat 3: Chang Chi (button) folded before Flop (didn't bet)
+Seat 4: sabuco_2110 (small blind) folded before Flop
+Seat 5: shagvaladyan (big blind) collected (104)
+Seat 6: DiggErr555 folded before Flop (didn't bet)
+
+PokerStars Hand #188549194879: Tournament #2352975270, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:54:28 MSK [2018/07/09 18:54:28 ET]
+Table '2352975270 1' 6-max Seat #4 is the button
+Seat 1: vIpEr9427 (291 in chips)
+Seat 2: Denisov V. (419 in chips)
+Seat 3: Chang Chi (429 in chips)
+Seat 4: sabuco_2110 (866 in chips)
+Seat 5: shagvaladyan (503 in chips)
+Seat 6: DiggErr555 (492 in chips)
+vIpEr9427: posts the ante 4
+Denisov V.: posts the ante 4
+Chang Chi: posts the ante 4
+sabuco_2110: posts the ante 4
+shagvaladyan: posts the ante 4
+DiggErr555: posts the ante 4
+shagvaladyan: posts small blind 20
+DiggErr555: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [2d 4h]
+vIpEr9427: calls 40
+Denisov V.: raises 375 to 415 and is all-in
+Chang Chi: folds
+sabuco_2110: folds
+shagvaladyan: folds
+DiggErr555: folds
+vIpEr9427: folds
+Uncalled bet (375) returned to Denisov V.
+Denisov V. collected 164 from pot
+Denisov V.: doesn't show hand
+*** SUMMARY ***
+Total pot 164 | Rake 0
+Seat 1: vIpEr9427 folded before Flop
+Seat 2: Denisov V. collected (164)
+Seat 3: Chang Chi folded before Flop (didn't bet)
+Seat 4: sabuco_2110 (button) folded before Flop (didn't bet)
+Seat 5: shagvaladyan (small blind) folded before Flop
+Seat 6: DiggErr555 (big blind) folded before Flop
+
+PokerStars Hand #188549207367: Tournament #2352975270, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:54:51 MSK [2018/07/09 18:54:51 ET]
+Table '2352975270 1' 6-max Seat #5 is the button
+Seat 1: vIpEr9427 (247 in chips)
+Seat 2: Denisov V. (539 in chips)
+Seat 3: Chang Chi (425 in chips)
+Seat 4: sabuco_2110 (862 in chips)
+Seat 5: shagvaladyan (479 in chips)
+Seat 6: DiggErr555 (448 in chips)
+vIpEr9427: posts the ante 4
+Denisov V.: posts the ante 4
+Chang Chi: posts the ante 4
+sabuco_2110: posts the ante 4
+shagvaladyan: posts the ante 4
+DiggErr555: posts the ante 4
+DiggErr555: posts small blind 20
+vIpEr9427: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Qd Jd]
+Denisov V.: folds
+Chang Chi: calls 40
+sabuco_2110: folds
+shagvaladyan: folds
+DiggErr555: raises 404 to 444 and is all-in
+vIpEr9427: folds
+Chang Chi: folds
+Uncalled bet (404) returned to DiggErr555
+DiggErr555 collected 144 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 144 | Rake 0
+Seat 1: vIpEr9427 (big blind) folded before Flop
+Seat 2: Denisov V. folded before Flop (didn't bet)
+Seat 3: Chang Chi folded before Flop
+Seat 4: sabuco_2110 folded before Flop (didn't bet)
+Seat 5: shagvaladyan (button) folded before Flop (didn't bet)
+Seat 6: DiggErr555 (small blind) collected (144)
+
+PokerStars Hand #188549225221: Tournament #2352975270, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:55:28 MSK [2018/07/09 18:55:28 ET]
+Table '2352975270 1' 6-max Seat #6 is the button
+Seat 1: vIpEr9427 (203 in chips)
+Seat 2: Denisov V. (535 in chips)
+Seat 3: Chang Chi (381 in chips)
+Seat 4: sabuco_2110 (858 in chips)
+Seat 5: shagvaladyan (475 in chips)
+Seat 6: DiggErr555 (548 in chips)
+vIpEr9427: posts the ante 6
+Denisov V.: posts the ante 6
+Chang Chi: posts the ante 6
+sabuco_2110: posts the ante 6
+shagvaladyan: posts the ante 6
+DiggErr555: posts the ante 6
+vIpEr9427: posts small blind 30
+Denisov V.: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Tc 7d]
+Chang Chi: calls 60
+sabuco_2110: folds
+shagvaladyan: folds
+DiggErr555: folds
+vIpEr9427: calls 30
+Denisov V.: checks
+*** FLOP *** [Ad 6c Js]
+vIpEr9427: checks
+Denisov V.: checks
+Chang Chi: checks
+*** TURN *** [Ad 6c Js] [5c]
+vIpEr9427: checks
+Denisov V.: checks
+Chang Chi: checks
+*** RIVER *** [Ad 6c Js 5c] [4c]
+vIpEr9427: checks
+Denisov V.: checks
+Chang Chi: checks
+*** SHOW DOWN ***
+vIpEr9427: shows [9h 7s] (high card Ace)
+Denisov V.: shows [Kh 6s] (a pair of Sixes)
+Chang Chi: mucks hand
+Denisov V. collected 216 from pot
+*** SUMMARY ***
+Total pot 216 | Rake 0
+Board [Ad 6c Js 5c 4c]
+Seat 1: vIpEr9427 (small blind) showed [9h 7s] and lost with high card Ace
+Seat 2: Denisov V. (big blind) showed [Kh 6s] and won (216) with a pair of Sixes
+Seat 3: Chang Chi mucked [3s 3h]
+Seat 4: sabuco_2110 folded before Flop (didn't bet)
+Seat 5: shagvaladyan folded before Flop (didn't bet)
+Seat 6: DiggErr555 (button) folded before Flop (didn't bet)
+
+PokerStars Hand #188549254098: Tournament #2352975270, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:56:31 MSK [2018/07/09 18:56:31 ET]
+Table '2352975270 1' 6-max Seat #1 is the button
+Seat 1: vIpEr9427 (137 in chips)
+Seat 2: Denisov V. (685 in chips)
+Seat 3: Chang Chi (315 in chips)
+Seat 4: sabuco_2110 (852 in chips)
+Seat 5: shagvaladyan (469 in chips)
+Seat 6: DiggErr555 (542 in chips)
+vIpEr9427: posts the ante 6
+Denisov V.: posts the ante 6
+Chang Chi: posts the ante 6
+sabuco_2110: posts the ante 6
+shagvaladyan: posts the ante 6
+DiggErr555: posts the ante 6
+Denisov V.: posts small blind 30
+Chang Chi: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Kc Jh]
+sabuco_2110: folds
+shagvaladyan: calls 60
+DiggErr555: raises 476 to 536 and is all-in
+vIpEr9427: folds
+Denisov V.: folds
+Chang Chi: folds
+shagvaladyan: folds
+Uncalled bet (476) returned to DiggErr555
+DiggErr555 collected 246 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 246 | Rake 0
+Seat 1: vIpEr9427 (button) folded before Flop (didn't bet)
+Seat 2: Denisov V. (small blind) folded before Flop
+Seat 3: Chang Chi (big blind) folded before Flop
+Seat 4: sabuco_2110 folded before Flop (didn't bet)
+Seat 5: shagvaladyan folded before Flop
+Seat 6: DiggErr555 collected (246)
+
+PokerStars Hand #188549262664: Tournament #2352975270, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:56:50 MSK [2018/07/09 18:56:50 ET]
+Table '2352975270 1' 6-max Seat #2 is the button
+Seat 1: vIpEr9427 (131 in chips)
+Seat 2: Denisov V. (649 in chips)
+Seat 3: Chang Chi (249 in chips)
+Seat 4: sabuco_2110 (846 in chips)
+Seat 5: shagvaladyan (403 in chips)
+Seat 6: DiggErr555 (722 in chips)
+vIpEr9427: posts the ante 6
+Denisov V.: posts the ante 6
+Chang Chi: posts the ante 6
+sabuco_2110: posts the ante 6
+shagvaladyan: posts the ante 6
+DiggErr555: posts the ante 6
+Chang Chi: posts small blind 30
+sabuco_2110: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Qd As]
+shagvaladyan: folds
+DiggErr555: raises 656 to 716 and is all-in
+vIpEr9427: folds
+Denisov V.: folds
+Chang Chi: calls 213 and is all-in
+sabuco_2110: folds
+Uncalled bet (473) returned to DiggErr555
+*** FLOP *** [7h 5c 8s]
+*** TURN *** [7h 5c 8s] [Js]
+*** RIVER *** [7h 5c 8s Js] [Kh]
+*** SHOW DOWN ***
+Chang Chi: shows [7s 7d] (three of a kind, Sevens)
+DiggErr555: shows [Qd As] (high card Ace)
+Chang Chi collected 582 from pot
+*** SUMMARY ***
+Total pot 582 | Rake 0
+Board [7h 5c 8s Js Kh]
+Seat 1: vIpEr9427 folded before Flop (didn't bet)
+Seat 2: Denisov V. (button) folded before Flop (didn't bet)
+Seat 3: Chang Chi (small blind) showed [7s 7d] and won (582) with three of a kind, Sevens
+Seat 4: sabuco_2110 (big blind) folded before Flop
+Seat 5: shagvaladyan folded before Flop (didn't bet)
+Seat 6: DiggErr555 showed [Qd As] and lost with high card Ace
+
+PokerStars Hand #188549277215: Tournament #2352975270, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:57:22 MSK [2018/07/09 18:57:22 ET]
+Table '2352975270 1' 6-max Seat #3 is the button
+Seat 1: vIpEr9427 (125 in chips)
+Seat 2: Denisov V. (643 in chips)
+Seat 3: Chang Chi (582 in chips)
+Seat 4: sabuco_2110 (780 in chips)
+Seat 5: shagvaladyan (397 in chips)
+Seat 6: DiggErr555 (473 in chips)
+vIpEr9427: posts the ante 6
+Denisov V.: posts the ante 6
+Chang Chi: posts the ante 6
+sabuco_2110: posts the ante 6
+shagvaladyan: posts the ante 6
+DiggErr555: posts the ante 6
+sabuco_2110: posts small blind 30
+shagvaladyan: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Qh 8s]
+DiggErr555: folds
+vIpEr9427: raises 59 to 119 and is all-in
+Denisov V.: raises 518 to 637 and is all-in
+Chang Chi: folds
+sabuco_2110: calls 607
+shagvaladyan: folds
+*** FLOP *** [7c Kh 3s]
+*** TURN *** [7c Kh 3s] [7s]
+*** RIVER *** [7c Kh 3s 7s] [7h]
+*** SHOW DOWN ***
+sabuco_2110: shows [2c 2s] (a full house, Sevens full of Deuces)
+Denisov V.: shows [Kc Jd] (a full house, Sevens full of Kings)
+Denisov V. collected 1036 from side pot
+vIpEr9427: shows [Td 8d] (three of a kind, Sevens)
+Denisov V. collected 453 from main pot
+Denisov V. wins the $12.01 bounty for eliminating vIpEr9427
+vIpEr9427 finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 1489 Main pot 453. Side pot 1036. | Rake 0
+Board [7c Kh 3s 7s 7h]
+Seat 1: vIpEr9427 showed [Td 8d] and lost with three of a kind, Sevens
+Seat 2: Denisov V. showed [Kc Jd] and won (1489) with a full house, Sevens full of Kings
+Seat 3: Chang Chi (button) folded before Flop (didn't bet)
+Seat 4: sabuco_2110 (small blind) showed [2c 2s] and lost with a full house, Sevens full of Deuces
+Seat 5: shagvaladyan (big blind) folded before Flop
+Seat 6: DiggErr555 folded before Flop (didn't bet)
+
+PokerStars Hand #188549288294: Tournament #2352975270, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:57:46 MSK [2018/07/09 18:57:46 ET]
+Table '2352975270 1' 6-max Seat #4 is the button
+Seat 2: Denisov V. (1489 in chips)
+Seat 3: Chang Chi (576 in chips)
+Seat 4: sabuco_2110 (137 in chips)
+Seat 5: shagvaladyan (331 in chips)
+Seat 6: DiggErr555 (467 in chips)
+Denisov V.: posts the ante 6
+Chang Chi: posts the ante 6
+sabuco_2110: posts the ante 6
+shagvaladyan: posts the ante 6
+DiggErr555: posts the ante 6
+shagvaladyan: posts small blind 30
+DiggErr555: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Jc 7h]
+Denisov V.: folds
+Chang Chi: calls 60
+sabuco_2110: raises 71 to 131 and is all-in
+shagvaladyan: raises 194 to 325 and is all-in
+DiggErr555: folds
+Chang Chi: folds
+Uncalled bet (194) returned to shagvaladyan
+*** FLOP *** [7c 9h 3h]
+*** TURN *** [7c 9h 3h] [4h]
+*** RIVER *** [7c 9h 3h 4h] [6s]
+*** SHOW DOWN ***
+shagvaladyan: shows [8s 9c] (a pair of Nines)
+sabuco_2110: shows [Qh 2h] (a flush, Queen high)
+sabuco_2110 collected 412 from pot
+*** SUMMARY ***
+Total pot 412 | Rake 0
+Board [7c 9h 3h 4h 6s]
+Seat 2: Denisov V. folded before Flop (didn't bet)
+Seat 3: Chang Chi folded before Flop
+Seat 4: sabuco_2110 (button) showed [Qh 2h] and won (412) with a flush, Queen high
+Seat 5: shagvaladyan (small blind) showed [8s 9c] and lost with a pair of Nines
+Seat 6: DiggErr555 (big blind) folded before Flop
+
+PokerStars Hand #188549305071: Tournament #2352975270, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:58:23 MSK [2018/07/09 18:58:23 ET]
+Table '2352975270 1' 6-max Seat #5 is the button
+Seat 2: Denisov V. (1483 in chips)
+Seat 3: Chang Chi (510 in chips)
+Seat 4: sabuco_2110 (412 in chips)
+Seat 5: shagvaladyan (194 in chips)
+Seat 6: DiggErr555 (401 in chips)
+Denisov V.: posts the ante 8
+Chang Chi: posts the ante 8
+sabuco_2110: posts the ante 8
+shagvaladyan: posts the ante 8
+DiggErr555: posts the ante 8
+DiggErr555: posts small blind 40
+Denisov V.: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [8h 8c]
+Chang Chi: folds
+sabuco_2110: folds
+shagvaladyan: folds
+DiggErr555: raises 313 to 393 and is all-in
+Denisov V.: calls 313
+*** FLOP *** [Jh Kh Qs]
+*** TURN *** [Jh Kh Qs] [Td]
+*** RIVER *** [Jh Kh Qs Td] [Jc]
+*** SHOW DOWN ***
+DiggErr555: shows [8h 8c] (two pair, Jacks and Eights)
+Denisov V.: shows [7h 4h] (a pair of Jacks)
+DiggErr555 collected 826 from pot
+*** SUMMARY ***
+Total pot 826 | Rake 0
+Board [Jh Kh Qs Td Jc]
+Seat 2: Denisov V. (big blind) showed [7h 4h] and lost with a pair of Jacks
+Seat 3: Chang Chi folded before Flop (didn't bet)
+Seat 4: sabuco_2110 folded before Flop (didn't bet)
+Seat 5: shagvaladyan (button) folded before Flop (didn't bet)
+Seat 6: DiggErr555 (small blind) showed [8h 8c] and won (826) with two pair, Jacks and Eights
+
+PokerStars Hand #188549319304: Tournament #2352975270, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:58:54 MSK [2018/07/09 18:58:54 ET]
+Table '2352975270 1' 6-max Seat #6 is the button
+Seat 2: Denisov V. (1082 in chips)
+Seat 3: Chang Chi (502 in chips)
+Seat 4: sabuco_2110 (404 in chips)
+Seat 5: shagvaladyan (186 in chips)
+Seat 6: DiggErr555 (826 in chips)
+Denisov V.: posts the ante 8
+Chang Chi: posts the ante 8
+sabuco_2110: posts the ante 8
+shagvaladyan: posts the ante 8
+DiggErr555: posts the ante 8
+Denisov V.: posts small blind 40
+Chang Chi: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [9h Ac]
+sabuco_2110: folds
+shagvaladyan: raises 98 to 178 and is all-in
+DiggErr555: raises 640 to 818 and is all-in
+Denisov V.: raises 256 to 1074 and is all-in
+Chang Chi: folds
+Uncalled bet (256) returned to Denisov V.
+*** FLOP *** [Qc Jc 4d]
+*** TURN *** [Qc Jc 4d] [As]
+*** RIVER *** [Qc Jc 4d As] [5c]
+*** SHOW DOWN ***
+Denisov V.: shows [Kh Jh] (a pair of Jacks)
+DiggErr555: shows [9h Ac] (a pair of Aces)
+DiggErr555 collected 1280 from side pot
+shagvaladyan: shows [2h 2c] (a pair of Deuces)
+DiggErr555 collected 654 from main pot
+DiggErr555 wins the $12.01 bounty for eliminating shagvaladyan
+shagvaladyan finished the tournament in 5th place
+*** SUMMARY ***
+Total pot 1934 Main pot 654. Side pot 1280. | Rake 0
+Board [Qc Jc 4d As 5c]
+Seat 2: Denisov V. (small blind) showed [Kh Jh] and lost with a pair of Jacks
+Seat 3: Chang Chi (big blind) folded before Flop
+Seat 4: sabuco_2110 folded before Flop (didn't bet)
+Seat 5: shagvaladyan showed [2h 2c] and lost with a pair of Deuces
+Seat 6: DiggErr555 (button) showed [9h Ac] and won (1934) with a pair of Aces
+
+PokerStars Hand #188549328942: Tournament #2352975270, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:59:15 MSK [2018/07/09 18:59:15 ET]
+Table '2352975270 1' 6-max Seat #2 is the button
+Seat 2: Denisov V. (256 in chips)
+Seat 3: Chang Chi (414 in chips)
+Seat 4: sabuco_2110 (396 in chips)
+Seat 6: DiggErr555 (1934 in chips)
+Denisov V.: posts the ante 8
+Chang Chi: posts the ante 8
+sabuco_2110: posts the ante 8
+DiggErr555: posts the ante 8
+Chang Chi: posts small blind 40
+sabuco_2110: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [2h 3s]
+DiggErr555: raises 1846 to 1926 and is all-in
+Denisov V.: calls 248 and is all-in
+Chang Chi: folds
+sabuco_2110: folds
+Uncalled bet (1678) returned to DiggErr555
+*** FLOP *** [Qh 6c Js]
+*** TURN *** [Qh 6c Js] [4c]
+*** RIVER *** [Qh 6c Js 4c] [4d]
+*** SHOW DOWN ***
+DiggErr555: shows [2h 3s] (a pair of Fours)
+Denisov V.: shows [8c 8s] (two pair, Eights and Fours)
+Denisov V. collected 648 from pot
+*** SUMMARY ***
+Total pot 648 | Rake 0
+Board [Qh 6c Js 4c 4d]
+Seat 2: Denisov V. (button) showed [8c 8s] and won (648) with two pair, Eights and Fours
+Seat 3: Chang Chi (small blind) folded before Flop
+Seat 4: sabuco_2110 (big blind) folded before Flop
+Seat 6: DiggErr555 showed [2h 3s] and lost with a pair of Fours
+
+PokerStars Hand #188549337096: Tournament #2352975270, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:59:33 MSK [2018/07/09 18:59:33 ET]
+Table '2352975270 1' 6-max Seat #3 is the button
+Seat 2: Denisov V. (648 in chips)
+Seat 3: Chang Chi (366 in chips)
+Seat 4: sabuco_2110 (308 in chips)
+Seat 6: DiggErr555 (1678 in chips)
+Denisov V.: posts the ante 8
+Chang Chi: posts the ante 8
+sabuco_2110: posts the ante 8
+DiggErr555: posts the ante 8
+sabuco_2110: posts small blind 40
+DiggErr555: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [5c 8c]
+Denisov V.: raises 560 to 640 and is all-in
+Chang Chi: calls 358 and is all-in
+sabuco_2110: calls 260 and is all-in
+DiggErr555: folds
+Uncalled bet (282) returned to Denisov V.
+*** FLOP *** [Qd Qh 9d]
+*** TURN *** [Qd Qh 9d] [3c]
+*** RIVER *** [Qd Qh 9d 3c] [9h]
+*** SHOW DOWN ***
+Denisov V.: shows [Kh Jc] (two pair, Queens and Nines)
+Chang Chi: shows [7c 7d] (two pair, Queens and Nines - lower kicker)
+Denisov V. collected 116 from side pot
+sabuco_2110: shows [Ac 9s] (a full house, Nines full of Queens)
+sabuco_2110 collected 1012 from main pot
+Denisov V. wins the $12.01 bounty for eliminating Chang Chi
+Chang Chi finished the tournament in 4th place
+*** SUMMARY ***
+Total pot 1128 Main pot 1012. Side pot 116. | Rake 0
+Board [Qd Qh 9d 3c 9h]
+Seat 2: Denisov V. showed [Kh Jc] and won (116) with two pair, Queens and Nines
+Seat 3: Chang Chi (button) showed [7c 7d] and lost with two pair, Queens and Nines
+Seat 4: sabuco_2110 (small blind) showed [Ac 9s] and won (1012) with a full house, Nines full of Queens
+Seat 6: DiggErr555 (big blind) folded before Flop
+
+PokerStars Hand #188549347289: Tournament #2352975270, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:59:55 MSK [2018/07/09 18:59:55 ET]
+Table '2352975270 1' 6-max Seat #4 is the button
+Seat 2: Denisov V. (398 in chips)
+Seat 4: sabuco_2110 (1012 in chips)
+Seat 6: DiggErr555 (1590 in chips)
+Denisov V.: posts the ante 8
+sabuco_2110: posts the ante 8
+DiggErr555: posts the ante 8
+DiggErr555: posts small blind 40
+Denisov V.: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [3d 2h]
+sabuco_2110: raises 924 to 1004 and is all-in
+DiggErr555: folds
+Denisov V.: calls 310 and is all-in
+Uncalled bet (614) returned to sabuco_2110
+*** FLOP *** [6s Ah 8d]
+*** TURN *** [6s Ah 8d] [9s]
+*** RIVER *** [6s Ah 8d 9s] [4c]
+*** SHOW DOWN ***
+Denisov V.: shows [8c Qc] (a pair of Eights)
+sabuco_2110: shows [Kc Jc] (high card Ace)
+Denisov V. collected 844 from pot
+*** SUMMARY ***
+Total pot 844 | Rake 0
+Board [6s Ah 8d 9s 4c]
+Seat 2: Denisov V. (big blind) showed [8c Qc] and won (844) with a pair of Eights
+Seat 4: sabuco_2110 (button) showed [Kc Jc] and lost with high card Ace
+Seat 6: DiggErr555 (small blind) folded before Flop
+
+PokerStars Hand #188549357934: Tournament #2352975270, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level VI (50/100) - 2018/07/10 2:00:18 MSK [2018/07/09 19:00:18 ET]
+Table '2352975270 1' 6-max Seat #6 is the button
+Seat 2: Denisov V. (844 in chips)
+Seat 4: sabuco_2110 (614 in chips)
+Seat 6: DiggErr555 (1542 in chips)
+Denisov V.: posts the ante 10
+sabuco_2110: posts the ante 10
+DiggErr555: posts the ante 10
+Denisov V.: posts small blind 50
+sabuco_2110: posts big blind 100
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Td Ad]
+DiggErr555: raises 1432 to 1532 and is all-in
+Denisov V.: folds
+sabuco_2110: folds
+Uncalled bet (1432) returned to DiggErr555
+DiggErr555 collected 280 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 280 | Rake 0
+Seat 2: Denisov V. (small blind) folded before Flop
+Seat 4: sabuco_2110 (big blind) folded before Flop
+Seat 6: DiggErr555 (button) collected (280)
+
+PokerStars Hand #188549363712: Tournament #2352975270, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level VI (50/100) - 2018/07/10 2:00:29 MSK [2018/07/09 19:00:29 ET]
+Table '2352975270 1' 6-max Seat #2 is the button
+Seat 2: Denisov V. (784 in chips)
+Seat 4: sabuco_2110 (504 in chips)
+Seat 6: DiggErr555 (1712 in chips)
+Denisov V.: posts the ante 10
+sabuco_2110: posts the ante 10
+DiggErr555: posts the ante 10
+sabuco_2110: posts small blind 50
+DiggErr555: posts big blind 100
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Kc Tc]
+Denisov V.: folds
+sabuco_2110: folds
+Uncalled bet (50) returned to DiggErr555
+DiggErr555 collected 130 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 130 | Rake 0
+Seat 2: Denisov V. (button) folded before Flop (didn't bet)
+Seat 4: sabuco_2110 (small blind) folded before Flop
+Seat 6: DiggErr555 (big blind) collected (130)
+
+PokerStars Hand #188549366543: Tournament #2352975270, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level VI (50/100) - 2018/07/10 2:00:35 MSK [2018/07/09 19:00:35 ET]
+Table '2352975270 1' 6-max Seat #4 is the button
+Seat 2: Denisov V. (774 in chips)
+Seat 4: sabuco_2110 (444 in chips)
+Seat 6: DiggErr555 (1782 in chips)
+Denisov V.: posts the ante 10
+sabuco_2110: posts the ante 10
+DiggErr555: posts the ante 10
+DiggErr555: posts small blind 50
+Denisov V.: posts big blind 100
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Kh Ks]
+sabuco_2110: folds
+DiggErr555: raises 1672 to 1772 and is all-in
+Denisov V.: folds
+Uncalled bet (1672) returned to DiggErr555
+DiggErr555 collected 230 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 230 | Rake 0
+Seat 2: Denisov V. (big blind) folded before Flop
+Seat 4: sabuco_2110 (button) folded before Flop (didn't bet)
+Seat 6: DiggErr555 (small blind) collected (230)
+
+PokerStars Hand #188549370489: Tournament #2352975270, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level VI (50/100) - 2018/07/10 2:00:43 MSK [2018/07/09 19:00:43 ET]
+Table '2352975270 1' 6-max Seat #6 is the button
+Seat 2: Denisov V. (664 in chips)
+Seat 4: sabuco_2110 (434 in chips)
+Seat 6: DiggErr555 (1902 in chips)
+Denisov V.: posts the ante 10
+sabuco_2110: posts the ante 10
+DiggErr555: posts the ante 10
+Denisov V.: posts small blind 50
+sabuco_2110: posts big blind 100
+*** HOLE CARDS ***
+Dealt to DiggErr555 [9d Tc]
+DiggErr555: raises 1792 to 1892 and is all-in
+Denisov V.: folds
+sabuco_2110: folds
+Uncalled bet (1792) returned to DiggErr555
+DiggErr555 collected 280 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 280 | Rake 0
+Seat 2: Denisov V. (small blind) folded before Flop
+Seat 4: sabuco_2110 (big blind) folded before Flop
+Seat 6: DiggErr555 (button) collected (280)
+
+PokerStars Hand #188549373711: Tournament #2352975270, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level VI (50/100) - 2018/07/10 2:00:49 MSK [2018/07/09 19:00:49 ET]
+Table '2352975270 1' 6-max Seat #2 is the button
+Seat 2: Denisov V. (604 in chips)
+Seat 4: sabuco_2110 (324 in chips)
+Seat 6: DiggErr555 (2072 in chips)
+Denisov V.: posts the ante 10
+sabuco_2110: posts the ante 10
+DiggErr555: posts the ante 10
+sabuco_2110: posts small blind 50
+DiggErr555: posts big blind 100
+*** HOLE CARDS ***
+Dealt to DiggErr555 [5h Ad]
+Denisov V.: folds
+sabuco_2110: raises 214 to 314 and is all-in
+DiggErr555: calls 214
+*** FLOP *** [Qs 6c Jh]
+*** TURN *** [Qs 6c Jh] [6s]
+*** RIVER *** [Qs 6c Jh 6s] [7s]
+*** SHOW DOWN ***
+sabuco_2110: shows [2s Ah] (a pair of Sixes)
+DiggErr555: shows [5h Ad] (a pair of Sixes)
+sabuco_2110 collected 329 from pot
+DiggErr555 collected 329 from pot
+*** SUMMARY ***
+Total pot 658 | Rake 0
+Board [Qs 6c Jh 6s 7s]
+Seat 2: Denisov V. (button) folded before Flop (didn't bet)
+Seat 4: sabuco_2110 (small blind) showed [2s Ah] and won (329) with a pair of Sixes
+Seat 6: DiggErr555 (big blind) showed [5h Ad] and won (329) with a pair of Sixes
+
+PokerStars Hand #188549380624: Tournament #2352975270, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level VI (50/100) - 2018/07/10 2:01:02 MSK [2018/07/09 19:01:02 ET]
+Table '2352975270 1' 6-max Seat #4 is the button
+Seat 2: Denisov V. (594 in chips)
+Seat 4: sabuco_2110 (329 in chips)
+Seat 6: DiggErr555 (2077 in chips)
+Denisov V.: posts the ante 10
+sabuco_2110: posts the ante 10
+DiggErr555: posts the ante 10
+DiggErr555: posts small blind 50
+Denisov V.: posts big blind 100
+*** HOLE CARDS ***
+Dealt to DiggErr555 [8d Ks]
+sabuco_2110: folds
+DiggErr555: raises 1967 to 2067 and is all-in
+Denisov V.: folds
+Uncalled bet (1967) returned to DiggErr555
+DiggErr555 collected 230 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 230 | Rake 0
+Seat 2: Denisov V. (big blind) folded before Flop
+Seat 4: sabuco_2110 (button) folded before Flop (didn't bet)
+Seat 6: DiggErr555 (small blind) collected (230)
+
+PokerStars Hand #188549388778: Tournament #2352975270, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level VII (60/120) - 2018/07/10 2:01:18 MSK [2018/07/09 19:01:18 ET]
+Table '2352975270 1' 6-max Seat #6 is the button
+Seat 2: Denisov V. (484 in chips)
+Seat 4: sabuco_2110 (319 in chips)
+Seat 6: DiggErr555 (2197 in chips)
+Denisov V.: posts the ante 12
+sabuco_2110: posts the ante 12
+DiggErr555: posts the ante 12
+Denisov V.: posts small blind 60
+sabuco_2110: posts big blind 120
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Ah 5c]
+DiggErr555: raises 2065 to 2185 and is all-in
+Denisov V.: folds
+sabuco_2110: calls 187 and is all-in
+Uncalled bet (1878) returned to DiggErr555
+*** FLOP *** [3d Js 2h]
+*** TURN *** [3d Js 2h] [8c]
+*** RIVER *** [3d Js 2h 8c] [3s]
+*** SHOW DOWN ***
+sabuco_2110: shows [2c Jc] (two pair, Jacks and Threes)
+DiggErr555: shows [Ah 5c] (a pair of Threes)
+sabuco_2110 collected 710 from pot
+*** SUMMARY ***
+Total pot 710 | Rake 0
+Board [3d Js 2h 8c 3s]
+Seat 2: Denisov V. (small blind) folded before Flop
+Seat 4: sabuco_2110 (big blind) showed [2c Jc] and won (710) with two pair, Jacks and Threes
+Seat 6: DiggErr555 (button) showed [Ah 5c] and lost with a pair of Threes
+
+PokerStars Hand #188549396477: Tournament #2352975270, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level VII (60/120) - 2018/07/10 2:01:32 MSK [2018/07/09 19:01:32 ET]
+Table '2352975270 1' 6-max Seat #2 is the button
+Seat 2: Denisov V. (412 in chips)
+Seat 4: sabuco_2110 (710 in chips)
+Seat 6: DiggErr555 (1878 in chips)
+Denisov V.: posts the ante 12
+sabuco_2110: posts the ante 12
+DiggErr555: posts the ante 12
+sabuco_2110: posts small blind 60
+DiggErr555: posts big blind 120
+*** HOLE CARDS ***
+Dealt to DiggErr555 [4c Ks]
+Denisov V.: folds
+sabuco_2110: folds
+Uncalled bet (60) returned to DiggErr555
+DiggErr555 collected 156 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 156 | Rake 0
+Seat 2: Denisov V. (button) folded before Flop (didn't bet)
+Seat 4: sabuco_2110 (small blind) folded before Flop
+Seat 6: DiggErr555 (big blind) collected (156)
+
+PokerStars Hand #188549399543: Tournament #2352975270, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level VII (60/120) - 2018/07/10 2:01:37 MSK [2018/07/09 19:01:37 ET]
+Table '2352975270 1' 6-max Seat #4 is the button
+Seat 2: Denisov V. (400 in chips)
+Seat 4: sabuco_2110 (638 in chips)
+Seat 6: DiggErr555 (1962 in chips)
+Denisov V.: posts the ante 12
+sabuco_2110: posts the ante 12
+DiggErr555: posts the ante 12
+DiggErr555: posts small blind 60
+Denisov V.: posts big blind 120
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Tc Td]
+sabuco_2110: raises 506 to 626 and is all-in
+DiggErr555: raises 1324 to 1950 and is all-in
+Denisov V.: folds
+Uncalled bet (1324) returned to DiggErr555
+*** FLOP *** [8h Qh 9c]
+*** TURN *** [8h Qh 9c] [6s]
+*** RIVER *** [8h Qh 9c 6s] [4c]
+*** SHOW DOWN ***
+DiggErr555: shows [Tc Td] (a pair of Tens)
+sabuco_2110: shows [8d Ad] (a pair of Eights)
+DiggErr555 collected 1408 from pot
+DiggErr555 wins the $12.01 bounty for eliminating sabuco_2110
+sabuco_2110 finished the tournament in 3rd place
+*** SUMMARY ***
+Total pot 1408 | Rake 0
+Board [8h Qh 9c 6s 4c]
+Seat 2: Denisov V. (big blind) folded before Flop
+Seat 4: sabuco_2110 (button) showed [8d Ad] and lost with a pair of Eights
+Seat 6: DiggErr555 (small blind) showed [Tc Td] and won (1408) with a pair of Tens
+
+PokerStars Hand #188549410102: Tournament #2352975270, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level VII (60/120) - 2018/07/10 2:01:56 MSK [2018/07/09 19:01:56 ET]
+Table '2352975270 1' 6-max Seat #2 is the button
+Seat 2: Denisov V. (268 in chips)
+Seat 6: DiggErr555 (2732 in chips)
+Denisov V.: posts the ante 12
+DiggErr555: posts the ante 12
+Denisov V.: posts small blind 60
+DiggErr555: posts big blind 120
+*** HOLE CARDS ***
+Dealt to DiggErr555 [2s 7d]
+Denisov V.: raises 136 to 256 and is all-in
+DiggErr555: calls 136
+*** FLOP *** [8s Td 6h]
+*** TURN *** [8s Td 6h] [Ad]
+*** RIVER *** [8s Td 6h Ad] [3h]
+*** SHOW DOWN ***
+DiggErr555: shows [2s 7d] (high card Ace)
+Denisov V.: shows [Qc 4c] (high card Ace - Queen kicker)
+Denisov V. collected 536 from pot
+*** SUMMARY ***
+Total pot 536 | Rake 0
+Board [8s Td 6h Ad 3h]
+Seat 2: Denisov V. (button) (small blind) showed [Qc 4c] and won (536) with high card Ace
+Seat 6: DiggErr555 (big blind) showed [2s 7d] and lost with high card Ace
+
+PokerStars Hand #188549416216: Tournament #2352975270, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level VII (60/120) - 2018/07/10 2:02:07 MSK [2018/07/09 19:02:07 ET]
+Table '2352975270 1' 6-max Seat #6 is the button
+Seat 2: Denisov V. (536 in chips)
+Seat 6: DiggErr555 (2464 in chips)
+Denisov V.: posts the ante 12
+DiggErr555: posts the ante 12
+DiggErr555: posts small blind 60
+Denisov V.: posts big blind 120
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Jd Qd]
+DiggErr555: raises 2332 to 2452 and is all-in
+Denisov V.: calls 404 and is all-in
+Uncalled bet (1928) returned to DiggErr555
+*** FLOP *** [3d 2d 8s]
+*** TURN *** [3d 2d 8s] [Qs]
+*** RIVER *** [3d 2d 8s Qs] [8d]
+*** SHOW DOWN ***
+Denisov V.: shows [Tc Qc] (two pair, Queens and Eights)
+DiggErr555: shows [Jd Qd] (a flush, Queen high)
+DiggErr555 collected 1072 from pot
+DiggErr555 wins the $12.01 bounty for eliminating Denisov V.
+Denisov V. finished the tournament in 2nd place and received $36.03.
+DiggErr555 wins the tournament and receives $36.03 - congratulations!
+*** SUMMARY ***
+Total pot 1072 | Rake 0
+Board [3d 2d 8s Qs 8d]
+Seat 2: Denisov V. (big blind) showed [Tc Qc] and lost with two pair, Queens and Eights
+Seat 6: DiggErr555 (button) (small blind) showed [Jd Qd] and won (1072) with a flush, Queen high

@@ -1,0 +1,273 @@
+
+
+PokerStars Hand #188547156340: Tournament #2352933526, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 0:58:14 MSK [2018/07/09 17:58:14 ET]
+Table '2352933526 1' 6-max Seat #1 is the button
+Seat 1: DiggErr555 (500 in chips)
+Seat 2: MelaninMan (500 in chips)
+Seat 3: Val1k (500 in chips)
+Seat 4: FERZ1979 (500 in chips)
+Seat 5: Volidas02 (500 in chips)
+Seat 6: joemort2 (500 in chips)
+DiggErr555: posts the ante 2
+MelaninMan: posts the ante 2
+Val1k: posts the ante 2
+FERZ1979: posts the ante 2
+Volidas02: posts the ante 2
+joemort2: posts the ante 2
+MelaninMan: posts small blind 10
+Val1k: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [2c Qh]
+FERZ1979: folds
+Volidas02: calls 20
+joemort2: folds
+DiggErr555: folds
+MelaninMan: raises 72 to 92
+Val1k: folds
+Volidas02: calls 72
+*** FLOP *** [3c Kc Td]
+MelaninMan: bets 100
+Volidas02: folds
+Uncalled bet (100) returned to MelaninMan
+MelaninMan collected 216 from pot
+*** SUMMARY ***
+Total pot 216 | Rake 0
+Board [3c Kc Td]
+Seat 1: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 2: MelaninMan (small blind) collected (216)
+Seat 3: Val1k (big blind) folded before Flop
+Seat 4: FERZ1979 folded before Flop (didn't bet)
+Seat 5: Volidas02 folded on the Flop
+Seat 6: joemort2 folded before Flop (didn't bet)
+
+PokerStars Hand #188547175820: Tournament #2352933526, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 0:58:50 MSK [2018/07/09 17:58:50 ET]
+Table '2352933526 1' 6-max Seat #2 is the button
+Seat 1: DiggErr555 (498 in chips)
+Seat 2: MelaninMan (622 in chips)
+Seat 3: Val1k (478 in chips)
+Seat 4: FERZ1979 (498 in chips)
+Seat 5: Volidas02 (406 in chips)
+Seat 6: joemort2 (498 in chips)
+DiggErr555: posts the ante 2
+MelaninMan: posts the ante 2
+Val1k: posts the ante 2
+FERZ1979: posts the ante 2
+Volidas02: posts the ante 2
+joemort2: posts the ante 2
+Val1k: posts small blind 10
+FERZ1979: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Ks 4h]
+Volidas02: raises 384 to 404 and is all-in
+joemort2: raises 92 to 496 and is all-in
+DiggErr555: folds
+MelaninMan: folds
+Val1k: folds
+FERZ1979: folds
+Uncalled bet (92) returned to joemort2
+*** FLOP *** [6s 7d Ts]
+*** TURN *** [6s 7d Ts] [Jd]
+*** RIVER *** [6s 7d Ts Jd] [6c]
+*** SHOW DOWN ***
+Volidas02: shows [5h 5c] (two pair, Sixes and Fives)
+joemort2: shows [3s 3c] (two pair, Sixes and Threes)
+Volidas02 collected 850 from pot
+*** SUMMARY ***
+Total pot 850 | Rake 0
+Board [6s 7d Ts Jd 6c]
+Seat 1: DiggErr555 folded before Flop (didn't bet)
+Seat 2: MelaninMan (button) folded before Flop (didn't bet)
+Seat 3: Val1k (small blind) folded before Flop
+Seat 4: FERZ1979 (big blind) folded before Flop
+Seat 5: Volidas02 showed [5h 5c] and won (850) with two pair, Sixes and Fives
+Seat 6: joemort2 showed [3s 3c] and lost with two pair, Sixes and Threes
+
+PokerStars Hand #188547192281: Tournament #2352933526, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 0:59:20 MSK [2018/07/09 17:59:20 ET]
+Table '2352933526 1' 6-max Seat #3 is the button
+Seat 1: DiggErr555 (496 in chips)
+Seat 2: MelaninMan (620 in chips)
+Seat 3: Val1k (466 in chips)
+Seat 4: FERZ1979 (476 in chips)
+Seat 5: Volidas02 (850 in chips)
+Seat 6: joemort2 (92 in chips)
+DiggErr555: posts the ante 2
+MelaninMan: posts the ante 2
+Val1k: posts the ante 2
+FERZ1979: posts the ante 2
+Volidas02: posts the ante 2
+joemort2: posts the ante 2
+FERZ1979: posts small blind 10
+Volidas02: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Qs Kc]
+joemort2: folds
+DiggErr555: raises 20 to 40
+MelaninMan: folds
+Val1k: folds
+FERZ1979: folds
+Volidas02: folds
+Uncalled bet (20) returned to DiggErr555
+DiggErr555 collected 62 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 62 | Rake 0
+Seat 1: DiggErr555 collected (62)
+Seat 2: MelaninMan folded before Flop (didn't bet)
+Seat 3: Val1k (button) folded before Flop (didn't bet)
+Seat 4: FERZ1979 (small blind) folded before Flop
+Seat 5: Volidas02 (big blind) folded before Flop
+Seat 6: joemort2 folded before Flop (didn't bet)
+
+PokerStars Hand #188547211537: Tournament #2352933526, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 0:59:56 MSK [2018/07/09 17:59:56 ET]
+Table '2352933526 1' 6-max Seat #4 is the button
+Seat 1: DiggErr555 (536 in chips)
+Seat 2: MelaninMan (618 in chips)
+Seat 3: Val1k (464 in chips)
+Seat 4: FERZ1979 (464 in chips)
+Seat 5: Volidas02 (828 in chips)
+Seat 6: joemort2 (90 in chips)
+DiggErr555: posts the ante 3
+MelaninMan: posts the ante 3
+Val1k: posts the ante 3
+FERZ1979: posts the ante 3
+Volidas02: posts the ante 3
+joemort2: posts the ante 3
+Volidas02: posts small blind 15
+joemort2: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [5d 2s]
+DiggErr555: folds
+MelaninMan: folds
+Val1k: raises 431 to 461 and is all-in
+FERZ1979: folds
+Volidas02: folds
+joemort2: calls 57 and is all-in
+Uncalled bet (374) returned to Val1k
+*** FLOP *** [4s 5s 9d]
+*** TURN *** [4s 5s 9d] [9h]
+*** RIVER *** [4s 5s 9d 9h] [3d]
+*** SHOW DOWN ***
+joemort2: shows [Ts Jh] (a pair of Nines)
+Val1k: shows [Ac 5h] (two pair, Nines and Fives)
+Val1k collected 207 from pot
+Val1k wins the $12.01 bounty for eliminating joemort2
+joemort2 finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 207 | Rake 0
+Board [4s 5s 9d 9h 3d]
+Seat 1: DiggErr555 folded before Flop (didn't bet)
+Seat 2: MelaninMan folded before Flop (didn't bet)
+Seat 3: Val1k showed [Ac 5h] and won (207) with two pair, Nines and Fives
+Seat 4: FERZ1979 (button) folded before Flop (didn't bet)
+Seat 5: Volidas02 (small blind) folded before Flop
+Seat 6: joemort2 (big blind) showed [Ts Jh] and lost with a pair of Nines
+
+PokerStars Hand #188547233375: Tournament #2352933526, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:00:35 MSK [2018/07/09 18:00:35 ET]
+Table '2352933526 1' 6-max Seat #5 is the button
+Seat 1: DiggErr555 (533 in chips)
+Seat 2: MelaninMan (615 in chips)
+Seat 3: Val1k (581 in chips)
+Seat 4: FERZ1979 (461 in chips)
+Seat 5: Volidas02 (810 in chips)
+DiggErr555: posts the ante 3
+MelaninMan: posts the ante 3
+Val1k: posts the ante 3
+FERZ1979: posts the ante 3
+Volidas02: posts the ante 3
+DiggErr555: posts small blind 15
+MelaninMan: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [9d 5d]
+Val1k: folds
+FERZ1979: folds
+Volidas02 has timed out
+Volidas02: folds
+Volidas02 is sitting out
+DiggErr555: folds
+Uncalled bet (15) returned to MelaninMan
+Volidas02 has returned
+MelaninMan collected 45 from pot
+*** SUMMARY ***
+Total pot 45 | Rake 0
+Seat 1: DiggErr555 (small blind) folded before Flop
+Seat 2: MelaninMan (big blind) collected (45)
+Seat 3: Val1k folded before Flop (didn't bet)
+Seat 4: FERZ1979 folded before Flop (didn't bet)
+Seat 5: Volidas02 (button) folded before Flop (didn't bet)
+
+PokerStars Hand #188547247969: Tournament #2352933526, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:00:59 MSK [2018/07/09 18:00:59 ET]
+Table '2352933526 1' 6-max Seat #1 is the button
+Seat 1: DiggErr555 (515 in chips)
+Seat 2: MelaninMan (642 in chips)
+Seat 3: Val1k (578 in chips)
+Seat 4: FERZ1979 (458 in chips)
+Seat 5: Volidas02 (807 in chips)
+DiggErr555: posts the ante 3
+MelaninMan: posts the ante 3
+Val1k: posts the ante 3
+FERZ1979: posts the ante 3
+Volidas02: posts the ante 3
+MelaninMan: posts small blind 15
+Val1k: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6d Th]
+FERZ1979: folds
+Volidas02: raises 30 to 60
+DiggErr555: folds
+MelaninMan: calls 45
+Val1k: raises 515 to 575 and is all-in
+Volidas02: raises 229 to 804 and is all-in
+MelaninMan: folds
+Uncalled bet (229) returned to Volidas02
+*** FLOP *** [Td 7h 6s]
+*** TURN *** [Td 7h 6s] [As]
+*** RIVER *** [Td 7h 6s As] [9d]
+*** SHOW DOWN ***
+Val1k: shows [Jh Ad] (a pair of Aces)
+Volidas02: shows [Ts Ah] (two pair, Aces and Tens)
+Volidas02 collected 1225 from pot
+Volidas02 wins the $12.01 bounty for eliminating Val1k
+Val1k finished the tournament in 5th place
+*** SUMMARY ***
+Total pot 1225 | Rake 0
+Board [Td 7h 6s As 9d]
+Seat 1: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 2: MelaninMan (small blind) folded before Flop
+Seat 3: Val1k (big blind) showed [Jh Ad] and lost with a pair of Aces
+Seat 4: FERZ1979 folded before Flop (didn't bet)
+Seat 5: Volidas02 showed [Ts Ah] and won (1225) with two pair, Aces and Tens
+
+PokerStars Hand #188547269674: Tournament #2352933526, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:01:33 MSK [2018/07/09 18:01:33 ET]
+Table '2352933526 1' 6-max Seat #2 is the button
+Seat 1: DiggErr555 (512 in chips)
+Seat 2: MelaninMan (579 in chips)
+Seat 4: FERZ1979 (455 in chips)
+Seat 5: Volidas02 (1454 in chips)
+DiggErr555: posts the ante 3
+MelaninMan: posts the ante 3
+FERZ1979: posts the ante 3
+Volidas02: posts the ante 3
+FERZ1979: posts small blind 15
+Volidas02: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [4d 4h]
+DiggErr555: raises 479 to 509 and is all-in
+MelaninMan: folds
+FERZ1979: folds
+Volidas02: calls 479
+*** FLOP *** [7s Jd 9s]
+*** TURN *** [7s Jd 9s] [Td]
+*** RIVER *** [7s Jd 9s Td] [Qd]
+*** SHOW DOWN ***
+Volidas02: shows [9d As] (a pair of Nines)
+DiggErr555: shows [4d 4h] (a pair of Fours)
+Volidas02 collected 1045 from pot
+Volidas02 wins the $12.01 bounty for eliminating DiggErr555
+DiggErr555 finished the tournament in 4th place
+*** SUMMARY ***
+Total pot 1045 | Rake 0
+Board [7s Jd 9s Td Qd]
+Seat 1: DiggErr555 showed [4d 4h] and lost with a pair of Fours
+Seat 2: MelaninMan (button) folded before Flop (didn't bet)
+Seat 4: FERZ1979 (small blind) folded before Flop
+Seat 5: Volidas02 (big blind) showed [9d As] and won (1045) with a pair of Nines

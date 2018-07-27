@@ -1,0 +1,545 @@
+
+
+PokerStars Hand #188547405777: Tournament #2352938569, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:05:02 MSK [2018/07/09 18:05:02 ET]
+Table '2352938569 1' 6-max Seat #1 is the button
+Seat 1: DiggErr555 (500 in chips)
+Seat 2: Maartenkiter (500 in chips)
+Seat 3: NL_Classic (500 in chips)
+Seat 4: erika8282 (500 in chips)
+Seat 5: sabuco_2110 (500 in chips)
+Seat 6: UgotPHIL'd (500 in chips)
+DiggErr555: posts the ante 2
+Maartenkiter: posts the ante 2
+NL_Classic: posts the ante 2
+erika8282: posts the ante 2
+sabuco_2110: posts the ante 2
+UgotPHIL'd: posts the ante 2
+Maartenkiter: posts small blind 10
+NL_Classic: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6h Th]
+erika8282: folds
+sabuco_2110: folds
+UgotPHIL'd: folds
+DiggErr555: raises 20 to 40
+Maartenkiter: raises 60 to 100
+NL_Classic: raises 398 to 498 and is all-in
+DiggErr555: folds
+Maartenkiter: calls 398 and is all-in
+*** FLOP *** [8s Qd 5s]
+*** TURN *** [8s Qd 5s] [Kd]
+*** RIVER *** [8s Qd 5s Kd] [7c]
+*** SHOW DOWN ***
+Maartenkiter: shows [Ah Ad] (a pair of Aces)
+NL_Classic: shows [Qh Qc] (three of a kind, Queens)
+NL_Classic collected 1048 from pot
+NL_Classic wins the $12.01 bounty for eliminating Maartenkiter
+Maartenkiter finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 1048 | Rake 0
+Board [8s Qd 5s Kd 7c]
+Seat 1: DiggErr555 (button) folded before Flop
+Seat 2: Maartenkiter (small blind) showed [Ah Ad] and lost with a pair of Aces
+Seat 3: NL_Classic (big blind) showed [Qh Qc] and won (1048) with three of a kind, Queens
+Seat 4: erika8282 folded before Flop (didn't bet)
+Seat 5: sabuco_2110 folded before Flop (didn't bet)
+Seat 6: UgotPHIL'd folded before Flop (didn't bet)
+
+PokerStars Hand #188547433007: Tournament #2352938569, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:05:44 MSK [2018/07/09 18:05:44 ET]
+Table '2352938569 1' 6-max Seat #3 is the button
+Seat 1: DiggErr555 (458 in chips)
+Seat 3: NL_Classic (1048 in chips)
+Seat 4: erika8282 (498 in chips)
+Seat 5: sabuco_2110 (498 in chips)
+Seat 6: UgotPHIL'd (498 in chips)
+DiggErr555: posts the ante 2
+NL_Classic: posts the ante 2
+erika8282: posts the ante 2
+sabuco_2110: posts the ante 2
+UgotPHIL'd: posts the ante 2
+erika8282: posts small blind 10
+sabuco_2110: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Ts 6d]
+UgotPHIL'd: folds
+DiggErr555: folds
+NL_Classic: folds
+erika8282: calls 10
+sabuco_2110: checks
+*** FLOP *** [3s 2s Qh]
+erika8282: checks
+sabuco_2110: checks
+*** TURN *** [3s 2s Qh] [Qs]
+erika8282: checks
+sabuco_2110: checks
+*** RIVER *** [3s 2s Qh Qs] [3h]
+erika8282: checks
+sabuco_2110: checks
+*** SHOW DOWN ***
+erika8282: shows [5h 6s] (two pair, Queens and Threes)
+sabuco_2110: shows [9s 4h] (two pair, Queens and Threes - Nine kicker)
+sabuco_2110 collected 50 from pot
+*** SUMMARY ***
+Total pot 50 | Rake 0
+Board [3s 2s Qh Qs 3h]
+Seat 1: DiggErr555 folded before Flop (didn't bet)
+Seat 3: NL_Classic (button) folded before Flop (didn't bet)
+Seat 4: erika8282 (small blind) showed [5h 6s] and lost with two pair, Queens and Threes
+Seat 5: sabuco_2110 (big blind) showed [9s 4h] and won (50) with two pair, Queens and Threes
+Seat 6: UgotPHIL'd folded before Flop (didn't bet)
+
+PokerStars Hand #188547449463: Tournament #2352938569, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:06:09 MSK [2018/07/09 18:06:09 ET]
+Table '2352938569 1' 6-max Seat #4 is the button
+Seat 1: DiggErr555 (456 in chips)
+Seat 3: NL_Classic (1046 in chips)
+Seat 4: erika8282 (476 in chips)
+Seat 5: sabuco_2110 (526 in chips)
+Seat 6: UgotPHIL'd (496 in chips)
+DiggErr555: posts the ante 2
+NL_Classic: posts the ante 2
+erika8282: posts the ante 2
+sabuco_2110: posts the ante 2
+UgotPHIL'd: posts the ante 2
+sabuco_2110: posts small blind 10
+UgotPHIL'd: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [4s Jc]
+DiggErr555: folds
+NL_Classic: folds
+erika8282: calls 20
+sabuco_2110: folds
+UgotPHIL'd: checks
+*** FLOP *** [9c 9s 7d]
+UgotPHIL'd: checks
+erika8282: bets 40
+UgotPHIL'd: folds
+Uncalled bet (40) returned to erika8282
+erika8282 collected 60 from pot
+erika8282: doesn't show hand
+*** SUMMARY ***
+Total pot 60 | Rake 0
+Board [9c 9s 7d]
+Seat 1: DiggErr555 folded before Flop (didn't bet)
+Seat 3: NL_Classic folded before Flop (didn't bet)
+Seat 4: erika8282 (button) collected (60)
+Seat 5: sabuco_2110 (small blind) folded before Flop
+Seat 6: UgotPHIL'd (big blind) folded on the Flop
+
+PokerStars Hand #188547467103: Tournament #2352938569, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:06:35 MSK [2018/07/09 18:06:35 ET]
+Table '2352938569 1' 6-max Seat #5 is the button
+Seat 1: DiggErr555 (454 in chips)
+Seat 3: NL_Classic (1044 in chips)
+Seat 4: erika8282 (514 in chips)
+Seat 5: sabuco_2110 (514 in chips)
+Seat 6: UgotPHIL'd (474 in chips)
+DiggErr555: posts the ante 3
+NL_Classic: posts the ante 3
+erika8282: posts the ante 3
+sabuco_2110: posts the ante 3
+UgotPHIL'd: posts the ante 3
+UgotPHIL'd: posts small blind 15
+DiggErr555: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [4d 7h]
+NL_Classic: folds
+erika8282: folds
+sabuco_2110: folds
+UgotPHIL'd: raises 441 to 471 and is all-in
+DiggErr555: folds
+Uncalled bet (441) returned to UgotPHIL'd
+UgotPHIL'd collected 75 from pot
+UgotPHIL'd: doesn't show hand
+*** SUMMARY ***
+Total pot 75 | Rake 0
+Seat 1: DiggErr555 (big blind) folded before Flop
+Seat 3: NL_Classic folded before Flop (didn't bet)
+Seat 4: erika8282 folded before Flop (didn't bet)
+Seat 5: sabuco_2110 (button) folded before Flop (didn't bet)
+Seat 6: UgotPHIL'd (small blind) collected (75)
+
+PokerStars Hand #188547474957: Tournament #2352938569, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:06:48 MSK [2018/07/09 18:06:48 ET]
+Table '2352938569 1' 6-max Seat #6 is the button
+Seat 1: DiggErr555 (421 in chips)
+Seat 3: NL_Classic (1041 in chips)
+Seat 4: erika8282 (511 in chips)
+Seat 5: sabuco_2110 (511 in chips)
+Seat 6: UgotPHIL'd (516 in chips)
+DiggErr555: posts the ante 3
+NL_Classic: posts the ante 3
+erika8282: posts the ante 3
+sabuco_2110: posts the ante 3
+UgotPHIL'd: posts the ante 3
+DiggErr555: posts small blind 15
+NL_Classic: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Tc Td]
+erika8282: folds
+sabuco_2110: folds
+UgotPHIL'd: folds
+DiggErr555: raises 388 to 418 and is all-in
+NL_Classic: folds
+Uncalled bet (388) returned to DiggErr555
+DiggErr555 collected 75 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 75 | Rake 0
+Seat 1: DiggErr555 (small blind) collected (75)
+Seat 3: NL_Classic (big blind) folded before Flop
+Seat 4: erika8282 folded before Flop (didn't bet)
+Seat 5: sabuco_2110 folded before Flop (didn't bet)
+Seat 6: UgotPHIL'd (button) folded before Flop (didn't bet)
+
+PokerStars Hand #188547486315: Tournament #2352938569, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:07:05 MSK [2018/07/09 18:07:05 ET]
+Table '2352938569 1' 6-max Seat #1 is the button
+Seat 1: DiggErr555 (463 in chips)
+Seat 3: NL_Classic (1008 in chips)
+Seat 4: erika8282 (508 in chips)
+Seat 5: sabuco_2110 (508 in chips)
+Seat 6: UgotPHIL'd (513 in chips)
+DiggErr555: posts the ante 3
+NL_Classic: posts the ante 3
+erika8282: posts the ante 3
+sabuco_2110: posts the ante 3
+UgotPHIL'd: posts the ante 3
+NL_Classic: posts small blind 15
+erika8282: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [4d Ks]
+sabuco_2110: calls 30
+UgotPHIL'd: raises 480 to 510 and is all-in
+DiggErr555: folds
+NL_Classic: folds
+erika8282: folds
+sabuco_2110: calls 475 and is all-in
+Uncalled bet (5) returned to UgotPHIL'd
+*** FLOP *** [Qs Jd Kc]
+*** TURN *** [Qs Jd Kc] [5c]
+*** RIVER *** [Qs Jd Kc 5c] [Jc]
+*** SHOW DOWN ***
+sabuco_2110: shows [Ac As] (two pair, Aces and Jacks)
+UgotPHIL'd: shows [7d 7s] (two pair, Jacks and Sevens)
+sabuco_2110 collected 1070 from pot
+*** SUMMARY ***
+Total pot 1070 | Rake 0
+Board [Qs Jd Kc 5c Jc]
+Seat 1: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 3: NL_Classic (small blind) folded before Flop
+Seat 4: erika8282 (big blind) folded before Flop
+Seat 5: sabuco_2110 showed [Ac As] and won (1070) with two pair, Aces and Jacks
+Seat 6: UgotPHIL'd showed [7d 7s] and lost with two pair, Jacks and Sevens
+
+PokerStars Hand #188547499805: Tournament #2352938569, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:07:26 MSK [2018/07/09 18:07:26 ET]
+Table '2352938569 1' 6-max Seat #3 is the button
+Seat 1: DiggErr555 (460 in chips)
+Seat 3: NL_Classic (990 in chips)
+Seat 4: erika8282 (475 in chips)
+Seat 5: sabuco_2110 (1070 in chips)
+Seat 6: UgotPHIL'd (5 in chips)
+DiggErr555: posts the ante 3
+NL_Classic: posts the ante 3
+erika8282: posts the ante 3
+sabuco_2110: posts the ante 3
+UgotPHIL'd: posts the ante 3
+erika8282: posts small blind 15
+sabuco_2110: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [As 4h]
+UgotPHIL'd: calls 2 and is all-in
+DiggErr555: raises 427 to 457 and is all-in
+NL_Classic: folds
+erika8282: folds
+sabuco_2110: calls 427
+*** FLOP *** [7d Qd Ts]
+*** TURN *** [7d Qd Ts] [9c]
+*** RIVER *** [7d Qd Ts 9c] [5c]
+*** SHOW DOWN ***
+sabuco_2110: shows [3h 8h] (high card Queen)
+DiggErr555: shows [As 4h] (high card Ace)
+DiggErr555 collected 923 from side pot
+UgotPHIL'd: shows [Td Kc] (a pair of Tens)
+UgotPHIL'd collected 23 from main pot
+*** SUMMARY ***
+Total pot 946 Main pot 23. Side pot 923. | Rake 0
+Board [7d Qd Ts 9c 5c]
+Seat 1: DiggErr555 showed [As 4h] and won (923) with high card Ace
+Seat 3: NL_Classic (button) folded before Flop (didn't bet)
+Seat 4: erika8282 (small blind) folded before Flop
+Seat 5: sabuco_2110 (big blind) showed [3h 8h] and lost with high card Queen
+Seat 6: UgotPHIL'd showed [Td Kc] and won (23) with a pair of Tens
+
+PokerStars Hand #188547521584: Tournament #2352938569, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:08:00 MSK [2018/07/09 18:08:00 ET]
+Table '2352938569 1' 6-max Seat #4 is the button
+Seat 1: DiggErr555 (923 in chips)
+Seat 3: NL_Classic (987 in chips)
+Seat 4: erika8282 (457 in chips)
+Seat 5: sabuco_2110 (610 in chips)
+Seat 6: UgotPHIL'd (23 in chips)
+DiggErr555: posts the ante 4
+NL_Classic: posts the ante 4
+erika8282: posts the ante 4
+sabuco_2110: posts the ante 4
+UgotPHIL'd: posts the ante 4
+sabuco_2110: posts small blind 20
+UgotPHIL'd: posts big blind 19 and is all-in
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Ts 5c]
+DiggErr555: folds
+NL_Classic: folds
+erika8282: calls 40
+sabuco_2110: raises 566 to 606 and is all-in
+erika8282: calls 413 and is all-in
+Uncalled bet (153) returned to sabuco_2110
+*** FLOP *** [Ad Jd Qd]
+*** TURN *** [Ad Jd Qd] [4c]
+*** RIVER *** [Ad Jd Qd 4c] [Td]
+*** SHOW DOWN ***
+sabuco_2110: shows [3d Qh] (a flush, Ace high)
+erika8282: shows [Ac 2d] (a flush, Ace high - lower cards)
+sabuco_2110 collected 868 from side pot
+UgotPHIL'd: shows [8d Ks] (a flush, Ace high - Eight higher)
+UgotPHIL'd collected 77 from main pot
+sabuco_2110 wins the $12.01 bounty for eliminating erika8282
+erika8282 finished the tournament in 5th place
+*** SUMMARY ***
+Total pot 945 Main pot 77. Side pot 868. | Rake 0
+Board [Ad Jd Qd 4c Td]
+Seat 1: DiggErr555 folded before Flop (didn't bet)
+Seat 3: NL_Classic folded before Flop (didn't bet)
+Seat 4: erika8282 (button) showed [Ac 2d] and lost with a flush, Ace high
+Seat 5: sabuco_2110 (small blind) showed [3d Qh] and won (868) with a flush, Ace high
+Seat 6: UgotPHIL'd (big blind) showed [8d Ks] and won (77) with a flush, Ace high
+
+PokerStars Hand #188547538628: Tournament #2352938569, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:08:26 MSK [2018/07/09 18:08:26 ET]
+Table '2352938569 1' 6-max Seat #5 is the button
+Seat 1: DiggErr555 (919 in chips)
+Seat 3: NL_Classic (983 in chips)
+Seat 5: sabuco_2110 (1021 in chips)
+Seat 6: UgotPHIL'd (77 in chips)
+DiggErr555: posts the ante 4
+NL_Classic: posts the ante 4
+sabuco_2110: posts the ante 4
+UgotPHIL'd: posts the ante 4
+UgotPHIL'd: posts small blind 20
+DiggErr555: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6h Ad]
+NL_Classic: folds
+sabuco_2110: folds
+UgotPHIL'd: folds
+Uncalled bet (20) returned to DiggErr555
+DiggErr555 collected 56 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 56 | Rake 0
+Seat 1: DiggErr555 (big blind) collected (56)
+Seat 3: NL_Classic folded before Flop (didn't bet)
+Seat 5: sabuco_2110 (button) folded before Flop (didn't bet)
+Seat 6: UgotPHIL'd (small blind) folded before Flop
+
+PokerStars Hand #188547548167: Tournament #2352938569, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:08:41 MSK [2018/07/09 18:08:41 ET]
+Table '2352938569 1' 6-max Seat #6 is the button
+Seat 1: DiggErr555 (951 in chips)
+Seat 3: NL_Classic (979 in chips)
+Seat 5: sabuco_2110 (1017 in chips)
+Seat 6: UgotPHIL'd (53 in chips)
+DiggErr555: posts the ante 4
+NL_Classic: posts the ante 4
+sabuco_2110: posts the ante 4
+UgotPHIL'd: posts the ante 4
+DiggErr555: posts small blind 20
+NL_Classic: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [9c 3h]
+sabuco_2110: raises 973 to 1013 and is all-in
+UgotPHIL'd: folds
+DiggErr555: folds
+NL_Classic: folds
+Uncalled bet (973) returned to sabuco_2110
+sabuco_2110 collected 116 from pot
+*** SUMMARY ***
+Total pot 116 | Rake 0
+Seat 1: DiggErr555 (small blind) folded before Flop
+Seat 3: NL_Classic (big blind) folded before Flop
+Seat 5: sabuco_2110 collected (116)
+Seat 6: UgotPHIL'd (button) folded before Flop (didn't bet)
+
+PokerStars Hand #188547557730: Tournament #2352938569, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:08:56 MSK [2018/07/09 18:08:56 ET]
+Table '2352938569 1' 6-max Seat #1 is the button
+Seat 1: DiggErr555 (927 in chips)
+Seat 3: NL_Classic (935 in chips)
+Seat 5: sabuco_2110 (1089 in chips)
+Seat 6: UgotPHIL'd (49 in chips)
+DiggErr555: posts the ante 4
+NL_Classic: posts the ante 4
+sabuco_2110: posts the ante 4
+UgotPHIL'd: posts the ante 4
+NL_Classic: posts small blind 20
+sabuco_2110: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [2s 2c]
+UgotPHIL'd: raises 5 to 45 and is all-in
+DiggErr555: raises 878 to 923 and is all-in
+NL_Classic: folds
+sabuco_2110: folds
+Uncalled bet (878) returned to DiggErr555
+*** FLOP *** [9s 5s 7d]
+*** TURN *** [9s 5s 7d] [4s]
+*** RIVER *** [9s 5s 7d 4s] [Ad]
+*** SHOW DOWN ***
+UgotPHIL'd: shows [Kc 6s] (high card Ace)
+DiggErr555: shows [2s 2c] (a pair of Deuces)
+DiggErr555 collected 166 from pot
+DiggErr555 wins the $12.01 bounty for eliminating UgotPHIL'd
+UgotPHIL'd finished the tournament in 4th place
+*** SUMMARY ***
+Total pot 166 | Rake 0
+Board [9s 5s 7d 4s Ad]
+Seat 1: DiggErr555 (button) showed [2s 2c] and won (166) with a pair of Deuces
+Seat 3: NL_Classic (small blind) folded before Flop
+Seat 5: sabuco_2110 (big blind) folded before Flop
+Seat 6: UgotPHIL'd showed [Kc 6s] and lost with high card Ace
+
+PokerStars Hand #188547574526: Tournament #2352938569, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:09:22 MSK [2018/07/09 18:09:22 ET]
+Table '2352938569 1' 6-max Seat #3 is the button
+Seat 1: DiggErr555 (1044 in chips)
+Seat 3: NL_Classic (911 in chips)
+Seat 5: sabuco_2110 (1045 in chips)
+DiggErr555: posts the ante 6
+NL_Classic: posts the ante 6
+sabuco_2110: posts the ante 6
+sabuco_2110: posts small blind 30
+DiggErr555: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [2d 5c]
+NL_Classic: folds
+sabuco_2110: raises 979 to 1039 and is all-in
+DiggErr555: folds
+Uncalled bet (979) returned to sabuco_2110
+sabuco_2110 collected 138 from pot
+*** SUMMARY ***
+Total pot 138 | Rake 0
+Seat 1: DiggErr555 (big blind) folded before Flop
+Seat 3: NL_Classic (button) folded before Flop (didn't bet)
+Seat 5: sabuco_2110 (small blind) collected (138)
+
+PokerStars Hand #188547579852: Tournament #2352938569, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:09:30 MSK [2018/07/09 18:09:30 ET]
+Table '2352938569 1' 6-max Seat #5 is the button
+Seat 1: DiggErr555 (978 in chips)
+Seat 3: NL_Classic (905 in chips)
+Seat 5: sabuco_2110 (1117 in chips)
+DiggErr555: posts the ante 6
+NL_Classic: posts the ante 6
+sabuco_2110: posts the ante 6
+DiggErr555: posts small blind 30
+NL_Classic: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [2h Jd]
+sabuco_2110: folds
+DiggErr555: folds
+Uncalled bet (30) returned to NL_Classic
+NL_Classic collected 78 from pot
+NL_Classic: doesn't show hand
+*** SUMMARY ***
+Total pot 78 | Rake 0
+Seat 1: DiggErr555 (small blind) folded before Flop
+Seat 3: NL_Classic (big blind) collected (78)
+Seat 5: sabuco_2110 (button) folded before Flop (didn't bet)
+
+PokerStars Hand #188547589442: Tournament #2352938569, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:09:45 MSK [2018/07/09 18:09:45 ET]
+Table '2352938569 1' 6-max Seat #1 is the button
+Seat 1: DiggErr555 (942 in chips)
+Seat 3: NL_Classic (947 in chips)
+Seat 5: sabuco_2110 (1111 in chips)
+DiggErr555: posts the ante 6
+NL_Classic: posts the ante 6
+sabuco_2110: posts the ante 6
+NL_Classic: posts small blind 30
+sabuco_2110: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [7h 4c]
+DiggErr555: folds
+NL_Classic: folds
+Uncalled bet (30) returned to sabuco_2110
+sabuco_2110 collected 78 from pot
+*** SUMMARY ***
+Total pot 78 | Rake 0
+Seat 1: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 3: NL_Classic (small blind) folded before Flop
+Seat 5: sabuco_2110 (big blind) collected (78)
+
+PokerStars Hand #188547595627: Tournament #2352938569, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:09:55 MSK [2018/07/09 18:09:55 ET]
+Table '2352938569 1' 6-max Seat #3 is the button
+Seat 1: DiggErr555 (936 in chips)
+Seat 3: NL_Classic (911 in chips)
+Seat 5: sabuco_2110 (1153 in chips)
+DiggErr555: posts the ante 6
+NL_Classic: posts the ante 6
+sabuco_2110: posts the ante 6
+sabuco_2110: posts small blind 30
+DiggErr555: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [5d 3d]
+NL_Classic: folds
+sabuco_2110: folds
+Uncalled bet (30) returned to DiggErr555
+DiggErr555 collected 78 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 78 | Rake 0
+Seat 1: DiggErr555 (big blind) collected (78)
+Seat 3: NL_Classic (button) folded before Flop (didn't bet)
+Seat 5: sabuco_2110 (small blind) folded before Flop
+
+PokerStars Hand #188547599765: Tournament #2352938569, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:10:01 MSK [2018/07/09 18:10:01 ET]
+Table '2352938569 1' 6-max Seat #5 is the button
+Seat 1: DiggErr555 (978 in chips)
+Seat 3: NL_Classic (905 in chips)
+Seat 5: sabuco_2110 (1117 in chips)
+DiggErr555: posts the ante 6
+NL_Classic: posts the ante 6
+sabuco_2110: posts the ante 6
+DiggErr555: posts small blind 30
+NL_Classic: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Jc 2h]
+sabuco_2110: raises 1051 to 1111 and is all-in
+DiggErr555: folds
+NL_Classic: folds
+Uncalled bet (1051) returned to sabuco_2110
+sabuco_2110 collected 168 from pot
+*** SUMMARY ***
+Total pot 168 | Rake 0
+Seat 1: DiggErr555 (small blind) folded before Flop
+Seat 3: NL_Classic (big blind) folded before Flop
+Seat 5: sabuco_2110 (button) collected (168)
+
+PokerStars Hand #188547609121: Tournament #2352938569, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:10:16 MSK [2018/07/09 18:10:16 ET]
+Table '2352938569 1' 6-max Seat #1 is the button
+Seat 1: DiggErr555 (942 in chips)
+Seat 3: NL_Classic (839 in chips)
+Seat 5: sabuco_2110 (1219 in chips)
+DiggErr555: posts the ante 8
+NL_Classic: posts the ante 8
+sabuco_2110: posts the ante 8
+NL_Classic: posts small blind 40
+sabuco_2110: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6c Ac]
+DiggErr555: raises 854 to 934 and is all-in
+NL_Classic: folds
+sabuco_2110: calls 854
+*** FLOP *** [Tc Kd 8c]
+*** TURN *** [Tc Kd 8c] [8s]
+*** RIVER *** [Tc Kd 8c 8s] [6s]
+*** SHOW DOWN ***
+sabuco_2110: shows [Ts As] (two pair, Tens and Eights)
+DiggErr555: shows [6c Ac] (two pair, Eights and Sixes)
+sabuco_2110 collected 1932 from pot
+sabuco_2110 wins the $12.01 bounty for eliminating DiggErr555
+DiggErr555 finished the tournament in 3rd place
+*** SUMMARY ***
+Total pot 1932 | Rake 0
+Board [Tc Kd 8c 8s 6s]
+Seat 1: DiggErr555 (button) showed [6c Ac] and lost with two pair, Eights and Sixes
+Seat 3: NL_Classic (small blind) folded before Flop
+Seat 5: sabuco_2110 (big blind) showed [Ts As] and won (1932) with two pair, Tens and Eights

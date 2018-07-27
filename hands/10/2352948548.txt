@@ -1,0 +1,435 @@
+
+
+PokerStars Hand #188547774423: Tournament #2352948548, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:14:35 MSK [2018/07/09 18:14:35 ET]
+Table '2352948548 1' 6-max Seat #1 is the button
+Seat 1: DiggErr555 (500 in chips)
+Seat 2: 2Ran128 (500 in chips)
+Seat 3: HuGuinZ (500 in chips)
+Seat 4: ultraluxe (500 in chips)
+Seat 5: pokeracer87 (500 in chips)
+Seat 6: UpperCut KO (500 in chips)
+DiggErr555: posts the ante 2
+2Ran128: posts the ante 2
+HuGuinZ: posts the ante 2
+ultraluxe: posts the ante 2
+pokeracer87: posts the ante 2
+UpperCut KO: posts the ante 2
+2Ran128: posts small blind 10
+HuGuinZ: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Kd 9h]
+ultraluxe: raises 478 to 498 and is all-in
+pokeracer87: folds
+UpperCut KO: folds
+DiggErr555: folds
+2Ran128: calls 488 and is all-in
+HuGuinZ: folds
+*** FLOP *** [9s Ts Ks]
+*** TURN *** [9s Ts Ks] [3d]
+*** RIVER *** [9s Ts Ks 3d] [Tc]
+*** SHOW DOWN ***
+2Ran128: shows [As Qc] (a pair of Tens)
+ultraluxe: shows [Ah Js] (a pair of Tens - lower kicker)
+2Ran128 collected 1028 from pot
+2Ran128 wins the $4.79 bounty for eliminating ultraluxe
+ultraluxe finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 1028 | Rake 0
+Board [9s Ts Ks 3d Tc]
+Seat 1: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 2: 2Ran128 (small blind) showed [As Qc] and won (1028) with a pair of Tens
+Seat 3: HuGuinZ (big blind) folded before Flop
+Seat 4: ultraluxe showed [Ah Js] and lost with a pair of Tens
+Seat 5: pokeracer87 folded before Flop (didn't bet)
+Seat 6: UpperCut KO folded before Flop (didn't bet)
+
+PokerStars Hand #188547800421: Tournament #2352948548, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:15:16 MSK [2018/07/09 18:15:16 ET]
+Table '2352948548 1' 6-max Seat #2 is the button
+Seat 1: DiggErr555 (498 in chips)
+Seat 2: 2Ran128 (1028 in chips)
+Seat 3: HuGuinZ (478 in chips)
+Seat 5: pokeracer87 (498 in chips)
+Seat 6: UpperCut KO (498 in chips)
+DiggErr555: posts the ante 2
+2Ran128: posts the ante 2
+HuGuinZ: posts the ante 2
+pokeracer87: posts the ante 2
+UpperCut KO: posts the ante 2
+HuGuinZ: posts small blind 10
+pokeracer87: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Ah Tc]
+UpperCut KO: raises 20 to 40
+DiggErr555: folds
+2Ran128: folds
+HuGuinZ: folds
+pokeracer87: folds
+Uncalled bet (20) returned to UpperCut KO
+UpperCut KO collected 60 from pot
+UpperCut KO: doesn't show hand
+*** SUMMARY ***
+Total pot 60 | Rake 0
+Seat 1: DiggErr555 folded before Flop (didn't bet)
+Seat 2: 2Ran128 (button) folded before Flop (didn't bet)
+Seat 3: HuGuinZ (small blind) folded before Flop
+Seat 5: pokeracer87 (big blind) folded before Flop
+Seat 6: UpperCut KO collected (60)
+
+PokerStars Hand #188547810601: Tournament #2352948548, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:15:33 MSK [2018/07/09 18:15:33 ET]
+Table '2352948548 1' 6-max Seat #3 is the button
+Seat 1: DiggErr555 (496 in chips)
+Seat 2: 2Ran128 (1026 in chips)
+Seat 3: HuGuinZ (466 in chips)
+Seat 5: pokeracer87 (476 in chips)
+Seat 6: UpperCut KO (536 in chips)
+DiggErr555: posts the ante 2
+2Ran128: posts the ante 2
+HuGuinZ: posts the ante 2
+pokeracer87: posts the ante 2
+UpperCut KO: posts the ante 2
+pokeracer87: posts small blind 10
+UpperCut KO: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [7s Th]
+DiggErr555: folds
+2Ran128: folds
+HuGuinZ: folds
+pokeracer87: raises 20 to 40
+UpperCut KO: folds
+Uncalled bet (20) returned to pokeracer87
+pokeracer87 collected 50 from pot
+*** SUMMARY ***
+Total pot 50 | Rake 0
+Seat 1: DiggErr555 folded before Flop (didn't bet)
+Seat 2: 2Ran128 folded before Flop (didn't bet)
+Seat 3: HuGuinZ (button) folded before Flop (didn't bet)
+Seat 5: pokeracer87 (small blind) collected (50)
+Seat 6: UpperCut KO (big blind) folded before Flop
+
+PokerStars Hand #188547826069: Tournament #2352948548, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:15:58 MSK [2018/07/09 18:15:58 ET]
+Table '2352948548 1' 6-max Seat #5 is the button
+Seat 1: DiggErr555 (494 in chips)
+Seat 2: 2Ran128 (1024 in chips)
+Seat 3: HuGuinZ (464 in chips)
+Seat 5: pokeracer87 (504 in chips)
+Seat 6: UpperCut KO (514 in chips)
+DiggErr555: posts the ante 3
+2Ran128: posts the ante 3
+HuGuinZ: posts the ante 3
+pokeracer87: posts the ante 3
+UpperCut KO: posts the ante 3
+UpperCut KO: posts small blind 15
+DiggErr555: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [8d 3s]
+2Ran128: folds
+HuGuinZ: folds
+pokeracer87: raises 30 to 60
+UpperCut KO: folds
+DiggErr555: folds
+Uncalled bet (30) returned to pokeracer87
+pokeracer87 collected 90 from pot
+*** SUMMARY ***
+Total pot 90 | Rake 0
+Seat 1: DiggErr555 (big blind) folded before Flop
+Seat 2: 2Ran128 folded before Flop (didn't bet)
+Seat 3: HuGuinZ folded before Flop (didn't bet)
+Seat 5: pokeracer87 (button) collected (90)
+Seat 6: UpperCut KO (small blind) folded before Flop
+
+PokerStars Hand #188547838855: Tournament #2352948548, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:16:19 MSK [2018/07/09 18:16:19 ET]
+Table '2352948548 1' 6-max Seat #6 is the button
+Seat 1: DiggErr555 (461 in chips)
+Seat 2: 2Ran128 (1021 in chips)
+Seat 3: HuGuinZ (461 in chips)
+Seat 5: pokeracer87 (561 in chips)
+Seat 6: UpperCut KO (496 in chips)
+DiggErr555: posts the ante 3
+2Ran128: posts the ante 3
+HuGuinZ: posts the ante 3
+pokeracer87: posts the ante 3
+UpperCut KO: posts the ante 3
+DiggErr555: posts small blind 15
+2Ran128: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [7s Qc]
+HuGuinZ: raises 428 to 458 and is all-in
+pokeracer87: folds
+UpperCut KO: folds
+DiggErr555: folds
+2Ran128: folds
+Uncalled bet (428) returned to HuGuinZ
+HuGuinZ collected 90 from pot
+*** SUMMARY ***
+Total pot 90 | Rake 0
+Seat 1: DiggErr555 (small blind) folded before Flop
+Seat 2: 2Ran128 (big blind) folded before Flop
+Seat 3: HuGuinZ collected (90)
+Seat 5: pokeracer87 folded before Flop (didn't bet)
+Seat 6: UpperCut KO (button) folded before Flop (didn't bet)
+
+PokerStars Hand #188547851769: Tournament #2352948548, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:16:39 MSK [2018/07/09 18:16:39 ET]
+Table '2352948548 1' 6-max Seat #1 is the button
+Seat 1: DiggErr555 (443 in chips)
+Seat 2: 2Ran128 (988 in chips)
+Seat 3: HuGuinZ (518 in chips)
+Seat 5: pokeracer87 (558 in chips)
+Seat 6: UpperCut KO (493 in chips)
+DiggErr555: posts the ante 3
+2Ran128: posts the ante 3
+HuGuinZ: posts the ante 3
+pokeracer87: posts the ante 3
+UpperCut KO: posts the ante 3
+2Ran128: posts small blind 15
+HuGuinZ: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Qh 7c]
+pokeracer87: folds
+UpperCut KO: folds
+DiggErr555: folds
+2Ran128: calls 15
+HuGuinZ: checks
+*** FLOP *** [Jc 6c Ac]
+2Ran128: bets 30
+HuGuinZ: folds
+Uncalled bet (30) returned to 2Ran128
+2Ran128 collected 75 from pot
+*** SUMMARY ***
+Total pot 75 | Rake 0
+Board [Jc 6c Ac]
+Seat 1: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 2: 2Ran128 (small blind) collected (75)
+Seat 3: HuGuinZ (big blind) folded on the Flop
+Seat 5: pokeracer87 folded before Flop (didn't bet)
+Seat 6: UpperCut KO folded before Flop (didn't bet)
+
+PokerStars Hand #188547876146: Tournament #2352948548, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:17:18 MSK [2018/07/09 18:17:18 ET]
+Table '2352948548 1' 6-max Seat #2 is the button
+Seat 1: DiggErr555 (440 in chips)
+Seat 2: 2Ran128 (1030 in chips)
+Seat 3: HuGuinZ (485 in chips)
+Seat 5: pokeracer87 (555 in chips)
+Seat 6: UpperCut KO (490 in chips)
+DiggErr555: posts the ante 3
+2Ran128: posts the ante 3
+HuGuinZ: posts the ante 3
+pokeracer87: posts the ante 3
+UpperCut KO: posts the ante 3
+HuGuinZ: posts small blind 15
+pokeracer87: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [8c 2d]
+UpperCut KO: folds
+DiggErr555: folds
+2Ran128: raises 997 to 1027 and is all-in
+HuGuinZ: calls 467 and is all-in
+pokeracer87: folds
+Uncalled bet (545) returned to 2Ran128
+*** FLOP *** [4s Qc Jc]
+*** TURN *** [4s Qc Jc] [As]
+*** RIVER *** [4s Qc Jc As] [Kd]
+*** SHOW DOWN ***
+HuGuinZ: shows [9h 9s] (a pair of Nines)
+2Ran128: shows [Kh Td] (a straight, Ten to Ace)
+2Ran128 collected 1009 from pot
+2Ran128 wins the $4.79 bounty for eliminating HuGuinZ
+HuGuinZ finished the tournament in 5th place
+*** SUMMARY ***
+Total pot 1009 | Rake 0
+Board [4s Qc Jc As Kd]
+Seat 1: DiggErr555 folded before Flop (didn't bet)
+Seat 2: 2Ran128 (button) showed [Kh Td] and won (1009) with a straight, Ten to Ace
+Seat 3: HuGuinZ (small blind) showed [9h 9s] and lost with a pair of Nines
+Seat 5: pokeracer87 (big blind) folded before Flop
+Seat 6: UpperCut KO folded before Flop (didn't bet)
+
+PokerStars Hand #188547899851: Tournament #2352948548, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:17:57 MSK [2018/07/09 18:17:57 ET]
+Table '2352948548 1' 6-max Seat #5 is the button
+Seat 1: DiggErr555 (437 in chips)
+Seat 2: 2Ran128 (1554 in chips)
+Seat 5: pokeracer87 (522 in chips)
+Seat 6: UpperCut KO (487 in chips)
+DiggErr555: posts the ante 4
+2Ran128: posts the ante 4
+pokeracer87: posts the ante 4
+UpperCut KO: posts the ante 4
+UpperCut KO: posts small blind 20
+DiggErr555: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Ah 3h]
+2Ran128: raises 1510 to 1550 and is all-in
+pokeracer87: folds
+UpperCut KO: folds
+DiggErr555: folds
+Uncalled bet (1510) returned to 2Ran128
+2Ran128 collected 116 from pot
+*** SUMMARY ***
+Total pot 116 | Rake 0
+Seat 1: DiggErr555 (big blind) folded before Flop
+Seat 2: 2Ran128 collected (116)
+Seat 5: pokeracer87 (button) folded before Flop (didn't bet)
+Seat 6: UpperCut KO (small blind) folded before Flop
+
+PokerStars Hand #188547909744: Tournament #2352948548, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:18:13 MSK [2018/07/09 18:18:13 ET]
+Table '2352948548 1' 6-max Seat #6 is the button
+Seat 1: DiggErr555 (393 in chips)
+Seat 2: 2Ran128 (1626 in chips)
+Seat 5: pokeracer87 (518 in chips)
+Seat 6: UpperCut KO (463 in chips)
+DiggErr555: posts the ante 4
+2Ran128: posts the ante 4
+pokeracer87: posts the ante 4
+UpperCut KO: posts the ante 4
+DiggErr555: posts small blind 20
+2Ran128: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Kd Jc]
+pokeracer87: folds
+UpperCut KO: raises 419 to 459 and is all-in
+DiggErr555: folds
+2Ran128: calls 419
+*** FLOP *** [2h Kc 9d]
+*** TURN *** [2h Kc 9d] [7s]
+*** RIVER *** [2h Kc 9d 7s] [Js]
+*** SHOW DOWN ***
+2Ran128: shows [3h Ah] (high card Ace)
+UpperCut KO: shows [9h 9s] (three of a kind, Nines)
+UpperCut KO collected 954 from pot
+*** SUMMARY ***
+Total pot 954 | Rake 0
+Board [2h Kc 9d 7s Js]
+Seat 1: DiggErr555 (small blind) folded before Flop
+Seat 2: 2Ran128 (big blind) showed [3h Ah] and lost with high card Ace
+Seat 5: pokeracer87 folded before Flop (didn't bet)
+Seat 6: UpperCut KO (button) showed [9h 9s] and won (954) with three of a kind, Nines
+
+PokerStars Hand #188547928400: Tournament #2352948548, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:18:43 MSK [2018/07/09 18:18:43 ET]
+Table '2352948548 1' 6-max Seat #1 is the button
+Seat 1: DiggErr555 (369 in chips)
+Seat 2: 2Ran128 (1163 in chips)
+Seat 5: pokeracer87 (514 in chips)
+Seat 6: UpperCut KO (954 in chips)
+DiggErr555: posts the ante 4
+2Ran128: posts the ante 4
+pokeracer87: posts the ante 4
+UpperCut KO: posts the ante 4
+2Ran128: posts small blind 20
+pokeracer87: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Jc 5c]
+UpperCut KO: folds
+DiggErr555: folds
+2Ran128: raises 1119 to 1159 and is all-in
+pokeracer87: calls 470 and is all-in
+Uncalled bet (649) returned to 2Ran128
+*** FLOP *** [Ad Jd Ts]
+*** TURN *** [Ad Jd Ts] [2h]
+*** RIVER *** [Ad Jd Ts 2h] [Td]
+*** SHOW DOWN ***
+2Ran128: shows [8c 6c] (a pair of Tens)
+pokeracer87: shows [6s 6d] (two pair, Tens and Sixes)
+pokeracer87 collected 1036 from pot
+*** SUMMARY ***
+Total pot 1036 | Rake 0
+Board [Ad Jd Ts 2h Td]
+Seat 1: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 2: 2Ran128 (small blind) showed [8c 6c] and lost with a pair of Tens
+Seat 5: pokeracer87 (big blind) showed [6s 6d] and won (1036) with two pair, Tens and Sixes
+Seat 6: UpperCut KO folded before Flop (didn't bet)
+
+PokerStars Hand #188547945935: Tournament #2352948548, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:19:11 MSK [2018/07/09 18:19:11 ET]
+Table '2352948548 1' 6-max Seat #2 is the button
+Seat 1: DiggErr555 (365 in chips)
+Seat 2: 2Ran128 (649 in chips)
+Seat 5: pokeracer87 (1036 in chips)
+Seat 6: UpperCut KO (950 in chips)
+DiggErr555: posts the ante 4
+2Ran128: posts the ante 4
+pokeracer87: posts the ante 4
+UpperCut KO: posts the ante 4
+pokeracer87: posts small blind 20
+UpperCut KO: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Jh 5h]
+DiggErr555: folds
+2Ran128: folds
+pokeracer87: calls 20
+UpperCut KO: checks
+*** FLOP *** [8s 2h Ac]
+pokeracer87: checks
+UpperCut KO: bets 80
+pokeracer87: folds
+Uncalled bet (80) returned to UpperCut KO
+UpperCut KO collected 96 from pot
+UpperCut KO: doesn't show hand
+*** SUMMARY ***
+Total pot 96 | Rake 0
+Board [8s 2h Ac]
+Seat 1: DiggErr555 folded before Flop (didn't bet)
+Seat 2: 2Ran128 (button) folded before Flop (didn't bet)
+Seat 5: pokeracer87 (small blind) folded on the Flop
+Seat 6: UpperCut KO (big blind) collected (96)
+
+PokerStars Hand #188547975711: Tournament #2352948548, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:19:59 MSK [2018/07/09 18:19:59 ET]
+Table '2352948548 1' 6-max Seat #5 is the button
+Seat 1: DiggErr555 (361 in chips)
+Seat 2: 2Ran128 (645 in chips)
+Seat 5: pokeracer87 (992 in chips)
+Seat 6: UpperCut KO (1002 in chips)
+DiggErr555: posts the ante 6
+2Ran128: posts the ante 6
+pokeracer87: posts the ante 6
+UpperCut KO: posts the ante 6
+UpperCut KO: posts small blind 30
+DiggErr555: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Ks 6h]
+2Ran128: folds
+pokeracer87: folds
+UpperCut KO: raises 936 to 996 and is all-in
+DiggErr555: folds
+Uncalled bet (936) returned to UpperCut KO
+UpperCut KO collected 144 from pot
+UpperCut KO: doesn't show hand
+*** SUMMARY ***
+Total pot 144 | Rake 0
+Seat 1: DiggErr555 (big blind) folded before Flop
+Seat 2: 2Ran128 folded before Flop (didn't bet)
+Seat 5: pokeracer87 (button) folded before Flop (didn't bet)
+Seat 6: UpperCut KO (small blind) collected (144)
+
+PokerStars Hand #188547983151: Tournament #2352948548, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:20:11 MSK [2018/07/09 18:20:11 ET]
+Table '2352948548 1' 6-max Seat #6 is the button
+Seat 1: DiggErr555 (295 in chips)
+Seat 2: 2Ran128 (639 in chips)
+Seat 5: pokeracer87 (986 in chips)
+Seat 6: UpperCut KO (1080 in chips)
+DiggErr555: posts the ante 6
+2Ran128: posts the ante 6
+pokeracer87: posts the ante 6
+UpperCut KO: posts the ante 6
+DiggErr555: posts small blind 30
+2Ran128: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [7s Ah]
+pokeracer87: raises 60 to 120
+UpperCut KO: folds
+DiggErr555: raises 169 to 289 and is all-in
+2Ran128: folds
+pokeracer87: calls 169
+*** FLOP *** [Kh Jd 5d]
+*** TURN *** [Kh Jd 5d] [8s]
+*** RIVER *** [Kh Jd 5d 8s] [7d]
+*** SHOW DOWN ***
+DiggErr555: shows [7s Ah] (a pair of Sevens)
+pokeracer87: shows [Ks 9s] (a pair of Kings)
+pokeracer87 collected 662 from pot
+pokeracer87 wins the $4.79 bounty for eliminating DiggErr555
+DiggErr555 finished the tournament in 4th place
+*** SUMMARY ***
+Total pot 662 | Rake 0
+Board [Kh Jd 5d 8s 7d]
+Seat 1: DiggErr555 (small blind) showed [7s Ah] and lost with a pair of Sevens
+Seat 2: 2Ran128 (big blind) folded before Flop
+Seat 5: pokeracer87 showed [Ks 9s] and won (662) with a pair of Kings
+Seat 6: UpperCut KO (button) folded before Flop (didn't bet)

@@ -1,0 +1,800 @@
+
+
+PokerStars Hand #188547171606: Tournament #2352933437, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 0:58:42 MSK [2018/07/09 17:58:42 ET]
+Table '2352933437 1' 6-max Seat #1 is the button
+Seat 1: ultraluxe (500 in chips)
+Seat 2: valeron.vrn (500 in chips)
+Seat 3: Trickws1987 (500 in chips)
+Seat 4: MaliOdBubanja (500 in chips)
+Seat 5: HuGuinZ (500 in chips)
+Seat 6: DiggErr555 (500 in chips)
+ultraluxe: posts the ante 2
+valeron.vrn: posts the ante 2
+Trickws1987: posts the ante 2
+MaliOdBubanja: posts the ante 2
+HuGuinZ: posts the ante 2
+DiggErr555: posts the ante 2
+valeron.vrn: posts small blind 10
+Trickws1987: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [7s 9s]
+MaliOdBubanja: folds
+HuGuinZ: folds
+DiggErr555: raises 20 to 40
+ultraluxe: folds
+valeron.vrn: calls 30
+Trickws1987: calls 20
+*** FLOP *** [Jc Ad Qc]
+valeron.vrn: checks
+Trickws1987: bets 140
+DiggErr555: folds
+valeron.vrn: calls 140
+*** TURN *** [Jc Ad Qc] [2c]
+valeron.vrn: checks
+Trickws1987: bets 318 and is all-in
+valeron.vrn: folds
+Uncalled bet (318) returned to Trickws1987
+Trickws1987 collected 412 from pot
+Trickws1987: doesn't show hand
+*** SUMMARY ***
+Total pot 412 | Rake 0
+Board [Jc Ad Qc 2c]
+Seat 1: ultraluxe (button) folded before Flop (didn't bet)
+Seat 2: valeron.vrn (small blind) folded on the Turn
+Seat 3: Trickws1987 (big blind) collected (412)
+Seat 4: MaliOdBubanja folded before Flop (didn't bet)
+Seat 5: HuGuinZ folded before Flop (didn't bet)
+Seat 6: DiggErr555 folded on the Flop
+
+PokerStars Hand #188547214393: Tournament #2352933437, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:00:01 MSK [2018/07/09 18:00:01 ET]
+Table '2352933437 1' 6-max Seat #2 is the button
+Seat 1: ultraluxe (498 in chips)
+Seat 2: valeron.vrn (318 in chips)
+Seat 3: Trickws1987 (730 in chips)
+Seat 4: MaliOdBubanja (498 in chips)
+Seat 5: HuGuinZ (498 in chips)
+Seat 6: DiggErr555 (458 in chips)
+ultraluxe: posts the ante 2
+valeron.vrn: posts the ante 2
+Trickws1987: posts the ante 2
+MaliOdBubanja: posts the ante 2
+HuGuinZ: posts the ante 2
+DiggErr555: posts the ante 2
+Trickws1987: posts small blind 10
+MaliOdBubanja: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [5c Qh]
+HuGuinZ: folds
+DiggErr555: folds
+ultraluxe: raises 476 to 496 and is all-in
+valeron.vrn: folds
+Trickws1987: folds
+MaliOdBubanja: folds
+Uncalled bet (476) returned to ultraluxe
+ultraluxe collected 62 from pot
+*** SUMMARY ***
+Total pot 62 | Rake 0
+Seat 1: ultraluxe collected (62)
+Seat 2: valeron.vrn (button) folded before Flop (didn't bet)
+Seat 3: Trickws1987 (small blind) folded before Flop
+Seat 4: MaliOdBubanja (big blind) folded before Flop
+Seat 5: HuGuinZ folded before Flop (didn't bet)
+Seat 6: DiggErr555 folded before Flop (didn't bet)
+
+PokerStars Hand #188547222742: Tournament #2352933437, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:00:16 MSK [2018/07/09 18:00:16 ET]
+Table '2352933437 1' 6-max Seat #3 is the button
+Seat 1: ultraluxe (538 in chips)
+Seat 2: valeron.vrn (316 in chips)
+Seat 3: Trickws1987 (718 in chips)
+Seat 4: MaliOdBubanja (476 in chips)
+Seat 5: HuGuinZ (496 in chips)
+Seat 6: DiggErr555 (456 in chips)
+ultraluxe: posts the ante 2
+valeron.vrn: posts the ante 2
+Trickws1987: posts the ante 2
+MaliOdBubanja: posts the ante 2
+HuGuinZ: posts the ante 2
+DiggErr555: posts the ante 2
+MaliOdBubanja: posts small blind 10
+HuGuinZ: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [8s 6s]
+DiggErr555: folds
+ultraluxe: raises 516 to 536 and is all-in
+valeron.vrn: calls 314 and is all-in
+Trickws1987: folds
+MaliOdBubanja: folds
+HuGuinZ: folds
+Uncalled bet (222) returned to ultraluxe
+*** FLOP *** [Th 7d Qh]
+*** TURN *** [Th 7d Qh] [9c]
+*** RIVER *** [Th 7d Qh 9c] [Js]
+*** SHOW DOWN ***
+ultraluxe: shows [Ad Kh] (a straight, Ten to Ace)
+valeron.vrn: shows [2c 2d] (a pair of Deuces)
+ultraluxe collected 670 from pot
+ultraluxe wins the $4.79 bounty for eliminating valeron.vrn
+valeron.vrn finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 670 | Rake 0
+Board [Th 7d Qh 9c Js]
+Seat 1: ultraluxe showed [Ad Kh] and won (670) with a straight, Ten to Ace
+Seat 2: valeron.vrn showed [2c 2d] and lost with a pair of Deuces
+Seat 3: Trickws1987 (button) folded before Flop (didn't bet)
+Seat 4: MaliOdBubanja (small blind) folded before Flop
+Seat 5: HuGuinZ (big blind) folded before Flop
+Seat 6: DiggErr555 folded before Flop (didn't bet)
+
+PokerStars Hand #188547239687: Tournament #2352933437, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:00:45 MSK [2018/07/09 18:00:45 ET]
+Table '2352933437 1' 6-max Seat #4 is the button
+Seat 1: ultraluxe (892 in chips)
+Seat 3: Trickws1987 (716 in chips)
+Seat 4: MaliOdBubanja (464 in chips)
+Seat 5: HuGuinZ (474 in chips)
+Seat 6: DiggErr555 (454 in chips)
+ultraluxe: posts the ante 3
+Trickws1987: posts the ante 3
+MaliOdBubanja: posts the ante 3
+HuGuinZ: posts the ante 3
+DiggErr555: posts the ante 3
+HuGuinZ: posts small blind 15
+DiggErr555: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Ac 6s]
+ultraluxe: folds
+Trickws1987: folds
+MaliOdBubanja: folds
+HuGuinZ: folds
+Uncalled bet (15) returned to DiggErr555
+DiggErr555 collected 45 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 45 | Rake 0
+Seat 1: ultraluxe folded before Flop (didn't bet)
+Seat 3: Trickws1987 folded before Flop (didn't bet)
+Seat 4: MaliOdBubanja (button) folded before Flop (didn't bet)
+Seat 5: HuGuinZ (small blind) folded before Flop
+Seat 6: DiggErr555 (big blind) collected (45)
+
+PokerStars Hand #188547246642: Tournament #2352933437, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:00:57 MSK [2018/07/09 18:00:57 ET]
+Table '2352933437 1' 6-max Seat #5 is the button
+Seat 1: ultraluxe (889 in chips)
+Seat 3: Trickws1987 (713 in chips)
+Seat 4: MaliOdBubanja (461 in chips)
+Seat 5: HuGuinZ (456 in chips)
+Seat 6: DiggErr555 (481 in chips)
+ultraluxe: posts the ante 3
+Trickws1987: posts the ante 3
+MaliOdBubanja: posts the ante 3
+HuGuinZ: posts the ante 3
+DiggErr555: posts the ante 3
+DiggErr555: posts small blind 15
+ultraluxe: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Qc 6h]
+Trickws1987: raises 30 to 60
+MaliOdBubanja: folds
+HuGuinZ: folds
+DiggErr555: folds
+ultraluxe: folds
+Uncalled bet (30) returned to Trickws1987
+Trickws1987 collected 90 from pot
+Trickws1987: doesn't show hand
+*** SUMMARY ***
+Total pot 90 | Rake 0
+Seat 1: ultraluxe (big blind) folded before Flop
+Seat 3: Trickws1987 collected (90)
+Seat 4: MaliOdBubanja folded before Flop (didn't bet)
+Seat 5: HuGuinZ (button) folded before Flop (didn't bet)
+Seat 6: DiggErr555 (small blind) folded before Flop
+
+PokerStars Hand #188547257950: Tournament #2352933437, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:01:15 MSK [2018/07/09 18:01:15 ET]
+Table '2352933437 1' 6-max Seat #6 is the button
+Seat 1: ultraluxe (856 in chips)
+Seat 3: Trickws1987 (770 in chips)
+Seat 4: MaliOdBubanja (458 in chips)
+Seat 5: HuGuinZ (453 in chips)
+Seat 6: DiggErr555 (463 in chips)
+ultraluxe: posts the ante 3
+Trickws1987: posts the ante 3
+MaliOdBubanja: posts the ante 3
+HuGuinZ: posts the ante 3
+DiggErr555: posts the ante 3
+ultraluxe: posts small blind 15
+Trickws1987: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Th 8s]
+MaliOdBubanja: folds
+HuGuinZ: folds
+DiggErr555: folds
+ultraluxe: folds
+Uncalled bet (15) returned to Trickws1987
+Trickws1987 collected 45 from pot
+Trickws1987: doesn't show hand
+*** SUMMARY ***
+Total pot 45 | Rake 0
+Seat 1: ultraluxe (small blind) folded before Flop
+Seat 3: Trickws1987 (big blind) collected (45)
+Seat 4: MaliOdBubanja folded before Flop (didn't bet)
+Seat 5: HuGuinZ folded before Flop (didn't bet)
+Seat 6: DiggErr555 (button) folded before Flop (didn't bet)
+
+PokerStars Hand #188547268971: Tournament #2352933437, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:01:32 MSK [2018/07/09 18:01:32 ET]
+Table '2352933437 1' 6-max Seat #1 is the button
+Seat 1: ultraluxe (838 in chips)
+Seat 3: Trickws1987 (797 in chips)
+Seat 4: MaliOdBubanja (455 in chips)
+Seat 5: HuGuinZ (450 in chips)
+Seat 6: DiggErr555 (460 in chips)
+ultraluxe: posts the ante 3
+Trickws1987: posts the ante 3
+MaliOdBubanja: posts the ante 3
+HuGuinZ: posts the ante 3
+DiggErr555: posts the ante 3
+Trickws1987: posts small blind 15
+MaliOdBubanja: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [9h As]
+HuGuinZ: raises 417 to 447 and is all-in
+DiggErr555: folds
+ultraluxe: folds
+Trickws1987: folds
+MaliOdBubanja: calls 417
+*** FLOP *** [5s 8h Qh]
+*** TURN *** [5s 8h Qh] [3d]
+*** RIVER *** [5s 8h Qh 3d] [3s]
+*** SHOW DOWN ***
+MaliOdBubanja: shows [Js Kc] (a pair of Threes)
+HuGuinZ: shows [Jd Jc] (two pair, Jacks and Threes)
+HuGuinZ collected 924 from pot
+*** SUMMARY ***
+Total pot 924 | Rake 0
+Board [5s 8h Qh 3d 3s]
+Seat 1: ultraluxe (button) folded before Flop (didn't bet)
+Seat 3: Trickws1987 (small blind) folded before Flop
+Seat 4: MaliOdBubanja (big blind) showed [Js Kc] and lost with a pair of Threes
+Seat 5: HuGuinZ showed [Jd Jc] and won (924) with two pair, Jacks and Threes
+Seat 6: DiggErr555 folded before Flop (didn't bet)
+
+PokerStars Hand #188547284683: Tournament #2352933437, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:01:57 MSK [2018/07/09 18:01:57 ET]
+Table '2352933437 1' 6-max Seat #3 is the button
+Seat 1: ultraluxe (835 in chips)
+Seat 3: Trickws1987 (779 in chips)
+Seat 4: MaliOdBubanja (5 in chips)
+Seat 5: HuGuinZ (924 in chips)
+Seat 6: DiggErr555 (457 in chips)
+ultraluxe: posts the ante 4
+Trickws1987: posts the ante 4
+MaliOdBubanja: posts the ante 4
+HuGuinZ: posts the ante 4
+DiggErr555: posts the ante 4
+MaliOdBubanja: posts small blind 1 and is all-in
+HuGuinZ: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Qh 2h]
+DiggErr555: folds
+ultraluxe: raises 40 to 80
+Trickws1987: calls 80
+HuGuinZ: calls 40
+*** FLOP *** [Ah 6c 4h]
+HuGuinZ: checks
+ultraluxe: checks
+Trickws1987: bets 40
+HuGuinZ: calls 40
+ultraluxe: calls 40
+*** TURN *** [Ah 6c 4h] [Qc]
+HuGuinZ: checks
+ultraluxe: checks
+Trickws1987: bets 200
+HuGuinZ: folds
+ultraluxe: folds
+Uncalled bet (200) returned to Trickws1987
+*** RIVER *** [Ah 6c 4h Qc] [4c]
+*** SHOW DOWN ***
+Trickws1987: shows [5c Th] (a pair of Fours)
+Trickws1987 collected 357 from side pot
+MaliOdBubanja: shows [7d 9h] (a pair of Fours - lower kicker)
+Trickws1987 collected 24 from main pot
+Trickws1987 wins the $4.79 bounty for eliminating MaliOdBubanja
+MaliOdBubanja finished the tournament in 5th place
+*** SUMMARY ***
+Total pot 381 Main pot 24. Side pot 357. | Rake 0
+Board [Ah 6c 4h Qc 4c]
+Seat 1: ultraluxe folded on the Turn
+Seat 3: Trickws1987 (button) showed [5c Th] and won (381) with a pair of Fours
+Seat 4: MaliOdBubanja (small blind) showed [7d 9h] and lost with a pair of Fours
+Seat 5: HuGuinZ (big blind) folded on the Turn
+Seat 6: DiggErr555 folded before Flop (didn't bet)
+
+PokerStars Hand #188547315362: Tournament #2352933437, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:02:44 MSK [2018/07/09 18:02:44 ET]
+Table '2352933437 1' 6-max Seat #5 is the button
+Seat 1: ultraluxe (711 in chips)
+Seat 3: Trickws1987 (1036 in chips)
+Seat 5: HuGuinZ (800 in chips)
+Seat 6: DiggErr555 (453 in chips)
+ultraluxe: posts the ante 4
+Trickws1987: posts the ante 4
+HuGuinZ: posts the ante 4
+DiggErr555: posts the ante 4
+DiggErr555: posts small blind 20
+ultraluxe: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [7c 4s]
+Trickws1987: folds
+HuGuinZ: raises 756 to 796 and is all-in
+DiggErr555: folds
+ultraluxe: folds
+Uncalled bet (756) returned to HuGuinZ
+HuGuinZ collected 116 from pot
+*** SUMMARY ***
+Total pot 116 | Rake 0
+Seat 1: ultraluxe (big blind) folded before Flop
+Seat 3: Trickws1987 folded before Flop (didn't bet)
+Seat 5: HuGuinZ (button) collected (116)
+Seat 6: DiggErr555 (small blind) folded before Flop
+
+PokerStars Hand #188547337419: Tournament #2352933437, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:03:18 MSK [2018/07/09 18:03:18 ET]
+Table '2352933437 1' 6-max Seat #6 is the button
+Seat 1: ultraluxe (667 in chips)
+Seat 3: Trickws1987 (1032 in chips)
+Seat 5: HuGuinZ (872 in chips)
+Seat 6: DiggErr555 (429 in chips)
+ultraluxe: posts the ante 4
+Trickws1987: posts the ante 4
+HuGuinZ: posts the ante 4
+DiggErr555: posts the ante 4
+ultraluxe: posts small blind 20
+Trickws1987: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Jh 3c]
+HuGuinZ: folds
+DiggErr555: folds
+ultraluxe: folds
+Uncalled bet (20) returned to Trickws1987
+Trickws1987 collected 56 from pot
+Trickws1987: doesn't show hand
+*** SUMMARY ***
+Total pot 56 | Rake 0
+Seat 1: ultraluxe (small blind) folded before Flop
+Seat 3: Trickws1987 (big blind) collected (56)
+Seat 5: HuGuinZ folded before Flop (didn't bet)
+Seat 6: DiggErr555 (button) folded before Flop (didn't bet)
+
+PokerStars Hand #188547346274: Tournament #2352933437, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:03:31 MSK [2018/07/09 18:03:31 ET]
+Table '2352933437 1' 6-max Seat #1 is the button
+Seat 1: ultraluxe (643 in chips)
+Seat 3: Trickws1987 (1064 in chips)
+Seat 5: HuGuinZ (868 in chips)
+Seat 6: DiggErr555 (425 in chips)
+ultraluxe: posts the ante 4
+Trickws1987: posts the ante 4
+HuGuinZ: posts the ante 4
+DiggErr555: posts the ante 4
+Trickws1987: posts small blind 20
+HuGuinZ: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [3d 9h]
+DiggErr555: folds
+ultraluxe: folds
+Trickws1987: folds
+Uncalled bet (20) returned to HuGuinZ
+HuGuinZ collected 56 from pot
+*** SUMMARY ***
+Total pot 56 | Rake 0
+Seat 1: ultraluxe (button) folded before Flop (didn't bet)
+Seat 3: Trickws1987 (small blind) folded before Flop
+Seat 5: HuGuinZ (big blind) collected (56)
+Seat 6: DiggErr555 folded before Flop (didn't bet)
+
+PokerStars Hand #188547352333: Tournament #2352933437, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:03:41 MSK [2018/07/09 18:03:41 ET]
+Table '2352933437 1' 6-max Seat #3 is the button
+Seat 1: ultraluxe (639 in chips)
+Seat 3: Trickws1987 (1040 in chips)
+Seat 5: HuGuinZ (900 in chips)
+Seat 6: DiggErr555 (421 in chips)
+ultraluxe: posts the ante 6
+Trickws1987: posts the ante 6
+HuGuinZ: posts the ante 6
+DiggErr555: posts the ante 6
+HuGuinZ: posts small blind 30
+DiggErr555: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [8s 4s]
+ultraluxe: raises 573 to 633 and is all-in
+Trickws1987: folds
+HuGuinZ: folds
+DiggErr555: folds
+Uncalled bet (573) returned to ultraluxe
+ultraluxe collected 174 from pot
+*** SUMMARY ***
+Total pot 174 | Rake 0
+Seat 1: ultraluxe collected (174)
+Seat 3: Trickws1987 (button) folded before Flop (didn't bet)
+Seat 5: HuGuinZ (small blind) folded before Flop
+Seat 6: DiggErr555 (big blind) folded before Flop
+
+PokerStars Hand #188547361565: Tournament #2352933437, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:03:55 MSK [2018/07/09 18:03:55 ET]
+Table '2352933437 1' 6-max Seat #5 is the button
+Seat 1: ultraluxe (747 in chips)
+Seat 3: Trickws1987 (1034 in chips)
+Seat 5: HuGuinZ (864 in chips)
+Seat 6: DiggErr555 (355 in chips)
+ultraluxe: posts the ante 6
+Trickws1987: posts the ante 6
+HuGuinZ: posts the ante 6
+DiggErr555: posts the ante 6
+DiggErr555: posts small blind 30
+ultraluxe: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Ts 5c]
+Trickws1987: raises 60 to 120
+HuGuinZ: folds
+DiggErr555: folds
+ultraluxe: folds
+Uncalled bet (60) returned to Trickws1987
+Trickws1987 collected 174 from pot
+Trickws1987: doesn't show hand
+*** SUMMARY ***
+Total pot 174 | Rake 0
+Seat 1: ultraluxe (big blind) folded before Flop
+Seat 3: Trickws1987 collected (174)
+Seat 5: HuGuinZ (button) folded before Flop (didn't bet)
+Seat 6: DiggErr555 (small blind) folded before Flop
+
+PokerStars Hand #188547370284: Tournament #2352933437, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:04:08 MSK [2018/07/09 18:04:08 ET]
+Table '2352933437 1' 6-max Seat #6 is the button
+Seat 1: ultraluxe (681 in chips)
+Seat 3: Trickws1987 (1142 in chips)
+Seat 5: HuGuinZ (858 in chips)
+Seat 6: DiggErr555 (319 in chips)
+ultraluxe: posts the ante 6
+Trickws1987: posts the ante 6
+HuGuinZ: posts the ante 6
+DiggErr555: posts the ante 6
+ultraluxe: posts small blind 30
+Trickws1987: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Ad 5h]
+HuGuinZ: folds
+DiggErr555: raises 253 to 313 and is all-in
+ultraluxe: folds
+Trickws1987: folds
+Uncalled bet (253) returned to DiggErr555
+DiggErr555 collected 174 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 174 | Rake 0
+Seat 1: ultraluxe (small blind) folded before Flop
+Seat 3: Trickws1987 (big blind) folded before Flop
+Seat 5: HuGuinZ folded before Flop (didn't bet)
+Seat 6: DiggErr555 (button) collected (174)
+
+PokerStars Hand #188547386350: Tournament #2352933437, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:04:33 MSK [2018/07/09 18:04:33 ET]
+Table '2352933437 1' 6-max Seat #1 is the button
+Seat 1: ultraluxe (645 in chips)
+Seat 3: Trickws1987 (1076 in chips)
+Seat 5: HuGuinZ (852 in chips)
+Seat 6: DiggErr555 (427 in chips)
+ultraluxe: posts the ante 6
+Trickws1987: posts the ante 6
+HuGuinZ: posts the ante 6
+DiggErr555: posts the ante 6
+Trickws1987: posts small blind 30
+HuGuinZ: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [3s Qd]
+DiggErr555: folds
+ultraluxe: folds
+Trickws1987: calls 30
+HuGuinZ: raises 786 to 846 and is all-in
+Trickws1987: folds
+Uncalled bet (786) returned to HuGuinZ
+HuGuinZ collected 144 from pot
+*** SUMMARY ***
+Total pot 144 | Rake 0
+Seat 1: ultraluxe (button) folded before Flop (didn't bet)
+Seat 3: Trickws1987 (small blind) folded before Flop
+Seat 5: HuGuinZ (big blind) collected (144)
+Seat 6: DiggErr555 folded before Flop (didn't bet)
+
+PokerStars Hand #188547409851: Tournament #2352933437, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:05:08 MSK [2018/07/09 18:05:08 ET]
+Table '2352933437 1' 6-max Seat #3 is the button
+Seat 1: ultraluxe (639 in chips)
+Seat 3: Trickws1987 (1010 in chips)
+Seat 5: HuGuinZ (930 in chips)
+Seat 6: DiggErr555 (421 in chips)
+ultraluxe: posts the ante 6
+Trickws1987: posts the ante 6
+HuGuinZ: posts the ante 6
+DiggErr555: posts the ante 6
+HuGuinZ: posts small blind 30
+DiggErr555: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [9h 3d]
+ultraluxe: folds
+Trickws1987: folds
+HuGuinZ: raises 864 to 924 and is all-in
+DiggErr555: folds
+Uncalled bet (864) returned to HuGuinZ
+HuGuinZ collected 144 from pot
+*** SUMMARY ***
+Total pot 144 | Rake 0
+Seat 1: ultraluxe folded before Flop (didn't bet)
+Seat 3: Trickws1987 (button) folded before Flop (didn't bet)
+Seat 5: HuGuinZ (small blind) collected (144)
+Seat 6: DiggErr555 (big blind) folded before Flop
+
+PokerStars Hand #188547418346: Tournament #2352933437, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:05:21 MSK [2018/07/09 18:05:21 ET]
+Table '2352933437 1' 6-max Seat #5 is the button
+Seat 1: ultraluxe (633 in chips)
+Seat 3: Trickws1987 (1004 in chips)
+Seat 5: HuGuinZ (1008 in chips)
+Seat 6: DiggErr555 (355 in chips)
+ultraluxe: posts the ante 8
+Trickws1987: posts the ante 8
+HuGuinZ: posts the ante 8
+DiggErr555: posts the ante 8
+DiggErr555: posts small blind 40
+ultraluxe: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [5s 4c]
+Trickws1987: raises 80 to 160
+HuGuinZ: folds
+DiggErr555: folds
+ultraluxe: folds
+Uncalled bet (80) returned to Trickws1987
+Trickws1987 collected 232 from pot
+Trickws1987: doesn't show hand
+*** SUMMARY ***
+Total pot 232 | Rake 0
+Seat 1: ultraluxe (big blind) folded before Flop
+Seat 3: Trickws1987 collected (232)
+Seat 5: HuGuinZ (button) folded before Flop (didn't bet)
+Seat 6: DiggErr555 (small blind) folded before Flop
+
+PokerStars Hand #188547428281: Tournament #2352933437, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:05:36 MSK [2018/07/09 18:05:36 ET]
+Table '2352933437 1' 6-max Seat #6 is the button
+Seat 1: ultraluxe (545 in chips)
+Seat 3: Trickws1987 (1148 in chips)
+Seat 5: HuGuinZ (1000 in chips)
+Seat 6: DiggErr555 (307 in chips)
+ultraluxe: posts the ante 8
+Trickws1987: posts the ante 8
+HuGuinZ: posts the ante 8
+DiggErr555: posts the ante 8
+ultraluxe: posts small blind 40
+Trickws1987: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Js 6d]
+HuGuinZ: folds
+DiggErr555: folds
+ultraluxe: raises 457 to 537 and is all-in
+Trickws1987: folds
+Uncalled bet (457) returned to ultraluxe
+ultraluxe collected 192 from pot
+*** SUMMARY ***
+Total pot 192 | Rake 0
+Seat 1: ultraluxe (small blind) collected (192)
+Seat 3: Trickws1987 (big blind) folded before Flop
+Seat 5: HuGuinZ folded before Flop (didn't bet)
+Seat 6: DiggErr555 (button) folded before Flop (didn't bet)
+
+PokerStars Hand #188547436262: Tournament #2352933437, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:05:49 MSK [2018/07/09 18:05:49 ET]
+Table '2352933437 1' 6-max Seat #1 is the button
+Seat 1: ultraluxe (649 in chips)
+Seat 3: Trickws1987 (1060 in chips)
+Seat 5: HuGuinZ (992 in chips)
+Seat 6: DiggErr555 (299 in chips)
+ultraluxe: posts the ante 8
+Trickws1987: posts the ante 8
+HuGuinZ: posts the ante 8
+DiggErr555: posts the ante 8
+Trickws1987: posts small blind 40
+HuGuinZ: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Qc Js]
+DiggErr555: raises 211 to 291 and is all-in
+ultraluxe: raises 350 to 641 and is all-in
+Trickws1987: folds
+HuGuinZ: calls 561
+*** FLOP *** [8d 7s Jd]
+*** TURN *** [8d 7s Jd] [8c]
+*** RIVER *** [8d 7s Jd 8c] [Qs]
+*** SHOW DOWN ***
+HuGuinZ: shows [Qd Tc] (two pair, Queens and Eights)
+ultraluxe: shows [Kc Ac] (a pair of Eights)
+HuGuinZ collected 700 from side pot
+DiggErr555: shows [Qc Js] (two pair, Queens and Jacks)
+DiggErr555 collected 945 from main pot
+HuGuinZ wins the $4.79 bounty for eliminating ultraluxe
+ultraluxe finished the tournament in 4th place
+*** SUMMARY ***
+Total pot 1645 Main pot 945. Side pot 700. | Rake 0
+Board [8d 7s Jd 8c Qs]
+Seat 1: ultraluxe (button) showed [Kc Ac] and lost with a pair of Eights
+Seat 3: Trickws1987 (small blind) folded before Flop
+Seat 5: HuGuinZ (big blind) showed [Qd Tc] and won (700) with two pair, Queens and Eights
+Seat 6: DiggErr555 showed [Qc Js] and won (945) with two pair, Queens and Jacks
+
+PokerStars Hand #188547449149: Tournament #2352933437, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:06:08 MSK [2018/07/09 18:06:08 ET]
+Table '2352933437 1' 6-max Seat #3 is the button
+Seat 3: Trickws1987 (1012 in chips)
+Seat 5: HuGuinZ (1043 in chips)
+Seat 6: DiggErr555 (945 in chips)
+Trickws1987: posts the ante 8
+HuGuinZ: posts the ante 8
+DiggErr555: posts the ante 8
+HuGuinZ: posts small blind 40
+DiggErr555: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [4d 5h]
+Trickws1987: folds
+HuGuinZ: folds
+Uncalled bet (40) returned to DiggErr555
+HuGuinZ is sitting out
+DiggErr555 collected 104 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 104 | Rake 0
+Seat 3: Trickws1987 (button) folded before Flop (didn't bet)
+Seat 5: HuGuinZ (small blind) folded before Flop
+Seat 6: DiggErr555 (big blind) collected (104)
+
+PokerStars Hand #188547453869: Tournament #2352933437, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:06:15 MSK [2018/07/09 18:06:15 ET]
+Table '2352933437 1' 6-max Seat #5 is the button
+Seat 3: Trickws1987 (1004 in chips)
+Seat 5: HuGuinZ (995 in chips) is sitting out
+Seat 6: DiggErr555 (1001 in chips)
+Trickws1987: posts the ante 8
+HuGuinZ: posts the ante 8
+DiggErr555: posts the ante 8
+DiggErr555: posts small blind 40
+Trickws1987: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [8c Kc]
+HuGuinZ: folds
+DiggErr555: raises 913 to 993 and is all-in
+Trickws1987: folds
+Uncalled bet (913) returned to DiggErr555
+DiggErr555 collected 184 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 184 | Rake 0
+Seat 3: Trickws1987 (big blind) folded before Flop
+Seat 5: HuGuinZ (button) folded before Flop (didn't bet)
+Seat 6: DiggErr555 (small blind) collected (184)
+
+PokerStars Hand #188547460391: Tournament #2352933437, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level VI (50/100) - 2018/07/10 1:06:25 MSK [2018/07/09 18:06:25 ET]
+Table '2352933437 1' 6-max Seat #6 is the button
+Seat 3: Trickws1987 (916 in chips)
+Seat 5: HuGuinZ (987 in chips) is sitting out
+Seat 6: DiggErr555 (1097 in chips)
+Trickws1987: posts the ante 10
+HuGuinZ: posts the ante 10
+DiggErr555: posts the ante 10
+Trickws1987: posts small blind 50
+HuGuinZ: posts big blind 100
+*** HOLE CARDS ***
+Dealt to DiggErr555 [9s 7h]
+DiggErr555: raises 987 to 1087 and is all-in
+Trickws1987: folds
+HuGuinZ: folds
+Uncalled bet (987) returned to DiggErr555
+DiggErr555 collected 280 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 280 | Rake 0
+Seat 3: Trickws1987 (small blind) folded before Flop
+Seat 5: HuGuinZ (big blind) folded before Flop
+Seat 6: DiggErr555 (button) collected (280)
+
+PokerStars Hand #188547466045: Tournament #2352933437, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level VI (50/100) - 2018/07/10 1:06:34 MSK [2018/07/09 18:06:34 ET]
+Table '2352933437 1' 6-max Seat #3 is the button
+Seat 3: Trickws1987 (856 in chips)
+Seat 5: HuGuinZ (877 in chips) is sitting out
+Seat 6: DiggErr555 (1267 in chips)
+Trickws1987: posts the ante 10
+HuGuinZ: posts the ante 10
+DiggErr555: posts the ante 10
+HuGuinZ: posts small blind 50
+DiggErr555: posts big blind 100
+*** HOLE CARDS ***
+Dealt to DiggErr555 [2h Kd]
+Trickws1987: raises 100 to 200
+HuGuinZ: folds
+HuGuinZ has returned
+DiggErr555: folds
+Uncalled bet (100) returned to Trickws1987
+Trickws1987 collected 280 from pot
+Trickws1987: doesn't show hand
+*** SUMMARY ***
+Total pot 280 | Rake 0
+Seat 3: Trickws1987 (button) collected (280)
+Seat 5: HuGuinZ (small blind) folded before Flop
+Seat 6: DiggErr555 (big blind) folded before Flop
+
+PokerStars Hand #188547470492: Tournament #2352933437, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level VI (50/100) - 2018/07/10 1:06:41 MSK [2018/07/09 18:06:41 ET]
+Table '2352933437 1' 6-max Seat #5 is the button
+Seat 3: Trickws1987 (1026 in chips)
+Seat 5: HuGuinZ (817 in chips)
+Seat 6: DiggErr555 (1157 in chips)
+Trickws1987: posts the ante 10
+HuGuinZ: posts the ante 10
+DiggErr555: posts the ante 10
+DiggErr555: posts small blind 50
+Trickws1987: posts big blind 100
+*** HOLE CARDS ***
+Dealt to DiggErr555 [4c 6c]
+HuGuinZ: raises 707 to 807 and is all-in
+DiggErr555: folds
+Trickws1987: calls 707
+*** FLOP *** [Th 7d 4s]
+*** TURN *** [Th 7d 4s] [2d]
+*** RIVER *** [Th 7d 4s 2d] [Jh]
+*** SHOW DOWN ***
+Trickws1987: shows [Ks Js] (a pair of Jacks)
+HuGuinZ: shows [Qc Qs] (a pair of Queens)
+HuGuinZ collected 1694 from pot
+*** SUMMARY ***
+Total pot 1694 | Rake 0
+Board [Th 7d 4s 2d Jh]
+Seat 3: Trickws1987 (big blind) showed [Ks Js] and lost with a pair of Jacks
+Seat 5: HuGuinZ (button) showed [Qc Qs] and won (1694) with a pair of Queens
+Seat 6: DiggErr555 (small blind) folded before Flop
+
+PokerStars Hand #188547480748: Tournament #2352933437, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level VI (50/100) - 2018/07/10 1:06:57 MSK [2018/07/09 18:06:57 ET]
+Table '2352933437 1' 6-max Seat #6 is the button
+Seat 3: Trickws1987 (209 in chips)
+Seat 5: HuGuinZ (1694 in chips)
+Seat 6: DiggErr555 (1097 in chips)
+Trickws1987: posts the ante 10
+HuGuinZ: posts the ante 10
+DiggErr555: posts the ante 10
+Trickws1987: posts small blind 50
+HuGuinZ: posts big blind 100
+*** HOLE CARDS ***
+Dealt to DiggErr555 [5c Qh]
+DiggErr555: folds
+Trickws1987: raises 99 to 199 and is all-in
+HuGuinZ: calls 99
+*** FLOP *** [Jh 7c 7d]
+*** TURN *** [Jh 7c 7d] [As]
+*** RIVER *** [Jh 7c 7d As] [9s]
+*** SHOW DOWN ***
+Trickws1987: shows [Th Td] (two pair, Tens and Sevens)
+HuGuinZ: shows [7h Qc] (three of a kind, Sevens)
+HuGuinZ collected 428 from pot
+HuGuinZ wins the $4.79 bounty for eliminating Trickws1987
+Trickws1987 finished the tournament in 3rd place
+*** SUMMARY ***
+Total pot 428 | Rake 0
+Board [Jh 7c 7d As 9s]
+Seat 3: Trickws1987 (small blind) showed [Th Td] and lost with two pair, Tens and Sevens
+Seat 5: HuGuinZ (big blind) showed [7h Qc] and won (428) with three of a kind, Sevens
+Seat 6: DiggErr555 (button) folded before Flop (didn't bet)
+
+PokerStars Hand #188547494139: Tournament #2352933437, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level VI (50/100) - 2018/07/10 1:07:17 MSK [2018/07/09 18:07:17 ET]
+Table '2352933437 1' 6-max Seat #5 is the button
+Seat 5: HuGuinZ (1913 in chips)
+Seat 6: DiggErr555 (1087 in chips)
+HuGuinZ: posts the ante 10
+DiggErr555: posts the ante 10
+HuGuinZ: posts small blind 50
+DiggErr555: posts big blind 100
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Kc 8h]
+HuGuinZ: raises 1803 to 1903 and is all-in
+DiggErr555: calls 977 and is all-in
+Uncalled bet (826) returned to HuGuinZ
+*** FLOP *** [Ac Qc 3h]
+*** TURN *** [Ac Qc 3h] [Ah]
+*** RIVER *** [Ac Qc 3h Ah] [9d]
+*** SHOW DOWN ***
+DiggErr555: shows [Kc 8h] (a pair of Aces)
+HuGuinZ: shows [9s 7s] (two pair, Aces and Nines)
+HuGuinZ collected 2174 from pot
+*** SUMMARY ***
+Total pot 2174 | Rake 0
+Board [Ac Qc 3h Ah 9d]
+Seat 5: HuGuinZ (button) (small blind) showed [9s 7s] and won (2174) with two pair, Aces and Nines
+Seat 6: DiggErr555 (big blind) showed [Kc 8h] and lost with a pair of Aces

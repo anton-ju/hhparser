@@ -1,0 +1,613 @@
+
+
+PokerStars Hand #188547093108: Tournament #2352933677, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 0:56:19 MSK [2018/07/09 17:56:19 ET]
+Table '2352933677 1' 6-max Seat #1 is the button
+Seat 1: Claudios122 (500 in chips)
+Seat 2: Balabol96 (500 in chips)
+Seat 3: DiggErr555 (500 in chips)
+Seat 4: neverlkdback (500 in chips)
+Seat 5: nvucea96 (500 in chips)
+Seat 6: pm1814 (500 in chips)
+Claudios122: posts the ante 2
+Balabol96: posts the ante 2
+DiggErr555: posts the ante 2
+neverlkdback: posts the ante 2
+nvucea96: posts the ante 2
+pm1814: posts the ante 2
+Balabol96: posts small blind 10
+DiggErr555: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Jc 5s]
+neverlkdback: folds
+nvucea96: folds
+pm1814: raises 478 to 498 and is all-in
+Claudios122: folds
+Balabol96: folds
+DiggErr555: folds
+Uncalled bet (478) returned to pm1814
+pm1814 collected 62 from pot
+pm1814: doesn't show hand
+*** SUMMARY ***
+Total pot 62 | Rake 0
+Seat 1: Claudios122 (button) folded before Flop (didn't bet)
+Seat 2: Balabol96 (small blind) folded before Flop
+Seat 3: DiggErr555 (big blind) folded before Flop
+Seat 4: neverlkdback folded before Flop (didn't bet)
+Seat 5: nvucea96 folded before Flop (didn't bet)
+Seat 6: pm1814 collected (62)
+
+PokerStars Hand #188547104667: Tournament #2352933677, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 0:56:40 MSK [2018/07/09 17:56:40 ET]
+Table '2352933677 1' 6-max Seat #2 is the button
+Seat 1: Claudios122 (498 in chips)
+Seat 2: Balabol96 (488 in chips)
+Seat 3: DiggErr555 (478 in chips)
+Seat 4: neverlkdback (498 in chips)
+Seat 5: nvucea96 (498 in chips)
+Seat 6: pm1814 (540 in chips)
+Claudios122: posts the ante 2
+Balabol96: posts the ante 2
+DiggErr555: posts the ante 2
+neverlkdback: posts the ante 2
+nvucea96: posts the ante 2
+pm1814: posts the ante 2
+DiggErr555: posts small blind 10
+neverlkdback: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Tc 6c]
+nvucea96: raises 20 to 40
+pm1814: folds
+Claudios122: folds
+Balabol96: calls 40
+DiggErr555: folds
+neverlkdback: calls 20
+*** FLOP *** [Kh 7c As]
+neverlkdback: checks
+nvucea96: checks
+Balabol96: checks
+*** TURN *** [Kh 7c As] [9h]
+neverlkdback: checks
+nvucea96: bets 20
+Balabol96: calls 20
+neverlkdback: folds
+*** RIVER *** [Kh 7c As 9h] [5d]
+nvucea96: bets 120
+Balabol96: folds
+Uncalled bet (120) returned to nvucea96
+nvucea96 collected 182 from pot
+nvucea96: doesn't show hand
+*** SUMMARY ***
+Total pot 182 | Rake 0
+Board [Kh 7c As 9h 5d]
+Seat 1: Claudios122 folded before Flop (didn't bet)
+Seat 2: Balabol96 (button) folded on the River
+Seat 3: DiggErr555 (small blind) folded before Flop
+Seat 4: neverlkdback (big blind) folded on the Turn
+Seat 5: nvucea96 collected (182)
+Seat 6: pm1814 folded before Flop (didn't bet)
+
+PokerStars Hand #188547136098: Tournament #2352933677, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 0:57:37 MSK [2018/07/09 17:57:37 ET]
+Table '2352933677 1' 6-max Seat #3 is the button
+Seat 1: Claudios122 (496 in chips)
+Seat 2: Balabol96 (426 in chips)
+Seat 3: DiggErr555 (466 in chips)
+Seat 4: neverlkdback (456 in chips)
+Seat 5: nvucea96 (618 in chips)
+Seat 6: pm1814 (538 in chips)
+Claudios122: posts the ante 2
+Balabol96: posts the ante 2
+DiggErr555: posts the ante 2
+neverlkdback: posts the ante 2
+nvucea96: posts the ante 2
+pm1814: posts the ante 2
+neverlkdback: posts small blind 10
+nvucea96: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [7d 2h]
+pm1814: folds
+Claudios122 has timed out
+Claudios122: folds
+Claudios122 is sitting out
+Balabol96: folds
+DiggErr555: folds
+Claudios122 has returned
+neverlkdback: calls 10
+nvucea96: raises 52 to 72
+neverlkdback: folds
+Uncalled bet (52) returned to nvucea96
+nvucea96 collected 52 from pot
+nvucea96: doesn't show hand
+*** SUMMARY ***
+Total pot 52 | Rake 0
+Seat 1: Claudios122 folded before Flop (didn't bet)
+Seat 2: Balabol96 folded before Flop (didn't bet)
+Seat 3: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 4: neverlkdback (small blind) folded before Flop
+Seat 5: nvucea96 (big blind) collected (52)
+Seat 6: pm1814 folded before Flop (didn't bet)
+
+PokerStars Hand #188547159821: Tournament #2352933677, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 0:58:21 MSK [2018/07/09 17:58:21 ET]
+Table '2352933677 1' 6-max Seat #4 is the button
+Seat 1: Claudios122 (494 in chips)
+Seat 2: Balabol96 (424 in chips)
+Seat 3: DiggErr555 (464 in chips)
+Seat 4: neverlkdback (434 in chips)
+Seat 5: nvucea96 (648 in chips)
+Seat 6: pm1814 (536 in chips)
+Claudios122: posts the ante 3
+Balabol96: posts the ante 3
+DiggErr555: posts the ante 3
+neverlkdback: posts the ante 3
+nvucea96: posts the ante 3
+pm1814: posts the ante 3
+nvucea96: posts small blind 15
+pm1814: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6s 8h]
+Claudios122: raises 461 to 491 and is all-in
+Balabol96: folds
+DiggErr555: folds
+neverlkdback: folds
+nvucea96: raises 154 to 645 and is all-in
+pm1814: folds
+Uncalled bet (154) returned to nvucea96
+*** FLOP *** [2d 8d 3h]
+*** TURN *** [2d 8d 3h] [3d]
+*** RIVER *** [2d 8d 3h 3d] [6h]
+*** SHOW DOWN ***
+nvucea96: shows [9d 9s] (two pair, Nines and Threes)
+Claudios122: shows [Qc Ks] (a pair of Threes)
+nvucea96 collected 1030 from pot
+nvucea96 wins the $2.38 bounty for eliminating Claudios122
+Claudios122 finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 1030 | Rake 0
+Board [2d 8d 3h 3d 6h]
+Seat 1: Claudios122 showed [Qc Ks] and lost with a pair of Threes
+Seat 2: Balabol96 folded before Flop (didn't bet)
+Seat 3: DiggErr555 folded before Flop (didn't bet)
+Seat 4: neverlkdback (button) folded before Flop (didn't bet)
+Seat 5: nvucea96 (small blind) showed [9d 9s] and won (1030) with two pair, Nines and Threes
+Seat 6: pm1814 (big blind) folded before Flop
+
+PokerStars Hand #188547176899: Tournament #2352933677, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 0:58:52 MSK [2018/07/09 17:58:52 ET]
+Table '2352933677 1' 6-max Seat #5 is the button
+Seat 2: Balabol96 (421 in chips)
+Seat 3: DiggErr555 (461 in chips)
+Seat 4: neverlkdback (431 in chips)
+Seat 5: nvucea96 (1184 in chips)
+Seat 6: pm1814 (503 in chips)
+Balabol96: posts the ante 3
+DiggErr555: posts the ante 3
+neverlkdback: posts the ante 3
+nvucea96: posts the ante 3
+pm1814: posts the ante 3
+pm1814: posts small blind 15
+Balabol96: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6s 6c]
+DiggErr555: raises 428 to 458 and is all-in
+neverlkdback: folds
+nvucea96: folds
+pm1814: folds
+Balabol96: folds
+Uncalled bet (428) returned to DiggErr555
+DiggErr555 collected 90 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 90 | Rake 0
+Seat 2: Balabol96 (big blind) folded before Flop
+Seat 3: DiggErr555 collected (90)
+Seat 4: neverlkdback folded before Flop (didn't bet)
+Seat 5: nvucea96 (button) folded before Flop (didn't bet)
+Seat 6: pm1814 (small blind) folded before Flop
+
+PokerStars Hand #188547184614: Tournament #2352933677, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 0:59:06 MSK [2018/07/09 17:59:06 ET]
+Table '2352933677 1' 6-max Seat #6 is the button
+Seat 2: Balabol96 (388 in chips)
+Seat 3: DiggErr555 (518 in chips)
+Seat 4: neverlkdback (428 in chips)
+Seat 5: nvucea96 (1181 in chips)
+Seat 6: pm1814 (485 in chips)
+Balabol96: posts the ante 3
+DiggErr555: posts the ante 3
+neverlkdback: posts the ante 3
+nvucea96: posts the ante 3
+pm1814: posts the ante 3
+Balabol96: posts small blind 15
+DiggErr555: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6c 6s]
+neverlkdback: folds
+nvucea96: raises 30 to 60
+pm1814: calls 60
+Balabol96: folds
+DiggErr555: raises 455 to 515 and is all-in
+nvucea96: folds
+pm1814: calls 422 and is all-in
+Uncalled bet (33) returned to DiggErr555
+*** FLOP *** [9h 4d 5h]
+*** TURN *** [9h 4d 5h] [Qc]
+*** RIVER *** [9h 4d 5h Qc] [Qd]
+*** SHOW DOWN ***
+DiggErr555: shows [6c 6s] (two pair, Queens and Sixes)
+pm1814: shows [Kd Td] (a pair of Queens)
+DiggErr555 collected 1054 from pot
+DiggErr555 wins the $2.38 bounty for eliminating pm1814
+pm1814 finished the tournament in 5th place
+*** SUMMARY ***
+Total pot 1054 | Rake 0
+Board [9h 4d 5h Qc Qd]
+Seat 2: Balabol96 (small blind) folded before Flop
+Seat 3: DiggErr555 (big blind) showed [6c 6s] and won (1054) with two pair, Queens and Sixes
+Seat 4: neverlkdback folded before Flop (didn't bet)
+Seat 5: nvucea96 folded before Flop
+Seat 6: pm1814 (button) showed [Kd Td] and lost with a pair of Queens
+
+PokerStars Hand #188547201850: Tournament #2352933677, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 0:59:38 MSK [2018/07/09 17:59:38 ET]
+Table '2352933677 1' 6-max Seat #2 is the button
+Seat 2: Balabol96 (370 in chips)
+Seat 3: DiggErr555 (1087 in chips)
+Seat 4: neverlkdback (425 in chips)
+Seat 5: nvucea96 (1118 in chips)
+Balabol96: posts the ante 3
+DiggErr555: posts the ante 3
+neverlkdback: posts the ante 3
+nvucea96: posts the ante 3
+DiggErr555: posts small blind 15
+neverlkdback: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6d Td]
+nvucea96: folds
+Balabol96: raises 337 to 367 and is all-in
+DiggErr555: folds
+neverlkdback: folds
+Uncalled bet (337) returned to Balabol96
+Balabol96 collected 87 from pot
+Balabol96: doesn't show hand
+*** SUMMARY ***
+Total pot 87 | Rake 0
+Seat 2: Balabol96 (button) collected (87)
+Seat 3: DiggErr555 (small blind) folded before Flop
+Seat 4: neverlkdback (big blind) folded before Flop
+Seat 5: nvucea96 folded before Flop (didn't bet)
+
+PokerStars Hand #188547213559: Tournament #2352933677, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 0:59:59 MSK [2018/07/09 17:59:59 ET]
+Table '2352933677 1' 6-max Seat #3 is the button
+Seat 2: Balabol96 (424 in chips)
+Seat 3: DiggErr555 (1069 in chips)
+Seat 4: neverlkdback (392 in chips)
+Seat 5: nvucea96 (1115 in chips)
+Balabol96: posts the ante 4
+DiggErr555: posts the ante 4
+neverlkdback: posts the ante 4
+nvucea96: posts the ante 4
+neverlkdback: posts small blind 20
+nvucea96: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [2s Ac]
+Balabol96: folds
+DiggErr555: raises 40 to 80
+neverlkdback: folds
+nvucea96: folds
+Uncalled bet (40) returned to DiggErr555
+DiggErr555 collected 116 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 116 | Rake 0
+Seat 2: Balabol96 folded before Flop (didn't bet)
+Seat 3: DiggErr555 (button) collected (116)
+Seat 4: neverlkdback (small blind) folded before Flop
+Seat 5: nvucea96 (big blind) folded before Flop
+
+PokerStars Hand #188547221452: Tournament #2352933677, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:00:13 MSK [2018/07/09 18:00:13 ET]
+Table '2352933677 1' 6-max Seat #4 is the button
+Seat 2: Balabol96 (420 in chips)
+Seat 3: DiggErr555 (1141 in chips)
+Seat 4: neverlkdback (368 in chips)
+Seat 5: nvucea96 (1071 in chips)
+Balabol96: posts the ante 4
+DiggErr555: posts the ante 4
+neverlkdback: posts the ante 4
+nvucea96: posts the ante 4
+nvucea96: posts small blind 20
+Balabol96: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Ad Kd]
+DiggErr555: raises 40 to 80
+neverlkdback: folds
+nvucea96: folds
+Balabol96: folds
+Uncalled bet (40) returned to DiggErr555
+DiggErr555 collected 116 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 116 | Rake 0
+Seat 2: Balabol96 (big blind) folded before Flop
+Seat 3: DiggErr555 collected (116)
+Seat 4: neverlkdback (button) folded before Flop (didn't bet)
+Seat 5: nvucea96 (small blind) folded before Flop
+
+PokerStars Hand #188547231590: Tournament #2352933677, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:00:31 MSK [2018/07/09 18:00:31 ET]
+Table '2352933677 1' 6-max Seat #5 is the button
+Seat 2: Balabol96 (376 in chips)
+Seat 3: DiggErr555 (1213 in chips)
+Seat 4: neverlkdback (364 in chips)
+Seat 5: nvucea96 (1047 in chips)
+Balabol96: posts the ante 4
+DiggErr555: posts the ante 4
+neverlkdback: posts the ante 4
+nvucea96: posts the ante 4
+Balabol96: posts small blind 20
+DiggErr555: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [3d Qc]
+neverlkdback: folds
+nvucea96: raises 80 to 120
+Balabol96: folds
+DiggErr555: folds
+Uncalled bet (80) returned to nvucea96
+nvucea96 collected 116 from pot
+nvucea96: doesn't show hand
+*** SUMMARY ***
+Total pot 116 | Rake 0
+Seat 2: Balabol96 (small blind) folded before Flop
+Seat 3: DiggErr555 (big blind) folded before Flop
+Seat 4: neverlkdback folded before Flop (didn't bet)
+Seat 5: nvucea96 (button) collected (116)
+
+PokerStars Hand #188547244010: Tournament #2352933677, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:00:53 MSK [2018/07/09 18:00:53 ET]
+Table '2352933677 1' 6-max Seat #2 is the button
+Seat 2: Balabol96 (352 in chips)
+Seat 3: DiggErr555 (1169 in chips)
+Seat 4: neverlkdback (360 in chips)
+Seat 5: nvucea96 (1119 in chips)
+Balabol96: posts the ante 4
+DiggErr555: posts the ante 4
+neverlkdback: posts the ante 4
+nvucea96: posts the ante 4
+DiggErr555: posts small blind 20
+neverlkdback: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Qd 2c]
+nvucea96: raises 80 to 120
+Balabol96: raises 228 to 348 and is all-in
+DiggErr555: folds
+neverlkdback: folds
+nvucea96: calls 228
+*** FLOP *** [Ks 8d Tc]
+*** TURN *** [Ks 8d Tc] [Ad]
+*** RIVER *** [Ks 8d Tc Ad] [7c]
+*** SHOW DOWN ***
+nvucea96: shows [9c As] (a pair of Aces)
+Balabol96: shows [Jh Jc] (a pair of Jacks)
+nvucea96 collected 772 from pot
+nvucea96 wins the $2.38 bounty for eliminating Balabol96
+Balabol96 finished the tournament in 4th place
+*** SUMMARY ***
+Total pot 772 | Rake 0
+Board [Ks 8d Tc Ad 7c]
+Seat 2: Balabol96 (button) showed [Jh Jc] and lost with a pair of Jacks
+Seat 3: DiggErr555 (small blind) folded before Flop
+Seat 4: neverlkdback (big blind) folded before Flop
+Seat 5: nvucea96 showed [9c As] and won (772) with a pair of Aces
+
+PokerStars Hand #188547263950: Tournament #2352933677, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:01:25 MSK [2018/07/09 18:01:25 ET]
+Table '2352933677 1' 6-max Seat #3 is the button
+Seat 3: DiggErr555 (1145 in chips)
+Seat 4: neverlkdback (316 in chips)
+Seat 5: nvucea96 (1539 in chips)
+DiggErr555: posts the ante 6
+neverlkdback: posts the ante 6
+nvucea96: posts the ante 6
+neverlkdback: posts small blind 30
+nvucea96: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [3s Jc]
+DiggErr555: folds
+neverlkdback: raises 250 to 310 and is all-in
+nvucea96: calls 250
+*** FLOP *** [Qd 2d 2s]
+*** TURN *** [Qd 2d 2s] [9d]
+*** RIVER *** [Qd 2d 2s 9d] [9s]
+*** SHOW DOWN ***
+neverlkdback: shows [Kd Js] (two pair, Nines and Deuces)
+nvucea96: shows [9h Ks] (a full house, Nines full of Deuces)
+nvucea96 collected 638 from pot
+nvucea96 wins the $2.38 bounty for eliminating neverlkdback
+neverlkdback finished the tournament in 3rd place
+*** SUMMARY ***
+Total pot 638 | Rake 0
+Board [Qd 2d 2s 9d 9s]
+Seat 3: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 4: neverlkdback (small blind) showed [Kd Js] and lost with two pair, Nines and Deuces
+Seat 5: nvucea96 (big blind) showed [9h Ks] and won (638) with a full house, Nines full of Deuces
+
+PokerStars Hand #188547279263: Tournament #2352933677, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:01:48 MSK [2018/07/09 18:01:48 ET]
+Table '2352933677 1' 6-max Seat #5 is the button
+Seat 3: DiggErr555 (1139 in chips)
+Seat 5: nvucea96 (1861 in chips)
+DiggErr555: posts the ante 6
+nvucea96: posts the ante 6
+nvucea96: posts small blind 30
+DiggErr555: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Th 8c]
+nvucea96: raises 60 to 120
+DiggErr555: calls 60
+*** FLOP *** [Ac 3s Tc]
+DiggErr555: checks
+nvucea96: bets 60
+DiggErr555: calls 60
+*** TURN *** [Ac 3s Tc] [3h]
+DiggErr555: checks
+nvucea96: bets 186
+DiggErr555: folds
+Uncalled bet (186) returned to nvucea96
+nvucea96 collected 372 from pot
+nvucea96: doesn't show hand
+*** SUMMARY ***
+Total pot 372 | Rake 0
+Board [Ac 3s Tc 3h]
+Seat 3: DiggErr555 (big blind) folded on the Turn
+Seat 5: nvucea96 (button) (small blind) collected (372)
+
+PokerStars Hand #188547296655: Tournament #2352933677, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:02:16 MSK [2018/07/09 18:02:16 ET]
+Table '2352933677 1' 6-max Seat #3 is the button
+Seat 3: DiggErr555 (953 in chips)
+Seat 5: nvucea96 (2047 in chips)
+DiggErr555: posts the ante 6
+nvucea96: posts the ante 6
+DiggErr555: posts small blind 30
+nvucea96: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [5s 2s]
+DiggErr555: calls 30
+nvucea96: checks
+*** FLOP *** [Jc Jd Qd]
+nvucea96: bets 66
+DiggErr555: folds
+Uncalled bet (66) returned to nvucea96
+nvucea96 collected 132 from pot
+nvucea96: doesn't show hand
+*** SUMMARY ***
+Total pot 132 | Rake 0
+Board [Jc Jd Qd]
+Seat 3: DiggErr555 (button) (small blind) folded on the Flop
+Seat 5: nvucea96 (big blind) collected (132)
+
+PokerStars Hand #188547308877: Tournament #2352933677, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:02:34 MSK [2018/07/09 18:02:34 ET]
+Table '2352933677 1' 6-max Seat #5 is the button
+Seat 3: DiggErr555 (887 in chips)
+Seat 5: nvucea96 (2113 in chips)
+DiggErr555: posts the ante 6
+nvucea96: posts the ante 6
+nvucea96: posts small blind 30
+DiggErr555: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Td 5s]
+nvucea96: raises 2047 to 2107 and is all-in
+DiggErr555: folds
+Uncalled bet (2047) returned to nvucea96
+nvucea96 collected 132 from pot
+nvucea96: doesn't show hand
+*** SUMMARY ***
+Total pot 132 | Rake 0
+Seat 3: DiggErr555 (big blind) folded before Flop
+Seat 5: nvucea96 (button) (small blind) collected (132)
+
+PokerStars Hand #188547314181: Tournament #2352933677, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:02:42 MSK [2018/07/09 18:02:42 ET]
+Table '2352933677 1' 6-max Seat #3 is the button
+Seat 3: DiggErr555 (821 in chips)
+Seat 5: nvucea96 (2179 in chips)
+DiggErr555: posts the ante 6
+nvucea96: posts the ante 6
+DiggErr555: posts small blind 30
+nvucea96: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [9c 6h]
+DiggErr555: calls 30
+nvucea96: checks
+*** FLOP *** [9h Js 4c]
+nvucea96: checks
+DiggErr555: bets 60
+nvucea96: folds
+Uncalled bet (60) returned to DiggErr555
+DiggErr555 collected 132 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 132 | Rake 0
+Board [9h Js 4c]
+Seat 3: DiggErr555 (button) (small blind) collected (132)
+Seat 5: nvucea96 (big blind) folded on the Flop
+
+PokerStars Hand #188547325276: Tournament #2352933677, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:03:00 MSK [2018/07/09 18:03:00 ET]
+Table '2352933677 1' 6-max Seat #5 is the button
+Seat 3: DiggErr555 (887 in chips)
+Seat 5: nvucea96 (2113 in chips)
+DiggErr555: posts the ante 8
+nvucea96: posts the ante 8
+nvucea96: posts small blind 40
+DiggErr555: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6h 3h]
+nvucea96: folds
+Uncalled bet (40) returned to DiggErr555
+DiggErr555 collected 96 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 96 | Rake 0
+Seat 3: DiggErr555 (big blind) collected (96)
+Seat 5: nvucea96 (button) (small blind) folded before Flop
+
+PokerStars Hand #188547328527: Tournament #2352933677, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:03:05 MSK [2018/07/09 18:03:05 ET]
+Table '2352933677 1' 6-max Seat #3 is the button
+Seat 3: DiggErr555 (935 in chips)
+Seat 5: nvucea96 (2065 in chips)
+DiggErr555: posts the ante 8
+nvucea96: posts the ante 8
+DiggErr555: posts small blind 40
+nvucea96: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [2c 7d]
+DiggErr555: folds
+Uncalled bet (40) returned to nvucea96
+nvucea96 collected 96 from pot
+nvucea96: doesn't show hand
+*** SUMMARY ***
+Total pot 96 | Rake 0
+Seat 3: DiggErr555 (button) (small blind) folded before Flop
+Seat 5: nvucea96 (big blind) collected (96)
+
+PokerStars Hand #188547331493: Tournament #2352933677, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:03:09 MSK [2018/07/09 18:03:09 ET]
+Table '2352933677 1' 6-max Seat #5 is the button
+Seat 3: DiggErr555 (887 in chips)
+Seat 5: nvucea96 (2113 in chips)
+DiggErr555: posts the ante 8
+nvucea96: posts the ante 8
+nvucea96: posts small blind 40
+DiggErr555: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [9s 5h]
+nvucea96: folds
+Uncalled bet (40) returned to DiggErr555
+DiggErr555 collected 96 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 96 | Rake 0
+Seat 3: DiggErr555 (big blind) collected (96)
+Seat 5: nvucea96 (button) (small blind) folded before Flop
+
+PokerStars Hand #188547335160: Tournament #2352933677, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:03:15 MSK [2018/07/09 18:03:15 ET]
+Table '2352933677 1' 6-max Seat #3 is the button
+Seat 3: DiggErr555 (935 in chips)
+Seat 5: nvucea96 (2065 in chips)
+DiggErr555: posts the ante 8
+nvucea96: posts the ante 8
+DiggErr555: posts small blind 40
+nvucea96: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Js 6c]
+DiggErr555: calls 40
+nvucea96: checks
+*** FLOP *** [3h Kc 6s]
+nvucea96: bets 88
+DiggErr555: calls 88
+*** TURN *** [3h Kc 6s] [6h]
+nvucea96: bets 176
+DiggErr555: calls 176
+*** RIVER *** [3h Kc 6s 6h] [4c]
+nvucea96: bets 704
+DiggErr555: calls 583 and is all-in
+Uncalled bet (121) returned to nvucea96
+*** SHOW DOWN ***
+nvucea96: shows [5h 7d] (a straight, Three to Seven)
+DiggErr555: shows [Js 6c] (three of a kind, Sixes)
+nvucea96 collected 1870 from pot
+nvucea96 wins the $2.38 bounty for eliminating DiggErr555
+DiggErr555 finished the tournament in 2nd place and received $7.14.
+nvucea96 wins the tournament and receives $7.14 - congratulations!
+*** SUMMARY ***
+Total pot 1870 | Rake 0
+Board [3h Kc 6s 6h 4c]
+Seat 3: DiggErr555 (button) (small blind) showed [Js 6c] and lost with three of a kind, Sixes
+Seat 5: nvucea96 (big blind) showed [5h 7d] and won (1870) with a straight, Three to Seven

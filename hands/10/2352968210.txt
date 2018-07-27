@@ -1,0 +1,623 @@
+
+
+PokerStars Hand #188548762581: Tournament #2352968210, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:41:59 MSK [2018/07/09 18:41:59 ET]
+Table '2352968210 1' 6-max Seat #1 is the button
+Seat 1: ssquirrelksc (500 in chips) is sitting out
+Seat 2: DiggErr555 (500 in chips)
+Seat 3: brieba (500 in chips)
+Seat 4: FERZ1979 (500 in chips)
+Seat 5: Denisov V. (500 in chips)
+Seat 6: agusalde (500 in chips)
+ssquirrelksc: posts the ante 2
+DiggErr555: posts the ante 2
+brieba: posts the ante 2
+FERZ1979: posts the ante 2
+Denisov V.: posts the ante 2
+agusalde: posts the ante 2
+DiggErr555: posts small blind 10
+brieba: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [3h 8c]
+ssquirrelksc has returned
+FERZ1979: calls 20
+Denisov V.: raises 478 to 498 and is all-in
+agusalde: folds
+ssquirrelksc: folds
+DiggErr555: folds
+brieba: folds
+FERZ1979: folds
+Uncalled bet (478) returned to Denisov V.
+Denisov V. collected 82 from pot
+Denisov V.: doesn't show hand
+*** SUMMARY ***
+Total pot 82 | Rake 0
+Seat 1: ssquirrelksc (button) folded before Flop (didn't bet)
+Seat 2: DiggErr555 (small blind) folded before Flop
+Seat 3: brieba (big blind) folded before Flop
+Seat 4: FERZ1979 folded before Flop
+Seat 5: Denisov V. collected (82)
+Seat 6: agusalde folded before Flop (didn't bet)
+
+PokerStars Hand #188548773707: Tournament #2352968210, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:42:18 MSK [2018/07/09 18:42:18 ET]
+Table '2352968210 1' 6-max Seat #2 is the button
+Seat 1: ssquirrelksc (498 in chips)
+Seat 2: DiggErr555 (488 in chips)
+Seat 3: brieba (478 in chips)
+Seat 4: FERZ1979 (478 in chips)
+Seat 5: Denisov V. (560 in chips)
+Seat 6: agusalde (498 in chips)
+ssquirrelksc: posts the ante 2
+DiggErr555: posts the ante 2
+brieba: posts the ante 2
+FERZ1979: posts the ante 2
+Denisov V.: posts the ante 2
+agusalde: posts the ante 2
+brieba: posts small blind 10
+FERZ1979: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [3c As]
+Denisov V.: folds
+agusalde: folds
+ssquirrelksc: folds
+DiggErr555: raises 466 to 486 and is all-in
+brieba: calls 466 and is all-in
+FERZ1979: folds
+Uncalled bet (10) returned to DiggErr555
+*** FLOP *** [Qc 9c 3d]
+*** TURN *** [Qc 9c 3d] [5s]
+*** RIVER *** [Qc 9c 3d 5s] [3h]
+*** SHOW DOWN ***
+brieba: shows [Qh Jc] (two pair, Queens and Threes)
+DiggErr555: shows [3c As] (three of a kind, Threes)
+DiggErr555 collected 984 from pot
+DiggErr555 wins the $12.01 bounty for eliminating brieba
+brieba finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 984 | Rake 0
+Board [Qc 9c 3d 5s 3h]
+Seat 1: ssquirrelksc folded before Flop (didn't bet)
+Seat 2: DiggErr555 (button) showed [3c As] and won (984) with three of a kind, Threes
+Seat 3: brieba (small blind) showed [Qh Jc] and lost with two pair, Queens and Threes
+Seat 4: FERZ1979 (big blind) folded before Flop
+Seat 5: Denisov V. folded before Flop (didn't bet)
+Seat 6: agusalde folded before Flop (didn't bet)
+
+PokerStars Hand #188548789124: Tournament #2352968210, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:42:44 MSK [2018/07/09 18:42:44 ET]
+Table '2352968210 1' 6-max Seat #4 is the button
+Seat 1: ssquirrelksc (496 in chips)
+Seat 2: DiggErr555 (994 in chips)
+Seat 4: FERZ1979 (456 in chips)
+Seat 5: Denisov V. (558 in chips)
+Seat 6: agusalde (496 in chips)
+ssquirrelksc: posts the ante 2
+DiggErr555: posts the ante 2
+FERZ1979: posts the ante 2
+Denisov V.: posts the ante 2
+agusalde: posts the ante 2
+Denisov V.: posts small blind 10
+agusalde: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6h 7h]
+ssquirrelksc: folds
+DiggErr555: raises 20 to 40
+FERZ1979: folds
+Denisov V.: folds
+agusalde: calls 20
+*** FLOP *** [Kh Td Kc]
+agusalde: checks
+DiggErr555: bets 35
+agusalde: calls 35
+*** TURN *** [Kh Td Kc] [Th]
+agusalde: checks
+DiggErr555: checks
+*** RIVER *** [Kh Td Kc Th] [9h]
+agusalde: bets 200
+DiggErr555: folds
+Uncalled bet (200) returned to agusalde
+agusalde collected 170 from pot
+agusalde: doesn't show hand
+*** SUMMARY ***
+Total pot 170 | Rake 0
+Board [Kh Td Kc Th 9h]
+Seat 1: ssquirrelksc folded before Flop (didn't bet)
+Seat 2: DiggErr555 folded on the River
+Seat 4: FERZ1979 (button) folded before Flop (didn't bet)
+Seat 5: Denisov V. (small blind) folded before Flop
+Seat 6: agusalde (big blind) collected (170)
+
+PokerStars Hand #188548808091: Tournament #2352968210, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:43:17 MSK [2018/07/09 18:43:17 ET]
+Table '2352968210 1' 6-max Seat #5 is the button
+Seat 1: ssquirrelksc (494 in chips)
+Seat 2: DiggErr555 (917 in chips)
+Seat 4: FERZ1979 (454 in chips)
+Seat 5: Denisov V. (546 in chips)
+Seat 6: agusalde (589 in chips)
+ssquirrelksc: posts the ante 3
+DiggErr555: posts the ante 3
+FERZ1979: posts the ante 3
+Denisov V.: posts the ante 3
+agusalde: posts the ante 3
+agusalde: posts small blind 15
+ssquirrelksc: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [2s 5d]
+DiggErr555: folds
+FERZ1979: folds
+Denisov V.: folds
+agusalde: calls 15
+ssquirrelksc: raises 60 to 90
+agusalde: folds
+Uncalled bet (60) returned to ssquirrelksc
+ssquirrelksc collected 75 from pot
+ssquirrelksc: doesn't show hand
+*** SUMMARY ***
+Total pot 75 | Rake 0
+Seat 1: ssquirrelksc (big blind) collected (75)
+Seat 2: DiggErr555 folded before Flop (didn't bet)
+Seat 4: FERZ1979 folded before Flop (didn't bet)
+Seat 5: Denisov V. (button) folded before Flop (didn't bet)
+Seat 6: agusalde (small blind) folded before Flop
+
+PokerStars Hand #188548815869: Tournament #2352968210, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:43:31 MSK [2018/07/09 18:43:31 ET]
+Table '2352968210 1' 6-max Seat #6 is the button
+Seat 1: ssquirrelksc (536 in chips)
+Seat 2: DiggErr555 (914 in chips)
+Seat 4: FERZ1979 (451 in chips)
+Seat 5: Denisov V. (543 in chips)
+Seat 6: agusalde (556 in chips)
+ssquirrelksc: posts the ante 3
+DiggErr555: posts the ante 3
+FERZ1979: posts the ante 3
+Denisov V.: posts the ante 3
+agusalde: posts the ante 3
+ssquirrelksc: posts small blind 15
+DiggErr555: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [3c Kc]
+FERZ1979: folds
+Denisov V.: folds
+agusalde: folds
+ssquirrelksc: folds
+Uncalled bet (15) returned to DiggErr555
+DiggErr555 collected 45 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 45 | Rake 0
+Seat 1: ssquirrelksc (small blind) folded before Flop
+Seat 2: DiggErr555 (big blind) collected (45)
+Seat 4: FERZ1979 folded before Flop (didn't bet)
+Seat 5: Denisov V. folded before Flop (didn't bet)
+Seat 6: agusalde (button) folded before Flop (didn't bet)
+
+PokerStars Hand #188548821358: Tournament #2352968210, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:43:40 MSK [2018/07/09 18:43:40 ET]
+Table '2352968210 1' 6-max Seat #1 is the button
+Seat 1: ssquirrelksc (518 in chips)
+Seat 2: DiggErr555 (941 in chips)
+Seat 4: FERZ1979 (448 in chips)
+Seat 5: Denisov V. (540 in chips)
+Seat 6: agusalde (553 in chips)
+ssquirrelksc: posts the ante 3
+DiggErr555: posts the ante 3
+FERZ1979: posts the ante 3
+Denisov V.: posts the ante 3
+agusalde: posts the ante 3
+DiggErr555: posts small blind 15
+FERZ1979: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Qs 6d]
+Denisov V.: folds
+agusalde: folds
+ssquirrelksc: folds
+DiggErr555: raises 908 to 938 and is all-in
+FERZ1979: folds
+Uncalled bet (908) returned to DiggErr555
+DiggErr555 collected 75 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 75 | Rake 0
+Seat 1: ssquirrelksc (button) folded before Flop (didn't bet)
+Seat 2: DiggErr555 (small blind) collected (75)
+Seat 4: FERZ1979 (big blind) folded before Flop
+Seat 5: Denisov V. folded before Flop (didn't bet)
+Seat 6: agusalde folded before Flop (didn't bet)
+
+PokerStars Hand #188548828518: Tournament #2352968210, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:43:53 MSK [2018/07/09 18:43:53 ET]
+Table '2352968210 1' 6-max Seat #2 is the button
+Seat 1: ssquirrelksc (515 in chips)
+Seat 2: DiggErr555 (983 in chips)
+Seat 4: FERZ1979 (415 in chips)
+Seat 5: Denisov V. (537 in chips)
+Seat 6: agusalde (550 in chips)
+ssquirrelksc: posts the ante 3
+DiggErr555: posts the ante 3
+FERZ1979: posts the ante 3
+Denisov V.: posts the ante 3
+agusalde: posts the ante 3
+FERZ1979: posts small blind 15
+Denisov V.: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Kc 9h]
+agusalde: raises 60 to 90
+ssquirrelksc: raises 422 to 512 and is all-in
+DiggErr555: folds
+FERZ1979: folds
+Denisov V.: folds
+agusalde: calls 422
+*** FLOP *** [Ks 7d 3h]
+*** TURN *** [Ks 7d 3h] [8h]
+*** RIVER *** [Ks 7d 3h 8h] [2c]
+*** SHOW DOWN ***
+agusalde: shows [Js As] (high card Ace)
+ssquirrelksc: shows [Kd Tc] (a pair of Kings)
+ssquirrelksc collected 1084 from pot
+*** SUMMARY ***
+Total pot 1084 | Rake 0
+Board [Ks 7d 3h 8h 2c]
+Seat 1: ssquirrelksc showed [Kd Tc] and won (1084) with a pair of Kings
+Seat 2: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 4: FERZ1979 (small blind) folded before Flop
+Seat 5: Denisov V. (big blind) folded before Flop
+Seat 6: agusalde showed [Js As] and lost with high card Ace
+
+PokerStars Hand #188548842076: Tournament #2352968210, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:44:16 MSK [2018/07/09 18:44:16 ET]
+Table '2352968210 1' 6-max Seat #4 is the button
+Seat 1: ssquirrelksc (1084 in chips)
+Seat 2: DiggErr555 (980 in chips)
+Seat 4: FERZ1979 (397 in chips)
+Seat 5: Denisov V. (504 in chips)
+Seat 6: agusalde (35 in chips)
+ssquirrelksc: posts the ante 4
+DiggErr555: posts the ante 4
+FERZ1979: posts the ante 4
+Denisov V.: posts the ante 4
+agusalde: posts the ante 4
+Denisov V.: posts small blind 20
+agusalde: posts big blind 31 and is all-in
+*** HOLE CARDS ***
+Dealt to DiggErr555 [8h Qh]
+ssquirrelksc: raises 1049 to 1080 and is all-in
+DiggErr555: folds
+FERZ1979: folds
+Denisov V.: folds
+Uncalled bet (1049) returned to ssquirrelksc
+*** FLOP *** [9h 8s 2s]
+*** TURN *** [9h 8s 2s] [6s]
+*** RIVER *** [9h 8s 2s 6s] [2c]
+*** SHOW DOWN ***
+agusalde: shows [6c Kc] (two pair, Sixes and Deuces)
+ssquirrelksc: shows [Js Ad] (a pair of Deuces)
+agusalde collected 102 from pot
+*** SUMMARY ***
+Total pot 102 | Rake 0
+Board [9h 8s 2s 6s 2c]
+Seat 1: ssquirrelksc showed [Js Ad] and lost with a pair of Deuces
+Seat 2: DiggErr555 folded before Flop (didn't bet)
+Seat 4: FERZ1979 (button) folded before Flop (didn't bet)
+Seat 5: Denisov V. (small blind) folded before Flop
+Seat 6: agusalde (big blind) showed [6c Kc] and won (102) with two pair, Sixes and Deuces
+
+PokerStars Hand #188548853475: Tournament #2352968210, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:44:36 MSK [2018/07/09 18:44:36 ET]
+Table '2352968210 1' 6-max Seat #5 is the button
+Seat 1: ssquirrelksc (1049 in chips)
+Seat 2: DiggErr555 (976 in chips)
+Seat 4: FERZ1979 (393 in chips)
+Seat 5: Denisov V. (480 in chips)
+Seat 6: agusalde (102 in chips)
+ssquirrelksc: posts the ante 4
+DiggErr555: posts the ante 4
+FERZ1979: posts the ante 4
+Denisov V.: posts the ante 4
+agusalde: posts the ante 4
+agusalde: posts small blind 20
+ssquirrelksc: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Ad 9d]
+DiggErr555: raises 40 to 80
+FERZ1979: calls 80
+Denisov V.: folds
+agusalde: folds
+ssquirrelksc: raises 965 to 1045 and is all-in
+DiggErr555: folds
+FERZ1979: folds
+Uncalled bet (965) returned to ssquirrelksc
+ssquirrelksc collected 280 from pot
+ssquirrelksc: doesn't show hand
+*** SUMMARY ***
+Total pot 280 | Rake 0
+Seat 1: ssquirrelksc (big blind) collected (280)
+Seat 2: DiggErr555 folded before Flop
+Seat 4: FERZ1979 folded before Flop
+Seat 5: Denisov V. (button) folded before Flop (didn't bet)
+Seat 6: agusalde (small blind) folded before Flop
+
+PokerStars Hand #188548861404: Tournament #2352968210, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:44:50 MSK [2018/07/09 18:44:50 ET]
+Table '2352968210 1' 6-max Seat #6 is the button
+Seat 1: ssquirrelksc (1245 in chips)
+Seat 2: DiggErr555 (892 in chips)
+Seat 4: FERZ1979 (309 in chips)
+Seat 5: Denisov V. (476 in chips)
+Seat 6: agusalde (78 in chips)
+ssquirrelksc: posts the ante 4
+DiggErr555: posts the ante 4
+FERZ1979: posts the ante 4
+Denisov V.: posts the ante 4
+agusalde: posts the ante 4
+ssquirrelksc: posts small blind 20
+DiggErr555: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Jc 3d]
+FERZ1979: folds
+Denisov V.: raises 432 to 472 and is all-in
+agusalde: folds
+ssquirrelksc: folds
+DiggErr555: folds
+Uncalled bet (432) returned to Denisov V.
+Denisov V. collected 120 from pot
+Denisov V.: doesn't show hand
+*** SUMMARY ***
+Total pot 120 | Rake 0
+Seat 1: ssquirrelksc (small blind) folded before Flop
+Seat 2: DiggErr555 (big blind) folded before Flop
+Seat 4: FERZ1979 folded before Flop (didn't bet)
+Seat 5: Denisov V. collected (120)
+Seat 6: agusalde (button) folded before Flop (didn't bet)
+
+PokerStars Hand #188548869206: Tournament #2352968210, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:45:04 MSK [2018/07/09 18:45:04 ET]
+Table '2352968210 1' 6-max Seat #1 is the button
+Seat 1: ssquirrelksc (1221 in chips)
+Seat 2: DiggErr555 (848 in chips)
+Seat 4: FERZ1979 (305 in chips)
+Seat 5: Denisov V. (552 in chips)
+Seat 6: agusalde (74 in chips)
+ssquirrelksc: posts the ante 4
+DiggErr555: posts the ante 4
+FERZ1979: posts the ante 4
+Denisov V.: posts the ante 4
+agusalde: posts the ante 4
+DiggErr555: posts small blind 20
+FERZ1979: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [4c 3c]
+Denisov V.: folds
+agusalde: raises 30 to 70 and is all-in
+ssquirrelksc: folds
+DiggErr555: raises 774 to 844 and is all-in
+FERZ1979: folds
+Uncalled bet (774) returned to DiggErr555
+*** FLOP *** [6c 4d Td]
+*** TURN *** [6c 4d Td] [6d]
+*** RIVER *** [6c 4d Td 6d] [Qh]
+*** SHOW DOWN ***
+DiggErr555: shows [4c 3c] (two pair, Sixes and Fours)
+agusalde: shows [Qs 3s] (two pair, Queens and Sixes)
+agusalde collected 200 from pot
+*** SUMMARY ***
+Total pot 200 | Rake 0
+Board [6c 4d Td 6d Qh]
+Seat 1: ssquirrelksc (button) folded before Flop (didn't bet)
+Seat 2: DiggErr555 (small blind) showed [4c 3c] and lost with two pair, Sixes and Fours
+Seat 4: FERZ1979 (big blind) folded before Flop
+Seat 5: Denisov V. folded before Flop (didn't bet)
+Seat 6: agusalde showed [Qs 3s] and won (200) with two pair, Queens and Sixes
+
+PokerStars Hand #188548885182: Tournament #2352968210, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:45:31 MSK [2018/07/09 18:45:31 ET]
+Table '2352968210 1' 6-max Seat #2 is the button
+Seat 1: ssquirrelksc (1217 in chips)
+Seat 2: DiggErr555 (774 in chips)
+Seat 4: FERZ1979 (261 in chips)
+Seat 5: Denisov V. (548 in chips)
+Seat 6: agusalde (200 in chips)
+ssquirrelksc: posts the ante 6
+DiggErr555: posts the ante 6
+FERZ1979: posts the ante 6
+Denisov V.: posts the ante 6
+agusalde: posts the ante 6
+FERZ1979: posts small blind 30
+Denisov V.: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [8s Qd]
+agusalde: raises 134 to 194 and is all-in
+ssquirrelksc: folds
+DiggErr555: raises 574 to 768 and is all-in
+FERZ1979: calls 225 and is all-in
+Denisov V.: folds
+Uncalled bet (513) returned to DiggErr555
+*** FLOP *** [3d 3h 8h]
+*** TURN *** [3d 3h 8h] [Ah]
+*** RIVER *** [3d 3h 8h Ah] [7d]
+*** SHOW DOWN ***
+FERZ1979: shows [Ad Jd] (two pair, Aces and Threes)
+DiggErr555: shows [8s Qd] (two pair, Eights and Threes)
+FERZ1979 collected 122 from side pot
+agusalde: shows [9c 9d] (two pair, Nines and Threes)
+FERZ1979 collected 672 from main pot
+FERZ1979 wins the $12.01 bounty for eliminating agusalde
+agusalde finished the tournament in 5th place
+*** SUMMARY ***
+Total pot 794 Main pot 672. Side pot 122. | Rake 0
+Board [3d 3h 8h Ah 7d]
+Seat 1: ssquirrelksc folded before Flop (didn't bet)
+Seat 2: DiggErr555 (button) showed [8s Qd] and lost with two pair, Eights and Threes
+Seat 4: FERZ1979 (small blind) showed [Ad Jd] and won (794) with two pair, Aces and Threes
+Seat 5: Denisov V. (big blind) folded before Flop
+Seat 6: agusalde showed [9c 9d] and lost with two pair, Nines and Threes
+
+PokerStars Hand #188548896706: Tournament #2352968210, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:45:52 MSK [2018/07/09 18:45:52 ET]
+Table '2352968210 1' 6-max Seat #4 is the button
+Seat 1: ssquirrelksc (1211 in chips)
+Seat 2: DiggErr555 (513 in chips)
+Seat 4: FERZ1979 (794 in chips)
+Seat 5: Denisov V. (482 in chips)
+ssquirrelksc: posts the ante 6
+DiggErr555: posts the ante 6
+FERZ1979: posts the ante 6
+Denisov V.: posts the ante 6
+Denisov V.: posts small blind 30
+ssquirrelksc: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [5d Ah]
+DiggErr555: raises 447 to 507 and is all-in
+FERZ1979: folds
+Denisov V.: folds
+ssquirrelksc: calls 447
+*** FLOP *** [Ad 5c Kh]
+*** TURN *** [Ad 5c Kh] [As]
+*** RIVER *** [Ad 5c Kh As] [Qd]
+*** SHOW DOWN ***
+ssquirrelksc: shows [8c Ts] (a pair of Aces)
+DiggErr555: shows [5d Ah] (a full house, Aces full of Fives)
+DiggErr555 collected 1068 from pot
+*** SUMMARY ***
+Total pot 1068 | Rake 0
+Board [Ad 5c Kh As Qd]
+Seat 1: ssquirrelksc (big blind) showed [8c Ts] and lost with a pair of Aces
+Seat 2: DiggErr555 showed [5d Ah] and won (1068) with a full house, Aces full of Fives
+Seat 4: FERZ1979 (button) folded before Flop (didn't bet)
+Seat 5: Denisov V. (small blind) folded before Flop
+
+PokerStars Hand #188548906129: Tournament #2352968210, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:46:08 MSK [2018/07/09 18:46:08 ET]
+Table '2352968210 1' 6-max Seat #5 is the button
+Seat 1: ssquirrelksc (698 in chips)
+Seat 2: DiggErr555 (1068 in chips)
+Seat 4: FERZ1979 (788 in chips)
+Seat 5: Denisov V. (446 in chips)
+ssquirrelksc: posts the ante 6
+DiggErr555: posts the ante 6
+FERZ1979: posts the ante 6
+Denisov V.: posts the ante 6
+ssquirrelksc: posts small blind 30
+DiggErr555: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Jd Td]
+FERZ1979: folds
+Denisov V.: folds
+ssquirrelksc: raises 632 to 692 and is all-in
+DiggErr555: calls 632
+*** FLOP *** [Qs 8c 9c]
+*** TURN *** [Qs 8c 9c] [Ts]
+*** RIVER *** [Qs 8c 9c Ts] [Qh]
+*** SHOW DOWN ***
+ssquirrelksc: shows [3h 3c] (two pair, Queens and Threes)
+DiggErr555: shows [Jd Td] (a straight, Eight to Queen)
+DiggErr555 collected 1408 from pot
+DiggErr555 wins the $12.01 bounty for eliminating ssquirrelksc
+ssquirrelksc finished the tournament in 4th place
+*** SUMMARY ***
+Total pot 1408 | Rake 0
+Board [Qs 8c 9c Ts Qh]
+Seat 1: ssquirrelksc (small blind) showed [3h 3c] and lost with two pair, Queens and Threes
+Seat 2: DiggErr555 (big blind) showed [Jd Td] and won (1408) with a straight, Eight to Queen
+Seat 4: FERZ1979 folded before Flop (didn't bet)
+Seat 5: Denisov V. (button) folded before Flop (didn't bet)
+
+PokerStars Hand #188548917876: Tournament #2352968210, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:46:29 MSK [2018/07/09 18:46:29 ET]
+Table '2352968210 1' 6-max Seat #2 is the button
+Seat 2: DiggErr555 (1778 in chips)
+Seat 4: FERZ1979 (782 in chips)
+Seat 5: Denisov V. (440 in chips)
+DiggErr555: posts the ante 6
+FERZ1979: posts the ante 6
+Denisov V.: posts the ante 6
+FERZ1979: posts small blind 30
+Denisov V.: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Kd 6c]
+DiggErr555: raises 1712 to 1772 and is all-in
+FERZ1979: folds
+Denisov V.: folds
+Uncalled bet (1712) returned to DiggErr555
+DiggErr555 collected 168 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 168 | Rake 0
+Seat 2: DiggErr555 (button) collected (168)
+Seat 4: FERZ1979 (small blind) folded before Flop
+Seat 5: Denisov V. (big blind) folded before Flop
+
+PokerStars Hand #188548921470: Tournament #2352968210, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:46:35 MSK [2018/07/09 18:46:35 ET]
+Table '2352968210 1' 6-max Seat #4 is the button
+Seat 2: DiggErr555 (1880 in chips)
+Seat 4: FERZ1979 (746 in chips)
+Seat 5: Denisov V. (374 in chips)
+DiggErr555: posts the ante 6
+FERZ1979: posts the ante 6
+Denisov V.: posts the ante 6
+Denisov V.: posts small blind 30
+DiggErr555: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Td Th]
+FERZ1979: calls 60
+Denisov V.: folds
+DiggErr555: raises 1814 to 1874 and is all-in
+FERZ1979: folds
+Uncalled bet (1814) returned to DiggErr555
+DiggErr555 collected 168 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 168 | Rake 0
+Seat 2: DiggErr555 (big blind) collected (168)
+Seat 4: FERZ1979 (button) folded before Flop
+Seat 5: Denisov V. (small blind) folded before Flop
+
+PokerStars Hand #188548930088: Tournament #2352968210, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:46:50 MSK [2018/07/09 18:46:50 ET]
+Table '2352968210 1' 6-max Seat #5 is the button
+Seat 2: DiggErr555 (1982 in chips)
+Seat 4: FERZ1979 (680 in chips)
+Seat 5: Denisov V. (338 in chips)
+DiggErr555: posts the ante 8
+FERZ1979: posts the ante 8
+Denisov V.: posts the ante 8
+DiggErr555: posts small blind 40
+FERZ1979: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [2s 2h]
+Denisov V.: raises 120 to 200
+DiggErr555: raises 1774 to 1974 and is all-in
+FERZ1979: folds
+Denisov V.: calls 130 and is all-in
+Uncalled bet (1644) returned to DiggErr555
+*** FLOP *** [6s Ad Jd]
+*** TURN *** [6s Ad Jd] [7h]
+*** RIVER *** [6s Ad Jd 7h] [9s]
+*** SHOW DOWN ***
+DiggErr555: shows [2s 2h] (a pair of Deuces)
+Denisov V.: shows [Ks Tc] (high card Ace)
+DiggErr555 collected 764 from pot
+DiggErr555 wins the $12.01 bounty for eliminating Denisov V.
+Denisov V. finished the tournament in 3rd place
+*** SUMMARY ***
+Total pot 764 | Rake 0
+Board [6s Ad Jd 7h 9s]
+Seat 2: DiggErr555 (small blind) showed [2s 2h] and won (764) with a pair of Deuces
+Seat 4: FERZ1979 (big blind) folded before Flop
+Seat 5: Denisov V. (button) showed [Ks Tc] and lost with high card Ace
+
+PokerStars Hand #188548941775: Tournament #2352968210, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level V (40/80) - 2018/07/10 1:47:11 MSK [2018/07/09 18:47:11 ET]
+Table '2352968210 1' 6-max Seat #4 is the button
+Seat 2: DiggErr555 (2408 in chips)
+Seat 4: FERZ1979 (592 in chips)
+DiggErr555: posts the ante 8
+FERZ1979: posts the ante 8
+FERZ1979: posts small blind 40
+DiggErr555: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6s 6d]
+FERZ1979: calls 40
+DiggErr555: raises 2320 to 2400 and is all-in
+FERZ1979: calls 504 and is all-in
+Uncalled bet (1816) returned to DiggErr555
+*** FLOP *** [Jh 8h 8d]
+*** TURN *** [Jh 8h 8d] [Qc]
+*** RIVER *** [Jh 8h 8d Qc] [8c]
+*** SHOW DOWN ***
+DiggErr555: shows [6s 6d] (a full house, Eights full of Sixes)
+FERZ1979: shows [Ah Kh] (three of a kind, Eights)
+DiggErr555 collected 1184 from pot
+DiggErr555 wins the $12.01 bounty for eliminating FERZ1979
+FERZ1979 finished the tournament in 2nd place and received $36.03.
+DiggErr555 wins the tournament and receives $36.03 - congratulations!
+*** SUMMARY ***
+Total pot 1184 | Rake 0
+Board [Jh 8h 8d Qc 8c]
+Seat 2: DiggErr555 (big blind) showed [6s 6d] and won (1184) with a full house, Eights full of Sixes
+Seat 4: FERZ1979 (button) (small blind) showed [Ah Kh] and lost with three of a kind, Eights

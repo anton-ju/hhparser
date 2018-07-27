@@ -1,0 +1,495 @@
+
+
+PokerStars Hand #188547472757: Tournament #2352940777, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:06:44 MSK [2018/07/09 18:06:44 ET]
+Table '2352940777 1' 6-max Seat #1 is the button
+Seat 1: nevets177 (500 in chips)
+Seat 2: danalogic (500 in chips)
+Seat 3: DiggErr555 (500 in chips)
+Seat 4: woody bruhh (500 in chips)
+Seat 5: ultraluxe (500 in chips)
+Seat 6: Luchok123 (500 in chips)
+nevets177: posts the ante 2
+danalogic: posts the ante 2
+DiggErr555: posts the ante 2
+woody bruhh: posts the ante 2
+ultraluxe: posts the ante 2
+Luchok123: posts the ante 2
+danalogic: posts small blind 10
+DiggErr555: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [3h Ts]
+woody bruhh: folds
+ultraluxe: folds
+Luchok123: folds
+nevets177: folds
+danalogic: raises 20 to 40
+DiggErr555: folds
+Uncalled bet (20) returned to danalogic
+danalogic collected 52 from pot
+danalogic: doesn't show hand
+*** SUMMARY ***
+Total pot 52 | Rake 0
+Seat 1: nevets177 (button) folded before Flop (didn't bet)
+Seat 2: danalogic (small blind) collected (52)
+Seat 3: DiggErr555 (big blind) folded before Flop
+Seat 4: woody bruhh folded before Flop (didn't bet)
+Seat 5: ultraluxe folded before Flop (didn't bet)
+Seat 6: Luchok123 folded before Flop (didn't bet)
+
+PokerStars Hand #188547487463: Tournament #2352940777, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:07:07 MSK [2018/07/09 18:07:07 ET]
+Table '2352940777 1' 6-max Seat #2 is the button
+Seat 1: nevets177 (498 in chips)
+Seat 2: danalogic (530 in chips)
+Seat 3: DiggErr555 (478 in chips)
+Seat 4: woody bruhh (498 in chips)
+Seat 5: ultraluxe (498 in chips)
+Seat 6: Luchok123 (498 in chips)
+nevets177: posts the ante 2
+danalogic: posts the ante 2
+DiggErr555: posts the ante 2
+woody bruhh: posts the ante 2
+ultraluxe: posts the ante 2
+Luchok123: posts the ante 2
+DiggErr555: posts small blind 10
+woody bruhh: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Kh Tc]
+ultraluxe: folds
+Luchok123: folds
+nevets177: raises 476 to 496 and is all-in
+danalogic: folds
+DiggErr555: folds
+woody bruhh: folds
+Uncalled bet (476) returned to nevets177
+nevets177 collected 62 from pot
+*** SUMMARY ***
+Total pot 62 | Rake 0
+Seat 1: nevets177 collected (62)
+Seat 2: danalogic (button) folded before Flop (didn't bet)
+Seat 3: DiggErr555 (small blind) folded before Flop
+Seat 4: woody bruhh (big blind) folded before Flop
+Seat 5: ultraluxe folded before Flop (didn't bet)
+Seat 6: Luchok123 folded before Flop (didn't bet)
+
+PokerStars Hand #188547499842: Tournament #2352940777, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:07:26 MSK [2018/07/09 18:07:26 ET]
+Table '2352940777 1' 6-max Seat #3 is the button
+Seat 1: nevets177 (538 in chips)
+Seat 2: danalogic (528 in chips)
+Seat 3: DiggErr555 (466 in chips)
+Seat 4: woody bruhh (476 in chips)
+Seat 5: ultraluxe (496 in chips)
+Seat 6: Luchok123 (496 in chips)
+nevets177: posts the ante 2
+danalogic: posts the ante 2
+DiggErr555: posts the ante 2
+woody bruhh: posts the ante 2
+ultraluxe: posts the ante 2
+Luchok123: posts the ante 2
+woody bruhh: posts small blind 10
+ultraluxe: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Th 7d]
+Luchok123: folds
+nevets177: folds
+danalogic: folds
+DiggErr555: folds
+woody bruhh: raises 454 to 474 and is all-in
+ultraluxe: folds
+Uncalled bet (454) returned to woody bruhh
+woody bruhh collected 52 from pot
+woody bruhh: doesn't show hand
+*** SUMMARY ***
+Total pot 52 | Rake 0
+Seat 1: nevets177 folded before Flop (didn't bet)
+Seat 2: danalogic folded before Flop (didn't bet)
+Seat 3: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 4: woody bruhh (small blind) collected (52)
+Seat 5: ultraluxe (big blind) folded before Flop
+Seat 6: Luchok123 folded before Flop (didn't bet)
+
+PokerStars Hand #188547514600: Tournament #2352940777, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:07:49 MSK [2018/07/09 18:07:49 ET]
+Table '2352940777 1' 6-max Seat #4 is the button
+Seat 1: nevets177 (536 in chips)
+Seat 2: danalogic (526 in chips)
+Seat 3: DiggErr555 (464 in chips)
+Seat 4: woody bruhh (506 in chips)
+Seat 5: ultraluxe (474 in chips)
+Seat 6: Luchok123 (494 in chips)
+nevets177: posts the ante 3
+danalogic: posts the ante 3
+DiggErr555: posts the ante 3
+woody bruhh: posts the ante 3
+ultraluxe: posts the ante 3
+Luchok123: posts the ante 3
+ultraluxe: posts small blind 15
+Luchok123: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Jh 3c]
+nevets177: raises 30 to 60
+danalogic: folds
+DiggErr555: folds
+woody bruhh: folds
+ultraluxe: folds
+Luchok123: folds
+Uncalled bet (30) returned to nevets177
+nevets177 collected 93 from pot
+*** SUMMARY ***
+Total pot 93 | Rake 0
+Seat 1: nevets177 collected (93)
+Seat 2: danalogic folded before Flop (didn't bet)
+Seat 3: DiggErr555 folded before Flop (didn't bet)
+Seat 4: woody bruhh (button) folded before Flop (didn't bet)
+Seat 5: ultraluxe (small blind) folded before Flop
+Seat 6: Luchok123 (big blind) folded before Flop
+
+PokerStars Hand #188547527798: Tournament #2352940777, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:08:09 MSK [2018/07/09 18:08:09 ET]
+Table '2352940777 1' 6-max Seat #5 is the button
+Seat 1: nevets177 (596 in chips)
+Seat 2: danalogic (523 in chips)
+Seat 3: DiggErr555 (461 in chips)
+Seat 4: woody bruhh (503 in chips)
+Seat 5: ultraluxe (456 in chips)
+Seat 6: Luchok123 (461 in chips)
+nevets177: posts the ante 3
+danalogic: posts the ante 3
+DiggErr555: posts the ante 3
+woody bruhh: posts the ante 3
+ultraluxe: posts the ante 3
+Luchok123: posts the ante 3
+Luchok123: posts small blind 15
+nevets177: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Jd Js]
+danalogic: folds
+DiggErr555: raises 30 to 60
+woody bruhh: folds
+ultraluxe: folds
+Luchok123: folds
+nevets177: calls 30
+*** FLOP *** [8d Ad Kd]
+nevets177: bets 150
+DiggErr555: folds
+Uncalled bet (150) returned to nevets177
+nevets177 collected 153 from pot
+*** SUMMARY ***
+Total pot 153 | Rake 0
+Board [8d Ad Kd]
+Seat 1: nevets177 (big blind) collected (153)
+Seat 2: danalogic folded before Flop (didn't bet)
+Seat 3: DiggErr555 folded on the Flop
+Seat 4: woody bruhh folded before Flop (didn't bet)
+Seat 5: ultraluxe (button) folded before Flop (didn't bet)
+Seat 6: Luchok123 (small blind) folded before Flop
+
+PokerStars Hand #188547545540: Tournament #2352940777, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:08:37 MSK [2018/07/09 18:08:37 ET]
+Table '2352940777 1' 6-max Seat #6 is the button
+Seat 1: nevets177 (686 in chips)
+Seat 2: danalogic (520 in chips)
+Seat 3: DiggErr555 (398 in chips)
+Seat 4: woody bruhh (500 in chips)
+Seat 5: ultraluxe (453 in chips)
+Seat 6: Luchok123 (443 in chips)
+nevets177: posts the ante 3
+danalogic: posts the ante 3
+DiggErr555: posts the ante 3
+woody bruhh: posts the ante 3
+ultraluxe: posts the ante 3
+Luchok123: posts the ante 3
+nevets177: posts small blind 15
+danalogic: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [2c 2s]
+DiggErr555: folds
+woody bruhh: folds
+ultraluxe: folds
+Luchok123: folds
+nevets177 has timed out
+nevets177: folds
+nevets177 is sitting out
+Uncalled bet (15) returned to danalogic
+danalogic collected 48 from pot
+danalogic: doesn't show hand
+*** SUMMARY ***
+Total pot 48 | Rake 0
+Seat 1: nevets177 (small blind) folded before Flop
+Seat 2: danalogic (big blind) collected (48)
+Seat 3: DiggErr555 folded before Flop (didn't bet)
+Seat 4: woody bruhh folded before Flop (didn't bet)
+Seat 5: ultraluxe folded before Flop (didn't bet)
+Seat 6: Luchok123 (button) folded before Flop (didn't bet)
+
+PokerStars Hand #188547569429: Tournament #2352940777, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:09:14 MSK [2018/07/09 18:09:14 ET]
+Table '2352940777 1' 6-max Seat #1 is the button
+Seat 1: nevets177 (668 in chips) is sitting out
+Seat 2: danalogic (550 in chips)
+Seat 3: DiggErr555 (395 in chips)
+Seat 4: woody bruhh (497 in chips)
+Seat 5: ultraluxe (450 in chips)
+Seat 6: Luchok123 (440 in chips)
+nevets177: posts the ante 3
+danalogic: posts the ante 3
+DiggErr555: posts the ante 3
+woody bruhh: posts the ante 3
+ultraluxe: posts the ante 3
+Luchok123: posts the ante 3
+danalogic: posts small blind 15
+DiggErr555: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [5c Qh]
+nevets177 has returned
+woody bruhh is disconnected
+woody bruhh has timed out while disconnected
+woody bruhh: folds
+woody bruhh is sitting out
+ultraluxe: folds
+Luchok123: folds
+nevets177: folds
+danalogic: folds
+Uncalled bet (15) returned to DiggErr555
+woody bruhh is disconnected
+DiggErr555 collected 48 from pot
+DiggErr555: doesn't show hand
+woody bruhh has returned
+*** SUMMARY ***
+Total pot 48 | Rake 0
+Seat 1: nevets177 (button) folded before Flop (didn't bet)
+Seat 2: danalogic (small blind) folded before Flop
+Seat 3: DiggErr555 (big blind) collected (48)
+Seat 4: woody bruhh folded before Flop (didn't bet)
+Seat 5: ultraluxe folded before Flop (didn't bet)
+Seat 6: Luchok123 folded before Flop (didn't bet)
+
+PokerStars Hand #188547584225: Tournament #2352940777, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:09:37 MSK [2018/07/09 18:09:37 ET]
+Table '2352940777 1' 6-max Seat #2 is the button
+Seat 1: nevets177 (665 in chips)
+Seat 2: danalogic (532 in chips)
+Seat 3: DiggErr555 (425 in chips)
+Seat 4: woody bruhh (494 in chips)
+Seat 5: ultraluxe (447 in chips)
+Seat 6: Luchok123 (437 in chips)
+nevets177: posts the ante 4
+danalogic: posts the ante 4
+DiggErr555: posts the ante 4
+woody bruhh: posts the ante 4
+ultraluxe: posts the ante 4
+Luchok123: posts the ante 4
+DiggErr555: posts small blind 20
+woody bruhh: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [9c 6c]
+ultraluxe: raises 403 to 443 and is all-in
+Luchok123: folds
+nevets177: calls 443
+danalogic: folds
+DiggErr555: folds
+woody bruhh: folds
+*** FLOP *** [6s 9h Jd]
+*** TURN *** [6s 9h Jd] [3c]
+*** RIVER *** [6s 9h Jd 3c] [Ts]
+*** SHOW DOWN ***
+ultraluxe: shows [8d 8s] (a pair of Eights)
+nevets177: shows [8h Ad] (high card Ace)
+ultraluxe collected 970 from pot
+*** SUMMARY ***
+Total pot 970 | Rake 0
+Board [6s 9h Jd 3c Ts]
+Seat 1: nevets177 showed [8h Ad] and lost with high card Ace
+Seat 2: danalogic (button) folded before Flop (didn't bet)
+Seat 3: DiggErr555 (small blind) folded before Flop
+Seat 4: woody bruhh (big blind) folded before Flop
+Seat 5: ultraluxe showed [8d 8s] and won (970) with a pair of Eights
+Seat 6: Luchok123 folded before Flop (didn't bet)
+
+PokerStars Hand #188547599643: Tournament #2352940777, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:10:01 MSK [2018/07/09 18:10:01 ET]
+Table '2352940777 1' 6-max Seat #3 is the button
+Seat 1: nevets177 (218 in chips)
+Seat 2: danalogic (528 in chips)
+Seat 3: DiggErr555 (401 in chips)
+Seat 4: woody bruhh (450 in chips)
+Seat 5: ultraluxe (970 in chips)
+Seat 6: Luchok123 (433 in chips)
+nevets177: posts the ante 4
+danalogic: posts the ante 4
+DiggErr555: posts the ante 4
+woody bruhh: posts the ante 4
+ultraluxe: posts the ante 4
+Luchok123: posts the ante 4
+woody bruhh: posts small blind 20
+ultraluxe: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [7c Ac]
+Luchok123: folds
+nevets177: raises 124 to 164
+danalogic: folds
+DiggErr555: raises 233 to 397 and is all-in
+woody bruhh: folds
+ultraluxe: folds
+nevets177: calls 50 and is all-in
+Uncalled bet (183) returned to DiggErr555
+*** FLOP *** [Kd 5s 8c]
+*** TURN *** [Kd 5s 8c] [7s]
+*** RIVER *** [Kd 5s 8c 7s] [Qd]
+*** SHOW DOWN ***
+nevets177: shows [6h Kh] (a pair of Kings)
+DiggErr555: shows [7c Ac] (a pair of Sevens)
+nevets177 collected 512 from pot
+*** SUMMARY ***
+Total pot 512 | Rake 0
+Board [Kd 5s 8c 7s Qd]
+Seat 1: nevets177 showed [6h Kh] and won (512) with a pair of Kings
+Seat 2: danalogic folded before Flop (didn't bet)
+Seat 3: DiggErr555 (button) showed [7c Ac] and lost with a pair of Sevens
+Seat 4: woody bruhh (small blind) folded before Flop
+Seat 5: ultraluxe (big blind) folded before Flop
+Seat 6: Luchok123 folded before Flop (didn't bet)
+
+PokerStars Hand #188547618329: Tournament #2352940777, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:10:30 MSK [2018/07/09 18:10:30 ET]
+Table '2352940777 1' 6-max Seat #4 is the button
+Seat 1: nevets177 (512 in chips)
+Seat 2: danalogic (524 in chips)
+Seat 3: DiggErr555 (183 in chips)
+Seat 4: woody bruhh (426 in chips)
+Seat 5: ultraluxe (926 in chips)
+Seat 6: Luchok123 (429 in chips)
+nevets177: posts the ante 4
+danalogic: posts the ante 4
+DiggErr555: posts the ante 4
+woody bruhh: posts the ante 4
+ultraluxe: posts the ante 4
+Luchok123: posts the ante 4
+ultraluxe: posts small blind 20
+Luchok123: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Qc Th]
+nevets177: raises 124 to 164
+danalogic: folds
+DiggErr555: folds
+woody bruhh: folds
+ultraluxe: folds
+Luchok123: folds
+Uncalled bet (124) returned to nevets177
+nevets177 collected 124 from pot
+*** SUMMARY ***
+Total pot 124 | Rake 0
+Seat 1: nevets177 collected (124)
+Seat 2: danalogic folded before Flop (didn't bet)
+Seat 3: DiggErr555 folded before Flop (didn't bet)
+Seat 4: woody bruhh (button) folded before Flop (didn't bet)
+Seat 5: ultraluxe (small blind) folded before Flop
+Seat 6: Luchok123 (big blind) folded before Flop
+
+PokerStars Hand #188547629139: Tournament #2352940777, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level III (20/40) - 2018/07/10 1:10:47 MSK [2018/07/09 18:10:47 ET]
+Table '2352940777 1' 6-max Seat #5 is the button
+Seat 1: nevets177 (592 in chips)
+Seat 2: danalogic (520 in chips)
+Seat 3: DiggErr555 (179 in chips)
+Seat 4: woody bruhh (422 in chips)
+Seat 5: ultraluxe (902 in chips)
+Seat 6: Luchok123 (385 in chips)
+nevets177: posts the ante 4
+danalogic: posts the ante 4
+DiggErr555: posts the ante 4
+woody bruhh: posts the ante 4
+ultraluxe: posts the ante 4
+Luchok123: posts the ante 4
+Luchok123: posts small blind 20
+nevets177: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [4s 9s]
+danalogic: folds
+DiggErr555: folds
+woody bruhh: raises 378 to 418 and is all-in
+ultraluxe: calls 418
+Luchok123: folds
+nevets177: folds
+*** FLOP *** [Jh Ah 7h]
+*** TURN *** [Jh Ah 7h] [6s]
+*** RIVER *** [Jh Ah 7h 6s] [3d]
+*** SHOW DOWN ***
+woody bruhh: shows [Kd 9c] (high card Ace)
+ultraluxe: shows [Jc Js] (three of a kind, Jacks)
+ultraluxe collected 920 from pot
+ultraluxe wins the $4.79 bounty for eliminating woody bruhh
+woody bruhh finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 920 | Rake 0
+Board [Jh Ah 7h 6s 3d]
+Seat 1: nevets177 (big blind) folded before Flop
+Seat 2: danalogic folded before Flop (didn't bet)
+Seat 3: DiggErr555 folded before Flop (didn't bet)
+Seat 4: woody bruhh showed [Kd 9c] and lost with high card Ace
+Seat 5: ultraluxe (button) showed [Jc Js] and won (920) with three of a kind, Jacks
+Seat 6: Luchok123 (small blind) folded before Flop
+
+PokerStars Hand #188547650378: Tournament #2352940777, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:11:20 MSK [2018/07/09 18:11:20 ET]
+Table '2352940777 1' 6-max Seat #6 is the button
+Seat 1: nevets177 (548 in chips)
+Seat 2: danalogic (516 in chips)
+Seat 3: DiggErr555 (175 in chips)
+Seat 5: ultraluxe (1400 in chips)
+Seat 6: Luchok123 (361 in chips)
+nevets177: posts the ante 6
+danalogic: posts the ante 6
+DiggErr555: posts the ante 6
+ultraluxe: posts the ante 6
+Luchok123: posts the ante 6
+nevets177: posts small blind 30
+danalogic: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [9d 7c]
+DiggErr555: folds
+ultraluxe: raises 1334 to 1394 and is all-in
+Luchok123: folds
+nevets177: folds
+danalogic: folds
+Uncalled bet (1334) returned to ultraluxe
+ultraluxe collected 180 from pot
+*** SUMMARY ***
+Total pot 180 | Rake 0
+Seat 1: nevets177 (small blind) folded before Flop
+Seat 2: danalogic (big blind) folded before Flop
+Seat 3: DiggErr555 folded before Flop (didn't bet)
+Seat 5: ultraluxe collected (180)
+Seat 6: Luchok123 (button) folded before Flop (didn't bet)
+
+PokerStars Hand #188547665641: Tournament #2352940777, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level IV (30/60) - 2018/07/10 1:11:44 MSK [2018/07/09 18:11:44 ET]
+Table '2352940777 1' 6-max Seat #1 is the button
+Seat 1: nevets177 (512 in chips)
+Seat 2: danalogic (450 in chips)
+Seat 3: DiggErr555 (169 in chips)
+Seat 5: ultraluxe (1514 in chips)
+Seat 6: Luchok123 (355 in chips)
+nevets177: posts the ante 6
+danalogic: posts the ante 6
+DiggErr555: posts the ante 6
+ultraluxe: posts the ante 6
+Luchok123: posts the ante 6
+danalogic: posts small blind 30
+DiggErr555: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Th Ks]
+ultraluxe: raises 1448 to 1508 and is all-in
+Luchok123: calls 349 and is all-in
+nevets177: folds
+danalogic: folds
+DiggErr555: calls 103 and is all-in
+Uncalled bet (1159) returned to ultraluxe
+*** FLOP *** [6d 2c 4d]
+*** TURN *** [6d 2c 4d] [7s]
+*** RIVER *** [6d 2c 4d 7s] [Ac]
+*** SHOW DOWN ***
+ultraluxe: shows [9c Qc] (high card Ace)
+Luchok123: shows [7c Ad] (two pair, Aces and Sevens)
+Luchok123 collected 372 from side pot
+DiggErr555: shows [Th Ks] (high card Ace)
+Luchok123 collected 549 from main pot
+Luchok123 wins the $4.79 bounty for eliminating DiggErr555
+DiggErr555 finished the tournament in 5th place
+*** SUMMARY ***
+Total pot 921 Main pot 549. Side pot 372. | Rake 0
+Board [6d 2c 4d 7s Ac]
+Seat 1: nevets177 (button) folded before Flop (didn't bet)
+Seat 2: danalogic (small blind) folded before Flop
+Seat 3: DiggErr555 (big blind) showed [Th Ks] and lost with high card Ace
+Seat 5: ultraluxe showed [9c Qc] and lost with high card Ace
+Seat 6: Luchok123 showed [7c Ad] and won (921) with two pair, Aces and Sevens
