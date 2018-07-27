@@ -8,9 +8,15 @@ import os
 from hand_storage import HandStorage
 import hhparser as hh
 import eval7
+import pokercalc as pc
+import logging
 
-hs = HandStorage('/home/ant/evroi/hhparser/')
+logging.basicConfig(level = logging.DEBUG)
+logger = logging.getLogger(__name__)
 
+hs = HandStorage('/home/ant/evroi/hhparser/hands/debug')
+icm = pc.Icm((0.5,0.5))
+total_diff = []
 for history in hs.read_hand():
     hand = hh.HHParser(history)
     if hand.getPlayersNumber() == 2:
@@ -33,8 +39,7 @@ for history in hs.read_hand():
 #            print(eq)
             pot = hand.getPotList()
 #            print(pot)
-            exp_chips = {aiplayers[0]: round(equity*pot[0]), 
-                         aiplayers[1]: round((1-equity)*pot[0])}
+
 #            print(exp_chips)
             winnings_chips = hand.getChipWon()
             loose_chips = hand.getPActionsAmount()
@@ -45,11 +50,11 @@ for history in hs.read_hand():
             bets_turn = hand.getTActionsAmount()
             bets_river= hand.getRActionsAmount()
             uncalled = hand.getUncalled()
-
+            exp_chips = {aiplayers[0]: round(equity*pot[0] + uncalled.get(aiplayers[0], 0)), 
+                         aiplayers[1]: round((1-equity)*pot[0] + uncalled.get(aiplayers[1], 0))}
             fact_chips = {}
 
-            player_pos = {hand.preflop_order[::-1][i]: 
-                hand.POSITIONS[i] for i in range(len(hand.preflop_order))}
+            player_pos = hand.positions()
             fact_chips = {player: chips[player] - 
                           bets_before.get(player,0) - 
                           sum(bets_preflop.get(player,[0])) - 
@@ -60,22 +65,52 @@ for history in hs.read_hand():
                           uncalled.get(player, 0) +
                           (player_pos.get(player,0)=='SB')*hand.sb for player in aiplayers
                     }
-            print(fact_chips)
-            icm_exp_dict = hand.icm_eq(list(exp_chips.values()))
-            icm_exp = {hand.icm_eq(list(exp_chips.values()))*(hand.bi-hand.rake)*6/2 for i in aiplayers}
-            ko_exp = [(hand.getPlayersNumber()*chips[p])/3000 for p in aiplayers]
-            ko_exp = [ko_exp[_] * hand.bounty for _ in range(len(ko_exp))]
-            icm_fact = hand.getPrizeWon() or hand.icm_eq()
-            ko_fact = hand.getBountyWon()
+
+            icm_exp_dict = icm.calc(exp_chips)
+            icm_exp = {key: value * (hand.bi - hand.rake)*6/2 for key,value in icm_exp_dict.items()}
+#            icm_exp = {hand.icm_eq(list(exp_chips.values()))*(hand.bi-hand.rake)*6/2 for i in aiplayers}
+            ko_exp = {p: hand.bounty*(hand.getPlayersNumber()*chips[p])/3000 for p in aiplayers}
+#            ko_exp = [ko_exp[_] * hand.bounty for _ in range(len(ko_exp))]
+            icm_fact = hand.getPrizeWon() or hand.icm_eq_dict()
+            ko_fact = hand.getBountyWon()#todo ko_fact
             finish = hand.getFinishes()
             for ko in ko_fact.keys():
                 if finish[ko]==None: #player finishes 1st place gets his own bounty
                     ko_fact[ko] = ko_fact[ko]*2 
-            print(finish)
-#            print(icm_exp)
-            print(ko_exp)
-            print(icm_fact)
-            print(ko_fact)
+
+#            logger.debug(type(ko_fact))
+            logger.debug(f'eq - {eq}')
+            logger.debug(f'pot - {pot}')
+            logger.debug(f'exp_chips - {exp_chips}')
+            logger.debug(f'winnings_chips - {winnings_chips}')
+            logger.debug(f'loose_chips - {loose_chips}')
+            logger.debug(f'chips - {chips}')
+            logger.debug(f'bets_before - {bets_before}')
+            logger.debug(f'bets_preflop - {bets_preflop}')
+            logger.debug(f'uncalled - {uncalled}')
+            logger.debug(f'fact_chips - {fact_chips}')
+            logger.debug(f'icm_exp - {icm_exp}')
+            logger.debug(f'ko_exp - {ko_exp}')
+            logger.debug(f'icm_fact - {icm_fact}')
+            logger.debug(f'ko_fact - {ko_fact}')
+            logger.debug(f'finish - {ko_fact}')
+            
+            
+            
+            li = []
+            for p in aiplayers:
+                
+                li.append(hand.getTournamentID())
+                li.append(p)
+                li.append(round(icm_exp.get(p, 0)
+                        - icm_fact.get(p, 0)
+                        + ko_exp.get(p, 0)
+                        - ko_fact.get(p, 0), 2))
+            total_diff.append(li)
+            
+#            logger.info(total_diff)
+                
+print(total_diff)
             
             
             
