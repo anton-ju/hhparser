@@ -6,8 +6,30 @@ Created on Sat Jun  2 23:24:47 2018
 """
 import importlib
 import unittest
+import logging
+from hhparser import HHParser, TournamentSummary
 
-from hhparser import HHParser
+from datetime import datetime
+logging.basicConfig(level=logging.DEBUG)
+logger = logging.getLogger(__name__)
+
+tts1 = """
+PokerStars Tournament #2447891935, No Limit Hold'em
+Buy-In: $48.04/$1.96 USD
+6 players
+Total Prize Pool: $144.12 USD 
+Tournament started 2018/11/04 21:58:21 MSK [2018/11/04 13:58:21 ET]
+
+  1: DiggErr555 (Russia), $72.06 (50%)
+  2: Alex.i1off (Russia), $72.06 (50%)
+  3: sdykuzbass (Russia), 
+  4: Anhuhn (Germany), 
+  5: Mailo2001 (Germany), 
+  6: vjla (Belgium), 
+
+You finished in 1st place (eliminated at hand #192956292599).
+
+"""
 
 th = """
 PokerStars Hand #182384621288: Tournament #2216721390, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level I (10/20) - 2018/02/12 4:32:33 MSK [2018/02/11 20:32:33 ET]
@@ -309,293 +331,350 @@ Seat 4: LikeTonyG (big blind) showed [6c Kc] and won (806) with two pair, Kings 
 Seat 5: SHAOLINWH (button) showed [9s Jd] and lost with a pair of Fives
 """
 
+th9 = """
+PokerStars Hand #193060609321: Tournament #2450141436, $2.38+$2.38+$0.24 USD Hold'em No Limit - Level II (15/30) - 2018/11/07 19:34:11 MSK [2018/11/07 11:34:11 ET]
+Table '2450141436 1' 6-max Seat #6 is the button
+Seat 1: saklari (560 in chips)
+Seat 2: nikos98b (42 in chips)
+Seat 3: DiggErr555 (1409 in chips)
+Seat 5: HardnDeep (546 in chips)
+Seat 6: BoOHP (443 in chips)
+saklari: posts the ante 3
+nikos98b: posts the ante 3
+DiggErr555: posts the ante 3
+HardnDeep: posts the ante 3
+BoOHP: posts the ante 3
+saklari: posts small blind 15
+nikos98b: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [5c Ah]
+DiggErr555: raises 1376 to 1406 and is all-in
+HardnDeep: folds
+BoOHP: calls 440 and is all-in
+saklari: folds
+nikos98b: calls 9 and is all-in
+Uncalled bet (966) returned to DiggErr555
+*** FLOP *** [Qd 7h 3d]
+*** TURN *** [Qd 7h 3d] [Ac]
+*** RIVER *** [Qd 7h 3d Ac] [8h]
+*** SHOW DOWN ***
+DiggErr555: shows [5c Ah] (a pair of Aces)
+BoOHP: shows [9s Js] (high card Ace)
+DiggErr555 collected 802 from side pot
+nikos98b: shows [Ks 8c] (a pair of Eights)
+DiggErr555 collected 147 from main pot
+DiggErr555 wins the $2.38 bounty for eliminating nikos98b
+DiggErr555 wins the $2.38 bounty for eliminating BoOHP
+BoOHP finished the tournament in 4th place
+nikos98b finished the tournament in 5th place
+*** SUMMARY ***
+Total pot 949 Main pot 147. Side pot 802. | Rake 0
+Board [Qd 7h 3d Ac 8h]
+Seat 1: saklari (small blind) folded before Flop
+Seat 2: nikos98b (big blind) showed [Ks 8c] and lost with a pair of Eights
+Seat 3: DiggErr555 showed [5c Ah] and won (949) with a pair of Aces
+Seat 5: HardnDeep folded before Flop (didn't bet)
+Seat 6: BoOHP (button) showed [9s Js] and lost with high card Ace"""
+
 
 class TestHHParser(unittest.TestCase):
-    def test_getDateTimeET(self):
-        hh = HHParser(th)
-        dt = hh.getDateTimeET()
-        self.assertEqual(dt, '2018/02/11 20:32:33')
+    def setUp(self):
+        self.case0 = HHParser(th)
+        # self.case1 = HHParser(th1)
+        self.case2 = HHParser(th2)
+        # self.case3 = HHParser(th3)
+        self.case4 = HHParser(th4)
+        self.case5 = HHParser(th5)
+        self.case6 = HHParser(th6)
+        self.case7 = HHParser(th7)
+        self.case8 = HHParser(th8)
+        self.case9 = HHParser(th9)  #2 bounty won case
+
+    def test_datetime(self):
+        hh = self.case0
+        dt = hh.datetime
+        self.assertEqual(dt, datetime(2018, 2, 11, 20, 32, 33))
         
 
 
-    def test_getTournamentID(self):
-        hh = HHParser(th)
-        tid = hh.getTournamentID()
+    def test_tid(self):
+        hh = self.case0
+        tid = hh.tid
         self.assertEqual(tid, '2216721390')
         
         
-    def test_getHandID(self):
-        hh = HHParser(th)
-        hid = hh.getHandID()
+    def test_hid(self):
+        hh = self.case0
+        hid = hh.hid
         self.assertEqual(hid, '182384621288')
  
 
     def test_isKnockoutTournament(self):
-        hh= HHParser(th2)
-        flg = hh.isKnockoutTournament()
+        hh= self.case2
+        flg = hh.flg_knockout()
         self.assertEqual(flg, True)
         
-    def test_getBI(self):
-        hh = HHParser(th2)
-        bi = hh.getBI()
+    def test_bi(self):
+        hh = self.case2
+        bi = hh.bi
         self.assertEqual(bi, 10)
         
-        hh = HHParser(th4)
-        bi = hh.getBI()
+        hh = self.case4
+        bi = hh.bi
         self.assertEqual(bi, 25)
         
         
-    def test_getPActions(self):
-        hh = HHParser(th4)
-        actions = hh.getPActions()
-        self.assertEqual(actions, ['f','f','f','r','c','f']) 
-        
-        hh = HHParser(th)
-        actions = hh.getPActions()
-        self.assertEqual(actions, ['c','r','c','r','r','f','c','f']) 
-        
-        hh = HHParser(th2)
-        actions = hh.getPActions()
-        self.assertEqual(actions, ['f','f','r','f']) 
-    
-    def test_getFActions(self):
-       
-        hh = HHParser(th4)
-        actions = hh.getFActions()
-        self.assertEqual(actions, ['x', 'b', 'c']) 
-        
-        hh = HHParser(th)
-        actions = hh.getFActions()
-        self.assertEqual(actions, []) 
-        
-        hh = HHParser(th2)
-        actions = hh.getFActions()
-        self.assertEqual(actions, []) 
-        
-    def test_getTActions(self):
+
+    def test_p_actions(self):
+        case = self.case0.p_actions
+        res = {
+            'da_mauso': ['r', 'f'],
+            'baluoteli': ['c'],
+            'DiggErr555': ['r'],
+            'bigboyby': ['r'],
+            '2Ran128': ['f'],
+            'zaxar393': ['c', 'c'],
+        }
+        self.assertDictEqual(case, res)
+
+    def test_f_actions(self):
+        case = self.case4.f_actions
+        res = {
+            'epsilonmi27': ['x', 'c'],
+            'DiggErr555': ['b']
+        }
+        self.assertDictEqual(case, res)
+
+        case = self.case0.f_actions
+        res = {}
+        self.assertDictEqual(case, res)
+
+    def test_last_actions(self):
+        case = self.case0.last_actions()
+        res = {
+            'da_mauso': ['r', 'f'],
+            'baluoteli': ['c'],
+            'DiggErr555': ['r'],
+            'bigboyby': ['r'],
+            '2Ran128': ['f'],
+            'zaxar393': ['c', 'c'],
+        }
+        self.assertDictEqual(case, res)
+
+        case = self.case4.last_actions()
+        res = {
+            'epsilonmi27': ['b'],
+            'DiggErr555': ['c']
+        }
+        self.assertDictEqual(case, res)
+
+    def test_p_actions_amounts(self):
+        case = self.case0.p_actions_amounts
+        res = {
+            "zaxar393": [20, 474],
+            "da_mauso": [40],
+            "baluoteli": [18],
+            "DiggErr555": [464],
+            "bigboyby": [566]
+        }
+
+        self.assertDictEqual(case, res)
+
+        case = self.case2.p_actions_amounts
+        res = {
+            "yaniw777": [80]
+        }
+        self.assertDictEqual(case, res)
+
+
+        case = self.case4.p_actions_amounts
+        res = {
+            "DiggErr555": [40],
+            "epsilonmi27": [30]
+        }
+        self.assertDictEqual(case, res)
+
+    def test_f_actions_amounts(self):
+        case = self.case4.f_actions_amounts
+        res = {
+            "DiggErr555": [39],
+            "epsilonmi27": [39]
+        }
+        self.assertDictEqual(case, res)
+
+    def test_t_actions_amounts(self):
+        case = self.case6.t_actions_amounts
+        res = {
+            "DiggErr555": [671]
+        }
+        self.assertDictEqual(case, res)
+
+    def test_r_actions_amounts(self):
+        case = self.case4.r_actions_amounts
+        res = {
+            "epsilonmi27": [180],
+            "DiggErr555": [180]
+        }
+        self.assertDictEqual(case, res)
+
+    def test_total_bets_amounts(self):
+        case = self.case0.total_bets_amounts()
+        res = {
+            'da_mauso': 42,
+            'baluoteli': 20,
+            'DiggErr555': 466,
+            'bigboyby': 568,
+            '2Ran128': 22,
+            'zaxar393': 496,
+        }
+        self.assertDictEqual(case, res)
+
+        case = self.case4.total_bets_amounts()
+        res = {
+            'yhterhulryk': 2,
+            'TH0090': 2,
+            'DiggErr555': 261,
+            'epsilonmi27': 261,
+            'bull901': 22,
+            'dini619': 2,
+        }
+        self.assertDictEqual(case, res)
+
+    def test_p_ai_players(self):
            
-        hh = HHParser(th4)
-        actions = hh.getTActions()
-        self.assertEqual(actions, ['x', 'x']) 
+        hh = self.case4
+        players = hh.p_ai_players
+        self.assertEqual(players, [])
         
-        hh = HHParser(th)
-        actions = hh.getTActions()
-        self.assertEqual(actions, []) 
+        hh = self.case2
+        players = hh.p_ai_players
+        self.assertEqual(players, [])
         
-        hh = HHParser(th2)
-        actions = hh.getTActions()
-        self.assertEqual(actions, []) 
-            
-    def test_getRActions(self):
-           
-        hh = HHParser(th4)
-        actions = hh.getRActions()
-        self.assertEqual(actions, ['b', 'c']) 
-        
-        hh = HHParser(th)
-        actions = hh.getRActions()
-        self.assertEqual(actions, []) 
-        
-        hh = HHParser(th2)
-        actions = hh.getRActions()
-        self.assertEqual(actions, []) 
-    
-    
-    def test_getPAIPlayers(self):
-           
-        hh = HHParser(th4)
-        players = hh.getPAIPlayers()
-        self.assertEqual(players, []) 
-        
-        hh = HHParser(th2)
-        players = hh.getPAIPlayers()
-        self.assertEqual(players, []) 
-        
-        hh = HHParser(th)
-        players = hh.getPAIPlayers()
+        hh = self.case0
+        players = hh.p_ai_players
         self.assertEqual(players, ['baluoteli', 'DiggErr555','bigboyby','zaxar393']) 
     
-    def test_getPotList(self):
-        hh = HHParser(th4)
-        PotList = hh.getPotList()
-        self.assertEqual(PotList, [550.0]) 
+    def test_pot_list(self):
+        hh = self.case4
+        PotList = hh.pot_list
+        self.assertEqual(PotList, [550])
         
-        hh = HHParser(th2)
-        PotList = hh.getPotList()
-        self.assertEqual(PotList, [96.0]) 
+        hh = self.case2
+        PotList = hh.pot_list
+        self.assertEqual(PotList, [96])
 
-        hh = HHParser(th)
-        PotList = hh.getPotList()
-        self.assertEqual(PotList, [1542.0, 120.0, 1362.0, 60]) 
+        hh = self.case0
+        PotList = hh.pot_list
+        self.assertEqual(PotList, [1542, 120, 1362, 60])
         
-    def test_getPActionsAmount(self):
 
-        hh = HHParser(th)
-        res = hh.getPActionsAmount()
-        self.assertEqual(res, {"zaxar393": [20, 474], "da_mauso": [40],"baluoteli":[18],  "DiggErr555": [464], "bigboyby": [566]})
-        
-        hh = HHParser(th2)
-        res = hh.getPActionsAmount()
-        self.assertEqual(res, {"yaniw777": [80]})
-        
-        hh = HHParser(th4)
-        res = hh.getPActionsAmount()
-        self.assertEqual(res, {"DiggErr555": [40], "epsilonmi27": [30]})         
-
-    def test_getFActionsAmount(self):
-
-        hh = HHParser(th)
-        res = hh.getFActionsAmount()
-        self.assertEqual(res, {})
-        
-        hh = HHParser(th2)
-        res = hh.getFActionsAmount()
-        self.assertEqual(res, {})
-        
-        hh = HHParser(th4)
-        res = hh.getFActionsAmount()
-        self.assertEqual(res, {"DiggErr555": [39], "epsilonmi27": [39]})
-        
-        hh = HHParser(th5)
-        res = hh.getFActionsAmount()
-        self.assertEqual(res, {"DiggErr555": [80, 458], "Udodov1988": [362, 96]})
-    
-    def test_getTActionsAmount(self):
-        
-        hh = HHParser(th)
-        res = hh.getTActionsAmount()
-        self.assertEqual(res, {})
-        
-        hh = HHParser(th2)
-        res = hh.getTActionsAmount()
-        self.assertEqual(res, {})
-        
-        hh = HHParser(th6)
-        res = hh.getTActionsAmount()
-        self.assertEqual(res, {"DiggErr555": [671]})
-    
-    def test_getRActionsAmount(self):
-       
-        hh = HHParser(th)
-        res = hh.getRActionsAmount()
-        self.assertEqual(res, {})
-        
-        hh = HHParser(th2)
-        res = hh.getRActionsAmount()
-        self.assertEqual(res, {})
-        
-        hh = HHParser(th4)
-        res = hh.getRActionsAmount()
-        self.assertEqual(res, {"epsilonmi27": [180], "DiggErr555": [180]})
-
-    
-    def test_getHero(self):
-        hh = HHParser(th4)
-        hero = hh.getHero()
+    def test_hero(self):
+        hh = self.case4
+        hero = hh.hero
         self.assertEqual(hero, "DiggErr555") 
         
-        hh = HHParser(th2)
-        hero = hh.getHero()
-        self.assertEqual(hero, "") 
+        hh = self.case2
+        hero = hh.hero
+        self.assertEqual(hero, 0)
 
-    def test_getHeroCards(self):
-        hh = HHParser(th4)
-        herocards = hh.getHeroCards()
-        self.assertEqual(herocards, "Ad7h") 
+    def test_hero_cards(self):
+        hh = self.case4
+        herocards = hh.hero_cards
+        self.assertEqual(herocards, "Ad 7h")
         
-        hh = HHParser(th)
-        herocards = hh.getHeroCards()
-        self.assertEqual(herocards, "AsAd")
+        hh = self.case0
+        herocards = hh.hero_cards
+        self.assertEqual(herocards, "As Ad")
         
-        hh = HHParser(th2)
-        herocards = hh.getHeroCards()
-        self.assertEqual(herocards, "") 
+        hh = self.case2
+        herocards = hh.hero_cards
+        self.assertEqual(herocards, 0)
     
-    def test_getKnownCards(self):
-        hh = HHParser(th4)
-        knowncards = hh.getKnownCards()
-        self.assertEqual(knowncards, {"DiggErr555": "Ad7h", "epsilonmi27": "Kd9h"})
+    def test_known_cards(self):
+        hh = self.case4
+        knowncards = hh.known_cards
+        self.assertEqual(knowncards, {"DiggErr555": "Ad 7h", "epsilonmi27": "Kd 9h"})
         
-        hh = HHParser(th)
-        knowncards = hh.getKnownCards()
-        self.assertEqual(knowncards, {"baluoteli": "JdQs", "DiggErr555": "AsAd", "bigboyby": "5d5h", "zaxar393": "9dKd"})
+        hh = self.case0
+        knowncards = hh.known_cards
+        self.assertEqual(knowncards, {"baluoteli": "Jd Qs", "DiggErr555": "As Ad", "bigboyby": "5d 5h", "zaxar393": "9d Kd"})
         
-        hh = HHParser(th2)
-        knowncards = hh.getKnownCards()
+        hh = self.case2
+        knowncards = hh.known_cards
         self.assertEqual(knowncards, {})       
-        hh = HHParser(th7)
-        knowncards = hh.getKnownCards()
-        self.assertEqual(knowncards, {"DiggErr555": "Ad4h", "sabuco_2110": "ThQs"})
+        hh = self.case7
+        knowncards = hh.known_cards
+        self.assertEqual(knowncards, {"DiggErr555": "Ad 4h", "sabuco_2110": "Th Qs"})
         
         
     
     def test_getFlop(self):
         
-        hh = HHParser(th)
-        flop = hh.getFlop()
-        self.assertEqual(flop, "3s2h7c") 
+        hh = self.case0
+        flop = hh.flop
+        self.assertEqual(flop, "3s 2h 7c")
         
-        hh = HHParser(th2)
-        flop = hh.getFlop()
-        self.assertEqual(flop, "") 
+        hh = self.case2
+        flop = hh.flop
+        self.assertEqual(flop, 0)
         
-        hh = HHParser(th4)
-        flop = hh.getFlop()
-        self.assertEqual(flop, "5d4d4h") 
+        hh = self.case4
+        flop = hh.flop
+        self.assertEqual(flop, "5d 4d 4h")
 
     
     def test_getTurn(self):
         
-        hh = HHParser(th)  
-        self.assertEqual(hh.getTurn(), "Jh") 
+        hh = self.case0  
+        self.assertEqual(hh.turn, "Jh")
         
-        hh = HHParser(th2)
-        self.assertEqual(hh.getTurn(), "") 
+        hh = self.case2
+        self.assertEqual(hh.turn, 0)
         
-        hh = HHParser(th4)
-        self.assertEqual(hh.getTurn(), "2h") 
+        hh = self.case4
+        self.assertEqual(hh.turn, "2h")
     
     def test_getRiver(self):
         
-        hh = HHParser(th)  
-        self.assertEqual(hh.getRiver(), "Ks") 
+        hh = self.case0  
+        self.assertEqual(hh.river, "Ks")
         
-        hh = HHParser(th2)
-        self.assertEqual(hh.getRiver(), "") 
+        hh = self.case2
+        self.assertEqual(hh.river, 0)
         
-        hh = HHParser(th4)
-        self.assertEqual(hh.getRiver(), "5c") 
+        hh = self.case4
+        self.assertEqual(hh.river, "5c")
         
 
     # def test_getWinnings(self):
-    #     hh = HHParser(th)
+    #     hh = self.case0
     #     res = hh.getWinnings()
     #     self.assertEqual(res, {"DiggErr555": 4.79})
     #
-    #     hh = HHParser(th2)
+    #     hh = self.case2
     #     res = hh.getWinnings()
     #     self.assertEqual(res, {})
     #
-    #     hh = HHParser(th4)
+    #     hh = self.case4
     #     res = hh.getWinnings()
     #     self.assertEqual(res, {})
     
-    def test_getChipWon(self):
-        hh = HHParser(th2)
-        res = hh.getChipWon()
-        self.assertEqual(res, {'yaniw777': 96})
+    def test_chip_won(self):
+        hh = self.case2
+        res = hh.chip_won
+        self.assertEqual(res, {'yaniw777': [96]})
 
-        hh = HHParser(th)
-        res = hh.getChipWon()
-        self.assertEqual(res, {'DiggErr555': 1482, 'zaxar393': 60})
+        hh = self.case0
+        res = hh.chip_won
+        self.assertEqual(res, {'DiggErr555': [1362, 120], 'zaxar393': [60]})
 
-        hh = HHParser(th4)
-        res = hh.getChipWon()
-        self.assertEqual(res, {'DiggErr555': 550})
+        hh = self.case4
+        res = hh.chip_won
+        self.assertEqual(res, {'DiggErr555': [550]})
         
     
     def test_tournamentPosition(self):
-        hh = HHParser(th)
+        hh = self.case0
 
         self.assertEqual(hh.tournamentPosition("DiggErr555"), 5)
         self.assertEqual(hh.tournamentPosition("baluoteli"), 6)
@@ -605,72 +684,73 @@ class TestHHParser(unittest.TestCase):
         self.assertEqual(hh.tournamentPosition("zaxar393"), 3)#todo
         self.assertEqual(hh.tournamentPosition("error"), -1)#todo
 
-    def test_getStacks(self):
-        hh = HHParser(th)
-        self.assertEqual(hh.getStacks(), {'da_mauso': 954,
+    def test_stacks(self):
+        hh = self.case0
+        self.assertEqual(hh.stacks(), {'da_mauso': 954,
                                           'baluoteli': 20,
                                           'DiggErr555': 466,
                                           'bigboyby': 568,
                                           '2Ran128': 496,
                                           'zaxar393': 496})
 
-        hh = HHParser(th7)
-        self.assertEqual(hh.getStacks(),{'sabuco_2110': 834,
+        hh = self.case7
+        self.assertEqual(hh.stacks(),{'sabuco_2110': 834,
                                          'DiggErr555': 2166})
-    def test_getBlindsAnte(self):
-        hh = HHParser(th)
-        self.assertEqual(hh.getBlidnsAnte(), {'da_mauso': 2,
+    def test_blinds_antes(self):        
+        self.assertEqual(self.case0.blinds_antes, {'da_mauso': 2,
                                           'baluoteli': 2,
                                           'DiggErr555': 2,
                                           'bigboyby': 12,
                                           '2Ran128': 22,
                                           'zaxar393': 2})
-        hh = HHParser(th7)
-        self.assertEqual(hh.getBlidnsAnte(), {'sabuco_2110': 165,
+        hh = self.case7
+        self.assertEqual(self.case7.blinds_antes, {'sabuco_2110': 165,
                                               'DiggErr555': 90})
-    def test_getUncalled(self):
-        hh = HHParser(th)
-        self.assertEqual(hh.getUncalled(), {'bigboyby': 72,})
-        hh = HHParser(th2)
-        self.assertEqual(hh.getUncalled(), {'yaniw777': 40,})
-        hh = HHParser(th4)
-        self.assertEqual(hh.getUncalled(), {})
-        hh = HHParser(th6)
-        self.assertEqual(hh.getUncalled(), {'DiggErr555': 671,})
+    def test_uncalled(self):
+        hh = self.case0
+        self.assertEqual(hh.uncalled, {'bigboyby': 72,})
+        hh = self.case2
+        self.assertEqual(hh.uncalled, {'yaniw777': 40,})
+        hh = self.case4
+        self.assertEqual(hh.uncalled, {})
+        hh = self.case6
+        self.assertEqual(hh.uncalled, {'DiggErr555': 671,})
 
-    def test_getPrizeWon(self):
-        hh = HHParser(th7)
-        self.assertEqual(hh.getPrizeWon(), {'sabuco_2110': 36.03,
+    def test_prize_won(self):
+        hh = self.case7
+        self.assertEqual(hh.prize_won, {'sabuco_2110': 36.03,
                                             'DiggErr555': 36.03})
 
-    def test_getBountyWon(self):
-        hh = HHParser(th7)
-        self.assertEqual(hh.getBountyWon(), {'DiggErr555': 12.01})
-        hh = HHParser(th6)
-        self.assertEqual(hh.getBountyWon(), {})
-        hh = HHParser(th5)
-        self.assertEqual(hh.getBountyWon(), {'DiggErr555': 24.02})
-        hh = HHParser(th)
-        self.assertEqual(hh.getBountyWon(), {'DiggErr555': 4.79})
+    def test_bounty_won(self):
+        hh = self.case7
+        self.assertEqual(hh.bounty_won, {'DiggErr555': 24.02})
+        hh = self.case6
+        self.assertEqual(hh.bounty_won, {})
+        hh = self.case5
+        self.assertEqual(hh.bounty_won, {'DiggErr555': 24.02})
+        hh = self.case0
+        self.assertEqual(hh.bounty_won, {'DiggErr555': 4.79})
+        hh = self.case9
+        self.assertEqual(hh.bounty_won, {'DiggErr555': 4.76})
 
-    def test_getFinishes(self):
-        hh = HHParser(th8)
-        self.assertEqual(hh.getFinishes(), {'DiggErr555': 2,
+    def test_finishes(self):
+        hh = self.case8
+        self.assertEqual(hh.finishes, {'DiggErr555': 2,
                                             'SHAOLINWH': 3,
-                                         'LikeTonyG': None})
-        hh = HHParser(th7)
-        self.assertEqual(hh.getFinishes(), {'sabuco_2110': 2,
-                                            'DiggErr555': None})
+                                         'LikeTonyG': 1})
+        hh = self.case7
+        self.assertEqual(hh.finishes, {'sabuco_2110': 2,
+                                            'DiggErr555': 1})
 
     def test_icm_eq(self):
-        hh = HHParser(th8)
+        hh = self.case8
         self.assertDictEqual(hh.icm_eq_dict(), {'DiggErr555': 0.3032,
                                             'SHAOLINWH': 0.2042,
                                          'LikeTonyG': 0.4926})
-        hh = HHParser(th7)
+        hh = self.case7
         self.assertDictEqual(hh.icm_eq_dict(), {'sabuco_2110': 0.500,
                                             'DiggErr555': 0.500})
-        hh = HHParser(th)
+        hh = self.case0
         self.assertDictEqual(hh.icm_eq_dict(), {'da_mauso': 0.2894,
                                            'DiggErr555': 0.1633,
                                            'baluoteli': 0.0076,
@@ -678,15 +758,15 @@ class TestHHParser(unittest.TestCase):
                                            '2Ran128': 0.1727,
                                             'zaxar393': 0.1727})
     def test_positions(self):
-        hh = HHParser(th8)
+        hh = self.case8
         self.assertDictEqual(hh.positions(), {'DiggErr555': 'SB',
                                             'SHAOLINWH': 'BU',
                                          'LikeTonyG': 'BB'})
-        hh = HHParser(th7)
+        hh = self.case7
         self.assertDictEqual(hh.positions(), {'sabuco_2110': 'BB',
                                             'DiggErr555': 'SB'})
 
-        hh = HHParser(th)
+        hh = self.case0
         self.assertDictEqual(hh.positions(), {'da_mauso': 'MP2',
                                            'DiggErr555': 'BU',
                                            'baluoteli': 'CO',
@@ -696,11 +776,35 @@ class TestHHParser(unittest.TestCase):
 
 
     def test_tablePosition(self):
-       # hh = HHParser(th)
+       # hh = self.case0
        # self.assertEqual(hh.tablePosition("DiggErr555"), 2)
         pass
-    
-    def test_isChipLeader(self):
+
+    def test_antes(self):
+        self.assertDictEqual(self.case0.antes, {'da_mauso': 2,
+                                           'DiggErr555': 2,
+                                           'baluoteli': 2,
+                                           'bigboyby': 2,
+                                           '2Ran128': 2,
+                                            'zaxar393': 2})
+
+    def test_blinds(self):
+        self.assertDictEqual(self.case0.blinds, {'bigboyby': 10,
+                                                   '2Ran128': 20})
+
+    def test_flg_showdown(self):
+        case = self.case0.flg_showdown()
+        res = True
+        self.assertEqual(case, res)
+
+        case = self.case2.flg_showdown()
+        res = False
+        logging.debug(self.case2.showdown_str)
+        self.assertEqual(case, res)
+
+
+
+    def test_flg_chiplead(self):
         pass
 
 
@@ -711,18 +815,15 @@ class TestHHParser(unittest.TestCase):
         pass
         
         
-    def test_getStackList(self):
+    def test_stacks(self):
         pass
         
         
-    def test_isChipLeaderL(self):
+    def test_flg_chiplead_left(self):
         pass
 
         
-    def test_getPlayersNumber(self):
-        pass
-        
-    def test_getPlayerDict(self):
+    def test_players_number(self):
         pass
         
     def test_isKnockoutTournament(self):
@@ -740,6 +841,56 @@ class TestHHParser(unittest.TestCase):
     
     def test_flgFacedAI(self):
         pass
+
+    def test_p_last_action(self):
+        case = self.case0.p_last_action()
+        res = {
+            'da_mauso': 'f',
+            'baluoteli': 'c',
+            'DiggErr555': 'r',
+            'bigboyby': 'r',
+            '2Ran128': 'f',
+            'zaxar393': 'c',
+        }
+        self.assertDictEqual(case, res)
+
+    def test_f_last_action(self):
+        case = self.case4.f_last_action()
+        res = {
+            'epsilonmi27': 'c',
+            'DiggErr555': 'b'
+        }
+
+    def test_t_last_action(self):
+        pass
+
+    def test_r_last_action(self):
+        pass
+
+
+class TestTournamentSummary(unittest.TestCase):
+    def setUp(self):
+        self.case0 = TournamentSummary(tts1)
+
+    def test_tid(self):
+        ts = self.case0
+        tid = ts.tid
+        self.assertEqual(tid, '2447891935')
+
+    def test_finishes(self):
+        ts = self.case0
+        finishes = ts.finishes
+        self.assertEqual(finishes, 1)
+
+    def test_prize_won(self):
+        ts = self.case0
+        res = ts.prize_won
+        self.assertEqual(res, {'DiggErr555': 72.06, 'Alex.i1off': 72.06})
+
+    def test__str__(self):
+        ts = self.case0
+        res = ts.__str__()
+        self.assertEqual(res,f"Tournament: #{ts.tid} Finish: {ts.finishes} Prize:{ts.prize_won}")
 
 if __name__ == '__main__':
     unittest.main()

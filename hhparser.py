@@ -7,6 +7,7 @@ Created on Tue Aug  9 14:02:58 2016
 import re
 import numpy as np
 import itertools
+from datetime import datetime
 
 ACTIONS = {
     'calls': 'c',
@@ -17,15 +18,148 @@ ACTIONS = {
 }
 
 
-class HHParser:
+class cached_property(object):
+    def __init__(self, func):
+        self.func = func
+
+    def __get__(self, instance, cls=None):
+        result = instance.__dict__[self.func.__name__] = self.func(instance)
+        return result
+
+class Actions(enumerate):
+    pass
+
+
+class HandHistoryParser:
     PRIZE = []
     POSITIONS = ['BB', 'SB', 'BU', 'CO', 'MP2', 'MP1', 'UTG3', 'UTG2', 'UTG1']
     UNCALLED_REGEX = "Uncalled.*\((?P<bet>\d+)\).*to (?P<player>.*)"
     UNCALLED_DICT = {'player': 'bet'}
-    CHIPWON_REGEX = "Seat \d: (?P<player>.*?) .*(?:and won|collected) \((?P<chipwon>.*)\)"
+    CHIPWON_REGEX = "(?P<player>.*) collected (?P<chipwon>\d+)"
     CHIPWON_DICT = {'player': 'chipwon'}
     FINISHES_REGEX = "(?P<player>.*?) (?:finished.*in (?P<place>\d+)(?:nd|rd|th)|wins the tournament)"
-    # {player: None} treats as 1st place
+    PRIZE_WON_REGEX = "(?P<player>.*) (?:wins|finished).*and (?:received|receives) \$(?P<prize>\d+\.\d+)(?:.|\s)"
+    BLINDS_ANTE_REGEX = "(?P<player>.*): posts .*?(?P<bet>\d+)"
+    BOUNTY_WON_REGEX = "(?P<player>.*) wins the \$(?P<bounty>.*) bounty"
+    RIVER_REGEX = "RIVER.*\[(?:.*)\] \[(?P<river>.{2})\]"
+    TURN_REGEX = "TURN.*\[(?:.*)\] \[(?P<turn>.{2})\]"
+    ANTE_REGEX = "(?P<player>.*): posts the ante (?P<bet>\d+)"
+    BLINDS_REGEX = "(?P<player>.*): posts (?:small|big) blind (?P<bet>\d+)"
+    BLINDS_ANTE_DICT = {'player': 'bet'}
+    SB_PLAYER_REGEX = "(?P<player>.*):\sposts small"
+    BB_PLAYER_REGEX = "(?P<player>.*):\sposts big"
+    P_ACTIONS_REGEX = "(?P<player>.*):\s(?P<action>calls|raises|folds|checks)"
+    ACTIONS_REGEX = "(?P<player>.*):\s(?P<action>calls|raises|bets|folds|checks)"
+    ACTIONS_DICT = {'player': 'action'}
+    ACTIONS_AMOUNTS_REGEX = "(?P<player>.*?): (?:calls|raises.*to|bets|checks) (?P<amount>\d+)?"
+    ACTIONS_AMOUNTS_DICT = {'player': 'amount'}
+    AI_PLAYERS_REGEX = "(?P<player>.*):.* all-in"
+    KNOWN_CARDS_REGEX = "Seat \d: (?P<player>.*?)\s?(?:\(button\) showed|\(small blind\) showed|\(button\) \(small blind\) showed|\(big blind\) showed| showed)\s\[(?P<knowncards>.*)\]"
+    KNOWN_CARDS_DICT = {'player': 'knowncards'}
+    FLOP_REGEX = "FLOP.*\[(?P<flop>.*)\]"
+    POT_LIST_REGEX = "(Total|Main|Side) (pot|pot-1|pot-2|pot-3|pot-4|pot-5)\s(?P<pot>\d*)"
+    DATETIME_REGEX = "(?P<datetime>\d{4}/\d{2}/\d{2}\s\d{1,2}:\d{1,2}:\d{1,2})\sET"
+    TID_REGEX = "Tournament #(?P<tid>\d+)"
+    HID_REGEX = "Hand #(?P<hid>\d+)"
+    HERO_REGEX = r"Dealt to (?P<hero>.*)\s\["
+    HERO_CARDS_REGEX = r"Dealt to .*\s\[(?P<cards>.*)]"
+    BI_BOUNTY_RAKE_REGEX = "Tournament\s#\d+,\s\$(?P<bi>\d+?\.\d+)(?:\+\$)?(?P<bounty>\d+?\.\d+)?\+\$(?P<rake>\d+?\.\d+)"
+
+    def _process_regexp(
+            self,
+            pattern,
+            text,
+            *args,
+            type_func=lambda x: x,
+            reslist=False,
+            default_value=0,
+            **kwargs):
+        """
+
+        :param pattern: regex
+        :param text: text
+        :param args: list with group name to extract, if you want to extract values into list
+        :param type_func: function for type casting
+        :param reslist: boolean -> if you want to get dict with list values else same key will results will be added
+        :param default_value: for reslist
+        :param kwargs: dict with group names to extract
+        :return:
+        """
+        # extracts named groups from result of re and converts it into dict or list
+        it = re.finditer(pattern, text)
+
+        res = []
+        for x in args:
+            for i in it:
+                try:
+                    res.append(type_func(i.groupdict().get(x)))
+                except TypeError:
+                    res.append(i.groupdict().get(x))
+            if reslist:
+                return res
+            else:
+                return default_value if len(res) == 0 else res[0]
+        res = {}
+        for k, v in kwargs.items():
+            for i in it:
+                key = i.groupdict().get(k)
+                value = i.groupdict().get(v)
+                try:
+                    if reslist:
+                        if res.get(key):
+                            res[key].append(type_func(value))
+                        else:
+                            res[key] = [type_func(value)]
+                    else:
+                        if res.get(key):
+                            res[key] += type_func(value)
+                        else:
+                            res[key] = type_func(value)
+                except TypeError:
+                    if reslist:
+                        if res.get(key):
+                            res[key].append(value)
+                        else:
+                            res[key] = [value]
+                    else:
+                        res[key] = value
+            return res
+
+
+class TournamentSummary(HandHistoryParser):
+
+    FINISHES_REGEX = "You finished in (?P<place>\d+)(?:nd|rd|th|st)"
+    PRIZE_WON_REGEX = "(?:\d+):\s(?P<player>.*)\s\(.*\),\s\$(?P<prize>\d+\.\d+)"
+
+    def __init__(self, ts_text):
+        self.ts_text = ts_text
+
+    def __str__(self):
+        return f"Tournament: #{self.tid} Finish: {self.finishes} Prize:{self.prize_won}"
+
+    @cached_property
+    def tid(self):
+        return self._process_regexp(self.TID_REGEX, self.ts_text, 'tid')
+
+    @cached_property
+    def finishes(self):
+        return self._process_regexp(self.FINISHES_REGEX,
+                                                   self.ts_text,
+                                                   type_func=lambda x: int(x),
+                                                   *['place'])
+
+    @cached_property
+    def prize_won(self):
+        return self._process_regexp(self.PRIZE_WON_REGEX,
+                                                  self.ts_text,
+                                                  type_func=lambda x: float(x),
+                                                  **{'player':'prize'})
+
+
+class HHParser(HandHistoryParser):
+
+    def __str__(self):
+        return f"Hand: #{self.hid} Tournament: #{self.tid} \${self.bi} [{self.datetime}]"
 
     def __init__(self, hh):
         #       todo проверка является ли строка hand history
@@ -54,37 +188,14 @@ class HHParser:
 
         self.caption_str = hist_text
 
-        self.HeroCards = ""
-        self.Hero = ""
-        self.KnownCardsDict = {}
-        self.bounty = 0.0
-        self.rake = 0.0
-        self.bi = 0.0
         self.sb = 0
         self.bb = 0
-        self.stacks = []
+        self._stacks_list = []
         self.players = []
-        self.ante = 0
         self.small_blind = 0
         self.big_blind = 0
         self.preflop_order = []  # чем больше число чем позже принимает решение
-        self.flop = ""
-        self.turn = ""
-        self.river = ""
-        self.winnings = {}
-        self.chipwinnings = {}
-        self.p_amounts = {}
-        self.f_amounts = {}
-        self.t_amounts = {}
-        self.r_amounts = {}
-        self.players_dict = {}
-        self.p_actions = []
-        self.blinds_ante = {}
-        self.uncalled = {}
-        self.bounty_won = {}
-        self.prize_won = {}
-        self.finishes = {}
-        self.chip_won = {}
+
 
         #        regex_ps =  "\s?PokerStars\s+?Hand"
         #        regex_888 = "\s?888poker\s+?Hand"
@@ -95,7 +206,7 @@ class HHParser:
         sbplayer_regex = "(.*)?:\sposts small"
         bbplayer_regex = "(.*)?:\sposts big"
         blinds_regex = "Level\s.+\s\((?P<sb>\d+)/(?P<bb>\d+)\)"
-        bi_knock_regex = "Tournament\s#\d+,\s\$(?P<bi>\d+?\.\d+)\+\$(?P<bounty>\d+?\.\d+)\+\$(?P<rake>\d+?\.\d+)"
+
         #        t = re.search(regex)
 
         self.PRIZE = np.array([0.50, 0.50])
@@ -103,15 +214,15 @@ class HHParser:
         tupples = re.findall(regex, self.hand_history)
 
         self.players = [x[0] for x in tupples]
-        self.stacks = [float(x[1].replace(",", "")) for x in tupples]
-        self.players_dict = {x[0]: float(x[1].replace(",", "")) for x in tupples}
+        self._stacks_list = [float(x[1].replace(",", "")) for x in tupples]
+        self._stacks = {x[0]: float(x[1].replace(",", "")) for x in tupples}
         #       удаление нулевых стэков
         try:
-            self.stacks.index(0.0)
-            print(self.stacks.index(0.0))
-            while self.stacks.index(0.0) + 1:
-                n = self.stacks.index(0.0)
-                self.stacks.remove(0.0)
+            self._stacks_list.index(0.0)
+            print(self._stacks_list.index(0.0))
+            while self._stacks_list.index(0.0) + 1:
+                n = self._stacks_list.index(0.0)
+                self._stacks_list.remove(0.0)
                 self.players.pop(n)
         except ValueError:
             pass
@@ -135,11 +246,9 @@ class HHParser:
             self.sb = int(res.groupdict().get('sb', '10'))
             self.bb = int(res.groupdict().get('bb', '20'))
 
-        res = re.search(bi_knock_regex, self.hand_history)
-        if res:
-            self.bounty = float(res.groupdict().get('bounty'))
-            self.rake = float(res.groupdict().get('rake'))
-            self.bi = float(res.groupdict().get('bi')) + self.bounty + self.rake
+
+
+
 
     def p1p(self, ind, place):
         #       вероятность place го места для игрока ind
@@ -148,7 +257,7 @@ class HHParser:
         #       ind - индекс стэка для которого считаестя вероятность
         #       place - место целое число, должно быть не больше чем длина списка s
 
-        sz = self.getPlayersNumber()
+        sz = self.players_number()
 
         #
         if place > sz:
@@ -191,8 +300,8 @@ class HHParser:
         if stacks is not None:
             SZ = np.size(stacks)
         else:
-            SZ = np.size(self.stacks)
-            stacks = np.copy(self.stacks)
+            SZ = np.size(self._stacks_list)
+            stacks = np.copy(self._stacks_list)
 
         #        place_probe = np.zeros(SZ, 3)
 
@@ -219,8 +328,8 @@ class HHParser:
         if stacks is not None:
             SZ = np.size(stacks)
         else:
-            SZ = np.size(self.stacks)
-            stacks = np.copy(self.stacks)
+            SZ = np.size(self._stacks_list)
+            stacks = np.copy(self._stacks_list)
         ind1 = range(0, SZ)
         min_place = min(SZ, np.size(self.PRIZE))
         p1 = np.zeros(shape=(min_place, SZ))
@@ -236,7 +345,7 @@ class HHParser:
 
     def tie_factor(self):
         eq = self.icm_eq()
-        st = np.array(self.stacks)
+        st = np.array(self._stacks_list)
         sz = np.size(st)
         result = np.zeros((sz, sz))
         for i in range(sz):
@@ -277,10 +386,10 @@ class HHParser:
             #            print("no player " + player)
             return -1
 
-        sp = self.stacks[i]
+        sp = self._stacks_list[i]
         result = 1
         #
-        for s in self.stacks:
+        for s in self._stacks_list:
             if s > sp:
                 result += 1
 
@@ -290,7 +399,7 @@ class HHParser:
         # сколько еще игроков будут действовать на префлопе после игрока
         return self.preflop_order
 
-    def isChipLeader(self, player):
+    def flg_chiplead(self, player):
 
         if self.tournamentPosition(player) == 1:
             return True
@@ -311,11 +420,11 @@ class HHParser:
             print("no player " + player)
             return -1
 
-        sp = self.stacks[i]
+        sp = self._stacks_list[i]
         result = 1
 
         i = self.preflop_order.index(player)
-        for s in [self.stacks[ind1] for ind1 in [self.players.index(p) for p in self.preflop_order[i:]]]:
+        for s in [self._stacks_list[ind1] for ind1 in [self.players.index(p) for p in self.preflop_order[i:]]]:
             if s > sp:
                 result += 1
 
@@ -333,65 +442,82 @@ class HHParser:
                 print("no player " + player)
                 return -1
 
-            sp = self.stacks[i]
+            sp = self._stacks_list[i]
 
         if type(player) is int:
             try:
-                sp = self.stacks[player]
+                sp = self._stacks_list[player]
             except IndexError:
                 print("no such index " + player)
                 return -1
 
         return sp
 
-    def getStacks(self):
+    def stacks(self):
         # returns dict {player: stack}
-        return self.players_dict
+        return self._stacks
 
-    def getStackList(self):
+    def stack_list(self):
         #       возвращает сисок стэков
         #
-        return self.stacks
+        return self._stacks_list
 
-    def isChipLeaderL(self, player):
+    def flg_chiplead_left(self, player):
 
         if self.tournamentPositionL(player) == 1:
             return True
         else:
             return False
 
-    def getPlayersNumber(self):
+    def players_number(self):
         #   возвращает число игроков
         #
-        return len(self.stacks)
+        return len(self._stacks_list)
 
-    def getPlayerDict(self):
-        #   returns dict {position: playername}
-        return {self.POSITIONS[i]: self.preflop_order[::-1][i] for i in range(len(self.preflop_order))}
+    # def getPlayerDict(self):
+    #     #   returns dict {position: playername}
+    #     return {self.POSITIONS[i]: self.preflop_order[::-1][i] for i in range(len(self.preflop_order))}
 
-    def getPlayersDict(self):
-        return self.players_dict
+    def flg_knockout(self):
+        return True if self.bounty > 0 else False
 
-    def isKnockoutTournament(self):
-        try:
-            if self.bounty:
-                return True
-
-        except AttributeError:
-            return False
-        return False
-
-    def getStackDict(self):
-        #       returns dict {position: stack}
-        return {self.POSITIONS[i]: self.getStack(self.preflop_order[::-1][i]) for i in range(len(self.preflop_order))}
+    # def getStackDict(self):
+    #     #       returns dict {position: stack}
+    #     return {self.POSITIONS[i]: self.getStack(self.preflop_order[::-1][i]) for i in range(len(self.preflop_order))}
 
     def getBlinds(self):
-
         return [self.sb, self.bb]
 
-    def getBI(self):
+    @cached_property
+    def bi(self):
+        res = self._process_regexp(
+            self.BI_BOUNTY_RAKE_REGEX,
+            self.caption_str,
+            'bi',
+            type_func=lambda x: float(x),
+        )
+        res = res + self.bounty + self.rake
+        return res
 
-        return self.bi
+
+    @cached_property
+    def bounty(self):
+        res = self._process_regexp(
+            self.BI_BOUNTY_RAKE_REGEX,
+            self.caption_str,
+            'bounty',
+            type_func=lambda x: float(x),
+        )
+        return res if res else 0
+
+    @cached_property
+    def rake(self):
+        return self._process_regexp(
+            self.BI_BOUNTY_RAKE_REGEX,
+            self.caption_str,
+            'rake',
+            type_func=lambda x: float(x),
+        )
 
     def flgRFIOpp(self, player):
         #       returns true if player has opportunity of first action
@@ -403,357 +529,367 @@ class HHParser:
     def flgFacedAI(self, player):
         return False
 
-    def getTournamentID(self):
+    @cached_property
+    def tid(self):
+        return self._process_regexp(self.TID_REGEX, self.caption_str, 'tid')
 
-        id_regex = "Tournament #(?P<tid>\d+)"
-        res = re.search(id_regex, self.hand_history)
-        if res:
-            return res.groupdict().get('tid')
+    @cached_property
+    def hid(self):
+        return self._process_regexp(
+            self.HID_REGEX,
+            self.caption_str,
+            'hid'
+        )
 
-    def getHandID(self):
+    @cached_property
+    def datetime(self):
+        res = self._process_regexp(
+            self.DATETIME_REGEX,
+            self.caption_str,
+            'datetime'
+        )
+        dt_str_format = '%Y/%m/%d %H:%M:%S'
+        try:
+            res = datetime.strptime(res, dt_str_format)
+        except:
+            pass
+        return res
 
-        id_regex = "Hand #(?P<hid>\d+)"
-        res = re.search(id_regex, self.hand_history)
-        if res:
-            return res.groupdict().get('hid')
-        else:
-            return 0
 
-    def getDateTimeET(self):
+    @cached_property
+    def p_actions(self):
+        return self._process_regexp(
+            self.ACTIONS_REGEX,
+            self.preflop_str,
+            type_func=lambda x: ACTIONS[x],
+            reslist=True,
+            **self.ACTIONS_DICT
+        )
 
-        datetime_regex = r"(?P<datetime>\d{4}/\d{2}/\d{2}\s\d{1,2}:\d{1,2}:\d{1,2})\sET"
-        res = re.search(datetime_regex, self.hand_history)
-        if res:
-            return res.groupdict().get('datetime')
-        else:
-            return 0
+    @cached_property
+    def f_actions(self):
+        return self._process_regexp(
+            self.ACTIONS_REGEX,
+            self.flop_str,
+            type_func= lambda x: ACTIONS[x],
+            reslist=True,
+            **self.ACTIONS_DICT
+        )
 
-    def getPActions(self):
+    @cached_property
+    def t_actions(self):
+        return self._process_regexp(
+            self.ACTIONS_REGEX,
+            self.turn_str,
+            type_func= lambda x: ACTIONS[x],
+            reslist=True,
+            **self.ACTIONS_DICT
+        )
 
-        regex = r"(?P<player>.*):\s(?P<action>calls|raises|folds|checks)"
-        res = re.findall(regex, self.preflop_str)
-        if res:
-            self.p_actions = [ACTIONS[x[1]] for x in res]
-            return self.p_actions
+    @cached_property
+    def r_actions(self):
+        return self._process_regexp(self.ACTIONS_REGEX,
+                                                  self.river_str,
+                                                   type_func= lambda x: ACTIONS[x],
+                                                   reslist=True,
+                                                   **self.ACTIONS_DICT)
 
-    def getFActions(self):
+    @cached_property
+    def p_ai_players(self):
+        # todo сюда не попадают игроки которые заколили или поставили игрока под аи оставив в своем стэке фишки
 
-        regex = r"(?P<player>.*):\s(?P<action>calls|raises|folds|checks|bets)"
-        res = re.findall(regex, self.flop_str)
-        self.FActions = []
-        if res:
-            self.FActions = [ACTIONS[x[1]] for x in res]
-
-        return self.FActions
-
-    def getTActions(self):
-
-        regex = r"(?P<player>.*):\s(?P<action>calls|raises|folds|checks|bets)"
-        res = re.findall(regex, self.turn_str)
-        self.TActions = []
-        if res:
-            self.TActions = [ACTIONS[x[1]] for x in res]
-
-        return self.TActions
-
-    def getRActions(self):
-
-        regex = r"(?P<player>.*):\s(?P<action>calls|raises|folds|checks|bets)"
-        res = re.findall(regex, self.river_str)
-        self.RActions = []
-        if res:
-            self.RActions = [ACTIONS[x[1]] for x in res]
-
-        return self.RActions
-
-    def getPAIPlayers(self):
         #       returns list of players which is all in preflop
+        return self._process_regexp(self.AI_PLAYERS_REGEX,
+                                                     self.preflop_str,
+                                                    'player',
+                                                      reslist=True)
 
-        regex = r"(?P<player>.*):.* all-in"
-        res = re.findall(regex, self.preflop_str)
-        self.PAIPlayers = []
-        if res:
-            self.PAIPlayers = [x for x in res]
+    @cached_property
+    def f_ai_players(self):
+        #       returns list of players which is all in preflop
+        return self._process_regexp(self.AI_PLAYERS_REGEX,
+                                                     self.flop_str,
+                                                    'player',
+                                                      reslist=True)
 
-        return self.PAIPlayers
+    @cached_property
+    def t_ai_players(self):
+        #       returns list of players which is all in preflop
+        return self._process_regexp(self.AI_PLAYERS_REGEX,
+                                                     self.turn_str,
+                                                    'player',
+                                                      reslist=True)
 
-    def getFAIPlayers(self):
+    @cached_property
+    def r_ai_players(self):
+        #       returns list of players which is all in preflop
+        return self._process_regexp(self.AI_PLAYERS_REGEX,
+                                                     self.river_str,
+                                                    'player',
+                                                      reslist=True)
 
-        regex = r"(?P<player>.*):.* all-in"
-        res = re.findall(regex, self.flop_str)
-        self.FAIPlayers = []
-        if res:
-            self.FAIPlayers = [x for x in res]
-
-        return self.FAIPlayers
-
-    def getTAIPlayers(self):
-
-        regex = r"(?P<player>.*):.* all-in"
-        res = re.findall(regex, self.turn_str)
-        self.TAIPlayers = []
-        if res:
-            self.TAIPlayers = [x for x in res]
-
-        return self.TAIPlayers
-
-    def getRAIPlayers(self):
-
-        regex = r"(?P<player>.*):.* all-in"
-        res = re.findall(regex, self.river_str)
-        self.RAIPlayers = []
-        if res:
-            self.RAIPlayers = [x for x in res]
-
-        return self.RAIPlayers
-
-    def getPotList(self):
+    @cached_property
+    def pot_list(self):
         #       returns list with 1st item is total pot and all af the side pots if presents
-        regex = r"(Total|Main|Side) (pot|pot-1|pot-2|pot-3|pot-4|pot-5)\s(?P<pot>\d*)"
-        res = re.findall(regex, self.summary_str)
-        self.PotList = []
-        if res:
-            self.PotList = [float(x[2]) for x in res]
-        return self.PotList
+        return self._process_regexp(
+                                                  self.POT_LIST_REGEX,
+                                                  self.summary_str,
+                                                  'pot',
+                                                  reslist=True,
+                                                  type_func=lambda x: int(x)
+                                                  )
 
-    def getPActionsAmount(self):
+    @cached_property
+    def p_actions_amounts(self):
+        return self._process_regexp(self.ACTIONS_AMOUNTS_REGEX,
+                                                  self.preflop_str,
+                                                   type_func= lambda x: int(x),
+                                                   reslist=True,
+                                                   **self.ACTIONS_AMOUNTS_DICT)
 
-        regex = "(?P<player>.*?): (?:calls|raises.*to|bets) (?P<amount>\d*)"
-        res = re.findall(regex, self.preflop_str)
+    @cached_property
+    def f_actions_amounts(self):
+        return self._process_regexp(self.ACTIONS_AMOUNTS_REGEX,
+                                                  self.flop_str,
+                                                   type_func= lambda x: int(x),
+                                                   reslist=True,
+                                                   **self.ACTIONS_AMOUNTS_DICT)
 
-        if self.p_amounts:
-            return self.p_amounts
-        else:
-            if res:
-                for x in res:
-                    if self.p_amounts.get(x[0]):
-                        self.p_amounts[x[0]].append(int(x[1]))
-                    else:
-                        self.p_amounts[x[0]] = [int(x[1])]
+    @cached_property
+    def t_actions_amounts(self):
+        return self._process_regexp(self.ACTIONS_AMOUNTS_REGEX,
+                                                  self.turn_str,
+                                                   type_func= lambda x: int(x),
+                                                   reslist=True,
+                                                   **self.ACTIONS_AMOUNTS_DICT)
 
-        return self.p_amounts
+    @cached_property
+    def r_actions_amounts(self):
+        return self._process_regexp(self.ACTIONS_AMOUNTS_REGEX,
+                                                  self.river_str,
+                                                   type_func= lambda x: int(x),
+                                                   reslist=True,
+                                                   **self.ACTIONS_AMOUNTS_DICT)
 
-    def getFActionsAmount(self):
+    def total_bets_amounts(self):
+        # total bets sum on every street including blinds and antes
+        res = {}
 
-        regex = "(?P<player>.*?): (?:calls|raises.*to|bets) (?P<amount>\d*)"
-        res = re.findall(regex, self.flop_str)
+        for k in list(self._stacks.keys()):
 
-        if self.f_amounts:
-            return self.f_amounts
-        else:
-            if res:
-                for x in res:
-                    if self.f_amounts.get(x[0]):
-                        self.f_amounts[x[0]].append(int(x[1]))
-                    else:
-                        self.f_amounts[x[0]] = [int(x[1])]
+            actions = self.p_actions.get(k, [0])
+            if 'r' in actions:
+                last_raise_pos =  - actions[::-1].index('r') - 1
+                p_total_bets = sum(self.p_actions_amounts.get(k, [0])[last_raise_pos:])
+            else:
+                p_total_bets = sum(self.p_actions_amounts.get(k, [0])) + self.blinds.get(k, 0)
 
-        return self.f_amounts
+            actions = self.f_actions.get(k, [0])
+            if 'r' in actions:
+                last_raise_pos = - actions[::-1].index('r') - 1
+                f_total_bets = sum(self.f_actions_amounts.get(k, [0])[last_raise_pos:])
+            else:
+                f_total_bets = sum(self.f_actions_amounts.get(k, [0]))
 
-    def getTActionsAmount(self):
+            actions = self.t_actions.get(k, [0])
+            if 'r' in actions:
+                last_raise_pos = - actions[::-1].index('r') - 1
+                t_total_bets = sum(self.t_actions_amounts.get(k, [0])[last_raise_pos:])
+            else:
+                t_total_bets = sum(self.t_actions_amounts.get(k, [0]))
 
-        regex = "(?P<player>.*?): (?:calls|raises.*to|bets) (?P<amount>\d*)"
-        res = re.findall(regex, self.turn_str)
+            actions = self.r_actions.get(k, [0])
+            if 'r' in actions:
+                last_raise_pos = - actions[::-1].index('r') - 1
+                r_total_bets = sum(self.r_actions_amounts.get(k, [0])[last_raise_pos:])
+            else:
+                r_total_bets = sum(self.r_actions_amounts.get(k, [0]))
 
-        if self.t_amounts:
-            return self.t_amounts
-        else:
-            if res:
-                for x in res:
-                    if self.t_amounts.get(x[0]):
-                        self.t_amounts[x[0]].append(int(x[1]))
-                    else:
-                        self.t_amounts[x[0]] = [int(x[1])]
+            res[k] = p_total_bets + f_total_bets + t_total_bets + r_total_bets + self.antes.get(k, 0)
 
-        return self.t_amounts
+        return res
 
-    def getRActionsAmount(self):
+    def p_last_action(self):
+        res = {}
+        for k in list(self._stacks.keys()):
+            p_actions = self.p_actions.get(k, '')
+            if p_actions:
+                res[k] = p_actions[len(p_actions) - 1]
+        return res
 
-        regex = "(?P<player>.*?): (?:calls|raises.*to|bets) (?P<amount>\d*)"
-        res = re.findall(regex, self.river_str)
+    def f_last_action(self):
+        res = {}
+        for k in list(self._stacks.keys()):
+            actions = self.f_actions.get(k, '')
+            if actions:
+                res[k] = actions[len(actions) - 1]
+        return res
 
-        if self.r_amounts:
-            return self.r_amounts
-        else:
-            if res:
-                for x in res:
-                    if self.r_amounts.get(x[0]):
-                        self.r_amounts[x[0]].append(int(x[1]))
-                    else:
-                        self.r_amounts[x[0]] = [int(x[1])]
+    def t_last_action(self):
+        res = {}
+        for k in list(self._stacks.keys()):
+            actions = self.t_actions.get(k, '')
+            if actions:
+                res[k] = actions[len(actions) - 1]
+        return res
 
-        return self.r_amounts
+    def r_last_action(self):
+        res = {}
+        for k in list(self._stacks.keys()):
+            actions = self.r_actions.get(k, '')
+            if actions:
+                res[k] = actions[len(actions) - 1]
+        return res
 
-    def getHero(self):
+    @cached_property
+    def hero(self):
         #       returns hero name
-        regex = r"Dealt to (?P<hero>.*)\s\["
-        res = re.search(regex, self.preflop_str)
+        return self._process_regexp(
+                self.HERO_REGEX,
+                self.preflop_str,
+                'hero'
+            )
 
-        if self.Hero:
-            return self.Hero
-        else:
-            if res:
-                self.Hero = res.groupdict().get('hero')
+    @cached_property
+    def hero_cards(self):
+        return self._process_regexp(
+                self.HERO_CARDS_REGEX,
+                self.preflop_str,
+                'cards'
+            )
 
-        return self.Hero
+    @cached_property
+    def known_cards(self):
+            return self._process_regexp(self.KNOWN_CARDS_REGEX,
+                                                     self.summary_str,
+                                                     # type_func=lambda x: ''.join(x.split()),
+                                                     **self.KNOWN_CARDS_DICT,
+                                                     )
 
-    def getHeroCards(self):
+    @cached_property
+    def flop(self):
+        return self._process_regexp(self.FLOP_REGEX,
+                                              self.flop_str,
+                                              'flop',
+                                              # type_func=lambda x: ''.join(x.split()),
+                                              )
 
-        regex = r"Dealt to .*\s\[(?P<cards>.*)]"
-        res = re.search(regex, self.preflop_str)
+    @cached_property
+    def turn(self):
+        return self._process_regexp(self.TURN_REGEX,
+                                              self.turn_str,
+                                              'turn')
 
-        if self.HeroCards:
-            return self.HeroCards
-        else:
-            if res:
-                #               delete spaces
-                self.HeroCards = re.sub(r'\s+', '', res.groupdict().get('cards'), flags=re.UNICODE)
+    @cached_property
+    def river(self):
+        return self._process_regexp(self.RIVER_REGEX,
+                                              self.river_str,
+                                              'river')
 
-        return self.HeroCards
+    @cached_property
+    def bounty_won(self):
+        #   bounty won in hand
+        res = self._process_regexp(self.BOUNTY_WON_REGEX,
+                                                   self.showdown_str,
+                                                   type_func=lambda x: float(x),
+                                                   **{'player':'bounty'})
+        # 1 more bounty for the 1st place
+        for player, place in self.finishes.items():
+            if place == 1:
+                res[player] = res.get(player, 0) + self.bounty
+        return res
 
-    def getKnownCards(self):
+    @cached_property
+    def prize_won(self):
+        return self._process_regexp(self.PRIZE_WON_REGEX,
+                                                  self.showdown_str,
+                                                  type_func=lambda x: float(x),
+                                                  **{'player':'prize'})
 
-        regex = "Seat \d: (?P<player>.*?)\s?(?:\(button\) showed|\(small blind\) showed|\(button\) \(small blind\) showed|\(big blind\) showed| showed)\s\[(?P<knowncards>.*)\]"
-        res = re.findall(regex, self.summary_str)
-
-        if self.KnownCardsDict:
-            return self.KnownCardsDict
-        else:
-            if res:
-                self.KnownCardsDict = {x[0]: re.sub(r'\s+', '', x[1], flags=re.UNICODE) for x in res}
-
-        return self.KnownCardsDict
-
-    def getFlop(self):
-        regex = "FLOP.*\[(?P<flop>.*)\]"
-        res = re.search(regex, self.flop_str)
-
-        if self.flop:
-            return self.flop
-        else:
-            if res:
-                self.flop = re.sub(r'\s+', '', res.groupdict().get('flop'), flags=re.UNICODE)
-
-        return self.flop
-
-    def getTurn(self):
-        regex = "TURN.*\[(?:.*)\] \[(?P<turn>.{2})\]"
-        res = re.search(regex, self.turn_str)
-
-        if self.turn:
-            return self.turn
-        else:
-            if res:
-                self.turn = res.groupdict().get('turn')
-
-        return self.turn
-
-    def getRiver(self):
-        regex = "RIVER.*\[(?:.*)\] \[(?P<river>.{2})\]"
-        res = re.search(regex, self.river_str)
-
-        if self.river:
-            return self.river
-        else:
-            if res:
-                self.river = res.groupdict().get('river')
-
-        return self.river
-        pass
-
-    def getBountyWon(self):
-        #       winning in tournament
-        regex = "(?P<player>.*) wins the \$(?P<bounty>.*) bounty"
-        if self.bounty_won:
-            return self.bounty_won
-        else:
-            self.bounty_won = self._process_regexp(regex, self.showdown_str, type_func=lambda x: float(x), **{'player':'bounty'})
-            return self.bounty_won
-
-    def getPrizeWon(self):
-        regex = "(?P<player>.*?) .*and (?:received|receives) \$(?P<prize>\d+\.\d+)(?:.|\s)"
-        if self.prize_won:
-            return self.prize_won
-        else:
-            self.prize_won = self._process_regexp(regex, self.showdown_str, type_func=lambda x: float(x), **{'player':'prize'})
-            return self.prize_won
-
-    def getChipWon(self):
-
-        if self.chip_won:
-            return self.chip_won
-        else:
-            self.chip_won = self._process_regexp(self.CHIPWON_REGEX,
-                                                 self.summary_str,
+    @cached_property
+    def chip_won(self):
+        return self._process_regexp(self.CHIPWON_REGEX,
+                                                 self.showdown_str + self.preflop_str,
                                                  type_func=lambda x: int(x),
+                                                 reslist=True,
                                                  **self.CHIPWON_DICT)
-            return self.chip_won
 
-    def getFinishes(self):
-        if self.finishes:
-            return self.finishes
-        else:
-            self.finishes = self._process_regexp(self.FINISHES_REGEX,
+    @cached_property
+    def finishes(self):
+        res = self._process_regexp(self.FINISHES_REGEX,
                                                    self.showdown_str,
                                                    type_func=lambda x: int(x),
                                                    **{'player':'place'})
-            return self.finishes
+        if res:
+            for k,v in res.items():
+                if v is None:
+                    res[k] = 1
+        return res
 
-    def getBlidnsAnte(self):
+    @cached_property
+    def blinds_antes(self):
         #returns dict {player: bet before preflop}
-        regex = "(?P<player>.*): posts .*?(?P<bet>\d+)"
+        res = re.findall(self.BLINDS_ANTE_REGEX, self.caption_str)
+        dic = {}
+        if res:
+            for x in res:
+                if dic.get(x[0], 0) == 0:
+                    dic[x[0]] = int(x[1])
+                else:
+                    dic[x[0]] = dic.get(x[0]) + int(x[1])
 
-        if self.blinds_ante:
-            return self.blinds_ante
-        else:
-            res = re.findall(regex, self.caption_str)
-            if res:
-                dic = {}
-                for x in res:
-                    if dic.get(x[0], 0) == 0:
-                        dic[x[0]] = int(x[1])
-                    else:
-                        dic[x[0]] = dic.get(x[0]) + int(x[1])
+        return dic
 
-                self.blinds_ante = dic
+    @cached_property
+    def blinds(self):
+        #returns dict {player: blind bet}
+        return self._process_regexp(self.BLINDS_REGEX,
+                                                 self.caption_str,
+                                                 type_func=lambda x: int(x),
+                                                 **self.BLINDS_ANTE_DICT)
 
-        return self.blinds_ante
+    @cached_property
+    def antes(self):
+        #returns dict {player: ante}
 
-    def getUncalled(self):
+        return self._process_regexp(self.ANTE_REGEX,
+                                                 self.caption_str,
+                                                 type_func=lambda x: int(x),
+                                                 **self.BLINDS_ANTE_DICT)
+
+    @cached_property
+    def uncalled(self):
         #returns dict {player: bet}
-        if self.uncalled:
-            return self.uncalled
-        else:
-            self.uncalled = self._process_regexp(self.UNCALLED_REGEX,
+        return self._process_regexp(self.UNCALLED_REGEX,
                                                  self.hand_history,
                                                  type_func=lambda x: int(x),
                                                  **self.UNCALLED_DICT)
-            return self.uncalled
 
     def positions(self):
-    #     returns dict{player: position}
+        #returns dict{player: position}
         return {self.preflop_order[::-1][i]: self.POSITIONS[i] for i in range(len(self.preflop_order))}
 
-    def _process_regexp(self, pattern, text, type_func=lambda x:x, *args, **kwargs):
-        # extracts named groups from result of re and converts it into dict or list
-        it = re.finditer(pattern, text)
+    def flg_showdown(self):
+        return True if self.showdown_str.strip() else False
 
-        res = []
-        for x in args:
-            for i in it:
-                try:
-                    res.append(type_func(i.groupdict().get(x)))
-                    res = [type_func(i.groupdict().get(x)) for i in it]
-                except TypeError:
-                    res.append(i.groupdict().get(x))
+    def last_actions(self):
+        # returns last actions
+        if self.r_actions:
+            return self.r_actions
+        elif self.t_actions:
+            return self.t_actions
+        elif self.f_actions:
+            return self.f_actions
+        else:
+            return self.p_actions
 
-        res = {}
-        for k, v in kwargs.items():
-            for i in it:
-                try:
-                    res[i.groupdict().get(k)] = type_func(i.groupdict().get(v))
-                except TypeError:
-                    res[i.groupdict().get(k)] = i.groupdict().get(v)
-
-        return res
+    def last_actions_amounts(self):
+        if self.r_actions_amounts():
+            return self.r_actions_amounts()
+        elif self.t_actions_amounts():
+            return self.t_actions_amounts()
+        elif self.f_actions_amounts():
+            return self.f_actions_amounts()
+        else:
+            return self.p_actions_amounts()
 
