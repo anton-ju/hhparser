@@ -13,6 +13,30 @@ from datetime import datetime
 logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
+th10 = """
+PokerStars Hand #194070989781: Tournament #2473317509, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level VIII (75/150) - 2018/12/04 23:02:20 MSK [2018/12/04 15:02:20 ET]
+Table '2473317509 1' 6-max Seat #2 is the button
+Seat 2: FoodProm (46 in chips) is sitting out
+Seat 5: DiggErr555 (2954 in chips)
+FoodProm: posts the ante 15
+DiggErr555: posts the ante 15
+FoodProm: posts small blind 31 and is all-in
+DiggErr555: posts big blind 150
+*** HOLE CARDS ***
+Dealt to DiggErr555 [5s Ts]
+FoodProm: folds
+Uncalled bet (119) returned to DiggErr555
+DiggErr555 collected 92 from pot
+DiggErr555 wins the $12.01 bounty for eliminating FoodProm
+FoodProm finished the tournament in 2nd place and received $36.03.
+DiggErr555 wins the tournament and receives $36.03 - congratulations!
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 92 | Rake 0
+Seat 2: FoodProm (button) (small blind) folded before Flop
+Seat 5: DiggErr555 (big blind) collected (92)
+"""
+
 tts1 = """
 PokerStars Tournament #2447891935, No Limit Hold'em
 Buy-In: $48.04/$1.96 USD
@@ -389,6 +413,7 @@ class TestHHParser(unittest.TestCase):
         self.case7 = HHParser(th7)
         self.case8 = HHParser(th8)
         self.case9 = HHParser(th9)  #2 bounty won case
+        self.case10 = HHParser(th10) #3 bounty won case
 
     def test_datetime(self):
         hh = self.case0
@@ -732,8 +757,11 @@ class TestHHParser(unittest.TestCase):
         self.assertEqual(hh.bounty_won, {'DiggErr555': 4.79})
         hh = self.case9
         self.assertEqual(hh.bounty_won, {'DiggErr555': 4.76})
+        hh = self.case10
+        self.assertEqual(hh.bounty_won, {'DiggErr555': 24.02})
 
     def test_finishes(self):
+
         hh = self.case8
         self.assertEqual(hh.finishes, {'DiggErr555': 2,
                                             'SHAOLINWH': 3,
@@ -741,6 +769,10 @@ class TestHHParser(unittest.TestCase):
         hh = self.case7
         self.assertEqual(hh.finishes, {'sabuco_2110': 2,
                                             'DiggErr555': 1})
+
+        hh = self.case10
+        self.assertEqual(hh.finishes, {'FoodProm': 2, 'DiggErr555': 1})
+
 
     def test_icm_eq(self):
         hh = self.case8

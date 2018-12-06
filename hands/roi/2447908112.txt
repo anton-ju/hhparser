@@ -1,0 +1,961 @@
+
+
+PokerStars Hand #192956262923: Tournament #2447908112, $24.02+$24.02+$1.96 USD Hold'em No Limit - Level I (10/20) - 2018/11/04 22:16:40 MSK [2018/11/04 14:16:40 ET]
+Table '2447908112 1' 6-max Seat #1 is the button
+Seat 1: Mailo2001 (500 in chips)
+Seat 2: joxx1 (500 in chips)
+Seat 3: DiggErr555 (500 in chips)
+Seat 4: Yakimchik117 (500 in chips)
+Seat 5: CatoSenex (500 in chips)
+Seat 6: TH0090 (500 in chips)
+Mailo2001: posts the ante 2
+joxx1: posts the ante 2
+DiggErr555: posts the ante 2
+Yakimchik117: posts the ante 2
+CatoSenex: posts the ante 2
+TH0090: posts the ante 2
+joxx1: posts small blind 10
+DiggErr555: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Td Ah]
+Yakimchik117: raises 20 to 40
+CatoSenex: raises 458 to 498 and is all-in
+TH0090: folds
+Mailo2001: folds
+joxx1: folds
+DiggErr555: folds
+Yakimchik117: calls 458 and is all-in
+*** FLOP *** [5h 8h Qc]
+*** TURN *** [5h 8h Qc] [9h]
+*** RIVER *** [5h 8h Qc 9h] [5d]
+*** SHOW DOWN ***
+Yakimchik117: shows [8s 8c] (a full house, Eights full of Fives)
+CatoSenex: shows [Kh 7h] (a flush, King high)
+Yakimchik117 collected 1038 from pot
+Yakimchik117 wins the $24.02 bounty for eliminating CatoSenex
+CatoSenex finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 1038 | Rake 0
+Board [5h 8h Qc 9h 5d]
+Seat 1: Mailo2001 (button) folded before Flop (didn't bet)
+Seat 2: joxx1 (small blind) folded before Flop
+Seat 3: DiggErr555 (big blind) folded before Flop
+Seat 4: Yakimchik117 showed [8s 8c] and won (1038) with a full house, Eights full of Fives
+Seat 5: CatoSenex showed [Kh 7h] and lost with a flush, King high
+Seat 6: TH0090 folded before Flop (didn't bet)
+
+PokerStars Hand #192956298187: Tournament #2447908112, $24.02+$24.02+$1.96 USD Hold'em No Limit - Level I (10/20) - 2018/11/04 22:17:22 MSK [2018/11/04 14:17:22 ET]
+Table '2447908112 1' 6-max Seat #2 is the button
+Seat 1: Mailo2001 (498 in chips)
+Seat 2: joxx1 (488 in chips)
+Seat 3: DiggErr555 (478 in chips)
+Seat 4: Yakimchik117 (1038 in chips)
+Seat 6: TH0090 (498 in chips)
+Mailo2001: posts the ante 2
+joxx1: posts the ante 2
+DiggErr555: posts the ante 2
+Yakimchik117: posts the ante 2
+TH0090: posts the ante 2
+DiggErr555: posts small blind 10
+Yakimchik117: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Kh 8c]
+TH0090: folds
+Mailo2001: raises 20 to 40
+joxx1: raises 446 to 486 and is all-in
+DiggErr555: folds
+Yakimchik117: calls 466
+Mailo2001: folds
+*** FLOP *** [Td 5s 7h]
+*** TURN *** [Td 5s 7h] [6h]
+*** RIVER *** [Td 5s 7h 6h] [6d]
+*** SHOW DOWN ***
+Yakimchik117: shows [2c 2s] (two pair, Sixes and Deuces)
+joxx1: shows [Kd Ah] (a pair of Sixes)
+Yakimchik117 collected 1032 from pot
+Yakimchik117 wins the $24.02 bounty for eliminating joxx1
+joxx1 finished the tournament in 5th place
+*** SUMMARY ***
+Total pot 1032 | Rake 0
+Board [Td 5s 7h 6h 6d]
+Seat 1: Mailo2001 folded before Flop
+Seat 2: joxx1 (button) showed [Kd Ah] and lost with a pair of Sixes
+Seat 3: DiggErr555 (small blind) folded before Flop
+Seat 4: Yakimchik117 (big blind) showed [2c 2s] and won (1032) with two pair, Sixes and Deuces
+Seat 6: TH0090 folded before Flop (didn't bet)
+
+PokerStars Hand #192956325391: Tournament #2447908112, $24.02+$24.02+$1.96 USD Hold'em No Limit - Level I (10/20) - 2018/11/04 22:17:54 MSK [2018/11/04 14:17:54 ET]
+Table '2447908112 1' 6-max Seat #3 is the button
+Seat 1: Mailo2001 (456 in chips)
+Seat 3: DiggErr555 (466 in chips)
+Seat 4: Yakimchik117 (1582 in chips)
+Seat 6: TH0090 (496 in chips)
+Mailo2001: posts the ante 2
+DiggErr555: posts the ante 2
+Yakimchik117: posts the ante 2
+TH0090: posts the ante 2
+Yakimchik117: posts small blind 10
+TH0090: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [8c Th]
+Mailo2001: folds
+DiggErr555: folds
+Yakimchik117: folds
+Uncalled bet (10) returned to TH0090
+TH0090 collected 28 from pot
+TH0090: doesn't show hand
+*** SUMMARY ***
+Total pot 28 | Rake 0
+Seat 1: Mailo2001 folded before Flop (didn't bet)
+Seat 3: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 4: Yakimchik117 (small blind) folded before Flop
+Seat 6: TH0090 (big blind) collected (28)
+
+PokerStars Hand #192956336278: Tournament #2447908112, $24.02+$24.02+$1.96 USD Hold'em No Limit - Level II (15/30) - 2018/11/04 22:18:06 MSK [2018/11/04 14:18:06 ET]
+Table '2447908112 1' 6-max Seat #4 is the button
+Seat 1: Mailo2001 (454 in chips)
+Seat 3: DiggErr555 (464 in chips)
+Seat 4: Yakimchik117 (1570 in chips)
+Seat 6: TH0090 (512 in chips)
+Mailo2001: posts the ante 3
+DiggErr555: posts the ante 3
+Yakimchik117: posts the ante 3
+TH0090: posts the ante 3
+TH0090: posts small blind 15
+Mailo2001: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [4d Tc]
+DiggErr555: folds
+Yakimchik117: raises 30 to 60
+TH0090: calls 45
+Mailo2001: calls 30
+*** FLOP *** [3d 9d 7h]
+TH0090: checks
+Mailo2001: bets 106
+Yakimchik117: calls 106
+TH0090: calls 106
+*** TURN *** [3d 9d 7h] [5c]
+TH0090: checks
+Mailo2001: bets 285 and is all-in
+Yakimchik117: folds
+TH0090: calls 285
+*** RIVER *** [3d 9d 7h 5c] [5s]
+*** SHOW DOWN ***
+TH0090: shows [Td Jd] (a pair of Fives)
+Mailo2001: shows [9c 8c] (two pair, Nines and Fives)
+Mailo2001 collected 1080 from pot
+*** SUMMARY ***
+Total pot 1080 | Rake 0
+Board [3d 9d 7h 5c 5s]
+Seat 1: Mailo2001 (big blind) showed [9c 8c] and won (1080) with two pair, Nines and Fives
+Seat 3: DiggErr555 folded before Flop (didn't bet)
+Seat 4: Yakimchik117 (button) folded on the Turn
+Seat 6: TH0090 (small blind) showed [Td Jd] and lost with a pair of Fives
+
+PokerStars Hand #192956400868: Tournament #2447908112, $24.02+$24.02+$1.96 USD Hold'em No Limit - Level II (15/30) - 2018/11/04 22:19:23 MSK [2018/11/04 14:19:23 ET]
+Table '2447908112 1' 6-max Seat #6 is the button
+Seat 1: Mailo2001 (1080 in chips)
+Seat 3: DiggErr555 (461 in chips)
+Seat 4: Yakimchik117 (1401 in chips)
+Seat 6: TH0090 (58 in chips)
+Mailo2001: posts the ante 3
+DiggErr555: posts the ante 3
+Yakimchik117: posts the ante 3
+TH0090: posts the ante 3
+Mailo2001: posts small blind 15
+DiggErr555: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6c 4c]
+Yakimchik117: folds
+TH0090: raises 25 to 55 and is all-in
+Mailo2001: raises 1022 to 1077 and is all-in
+DiggErr555: folds
+Uncalled bet (1022) returned to Mailo2001
+*** FLOP *** [Js 9c Ks]
+*** TURN *** [Js 9c Ks] [8d]
+*** RIVER *** [Js 9c Ks 8d] [As]
+*** SHOW DOWN ***
+Mailo2001: shows [5d 6h] (high card Ace)
+TH0090: shows [4s 4d] (a pair of Fours)
+TH0090 collected 152 from pot
+*** SUMMARY ***
+Total pot 152 | Rake 0
+Board [Js 9c Ks 8d As]
+Seat 1: Mailo2001 (small blind) showed [5d 6h] and lost with high card Ace
+Seat 3: DiggErr555 (big blind) folded before Flop
+Seat 4: Yakimchik117 folded before Flop (didn't bet)
+Seat 6: TH0090 (button) showed [4s 4d] and won (152) with a pair of Fours
+
+PokerStars Hand #192956421087: Tournament #2447908112, $24.02+$24.02+$1.96 USD Hold'em No Limit - Level II (15/30) - 2018/11/04 22:19:47 MSK [2018/11/04 14:19:47 ET]
+Table '2447908112 1' 6-max Seat #1 is the button
+Seat 1: Mailo2001 (1022 in chips)
+Seat 3: DiggErr555 (428 in chips)
+Seat 4: Yakimchik117 (1398 in chips)
+Seat 6: TH0090 (152 in chips)
+Mailo2001: posts the ante 3
+DiggErr555: posts the ante 3
+Yakimchik117: posts the ante 3
+TH0090: posts the ante 3
+DiggErr555: posts small blind 15
+Yakimchik117: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Ah 5s]
+TH0090: raises 119 to 149 and is all-in
+Mailo2001: folds
+DiggErr555: raises 276 to 425 and is all-in
+Yakimchik117: folds
+Uncalled bet (276) returned to DiggErr555
+*** FLOP *** [2d 4d Jd]
+*** TURN *** [2d 4d Jd] [8d]
+*** RIVER *** [2d 4d Jd 8d] [Ad]
+*** SHOW DOWN ***
+DiggErr555: shows [Ah 5s] (a flush, Ace high)
+TH0090: shows [Th Qh] (a flush, Ace high)
+DiggErr555 collected 170 from pot
+TH0090 collected 170 from pot
+*** SUMMARY ***
+Total pot 340 | Rake 0
+Board [2d 4d Jd 8d Ad]
+Seat 1: Mailo2001 (button) folded before Flop (didn't bet)
+Seat 3: DiggErr555 (small blind) showed [Ah 5s] and won (170) with a flush, Ace high
+Seat 4: Yakimchik117 (big blind) folded before Flop
+Seat 6: TH0090 showed [Th Qh] and won (170) with a flush, Ace high
+
+PokerStars Hand #192956444694: Tournament #2447908112, $24.02+$24.02+$1.96 USD Hold'em No Limit - Level II (15/30) - 2018/11/04 22:20:15 MSK [2018/11/04 14:20:15 ET]
+Table '2447908112 1' 6-max Seat #3 is the button
+Seat 1: Mailo2001 (1019 in chips)
+Seat 3: DiggErr555 (446 in chips)
+Seat 4: Yakimchik117 (1365 in chips)
+Seat 6: TH0090 (170 in chips)
+Mailo2001: posts the ante 3
+DiggErr555: posts the ante 3
+Yakimchik117: posts the ante 3
+TH0090: posts the ante 3
+Yakimchik117: posts small blind 15
+TH0090: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [8h Ad]
+Mailo2001: folds
+DiggErr555: raises 30 to 60
+Yakimchik117: raises 1302 to 1362 and is all-in
+TH0090: calls 137 and is all-in
+DiggErr555: calls 383 and is all-in
+Uncalled bet (919) returned to Yakimchik117
+*** FLOP *** [Qh Qc 3c]
+*** TURN *** [Qh Qc 3c] [Ks]
+*** RIVER *** [Qh Qc 3c Ks] [Ah]
+*** SHOW DOWN ***
+Yakimchik117: shows [Jc Kh] (two pair, Kings and Queens)
+DiggErr555: shows [8h Ad] (two pair, Aces and Queens)
+DiggErr555 collected 552 from side pot
+TH0090: shows [6s 6d] (two pair, Queens and Sixes)
+DiggErr555 collected 513 from main pot
+DiggErr555 wins the $24.02 bounty for eliminating TH0090
+TH0090 finished the tournament in 4th place
+*** SUMMARY ***
+Total pot 1065 Main pot 513. Side pot 552. | Rake 0
+Board [Qh Qc 3c Ks Ah]
+Seat 1: Mailo2001 folded before Flop (didn't bet)
+Seat 3: DiggErr555 (button) showed [8h Ad] and won (1065) with two pair, Aces and Queens
+Seat 4: Yakimchik117 (small blind) showed [Jc Kh] and lost with two pair, Kings and Queens
+Seat 6: TH0090 (big blind) showed [6s 6d] and lost with two pair, Queens and Sixes
+
+PokerStars Hand #192956470551: Tournament #2447908112, $24.02+$24.02+$1.96 USD Hold'em No Limit - Level III (20/40) - 2018/11/04 22:20:45 MSK [2018/11/04 14:20:45 ET]
+Table '2447908112 1' 6-max Seat #4 is the button
+Seat 1: Mailo2001 (1016 in chips)
+Seat 3: DiggErr555 (1065 in chips)
+Seat 4: Yakimchik117 (919 in chips)
+Mailo2001: posts the ante 4
+DiggErr555: posts the ante 4
+Yakimchik117: posts the ante 4
+Mailo2001: posts small blind 20
+DiggErr555: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [4h 6d]
+Yakimchik117: folds
+Mailo2001: folds
+Uncalled bet (20) returned to DiggErr555
+DiggErr555 collected 52 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 52 | Rake 0
+Seat 1: Mailo2001 (small blind) folded before Flop
+Seat 3: DiggErr555 (big blind) collected (52)
+Seat 4: Yakimchik117 (button) folded before Flop (didn't bet)
+
+PokerStars Hand #192956476607: Tournament #2447908112, $24.02+$24.02+$1.96 USD Hold'em No Limit - Level III (20/40) - 2018/11/04 22:20:52 MSK [2018/11/04 14:20:52 ET]
+Table '2447908112 1' 6-max Seat #1 is the button
+Seat 1: Mailo2001 (992 in chips)
+Seat 3: DiggErr555 (1093 in chips)
+Seat 4: Yakimchik117 (915 in chips)
+Mailo2001: posts the ante 4
+DiggErr555: posts the ante 4
+Yakimchik117: posts the ante 4
+DiggErr555: posts small blind 20
+Yakimchik117: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [7d 6d]
+Mailo2001: folds
+DiggErr555: folds
+Uncalled bet (20) returned to Yakimchik117
+Yakimchik117 collected 52 from pot
+*** SUMMARY ***
+Total pot 52 | Rake 0
+Seat 1: Mailo2001 (button) folded before Flop (didn't bet)
+Seat 3: DiggErr555 (small blind) folded before Flop
+Seat 4: Yakimchik117 (big blind) collected (52)
+
+PokerStars Hand #192956490696: Tournament #2447908112, $24.02+$24.02+$1.96 USD Hold'em No Limit - Level III (20/40) - 2018/11/04 22:21:09 MSK [2018/11/04 14:21:09 ET]
+Table '2447908112 1' 6-max Seat #3 is the button
+Seat 1: Mailo2001 (988 in chips)
+Seat 3: DiggErr555 (1069 in chips)
+Seat 4: Yakimchik117 (943 in chips)
+Mailo2001: posts the ante 4
+DiggErr555: posts the ante 4
+Yakimchik117: posts the ante 4
+Yakimchik117: posts small blind 20
+Mailo2001: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Td 8c]
+DiggErr555: folds
+Yakimchik117: folds
+Uncalled bet (20) returned to Mailo2001
+Mailo2001 collected 52 from pot
+Mailo2001: doesn't show hand
+*** SUMMARY ***
+Total pot 52 | Rake 0
+Seat 1: Mailo2001 (big blind) collected (52)
+Seat 3: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 4: Yakimchik117 (small blind) folded before Flop
+
+PokerStars Hand #192956496638: Tournament #2447908112, $24.02+$24.02+$1.96 USD Hold'em No Limit - Level III (20/40) - 2018/11/04 22:21:16 MSK [2018/11/04 14:21:16 ET]
+Table '2447908112 1' 6-max Seat #4 is the button
+Seat 1: Mailo2001 (1016 in chips)
+Seat 3: DiggErr555 (1065 in chips)
+Seat 4: Yakimchik117 (919 in chips)
+Mailo2001: posts the ante 4
+DiggErr555: posts the ante 4
+Yakimchik117: posts the ante 4
+Mailo2001: posts small blind 20
+DiggErr555: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [8c 8h]
+Yakimchik117: folds
+Mailo2001: folds
+Uncalled bet (20) returned to DiggErr555
+DiggErr555 collected 52 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 52 | Rake 0
+Seat 1: Mailo2001 (small blind) folded before Flop
+Seat 3: DiggErr555 (big blind) collected (52)
+Seat 4: Yakimchik117 (button) folded before Flop (didn't bet)
+
+PokerStars Hand #192956504094: Tournament #2447908112, $24.02+$24.02+$1.96 USD Hold'em No Limit - Level IV (30/60) - 2018/11/04 22:21:25 MSK [2018/11/04 14:21:25 ET]
+Table '2447908112 1' 6-max Seat #1 is the button
+Seat 1: Mailo2001 (992 in chips)
+Seat 3: DiggErr555 (1093 in chips)
+Seat 4: Yakimchik117 (915 in chips)
+Mailo2001: posts the ante 6
+DiggErr555: posts the ante 6
+Yakimchik117: posts the ante 6
+DiggErr555: posts small blind 30
+Yakimchik117: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [3c 7d]
+Mailo2001: folds
+DiggErr555: folds
+Uncalled bet (30) returned to Yakimchik117
+Yakimchik117 collected 78 from pot
+*** SUMMARY ***
+Total pot 78 | Rake 0
+Seat 1: Mailo2001 (button) folded before Flop (didn't bet)
+Seat 3: DiggErr555 (small blind) folded before Flop
+Seat 4: Yakimchik117 (big blind) collected (78)
+
+PokerStars Hand #192956510821: Tournament #2447908112, $24.02+$24.02+$1.96 USD Hold'em No Limit - Level IV (30/60) - 2018/11/04 22:21:33 MSK [2018/11/04 14:21:33 ET]
+Table '2447908112 1' 6-max Seat #3 is the button
+Seat 1: Mailo2001 (986 in chips)
+Seat 3: DiggErr555 (1057 in chips)
+Seat 4: Yakimchik117 (957 in chips)
+Mailo2001: posts the ante 6
+DiggErr555: posts the ante 6
+Yakimchik117: posts the ante 6
+Yakimchik117: posts small blind 30
+Mailo2001: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [2d Ac]
+DiggErr555: raises 60 to 120
+Yakimchik117: calls 90
+Mailo2001: folds
+*** FLOP *** [3h Qs 9s]
+Yakimchik117: checks
+DiggErr555: checks
+*** TURN *** [3h Qs 9s] [Td]
+Yakimchik117: bets 180
+DiggErr555: folds
+Uncalled bet (180) returned to Yakimchik117
+Yakimchik117 collected 318 from pot
+*** SUMMARY ***
+Total pot 318 | Rake 0
+Board [3h Qs 9s Td]
+Seat 1: Mailo2001 (big blind) folded before Flop
+Seat 3: DiggErr555 (button) folded on the Turn
+Seat 4: Yakimchik117 (small blind) collected (318)
+
+PokerStars Hand #192956539914: Tournament #2447908112, $24.02+$24.02+$1.96 USD Hold'em No Limit - Level IV (30/60) - 2018/11/04 22:22:08 MSK [2018/11/04 14:22:08 ET]
+Table '2447908112 1' 6-max Seat #4 is the button
+Seat 1: Mailo2001 (920 in chips)
+Seat 3: DiggErr555 (931 in chips)
+Seat 4: Yakimchik117 (1149 in chips)
+Mailo2001: posts the ante 6
+DiggErr555: posts the ante 6
+Yakimchik117: posts the ante 6
+Mailo2001: posts small blind 30
+DiggErr555: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Js 2h]
+Yakimchik117: folds
+Mailo2001: folds
+Uncalled bet (30) returned to DiggErr555
+DiggErr555 collected 78 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 78 | Rake 0
+Seat 1: Mailo2001 (small blind) folded before Flop
+Seat 3: DiggErr555 (big blind) collected (78)
+Seat 4: Yakimchik117 (button) folded before Flop (didn't bet)
+
+PokerStars Hand #192956547475: Tournament #2447908112, $24.02+$24.02+$1.96 USD Hold'em No Limit - Level IV (30/60) - 2018/11/04 22:22:17 MSK [2018/11/04 14:22:17 ET]
+Table '2447908112 1' 6-max Seat #1 is the button
+Seat 1: Mailo2001 (884 in chips)
+Seat 3: DiggErr555 (973 in chips)
+Seat 4: Yakimchik117 (1143 in chips)
+Mailo2001: posts the ante 6
+DiggErr555: posts the ante 6
+Yakimchik117: posts the ante 6
+DiggErr555: posts small blind 30
+Yakimchik117: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Th As]
+Mailo2001: raises 60 to 120
+DiggErr555: folds
+Yakimchik117: folds
+Uncalled bet (60) returned to Mailo2001
+Mailo2001 collected 168 from pot
+Mailo2001: doesn't show hand
+*** SUMMARY ***
+Total pot 168 | Rake 0
+Seat 1: Mailo2001 (button) collected (168)
+Seat 3: DiggErr555 (small blind) folded before Flop
+Seat 4: Yakimchik117 (big blind) folded before Flop
+
+PokerStars Hand #192956558968: Tournament #2447908112, $24.02+$24.02+$1.96 USD Hold'em No Limit - Level IV (30/60) - 2018/11/04 22:22:30 MSK [2018/11/04 14:22:30 ET]
+Table '2447908112 1' 6-max Seat #3 is the button
+Seat 1: Mailo2001 (986 in chips)
+Seat 3: DiggErr555 (937 in chips)
+Seat 4: Yakimchik117 (1077 in chips)
+Mailo2001: posts the ante 6
+DiggErr555: posts the ante 6
+Yakimchik117: posts the ante 6
+Yakimchik117: posts small blind 30
+Mailo2001: posts big blind 60
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Qs 5d]
+DiggErr555: folds
+Yakimchik117: raises 60 to 120
+Mailo2001: calls 60
+*** FLOP *** [Js 7c Th]
+Yakimchik117: checks
+Mailo2001: checks
+*** TURN *** [Js 7c Th] [4c]
+Yakimchik117: bets 120
+Mailo2001: calls 120
+*** RIVER *** [Js 7c Th 4c] [Ks]
+Yakimchik117: bets 480
+Mailo2001: folds
+Uncalled bet (480) returned to Yakimchik117
+Yakimchik117 collected 498 from pot
+*** SUMMARY ***
+Total pot 498 | Rake 0
+Board [Js 7c Th 4c Ks]
+Seat 1: Mailo2001 (big blind) folded on the River
+Seat 3: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 4: Yakimchik117 (small blind) collected (498)
+
+PokerStars Hand #192956590437: Tournament #2447908112, $24.02+$24.02+$1.96 USD Hold'em No Limit - Level V (40/80) - 2018/11/04 22:23:07 MSK [2018/11/04 14:23:07 ET]
+Table '2447908112 1' 6-max Seat #4 is the button
+Seat 1: Mailo2001 (740 in chips)
+Seat 3: DiggErr555 (931 in chips)
+Seat 4: Yakimchik117 (1329 in chips)
+Mailo2001: posts the ante 8
+DiggErr555: posts the ante 8
+Yakimchik117: posts the ante 8
+Mailo2001: posts small blind 40
+DiggErr555: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [4d 5h]
+Yakimchik117: raises 80 to 160
+Mailo2001: folds
+DiggErr555: folds
+Uncalled bet (80) returned to Yakimchik117
+Yakimchik117 collected 224 from pot
+*** SUMMARY ***
+Total pot 224 | Rake 0
+Seat 1: Mailo2001 (small blind) folded before Flop
+Seat 3: DiggErr555 (big blind) folded before Flop
+Seat 4: Yakimchik117 (button) collected (224)
+
+PokerStars Hand #192956600815: Tournament #2447908112, $24.02+$24.02+$1.96 USD Hold'em No Limit - Level V (40/80) - 2018/11/04 22:23:20 MSK [2018/11/04 14:23:20 ET]
+Table '2447908112 1' 6-max Seat #1 is the button
+Seat 1: Mailo2001 (692 in chips)
+Seat 3: DiggErr555 (843 in chips)
+Seat 4: Yakimchik117 (1465 in chips)
+Mailo2001: posts the ante 8
+DiggErr555: posts the ante 8
+Yakimchik117: posts the ante 8
+DiggErr555: posts small blind 40
+Yakimchik117: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [As Qs]
+Mailo2001: raises 604 to 684 and is all-in
+DiggErr555: raises 151 to 835 and is all-in
+Yakimchik117: folds
+Uncalled bet (151) returned to DiggErr555
+*** FLOP *** [7s 9s Ac]
+*** TURN *** [7s 9s Ac] [Jd]
+*** RIVER *** [7s 9s Ac Jd] [3h]
+*** SHOW DOWN ***
+DiggErr555: shows [As Qs] (a pair of Aces)
+Mailo2001: shows [Ad Jc] (two pair, Aces and Jacks)
+Mailo2001 collected 1472 from pot
+*** SUMMARY ***
+Total pot 1472 | Rake 0
+Board [7s 9s Ac Jd 3h]
+Seat 1: Mailo2001 (button) showed [Ad Jc] and won (1472) with two pair, Aces and Jacks
+Seat 3: DiggErr555 (small blind) showed [As Qs] and lost with a pair of Aces
+Seat 4: Yakimchik117 (big blind) folded before Flop
+
+PokerStars Hand #192956615068: Tournament #2447908112, $24.02+$24.02+$1.96 USD Hold'em No Limit - Level V (40/80) - 2018/11/04 22:23:37 MSK [2018/11/04 14:23:37 ET]
+Table '2447908112 1' 6-max Seat #3 is the button
+Seat 1: Mailo2001 (1472 in chips)
+Seat 3: DiggErr555 (151 in chips)
+Seat 4: Yakimchik117 (1377 in chips)
+Mailo2001: posts the ante 8
+DiggErr555: posts the ante 8
+Yakimchik117: posts the ante 8
+Yakimchik117: posts small blind 40
+Mailo2001: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [3h Qd]
+DiggErr555: folds
+Yakimchik117: raises 160 to 240
+Mailo2001: folds
+Uncalled bet (160) returned to Yakimchik117
+Yakimchik117 collected 184 from pot
+*** SUMMARY ***
+Total pot 184 | Rake 0
+Seat 1: Mailo2001 (big blind) folded before Flop
+Seat 3: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 4: Yakimchik117 (small blind) collected (184)
+
+PokerStars Hand #192956629741: Tournament #2447908112, $24.02+$24.02+$1.96 USD Hold'em No Limit - Level V (40/80) - 2018/11/04 22:23:54 MSK [2018/11/04 14:23:54 ET]
+Table '2447908112 1' 6-max Seat #4 is the button
+Seat 1: Mailo2001 (1384 in chips)
+Seat 3: DiggErr555 (143 in chips)
+Seat 4: Yakimchik117 (1473 in chips)
+Mailo2001: posts the ante 8
+DiggErr555: posts the ante 8
+Yakimchik117: posts the ante 8
+Mailo2001: posts small blind 40
+DiggErr555: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Td 3d]
+Yakimchik117: raises 1385 to 1465 and is all-in
+Mailo2001: folds
+DiggErr555: calls 55 and is all-in
+Uncalled bet (1330) returned to Yakimchik117
+*** FLOP *** [8s Jd 9d]
+*** TURN *** [8s Jd 9d] [7h]
+*** RIVER *** [8s Jd 9d 7h] [5d]
+*** SHOW DOWN ***
+DiggErr555: shows [Td 3d] (a flush, Jack high)
+Yakimchik117: shows [Qd Jc] (a pair of Jacks)
+DiggErr555 collected 334 from pot
+*** SUMMARY ***
+Total pot 334 | Rake 0
+Board [8s Jd 9d 7h 5d]
+Seat 1: Mailo2001 (small blind) folded before Flop
+Seat 3: DiggErr555 (big blind) showed [Td 3d] and won (334) with a flush, Jack high
+Seat 4: Yakimchik117 (button) showed [Qd Jc] and lost with a pair of Jacks
+
+PokerStars Hand #192956645955: Tournament #2447908112, $24.02+$24.02+$1.96 USD Hold'em No Limit - Level V (40/80) - 2018/11/04 22:24:13 MSK [2018/11/04 14:24:13 ET]
+Table '2447908112 1' 6-max Seat #1 is the button
+Seat 1: Mailo2001 (1336 in chips)
+Seat 3: DiggErr555 (334 in chips)
+Seat 4: Yakimchik117 (1330 in chips)
+Mailo2001: posts the ante 8
+DiggErr555: posts the ante 8
+Yakimchik117: posts the ante 8
+DiggErr555: posts small blind 40
+Yakimchik117: posts big blind 80
+*** HOLE CARDS ***
+Dealt to DiggErr555 [8h 9h]
+Mailo2001: raises 1248 to 1328 and is all-in
+DiggErr555: folds
+Yakimchik117: folds
+Uncalled bet (1248) returned to Mailo2001
+Mailo2001 collected 224 from pot
+Mailo2001: doesn't show hand
+*** SUMMARY ***
+Total pot 224 | Rake 0
+Seat 1: Mailo2001 (button) collected (224)
+Seat 3: DiggErr555 (small blind) folded before Flop
+Seat 4: Yakimchik117 (big blind) folded before Flop
+
+PokerStars Hand #192956656978: Tournament #2447908112, $24.02+$24.02+$1.96 USD Hold'em No Limit - Level VI (50/100) - 2018/11/04 22:24:26 MSK [2018/11/04 14:24:26 ET]
+Table '2447908112 1' 6-max Seat #3 is the button
+Seat 1: Mailo2001 (1472 in chips)
+Seat 3: DiggErr555 (286 in chips)
+Seat 4: Yakimchik117 (1242 in chips)
+Mailo2001: posts the ante 10
+DiggErr555: posts the ante 10
+Yakimchik117: posts the ante 10
+Yakimchik117: posts small blind 50
+Mailo2001: posts big blind 100
+*** HOLE CARDS ***
+Dealt to DiggErr555 [4s Ks]
+DiggErr555: folds
+Yakimchik117: raises 100 to 200
+Mailo2001: folds
+Uncalled bet (100) returned to Yakimchik117
+Yakimchik117 collected 230 from pot
+*** SUMMARY ***
+Total pot 230 | Rake 0
+Seat 1: Mailo2001 (big blind) folded before Flop
+Seat 3: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 4: Yakimchik117 (small blind) collected (230)
+
+PokerStars Hand #192956666753: Tournament #2447908112, $24.02+$24.02+$1.96 USD Hold'em No Limit - Level VI (50/100) - 2018/11/04 22:24:37 MSK [2018/11/04 14:24:37 ET]
+Table '2447908112 1' 6-max Seat #4 is the button
+Seat 1: Mailo2001 (1362 in chips)
+Seat 3: DiggErr555 (276 in chips)
+Seat 4: Yakimchik117 (1362 in chips)
+Mailo2001: posts the ante 10
+DiggErr555: posts the ante 10
+Yakimchik117: posts the ante 10
+Mailo2001: posts small blind 50
+DiggErr555: posts big blind 100
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Qs Qd]
+Yakimchik117: raises 100 to 200
+Mailo2001: folds
+DiggErr555: raises 66 to 266 and is all-in
+Yakimchik117: calls 66
+*** FLOP *** [Td Jh 6d]
+*** TURN *** [Td Jh 6d] [7c]
+*** RIVER *** [Td Jh 6d 7c] [Ah]
+*** SHOW DOWN ***
+DiggErr555: shows [Qs Qd] (a pair of Queens)
+Yakimchik117: shows [5c 5s] (a pair of Fives)
+DiggErr555 collected 612 from pot
+*** SUMMARY ***
+Total pot 612 | Rake 0
+Board [Td Jh 6d 7c Ah]
+Seat 1: Mailo2001 (small blind) folded before Flop
+Seat 3: DiggErr555 (big blind) showed [Qs Qd] and won (612) with a pair of Queens
+Seat 4: Yakimchik117 (button) showed [5c 5s] and lost with a pair of Fives
+
+PokerStars Hand #192956680789: Tournament #2447908112, $24.02+$24.02+$1.96 USD Hold'em No Limit - Level VI (50/100) - 2018/11/04 22:24:54 MSK [2018/11/04 14:24:54 ET]
+Table '2447908112 1' 6-max Seat #1 is the button
+Seat 1: Mailo2001 (1302 in chips)
+Seat 3: DiggErr555 (612 in chips)
+Seat 4: Yakimchik117 (1086 in chips)
+Mailo2001: posts the ante 10
+DiggErr555: posts the ante 10
+Yakimchik117: posts the ante 10
+DiggErr555: posts small blind 50
+Yakimchik117: posts big blind 100
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Js 2d]
+Mailo2001: raises 1192 to 1292 and is all-in
+DiggErr555: folds
+Yakimchik117: folds
+Uncalled bet (1192) returned to Mailo2001
+Mailo2001 collected 280 from pot
+Mailo2001: doesn't show hand
+*** SUMMARY ***
+Total pot 280 | Rake 0
+Seat 1: Mailo2001 (button) collected (280)
+Seat 3: DiggErr555 (small blind) folded before Flop
+Seat 4: Yakimchik117 (big blind) folded before Flop
+
+PokerStars Hand #192956688486: Tournament #2447908112, $24.02+$24.02+$1.96 USD Hold'em No Limit - Level VI (50/100) - 2018/11/04 22:25:03 MSK [2018/11/04 14:25:03 ET]
+Table '2447908112 1' 6-max Seat #3 is the button
+Seat 1: Mailo2001 (1472 in chips)
+Seat 3: DiggErr555 (552 in chips)
+Seat 4: Yakimchik117 (976 in chips)
+Mailo2001: posts the ante 10
+DiggErr555: posts the ante 10
+Yakimchik117: posts the ante 10
+Yakimchik117: posts small blind 50
+Mailo2001: posts big blind 100
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Kc 7c]
+DiggErr555: folds
+Yakimchik117: raises 100 to 200
+Mailo2001: folds
+Uncalled bet (100) returned to Yakimchik117
+Yakimchik117 collected 230 from pot
+*** SUMMARY ***
+Total pot 230 | Rake 0
+Seat 1: Mailo2001 (big blind) folded before Flop
+Seat 3: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 4: Yakimchik117 (small blind) collected (230)
+
+PokerStars Hand #192956699103: Tournament #2447908112, $24.02+$24.02+$1.96 USD Hold'em No Limit - Level VI (50/100) - 2018/11/04 22:25:16 MSK [2018/11/04 14:25:16 ET]
+Table '2447908112 1' 6-max Seat #4 is the button
+Seat 1: Mailo2001 (1362 in chips)
+Seat 3: DiggErr555 (542 in chips)
+Seat 4: Yakimchik117 (1096 in chips)
+Mailo2001: posts the ante 10
+DiggErr555: posts the ante 10
+Yakimchik117: posts the ante 10
+Mailo2001: posts small blind 50
+DiggErr555: posts big blind 100
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Qh Jh]
+Yakimchik117: folds
+Mailo2001: raises 1252 to 1352 and is all-in
+DiggErr555: calls 432 and is all-in
+Uncalled bet (820) returned to Mailo2001
+*** FLOP *** [Js 7d 7h]
+*** TURN *** [Js 7d 7h] [Tc]
+*** RIVER *** [Js 7d 7h Tc] [9d]
+*** SHOW DOWN ***
+Mailo2001: shows [Kd 9s] (two pair, Nines and Sevens)
+DiggErr555: shows [Qh Jh] (two pair, Jacks and Sevens)
+DiggErr555 collected 1094 from pot
+*** SUMMARY ***
+Total pot 1094 | Rake 0
+Board [Js 7d 7h Tc 9d]
+Seat 1: Mailo2001 (small blind) showed [Kd 9s] and lost with two pair, Nines and Sevens
+Seat 3: DiggErr555 (big blind) showed [Qh Jh] and won (1094) with two pair, Jacks and Sevens
+Seat 4: Yakimchik117 (button) folded before Flop (didn't bet)
+
+PokerStars Hand #192956712815: Tournament #2447908112, $24.02+$24.02+$1.96 USD Hold'em No Limit - Level VI (50/100) - 2018/11/04 22:25:32 MSK [2018/11/04 14:25:32 ET]
+Table '2447908112 1' 6-max Seat #1 is the button
+Seat 1: Mailo2001 (820 in chips)
+Seat 3: DiggErr555 (1094 in chips)
+Seat 4: Yakimchik117 (1086 in chips)
+Mailo2001: posts the ante 10
+DiggErr555: posts the ante 10
+Yakimchik117: posts the ante 10
+DiggErr555: posts small blind 50
+Yakimchik117: posts big blind 100
+*** HOLE CARDS ***
+Dealt to DiggErr555 [8h Tc]
+Mailo2001: folds
+DiggErr555: raises 984 to 1084 and is all-in
+Yakimchik117: folds
+Uncalled bet (984) returned to DiggErr555
+DiggErr555 collected 230 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 230 | Rake 0
+Seat 1: Mailo2001 (button) folded before Flop (didn't bet)
+Seat 3: DiggErr555 (small blind) collected (230)
+Seat 4: Yakimchik117 (big blind) folded before Flop
+
+PokerStars Hand #192956732759: Tournament #2447908112, $24.02+$24.02+$1.96 USD Hold'em No Limit - Level VII (60/120) - 2018/11/04 22:25:55 MSK [2018/11/04 14:25:55 ET]
+Table '2447908112 1' 6-max Seat #3 is the button
+Seat 1: Mailo2001 (810 in chips)
+Seat 3: DiggErr555 (1214 in chips)
+Seat 4: Yakimchik117 (976 in chips)
+Mailo2001: posts the ante 12
+DiggErr555: posts the ante 12
+Yakimchik117: posts the ante 12
+Yakimchik117: posts small blind 60
+Mailo2001: posts big blind 120
+*** HOLE CARDS ***
+Dealt to DiggErr555 [6c 3d]
+DiggErr555: folds
+Yakimchik117: folds
+Uncalled bet (60) returned to Mailo2001
+Mailo2001 collected 156 from pot
+Mailo2001: doesn't show hand
+*** SUMMARY ***
+Total pot 156 | Rake 0
+Seat 1: Mailo2001 (big blind) collected (156)
+Seat 3: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 4: Yakimchik117 (small blind) folded before Flop
+
+PokerStars Hand #192956736774: Tournament #2447908112, $24.02+$24.02+$1.96 USD Hold'em No Limit - Level VII (60/120) - 2018/11/04 22:26:00 MSK [2018/11/04 14:26:00 ET]
+Table '2447908112 1' 6-max Seat #4 is the button
+Seat 1: Mailo2001 (894 in chips)
+Seat 3: DiggErr555 (1202 in chips)
+Seat 4: Yakimchik117 (904 in chips)
+Mailo2001: posts the ante 12
+DiggErr555: posts the ante 12
+Yakimchik117: posts the ante 12
+Mailo2001: posts small blind 60
+DiggErr555: posts big blind 120
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Kh 6d]
+Yakimchik117: folds
+Mailo2001: raises 762 to 882 and is all-in
+DiggErr555: calls 762
+*** FLOP *** [5c Jc Qh]
+*** TURN *** [5c Jc Qh] [7s]
+*** RIVER *** [5c Jc Qh 7s] [9c]
+*** SHOW DOWN ***
+Mailo2001: shows [Js Td] (a pair of Jacks)
+DiggErr555: shows [Kh 6d] (high card King)
+Mailo2001 collected 1800 from pot
+*** SUMMARY ***
+Total pot 1800 | Rake 0
+Board [5c Jc Qh 7s 9c]
+Seat 1: Mailo2001 (small blind) showed [Js Td] and won (1800) with a pair of Jacks
+Seat 3: DiggErr555 (big blind) showed [Kh 6d] and lost with high card King
+Seat 4: Yakimchik117 (button) folded before Flop (didn't bet)
+
+PokerStars Hand #192956750264: Tournament #2447908112, $24.02+$24.02+$1.96 USD Hold'em No Limit - Level VII (60/120) - 2018/11/04 22:26:16 MSK [2018/11/04 14:26:16 ET]
+Table '2447908112 1' 6-max Seat #1 is the button
+Seat 1: Mailo2001 (1800 in chips)
+Seat 3: DiggErr555 (308 in chips)
+Seat 4: Yakimchik117 (892 in chips)
+Mailo2001: posts the ante 12
+DiggErr555: posts the ante 12
+Yakimchik117: posts the ante 12
+DiggErr555: posts small blind 60
+Yakimchik117: posts big blind 120
+*** HOLE CARDS ***
+Dealt to DiggErr555 [4c Qs]
+Mailo2001: folds
+DiggErr555: raises 176 to 296 and is all-in
+Yakimchik117: calls 176
+*** FLOP *** [Td Jh Tc]
+*** TURN *** [Td Jh Tc] [Qc]
+*** RIVER *** [Td Jh Tc Qc] [8d]
+*** SHOW DOWN ***
+DiggErr555: shows [4c Qs] (two pair, Queens and Tens)
+Yakimchik117: shows [3c 8s] (two pair, Tens and Eights)
+DiggErr555 collected 628 from pot
+*** SUMMARY ***
+Total pot 628 | Rake 0
+Board [Td Jh Tc Qc 8d]
+Seat 1: Mailo2001 (button) folded before Flop (didn't bet)
+Seat 3: DiggErr555 (small blind) showed [4c Qs] and won (628) with two pair, Queens and Tens
+Seat 4: Yakimchik117 (big blind) showed [3c 8s] and lost with two pair, Tens and Eights
+
+PokerStars Hand #192956763375: Tournament #2447908112, $24.02+$24.02+$1.96 USD Hold'em No Limit - Level VII (60/120) - 2018/11/04 22:26:31 MSK [2018/11/04 14:26:31 ET]
+Table '2447908112 1' 6-max Seat #3 is the button
+Seat 1: Mailo2001 (1788 in chips)
+Seat 3: DiggErr555 (628 in chips)
+Seat 4: Yakimchik117 (584 in chips)
+Mailo2001: posts the ante 12
+DiggErr555: posts the ante 12
+Yakimchik117: posts the ante 12
+Yakimchik117: posts small blind 60
+Mailo2001: posts big blind 120
+*** HOLE CARDS ***
+Dealt to DiggErr555 [7s 4d]
+DiggErr555: folds
+Yakimchik117: raises 452 to 572 and is all-in
+Mailo2001: calls 452
+*** FLOP *** [6h 3h 3d]
+*** TURN *** [6h 3h 3d] [Ad]
+*** RIVER *** [6h 3h 3d Ad] [9d]
+*** SHOW DOWN ***
+Yakimchik117: shows [Ac 9h] (two pair, Aces and Nines)
+Mailo2001: shows [4s Ks] (a pair of Threes)
+Yakimchik117 collected 1180 from pot
+*** SUMMARY ***
+Total pot 1180 | Rake 0
+Board [6h 3h 3d Ad 9d]
+Seat 1: Mailo2001 (big blind) showed [4s Ks] and lost with a pair of Threes
+Seat 3: DiggErr555 (button) folded before Flop (didn't bet)
+Seat 4: Yakimchik117 (small blind) showed [Ac 9h] and won (1180) with two pair, Aces and Nines
+
+PokerStars Hand #192956776597: Tournament #2447908112, $24.02+$24.02+$1.96 USD Hold'em No Limit - Level VII (60/120) - 2018/11/04 22:26:47 MSK [2018/11/04 14:26:47 ET]
+Table '2447908112 1' 6-max Seat #4 is the button
+Seat 1: Mailo2001 (1204 in chips)
+Seat 3: DiggErr555 (616 in chips)
+Seat 4: Yakimchik117 (1180 in chips)
+Mailo2001: posts the ante 12
+DiggErr555: posts the ante 12
+Yakimchik117: posts the ante 12
+Mailo2001: posts small blind 60
+DiggErr555: posts big blind 120
+*** HOLE CARDS ***
+Dealt to DiggErr555 [2h 9d]
+Yakimchik117: folds
+Mailo2001: raises 1072 to 1192 and is all-in
+DiggErr555: folds
+Uncalled bet (1072) returned to Mailo2001
+Mailo2001 collected 276 from pot
+Mailo2001: doesn't show hand
+*** SUMMARY ***
+Total pot 276 | Rake 0
+Seat 1: Mailo2001 (small blind) collected (276)
+Seat 3: DiggErr555 (big blind) folded before Flop
+Seat 4: Yakimchik117 (button) folded before Flop (didn't bet)
+
+PokerStars Hand #192956783607: Tournament #2447908112, $24.02+$24.02+$1.96 USD Hold'em No Limit - Level VII (60/120) - 2018/11/04 22:26:56 MSK [2018/11/04 14:26:56 ET]
+Table '2447908112 1' 6-max Seat #1 is the button
+Seat 1: Mailo2001 (1348 in chips)
+Seat 3: DiggErr555 (484 in chips)
+Seat 4: Yakimchik117 (1168 in chips)
+Mailo2001: posts the ante 12
+DiggErr555: posts the ante 12
+Yakimchik117: posts the ante 12
+DiggErr555: posts small blind 60
+Yakimchik117: posts big blind 120
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Kd Ks]
+Mailo2001: raises 1216 to 1336 and is all-in
+DiggErr555: calls 412 and is all-in
+Yakimchik117: calls 1036 and is all-in
+Uncalled bet (180) returned to Mailo2001
+*** FLOP *** [4c 2d Tc]
+*** TURN *** [4c 2d Tc] [Qd]
+*** RIVER *** [4c 2d Tc Qd] [7d]
+*** SHOW DOWN ***
+Yakimchik117: shows [Jh 8h] (high card Queen)
+Mailo2001: shows [3h Qc] (a pair of Queens)
+Mailo2001 collected 1368 from side pot
+DiggErr555: shows [Kd Ks] (a pair of Kings)
+DiggErr555 collected 1452 from main pot
+Mailo2001 wins the $24.02 bounty for eliminating Yakimchik117
+Yakimchik117 finished the tournament in 3rd place
+*** SUMMARY ***
+Total pot 2820 Main pot 1452. Side pot 1368. | Rake 0
+Board [4c 2d Tc Qd 7d]
+Seat 1: Mailo2001 (button) showed [3h Qc] and won (1368) with a pair of Queens
+Seat 3: DiggErr555 (small blind) showed [Kd Ks] and won (1452) with a pair of Kings
+Seat 4: Yakimchik117 (big blind) showed [Jh 8h] and lost with high card Queen
+
+PokerStars Hand #192956801526: Tournament #2447908112, $24.02+$24.02+$1.96 USD Hold'em No Limit - Level VIII (75/150) - 2018/11/04 22:27:17 MSK [2018/11/04 14:27:17 ET]
+Table '2447908112 1' 6-max Seat #3 is the button
+Seat 1: Mailo2001 (1548 in chips)
+Seat 3: DiggErr555 (1452 in chips)
+Mailo2001: posts the ante 15
+DiggErr555: posts the ante 15
+DiggErr555: posts small blind 75
+Mailo2001: posts big blind 150
+*** HOLE CARDS ***
+Dealt to DiggErr555 [3s 6s]
+DiggErr555: raises 1287 to 1437 and is all-in
+Mailo2001: calls 1287
+*** FLOP *** [9c Qs Tc]
+*** TURN *** [9c Qs Tc] [5c]
+*** RIVER *** [9c Qs Tc 5c] [9d]
+*** SHOW DOWN ***
+Mailo2001: shows [6c Ks] (a pair of Nines)
+DiggErr555: shows [3s 6s] (a pair of Nines - lower kicker)
+Mailo2001 collected 2904 from pot
+*** SUMMARY ***
+Total pot 2904 | Rake 0
+Board [9c Qs Tc 5c 9d]
+Seat 1: Mailo2001 (big blind) showed [6c Ks] and won (2904) with a pair of Nines
+Seat 3: DiggErr555 (button) (small blind) showed [3s 6s] and lost with a pair of Nines

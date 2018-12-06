@@ -7,6 +7,7 @@ Created on Fri Jul 13 00:33:55 2018
 import glob
 import os
 import psycopg2
+from datetime import datetime
 
 
 class HandStoragePgsql():
@@ -17,7 +18,10 @@ class HandStoragePgsql():
         except:
             raise psycopg2.Error('Connection error')
 
-    def read_hand(self, date):
+    def read_hand(self, start_date=datetime(2000, 1, 1), end_date=None):
+
+        if end_date is None:
+            end_date = datetime.today()
         if self.conn:
             with self.conn.cursor() as cur:
                 cur.execute("SELECT hh_id, "
@@ -25,7 +29,7 @@ class HandStoragePgsql():
                             "room_id, "
                             "gamenumber, "
                             "hh FROM handhistory "
-                            f"WHERE date_played > '{date}'")
+                            f"WHERE date_played BETWEEN '{start_date}' AND '{end_date}'")
                 for record in cur:
                     yield record[4]
 
@@ -42,37 +46,37 @@ class HandStoragePgsql():
 
 
 class HandStorage(object):
-    
     def __init__(self, path=''):
-        
         if path:
             if not os.path.exists(path):
                 raise IOError
-        
             self.path = path
         else: 
             self.path = os.getcwd()
 
     def read_hand(self):
-
         fi = glob.glob(f'{self.path}/**/*.txt', recursive=True)
-  
         for file in fi:
-
             with open(file, encoding='utf-8') as f:
-
                 try:
-                    
                     s = f.read()
                     s = s.split('\n\n')
                     for ss in s:
                         if ss == '\n\n' or ss==None or ss == '':
                             continue
                         yield ss
-                        
                 except:
                     continue
-        
+
+    def read_summary(self, tid):
+        fi = glob.glob(f'{self.path}/**/TS{tid}.txt', recursive=True)
+        for file in fi:
+            with open(file, encoding='utf-8') as f:
+                try:
+                    return f.read()
+                except:
+                    continue
+
         
                 
     

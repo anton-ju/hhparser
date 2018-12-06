@@ -26,6 +26,7 @@ class cached_property(object):
         result = instance.__dict__[self.func.__name__] = self.func(instance)
         return result
 
+
 class Actions(enumerate):
     pass
 
@@ -211,11 +212,11 @@ class HHParser(HandHistoryParser):
 
         self.PRIZE = np.array([0.50, 0.50])
 
-        tupples = re.findall(regex, self.hand_history)
+        tuples = re.findall(regex, self.hand_history)
 
-        self.players = [x[0] for x in tupples]
-        self._stacks_list = [float(x[1].replace(",", "")) for x in tupples]
-        self._stacks = {x[0]: float(x[1].replace(",", "")) for x in tupples}
+        self.players = [x[0] for x in tuples]
+        self._stacks_list = [float(x[1].replace(",", "")) for x in tuples]
+        self._stacks = {x[0]: float(x[1].replace(",", "")) for x in tuples}
         #       удаление нулевых стэков
         try:
             self._stacks_list.index(0.0)
@@ -245,10 +246,6 @@ class HHParser(HandHistoryParser):
         if res:
             self.sb = int(res.groupdict().get('sb', '10'))
             self.bb = int(res.groupdict().get('bb', '20'))
-
-
-
-
 
     def p1p(self, ind, place):
         #       вероятность place го места для игрока ind
@@ -551,10 +548,9 @@ class HHParser(HandHistoryParser):
         dt_str_format = '%Y/%m/%d %H:%M:%S'
         try:
             res = datetime.strptime(res, dt_str_format)
-        except:
+        except ValueError:
             pass
         return res
-
 
     @cached_property
     def p_actions(self):
@@ -789,8 +785,15 @@ class HHParser(HandHistoryParser):
     @cached_property
     def bounty_won(self):
         #   bounty won in hand
+
+        if str.strip(self.showdown_str) == '':
+            # in case if where no showdown
+            search_str = self.preflop_str
+        else:
+            search_str = self.showdown_str
+
         res = self._process_regexp(self.BOUNTY_WON_REGEX,
-                                                   self.showdown_str,
+                                                   search_str,
                                                    type_func=lambda x: float(x),
                                                    **{'player':'bounty'})
         # 1 more bounty for the 1st place
@@ -801,23 +804,34 @@ class HHParser(HandHistoryParser):
 
     @cached_property
     def prize_won(self):
+        if str.strip(self.showdown_str) == '':
+            # in case if where no showdown
+            search_str = self.preflop_str
+        else:
+            search_str = self.showdown_str
+
         return self._process_regexp(self.PRIZE_WON_REGEX,
-                                                  self.showdown_str,
-                                                  type_func=lambda x: float(x),
-                                                  **{'player':'prize'})
+                                    search_str,
+                                    type_func=lambda x: float(x),
+                                    **{'player':'prize'})
 
     @cached_property
     def chip_won(self):
         return self._process_regexp(self.CHIPWON_REGEX,
-                                                 self.showdown_str + self.preflop_str,
-                                                 type_func=lambda x: int(x),
-                                                 reslist=True,
-                                                 **self.CHIPWON_DICT)
+                                    self.showdown_str + self.preflop_str,
+                                    type_func=lambda x: int(x),
+                                    reslist=True,
+                                    **self.CHIPWON_DICT)
 
     @cached_property
     def finishes(self):
+        if str.strip(self.showdown_str) == '':
+            # in case if where no showdown
+            search_str = self.preflop_str
+        else:
+            search_str = self.showdown_str
         res = self._process_regexp(self.FINISHES_REGEX,
-                                                   self.showdown_str,
+                                                search_str,
                                                    type_func=lambda x: int(x),
                                                    **{'player':'place'})
         if res:
