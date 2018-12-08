@@ -2,6 +2,8 @@ from bs4 import BeautifulSoup as bs
 
 
 class HRCParcer():
+    STRATEGY_TABLE_COLUMNS = ('strategy', 'amount', 'player', 'range_pct', 'range_txt', 'ev_ref')
+
     def __init__(self, html):
         self.html_source = html
 
@@ -9,8 +11,6 @@ class HRCParcer():
         self.stacks_table = self.get_stacks_table()
 
         self.strategy_table = self.get_strategy_table()
-
-        self.ev_table = self.get_ev_table('o25-1')
 
     def get_stacks_table(self):
 
@@ -40,17 +40,69 @@ class HRCParcer():
             row.append(ref)
             rows.append(row)
         rows[0] = ['action_1', 'action_2', 'action_3', 'amount', 'player', 'range_pct', 'range_txt', 'ev_ref']
-        return rows
+        result = []
 
-    def get_ev_table(self, ref):
+        def format_table(st):
+            for number, row in enumerate(st):
+                strategy, amount, player, range_pct, range_txt, ev_ref = row
+                if strategy.startswith('--'):
+                    for r in st[number-1::-1]:
+                        s, _, p, _, _, _ = r
+                        if not s.startswith('--'):
+                            player = ','.join([p, player])
+                            break
+                elif strategy.startswith('-'):
+                    for r in st[number-1::-1]:
+                        s, _, p, _, _, _ = r
+                        if not s.startswith('-'):
+                            player = ','.join([p, player])
+                            break
+
+                st[number] = strategy, amount, player, range_pct, range_txt, ev_ref
+
+        def replace_empty(s: str):
+            if len(str.strip(s)) == 0:
+                s = '-'
+
+            return s
+
+        for row in rows:
+            result.append([replace_empty(row[0]) + replace_empty(row[1]) + replace_empty(row[2]),
+                           row[3], row[4], row[5], row[6], row[7]])
+
+        format_table(result)
+
+        result[0] = self.STRATEGY_TABLE_COLUMNS
+        return result
+
+    def get_ev_table_by_ref(self, ref):
         name_attr = ref.replace('o', 'r')
         ev_table = self.hrc_output.find('a', attrs={'name': name_attr}).find_next('table')
 
         rows = []
         for td in ev_table.find_all('td'):
             rows.append((td.text.replace(td.ev.text, '').replace(td.pl.text, ''), td.ev.text, td.pl.text))
-
         return rows
+
+    def get_ref_by_player(self, player: str):
+        """
+        :param player: string player or players e.x. 'player1,player2', 'BU'
+        :return: reference is a string for get_ev_table_by_ref function
+        """
+        for row in self.strategy_table:
+            strategy, amount, players, range_pct, range_txt, ev_ref = row
+            if player == players:
+                return ev_ref
+
+    def get_hand_ev(self, hand, player):
+        ref = self.get_ref_by_player(player)
+        if ref:
+            ev_table = self.get_ev_table_by_ref(ref)
+
+            for row in ev_table:
+                hand_str, ev, pct = row
+                if hand_str == hand:
+                    return ev
 
 
 if __name__ == '__main__':
@@ -60,11 +112,9 @@ if __name__ == '__main__':
             html = f.read()
 
         return html
-    
+
     html = read_html('hrc_output.html')
 
     parser = HRCParcer(html)
-    for r in parser.ev_table:
-        print(r)
-
+    print(parser.get_hand_ev('22', 'TH0090,DiggErr555'))
 
