@@ -1,7 +1,8 @@
 import argparse
 import json
 
-import hhparser, hand_storage
+from parsers import hhparser
+from storage import hand_storage
 import pandas as pd
 from xml.dom import minidom
 import datetime
@@ -97,10 +98,10 @@ def main():
     logging.info('Player notes loaded...')
     hero = config['HERO']
     storage = hand_storage.HandStoragePgsql(dbname='nolim 2.3.0 04-12-2017',
-                                              user='postgres',
-                                              host='127.0.0.1',
-                                              port='5318',
-                                              pwd='')
+                                            user='postgres',
+                                            host='127.0.0.1',
+                                            port='5318',
+                                            pwd='')
 
     # storage = hand_storage.HandStorage('hands/debug')
     results_icm = {}

@@ -4,16 +4,10 @@ Created on Fri Jul 13 01:06:17 2018
 
 @author: user
 """
-import os
-from hand_storage import HandStorage
-import hhparser as hh
-import eval7
-import pokercalc as pc
+from storage.hand_storage import HandStorage
+from parsers import hhparser as hh
+from calc import pokercalc as pc
 import logging
-import numpy as np
-import pandas as pd
-
-
 
 logging.basicConfig(level = logging.INFO)
 logger = logging.getLogger(__name__)

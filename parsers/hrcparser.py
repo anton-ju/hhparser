@@ -114,7 +114,6 @@ if __name__ == '__main__':
         return html
 
     html = read_html('hrc_output.html')
-
     parser = HRCParcer(html)
     print(parser.get_hand_ev('22', 'TH0090,DiggErr555'))
 

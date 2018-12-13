@@ -1,6 +1,6 @@
 import numpy as np
 import itertools
-import hhparser as hh
+from parsers import hhparser as hh
 import eval7
 import logging
 logging.basicConfig(level = logging.DEBUG)

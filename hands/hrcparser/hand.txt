@@ -1,0 +1,36 @@
+PokerStars Hand #194405082729: Tournament #2480613934, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level III (20/40) - 2018/12/13 19:56:21 MSK [2018/12/13 11:56:21 ET]
+Table '2480613934 1' 6-max Seat #3 is the button
+Seat 1: LikeTonyG (418 in chips)
+Seat 2: yaniw777 (624 in chips)
+Seat 3: larubirosa (344 in chips)
+Seat 4: rajs1984 (462 in chips)
+Seat 5: yhterhulryk (626 in chips)
+Seat 6: DiggErr555 (526 in chips)
+LikeTonyG: posts the ante 4
+yaniw777: posts the ante 4
+larubirosa: posts the ante 4
+rajs1984: posts the ante 4
+yhterhulryk: posts the ante 4
+DiggErr555: posts the ante 4
+rajs1984: posts small blind 20
+yhterhulryk: posts big blind 40
+*** HOLE CARDS ***
+Dealt to DiggErr555 [7s As]
+DiggErr555: raises 482 to 522 and is all-in
+LikeTonyG: folds
+yaniw777: folds
+larubirosa: folds
+rajs1984: folds
+yhterhulryk: folds
+Uncalled bet (482) returned to DiggErr555
+DiggErr555 collected 124 from pot
+DiggErr555: doesn't show hand
+*** SUMMARY ***
+Total pot 124 | Rake 0
+Seat 1: LikeTonyG folded before Flop (didn't bet)
+Seat 2: yaniw777 folded before Flop (didn't bet)
+Seat 3: larubirosa (button) folded before Flop (didn't bet)
+Seat 4: rajs1984 (small blind) folded before Flop
+Seat 5: yhterhulryk (big blind) folded before Flop
+Seat 6: DiggErr555 collected (124)
+Seat 6: DiggErr555 collected (124)

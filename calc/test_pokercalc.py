@@ -1,7 +1,6 @@
 import unittest
-import pokercalc
-import hhparser
-from unittest.mock import MagicMock
+from calc import pokercalc
+from parsers import hhparser
 import logging
 import random
 logging.basicConfig(level=logging.DEBUG)
