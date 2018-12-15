@@ -915,12 +915,13 @@ class HHParser(HandHistoryParser):
         if len(cards.split()) != 2:
             raise ValueError(f'Invalid card format: {cards}')
 
-        card1, card2 = sorted(cards.split(), reverse=True)
-        if card1[1] == card2[1]:
-            res = card1[0] + card2[0] + 's'
-        elif card1[0] == card2[0]:
-            res = card1[0] + card2[0]
+        ranks = sorted([card[0] for card in cards.split()], key=lambda x: "23456789TJQKA".index(x), reverse=True)
+        suits = [card[1] for card in cards.split()]
+        if suits[0] == suits[1]:
+            res = ''.join([ranks[0], ranks[1], 's'])
+        elif ranks[0] == ranks[1]:
+            res = ''.join([ranks[0], ranks[1]])
         else:
-            res = card1[0] + card2[0] + 'o'
+            res = ''.join([ranks[0], ranks[1], 'o'])
 
         return res

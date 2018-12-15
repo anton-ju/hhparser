@@ -898,6 +898,18 @@ class TestHHParser(unittest.TestCase):
     def test_r_last_action(self):
         pass
 
+    def test_cards_to_hand(self):
+        hand = HHParser.cards_to_hand('As Qd')
+        self.assertEqual(hand, 'AQo')
+        hand = HHParser.cards_to_hand('2s 2d')
+        self.assertEqual(hand, '22')
+        hand = HHParser.cards_to_hand('Js Qd')
+        self.assertEqual(hand, 'QJo')
+        hand = HHParser.cards_to_hand('5s Qs')
+        self.assertEqual(hand, 'Q5s')
+        hand = HHParser.cards_to_hand('Qs 5c')
+        self.assertEqual(hand, 'Q5o')
+
 
 class TestTournamentSummary(unittest.TestCase):
     def setUp(self):
