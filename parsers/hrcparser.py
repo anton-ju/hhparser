@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup as bs
 
 
-class HRCParcer():
+class HRCParser():
     STRATEGY_TABLE_COLUMNS = ('strategy', 'amount', 'player', 'range_pct', 'range_txt', 'ev_ref')
 
     def __init__(self, html):
@@ -114,6 +114,6 @@ if __name__ == '__main__':
         return html
 
     html = read_html('hrc_output.html')
-    parser = HRCParcer(html)
+    parser = HRCParser(html)
     print(parser.get_hand_ev('22', 'TH0090,DiggErr555'))
 

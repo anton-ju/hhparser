@@ -1,5 +1,5 @@
 from parsers.hhparser import HHParser
-from parsers.hrcparser import HRCParcer
+from parsers.hrcparser import HRCParser
 from storage import hand_storage
 
 hs = hand_storage.HandStorage('hands/hrcparser/')
@@ -15,7 +15,7 @@ for hand_hist in hs.read_hand():
     with open('parsers/hrc_output.html') as f:
         html = f.read()
 
-    parser = HRCParcer(html)
+    parser = HRCParser(html)
     print(hand, players)
     print(parser.get_hand_ev(hand, players))
 
