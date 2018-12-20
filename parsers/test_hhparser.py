@@ -399,6 +399,56 @@ Seat 3: DiggErr555 showed [5c Ah] and won (949) with a pair of Aces
 Seat 5: HardnDeep folded before Flop (didn't bet)
 Seat 6: BoOHP (button) showed [9s Js] and lost with high card Ace"""
 
+debug_hrcparser = """
+PokerStars Hand #194503646299: Tournament #2482800964, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level II (15/30) - 2018/12/16 5:39:05 MSK [2018/12/15 21:39:05 ET]
+Table '2482800964 1' 6-max Seat #6 is the button
+Seat 1: VTL85420 (166 in chips)
+Seat 2: Sam_2four (398 in chips)
+Seat 3: joel 1206 (428 in chips)
+Seat 4: $kill Game (1152 in chips)
+Seat 5: DiggErr555 (453 in chips)
+Seat 6: shortop (403 in chips)
+VTL85420: posts the ante 3
+Sam_2four: posts the ante 3
+joel 1206: posts the ante 3
+$kill Game: posts the ante 3
+DiggErr555: posts the ante 3
+shortop: posts the ante 3
+VTL85420: posts small blind 15
+Sam_2four: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Ad 7d]
+joel 1206: folds
+$kill Game: raises 30 to 60
+DiggErr555: raises 390 to 450 and is all-in
+shortop: folds
+VTL85420: calls 148 and is all-in
+Sam_2four: folds
+$kill Game: calls 390
+*** FLOP *** [2c 4d 6c]
+*** TURN *** [2c 4d 6c] [Qc]
+*** RIVER *** [2c 4d 6c Qc] [3s]
+*** SHOW DOWN ***
+$kill Game: shows [9h Ah] (high card Ace)
+DiggErr555: shows [Ad 7d] (high card Ace - lower kicker)
+$kill Game collected 574 from side pot
+VTL85420: shows [Ks Jd] (high card King)
+$kill Game collected 537 from main pot
+$kill Game wins the $4.79 bounty for eliminating VTL85420
+$kill Game wins the $4.79 bounty for eliminating DiggErr555
+DiggErr555 finished the tournament in 5th place
+VTL85420 finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 1111 Main pot 537. Side pot 574. | Rake 0
+Board [2c 4d 6c Qc 3s]
+Seat 1: VTL85420 (small blind) showed [Ks Jd] and lost with high card King
+Seat 2: Sam_2four (big blind) folded before Flop
+Seat 3: joel 1206 folded before Flop (didn't bet)
+Seat 4: $kill Game showed [9h Ah] and won (1111) with high card Ace
+Seat 5: DiggErr555 showed [Ad 7d] and lost with high card Ace
+Seat 6: shortop (button) folded before Flop (didn't bet)
+"""
+
 
 class TestHHParser(unittest.TestCase):
     def setUp(self):
@@ -413,26 +463,23 @@ class TestHHParser(unittest.TestCase):
         self.case8 = HHParser(th8)
         self.case9 = HHParser(th9)  #2 bounty won case
         self.case10 = HHParser(th10) #3 bounty won case
+        self.case11 = HHParser(debug_hrcparser)
 
     def test_datetime(self):
         hh = self.case0
         dt = hh.datetime
         self.assertEqual(dt, datetime(2018, 2, 11, 20, 32, 33))
         
-
-
     def test_tid(self):
         hh = self.case0
         tid = hh.tid
         self.assertEqual(tid, '2216721390')
-        
         
     def test_hid(self):
         hh = self.case0
         hid = hh.hid
         self.assertEqual(hid, '182384621288')
  
-
     def test_isKnockoutTournament(self):
         hh= self.case2
         flg = hh.flg_knockout()
@@ -446,8 +493,6 @@ class TestHHParser(unittest.TestCase):
         hh = self.case4
         bi = hh.bi
         self.assertEqual(bi, 25)
-        
-        
 
     def test_p_actions(self):
         case = self.case0.p_actions
@@ -460,6 +505,19 @@ class TestHHParser(unittest.TestCase):
             'zaxar393': ['c', 'c'],
         }
         self.assertDictEqual(case, res)
+
+        case = self.case11.p_actions
+        res = {
+            'joel 1206': ['f'],
+            '$kill Game': ['r', 'c'],
+            'DiggErr555': ['r'],
+            'shortop': ['f'],
+            'VTL85420': ['c'],
+            'Sam_2four': ['f']
+        }
+        self.assertDictEqual(case, res)
+        players_list = [k for k, v in case.items() if v != ['f']]
+        print(players_list)
 
     def test_f_actions(self):
         case = self.case4.f_actions
@@ -591,7 +649,6 @@ class TestHHParser(unittest.TestCase):
         PotList = hh.pot_list
         self.assertEqual(PotList, [1542, 120, 1362, 60])
         
-
     def test_hero(self):
         hh = self.case4
         hero = hh.hero
@@ -630,8 +687,6 @@ class TestHHParser(unittest.TestCase):
         knowncards = hh.known_cards
         self.assertEqual(knowncards, {"DiggErr555": "Ad 4h", "sabuco_2110": "Th Qs"})
         
-        
-    
     def test_getFlop(self):
         
         hh = self.case0

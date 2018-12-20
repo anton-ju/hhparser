@@ -36,7 +36,7 @@ class HRCParser():
         for tr, ref in zip(strategy_table[0].find_all('tr'), refs):
             row = []
             for td in tr:
-                row.append(td.text)
+                row.append(str.strip(td.text))
             row.append(ref)
             rows.append(row)
         rows[0] = ['action_1', 'action_2', 'action_3', 'amount', 'player', 'range_pct', 'range_txt', 'ev_ref']
@@ -104,6 +104,15 @@ class HRCParser():
                 if hand_str == hand:
                     return ev
 
+    def get_range(self, player: str):
+        """
+        :param player: string player or players e.x. 'player1,player2', 'BU'
+        :return: tuple (range % , range text)
+        """
+        for row in self.strategy_table:
+            strategy, amount, players, range_pct, range_txt, ev_ref = row
+            if player == players:
+                return ','.join([range_pct, range_txt])
 
 if __name__ == '__main__':
 
