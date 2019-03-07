@@ -1,20 +1,19 @@
 import unittest
 import logging
-from parsers.hrcparser import HRCParser
+from pypokertools.parsers import HRCOutput
 import os
 from datetime import datetime
 logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
-
-class TestHRCParser(unittest.TestCase):
+class TestHRCOutput(unittest.TestCase):
     def setUp(self):
         with open("hrc_output.html") as f:
             html = f.read()
-        self.case1 = HRCParser(html)
+        self.case1 = HRCOutput(html)
         with open("debug_hrcparser.html") as f:
             html = f.read()
-        self.case2 = HRCParser(html)
+        self.case2 = HRCOutput(html)
 
     def test_get_hand_ev(self):
         ev = '+0.18'

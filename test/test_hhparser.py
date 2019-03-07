@@ -6,7 +6,7 @@ Created on Sat Jun  2 23:24:47 2018
 """
 import unittest
 import logging
-from parsers.hhparser import HHParser, TournamentSummary
+from pypokertools.parsers import PSHandHistory, PSTournamentSummary
 
 from datetime import datetime
 logging.basicConfig(level=logging.DEBUG)
@@ -450,20 +450,20 @@ Seat 6: shortop (button) folded before Flop (didn't bet)
 """
 
 
-class TestHHParser(unittest.TestCase):
+class TestPSHandHistory(unittest.TestCase):
     def setUp(self):
-        self.case0 = HHParser(th)
-        # self.case1 = HHParser(th1)
-        self.case2 = HHParser(th2)
-        # self.case3 = HHParser(th3)
-        self.case4 = HHParser(th4)
-        self.case5 = HHParser(th5)
-        self.case6 = HHParser(th6)
-        self.case7 = HHParser(th7)
-        self.case8 = HHParser(th8)
-        self.case9 = HHParser(th9)  #2 bounty won case
-        self.case10 = HHParser(th10) #3 bounty won case
-        self.case11 = HHParser(debug_hrcparser)
+        self.case0 = PSHandHistory(th)
+        # self.case1 = PSHandHistory(th1)
+        self.case2 = PSHandHistory(th2)
+        # self.case3 = PSHandHistory(th3)
+        self.case4 = PSHandHistory(th4)
+        self.case5 = PSHandHistory(th5)
+        self.case6 = PSHandHistory(th6)
+        self.case7 = PSHandHistory(th7)
+        self.case8 = PSHandHistory(th8)
+        self.case9 = PSHandHistory(th9)  #2 bounty won case
+        self.case10 = PSHandHistory(th10) #3 bounty won case
+        self.case11 = PSHandHistory(debug_hrcparser)
 
     def test_datetime(self):
         hh = self.case0
@@ -517,7 +517,6 @@ class TestHHParser(unittest.TestCase):
         }
         self.assertDictEqual(case, res)
         players_list = [k for k, v in case.items() if v != ['f']]
-        print(players_list)
 
     def test_f_actions(self):
         case = self.case4.f_actions
@@ -885,7 +884,6 @@ class TestHHParser(unittest.TestCase):
 
         case = self.case2.flg_showdown()
         res = False
-        logging.debug(self.case2.showdown_str)
         self.assertEqual(case, res)
 
 
@@ -954,21 +952,21 @@ class TestHHParser(unittest.TestCase):
         pass
 
     def test_cards_to_hand(self):
-        hand = HHParser.cards_to_hand('As Qd')
+        hand = PSHandHistory.cards_to_hand('As Qd')
         self.assertEqual(hand, 'AQo')
-        hand = HHParser.cards_to_hand('2s 2d')
+        hand = PSHandHistory.cards_to_hand('2s 2d')
         self.assertEqual(hand, '22')
-        hand = HHParser.cards_to_hand('Js Qd')
+        hand = PSHandHistory.cards_to_hand('Js Qd')
         self.assertEqual(hand, 'QJo')
-        hand = HHParser.cards_to_hand('5s Qs')
+        hand = PSHandHistory.cards_to_hand('5s Qs')
         self.assertEqual(hand, 'Q5s')
-        hand = HHParser.cards_to_hand('Qs 5c')
+        hand = PSHandHistory.cards_to_hand('Qs 5c')
         self.assertEqual(hand, 'Q5o')
 
 
-class TestTournamentSummary(unittest.TestCase):
+class TestPSTournamentSummary(unittest.TestCase):
     def setUp(self):
-        self.case0 = TournamentSummary(tts1)
+        self.case0 = PSTournamentSummary(tts1)
 
     def test_tid(self):
         ts = self.case0
@@ -988,7 +986,7 @@ class TestTournamentSummary(unittest.TestCase):
     def test__str__(self):
         ts = self.case0
         res = ts.__str__()
-        self.assertEqual(res,f"Tournament: #{ts.tid} Finish: {ts.finishes} Prize:{ts.prize_won}")
+        self.assertEqual(res,f"Tournament: #{ts.tid} Finish: {ts.finishes} Prize: {ts.prize_won}")
 
 if __name__ == '__main__':
     unittest.main()

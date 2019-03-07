@@ -1,8 +1,8 @@
 import argparse
 import json
 
-from parsers import hhparser
-from storage import hand_storage
+from pypokertools.parsers import PSHandHistory, PSTournamentSummary
+from pypokertools.storage import hand_storage
 import pandas as pd
 from xml.dom import minidom
 import datetime
@@ -112,7 +112,7 @@ def main():
     for hand in storage.read_hand(start_date=config['START_DATE'], end_date=config['END_DATE']):
     # for hand in storage.read_hand():
         try:
-            hh = hhparser.HHParser(hand)
+            hh = PSHandHistory(hand)
 
         except Exception as e:
             logging.info(hh)
@@ -143,7 +143,7 @@ def main():
         if finishes.get(tour) is None:
             ts_text = storage.read_summary(tour)
             if ts_text:
-                ts = hhparser.TournamentSummary(ts_text)
+                ts = PSTournamentSummary(ts_text)
                 finishes[tour] = ts.finishes
                 results_icm[tour] += ts.prize_won.get(hero, 0)
                 if ts.finishes == 1:

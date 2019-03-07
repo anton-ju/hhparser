@@ -76,7 +76,3 @@ class HandStorage(object):
                     return f.read()
                 except:
                     continue
-
-        
-                
-    
