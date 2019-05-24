@@ -1,0 +1,28 @@
+PokerStars Hand #188547377183: Tournament #2352932023, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level VIII (75/150) - 2018/07/10 1:04:19 MSK [2018/07/09 18:04:19 ET]
+Table '2352932023 1' 6-max Seat #6 is the button
+Seat 4: sabuco_2110 (834 in chips)
+Seat 6: DiggErr555 (2166 in chips)
+sabuco_2110: posts the ante 15
+DiggErr555: posts the ante 15
+DiggErr555: posts small blind 75
+sabuco_2110: posts big blind 150
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Ad 4h]
+DiggErr555: raises 2001 to 2151 and is all-in
+sabuco_2110: calls 669 and is all-in
+Uncalled bet (1332) returned to DiggErr555
+*** FLOP *** [3c 9h Jc]
+*** TURN *** [3c 9h Jc] [2s]
+*** RIVER *** [3c 9h Jc 2s] [7d]
+*** SHOW DOWN ***
+sabuco_2110: shows [Th Qs] (high card Queen)
+DiggErr555: shows [Ad 4h] (high card Ace)
+DiggErr555 collected 1668 from pot
+DiggErr555 wins the $12.01 bounty for eliminating sabuco_2110
+sabuco_2110 finished the tournament in 2nd place and received $36.03.
+DiggErr555 wins the tournament and receives $36.03 - congratulations!
+*** SUMMARY ***
+Total pot 1668 | Rake 0
+Board [3c 9h Jc 2s 7d]
+Seat 4: sabuco_2110 (big blind) showed [Th Qs] and lost with high card Queen
+Seat 6: DiggErr555 (button) (small blind) showed [Ad 4h] and won (1668) with high card Ace

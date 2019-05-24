@@ -1,0 +1,49 @@
+PokerStars Hand #182384621288: Tournament #2216721390, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level I (10/20) - 2018/02/12 4:32:33 MSK [2018/02/11 20:32:33 ET]
+Table '2216721390 1' 6-max Seat #3 is the button
+Seat 1: da_mauso (954 in chips)
+Seat 2: baluoteli (20 in chips)
+Seat 3: DiggErr555 (466 in chips)
+Seat 4: bigboyby (568 in chips)
+Seat 5: 2Ran128 (496 in chips)
+Seat 6: zaxar393 (496 in chips)
+da_mauso: posts the ante 2
+baluoteli: posts the ante 2
+DiggErr555: posts the ante 2
+bigboyby: posts the ante 2
+2Ran128: posts the ante 2
+zaxar393: posts the ante 2
+bigboyby: posts small blind 10
+2Ran128: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [As Ad]
+zaxar393: calls 20
+da_mauso: raises 20 to 40
+baluoteli: calls 18 and is all-in
+DiggErr555: raises 424 to 464 and is all-in
+bigboyby: raises 102 to 566 and is all-in
+2Ran128: folds
+zaxar393: calls 474 and is all-in
+da_mauso: folds
+Uncalled bet (72) returned to bigboyby
+*** FLOP *** [3s 2h 7c]
+*** TURN *** [3s 2h 7c] [Jh]
+*** RIVER *** [3s 2h 7c Jh] [Ks]
+*** SHOW DOWN ***
+bigboyby: shows [5d 5h] (a pair of Fives)
+zaxar393: shows [9d Kd] (a pair of Kings)
+zaxar393 collected 60 from side pot-2
+DiggErr555: shows [As Ad] (a pair of Aces)
+DiggErr555 collected 1362 from side pot-1
+baluoteli: shows [Jd Qs] (a pair of Jacks)
+DiggErr555 collected 120 from main pot
+DiggErr555 wins the $4.79 bounty for eliminating baluoteli
+baluoteli finished the tournament in 6th place
+*** SUMMARY ***
+Total pot 1542 Main pot 120. Side pot-1 1362. Side pot-2 60. | Rake 0
+Board [3s 2h 7c Jh Ks]
+Seat 1: da_mauso folded before Flop
+Seat 2: baluoteli showed [Jd Qs] and lost with a pair of Jacks
+Seat 3: DiggErr555 (button) showed [As Ad] and won (1482) with a pair of Aces
+Seat 4: bigboyby (small blind) showed [5d 5h] and lost with a pair of Fives
+Seat 5: 2Ran128 (big blind) folded before Flop
+Seat 6: zaxar393 showed [9d Kd] and won (60) with a pair of Kings

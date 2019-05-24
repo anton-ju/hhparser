@@ -1,0 +1,41 @@
+PokerStars Hand #188549132928: Tournament #2352975270, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level II (15/30) - 2018/07/10 1:52:37 MSK [2018/07/09 18:52:37 ET]
+Table '2352975270 1' 6-max Seat #1 is the button
+Seat 1: vIpEr9427 (524 in chips)
+Seat 2: Denisov V. (445 in chips)
+Seat 3: Chang Chi (225 in chips)
+Seat 4: sabuco_2110 (853 in chips)
+Seat 5: shagvaladyan (450 in chips)
+Seat 6: DiggErr555 (503 in chips)
+vIpEr9427: posts the ante 3
+Denisov V.: posts the ante 3
+Chang Chi: posts the ante 3
+sabuco_2110: posts the ante 3
+shagvaladyan: posts the ante 3
+DiggErr555: posts the ante 3
+Denisov V.: posts small blind 15
+Chang Chi: posts big blind 30
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Jc 7d]
+sabuco_2110: folds
+shagvaladyan: folds
+DiggErr555: folds
+vIpEr9427: raises 491 to 521 and is all-in
+Denisov V.: folds
+Chang Chi: calls 192 and is all-in
+Uncalled bet (299) returned to vIpEr9427
+*** FLOP *** [5d Td 6d]
+*** TURN *** [5d Td 6d] [Ad]
+*** RIVER *** [5d Td 6d Ad] [Ts]
+*** SHOW DOWN ***
+Chang Chi: shows [4s 4d] (a flush, Ace high)
+vIpEr9427: shows [Ah 8s] (two pair, Aces and Tens)
+Chang Chi collected 477 from pot
+*** SUMMARY ***
+Total pot 477 | Rake 0
+Board [5d Td 6d Ad Ts]
+Seat 1: vIpEr9427 (button) showed [Ah 8s] and lost with two pair, Aces and Tens
+Seat 2: Denisov V. (small blind) folded before Flop
+Seat 3: Chang Chi (big blind) showed [4s 4d] and won (477) with a flush, Ace high
+Seat 4: sabuco_2110 folded before Flop (didn't bet)
+Seat 5: shagvaladyan folded before Flop (didn't bet)
+Seat 6: DiggErr555 folded before Flop (didn't bet)

@@ -1,0 +1,46 @@
+PokerStars Hand #188548991725: Tournament #2352974684, $4.79+$4.79+$0.42 USD Hold'em No Limit - Level I (10/20) - 2018/07/10 1:48:39 MSK [2018/07/09 18:48:39 ET]
+Table '2352974684 1' 6-max Seat #3 is the button
+Seat 1: DiggErr555 (496 in chips)
+Seat 2: MichelGiang (568 in chips)
+Seat 3: Karagunis (466 in chips)
+Seat 4: Phil_hardy92 (478 in chips)
+Seat 5: Hpak205 (496 in chips)
+Seat 6: Luchok123 (496 in chips)
+DiggErr555: posts the ante 2
+MichelGiang: posts the ante 2
+Karagunis: posts the ante 2
+Phil_hardy92: posts the ante 2
+Hpak205: posts the ante 2
+Luchok123: posts the ante 2
+Phil_hardy92: posts small blind 10
+Hpak205: posts big blind 20
+*** HOLE CARDS ***
+Dealt to DiggErr555 [7h 9d]
+Luchok123: folds
+DiggErr555: folds
+MichelGiang: folds
+Karagunis: raises 20 to 40
+Phil_hardy92: folds
+Hpak205: calls 20
+*** FLOP *** [Qs 4h 6h]
+Hpak205: checks
+Karagunis: bets 40
+Hpak205: raises 182 to 222
+Karagunis: raises 202 to 424 and is all-in
+Hpak205: calls 202
+*** TURN *** [Qs 4h 6h] [Ah]
+*** RIVER *** [Qs 4h 6h Ah] [Qh]
+*** SHOW DOWN ***
+Hpak205: shows [Kc Qc] (three of a kind, Queens)
+Karagunis: shows [4d 4s] (a full house, Fours full of Queens)
+Karagunis collected 950 from pot
+*** SUMMARY ***
+Total pot 950 | Rake 0
+Board [Qs 4h 6h Ah Qh]
+Seat 1: DiggErr555 folded before Flop (didn't bet)
+Seat 2: MichelGiang folded before Flop (didn't bet)
+Seat 3: Karagunis (button) showed [4d 4s] and won (950) with a full house, Fours full of Queens
+Seat 4: Phil_hardy92 (small blind) folded before Flop
+Seat 5: Hpak205 (big blind) showed [Kc Qc] and lost with three of a kind, Queens
+Seat 6: Luchok123 folded before Flop (didn't bet)
+
