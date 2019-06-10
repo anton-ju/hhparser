@@ -159,7 +159,16 @@ class EV:
         # sort players list by chip count
         self.aiplayers.sort(key=lambda v: self.chips[v])
 
-    def build_outcome_tree(self):
+    def add_children(self, root, children):
+        if len(children) <= 1:
+            return
+        cur_children = []
+        for child in children:
+            cur_children.append(Node(child))
+            root.children = cur_children
+
+
+    def build_outcome_tree(self, root, children):
         root = Node('root')
         cur_parent = root
         cur_children = []

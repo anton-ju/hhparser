@@ -21,6 +21,7 @@ th7 = """
 th8 = """
 """
 
+
 def cases(cases):
     def decorator(f):
         @functools.wraps(f)
@@ -37,6 +38,7 @@ def round_dict(d, n):
 
 
 class TestPokercalc(unittest.TestCase):
+    @skip
     def test_icm(self):
         pc = pokercalc.Icm((0.5, 0.5))
 
@@ -96,7 +98,6 @@ class TestPokercalc(unittest.TestCase):
                               'sabuco_2110': 0.2608,
                               'shagvaladyan': 0.1535,
                               'DiggErr555': 0.1697})
-
 
     def test__p1p(self):
         pass
@@ -408,5 +409,4 @@ class TestNumericDict(unittest.TestCase):
 
 
 if __name__ == '__main__':
-
-    unittest .main()
+    unittest.main()
