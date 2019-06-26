@@ -7,7 +7,7 @@ from collections import defaultdict
 from pypokertools.parsers import PSHandHistory as hh
 from pypokertools.utils import NumericDict, cached_property
 import eval7
-from anytree import NodeMixin, Node
+from anytree import NodeMixin, RenderTree
 
 logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
@@ -128,6 +128,109 @@ class Icm:
         return result
 
 
+class OutCome(NodeMixin, object):
+
+    def __init__(self, name, parent=None, children=None, chips={}, probs={}, knocks={}, **kwargs):
+        self.__dict__.update(kwargs)
+        self.name = name
+        self.chips = chips
+        self.probs = probs
+        self.knocks = knocks
+        self.parent = parent
+        if children:
+            self.children = children
+
+    def __repr__(self):
+        args = ["%r" % self.separator.join([""] + [str(node.name) for node in self.path])]
+        return self._repr(self, args=args, nameblacklist=["name"])
+
+
+def add_children(root, children):
+    if len(children) <= 1:
+        return
+    for i in range(len(children)):
+        new_root = OutCome(children[i], parent=root, )
+        add_children(new_root, children[:i])
+
+
+def fill_knocks(node, stacks):
+    """Fills node.knocks with dict
+    """
+    knocks = {}
+    for n in node.path:
+        knocks_sum = sum([stacks[n.name] >= stacks[s.name] for s in n.siblings])
+        if knocks_sum:
+            knocks[n.name] = knocks_sum
+    node.knocks = knocks
+
+
+def fill_probs(root, cards):
+    """Fills node.probs
+    """
+    for pre, fill, node in RenderTree(root):
+        if not node.is_leaf:
+
+    pass
+
+
+def build_outcome_tree(aiplayers, stacks, pots, uncalled):
+    """Returns tree, with leafs representing 1 posible outcome
+    aiplayers: list of players in all-in
+    stacks: dict with stack distribution {'player': chips}
+    pots: list with amount of chips in pots that been playing from main pot to all side pots
+    """
+    not_aiplayers = [p for p in stacks.keys() if p not in aiplayers]
+    # [side2pot, side1pot, mainpot]
+    # [players_in_pot[0] - corresponds to list of players in side2 pot
+    # [players_in_pot[1] - corresponds to list of players in side1 pot and so on 
+    players_in_pot = list(reversed([aiplayers[:l] for l in range(len(pots)+1, 1, -1)]))
+    # uncalled for top1 player
+    root = OutCome('root')
+    add_children(root, aiplayers)
+    # creating all paths list if node is leaf
+    for pre, fill, node in RenderTree(root):
+        # leaf of the tree representing 1 outcome
+        if node.is_leaf:
+            path = []
+            for p in node.path:
+                # path looks like [node.name, node.name...]
+                path.append(p.name)
+            # not including first path element, because it is always root
+            path = list(reversed(path[1:]))
+
+            stack = {}
+            p_index = 0
+            for i, pot in enumerate(pots):
+                if path[p_index] in players_in_pot[i]:
+                    try:
+                        stack[path[p_index]] += pots[i]
+                    except KeyError:
+                        stack[path[p_index]] = pots[i]
+                    p_index = p_index + 1 if p_index < len(path) - 1 else p_index
+                else:
+                    stack[path[p_index-1]] = stack[path[p_index-1]] + pots[i]
+
+            # stacks for players that is not take part in pots remains the same
+            for p in not_aiplayers:
+                stack[p] = stacks[p]
+
+            # players who lose.
+            for p in aiplayers:
+                if p not in path:
+                    stack[p] = 0
+
+            # uncalled allways to top1 player
+            try:
+                stack[aiplayers[0]] += uncalled
+            except KeyError:
+                stack[aiplayers[0]] = uncalled
+
+            node.chips = stack
+            fill_knocks(node, stacks)
+            fill_probs(node)
+    return root
+
+
 class EV:
     def __init__(self, hand, icm, ko=None, trials=1000000):
         """
@@ -159,40 +262,14 @@ class EV:
         # sort players list by chip count
         self.aiplayers.sort(key=lambda v: self.chips[v])
 
-    def add_children(self, root, children):
-        if len(children) <= 1:
-            return
-        cur_children = []
-        for child in children:
-            cur_children.append(Node(child))
-            root.children = cur_children
-
-
-    def build_outcome_tree(self, root, children):
-        root = Node('root')
-        cur_parent = root
-        cur_children = []
-        for p in self.aiplayers:
-            cur_children.append(Node(p))
-        cur_parent.children = cur_children
-
-        p1main = Node('p1main', parent=root)
-        p2main = Node('p2main', parent=root)
-        p3main = Node('p3main', parent=root)
-        p4main = Node('p4main', parent=root)
-        p1side1 = Node('p1side1', parent=p4main)
-        p2side1 = Node('p2side1', parent=p4main)
-        p3side1 = Node('p3side1', parent=p4main)
-        p1side2 = Node('p1side1', parent=p3side1)
-        p2side2 = Node('p2side1', parent=p3side1)
-        p1side2 = Node('p1side1', parent=p3side1)
-        p2side2 = Node('p2side1', parent=p3side1)
-
     def calc(self, player):
         if player not in self.players:
             raise PlayerNotFoundException()
         self.player = player
         self.flg_calculated = True
+        root = build_outcome_tree()
+        for pre, _, node in RenderTree(root):
+            print("%s %s %s %s" % (pre, node.name, node.chips, node.knocks))
 
     def chip_diff(self):
         return self.chip_ev() - self.chip_fact()
