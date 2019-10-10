@@ -49,10 +49,10 @@ class Knockout:
 class Icm:
 
     def __init__(self, prize):
-        if isinstance(prize, (list, dict)):
+        if isinstance(prize, (list, dict, tuple)):
             self.prize = prize
         else:
-            exit(1)
+            raise RuntimeError("Invalid prize structure")
 
     def calc(self, stacks_players):
         if stacks_players is None:
@@ -169,8 +169,7 @@ def fill_probs(root, cards):
     """
     for pre, fill, node in RenderTree(root):
         if not node.is_leaf:
-
-    pass
+            pass
 
 
 def build_outcome_tree(aiplayers, stacks, pots, uncalled):
@@ -221,13 +220,13 @@ def build_outcome_tree(aiplayers, stacks, pots, uncalled):
 
             # uncalled allways to top1 player
             try:
-                stack[aiplayers[0]] += uncalled
+                stack[aiplayers[0]] += uncalled[aiplayers[0]]
             except KeyError:
-                stack[aiplayers[0]] = uncalled
+                stack[aiplayers[0]] = uncalled[aiplayers[0]]
 
             node.chips = stack
             fill_knocks(node, stacks)
-            fill_probs(node)
+            fill_probs(node, None)
     return root
 
 
@@ -243,6 +242,10 @@ class EV:
         self.hand = hand
         self.icm = icm
         self.ko = ko
+        self.ai_players = []
+        self.p_ai_players = []
+        self.f_ai_players = []
+        self.t_ai_players = []
         self.aiplayers = hand.p_ai_players + hand.f_ai_players + hand.t_ai_players + hand.r_ai_players
         self.winnings_chips = NumericDict(list, self.hand.chip_won)
         self.prize_won = self.hand.prize_won
@@ -251,25 +254,52 @@ class EV:
         self.uncalled = NumericDict(int, self.hand.uncalled)
         self.cards = NumericDict(int, self.hand.known_cards)
         self.pots = self.hand.pot_list
+        # not include total pot if multiway
+        if len(self.pots) > 1:
+            self.pots = self.pots[1:]
         self.trials = trials
 
         self.total_prizes = (self.hand.bi - self.hand.rake - self.hand.bounty) * 6
         self.player = str()
         self.flg_calculated = False
-        self.sort_aiplayers_by_chipcount()
+        self.sort_ai_players_by_chipcount()
+        self.detect_ai_players()
 
-    def sort_aiplayers_by_chipcount(self):
+    def detect_ai_players(self):
+
+        self.ai_players = list(self.cards.keys())
+        for p in self.ai_players:
+            if self.hand.p_ai_players:
+                p_actions = self.hand.p_last_action()
+                if p_actions.get(p, 'f') != 'f':
+                    self.p_ai_players.append(p)
+
+            if self.hand.f_ai_players:
+                f_actions = self.hand.f_last_action()
+                if f_actions.get(p, 'f') != 'f':
+                    self.f_ai_players.append(p)
+
+            if self.hand.t_ai_players:
+                t_actions = self.hand.t_last_action()
+                if t_actions.get(p, 'f') != 'f':
+                    self.t_ai_players.append(p)
+
+    def sort_ai_players_by_chipcount(self):
         # sort players list by chip count
-        self.aiplayers.sort(key=lambda v: self.chips[v])
+        self.ai_players.sort(key=lambda v: self.chips[v])
 
     def calc(self, player):
         if player not in self.players:
             raise PlayerNotFoundException()
         self.player = player
         self.flg_calculated = True
-        root = build_outcome_tree()
-        for pre, _, node in RenderTree(root):
-            print("%s %s %s %s" % (pre, node.name, node.chips, node.knocks))
+        if self.ai_players:
+            print(self.ai_players, self.chips, self.pots, self.uncalled)
+            root = build_outcome_tree(self.ai_players, self.chips, self.pots, self.uncalled)
+            for pre, _, node in RenderTree(root):
+                print("%s %s %s %s" % (pre, node.name, node.chips, node.knocks))
+        else:
+            print(self.chip_fact())
 
     def chip_diff(self):
         return self.chip_ev() - self.chip_fact()
@@ -429,28 +459,9 @@ class EV:
             return 0
 
     def equities(self):
-        hands = list(self.cards.values())
-        players = list(self.cards.keys())
-        p_ai_players = []
-        f_ai_players = []
-        t_ai_players = []
-        for p in players:
-            if self.hand.p_ai_players:
-                p_actions = self.hand.p_last_action()
-                if p_actions.get(p, 'f') != 'f':
-                    p_ai_players.append(p)
 
-            if self.hand.f_ai_players:
-                f_actions = self.hand.f_last_action()
-                if f_actions.get(p, 'f') != 'f':
-                    f_ai_players.append(p)
-
-            if self.hand.t_ai_players:
-                t_actions = self.hand.t_last_action()
-                if t_actions.get(p, 'f') != 'f':
-                    t_ai_players.append(p)
-
-        if p_ai_players:
+        if self.p_ai_players:
+            players = self.p_ai_players
             if len(players) == 2:
                 hand1 = self.cards.get(players[0])
                 hand2 = self.cards.get(players[1])
@@ -462,8 +473,8 @@ class EV:
                 )
                 return {players[0]: equity, players[1]: 1-equity}
 
-        if f_ai_players:
-            players = f_ai_players
+        if self.f_ai_players:
+            players = self.f_ai_players
             if len(players) == 2:
                 hand1 = self.cards.get(players[0])
                 hand2 = self.cards.get(players[1])
@@ -475,8 +486,8 @@ class EV:
                 )
                 return {players[0]: equity, players[1]: 1-equity}
 
-        if t_ai_players:
-            players = t_ai_players
+        if self.t_ai_players:
+            players = self.t_ai_players
             if len(players) == 2:
                 hand1 = self.cards.get(players[0])
                 hand2 = self.cards.get(players[1])

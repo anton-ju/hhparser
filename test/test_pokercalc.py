@@ -113,6 +113,7 @@ class TestEV(unittest.TestCase):
         for fn in fn_list:
             with open(fn) as f:
                 hh_text = f.read()
+                print(hh_text)
                 parsed_hand = hhparser(hh_text)
                 case = pokercalc.EV(parsed_hand, icm, ko)
                 case.calc('DiggErr555')
