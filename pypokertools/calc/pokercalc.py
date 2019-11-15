@@ -7,6 +7,7 @@ from collections import defaultdict
 from pypokertools.parsers import PSHandHistory as hh
 from pypokertools.utils import NumericDict, cached_property
 import eval7
+from eval7 import py_equities_2hands, py_equities_3hands, py_equities_4hands
 from anytree import NodeMixin, RenderTree
 
 logging.basicConfig(level=logging.DEBUG)
@@ -21,6 +22,11 @@ class KOModels(Enum):
 
 class PlayerNotFoundException(Exception):
     pass
+
+
+def str_to_cards(hand_str):
+    cards = tuple(map(eval7.Card, hand_str.split()))
+    return cards
 
 
 class Knockout:
@@ -465,39 +471,33 @@ class EV:
             if len(players) == 2:
                 hand1 = self.cards.get(players[0])
                 hand2 = self.cards.get(players[1])
-                hand1 = map(eval7.Card, hand1.split())
-                hand2 = eval7.HandRange(''.join(hand2.split()))
-                board = []
-                equity = eval7.py_hand_vs_range_monte_carlo(
-                    hand1, hand2, board, self.trials
-                )
-                return {players[0]: equity, players[1]: 1-equity}
+                hand1 = str_to_cards(hand1)
+                hand2 = str_to_cards(hand2)
+                board = str_to_cards("")
+                equity = py_equities_2hands(hand1, hand2, board)
+                return {players[0]: equity[0], players[1]: equity[1]}
 
         if self.f_ai_players:
             players = self.f_ai_players
             if len(players) == 2:
                 hand1 = self.cards.get(players[0])
                 hand2 = self.cards.get(players[1])
-                hand1 = map(eval7.Card, hand1.split())
-                hand2 = eval7.HandRange(''.join(hand2.split()))
-                board = tuple(map(eval7.Card, self.hand.flop.split()))
-                equity = eval7.py_hand_vs_range_monte_carlo(
-                    hand1, hand2, board, self.trials
-                )
-                return {players[0]: equity, players[1]: 1-equity}
+                hand1 = str_to_cards(hand1)
+                hand2 = str_to_cards(hand2)
+                board = str_to_cards(self.hand.flop)
+                equity = py_equities_2hands(hand1, hand2, board)
+                return {players[0]: equity[0], players[1]: equity[1]}
 
         if self.t_ai_players:
             players = self.t_ai_players
             if len(players) == 2:
                 hand1 = self.cards.get(players[0])
                 hand2 = self.cards.get(players[1])
-                hand1 = map(eval7.Card, hand1.split())
-                hand2 = eval7.HandRange(''.join(hand2.split()))
-                board = tuple(map(eval7.Card, (self.hand.flop + ' ' + self.hand.turn()).split()))
-                equity = eval7.py_hand_vs_range_monte_carlo(
-                    hand1, hand2, board, self.trials
-                )
-                return {players[0]: equity, players[1]: 1-equity}
+                hand1 = str_to_cards(hand1)
+                hand2 = str_to_cards(hand2)
+                board = str_to_cards(self.hand.flop + ' ' + self.hand.turn)
+                equity = py_equities_2hands(hand1, hand2, board)
+                return {players[0]: equity[0], players[1]: equity[1]}
         return {}
 
     @staticmethod
