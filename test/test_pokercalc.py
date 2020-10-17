@@ -4,7 +4,6 @@ import logging
 import random
 
 from unittest import skip
-
 from pypokertools.calc import pokercalc
 from pypokertools.parsers import PSHandHistory as hhparser
 
@@ -107,9 +106,18 @@ class TestEV(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         icm = pokercalc.Icm((0.5, 0.5))
+        icm1 = pokercalc.Icm((1,))
         ko = pokercalc.Knockout(pokercalc.KOModels.PROPORTIONAL)
         cls.case = {}
-        fn_list = ['hh/th0.txt', 'hh/th1.txt', 'hh/th7.txt', 'hh/th8.txt']
+        cases = [()]
+        fn_list = ['hh/th0.txt',
+                   'hh/th1.txt',
+                   'hh/th7.txt',
+                   'hh/th8.txt',
+                   'hh/sat16/round1/2way/hero-push-sb-call.txt',
+                   'hh/sat16/round1/2way/sb-push-hero-call.txt',
+                   'hh/sat16/round1/2way/hero-call-bvb.txt',
+                   ]
         for fn in fn_list:
             with open(fn) as f:
                 hh_text = f.read()
@@ -124,6 +132,7 @@ class TestEV(unittest.TestCase):
         case = self.case.get(params.get('fn'))
         return case, expected
 
+    @skip
     @cases([
         {
          'fn': 'hh/th1.txt',
@@ -136,9 +145,24 @@ class TestEV(unittest.TestCase):
          'player': 'Hpak205'
         },
         {
-         'fn': 'hh/th7.txt',
-         'expected': 0.5566,
+         'fn': 'hh/sat16/round1/2way/hero-push-sb-call.txt',
+         'expected': 0.3926,
          'player': 'DiggErr555'
+        },
+        {
+         'fn':  'hh/sat16/round1/2way/sb-push-hero-call.txt',
+         'expected': 0.5244,
+         'player': 'DiggErr555'
+        },
+        {
+         'fn': 'hh/sat16/round1/2way/hero-call-bvb.txt',
+         'expected': 0.8428,
+         'player': 'DiggErr555'
+        },
+        {
+         'fn': 'hh/sat16/round1/2way/hero-call-bvb.txt',
+         'expected': 0.1572,
+         'player': 'bayaraa2222'
         },
            ])
     def test_equties(self, params):
@@ -186,7 +210,30 @@ class TestEV(unittest.TestCase):
              {
                  'sabuco_2110': 0,
                  'DiggErr555': 3000
-             }}])
+             }},
+            {'fn': 'hh/sat16/round1/2way/hero-push-sb-call.txt',
+             'expected':
+             {
+                 'fozzzi': 100,
+                 'bayaraa2222': 270,
+                 'apos87tolos': 460,
+                 'DiggErr555': 1170
+             }},
+            {'fn': 'hh/sat16/round1/2way/sb-push-hero-call.txt',
+             'expected':
+             {
+                 'fozzzi': 0,
+                 'DiggErr555': 2000,
+             }},
+            {'fn': 'hh/sat16/round1/2way/hero-call-bvb.txt',
+             'expected':
+             {
+                 'fozzzi': 90,
+                 'bayaraa2222': 0,
+                 'apos87tolos': 450,
+                 'DiggErr555': 1460,
+             }},
+            ])
     def test_chip_fact(self, params):
         case, expected = self.get_params(params)
         result = case.chip_fact()
@@ -207,7 +254,8 @@ class TestEV(unittest.TestCase):
              {
                  'sabuco_2110': 0,
                  'DiggErr555': 3000
-             }}])
+             }},
+            ])
     def test_chip_fact_chip_sum(self, params):
         case, expected = self.get_params(params)
         result = case.chip_fact()
@@ -330,6 +378,15 @@ class TestEV(unittest.TestCase):
         self.assertEqual(pokercalc.EV.sum_dict_values({1: 1, 2: 2, 3: 0, 4: 0}), 3)
         self.assertEqual(pokercalc.EV.sum_dict_values({1: 1, 2: 2, 3: 'sdf', 4: 0}), 0)
         self.assertEqual(pokercalc.EV.sum_dict_values([1, 2, 3]), 0)
+
+
+class TestOutcome(unittest.TestCase):
+    def test_add_cildren(self):
+        aiplayers = ['DiggErr555', 'fozzzi']
+        root = pokercalc.OutCome('root')
+        pokercalc.add_children(root, aiplayers)
+        print(root)
+        assert False
 
 
 class TestNumericDict(unittest.TestCase):

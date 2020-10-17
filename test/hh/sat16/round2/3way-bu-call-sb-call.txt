@@ -1,0 +1,41 @@
+PokerStars Hand #218966834282: Tournament #3017551323, $14.71+$0.29 USD Hold'em No Limit - Match Round II, Level II (50/100) - 2020/10/01 19:57:41 MSK [2020/10/01 12:57:41 ET]
+Table '3017551323 1' 4-max Seat #4 is the button
+Seat 2: slavikus555 (730 in chips) 
+Seat 3: DiggErr555 (1175 in chips) 
+Seat 4: wycioreks (95 in chips) 
+slavikus555: posts the ante 20
+DiggErr555: posts the ante 20
+wycioreks: posts the ante 20
+slavikus555: posts small blind 50
+DiggErr555: posts big blind 100
+*** HOLE CARDS ***
+Dealt to DiggErr555 [7h 9c]
+wycioreks: calls 75 and is all-in
+slavikus555: calls 50
+DiggErr555: checks 
+*** FLOP *** [4c Kd 8c]
+slavikus555: checks 
+DiggErr555: checks 
+*** TURN *** [4c Kd 8c] [3c]
+slavikus555: checks 
+DiggErr555: checks 
+*** RIVER *** [4c Kd 8c 3c] [2d]
+slavikus555: checks 
+DiggErr555: checks 
+*** SHOW DOWN ***
+slavikus555: shows [Jc 6c] (a flush, Jack high)
+DiggErr555: mucks hand 
+slavikus555 collected 50 from side pot
+wycioreks: mucks hand 
+slavikus555 collected 285 from main pot
+wycioreks finished the tournament in 3rd place and received $17.36.
+slavikus555 finished the tournament in 1st place
+slavikus555 wins an entry to tournament #3015412417
+DiggErr555 finished the tournament in 1st place
+DiggErr555 wins an entry to tournament #3015412417
+*** SUMMARY ***
+Total pot 335 Main pot 285. Side pot 50. | Rake 0 
+Board [4c Kd 8c 3c 2d]
+Seat 2: slavikus555 (small blind) showed [Jc 6c] and won (335) with a flush, Jack high
+Seat 3: DiggErr555 (big blind) mucked [7h 9c]
+Seat 4: wycioreks (button) mucked [Td Ah]

@@ -1,0 +1,29 @@
+PokerStars Hand #218966792398: Tournament #3017551323, $14.71+$0.29 USD Hold'em No Limit - Match Round II, Level I (25/50) - 2020/10/01 19:55:48 MSK [2020/10/01 12:55:48 ET]
+Table '3017551323 1' 4-max Seat #4 is the button
+Seat 2: slavikus555 (975 in chips) 
+Seat 3: DiggErr555 (505 in chips) 
+Seat 4: wycioreks (520 in chips) 
+slavikus555: posts the ante 10
+DiggErr555: posts the ante 10
+wycioreks: posts the ante 10
+slavikus555: posts small blind 25
+DiggErr555: posts big blind 50
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Ad Jh]
+wycioreks: folds 
+slavikus555: raises 915 to 965 and is all-in
+DiggErr555: calls 445 and is all-in
+Uncalled bet (470) returned to slavikus555
+*** FLOP *** [8s 2c 3d]
+*** TURN *** [8s 2c 3d] [7s]
+*** RIVER *** [8s 2c 3d 7s] [Ac]
+*** SHOW DOWN ***
+slavikus555: shows [6c 8d] (a pair of Eights)
+DiggErr555: shows [Ad Jh] (a pair of Aces)
+DiggErr555 collected 1020 from pot
+*** SUMMARY ***
+Total pot 1020 | Rake 0 
+Board [8s 2c 3d 7s Ac]
+Seat 2: slavikus555 (small blind) showed [6c 8d] and lost with a pair of Eights
+Seat 3: DiggErr555 (big blind) showed [Ad Jh] and won (1020) with a pair of Aces
+Seat 4: wycioreks (button) folded before Flop (didn't bet)

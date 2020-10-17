@@ -38,6 +38,9 @@ KNOWN_CARDS_DICT	pypokertools/parsers.py	/^    KNOWN_CARDS_DICT = {'player': 'kn
 KNOWN_CARDS_REGEX	pypokertools/parsers.py	/^    KNOWN_CARDS_REGEX = "Seat \\d: (?P<player>.*?)\\s?(?:\\(button\\) showed|\\(small blind\\) showed|\\(button\\) \\(small blind\\) showed|\\(big blind\\) showed| showed)\\s\\[(?P<knowncards>.*)\\]"$/;"	v	class:HandHistoryParser
 KOModels	pypokertools/calc/pokercalc.py	/^class KOModels(Enum):$/;"	c
 Knockout	pypokertools/calc/pokercalc.py	/^class Knockout:$/;"	c
+NumericDict	pypokertools/utils.py	/^class NumericDict(defaultdict):$/;"	c
+OutCome	pypokertools/calc/pokercalc.py	/^class OutCome(NodeMixin, object):$/;"	c
+OutCome	test/scratch.py	/^class OutCome(NodeMixin, object):$/;"	c
 POSITIONS	pypokertools/parsers.py	/^    POSITIONS = ['BB', 'SB', 'BU', 'CO', 'MP2', 'MP1', 'UTG3', 'UTG2', 'UTG1']$/;"	v	class:HandHistoryParser
 POT_LIST_REGEX	pypokertools/parsers.py	/^    POT_LIST_REGEX = "(Total|Main|Side) (pot|pot-1|pot-2|pot-3|pot-4|pot-5)\\s(?P<pot>\\d*)"$/;"	v	class:HandHistoryParser
 PRIZE	pypokertools/parsers.py	/^    PRIZE = []$/;"	v	class:HandHistoryParser
@@ -51,20 +54,24 @@ PlayerNotFoundException	pypokertools/calc/pokercalc.py	/^class PlayerNotFoundExc
 RIVER_REGEX	pypokertools/parsers.py	/^    RIVER_REGEX = "RIVER.*\\[(?:.*)\\] \\[(?P<river>.{2})\\]"$/;"	v	class:HandHistoryParser
 SB_PLAYER_REGEX	pypokertools/parsers.py	/^    SB_PLAYER_REGEX = "(?P<player>.*):\\sposts small"$/;"	v	class:HandHistoryParser
 STRATEGY_TABLE_COLUMNS	pypokertools/parsers.py	/^    STRATEGY_TABLE_COLUMNS = ('strategy',$/;"	v	class:HRCOutput
-StacksDict	pypokertools/calc/pokercalc.py	/^class StacksDict(defaultdict):$/;"	c
 TID_REGEX	pypokertools/parsers.py	/^    TID_REGEX = "Tournament #(?P<tid>\\d+)"$/;"	v	class:HandHistoryParser
 TURN_REGEX	pypokertools/parsers.py	/^    TURN_REGEX = "TURN.*\\[(?:.*)\\] \\[(?P<turn>.{2})\\]"$/;"	v	class:HandHistoryParser
-TestEV	pypokertools/calc/test_pokercalc.py	/^class TestEV(unittest.TestCase):$/;"	c
+TestEV	test/test_pokercalc.py	/^class TestEV(unittest.TestCase):$/;"	c
 TestHRCOutput	test/test_hrcparser.py	/^class TestHRCOutput(unittest.TestCase):$/;"	c
+TestNumericDict	test/test_pokercalc.py	/^class TestNumericDict(unittest.TestCase):$/;"	c
+TestOutcome	test/test_pokercalc.py	/^class TestOutcome(unittest.TestCase):$/;"	c
 TestPSHandHistory	test/test_hhparser.py	/^class TestPSHandHistory(unittest.TestCase):$/;"	c
 TestPSTournamentSummary	test/test_hhparser.py	/^class TestPSTournamentSummary(unittest.TestCase):$/;"	c
-TestPokercalc	pypokertools/calc/test_pokercalc.py	/^class TestPokercalc(unittest.TestCase):$/;"	c
+TestPokercalc	test/test_pokercalc.py	/^class TestPokercalc(unittest.TestCase):$/;"	c
 UNCALLED_DICT	pypokertools/parsers.py	/^    UNCALLED_DICT = {'player': 'bet'}$/;"	v	class:HandHistoryParser
 UNCALLED_REGEX	pypokertools/parsers.py	/^    UNCALLED_REGEX = "Uncalled.*\\((?P<bet>\\d+)\\).*to (?P<player>.*)"$/;"	v	class:HandHistoryParser
-__add__	pypokertools/calc/pokercalc.py	/^    def __add__(self, other):$/;"	m	class:StacksDict	file:
+_NewDict	pypokertools/utils.py	/^    def _NewDict(cls):$/;"	m	class:NumericDict
+__add__	pypokertools/utils.py	/^    def __add__(self, other):$/;"	m	class:NumericDict	file:
 __get__	pypokertools/parsers.py	/^    def __get__(self, instance, cls=None):$/;"	m	class:cached_property	file:
-__init__	pypokertools/calc/pokercalc.py	/^    def __init__(self, hand: hh.HHParser, icm: Icm, ko: Knockout=None, trials=1000000):$/;"	m	class:EV
+__get__	pypokertools/utils.py	/^    def __get__(self, instance, cls=None):$/;"	m	class:cached_property	file:
+__init__	pypokertools/calc/pokercalc.py	/^    def __init__(self, hand, icm, ko=None, trials=1000000):$/;"	m	class:EV
 __init__	pypokertools/calc/pokercalc.py	/^    def __init__(self, model: KOModels):$/;"	m	class:Knockout
+__init__	pypokertools/calc/pokercalc.py	/^    def __init__(self, name, parent=None, children=None, chips={}, probs={}, knocks={}, **kwargs):$/;"	m	class:OutCome
 __init__	pypokertools/calc/pokercalc.py	/^    def __init__(self, prize):$/;"	m	class:Icm
 __init__	pypokertools/parsers.py	/^    def __init__(self, func):$/;"	m	class:cached_property
 __init__	pypokertools/parsers.py	/^    def __init__(self, hh):$/;"	m	class:PSHandHistory
@@ -72,68 +79,60 @@ __init__	pypokertools/parsers.py	/^    def __init__(self, html):$/;"	m	class:HRC
 __init__	pypokertools/parsers.py	/^    def __init__(self, ts_text):$/;"	m	class:PSTournamentSummary
 __init__	pypokertools/storage/hand_storage.py	/^    def __init__(self, dbname, user, host, port, pwd):$/;"	m	class:HandStoragePgsql
 __init__	pypokertools/storage/hand_storage.py	/^    def __init__(self, path=''):$/;"	m	class:HandStorage
-__mul__	pypokertools/calc/pokercalc.py	/^    def __mul__(self, other):$/;"	m	class:StacksDict	file:
-__repr__	pypokertools/calc/pokercalc.py	/^    def __repr__(self):$/;"	m	class:StacksDict	file:
-__str__	pypokertools/calc/pokercalc.py	/^    def __str__(self):$/;"	m	class:StacksDict	file:
+__init__	pypokertools/utils.py	/^    def __init__(self, func):$/;"	m	class:cached_property
+__init__	test/scratch.py	/^    def __init__(self, name, parent=None, children=None, chips={}, probs={}, knocks={}, **kwargs):$/;"	m	class:OutCome
+__mul__	pypokertools/utils.py	/^    def __mul__(self, other):$/;"	m	class:NumericDict	file:
+__repr__	pypokertools/calc/pokercalc.py	/^    def __repr__(self):$/;"	m	class:OutCome	file:
+__repr__	pypokertools/utils.py	/^    def __repr__(self):$/;"	m	class:NumericDict	file:
+__repr__	test/scratch.py	/^    def __repr__(self):$/;"	m	class:OutCome	file:
+__rmul__	pypokertools/utils.py	/^    def __rmul__(self, other):$/;"	m	class:NumericDict	file:
 __str__	pypokertools/parsers.py	/^    def __str__(self):$/;"	m	class:PSHandHistory	file:
 __str__	pypokertools/parsers.py	/^    def __str__(self):$/;"	m	class:PSTournamentSummary	file:
-__sub__	pypokertools/calc/pokercalc.py	/^    def __sub__(self, other):$/;"	m	class:StacksDict	file:
-_chip_diff	pypokertools/calc/pokercalc.py	/^    def _chip_diff(self):$/;"	m	class:EV
-_chip_ev	pypokertools/calc/pokercalc.py	/^    def _chip_ev(self):$/;"	m	class:EV
-_chip_fact	pypokertools/calc/pokercalc.py	/^    def _chip_fact(self):$/;"	m	class:EV
-_chip_lose	pypokertools/calc/pokercalc.py	/^    def _chip_lose(self):$/;"	m	class:EV
-_chip_win	pypokertools/calc/pokercalc.py	/^    def _chip_win(self):$/;"	m	class:EV
-_equities	pypokertools/calc/pokercalc.py	/^    def _equities(self):$/;"	m	class:EV
-_ev_diff	pypokertools/calc/pokercalc.py	/^    def _ev_diff(self):$/;"	m	class:EV
-_ev_diff_pct	pypokertools/calc/pokercalc.py	/^    def _ev_diff_pct(self):$/;"	m	class:EV
-_icm_ev	pypokertools/calc/pokercalc.py	/^    def _icm_ev(self):$/;"	m	class:EV
-_icm_ev_pct	pypokertools/calc/pokercalc.py	/^    def _icm_ev_pct(self):$/;"	m	class:EV
-_icm_fact	pypokertools/calc/pokercalc.py	/^    def _icm_fact(self):$/;"	m	class:EV
-_icm_fact_pct	pypokertools/calc/pokercalc.py	/^    def _icm_fact_pct(self):$/;"	m	class:EV
-_ko_ev	pypokertools/calc/pokercalc.py	/^    def _ko_ev(self):$/;"	m	class:EV
-_ko_ev_pct	pypokertools/calc/pokercalc.py	/^    def _ko_ev_pct(self):$/;"	m	class:EV
-_ko_fact	pypokertools/calc/pokercalc.py	/^    def _ko_fact(self):$/;"	m	class:EV
-_ko_fact_pct	pypokertools/calc/pokercalc.py	/^    def _ko_fact_pct(self):$/;"	m	class:EV
+__str__	pypokertools/utils.py	/^    def __str__(self):$/;"	m	class:NumericDict	file:
+__sub__	pypokertools/utils.py	/^    def __sub__(self, other):$/;"	m	class:NumericDict	file:
+__truediv__	pypokertools/utils.py	/^    def __truediv__(self, other):$/;"	m	class:NumericDict	file:
 _p1p	pypokertools/calc/pokercalc.py	/^    def _p1p(self, ind, place, stacks):$/;"	m	class:Icm
 _process_regexp	pypokertools/parsers.py	/^    def _process_regexp($/;"	m	class:HandHistoryParser
-aiplayers	evko.py	/^    aiplayers = hand.p_ai_players() + hand.f_ai_players() + hand.t_ai_players() + hand.r_ai_players()$/;"	v
+add_children	pypokertools/calc/pokercalc.py	/^def add_children(root, children):$/;"	f
+add_children	test/scratch.py	/^def add_children(root, children):$/;"	f
 antes	pypokertools/parsers.py	/^    def antes(self):$/;"	m	class:PSHandHistory
 bi	pypokertools/parsers.py	/^    def bi(self):$/;"	m	class:PSHandHistory
 blinds	pypokertools/parsers.py	/^    def blinds(self):$/;"	m	class:PSHandHistory
 blinds_antes	pypokertools/parsers.py	/^    def blinds_antes(self):$/;"	m	class:PSHandHistory
 bounty	pypokertools/parsers.py	/^    def bounty(self):$/;"	m	class:PSHandHistory
 bounty_won	pypokertools/parsers.py	/^    def bounty_won(self):$/;"	m	class:PSHandHistory
+build_outcome_tree	pypokertools/calc/pokercalc.py	/^def build_outcome_tree(aiplayers, stacks, pots, uncalled):$/;"	f
+build_outcome_tree	test/scratch.py	/^def build_outcome_tree():$/;"	f
 cached_property	pypokertools/parsers.py	/^class cached_property(object):$/;"	c
+cached_property	pypokertools/utils.py	/^class cached_property(object):$/;"	c
 calc	pypokertools/calc/pokercalc.py	/^    def calc(self, player):$/;"	m	class:EV
 calc	pypokertools/calc/pokercalc.py	/^    def calc(self, stacks_players):$/;"	m	class:Icm
 calc	pypokertools/calc/pokercalc.py	/^    def calc(self, stacks_players):$/;"	m	class:Knockout
 cards_to_hand	pypokertools/parsers.py	/^    def cards_to_hand(cards):$/;"	m	class:PSHandHistory
-chip_diff	evko.py	/^        chip_diff = ev.chip_diff.get(player,0)$/;"	v
+cases	test/test_pokercalc.py	/^def cases(cases):$/;"	f
 chip_diff	pypokertools/calc/pokercalc.py	/^    def chip_diff(self):$/;"	m	class:EV
-chip_ev	evko.py	/^        chip_ev = ev.chip_ev$/;"	v
 chip_ev	pypokertools/calc/pokercalc.py	/^    def chip_ev(self):$/;"	m	class:EV
-chip_fact	evko.py	/^        chip_fact = ev.chip_fact$/;"	v
 chip_fact	pypokertools/calc/pokercalc.py	/^    def chip_fact(self):$/;"	m	class:EV
-chip_lose	evko.py	/^        chip_lose = ev.chip_lose$/;"	v
 chip_lose	pypokertools/calc/pokercalc.py	/^    def chip_lose(self):$/;"	m	class:EV
-chip_win	evko.py	/^        chip_win = ev.chip_win$/;"	v
+chip_outcome	pypokertools/calc/pokercalc.py	/^    def chip_outcome(self, winners):$/;"	m	class:EV
 chip_win	pypokertools/calc/pokercalc.py	/^    def chip_win(self):$/;"	m	class:EV
 chip_won	pypokertools/parsers.py	/^    def chip_won(self):$/;"	m	class:PSHandHistory
-config	roi.py	/^config = {$/;"	v
+config	roi/roi.py	/^config = {$/;"	v
 datetime	pypokertools/parsers.py	/^    def datetime(self):$/;"	m	class:PSHandHistory
-diff_list	evko.py	/^diff_list = []$/;"	v
-eq	evko.py	/^        eq = ev.equities.get(player,0)$/;"	v
+decorator	test/test_pokercalc.py	/^    def decorator(f):$/;"	f	function:cases
+detect_ai_players	pypokertools/calc/pokercalc.py	/^    def detect_ai_players(self):$/;"	m	class:EV
 equities	pypokertools/calc/pokercalc.py	/^    def equities(self):$/;"	m	class:EV
-ev	evko.py	/^        ev = pc.EV(hand, icm, ko)$/;"	v
-ev_diff	evko.py	/^        ev_diff = ev.ev_diff$/;"	v
 ev_diff	pypokertools/calc/pokercalc.py	/^    def ev_diff(self):$/;"	m	class:EV
+ev_diff_pct	pypokertools/calc/pokercalc.py	/^    def ev_diff_pct(self):$/;"	m	class:EV
 f_actions	pypokertools/parsers.py	/^    def f_actions(self):$/;"	m	class:PSHandHistory
 f_actions_amounts	pypokertools/parsers.py	/^    def f_actions_amounts(self):$/;"	m	class:PSHandHistory
 f_ai_players	pypokertools/parsers.py	/^    def f_ai_players(self):$/;"	m	class:PSHandHistory
 f_last_action	pypokertools/parsers.py	/^    def f_last_action(self):$/;"	m	class:PSHandHistory
+fill_knocks	pypokertools/calc/pokercalc.py	/^def fill_knocks(node, stacks):$/;"	f
+fill_probs	pypokertools/calc/pokercalc.py	/^def fill_probs(root, cards):$/;"	f
 finishes	pypokertools/parsers.py	/^    def finishes(self):$/;"	m	class:PSHandHistory
 finishes	pypokertools/parsers.py	/^    def finishes(self):$/;"	m	class:PSTournamentSummary
-fish_per_table	roi.py	/^def fish_per_table(players_list, notes_dict):$/;"	f
+fish_per_table	roi/roi.py	/^def fish_per_table(players_list, notes_dict):$/;"	f
 flgFacedAI	pypokertools/parsers.py	/^    def flgFacedAI(self, player):$/;"	m	class:PSHandHistory
 flgRFIOpp	pypokertools/parsers.py	/^    def flgRFIOpp(self, player):$/;"	m	class:PSHandHistory
 flg_chiplead	pypokertools/parsers.py	/^    def flg_chiplead(self, player):$/;"	m	class:PSHandHistory
@@ -146,22 +145,15 @@ getBlinds	pypokertools/parsers.py	/^    def getBlinds(self):$/;"	m	class:PSHandH
 getStack	pypokertools/parsers.py	/^    def getStack(self, player):$/;"	m	class:PSHandHistory
 get_ev_table_by_ref	pypokertools/parsers.py	/^    def get_ev_table_by_ref(self, ref):$/;"	m	class:HRCOutput
 get_hand_ev	pypokertools/parsers.py	/^    def get_hand_ev(self, hand, player):$/;"	m	class:HRCOutput
+get_params	test/test_pokercalc.py	/^    def get_params(self, params):$/;"	m	class:TestEV
 get_range	pypokertools/parsers.py	/^    def get_range(self, player: str):$/;"	m	class:HRCOutput
 get_ref_by_player	pypokertools/parsers.py	/^    def get_ref_by_player(self, player: str):$/;"	m	class:HRCOutput
 get_stacks_table	pypokertools/parsers.py	/^    def get_stacks_table(self):$/;"	m	class:HRCOutput
 get_strategy_table	pypokertools/parsers.py	/^    def get_strategy_table(self):$/;"	m	class:HRCOutput
-hand	evko.py	/^    hand = hh.HHParser(history)$/;"	v
-hand	find_hand_ev.py	/^    hand = hh.cards_to_hand(hh.hero_cards)$/;"	v
 hero	pypokertools/parsers.py	/^    def hero(self):$/;"	m	class:PSHandHistory
 hero_cards	pypokertools/parsers.py	/^    def hero_cards(self):$/;"	m	class:PSHandHistory
-hh	find_hand_ev.py	/^    hh = HHParser(hand_hist)$/;"	v
 hid	pypokertools/parsers.py	/^    def hid(self):$/;"	m	class:PSHandHistory
-hs	evko.py	/^hs = HandStorage('hands\/10')$/;"	v
-hs	find_hand_ev.py	/^hs = hand_storage.HandStorage('hands\/hrcparser\/')$/;"	v
-html	find_hand_ev.py	/^        html = f.read()$/;"	v
 html	pypokertools/parsers.py	/^    html = read_html('hrc_output.html')$/;"	v	class:PSHandHistory
-icm	evko.py	/^icm = pc.Icm((0.50, 0.50))$/;"	v
-icm_diff	evko.py	/^        icm_diff = ev.icm_diff$/;"	v
 icm_diff	pypokertools/calc/pokercalc.py	/^    def icm_diff(self):$/;"	m	class:EV
 icm_diff_pct	pypokertools/calc/pokercalc.py	/^    def icm_diff_pct(self):$/;"	m	class:EV
 icm_eq	pypokertools/parsers.py	/^    def icm_eq(self, stacks=None):$/;"	m	class:PSHandHistory
@@ -170,35 +162,27 @@ icm_ev	pypokertools/calc/pokercalc.py	/^    def icm_ev(self):$/;"	m	class:EV
 icm_ev_pct	pypokertools/calc/pokercalc.py	/^    def icm_ev_pct(self):$/;"	m	class:EV
 icm_fact	pypokertools/calc/pokercalc.py	/^    def icm_fact(self):$/;"	m	class:EV
 icm_fact_pct	pypokertools/calc/pokercalc.py	/^    def icm_fact_pct(self):$/;"	m	class:EV
+knocks	test/scratch1.py	/^knocks = sum([stacks[name] >= stacks[s] for s in siblings])$/;"	v
 known_cards	pypokertools/parsers.py	/^    def known_cards(self):$/;"	m	class:PSHandHistory
-ko	evko.py	/^ko = pc.Knockout(pc.KOModels.PROPORTIONAL)$/;"	v
-ko_diff	evko.py	/^        ko_diff = ev.ko_diff$/;"	v
 ko_diff	pypokertools/calc/pokercalc.py	/^    def ko_diff(self):$/;"	m	class:EV
-ko_diff_pct	evko.py	/^        ko_diff_pct = ev.ko_diff_pct$/;"	v
 ko_diff_pct	pypokertools/calc/pokercalc.py	/^    def ko_diff_pct(self):$/;"	m	class:EV
-ko_ev	evko.py	/^        ko_ev = ev.ko_ev$/;"	v
 ko_ev	pypokertools/calc/pokercalc.py	/^    def ko_ev(self):$/;"	m	class:EV
-ko_ev_pct	evko.py	/^        ko_ev_pct = ev.ko_ev_pct$/;"	v
 ko_ev_pct	pypokertools/calc/pokercalc.py	/^    def ko_ev_pct(self):$/;"	m	class:EV
-ko_fact	evko.py	/^        ko_fact = ev.ko_fact$/;"	v
 ko_fact	pypokertools/calc/pokercalc.py	/^    def ko_fact(self):$/;"	m	class:EV
-ko_fact_pct	evko.py	/^        ko_fact_pct = ev.ko_fact_pct$/;"	v
 ko_fact_pct	pypokertools/calc/pokercalc.py	/^    def ko_fact_pct(self):$/;"	m	class:EV
 last_actions	pypokertools/parsers.py	/^    def last_actions(self):$/;"	m	class:PSHandHistory
 last_actions_amounts	pypokertools/parsers.py	/^    def last_actions_amounts(self):$/;"	m	class:PSHandHistory
-li	evko.py	/^        li = [hand.tid(), hand.datetime(), eq, ev_diff, icm_diff, ko_diff]$/;"	v
-load_config	roi.py	/^def load_config(config_current, config_file):$/;"	f
-load_ps_notes	roi.py	/^def load_ps_notes(notes_file):$/;"	f
-logger	evko.py	/^logger = logging.getLogger(__name__)$/;"	v
+load_config	roi/roi.py	/^def load_config(config_current, config_file):$/;"	f
+load_ps_notes	roi/roi.py	/^def load_ps_notes(notes_file):$/;"	f
 logger	pypokertools/calc/pokercalc.py	/^logger = logging.getLogger(__name__)$/;"	v
-logger	pypokertools/calc/test_pokercalc.py	/^logger = logging.getLogger(__name__)$/;"	v
 logger	test/test_hhparser.py	/^logger = logging.getLogger(__name__)$/;"	v
 logger	test/test_hrcparser.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	test/test_pokercalc.py	/^logger = logging.getLogger(__name__)$/;"	v
 long_description	setup.py	/^    long_description=open(join(dirname(__file__), 'README.txt')).read(),$/;"	v
-main	roi.py	/^def main():$/;"	f
-message	roi.py	/^def message(msg, error_level):$/;"	f
+main	roi/roi.py	/^def main():$/;"	f
+message	roi/roi.py	/^def message(msg, error_level):$/;"	f
 name	setup.py	/^    name='pypokertools',$/;"	v
-newdict	pypokertools/calc/pokercalc.py	/^    def newdict(cls):$/;"	m	class:StacksDict
+name	test/scratch1.py	/^name = 'p4'$/;"	v
 non_zero_values	pypokertools/calc/pokercalc.py	/^    def non_zero_values(d: dict):$/;"	m	class:EV
 p1p	pypokertools/parsers.py	/^    def p1p(self, ind, place):$/;"	m	class:PSHandHistory
 p_actions	pypokertools/parsers.py	/^    def p_actions(self):$/;"	m	class:PSHandHistory
@@ -206,11 +190,8 @@ p_actions_amounts	pypokertools/parsers.py	/^    def p_actions_amounts(self):$/;"
 p_ai_players	pypokertools/parsers.py	/^    def p_ai_players(self):$/;"	m	class:PSHandHistory
 p_last_action	pypokertools/parsers.py	/^    def p_last_action(self):$/;"	m	class:PSHandHistory
 packages	setup.py	/^    packages=find_packages(),$/;"	v
-parse_arguments	roi.py	/^def parse_arguments():$/;"	f
-parser	find_hand_ev.py	/^    parser = HRCParser(html)$/;"	v
+parse_arguments	roi/roi.py	/^def parse_arguments():$/;"	f
 parser	pypokertools/parsers.py	/^    parser = HRCOutput(html)$/;"	v	class:PSHandHistory
-player	evko.py	/^player = 'DiggErr555'$/;"	v
-players	find_hand_ev.py	/^    players = ','.join([k for k, v in hh.p_actions.items() if v != ['f']])$/;"	v
 players_number	pypokertools/parsers.py	/^    def players_number(self):$/;"	m	class:PSHandHistory
 positions	pypokertools/parsers.py	/^    def positions(self):$/;"	m	class:PSHandHistory
 pot_list	pypokertools/parsers.py	/^    def pot_list(self):$/;"	m	class:PSHandHistory
@@ -228,34 +209,45 @@ read_summary	pypokertools/storage/hand_storage.py	/^    def read_summary(self, t
 read_summary	pypokertools/storage/hand_storage.py	/^    def read_summary(self, tid):$/;"	m	class:HandStoragePgsql
 replace_empty	pypokertools/parsers.py	/^        def replace_empty(s: str):$/;"	f	function:HRCOutput.get_strategy_table
 river	pypokertools/parsers.py	/^    def river(self):$/;"	m	class:PSHandHistory
-setUp	pypokertools/calc/test_pokercalc.py	/^    def setUp(self):$/;"	m	class:TestEV
+root	test/scratch.py	/^root = build_outcome_tree()$/;"	v
+round_dict	test/test_pokercalc.py	/^def round_dict(d, n):$/;"	f
 setUp	test/test_hhparser.py	/^    def setUp(self):$/;"	m	class:TestPSHandHistory
 setUp	test/test_hhparser.py	/^    def setUp(self):$/;"	m	class:TestPSTournamentSummary
 setUp	test/test_hrcparser.py	/^    def setUp(self):$/;"	m	class:TestHRCOutput
+setUpClass	test/test_pokercalc.py	/^    def setUpClass(cls):$/;"	m	class:TestEV
+siblings	test/scratch1.py	/^siblings = ['p2', 'p3', 'p1']$/;"	v
+sort_ai_players_by_chipcount	pypokertools/calc/pokercalc.py	/^    def sort_ai_players_by_chipcount(self):$/;"	m	class:EV
 stack_list	pypokertools/parsers.py	/^    def stack_list(self):$/;"	m	class:PSHandHistory
 stacks	pypokertools/parsers.py	/^    def stacks(self):$/;"	m	class:PSHandHistory
+stacks	test/scratch.py	/^stacks = {'p1': 1012, 'p2': 484, 'p3': 464, 'p4': 40, 'p5': 464, 'p6': 494}$/;"	v
+stacks	test/scratch1.py	/^stacks = {'p1': 1012, 'p2': 484, 'p3': 464, 'p4': 40, 'p5': 464, 'p6': 494}$/;"	v
+str_to_cards	pypokertools/calc/pokercalc.py	/^def str_to_cards(hand_str):$/;"	f
 sum_dict_values	pypokertools/calc/pokercalc.py	/^    def sum_dict_values(d: dict):$/;"	m	class:EV
 t_actions	pypokertools/parsers.py	/^    def t_actions(self):$/;"	m	class:PSHandHistory
 t_actions_amounts	pypokertools/parsers.py	/^    def t_actions_amounts(self):$/;"	m	class:PSHandHistory
 t_ai_players	pypokertools/parsers.py	/^    def t_ai_players(self):$/;"	m	class:PSHandHistory
 t_last_action	pypokertools/parsers.py	/^    def t_last_action(self):$/;"	m	class:PSHandHistory
 tablePosition	pypokertools/parsers.py	/^    def tablePosition(self, player):$/;"	m	class:PSHandHistory
-test__p1p	pypokertools/calc/test_pokercalc.py	/^    def test__p1p(self):$/;"	m	class:TestPokercalc
+test__p1p	test/test_pokercalc.py	/^    def test__p1p(self):$/;"	m	class:TestPokercalc
 test__str__	test/test_hhparser.py	/^    def test__str__(self):$/;"	m	class:TestPSTournamentSummary
+test_add	test/test_pokercalc.py	/^    def test_add(self):$/;"	m	class:TestNumericDict
+test_add_cildren	test/test_pokercalc.py	/^    def test_add_cildren(self):$/;"	m	class:TestOutcome
 test_antes	test/test_hhparser.py	/^    def test_antes(self):$/;"	m	class:TestPSHandHistory
 test_bi	test/test_hhparser.py	/^    def test_bi(self):$/;"	m	class:TestPSHandHistory
 test_blinds	test/test_hhparser.py	/^    def test_blinds(self):$/;"	m	class:TestPSHandHistory
 test_blinds_antes	test/test_hhparser.py	/^    def test_blinds_antes(self):        $/;"	m	class:TestPSHandHistory
 test_bounty_won	test/test_hhparser.py	/^    def test_bounty_won(self):$/;"	m	class:TestPSHandHistory
-test_calc	pypokertools/calc/test_pokercalc.py	/^    def test_calc(self):$/;"	m	class:TestPokercalc
+test_calc	test/test_pokercalc.py	/^    def test_calc(self):$/;"	m	class:TestPokercalc
 test_cards_to_hand	test/test_hhparser.py	/^    def test_cards_to_hand(self):$/;"	m	class:TestPSHandHistory
-test_chip_diff	pypokertools/calc/test_pokercalc.py	/^    def test_chip_diff(self):$/;"	m	class:TestEV
-test_chip_fact	pypokertools/calc/test_pokercalc.py	/^    def test_chip_fact(self):$/;"	m	class:TestEV
-test_chip_lose	pypokertools/calc/test_pokercalc.py	/^    def test_chip_lose(self):$/;"	m	class:TestEV
-test_chip_win	pypokertools/calc/test_pokercalc.py	/^    def test_chip_win(self):$/;"	m	class:TestEV
+test_chip_diff	test/test_pokercalc.py	/^    def test_chip_diff(self):$/;"	m	class:TestEV
+test_chip_fact	test/test_pokercalc.py	/^    def test_chip_fact(self, params):$/;"	m	class:TestEV
+test_chip_fact_chip_sum	test/test_pokercalc.py	/^    def test_chip_fact_chip_sum(self, params):$/;"	m	class:TestEV
+test_chip_lose	test/test_pokercalc.py	/^    def test_chip_lose(self):$/;"	m	class:TestEV
+test_chip_win	test/test_pokercalc.py	/^    def test_chip_win(self):$/;"	m	class:TestEV
 test_chip_won	test/test_hhparser.py	/^    def test_chip_won(self):$/;"	m	class:TestPSHandHistory
 test_datetime	test/test_hhparser.py	/^    def test_datetime(self):$/;"	m	class:TestPSHandHistory
-test_equties	pypokertools/calc/test_pokercalc.py	/^    def test_equties(self):$/;"	m	class:TestEV
+test_empty	test/test_pokercalc.py	/^    def test_empty(self):$/;"	m	class:TestNumericDict
+test_equties	test/test_pokercalc.py	/^    def test_equties(self, params):$/;"	m	class:TestEV
 test_f_actions	test/test_hhparser.py	/^    def test_f_actions(self):$/;"	m	class:TestPSHandHistory
 test_f_actions_amounts	test/test_hhparser.py	/^    def test_f_actions_amounts(self):$/;"	m	class:TestPSHandHistory
 test_f_last_action	test/test_hhparser.py	/^    def test_f_last_action(self):$/;"	m	class:TestPSHandHistory
@@ -277,20 +269,22 @@ test_get_range	test/test_hrcparser.py	/^    def test_get_range(self):$/;"	m	clas
 test_hero	test/test_hhparser.py	/^    def test_hero(self):$/;"	m	class:TestPSHandHistory
 test_hero_cards	test/test_hhparser.py	/^    def test_hero_cards(self):$/;"	m	class:TestPSHandHistory
 test_hid	test/test_hhparser.py	/^    def test_hid(self):$/;"	m	class:TestPSHandHistory
-test_icm	pypokertools/calc/test_pokercalc.py	/^    def test_icm(self):$/;"	m	class:TestPokercalc
+test_icm	test/test_pokercalc.py	/^    def test_icm(self):$/;"	m	class:TestPokercalc
 test_icm_eq	test/test_hhparser.py	/^    def test_icm_eq(self):$/;"	m	class:TestPSHandHistory
-test_icm_ev	pypokertools/calc/test_pokercalc.py	/^    def test_icm_ev(self):$/;"	m	class:TestEV
-test_icm_ev_pct	pypokertools/calc/test_pokercalc.py	/^    def test_icm_ev_pct(self):$/;"	m	class:TestEV
-test_icm_fact	pypokertools/calc/test_pokercalc.py	/^    def test_icm_fact(self):$/;"	m	class:TestEV
-test_icm_fact_pct	pypokertools/calc/test_pokercalc.py	/^    def test_icm_fact_pct(self):$/;"	m	class:TestEV
+test_icm_ev	test/test_pokercalc.py	/^    def test_icm_ev(self):$/;"	m	class:TestEV
+test_icm_ev_pct	test/test_pokercalc.py	/^    def test_icm_ev_pct(self):$/;"	m	class:TestEV
+test_icm_fact	test/test_pokercalc.py	/^    def test_icm_fact(self, params):$/;"	m	class:TestEV
+test_icm_fact_pct	test/test_pokercalc.py	/^    def test_icm_fact_pct(self, params):$/;"	m	class:TestEV
 test_isKnockoutTournament	test/test_hhparser.py	/^    def test_isKnockoutTournament(self):$/;"	m	class:TestPSHandHistory
 test_known_cards	test/test_hhparser.py	/^    def test_known_cards(self):$/;"	m	class:TestPSHandHistory
-test_ko_ev	pypokertools/calc/test_pokercalc.py	/^    def test_ko_ev(self):$/;"	m	class:TestEV
-test_ko_ev_pct	pypokertools/calc/test_pokercalc.py	/^    def test_ko_ev_pct(self):$/;"	m	class:TestEV
-test_ko_fact	pypokertools/calc/test_pokercalc.py	/^    def test_ko_fact(self):$/;"	m	class:TestEV
-test_ko_fact_pct	pypokertools/calc/test_pokercalc.py	/^    def test_ko_fact_pct(self):$/;"	m	class:TestEV
+test_ko_ev	test/test_pokercalc.py	/^    def test_ko_ev(self):$/;"	m	class:TestEV
+test_ko_ev_pct	test/test_pokercalc.py	/^    def test_ko_ev_pct(self):$/;"	m	class:TestEV
+test_ko_fact	test/test_pokercalc.py	/^    def test_ko_fact(self):$/;"	m	class:TestEV
+test_ko_fact_pct	test/test_pokercalc.py	/^    def test_ko_fact_pct(self):$/;"	m	class:TestEV
 test_last_actions	test/test_hhparser.py	/^    def test_last_actions(self):$/;"	m	class:TestPSHandHistory
-test_non_zero_values	pypokertools/calc/test_pokercalc.py	/^    def test_non_zero_values(self):$/;"	m	class:TestEV
+test_len	test/test_pokercalc.py	/^    def test_len(self):$/;"	m	class:TestNumericDict
+test_mul	test/test_pokercalc.py	/^    def test_mul(self):$/;"	m	class:TestNumericDict
+test_non_zero_values	test/test_pokercalc.py	/^    def test_non_zero_values(self):$/;"	m	class:TestEV
 test_p_actions	test/test_hhparser.py	/^    def test_p_actions(self):$/;"	m	class:TestPSHandHistory
 test_p_actions_amounts	test/test_hhparser.py	/^    def test_p_actions_amounts(self):$/;"	m	class:TestPSHandHistory
 test_p_ai_players	test/test_hhparser.py	/^    def test_p_ai_players(self):$/;"	m	class:TestPSHandHistory
@@ -303,7 +297,8 @@ test_prize_won	test/test_hhparser.py	/^    def test_prize_won(self):$/;"	m	class
 test_r_actions_amounts	test/test_hhparser.py	/^    def test_r_actions_amounts(self):$/;"	m	class:TestPSHandHistory
 test_r_last_action	test/test_hhparser.py	/^    def test_r_last_action(self):$/;"	m	class:TestPSHandHistory
 test_stacks	test/test_hhparser.py	/^    def test_stacks(self):$/;"	m	class:TestPSHandHistory
-test_sum_dict_values	pypokertools/calc/test_pokercalc.py	/^    def test_sum_dict_values(self):$/;"	m	class:TestEV
+test_sub	test/test_pokercalc.py	/^    def test_sub(self):$/;"	m	class:TestNumericDict
+test_sum_dict_values	test/test_pokercalc.py	/^    def test_sum_dict_values(self):$/;"	m	class:TestEV
 test_t_actions_amounts	test/test_hhparser.py	/^    def test_t_actions_amounts(self):$/;"	m	class:TestPSHandHistory
 test_t_last_action	test/test_hhparser.py	/^    def test_t_last_action(self):$/;"	m	class:TestPSHandHistory
 test_tablePosition	test/test_hhparser.py	/^    def test_tablePosition(self):$/;"	m	class:TestPSHandHistory
@@ -312,6 +307,7 @@ test_tid	test/test_hhparser.py	/^    def test_tid(self):$/;"	m	class:TestPSTourn
 test_total_bets_amounts	test/test_hhparser.py	/^    def test_total_bets_amounts(self):$/;"	m	class:TestPSHandHistory
 test_tournamentPosition	test/test_hhparser.py	/^    def test_tournamentPosition(self):$/;"	m	class:TestPSHandHistory
 test_tournamentPositionL	test/test_hhparser.py	/^    def test_tournamentPositionL(self): $/;"	m	class:TestPSHandHistory
+test_truediv	test/test_pokercalc.py	/^    def test_truediv(self):$/;"	m	class:TestNumericDict
 test_uncalled	test/test_hhparser.py	/^    def test_uncalled(self):$/;"	m	class:TestPSHandHistory
 tid	pypokertools/parsers.py	/^    def tid(self):$/;"	m	class:PSHandHistory
 tid	pypokertools/parsers.py	/^    def tid(self):$/;"	m	class:PSTournamentSummary
@@ -322,3 +318,4 @@ tournamentPositionL	pypokertools/parsers.py	/^    def tournamentPositionL(self, 
 turn	pypokertools/parsers.py	/^    def turn(self):$/;"	m	class:PSHandHistory
 uncalled	pypokertools/parsers.py	/^    def uncalled(self):$/;"	m	class:PSHandHistory
 version	setup.py	/^    version='1.0',$/;"	v
+wrapper	test/test_pokercalc.py	/^        def wrapper(*args):$/;"	f	function:cases.decorator

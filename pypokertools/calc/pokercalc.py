@@ -147,8 +147,7 @@ class OutCome(NodeMixin, object):
             self.children = children
 
     def __repr__(self):
-        args = ["%r" % self.separator.join([""] + [str(node.name) for node in self.path])]
-        return self._repr(self, args=args, nameblacklist=["name"])
+        return "%r" % self.separator.join([""] + [str(node.name) for node in self.path])
 
 
 def add_children(root, children):
@@ -316,8 +315,16 @@ class EV:
     def chip_win(self):
         pass
 
+    def chip_outcome(self, winners):
+        """ returns outcome with winners
+        raise error if winners not in aiplayers
+        returns: NumericDict {player: stack}
+        """
+        res = NumericDict(int)
+
     def chip_fact(self):
         """Return real outcome of played hand
+        chip count after hand been played
         returns: NumericDict {player: stack}
         """
         res = NumericDict(int)
@@ -334,7 +341,9 @@ class EV:
         return res
 
     def chip_ev(self):
-        # returns dict {player: stack}
+        """Net won chips All in EV adjasted
+        returns: dict {player: stack}
+        """
         if not(self.hand.flg_showdown()):
             return self.chip_fact
 

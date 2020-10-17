@@ -1,0 +1,33 @@
+PokerStars Hand #218966745573: Tournament #3017551323, $14.71+$0.29 USD Hold'em No Limit - Match Round II, Level I (25/50) - 2020/10/01 19:54:01 MSK [2020/10/01 12:54:01 ET]
+Table '3017551323 1' 4-max Seat #4 is the button
+Seat 1: Rikimoro (430 in chips) 
+Seat 2: slavikus555 (595 in chips) 
+Seat 3: DiggErr555 (455 in chips) 
+Seat 4: wycioreks (520 in chips) 
+Rikimoro: posts the ante 10
+slavikus555: posts the ante 10
+DiggErr555: posts the ante 10
+wycioreks: posts the ante 10
+Rikimoro: posts small blind 25
+slavikus555: posts big blind 50
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Qc 8d]
+DiggErr555: folds 
+wycioreks: folds 
+Rikimoro: raises 370 to 420 and is all-in
+slavikus555: calls 370
+*** FLOP *** [7d Jh 4c]
+*** TURN *** [7d Jh 4c] [3c]
+*** RIVER *** [7d Jh 4c 3c] [9d]
+*** SHOW DOWN ***
+Rikimoro: shows [2h Ks] (high card King)
+slavikus555: shows [Kc Ts] (high card King - Jack+Ten kicker)
+slavikus555 collected 880 from pot
+Rikimoro finished the tournament in 4th place
+*** SUMMARY ***
+Total pot 880 | Rake 0 
+Board [7d Jh 4c 3c 9d]
+Seat 1: Rikimoro (small blind) showed [2h Ks] and lost with high card King
+Seat 2: slavikus555 (big blind) showed [Kc Ts] and won (880) with high card King
+Seat 3: DiggErr555 folded before Flop (didn't bet)
+Seat 4: wycioreks (button) folded before Flop (didn't bet)

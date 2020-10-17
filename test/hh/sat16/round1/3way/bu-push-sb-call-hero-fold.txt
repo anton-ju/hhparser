@@ -1,0 +1,29 @@
+PokerStars Hand #218966680963: Tournament #3017551323, $14.71+$0.29 USD Hold'em No Limit - Match Round I, Level II (50/100) - 2020/10/01 19:51:44 MSK [2020/10/01 12:51:44 ET]
+Table '3017551323 3' 4-max Seat #4 is the button
+Seat 1: fozzzi (270 in chips) 
+Seat 3: DiggErr555 (1010 in chips) 
+Seat 4: apos87tolos (720 in chips) 
+fozzzi: posts the ante 20
+DiggErr555: posts the ante 20
+apos87tolos: posts the ante 20
+fozzzi: posts small blind 50
+DiggErr555: posts big blind 100
+*** HOLE CARDS ***
+Dealt to DiggErr555 [7d 4s]
+apos87tolos: raises 600 to 700 and is all-in
+fozzzi: calls 200 and is all-in
+DiggErr555: folds 
+Uncalled bet (450) returned to apos87tolos
+*** FLOP *** [3d 8h 9h]
+*** TURN *** [3d 8h 9h] [4c]
+*** RIVER *** [3d 8h 9h 4c] [Ah]
+*** SHOW DOWN ***
+fozzzi: shows [6d 6h] (a pair of Sixes)
+apos87tolos: shows [Ts Kh] (high card Ace)
+fozzzi collected 660 from pot
+*** SUMMARY ***
+Total pot 660 | Rake 0 
+Board [3d 8h 9h 4c Ah]
+Seat 1: fozzzi (small blind) showed [6d 6h] and won (660) with a pair of Sixes
+Seat 3: DiggErr555 (big blind) folded before Flop
+Seat 4: apos87tolos (button) showed [Ts Kh] and lost with high card Ace

@@ -1,0 +1,25 @@
+PokerStars Hand #218966698609: Tournament #3017551323, $14.71+$0.29 USD Hold'em No Limit - Match Round I, Level II (50/100) - 2020/10/01 19:52:22 MSK [2020/10/01 12:52:22 ET]
+Table '3017551323 3' 4-max Seat #1 is the button
+Seat 1: fozzzi (710 in chips) 
+Seat 3: DiggErr555 (1290 in chips) 
+fozzzi: posts the ante 20
+DiggErr555: posts the ante 20
+fozzzi: posts small blind 50
+DiggErr555: posts big blind 100
+*** HOLE CARDS ***
+Dealt to DiggErr555 [3s Ah]
+fozzzi: raises 590 to 690 and is all-in
+DiggErr555: calls 590
+*** FLOP *** [6c Ks Ad]
+*** TURN *** [6c Ks Ad] [6d]
+*** RIVER *** [6c Ks Ad 6d] [Js]
+*** SHOW DOWN ***
+DiggErr555: shows [3s Ah] (two pair, Aces and Sixes)
+fozzzi: shows [9c Jc] (two pair, Jacks and Sixes)
+DiggErr555 collected 1420 from pot
+fozzzi finished the tournament in 7th place
+*** SUMMARY ***
+Total pot 1420 | Rake 0 
+Board [6c Ks Ad 6d Js]
+Seat 1: fozzzi (button) (small blind) showed [9c Jc] and lost with two pair, Jacks and Sixes
+Seat 3: DiggErr555 (big blind) showed [3s Ah] and won (1420) with two pair, Aces and Sixes

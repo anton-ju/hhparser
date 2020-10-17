@@ -1,0 +1,33 @@
+PokerStars Hand #218966661871: Tournament #3017551323, $14.71+$0.29 USD Hold'em No Limit - Match Round I, Level I (25/50) - 2020/10/01 19:51:04 MSK [2020/10/01 12:51:04 ET]
+Table '3017551323 3' 4-max Seat #1 is the button
+Seat 1: fozzzi (100 in chips) 
+Seat 2: bayaraa2222 (270 in chips) 
+Seat 3: DiggErr555 (1170 in chips) 
+Seat 4: apos87tolos (460 in chips) 
+fozzzi: posts the ante 10
+bayaraa2222: posts the ante 10
+DiggErr555: posts the ante 10
+apos87tolos: posts the ante 10
+bayaraa2222: posts small blind 25
+DiggErr555: posts big blind 50
+*** HOLE CARDS ***
+Dealt to DiggErr555 [Qh Qd]
+apos87tolos: folds 
+fozzzi: folds 
+bayaraa2222: raises 210 to 260 and is all-in
+DiggErr555: calls 210
+*** FLOP *** [4c 8h 7h]
+*** TURN *** [4c 8h 7h] [7c]
+*** RIVER *** [4c 8h 7h 7c] [Tc]
+*** SHOW DOWN ***
+bayaraa2222: shows [Jh 6h] (a pair of Sevens)
+DiggErr555: shows [Qh Qd] (two pair, Queens and Sevens)
+DiggErr555 collected 560 from pot
+bayaraa2222 finished the tournament in 12th place
+*** SUMMARY ***
+Total pot 560 | Rake 0 
+Board [4c 8h 7h 7c Tc]
+Seat 1: fozzzi (button) folded before Flop (didn't bet)
+Seat 2: bayaraa2222 (small blind) showed [Jh 6h] and lost with a pair of Sevens
+Seat 3: DiggErr555 (big blind) showed [Qh Qd] and won (560) with two pair, Queens and Sevens
+Seat 4: apos87tolos folded before Flop (didn't bet)
