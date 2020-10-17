@@ -147,7 +147,10 @@ class OutCome(NodeMixin, object):
             self.children = children
 
     def __repr__(self):
-        return "%r" % self.separator.join([""] + [str(node.name) for node in self.path])
+        res = []
+        for pre, _, node in RenderTree(self):
+            res.append("%s %s %s %s" % (pre, node.name, node.chips, node.knocks))
+        return '\n'.join(res)
 
 
 def add_children(root, children):
@@ -175,6 +178,53 @@ def fill_probs(root, cards):
     for pre, fill, node in RenderTree(root):
         if not node.is_leaf:
             pass
+
+
+def build_outcome(path, aiplayers, stacks, pots, uncalled, total_bets):
+    """returns outcome
+    path: list of players in order of winning
+    """
+    
+    # players with bigger stack first
+    aiplayers.sort(key=lambda v: stacks[v], reverse=True)
+    not_aiplayers = [p for p in stacks.keys() if p not in aiplayers]
+    # [side2pot, side1pot, mainpot]
+    # [players_in_pot[0] - corresponds to list of players in side2 pot
+    # [players_in_pot[1] - corresponds to list of players in side1 pot and so on 
+    players_in_pot = list(reversed([aiplayers[:l] for l in range(len(pots)+1, 1, -1)]))
+    # uncalled for top1 player
+    stack = {}
+    if len(aiplayers) == 2:
+        stack[path[0]] = pots[0] + stacks[path[0]] - total_bets[path[0]]
+        stack[path[1]] = stacks[path[1]] - total_bets[path[1]]
+    else:
+        p_index = 0
+        for i, pot in enumerate(pots):
+            if path[p_index] in players_in_pot[i]:
+                try:
+                    stack[path[p_index]] += pots[i]
+                except KeyError:
+                    stack[path[p_index]] = pots[i]
+                p_index = p_index + 1 if p_index < len(path) - 1 else p_index
+            else:
+                stack[path[p_index-1]] = stack[path[p_index-1]] + pots[i]
+
+    # stacks for players that is not take part in pots remains the same - blinds ante
+    for p in not_aiplayers:
+        stack[p] = stacks[p] - total_bets[p]
+
+    # players who lose.
+    for p in aiplayers:
+        if p not in path:
+            stack[p] = 0
+
+    # uncalled allways to top1 player
+    try:
+        stack[aiplayers[0]] += uncalled[aiplayers[0]]
+    except KeyError:
+        stack[aiplayers[0]] = uncalled[aiplayers[0]]
+
+    return {p: int(v) for p, v in stack.items()}
 
 
 def build_outcome_tree(aiplayers, stacks, pots, uncalled):
@@ -251,14 +301,14 @@ class EV:
         self.p_ai_players = []
         self.f_ai_players = []
         self.t_ai_players = []
-        self.aiplayers = hand.p_ai_players + hand.f_ai_players + hand.t_ai_players + hand.r_ai_players
-        self.winnings_chips = NumericDict(list, self.hand.chip_won)
-        self.prize_won = self.hand.prize_won
-        self.chips = NumericDict(int, self.hand.stacks())
+        self.winnings_chips = NumericDict(list, hand.chip_won)
+        self.total_bets = NumericDict(int, hand.total_bets_amounts())
+        self.prize_won = hand.prize_won
+        self.chips = NumericDict(int, hand.stacks())
         self.players = self.chips.keys()
-        self.uncalled = NumericDict(int, self.hand.uncalled)
-        self.cards = NumericDict(int, self.hand.known_cards)
-        self.pots = self.hand.pot_list
+        self.uncalled = NumericDict(int, hand.uncalled)
+        self.cards = NumericDict(int, hand.known_cards)
+        self.pots = hand.pot_list
         # not include total pot if multiway
         if len(self.pots) > 1:
             self.pots = self.pots[1:]
@@ -267,8 +317,17 @@ class EV:
         self.total_prizes = (self.hand.bi - self.hand.rake - self.hand.bounty) * 6
         self.player = str()
         self.flg_calculated = False
-        self.sort_ai_players_by_chipcount()
         self.detect_ai_players()
+        self.ai_players = hand.p_ai_players+hand.f_ai_players+hand.t_ai_players+hand.r_ai_players
+        self.sort_ai_players_by_chipcount()
+
+    @staticmethod
+    def outcome(self, players):
+        """players: list of players in winnig order
+        hand: parsed hand object of HandHistoryParser subclass
+        returns chipcount for given outcome
+        """
+        pass
 
     def detect_ai_players(self):
 
@@ -291,20 +350,21 @@ class EV:
 
     def sort_ai_players_by_chipcount(self):
         # sort players list by chip count
-        self.ai_players.sort(key=lambda v: self.chips[v])
+        self.ai_players.sort(key=lambda v: self.chips[v], reverse=True)
 
     def calc(self, player):
         if player not in self.players:
             raise PlayerNotFoundException()
         self.player = player
         self.flg_calculated = True
-        if self.ai_players:
-            print(self.ai_players, self.chips, self.pots, self.uncalled)
-            root = build_outcome_tree(self.ai_players, self.chips, self.pots, self.uncalled)
-            for pre, _, node in RenderTree(root):
-                print("%s %s %s %s" % (pre, node.name, node.chips, node.knocks))
-        else:
-            print(self.chip_fact())
+        #if self.ai_players:
+            # print(self.ai_players, self.chips, self.pots, self.uncalled)
+            #root = build_outcome_tree(self.ai_players, self.chips, self.pots, self.uncalled)
+            #for pre, _, node in RenderTree(root):
+            #    pass
+                #print("%s %s %s %s" % (pre, node.name, node.chips, node.knocks))
+        #else:
+            #print(self.chip_fact())
 
     def chip_diff(self):
         return self.chip_ev() - self.chip_fact()
@@ -331,7 +391,7 @@ class EV:
         total_bets_amounts = self.hand.total_bets_amounts()
 
         for p in self.players:
-            if p in self.aiplayers:
+            if p in self.ai_players:
                 res[p] = sum(self.winnings_chips[p]) + self.uncalled[p]
             else:
                 res[p] = self.chips[p] \
@@ -347,7 +407,7 @@ class EV:
         if not(self.hand.flg_showdown()):
             return self.chip_fact
 
-        if not(self.aiplayers):
+        if not(self.ai_players):
             return self.chip_fact
 
         res = NumericDict(int)

@@ -36,6 +36,38 @@ def round_dict(d, n):
     return {k: round(v, n) for k, v in d.items()}
 
 
+class LoadCasesMixin:
+    @classmethod
+    def setUpClass(cls):
+        icm = pokercalc.Icm((0.5, 0.5))
+        icm1 = pokercalc.Icm((1,))
+        ko = pokercalc.Knockout(pokercalc.KOModels.PROPORTIONAL)
+        cls.case = {}
+        cases = [()]
+        fn_list = ['hh/th0.txt',
+                   'hh/th1.txt',
+                   'hh/th7.txt',
+                   'hh/th8.txt',
+                   'hh/sat16/round1/2way/hero-push-sb-call.txt',
+                   'hh/sat16/round1/2way/sb-push-hero-call.txt',
+                   'hh/sat16/round1/2way/hero-call-bvb.txt',
+                   ]
+        for fn in fn_list:
+            with open(fn) as f:
+                hh_text = f.read()
+                # print(hh_text)
+                parsed_hand = hhparser(hh_text)
+                case = pokercalc.EV(parsed_hand, icm, ko)
+                case.calc('DiggErr555')
+                cls.case[fn] = case
+
+    def get_params(self, params):
+        expected = params.get('expected')
+        case = self.case.get(params.get('fn'))
+        return case, expected
+
+
+
 class TestPokercalc(unittest.TestCase):
     @skip
     def test_icm(self):
@@ -121,7 +153,7 @@ class TestEV(unittest.TestCase):
         for fn in fn_list:
             with open(fn) as f:
                 hh_text = f.read()
-                print(hh_text)
+                # print(hh_text)
                 parsed_hand = hhparser(hh_text)
                 case = pokercalc.EV(parsed_hand, icm, ko)
                 case.calc('DiggErr555')
@@ -297,80 +329,6 @@ class TestEV(unittest.TestCase):
         result = round_dict(result, 2)
         self.assertEqual(result, expected)
 
-    @skip
-    def test_icm_ev(self):
-        case = self.case1
-        res = case.icm_ev()
-        logger.debug(f'{case.hand.hid}->{res}')
-    #     self.assertEqual(res, {'vIpEr9427': 12.61,
-    #                                 'Denisov V.': 10.63,
-    #                                 'Chang Chi': 6.67,
-    #                                 'sabuco_2110': 18.82,
-    #                                 'shagvaladyan': 11.08,
-    #                                 'DiggErr555': 12.24})
-
-    @skip
-    def test_icm_ev_pct(self):
-        case = self.case1
-        res = case.icm_ev_pct()
-        logger.debug(f'{case.hand.hid}->{res}')
-    #     self.assertEqual(res, {'vIpEr9427': 0.175,
-    #                                 'Denisov V.': 0.1475,
-    #                                 'Chang Chi': 0.0926,
-    #                                 'sabuco_2110': 0.2612,
-    #                                 'shagvaladyan': 0.1538,
-    #                                 'DiggErr555': 0.1699})
-
-    @skip
-    def test_ko_ev_pct(self):
-        case = self.case1
-        res = case.ko_ev_pct()
-        logger.debug(f'{case.hand.hid}->{res}')
-    #     self.assertEqual(ko_ev_pct, {'vIpEr9427': 1.03,
-    #                                     'Denisov V.': 0.85,
-    #                                     'Chang Chi': 0.52,
-    #                                     'sabuco_2110': 1.7,
-    #                                     'shagvaladyan': 0.89,
-    #                                     'DiggErr555': 1})
-
-    @skip
-    def test_ko_ev(self):
-        case = self.case1
-        res = case.ko_ev()
-        logger.debug(f'{case.hand.hid}->{res}')
-    #     self.assertEqual(ko_ev, {'vIpEr9427': 12.43,
-    #                                     'Denisov V.': 10.26,
-    #                                     'Chang Chi': 6.21,
-    #                                     'sabuco_2110': 20.42,
-    #                                     'shagvaladyan': 10.74,
-    #                                     'DiggErr555': 12.01})
-
-    @skip
-    def test_ko_fact(self):
-        ko_fact = self.case1.ko_fact()
-        # logger.debug(ko_fact)
-        ko_fact = round_dict(ko_fact, 2)
-        self.assertDictEqual(ko_fact, {'vIpEr9427': 7.18,
-                                   'Denisov V.': 10.26,
-                                   'Chang Chi': 11.46,
-                                   'sabuco_2110': 20.42,
-                                   'shagvaladyan': 10.74,
-                                   'DiggErr555': 12.01})
-
-    @skip
-    def test_ko_fact_pct(self):
-        ko_fact_pct = self.case1.ko_fact_pct()
-        ko_fact_pct = round_dict(ko_fact_pct, 333)
-        # logger.debug(ko_fact_pct)
-        self.assertDictEqual(ko_fact_pct, {
-                                       'vIpEr9427': 0.598,
-                                       'Denisov V.': 0.854,
-                                       'Chang Chi': 0.954,
-                                       'sabuco_2110': 1.7,
-                                       'shagvaladyan': 0.894,
-                                       'DiggErr555': 1.0
-                                        })
-
     def test_non_zero_values(self):
         self.assertEqual(pokercalc.EV.non_zero_values({1: 1, 2: 2, 3: 0, 4: 0}), 2)
 
@@ -379,15 +337,76 @@ class TestEV(unittest.TestCase):
         self.assertEqual(pokercalc.EV.sum_dict_values({1: 1, 2: 2, 3: 'sdf', 4: 0}), 0)
         self.assertEqual(pokercalc.EV.sum_dict_values([1, 2, 3]), 0)
 
-
-class TestOutcome(unittest.TestCase):
+class TestOutcome(LoadCasesMixin, unittest.TestCase):
     def test_add_cildren(self):
         aiplayers = ['DiggErr555', 'fozzzi']
         root = pokercalc.OutCome('root')
         pokercalc.add_children(root, aiplayers)
-        print(root)
-        assert False
 
+    @skip
+    @cases([
+            {'fn': 'hh/sat16/round1/2way/hero-push-sb-call.txt',
+             'expected':
+             {
+                 'fozzzi': 100,
+                 'bayaraa2222': 270,
+                 'apos87tolos': 460,
+                 'DiggErr555': 1170
+             }},
+    ])
+    def test_build_outcome_tree(self, params):
+        case, expected = self.get_params(params)
+        aiplayers = case.ai_players
+        chips = case.chips
+        pots = case.pots
+        uncalled = case.uncalled
+        result = pokercalc.build_outcome_tree(aiplayers, chips, pots, uncalled)
+        print(result)
+        #self.assertEqual(result, expected)
+
+    @cases([
+            {'fn': 'hh/sat16/round1/2way/hero-push-sb-call.txt',
+             'path': ['DiggErr555', 'fozzzi'],
+             'expected':
+             {
+                 'fozzzi': 100,
+                 'bayaraa2222': 270,
+                 'apos87tolos': 460,
+                 'DiggErr555': 1170
+             }},
+    ])
+    def test_outcome_win(self, params):
+        case, expected = self.get_params(params)
+        aiplayers = case.ai_players
+        chips = case.chips
+        pots = case.pots
+        uncalled = case.uncalled
+        total_bets = case.total_bets
+        path = params.get('path')
+        result = pokercalc.build_outcome(path, aiplayers, chips, pots, uncalled, total_bets)
+        self.assertDictEqual(result, expected)
+
+    @cases([
+            {'fn': 'hh/sat16/round1/2way/hero-push-sb-call.txt',
+             'path': ['fozzzi', 'DiggErr555'],
+             'expected':
+             {
+                 'fozzzi': 1270,
+                 'bayaraa2222': 270,
+                 'apos87tolos': 460,
+                 'DiggErr555':0,
+             }},
+    ])
+    def test_outcome_lose(self, params):
+        case, expected = self.get_params(params)
+        aiplayers = case.ai_players
+        chips = case.chips
+        pots = case.pots
+        uncalled = case.uncalled
+        total_bets = case.total_bets
+        path = params.get('path')
+        result = pokercalc.build_outcome(path, aiplayers, chips, pots, uncalled, total_bets)
+        self.assertEqual(result, expected)
 
 class TestNumericDict(unittest.TestCase):
     def test_add(self):
