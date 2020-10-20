@@ -180,8 +180,8 @@ def fill_probs(root, cards):
             pass
 
 
-def build_outcome(path, aiplayers, stacks, pots, uncalled, total_bets):
-    """returns outcome
+def build_outcome(path, aiplayers, stacks, pots, uncalled, total_bets, winnings):
+    """returns chipcount for outcome
     path: list of players in order of winning
     """
     
@@ -193,52 +193,52 @@ def build_outcome(path, aiplayers, stacks, pots, uncalled, total_bets):
     # [players_in_pot[1] - corresponds to list of players in side1 pot and so on 
     players_in_pot = list(reversed([aiplayers[:l] for l in range(len(pots)+1, 1, -1)]))
     # uncalled for top1 player
-    stack = {}
-    if len(aiplayers) == 2:
-        stack[path[0]] = pots[0] + stacks[path[0]] - total_bets[path[0]]
-        stack[path[1]] = stacks[path[1]] - total_bets[path[1]]
+    result = {}
+    if len (aiplayers) < 2:
+        # no all in in hand return fact resalts
+        for p in stacks.keys():
+            result[p] = sum(winnings[p]) + uncalled[p] + stacks[p] - total_bets[p]
+        return result
+
+    elif len(aiplayers) == 2:
+        result[path[0]] = pots[0] + stacks[path[0]] - total_bets[path[0]]
+        result[path[1]] = stacks[path[1]] - total_bets[path[1]]
     else:
         p_index = 0
         for i, pot in enumerate(pots):
             if path[p_index] in players_in_pot[i]:
                 try:
-                    stack[path[p_index]] += pots[i]
+                    result[path[p_index]] += pots[i]
                 except KeyError:
-                    stack[path[p_index]] = pots[i]
+                    result[path[p_index]] = pots[i]
                 p_index = p_index + 1 if p_index < len(path) - 1 else p_index
             else:
-                stack[path[p_index-1]] = stack[path[p_index-1]] + pots[i]
+                result[path[p_index-1]] = result[path[p_index-1]] + pots[i]
 
     # stacks for players that is not take part in pots remains the same - blinds ante
     for p in not_aiplayers:
-        stack[p] = stacks[p] - total_bets[p]
+        result[p] = stacks[p] - total_bets[p]
 
     # players who lose.
     for p in aiplayers:
         if p not in path:
-            stack[p] = 0
+            result[p] = 0
 
     # uncalled allways to top1 player
     try:
-        stack[aiplayers[0]] += uncalled[aiplayers[0]]
+        result[aiplayers[0]] += uncalled[aiplayers[0]]
     except KeyError:
-        stack[aiplayers[0]] = uncalled[aiplayers[0]]
+        result[aiplayers[0]] = uncalled[aiplayers[0]]
 
-    return {p: int(v) for p, v in stack.items()}
+    return {p: int(v) for p, v in result.items()}
 
 
-def build_outcome_tree(aiplayers, stacks, pots, uncalled):
+def build_outcome_tree(aiplayers, stacks, pots, uncalled, total_bets, winnings):
     """Returns tree, with leafs representing 1 posible outcome
     aiplayers: list of players in all-in
     stacks: dict with stack distribution {'player': chips}
     pots: list with amount of chips in pots that been playing from main pot to all side pots
     """
-    not_aiplayers = [p for p in stacks.keys() if p not in aiplayers]
-    # [side2pot, side1pot, mainpot]
-    # [players_in_pot[0] - corresponds to list of players in side2 pot
-    # [players_in_pot[1] - corresponds to list of players in side1 pot and so on 
-    players_in_pot = list(reversed([aiplayers[:l] for l in range(len(pots)+1, 1, -1)]))
-    # uncalled for top1 player
     root = OutCome('root')
     add_children(root, aiplayers)
     # creating all paths list if node is leaf
@@ -252,33 +252,7 @@ def build_outcome_tree(aiplayers, stacks, pots, uncalled):
             # not including first path element, because it is always root
             path = list(reversed(path[1:]))
 
-            stack = {}
-            p_index = 0
-            for i, pot in enumerate(pots):
-                if path[p_index] in players_in_pot[i]:
-                    try:
-                        stack[path[p_index]] += pots[i]
-                    except KeyError:
-                        stack[path[p_index]] = pots[i]
-                    p_index = p_index + 1 if p_index < len(path) - 1 else p_index
-                else:
-                    stack[path[p_index-1]] = stack[path[p_index-1]] + pots[i]
-
-            # stacks for players that is not take part in pots remains the same
-            for p in not_aiplayers:
-                stack[p] = stacks[p]
-
-            # players who lose.
-            for p in aiplayers:
-                if p not in path:
-                    stack[p] = 0
-
-            # uncalled allways to top1 player
-            try:
-                stack[aiplayers[0]] += uncalled[aiplayers[0]]
-            except KeyError:
-                stack[aiplayers[0]] = uncalled[aiplayers[0]]
-
+            stack = build_outcome(path, aiplayers, stacks, pots, uncalled, total_bets, winnings) 
             node.chips = stack
             fill_knocks(node, stacks)
             fill_probs(node, None)
@@ -286,7 +260,7 @@ def build_outcome_tree(aiplayers, stacks, pots, uncalled):
 
 
 class EV:
-    def __init__(self, hand, icm, ko=None, trials=1000000):
+    def __init__(self, hand, icm=None, ko=KOModels.PROPORTIONAL, trials=1000000):
         """
         hand: parsed hand object of HandHistoryParser subclass
         icm: icmcalc class
@@ -295,6 +269,9 @@ class EV:
         #todo add param: player to filter results
         """
         self.hand = hand
+        #if no icm provided calculate as winner takes all case
+        if not icm:
+            icm = Icm((1,0))
         self.icm = icm
         self.ko = ko
         self.ai_players = []
@@ -317,8 +294,8 @@ class EV:
         self.total_prizes = (self.hand.bi - self.hand.rake - self.hand.bounty) * 6
         self.player = str()
         self.flg_calculated = False
-        self.detect_ai_players()
         self.ai_players = hand.p_ai_players+hand.f_ai_players+hand.t_ai_players+hand.r_ai_players
+        self.ai_players, self.p_ai_players, self.f_ai_players, self.t_ai_players = self.detect_ai_players(hand)
         self.sort_ai_players_by_chipcount()
 
     @staticmethod
@@ -329,24 +306,38 @@ class EV:
         """
         pass
 
-    def detect_ai_players(self):
+    @staticmethod
+    def detect_ai_players(hand):
+        """ returns tupple with players who went all in on every street
+        params::: parsed hand
+        """
 
-        self.ai_players = list(self.cards.keys())
-        for p in self.ai_players:
-            if self.hand.p_ai_players:
-                p_actions = self.hand.p_last_action()
+        ai_players = list(hand.known_cards.keys())
+        p_ai_players = []
+        f_ai_players = []
+        t_ai_players = []
+        r_ai_players = []
+        for p in ai_players:
+            if hand.p_ai_players:
+                p_actions = hand.p_last_action()
                 if p_actions.get(p, 'f') != 'f':
-                    self.p_ai_players.append(p)
+                    p_ai_players.append(p)
 
-            if self.hand.f_ai_players:
-                f_actions = self.hand.f_last_action()
+            if hand.f_ai_players:
+                f_actions = hand.f_last_action()
                 if f_actions.get(p, 'f') != 'f':
-                    self.f_ai_players.append(p)
+                    f_ai_players.append(p)
 
-            if self.hand.t_ai_players:
-                t_actions = self.hand.t_last_action()
+            if hand.t_ai_players:
+                t_actions = hand.t_last_action()
                 if t_actions.get(p, 'f') != 'f':
-                    self.t_ai_players.append(p)
+                    t_ai_players.append(p)
+
+            if hand.r_ai_players:
+                r_actions = hand.r_last_action()
+                if r_actions.get(p, 'f') != 'f':
+                    r_ai_players.append(p)
+        return ai_players, p_ai_players, f_ai_players, t_ai_players
 
     def sort_ai_players_by_chipcount(self):
         # sort players list by chip count
@@ -389,15 +380,12 @@ class EV:
         """
         res = NumericDict(int)
         total_bets_amounts = self.hand.total_bets_amounts()
+        chips = self.chips
+        winnings = self.winnings_chips
+        uncalled = self.uncalled
 
         for p in self.players:
-            if p in self.ai_players:
-                res[p] = sum(self.winnings_chips[p]) + self.uncalled[p]
-            else:
-                res[p] = self.chips[p] \
-                         - total_bets_amounts.get(p, 0) \
-                         + sum(self.winnings_chips.get(p, [0]))\
-                         + self.uncalled[p]
+            res[p] = sum(winnings[p]) + uncalled[p] + chips[p] - total_bets_amounts[p]
         return res
 
     def chip_ev(self):

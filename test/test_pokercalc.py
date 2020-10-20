@@ -21,11 +21,11 @@ th8 = """
 """
 
 
-def cases(cases):
+def add_params(params):
     def decorator(f):
         @functools.wraps(f)
         def wrapper(*args):
-            for c in cases:
+            for c in params:
                 new_args = args + (c if isinstance(c, tuple) else (c,))
                 f(*new_args)
         return wrapper
@@ -34,6 +34,21 @@ def cases(cases):
 
 def round_dict(d, n):
     return {k: round(v, n) for k, v in d.items()}
+
+
+def get_parsed_hand_from_file(fn):
+    with open(fn) as f:
+        hh_text = f.read()
+        parsed_hand = hhparser(hh_text)
+        return parsed_hand
+
+
+def get_ev_calc(player, parsed_hand, prize=((1,0)), ko_model=pokercalc.KOModels.PROPORTIONAL):
+        icm = pokercalc.Icm(prize)
+        ko = pokercalc.Knockout(ko_model)
+        ev_calc = pokercalc.EV(parsed_hand, icm, ko)
+        ev_calc.calc(player)
+        return ev_calc
 
 
 class LoadCasesMixin:
@@ -164,8 +179,28 @@ class TestEV(unittest.TestCase):
         case = self.case.get(params.get('fn'))
         return case, expected
 
+    @add_params([
+        {
+         'fn': 'hh/sat16/round1/2way/hero-push-sb-call.txt',
+         'expected': ['fozzzi', 'DiggErr555'],
+        },
+        {
+         'fn':  'hh/sat16/round1/2way/sb-push-hero-call.txt',
+         'expected': ['fozzzi', 'DiggErr555'],
+        },
+        {
+         'fn': 'hh/sat16/round1/2way/hero-call-bvb.txt',
+         'expected': ['bayaraa2222', 'DiggErr555'],
+        },
+    ])
+    def test_detect_ai_players(self, params):
+        expected = params.get('expected')
+        hand = get_parsed_hand_from_file(params.get('fn'))
+        ai_players, p_ai_players, f_ai_players, t_ai_players = pokercalc.EV.detect_ai_players(hand)
+        self.assertListEqual(expected, ai_players)
+
     @skip
-    @cases([
+    @add_params([
         {
          'fn': 'hh/th1.txt',
          'expected': 0.4600,
@@ -227,7 +262,7 @@ class TestEV(unittest.TestCase):
         }
         self.assertDictEqual(case, expected)
 
-    @cases([{'fn': 'hh/th1.txt',
+    @add_params([{'fn': 'hh/th1.txt',
              'expected':
              {
                  'vIpEr9427': 299,
@@ -265,13 +300,31 @@ class TestEV(unittest.TestCase):
                  'apos87tolos': 450,
                  'DiggErr555': 1460,
              }},
+            {'fn': 'hh/sat16/round1/hero-fold.txt',
+             'expected':
+             {
+                 'Aurade': 445,
+                 'Joshje': 625,
+                 'byStereo': 510,
+                 'DiggErr555': 420,
+             }},
+            {'fn': 'hh/sat16/round1/hero-push-bb-fold.txt',
+             'expected':
+             {
+                 'fozzzi': 710,
+                 'bayaraa2222': 340,
+                 'apos87tolos': 200,
+                 'DiggErr555': 750,
+             }},
             ])
     def test_chip_fact(self, params):
-        case, expected = self.get_params(params)
-        result = case.chip_fact()
+        hand = get_parsed_hand_from_file(params.get('fn'))
+        ev_calc = get_ev_calc('DiggErr555', hand)
+        expected = params.get('expected')
+        result = ev_calc.chip_fact()
         self.assertDictEqual(result, expected)
 
-    @cases([{'fn': 'hh/th1.txt',
+    @add_params([{'fn': 'hh/th1.txt',
              'expected':
              {
                  'vIpEr9427': 299,
@@ -294,7 +347,7 @@ class TestEV(unittest.TestCase):
         result = pokercalc.EV.sum_dict_values(result)
         self.assertEqual(result, 3000, 'Chip sum should be 3000')
 
-    @cases([{
+    @add_params([{
              'fn': 'hh/th1.txt',
              'expected':
              {
@@ -311,7 +364,7 @@ class TestEV(unittest.TestCase):
         result = case.icm_fact_pct()
         self.assertEqual(result, expected)
 
-    @cases([{
+    @add_params([{
              'fn': 'hh/th1.txt',
              'expected':
              {
@@ -343,8 +396,7 @@ class TestOutcome(LoadCasesMixin, unittest.TestCase):
         root = pokercalc.OutCome('root')
         pokercalc.add_children(root, aiplayers)
 
-    @skip
-    @cases([
+    @add_params([
             {'fn': 'hh/sat16/round1/2way/hero-push-sb-call.txt',
              'expected':
              {
@@ -353,18 +405,37 @@ class TestOutcome(LoadCasesMixin, unittest.TestCase):
                  'apos87tolos': 460,
                  'DiggErr555': 1170
              }},
+            {'fn': 'hh/sat16/round1/2way/sb-push-hero-call.txt',
+             'expected':
+             {
+                 'fozzzi': 0,
+                 'DiggErr555': 2000,
+             }},
+            {'fn': 'hh/sat16/round1/2way/hero-call-bvb.txt',
+             'expected':
+             {
+                 'fozzzi': 90,
+                 'bayaraa2222': 0,
+                 'apos87tolos': 450,
+                 'DiggErr555': 1460,
+             }},
     ])
     def test_build_outcome_tree(self, params):
-        case, expected = self.get_params(params)
-        aiplayers = case.ai_players
-        chips = case.chips
-        pots = case.pots
-        uncalled = case.uncalled
-        result = pokercalc.build_outcome_tree(aiplayers, chips, pots, uncalled)
+        hand = get_parsed_hand_from_file(params.get('fn'))
+        ev_calc = get_ev_calc('DiggErr555', hand, ((1,)), pokercalc.KOModels.PROPORTIONAL)
+        expected = params.get('expected')
+        aiplayers = ev_calc.ai_players
+        chips = ev_calc.chips
+        pots = ev_calc.pots
+        uncalled = ev_calc.uncalled
+        total_bets = ev_calc.total_bets
+        winnings = ev_calc.winnings_chips
+        path = params.get('path')
+        result = pokercalc.build_outcome_tree(aiplayers, chips, pots, uncalled, total_bets, winnings)
         print(result)
         #self.assertEqual(result, expected)
 
-    @cases([
+    @add_params([
             {'fn': 'hh/sat16/round1/2way/hero-push-sb-call.txt',
              'path': ['DiggErr555', 'fozzzi'],
              'expected':
@@ -374,19 +445,54 @@ class TestOutcome(LoadCasesMixin, unittest.TestCase):
                  'apos87tolos': 460,
                  'DiggErr555': 1170
              }},
+            {'fn': 'hh/sat16/round1/2way/sb-push-hero-call.txt',
+             'path': ['DiggErr555', 'fozzzi'],
+             'expected':
+             {
+                 'fozzzi': 0,
+                 'DiggErr555': 2000,
+             }},
+            {'fn': 'hh/sat16/round1/2way/hero-call-bvb.txt',
+             'path': ['DiggErr555', 'bayaraa2222'],
+             'expected':
+             {
+                 'fozzzi': 90,
+                 'bayaraa2222': 0,
+                 'apos87tolos': 450,
+                 'DiggErr555': 1460,
+             }},
+            {'fn': 'hh/sat16/round1/hero-fold.txt',
+             'expected':
+             {
+                 'Aurade': 445,
+                 'Joshje': 625,
+                 'byStereo': 510,
+                 'DiggErr555': 420,
+             }},
+            {'fn': 'hh/sat16/round1/hero-push-bb-fold.txt',
+             'expected':
+             {
+                 'fozzzi': 710,
+                 'bayaraa2222': 340,
+                 'apos87tolos': 200,
+                 'DiggErr555': 750,
+             }},
     ])
     def test_outcome_win(self, params):
-        case, expected = self.get_params(params)
-        aiplayers = case.ai_players
-        chips = case.chips
-        pots = case.pots
-        uncalled = case.uncalled
-        total_bets = case.total_bets
+        hand = get_parsed_hand_from_file(params.get('fn'))
+        ev_calc = get_ev_calc('DiggErr555', hand, ((1,)), pokercalc.KOModels.PROPORTIONAL)
+        expected = params.get('expected')
+        aiplayers = ev_calc.ai_players
+        chips = ev_calc.chips
+        pots = ev_calc.pots
+        uncalled = ev_calc.uncalled
+        total_bets = ev_calc.total_bets
+        winnings = ev_calc.winnings_chips
         path = params.get('path')
-        result = pokercalc.build_outcome(path, aiplayers, chips, pots, uncalled, total_bets)
+        result = pokercalc.build_outcome(path, aiplayers, chips, pots, uncalled, total_bets, winnings)
         self.assertDictEqual(result, expected)
 
-    @cases([
+    @add_params([
             {'fn': 'hh/sat16/round1/2way/hero-push-sb-call.txt',
              'path': ['fozzzi', 'DiggErr555'],
              'expected':
@@ -396,17 +502,52 @@ class TestOutcome(LoadCasesMixin, unittest.TestCase):
                  'apos87tolos': 460,
                  'DiggErr555':0,
              }},
+            {'fn': 'hh/sat16/round1/2way/sb-push-hero-call.txt',
+             'path': ['fozzzi', 'DiggErr555'],
+             'expected':
+             {
+                 'fozzzi': 1420,
+                 'DiggErr555': 580,
+             }},
+            {'fn': 'hh/sat16/round1/2way/hero-call-bvb.txt',
+             'path': ['bayaraa2222', 'DiggErr555'],
+             'expected':
+             {
+                 'fozzzi': 90,
+                 'bayaraa2222': 560,
+                 'apos87tolos': 450,
+                 'DiggErr555': 900,
+             }},
+            {'fn': 'hh/sat16/round1/hero-fold.txt',
+             'expected':
+             {
+                 'Aurade': 445,
+                 'Joshje': 625,
+                 'byStereo': 510,
+                 'DiggErr555': 420,
+             }},
+            {'fn': 'hh/sat16/round1/hero-push-bb-fold.txt',
+             'expected':
+             {
+                 'fozzzi': 710,
+                 'bayaraa2222': 340,
+                 'apos87tolos': 200,
+                 'DiggErr555': 750,
+             }},
     ])
     def test_outcome_lose(self, params):
-        case, expected = self.get_params(params)
-        aiplayers = case.ai_players
-        chips = case.chips
-        pots = case.pots
-        uncalled = case.uncalled
-        total_bets = case.total_bets
+        hand = get_parsed_hand_from_file(params.get('fn'))
+        ev_calc = get_ev_calc('DiggErr555', hand, ((1,)), pokercalc.KOModels.PROPORTIONAL)
+        expected = params.get('expected')
+        aiplayers = ev_calc.ai_players
+        chips = ev_calc.chips
+        pots = ev_calc.pots
+        uncalled = ev_calc.uncalled
+        total_bets = ev_calc.total_bets
+        winnings = ev_calc.winnings_chips
         path = params.get('path')
-        result = pokercalc.build_outcome(path, aiplayers, chips, pots, uncalled, total_bets)
-        self.assertEqual(result, expected)
+        result = pokercalc.build_outcome(path, aiplayers, chips, pots, uncalled, total_bets, winnings)
+        self.assertDictEqual(result, expected)
 
 class TestNumericDict(unittest.TestCase):
     def test_add(self):
