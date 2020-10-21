@@ -180,14 +180,13 @@ def fill_probs(root, cards):
             pass
 
 
-def build_outcome(path, aiplayers, stacks, pots, uncalled, total_bets, winnings):
-    """returns chipcount for outcome
-    path: list of players in order of winning
+def build_outcome(path, aiplayers, chips, pots, uncalled, total_bets, winnings):
+    """returns chipcount for outcome path: list of players in order of winning
     """
     
     # players with bigger stack first
-    aiplayers.sort(key=lambda v: stacks[v], reverse=True)
-    not_aiplayers = [p for p in stacks.keys() if p not in aiplayers]
+    aiplayers.sort(key=lambda v: chips[v], reverse=True)
+    not_aiplayers = [p for p in chips.keys() if p not in aiplayers]
     # [side2pot, side1pot, mainpot]
     # [players_in_pot[0] - corresponds to list of players in side2 pot
     # [players_in_pot[1] - corresponds to list of players in side1 pot and so on 
@@ -196,13 +195,13 @@ def build_outcome(path, aiplayers, stacks, pots, uncalled, total_bets, winnings)
     result = {}
     if len (aiplayers) < 2:
         # no all in in hand return fact resalts
-        for p in stacks.keys():
-            result[p] = sum(winnings[p]) + uncalled[p] + stacks[p] - total_bets[p]
+        for p in chips.keys():
+            result[p] = sum(winnings[p]) + uncalled[p] + chips[p] - total_bets[p]
         return result
 
     elif len(aiplayers) == 2:
-        result[path[0]] = pots[0] + stacks[path[0]] - total_bets[path[0]]
-        result[path[1]] = stacks[path[1]] - total_bets[path[1]]
+        result[path[0]] = pots[0] + chips[path[0]] - total_bets[path[0]]
+        result[path[1]] = chips[path[1]] - total_bets[path[1]]
     else:
         p_index = 0
         for i, pot in enumerate(pots):
@@ -217,7 +216,7 @@ def build_outcome(path, aiplayers, stacks, pots, uncalled, total_bets, winnings)
 
     # stacks for players that is not take part in pots remains the same - blinds ante
     for p in not_aiplayers:
-        result[p] = stacks[p] - total_bets[p]
+        result[p] = chips[p] - total_bets[p]
 
     # players who lose.
     for p in aiplayers:
@@ -343,11 +342,20 @@ class EV:
         # sort players list by chip count
         self.ai_players.sort(key=lambda v: self.chips[v], reverse=True)
 
+    def should_return_chip_fact(self) -> bool:
+
+        if not(self.hand.flg_showdown()):
+            return True
+
+        if not(self.ai_players) or (len(self.ai_players) >2):
+            return True
+
     def calc(self, player):
         if player not in self.players:
             raise PlayerNotFoundException()
         self.player = player
         self.flg_calculated = True
+        self.probs = self.calculate_probs()
         #if self.ai_players:
             # print(self.ai_players, self.chips, self.pots, self.uncalled)
             #root = build_outcome_tree(self.ai_players, self.chips, self.pots, self.uncalled)
@@ -360,12 +368,6 @@ class EV:
     def chip_diff(self):
         return self.chip_ev() - self.chip_fact()
 
-    def chip_lose(self):
-        pass
-
-    def chip_win(self):
-        pass
-
     def chip_outcome(self, winners):
         """ returns outcome with winners
         raise error if winners not in aiplayers
@@ -373,7 +375,7 @@ class EV:
         """
         res = NumericDict(int)
 
-    def chip_fact(self):
+    def chip_fact(self) -> NumericDict:
         """Return real outcome of played hand
         chip count after hand been played
         returns: NumericDict {player: stack}
@@ -388,30 +390,41 @@ class EV:
             res[p] = sum(winnings[p]) + uncalled[p] + chips[p] - total_bets_amounts[p]
         return res
 
-    def chip_ev(self):
+    def chip_ev_ai_adj(self, player) -> float:
         """Net won chips All in EV adjasted
+        calculates only for 2 players in all in
         returns: dict {player: stack}
         """
-        if not(self.hand.flg_showdown()):
+        if self.should_return_chip_fact():
             return self.chip_fact
 
-        if not(self.ai_players):
-            return self.chip_fact
+        ai_players = self.ai_players
+        if not player:
+            player = self.hand.hero
 
         res = NumericDict(int)
-        eq = self.equities()
-        for p in self.chips.keys():
-            if p in eq.keys():
-                if p in self.aiplayers:
-                    res[p] = int(round(self.pots[0] * eq[p] + self.uncalled[p]))
-                else:
-                    res[p] = int(round(self.chips[p] \
-                             - self.hand.total_bets_amounts().get(p, 0) \
-                             + self.pots[0] * eq[p]\
-                             + self.uncalled[p]))
-            else:
-                res[p] = self.chip_fact().get(p)
+        eq = self.probs
+        pwin = eq.get(player)
+        hero_win_path = ai_players[:] if ai_players[0] == player else ai_players[::-1]
+        hero_lose_path = hero_win_path[::-1]
 
+        hero_win_outcome = build_outcome(hero_win_path,
+                                         ai_players,
+                                         self.chips,
+                                         self.pots,
+                                         self.uncalled,
+                                         self.total_bets,
+                                         self.winnings_chips)
+        hero_lose_outcome = build_outcome(hero_lose_path,
+                                         ai_players,
+                                         self.chips,
+                                         self.pots,
+                                         self.uncalled,
+                                         self.total_bets,
+                                         self.winnings_chips)
+        res = pwin * hero_win_outcome[player] \
+            + (1 - pwin) * hero_lose_outcome[player] \
+            - self.chip_fact().get(player)
         return res
 
     def ev_diff(self):
@@ -422,16 +435,44 @@ class EV:
         total_diff = self.icm_diff + self.ko_diff
         return total_diff
 
-    def icm_ev(self):
-        return self.icm_ev_pct() * self.total_prizes
+    def icm_ev_ai_adj_pct(self, player):
+        if self.should_return_chip_fact():
+            return self.icm_fact_pct() #TODO another conditions to return fact should be
 
-    def icm_ev_pct(self):
+        ai_players = self.ai_players
+        if not player:
+            player = self.hand.hero
 
-        p_win = self.equities().get(self.player, 0)
-        ev_win = self.icm.calc(self.chip_win()).get(self.player, 0)
-        ev_lose = self.icm.calc(self.chip_lose()).get(self.player, 0)
+        res = NumericDict(int)
+        eq = self.probs
+        pwin = eq.get(player)
+        hero_win_path = ai_players[:] if ai_players[0] == player else ai_players[::-1]
+        hero_lose_path = hero_win_path[::-1]
 
-        return p_win * ev_win + (1 - p_win) * ev_lose
+        hero_win_outcome = build_outcome(hero_win_path,
+                                         ai_players,
+                                         self.chips,
+                                         self.pots,
+                                         self.uncalled,
+                                         self.total_bets,
+                                         self.winnings_chips)
+        hero_lose_outcome = build_outcome(hero_lose_path,
+                                         ai_players,
+                                         self.chips,
+                                         self.pots,
+                                         self.uncalled,
+                                         self.total_bets,
+                                         self.winnings_chips)
+        icm_win = self.icm.calc(hero_win_outcome)
+        icm_lose = self.icm.calc(hero_lose_outcome)
+        res = pwin * icm_win[player] \
+            + (1 - pwin) * icm_lose[player]
+        return res
+
+    def icm_ev_diff_ai_adj_pct(self, player):
+        """ ICM ev all in adjasted in percents
+        """
+        return self.icm_ev_ai_adj_pct(player) - self.icm_fact_pct().get(player)
 
     def icm_fact(self):
         icm_fact_pct = self.icm_fact_pct()
@@ -465,7 +506,7 @@ class EV:
         if not self.ko:
             return 0
 
-        p_win = self.equities().get(self.player, 0)
+        p_win = self.probs.get(self.player, 0)
         ev_win = self.ko.calc(self.chip_win()).get(self.player, 0)
         ko_get = self.non_zero_values(self.chips) - self.non_zero_values(self.chip_win())
         ev_win += ko_get
@@ -492,19 +533,6 @@ class EV:
 
         return res
 
-    @property
-    def icm_diff(self):
-        # returns: float
-        # Возвращает разницу между ожиданием и факту по ICM
-
-        return self.icm_diff_pct * self.total_prizes
-
-    @property
-    def icm_diff_pct(self):
-        # returns: float
-        # Возвращает разницу между ожиданием и факту по ICM
-
-        return self.icm_ev_pct - self.icm_fact_pct.get(self.player, 0)
 
     @property
     def ko_diff(self):
@@ -521,7 +549,7 @@ class EV:
         else:
             return 0
 
-    def equities(self):
+    def calculate_probs(self):
 
         if self.p_ai_players:
             players = self.p_ai_players
