@@ -290,7 +290,7 @@ class EV:
             self.pots = self.pots[1:]
         self.trials = trials
 
-        self.total_prizes = (self.hand.bi - self.hand.rake - self.hand.bounty) * 6
+        self.total_prizes = (self.hand.bi - self.hand.rake - self.hand.bounty) * 4 #TODO tour types
         self.player = str()
         self.flg_calculated = False
         self.ai_players = hand.p_ai_players+hand.f_ai_players+hand.t_ai_players+hand.r_ai_players
@@ -365,8 +365,9 @@ class EV:
         #else:
             #print(self.chip_fact())
 
-    def chip_diff(self):
-        return self.chip_ev() - self.chip_fact()
+    def chip_ev_diff_ai_adj(self, player):
+        fact = self.chip_fact().get(player)
+        return self.chip_ev_ai_adj(player) - fact
 
     def chip_outcome(self, winners):
         """ returns outcome with winners
@@ -396,7 +397,7 @@ class EV:
         returns: dict {player: stack}
         """
         if self.should_return_chip_fact():
-            return self.chip_fact
+            return self.chip_fact().get(player)
 
         ai_players = self.ai_players
         if not player:
@@ -416,12 +417,12 @@ class EV:
                                          self.total_bets,
                                          self.winnings_chips)
         hero_lose_outcome = build_outcome(hero_lose_path,
-                                         ai_players,
-                                         self.chips,
-                                         self.pots,
-                                         self.uncalled,
-                                         self.total_bets,
-                                         self.winnings_chips)
+                                          ai_players,
+                                          self.chips,
+                                          self.pots,
+                                          self.uncalled,
+                                          self.total_bets,
+                                          self.winnings_chips)
         res = pwin * hero_win_outcome[player] \
             + (1 - pwin) * hero_lose_outcome[player] \
             - self.chip_fact().get(player)
@@ -437,7 +438,7 @@ class EV:
 
     def icm_ev_ai_adj_pct(self, player):
         if self.should_return_chip_fact():
-            return self.icm_fact_pct() #TODO another conditions to return fact should be
+            return self.icm_fact_pct(player) #TODO another conditions to return fact should be
 
         ai_players = self.ai_players
         if not player:
@@ -457,12 +458,12 @@ class EV:
                                          self.total_bets,
                                          self.winnings_chips)
         hero_lose_outcome = build_outcome(hero_lose_path,
-                                         ai_players,
-                                         self.chips,
-                                         self.pots,
-                                         self.uncalled,
-                                         self.total_bets,
-                                         self.winnings_chips)
+                                          ai_players,
+                                          self.chips,
+                                          self.pots,
+                                          self.uncalled,
+                                          self.total_bets,
+                                          self.winnings_chips)
         icm_win = self.icm.calc(hero_win_outcome)
         icm_lose = self.icm.calc(hero_lose_outcome)
         res = pwin * icm_win[player] \
@@ -472,22 +473,31 @@ class EV:
     def icm_ev_diff_ai_adj_pct(self, player):
         """ ICM ev all in adjasted in percents
         """
-        return self.icm_ev_ai_adj_pct(player) - self.icm_fact_pct().get(player)
+        fact = self.icm_fact_pct().get(player, 0)
+        return self.icm_ev_ai_adj_pct(player) - fact
+
+    def icm_ev_ai_adj(self, player):
+        return self.icm_ev_ai_adj_pct(player) * self.total_prizes
+
+    def icm_ev_diff_ai_adj(self, player):
+        return self.icm_ev_diff_ai_adj_pct(player) * self.total_prizes
 
     def icm_fact(self):
+        prize_won = self.prize_won
         icm_fact_pct = self.icm_fact_pct()
         if self.prize_won:
-            res = self.prize_won
+            res = prize_won
         else:
             res = self.total_prizes * icm_fact_pct
         return res
 
     def icm_fact_pct(self):
         chip_fact = self.chip_fact()
-        if self.prize_won:
-            res = self.prize_won / self.total_prizes
+        prize_won = self.prize_won
+        if prize_won:
+            res = NumericDict(float, prize_won) / self.total_prizes
         else:
-            res = NumericDict(int, self.icm.calc(chip_fact))
+            res = NumericDict(float, self.icm.calc(chip_fact))
 
         return res
 
