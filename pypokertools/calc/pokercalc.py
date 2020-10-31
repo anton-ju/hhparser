@@ -283,7 +283,7 @@ class EV:
         self.chips = NumericDict(int, hand.stacks())
         self.players = self.chips.keys()
         self.uncalled = NumericDict(int, hand.uncalled)
-        self.cards = NumericDict(int, hand.known_cards)
+        self.cards = hand.known_cards
         self.pots = hand.pot_list
         # not include total pot if multiway
         if len(self.pots) > 1:
@@ -293,7 +293,6 @@ class EV:
         self.total_prizes = (self.hand.bi - self.hand.rake - self.hand.bounty) * 4 #TODO tour types
         self.player = str()
         self.flg_calculated = False
-        self.ai_players = hand.p_ai_players+hand.f_ai_players+hand.t_ai_players+hand.r_ai_players
         self.ai_players, self.p_ai_players, self.f_ai_players, self.t_ai_players = self.detect_ai_players(hand)
         self.sort_ai_players_by_chipcount()
 
@@ -316,24 +315,24 @@ class EV:
         f_ai_players = []
         t_ai_players = []
         r_ai_players = []
+        p_actions = hand.p_last_action()
+        f_actions = hand.f_last_action()
+        t_actions = hand.t_last_action()
+        r_actions = hand.r_last_action()
         for p in ai_players:
             if hand.p_ai_players:
-                p_actions = hand.p_last_action()
-                if p_actions.get(p, 'f') != 'f':
+                if p_actions.get(p, 'c') != 'f':
                     p_ai_players.append(p)
 
             if hand.f_ai_players:
-                f_actions = hand.f_last_action()
                 if f_actions.get(p, 'f') != 'f':
                     f_ai_players.append(p)
 
             if hand.t_ai_players:
-                t_actions = hand.t_last_action()
                 if t_actions.get(p, 'f') != 'f':
                     t_ai_players.append(p)
 
             if hand.r_ai_players:
-                r_actions = hand.r_last_action()
                 if r_actions.get(p, 'f') != 'f':
                     r_ai_players.append(p)
         return ai_players, p_ai_players, f_ai_players, t_ai_players
@@ -444,7 +443,6 @@ class EV:
         if not player:
             player = self.hand.hero
 
-        res = NumericDict(int)
         eq = self.probs
         pwin = eq.get(player)
         hero_win_path = ai_players[:] if ai_players[0] == player else ai_players[::-1]
@@ -466,6 +464,7 @@ class EV:
                                           self.winnings_chips)
         icm_win = self.icm.calc(hero_win_outcome)
         icm_lose = self.icm.calc(hero_lose_outcome)
+        print(f'pwin: {pwin}, icm_win: {icm_win}, icm_lose: {icm_lose}')
         res = pwin * icm_win[player] \
             + (1 - pwin) * icm_lose[player]
         return res
@@ -561,6 +560,7 @@ class EV:
 
     def calculate_probs(self):
 
+        shd_players = self.cards.keys()
         if self.p_ai_players:
             players = self.p_ai_players
             if len(players) == 2:

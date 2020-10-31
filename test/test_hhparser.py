@@ -12,6 +12,42 @@ from datetime import datetime
 logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
+auto_ai_th = """
+PokerStars Hand #219251582326: Tournament #103023849310, $7.36+$0.14 USD Hold'em No Limit - Match Round I, Level I (25/50) - 2020/10/10 20:40:52 MSK [2020/10/10 13:40:52 ET]
+Table '3023849310 1' 4-max Seat #3 is the button
+Seat 1: Skrotnes (595 in chips) 
+Seat 2: DiggErr555 (975 in chips) 
+Seat 3: felipe goula (405 in chips) 
+Seat 4: NL_Classic (25 in chips) 
+Skrotnes: posts the ante 10
+DiggErr555: posts the ante 10
+felipe goula: posts the ante 10
+NL_Classic: posts the ante 10
+NL_Classic: posts small blind 15 and is all-in
+Skrotnes: posts big blind 50
+*** HOLE CARDS ***
+Dealt to NL_Classic [6d 8s]
+DiggErr555: folds 
+felipe goula: folds 
+Uncalled bet (35) returned to Skrotnes
+*** FLOP *** [Js 9c Td]
+*** TURN *** [Js 9c Td] [Tc]
+*** RIVER *** [Js 9c Td Tc] [4c]
+*** SHOW DOWN ***
+NL_Classic: shows [6d 8s] (a pair of Tens)
+Skrotnes: shows [8d 9d] (two pair, Tens and Nines)
+Skrotnes collected 70 from pot
+NL_Classic finished the tournament in 4th place
+DiggErr555 finished the tournament in 1st place and received $29.44.
+*** SUMMARY ***
+Total pot 70 | Rake 0 
+Board [Js 9c Td Tc 4c]
+Seat 1: Skrotnes (big blind) showed [8d 9d] and won (70) with two pair, Tens and Nines
+Seat 2: DiggErr555 folded before Flop (didn't bet)
+Seat 3: felipe goula (button) folded before Flop (didn't bet)
+Seat 4: NL_Classic (small blind) showed [6d 8s] and lost with a pair of Tens
+"""
+
 th10 = """
 PokerStars Hand #194070989781: Tournament #2473317509, $12.01+$12.01+$0.98 USD Hold'em No Limit - Level VIII (75/150) - 2018/12/04 23:02:20 MSK [2018/12/04 15:02:20 ET]
 Table '2473317509 1' 6-max Seat #2 is the button
@@ -463,6 +499,7 @@ class TestPSHandHistory(unittest.TestCase):
         self.case8 = PSHandHistory(th8)
         self.case9 = PSHandHistory(th9)  #2 bounty won case
         self.case10 = PSHandHistory(th10) #3 bounty won case
+        self.auto_ai_case = PSHandHistory(auto_ai_th)
         self.case11 = PSHandHistory(debug_hrcparser)
 
     def test_datetime(self):
@@ -495,6 +532,13 @@ class TestPSHandHistory(unittest.TestCase):
         self.assertEqual(bi, 25)
 
     def test_p_actions(self):
+        case = self.auto_ai_case.p_actions
+        res = {
+            'DiggErr555': ['f'],
+            'felipe goula': ['f'],
+        }
+        self.assertDictEqual(case, res)
+
         case = self.case0.p_actions
         res = {
             'da_mauso': ['r', 'f'],
@@ -635,6 +679,10 @@ class TestPSHandHistory(unittest.TestCase):
         players = hh.p_ai_players
         self.assertEqual(players, ['baluoteli', 'DiggErr555','bigboyby','zaxar393']) 
     
+        hh = self.auto_ai_case
+        players = hh.p_ai_players
+        self.assertEqual(players, ['NL_Classic'])
+
     def test_pot_list(self):
         hh = self.case4
         PotList = hh.pot_list

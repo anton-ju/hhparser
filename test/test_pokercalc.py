@@ -192,6 +192,10 @@ class TestEV(unittest.TestCase):
          'fn': 'hh/sat16/round1/2way/hero-call-bvb.txt',
          'expected': ['bayaraa2222', 'DiggErr555'],
         },
+        {
+         'fn': 'hh/sat16/round1/auto-ai.txt',
+         'expected': ['Skrotnes', 'NL_Classic'],
+        },
     ])
     def test_detect_ai_players(self, params):
         expected = params.get('expected')
@@ -199,7 +203,18 @@ class TestEV(unittest.TestCase):
         ai_players, p_ai_players, f_ai_players, t_ai_players = pokercalc.EV.detect_ai_players(hand)
         self.assertListEqual(expected, ai_players)
 
-    @skip
+    @add_params([
+        {
+         'fn': 'hh/sat16/round1/auto-ai.txt',
+         'expected': ['Skrotnes', 'NL_Classic'],
+        },
+    ])
+    def test_detect_preflop_ai_players(self, params):
+        expected = params.get('expected')
+        hand = get_parsed_hand_from_file(params.get('fn'))
+        ai_players, p_ai_players, f_ai_players, t_ai_players = pokercalc.EV.detect_ai_players(hand)
+        self.assertListEqual(expected, p_ai_players)
+
     @add_params([
         {
          'fn': 'hh/th1.txt',
@@ -231,10 +246,19 @@ class TestEV(unittest.TestCase):
          'expected': 0.1572,
          'player': 'bayaraa2222'
         },
+        {
+         'fn': 'hh/sat16/round1/auto-ai.txt',
+         'expected': 0.2795,
+         'player': 'NL_Classic'
+        },
            ])
     def test_equties(self, params):
-        case, expected = self.get_params(params)
-        result = case.probs.get(params.get('player'))
+        hand = get_parsed_hand_from_file(params.get('fn'))
+        hero = hand.hero
+        ev_calc = get_ev_calc(hero, hand)
+        ev_calc.calc(hero)
+        expected = params.get('expected')
+        result = ev_calc.probs.get(params.get('player'))
         self.assertAlmostEqual(result, expected, delta=0.005)
 
     @add_params([
@@ -361,29 +385,34 @@ class TestEV(unittest.TestCase):
             {'fn': 'hh/sat16/round1/2way/hero-call-bvb.txt',
              'expected': -0.04402,
              },
+            {'fn': 'hh/sat16/round1/auto-ai.txt',
+             'expected': 0.00978,
+             },
             ])
     def test_icm_ev_diff_ai_adj_pct(self, params):
         hand = get_parsed_hand_from_file(params.get('fn'))
         expected = params.get('expected')
         prize = params.get('prize', ((1,)))
-        ev_calc = get_ev_calc('DiggErr555', hand, prize)
-        result = ev_calc.icm_ev_diff_ai_adj_pct('DiggErr555')
+        hero = hand.hero
+        ev_calc = get_ev_calc(hero, hand, prize)
+        ev_calc.calc(hero)
+        result = ev_calc.icm_ev_diff_ai_adj_pct(hero)
         #print(f'result: {result}')
         #print(f'expected: {expected}'
         self.assertAlmostEqual(result, expected, 4)
 
-    @add_params([{
-             'fn': 'hh/th1.txt',
-             'expected':
-             {
-                 'vIpEr9427': 0.1059,
-                 'Denisov V.': 0.1473,
-                 'Chang Chi': 0.1627,
-                 'sabuco_2110': 0.2608,
-                 'shagvaladyan': 0.1535,
-                 'DiggErr555': 0.1697
-             },
-            'prize': (0.5, 0.5)},
+    @add_params([
+            #  {'fn': 'hh/th1.txt',
+            #  'expected':
+            #  {
+            #      'vIpEr9427': 0.1059,
+            #      'Denisov V.': 0.1473,
+            #      'Chang Chi': 0.1627,
+            #      'sabuco_2110': 0.2608,
+            #      'shagvaladyan': 0.1535,
+            #      'DiggErr555': 0.1697
+            #  },
+            # 'prize': (0.5, 0.5)},
             {'fn': 'hh/sat16/round1/2way/hero-push-sb-call.txt',
              'expected':
              {
@@ -409,9 +438,10 @@ class TestEV(unittest.TestCase):
             ])
     def test_icm_fact_pct(self, params):
         hand = get_parsed_hand_from_file(params.get('fn'))
+        hero = hand.hero
         expected = params.get('expected')
         prize = params.get('prize', ((1,)))
-        ev_calc = get_ev_calc('DiggErr555', hand, prize)
+        ev_calc = get_ev_calc(hero, hand, prize)
         result = ev_calc.icm_fact_pct()
         #print(f'result: {result}')
         #print(f'expected: {expected}'
@@ -536,6 +566,58 @@ class TestOutcome(LoadCasesMixin, unittest.TestCase):
     def test_outcome_win(self, params):
         hand = get_parsed_hand_from_file(params.get('fn'))
         ev_calc = get_ev_calc('DiggErr555', hand, ((1,)), pokercalc.KOModels.PROPORTIONAL)
+        expected = params.get('expected')
+        aiplayers = ev_calc.ai_players
+        chips = ev_calc.chips
+        pots = ev_calc.pots
+        uncalled = ev_calc.uncalled
+        total_bets = ev_calc.total_bets
+        winnings = ev_calc.winnings_chips
+        path = params.get('path')
+        result = pokercalc.build_outcome(path, aiplayers, chips, pots, uncalled, total_bets, winnings)
+        self.assertDictEqual(result, expected)
+
+    @add_params([
+            {'fn': 'hh/sat16/round1/auto-ai.txt',
+             'path': ['NL_Classic', 'Skrotnes'],
+             'expected':
+             {
+                 'NL_Classic': 70,
+                 'Skrotnes': 570,
+                 'felipe goula': 395,
+                 'DiggErr555': 965
+             }},
+    ])
+    def test_outcome_win_auto_ai(self, params):
+        hand = get_parsed_hand_from_file(params.get('fn'))
+        hero = hand.hero
+        ev_calc = get_ev_calc(hero, hand, ((1,)), pokercalc.KOModels.PROPORTIONAL)
+        expected = params.get('expected')
+        aiplayers = ev_calc.ai_players
+        chips = ev_calc.chips
+        pots = ev_calc.pots
+        uncalled = ev_calc.uncalled
+        total_bets = ev_calc.total_bets
+        winnings = ev_calc.winnings_chips
+        path = params.get('path')
+        result = pokercalc.build_outcome(path, aiplayers, chips, pots, uncalled, total_bets, winnings)
+        self.assertDictEqual(result, expected)
+
+    @add_params([
+            {'fn': 'hh/sat16/round1/auto-ai.txt',
+             'path': ['Skrotnes', 'NL_Classic'],
+             'expected':
+             {
+                 'NL_Classic': 0,
+                 'Skrotnes': 640,
+                 'felipe goula': 395,
+                 'DiggErr555': 965
+             }},
+    ])
+    def test_outcome_lose_auto_ai(self, params):
+        hand = get_parsed_hand_from_file(params.get('fn'))
+        hero = hand.hero
+        ev_calc = get_ev_calc(hero, hand, ((1,)), pokercalc.KOModels.PROPORTIONAL)
         expected = params.get('expected')
         aiplayers = ev_calc.ai_players
         chips = ev_calc.chips

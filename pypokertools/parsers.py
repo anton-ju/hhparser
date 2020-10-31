@@ -581,12 +581,12 @@ class PSHandHistory(HandHistoryParser):
 
     @cached_property
     def p_ai_players(self):
-        # todo сюда не попадают игроки которые заколили или поставили игрока 
+        # TODO сюда не попадают игроки которые заколили или поставили игрока 
         # под аи оставив в своем стэке фишки
 
         #       returns list of players which is all in preflop
         return self._process_regexp(self.AI_PLAYERS_REGEX,
-                                    self.preflop_str,
+                                    self.caption_str + self.preflop_str,
                                     'player',
                                     reslist=True)
 
