@@ -402,17 +402,17 @@ class TestEV(unittest.TestCase):
         self.assertAlmostEqual(result, expected, 4)
 
     @add_params([
-            #  {'fn': 'hh/th1.txt',
-            #  'expected':
-            #  {
-            #      'vIpEr9427': 0.1059,
-            #      'Denisov V.': 0.1473,
-            #      'Chang Chi': 0.1627,
-            #      'sabuco_2110': 0.2608,
-            #      'shagvaladyan': 0.1535,
-            #      'DiggErr555': 0.1697
-            #  },
-            # 'prize': (0.5, 0.5)},
+            {'fn': 'hh/th1.txt',
+            'expected':
+            {
+                'vIpEr9427': 0.1059,
+                'Denisov V.': 0.1473,
+                'Chang Chi': 0.1627,
+                'sabuco_2110': 0.2608,
+                'shagvaladyan': 0.1535,
+                'DiggErr555': 0.1697
+            },
+            'prize': (0.5, 0.5)},
             {'fn': 'hh/sat16/round1/2way/hero-push-sb-call.txt',
              'expected':
              {
@@ -447,17 +447,17 @@ class TestEV(unittest.TestCase):
         #print(f'expected: {expected}'
         self.assertDictEqual(result, expected)
 
-    @add_params([{
-             'fn': 'hh/th1.txt',
-             'expected':
-             {
-              'vIpEr9427': 7.63,
-              'Denisov V.': 10.61,
-              'Chang Chi': 11.72,
-              'sabuco_2110': 18.79,
-              'shagvaladyan': 11.06,
-              'DiggErr555': 12.23
-             }},
+    @add_params([
+             # {'fn': 'hh/th1.txt',
+             #  'expected':
+             #  {
+             #   'vIpEr9427': 7.63,
+             #   'Denisov V.': 10.61,
+             #   'Chang Chi': 11.72,
+             #   'sabuco_2110': 18.79,
+             #   'shagvaladyan': 11.06,
+             #   'DiggErr555': 12.23
+             #  }},
             ])
     def test_icm_fact(self, params):
         case, expected = self.get_params(params)
