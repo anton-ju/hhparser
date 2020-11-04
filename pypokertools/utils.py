@@ -25,8 +25,14 @@ class NumericDict(defaultdict):
 
     def __sub__(self, other):
         res = self.copy()
-        for k, v in other.items():
-            res[k] = self[k] - v
+        if isinstance(other, (int, float)):
+            for k, v in self.items():
+                res[k] = self[k] - other
+        elif isinstance(other, self.__class__):
+            for k, v in other.items():
+                res[k] = self[k] - v
+        else:
+            raise TypeError('Invalid operand type')
         return res
 
     def __mul__(self, other):
