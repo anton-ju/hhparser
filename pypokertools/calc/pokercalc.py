@@ -437,7 +437,7 @@ class EV:
 
     def icm_ev_ai_adj_pct(self, player):
         if self.should_return_chip_fact():
-            return self.icm_fact_pct(player) #TODO another conditions to return fact should be
+            return self.icm_fact_pct(player) # TODO another conditions to return fact should be
 
         ai_players = self.ai_players
         if not player:
