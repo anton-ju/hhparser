@@ -252,7 +252,23 @@ class TestEV(unittest.TestCase):
          'player': 'NL_Classic'
         },
            ])
-    def test_equties(self, params):
+    def test_equities(self, params):
+        hand = get_parsed_hand_from_file(params.get('fn'))
+        hero = hand.hero
+        ev_calc = get_ev_calc(hero, hand)
+        ev_calc.calc(hero)
+        expected = params.get('expected')
+        result = ev_calc.probs.get(params.get('player'))
+        self.assertAlmostEqual(result, expected, delta=0.005)
+
+    @add_params([
+        {
+         'fn': 'hh/sat16/round1/hu-ai-postflop.txt',
+         'expected': 0.7879,
+         'player': 'NL_Classic'
+        },
+           ])
+    def test_equities_flop(self, params):
         hand = get_parsed_hand_from_file(params.get('fn'))
         hero = hand.hero
         ev_calc = get_ev_calc(hero, hand)

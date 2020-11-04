@@ -1,0 +1,30 @@
+PokerStars Hand #219062615718: Tournament #103019713377, $14.71+$0.29 USD Hold'em No Limit - Match Round I, Level II (50/100) - 2020/10/04 20:29:51 MSK [2020/10/04 13:29:51 ET]
+Table '3019713377 4' 4-max Seat #2 is the button
+Seat 2: NL_Classic (670 in chips) 
+Seat 3: Smdpair77 (1330 in chips) 
+NL_Classic: posts the ante 20
+Smdpair77: posts the ante 20
+NL_Classic: posts small blind 50
+Smdpair77: posts big blind 100
+*** HOLE CARDS ***
+Dealt to NL_Classic [Qh Qd]
+NL_Classic: calls 50
+Smdpair77: checks 
+*** FLOP *** [Ts 8s 2h]
+Smdpair77: bets 100
+NL_Classic: raises 450 to 550 and is all-in
+Smdpair77: calls 450
+*** TURN *** [Ts 8s 2h] [8c]
+*** RIVER *** [Ts 8s 2h 8c] [Th]
+*** SHOW DOWN ***
+Smdpair77: shows [8d 9h] (a full house, Eights full of Tens)
+NL_Classic: shows [Qh Qd] (two pair, Queens and Tens)
+Smdpair77 collected 1340 from pot
+NL_Classic finished the tournament in 2nd place
+Smdpair77 finished the tournament in 1st place and received $58.84.
+*** SUMMARY ***
+Total pot 1340 | Rake 0 
+Board [Ts 8s 2h 8c Th]
+Seat 2: NL_Classic (button) (small blind) showed [Qh Qd] and lost with two pair, Queens and Tens
+Seat 3: Smdpair77 (big blind) showed [8d 9h] and won (1340) with a full house, Eights full of Tens
+
