@@ -437,7 +437,7 @@ class EV:
 
     def icm_ev_ai_adj_pct(self, player):
         if self.should_return_chip_fact():
-            return self.icm_fact_pct(player) # TODO another conditions to return fact should be
+            return self.icm_fact_pct().get(player, 0)  # TODO another conditions to return fact should be
 
         ai_players = self.ai_players
         if not player:
@@ -464,7 +464,6 @@ class EV:
                                           self.winnings_chips)
         icm_win = self.icm.calc(hero_win_outcome)
         icm_lose = self.icm.calc(hero_lose_outcome)
-        print(f'pwin: {pwin}, icm_win: {icm_win}, icm_lose: {icm_lose}')
         res = pwin * icm_win[player] \
             + (1 - pwin) * icm_lose[player]
         return res
@@ -560,40 +559,31 @@ class EV:
 
     def calculate_probs(self):
 
-        shd_players = self.cards.keys()
+        params = []
+        shd_players = list(self.cards.keys())
         if self.p_ai_players:
-            players = self.p_ai_players
-            if len(players) == 2:
-                hand1 = self.cards.get(players[0])
-                hand2 = self.cards.get(players[1])
-                hand1 = str_to_cards(hand1)
-                hand2 = str_to_cards(hand2)
-                board = str_to_cards("")
-                equity = py_equities_2hands(hand1, hand2, board)
-                return {players[0]: equity[0], players[1]: equity[1]}
+            board = str_to_cards("")
+        elif self.f_ai_players:
+            board = str_to_cards(self.hand.flop)
+        elif self.t_ai_players:
+            board = str_to_cards(self.hand.flop + ' ' + self.hand.turn)
 
-        if self.f_ai_players:
-            players = self.f_ai_players
-            if len(players) == 2:
-                hand1 = self.cards.get(players[0])
-                hand2 = self.cards.get(players[1])
-                hand1 = str_to_cards(hand1)
-                hand2 = str_to_cards(hand2)
-                board = str_to_cards(self.hand.flop)
-                equity = py_equities_2hands(hand1, hand2, board)
-                return {players[0]: equity[0], players[1]: equity[1]}
+        if len(shd_players) == 2:
+            equity_func = py_equities_2hands
+            hand1 = str_to_cards(self.cards.get(shd_players[0]))
+            hand2 = str_to_cards(self.cards.get(shd_players[1]))
+            params = [hand1, hand2, board]
+        elif len(shd_players) == 3:
+            equity_func = py_equities_3hands
+            hand1 = str_to_cards(self.cards.get(shd_players[0]))
+            hand2 = str_to_cards(self.cards.get(shd_players[1]))
+            hand3 = str_to_cards(self.cards.get(shd_players[2]))
+            params = [hand1, hand2, hand3, board]
+        else:
+            return {}
 
-        if self.t_ai_players:
-            players = self.t_ai_players
-            if len(players) == 2:
-                hand1 = self.cards.get(players[0])
-                hand2 = self.cards.get(players[1])
-                hand1 = str_to_cards(hand1)
-                hand2 = str_to_cards(hand2)
-                board = str_to_cards(self.hand.flop + ' ' + self.hand.turn)
-                equity = py_equities_2hands(hand1, hand2, board)
-                return {players[0]: equity[0], players[1]: equity[1]}
-        return {}
+        result = equity_func(*params)
+        return {shd_players[i]: result[i] for i in range(len(shd_players))}
 
     @staticmethod
     def non_zero_values(d: dict):
