@@ -262,6 +262,25 @@ class TestEV(unittest.TestCase):
         self.assertAlmostEqual(result, expected, delta=0.005)
 
     @add_params([
+        {'fn': 'hh/sat16/round1/3way/3way-ai-preflop.txt',
+         'expected': 0.5038,
+         'player': 'OrangemanXD'
+         },
+        {'fn': 'hh/sat16/round1/3way/3way-ai-preflop.txt',
+         'expected': 0.2976,
+         'player': 'DiggErr555'
+         },
+        ])
+    def test_equities_3way(self, params):
+        hand = get_parsed_hand_from_file(params.get('fn'))
+        hero = hand.hero
+        ev_calc = get_ev_calc(hero, hand)
+        ev_calc.calc(hero)
+        expected = params.get('expected')
+        result = ev_calc.probs.get(params.get('player'))
+        self.assertAlmostEqual(result, expected, delta=0.005)
+
+    @add_params([
         {
          'fn': 'hh/sat16/round1/hu-ai-postflop.txt',
          'expected': 0.7879,
@@ -363,7 +382,26 @@ class TestEV(unittest.TestCase):
             ])
     def test_chip_fact(self, params):
         hand = get_parsed_hand_from_file(params.get('fn'))
-        ev_calc = get_ev_calc('DiggErr555', hand)
+        hero = hand.hero
+        ev_calc = get_ev_calc(hero, hand)
+        expected = params.get('expected')
+        result = ev_calc.chip_fact()
+        self.assertDictEqual(result, expected)
+
+    @add_params([
+            {'fn': 'hh/sat16/round1/3way/3way-ai-preflop.txt',
+             'expected':
+             {
+                 'mjanisz': 455,
+                 'OrangemanXD': 1545,
+                 'DiggErr555': 0,
+                 'dreber@77': 0,
+             }},
+            ])
+    def test_chip_fact_3way(self, params):
+        hand = get_parsed_hand_from_file(params.get('fn'))
+        hero = hand.hero
+        ev_calc = get_ev_calc(hero, hand)
         expected = params.get('expected')
         result = ev_calc.chip_fact()
         self.assertDictEqual(result, expected)
@@ -413,8 +451,23 @@ class TestEV(unittest.TestCase):
         ev_calc = get_ev_calc(hero, hand, prize)
         ev_calc.calc(hero)
         result = ev_calc.icm_ev_diff_ai_adj_pct(hero)
+        self.assertAlmostEqual(result, expected, 4)
+
+    @add_params([
+            {'fn': 'hh/sat16/round1/3way/3way-ai-preflop.txt',
+             'expected': 0,
+             },
+            ])
+    def test_icm_ev_diff_ai_adj_pct_3way(self, params):
+        hand = get_parsed_hand_from_file(params.get('fn'))
+        expected = params.get('expected')
+        prize = params.get('prize', ((1,)))
+        hero = hand.hero
+        ev_calc = get_ev_calc(hero, hand, prize)
+        ev_calc.calc(hero)
+        result = ev_calc.icm_ev_diff_ai_adj_pct(hero)
         #print(f'result: {result}')
-        #print(f'expected: {expected}'
+        #print(f'expected: {expected}')
         self.assertAlmostEqual(result, expected, 4)
 
     @add_params([
@@ -463,6 +516,23 @@ class TestEV(unittest.TestCase):
         #print(f'expected: {expected}'
         self.assertDictEqual(result, expected)
 
+    @add_params([
+            {'fn': 'hh/sat16/round1/3way/3way-ai-preflop.txt',
+             'expected':
+             {
+                 'OrangemanXD': 1,
+             }},
+            ])
+    def test_icm_fact_pct_3way(self, params):
+        hand = get_parsed_hand_from_file(params.get('fn'))
+        hero = hand.hero
+        expected = params.get('expected')
+        prize = params.get('prize', ((1,)))
+        ev_calc = get_ev_calc(hero, hand, prize)
+        result = ev_calc.icm_fact_pct()
+        #print(f'result: {result}')
+        #print(f'expected: {expected}'
+        self.assertDictEqual(result, expected)
     @add_params([
              # {'fn': 'hh/th1.txt',
              #  'expected':
@@ -727,11 +797,14 @@ class TestNumericDict(unittest.TestCase):
         di2['a'] = 10
         di2['b'] = 20
         di2['c'] = 30
-
+        
+        scalar = 10
         di3 = di2-di1
         self.assertDictEqual(di3, {'a': 9, 'b': 18, 'c': 30})
         di4 = di1-di2
         self.assertDictEqual(di4, {'a': -9, 'b': -18, 'c': -30})
+        di5 = di2-scalar
+        self.assertDictEqual(di5, {'a': 0, 'b': 10, 'c': 20})
 
     def test_mul(self):
         di1 = pokercalc.NumericDict(int)
