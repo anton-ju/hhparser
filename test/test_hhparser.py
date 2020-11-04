@@ -5,6 +5,7 @@ Created on Sat Jun  2 23:24:47 2018
 @author: user
 """
 import unittest
+from unittest import skip
 import logging
 from pypokertools.parsers import PSHandHistory, PSTournamentSummary
 
@@ -486,6 +487,13 @@ Seat 6: shortop (button) folded before Flop (didn't bet)
 """
 
 
+def get_parsed_hand_from_file(fn):
+    with open(fn) as f:
+        hh_text = f.read()
+        parsed_hand = PSHandHistory(hh_text)
+        return parsed_hand
+
+
 class TestPSHandHistory(unittest.TestCase):
     def setUp(self):
         self.case0 = PSHandHistory(th)
@@ -593,6 +601,16 @@ class TestPSHandHistory(unittest.TestCase):
         }
         self.assertDictEqual(case, res)
 
+    def test_p_actions_amounts_hu_postflop(self):
+
+        parsed_hand = get_parsed_hand_from_file("hh/sat16/round1/hu-ai-postflop.txt")
+        case = parsed_hand.p_actions_amounts
+        res = {
+            "NL_Classic": [50],
+            "Smdpair77": [0]
+        }
+        self.assertDictEqual(case, res)
+
     def test_p_actions_amounts(self):
         case = self.case0.p_actions_amounts
         res = {
@@ -639,6 +657,26 @@ class TestPSHandHistory(unittest.TestCase):
         res = {
             "epsilonmi27": [180],
             "DiggErr555": [180]
+        }
+        self.assertDictEqual(case, res)
+
+    def test_total_bets_amounts_ai_flop(self):
+        parsed_hand = get_parsed_hand_from_file("hh/sat16/round1/hu-ai-postflop.txt")
+
+        case = parsed_hand.total_bets_amounts()
+        res = {
+            'NL_Classic': 670,
+            'Smdpair77': 670,
+        }
+        self.assertDictEqual(case, res)
+
+    def test_f_actions_amounts_ai_flop(self):
+        parsed_hand = get_parsed_hand_from_file("hh/sat16/round1/hu-ai-postflop.txt")
+
+        case = parsed_hand.f_actions_amounts
+        res = {
+            'NL_Classic': [550],
+            'Smdpair77': [100, 450],
         }
         self.assertDictEqual(case, res)
 
@@ -922,8 +960,10 @@ class TestPSHandHistory(unittest.TestCase):
                                             'zaxar393': 2})
 
     def test_blinds(self):
-        self.assertDictEqual(self.case0.blinds, {'bigboyby': 10,
-                                                   '2Ran128': 20})
+        self.assertDictEqual(self.case0.blinds, {'bigboyby': 10, '2Ran128': 20})
+
+        parsed_hand = get_parsed_hand_from_file("hh/sat16/round1/hu-ai-postflop.txt")
+        self.assertDictEqual(parsed_hand.blinds, {'NL_Classic': 50, 'Smdpair77': 100})
 
     def test_flg_showdown(self):
         case = self.case0.flg_showdown()
@@ -1010,6 +1050,22 @@ class TestPSHandHistory(unittest.TestCase):
         self.assertEqual(hand, 'Q5s')
         hand = PSHandHistory.cards_to_hand('Qs 5c')
         self.assertEqual(hand, 'Q5o')
+
+    def test__process_regexp(self):
+        # TODO more tests on _process_regexp
+        ACTIONS_AMOUNTS_REGEX = "(?P<player>.*?): (?:calls|raises.*to|bets|checks) (?P<amount>\d+)?"
+        ACTIONS_AMOUNTS_DICT = {'player': 'amount'}
+        parsed_hand = get_parsed_hand_from_file("hh/sat16/round1/hu-ai-postflop.txt")
+        hand_txt = parsed_hand.preflop_str
+        print(hand_txt)
+        res = PSHandHistory._process_regexp("",
+                                            ACTIONS_AMOUNTS_REGEX,
+                                            hand_txt,
+                                            type_func=lambda x: int(x),
+                                            reslist=True,
+                                            **ACTIONS_AMOUNTS_DICT)
+        self.assertDictEqual(res, {'NL_Classic': [50], 'Smdpair77': [0]})
+
 
 
 class TestPSTournamentSummary(unittest.TestCase):

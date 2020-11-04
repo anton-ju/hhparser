@@ -202,6 +202,7 @@ class HandHistoryParser:
             type_func=lambda x: x,
             reslist=False,
             default_value=0,
+            replace_none=True,
             **kwargs):
         """
 
@@ -235,7 +236,9 @@ class HandHistoryParser:
         for k, v in kwargs.items():
             for i in it:
                 key = i.groupdict().get(k)
-                value = i.groupdict().get(v)
+                value = i.groupdict().get(v, default_value)
+                if replace_none and value is None:
+                    value = default_value
                 try:
                     if reslist:
                         if res.get(key):
@@ -823,14 +826,14 @@ class PSHandHistory(HandHistoryParser):
             search_str = self.preflop_str
         else:
             search_str = self.showdown_str
+        # replace None with default_value=1 
+        # means that if no message about player finishes treats as 
+        # player finished in 1st plase
         res = self._process_regexp(self.FINISHES_REGEX,
                                    search_str,
                                    type_func=lambda x: int(x),
+                                   default_value=1,
                                    **{'player': 'place'})
-        if res:
-            for k, v in res.items():
-                if v is None:
-                    res[k] = 1
         return res
 
     @cached_property
