@@ -1,12 +1,36 @@
 from collections import defaultdict
 import numpy
-from eval7 import py_equities_2hands, Card
+from eval7 import py_equities_2hands, Card, HandRange, py_hand_vs_range_monte_carlo
 import os
 
 
 def str_to_cards(hand_str):
     cards = tuple(map(Card, hand_str.split()))
     return cards
+
+
+# Print iterations progress
+def printProgressBar(iteration, total, prefix='', suffix='', decimals=1, length=100, fill='█'):
+    """
+    Call in a loop to create terminal progress bar
+    @params:
+        iteration   - Required  : current iteration (Int)
+        total       - Required  : total iterations (Int)
+        prefix      - Optional  : prefix string (Str)
+        suffix      - Optional  : suffix string (Str)
+        decimals    - Optional  : positive number of decimals in percent complete (Int)
+        length      - Optional  : character length of bar (Int)
+        fill        - Optional  : bar fill character (Str)
+    """
+    percent = ("{0:." + str(decimals) + "f}").format(100 * (iteration / float(total)))
+    filledLength = int(length * iteration // total)
+    bar = fill * filledLength + '-' * (length - filledLength)
+    print('\r%s |%s| %s%% %s' % (prefix, bar, percent, suffix), end='\r')
+    # Print New Line on Complete
+    if iteration == total:
+        print()
+
+
 # code from https://github.com/hh2010/hunl.git
 # Define some useful constants
 NUM_CARDS = 52
@@ -70,25 +94,40 @@ class EquityArray:
     # Constructor
     # Input:
     #    b - list of numbers representing a board
-    def __init__(self, b):
+    def __init__(self, b=''):
         self.board = b
-        self.eArray = numpy.zeros((NUM_CARDS,NUM_CARDS,NUM_CARDS,NUM_CARDS))
+        self.eArray = numpy.zeros((NUM_CARDS, NUM_CARDS, NUM_CARDS, NUM_CARDS))
         if os.path.isfile('eqarray/' + self.getFilename()):
             self.eArray = numpy.load('eqarray/' + self.getFilename())
         else:
             self.makeArray()
 
     def makeArray(self): #can you cut down on hand combos here through isomorphism?
-#         x = 0
+        # x = 0
         for i in range(NUM_CARDS):
             for j in range(NUM_CARDS):
+                if i >= j:
+                    continue
                 for a in range(NUM_CARDS):
+                    if a == i or a == j:
+                        continue
                     for b in range(NUM_CARDS):
-#                         x += 1
+                        if a >= b:
+                            continue
+                        if b == i or b == j or b == a:
+                            continue
+                        if self.eArray[a][b][i][j] != 0:
+                            self.eArray[i][j][a][b] = 1 - self.eArray[a][b][i][j]
+                            continue
+
+                        # self.eArray[i][j][a][b] = 1
+                        # x += 1
                         hand = str_to_cards(" ".join([CARDS[i], CARDS[j]]))
-                        villainHand = [a, b]
-                        self.eArray[i][j][a][b] = py_equities_2hands(hand, villainHand, self.board)
-#                         print x
+                        villainHand = HandRange(" ".join([CARDS[a], CARDS[b]]))
+                        board = str_to_cards(" ".join(self.board))
+
+                        self.eArray[i][j][a][b] = py_hand_vs_range_monte_carlo(hand, villainHand, board, 200000)
+                        # print(x)
         numpy.save(self.getFilename(), self.eArray)
 
     # Output: filename built from self.board
