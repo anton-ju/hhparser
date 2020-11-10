@@ -1,7 +1,7 @@
 from collections import defaultdict
 import numpy
 from eval7 import py_equities_2hands, Card, HandRange, py_hand_vs_range_monte_carlo
-import os
+from pathlib import Path
 
 
 def str_to_cards(hand_str):
@@ -29,6 +29,7 @@ def printProgressBar(iteration, total, prefix='', suffix='', decimals=1, length=
     # Print New Line on Complete
     if iteration == total:
         print()
+
 
 
 # code from https://github.com/hh2010/hunl.git
@@ -97,13 +98,15 @@ class EquityArray:
     def __init__(self, b=''):
         self.board = b
         self.eArray = numpy.zeros((NUM_CARDS, NUM_CARDS, NUM_CARDS, NUM_CARDS))
-        if os.path.isfile('eqarray/' + self.getFilename()):
-            self.eArray = numpy.load('eqarray/' + self.getFilename())
+        array_path = Path.cwd().joinpath('eqarray/' + self.getFilename())
+        if array_path.exists():
+            self.eArray = numpy.load(array_path)
         else:
             self.makeArray()
 
     def makeArray(self): #can you cut down on hand combos here through isomorphism?
-        # x = 0
+        x = 0
+        printProgressBar(x, 812000)
         for i in range(NUM_CARDS):
             for j in range(NUM_CARDS):
                 if i >= j:
@@ -121,13 +124,13 @@ class EquityArray:
                             continue
 
                         # self.eArray[i][j][a][b] = 1
-                        # x += 1
                         hand = str_to_cards(" ".join([CARDS[i], CARDS[j]]))
                         villainHand = HandRange(" ".join([CARDS[a], CARDS[b]]))
                         board = str_to_cards(" ".join(self.board))
 
                         self.eArray[i][j][a][b] = py_hand_vs_range_monte_carlo(hand, villainHand, board, 200000)
-                        # print(x)
+                        x += 1
+                        printProgressBar(x, 812000)
         numpy.save(self.getFilename(), self.eArray)
 
     # Output: filename built from self.board
@@ -139,10 +142,32 @@ class EquityArray:
         for i in boardAsStrings:
             if i != '__':
                 boardStr = boardStr + i
-            if boardStr == '': #this is the case when we have the preflop board
-                boardStr = 'preflop'
+        if boardStr == '': #this is the case when we have the preflop board
+            boardStr = 'preflop'
         boardStr = boardStr + '.ea.npy'
         return boardStr
+
+
+# Define EquityArray functions
+def getEquityVsHandFast(hand, villainHand, ea):
+    return ea.eArray[hand[0]][hand[1]][villainHand[0]][villainHand[1]]
+
+
+# precalculated preflop array
+EA = EquityArray()
+
+
+def py_equities_2hands_fast(hand1: str, hand2: str) -> tuple:
+    """returns tupple (hand1_equity, hand2_equity)
+    params:
+    hand1, hand2: strings ex. "As 2s"
+    """
+    h1 = hand1.split()
+    h2 = hand2.split()
+    h1.reverse()
+    h2.reverse()
+    result = getEquityVsHandFast(pe_string2card(h1), pe_string2card(h2), EA)
+    return (result, 1 - result)
 
 
 class cached_property(object):

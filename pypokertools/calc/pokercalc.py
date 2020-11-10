@@ -5,7 +5,7 @@ import logging
 from collections import defaultdict
 
 from pypokertools.parsers import PSHandHistory as hh
-from pypokertools.utils import NumericDict, cached_property
+from pypokertools.utils import NumericDict, cached_property, py_equities_2hands_fast
 import eval7
 from eval7 import py_equities_2hands, py_equities_3hands, py_equities_4hands
 from anytree import NodeMixin, RenderTree
@@ -569,15 +569,19 @@ class EV:
             board = str_to_cards(self.hand.flop + ' ' + self.hand.turn)
 
         if len(shd_players) == 2:
-            equity_func = py_equities_2hands
             hand1 = str_to_cards(self.cards.get(shd_players[0]))
             hand2 = str_to_cards(self.cards.get(shd_players[1]))
-            params = [hand1, hand2, board]
+            if board == '' or board is None:
+                equity_func = py_equities_2hands_fast
+                params = [hand1, hand2]
+            else:
+                equity_func = py_equities_2hands
+                params = [hand1, hand2, board]
         elif len(shd_players) == 3:
-            equity_func = py_equities_3hands
             hand1 = str_to_cards(self.cards.get(shd_players[0]))
             hand2 = str_to_cards(self.cards.get(shd_players[1]))
             hand3 = str_to_cards(self.cards.get(shd_players[2]))
+            equity_func = py_equities_3hands
             params = [hand1, hand2, hand3, board]
         else:
             return {}
