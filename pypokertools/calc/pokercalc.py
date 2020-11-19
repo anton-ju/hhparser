@@ -408,7 +408,7 @@ class EV:
 
         res = NumericDict(int)
         eq = self.probs
-        pwin = eq.get(player)
+        pwin = eq.get(player, 0)
         hero_win_path = ai_players[:] if ai_players[0] == player else ai_players[::-1]
         hero_lose_path = hero_win_path[::-1]
 
@@ -448,7 +448,7 @@ class EV:
             player = self.hand.hero
 
         eq = self.probs
-        pwin = eq.get(player)
+        pwin = eq.get(player, 0)
         hero_win_path = ai_players[:] if ai_players[0] == player else ai_players[::-1]
         hero_lose_path = hero_win_path[::-1]
 
