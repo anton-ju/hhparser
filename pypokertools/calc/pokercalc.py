@@ -377,7 +377,7 @@ class EV:
 
     def chip_won(self, player: str) -> int:
         """Returns chip won by player"""
-        return self.winnings_chips.get(player, 0)
+        return sum(self.winnings_chips.get(player, [0]))
 
     def chip_fact(self) -> NumericDict:
         """Return real outcome of played hand
