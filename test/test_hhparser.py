@@ -848,9 +848,9 @@ class TestPSHandHistory(unittest.TestCase):
         self.assertEqual(hh.tournamentPosition("zaxar393"), 3)#todo
         self.assertEqual(hh.tournamentPosition("error"), -1)#todo
 
-    def test_stacks(self):
+    def test_chips(self):
         hh = self.case0
-        self.assertEqual(hh.stacks(), {'da_mauso': 954,
+        self.assertEqual(hh.chips(), {'da_mauso': 954,
                                           'baluoteli': 20,
                                           'DiggErr555': 466,
                                           'bigboyby': 568,
@@ -858,8 +858,9 @@ class TestPSHandHistory(unittest.TestCase):
                                           'zaxar393': 496})
 
         hh = self.case7
-        self.assertEqual(hh.stacks(),{'sabuco_2110': 834,
+        self.assertEqual(hh.chips(),{'sabuco_2110': 834,
                                          'DiggErr555': 2166})
+
     def test_blinds_antes(self):        
         self.assertEqual(self.case0.blinds_antes, {'da_mauso': 2,
                                           'baluoteli': 2,
@@ -973,46 +974,6 @@ class TestPSHandHistory(unittest.TestCase):
         case = self.case2.flg_showdown()
         res = False
         self.assertEqual(case, res)
-
-
-
-    def test_flg_chiplead(self):
-        pass
-
-
-    def test_tournamentPositionL(self): 
-        pass
-        
-    def test_getStack(self):
-        pass
-        
-        
-    def test_stacks(self):
-        pass
-        
-        
-    def test_flg_chiplead_left(self):
-        pass
-
-        
-    def test_players_number(self):
-        pass
-        
-    def test_isKnockoutTournament(self):
-        pass
-        
-    def test_getStackDict(self):
-        pass
-        
-    def test_getBlinds(self):
-        pass
-        
-    def test_flgRFIOpp(self):
-        pass
-        
-    
-    def test_flgFacedAI(self):
-        pass
 
     def test_p_last_action(self):
         case = self.case0.p_last_action()

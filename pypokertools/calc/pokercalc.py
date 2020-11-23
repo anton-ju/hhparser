@@ -9,11 +9,12 @@ from pypokertools.utils import NumericDict, cached_property, py_equities_2hands_
 import eval7
 from eval7 import py_equities_2hands, py_equities_3hands, py_equities_4hands
 from anytree import NodeMixin, RenderTree
+from enum import Enum
+from typing import Dict
 
 logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
-from enum import Enum
 
 class KOModels(Enum):
     PROPORTIONAL = 1
@@ -259,13 +260,19 @@ def build_outcome_tree(aiplayers, stacks, pots, uncalled, total_bets, winnings):
 
 
 class EV:
-    def __init__(self, hand, icm=None, ko=KOModels.PROPORTIONAL, trials=1000000):
+    def __init__(self,
+                 hand: hh,
+                 icm: Icm = None,
+                 ko: int = KOModels.PROPORTIONAL,
+                 trials: int = 1000000):
         """
         hand: parsed hand object of HandHistoryParser subclass
         icm: icmcalc class
-        ko: ko calc
+        ko: Knockout calculation model
         trials: trials for monte carlo algorithm
         #todo add param: player to filter results
+
+        Functions to calculate expected value of played hand for hero
         """
         self.hand = hand
         #if no icm provided calculate as winner takes all case
@@ -273,14 +280,18 @@ class EV:
             icm = Icm((1,0))
         self.icm = icm
         self.ko = ko
+        # players who went all in on different streets
         self.ai_players = []
         self.p_ai_players = []
         self.f_ai_players = []
         self.t_ai_players = []
+
+        # chip collected from pot total
         self.winnings_chips = NumericDict(list, hand.chip_won)
+
         self.total_bets = NumericDict(int, hand.total_bets_amounts())
         self.prize_won = hand.prize_won
-        self.chips = NumericDict(int, hand.stacks())
+        self.chips = NumericDict(int, hand.chips())
         self.players = self.chips.keys()
         self.uncalled = NumericDict(int, hand.uncalled)
         self.cards = hand.known_cards
@@ -291,10 +302,8 @@ class EV:
         self.trials = trials
 
         self.total_prizes = (self.hand.bi - self.hand.rake - self.hand.bounty) * 4 #TODO tour types
-        self.player = str()
+        self.player = self.hand.hero
         self.flg_calculated = False
-        self.ai_players, self.p_ai_players, self.f_ai_players, self.t_ai_players = self.detect_ai_players(hand)
-        self.sort_ai_players_by_chipcount()
 
     @staticmethod
     def outcome(self, players):
@@ -349,37 +358,22 @@ class EV:
         if not(self.ai_players) or (len(self.ai_players) >2):
             return True
 
-    def calc(self, player):
-        if player not in self.players:
-            raise PlayerNotFoundException()
-        self.player = player
-        self.flg_calculated = True
+    def calc(self):
+        self.ai_players, self.p_ai_players, self.f_ai_players, self.t_ai_players = self.detect_ai_players(self.hand)
+        self.sort_ai_players_by_chipcount()
         self.probs = self.calculate_probs()
-        #if self.ai_players:
-            # print(self.ai_players, self.chips, self.pots, self.uncalled)
-            #root = build_outcome_tree(self.ai_players, self.chips, self.pots, self.uncalled)
-            #for pre, _, node in RenderTree(root):
-            #    pass
-                #print("%s %s %s %s" % (pre, node.name, node.chips, node.knocks))
-        #else:
-            #print(self.chip_fact())
+        self.flg_calculated = True
 
-    def chip_ev_diff_ai_adj(self, player):
-        fact = self.chip_fact().get(player)
-        return self.chip_ev_ai_adj(player) - fact
+    def chip_diff_ev_adj(self) -> float:
+        fact = self.chip_fact().get(self.player)
+        return self.chip_ev_adj() - fact
 
-    def chip_outcome(self, winners):
-        """ returns outcome with winners
-        raise error if winners not in aiplayers
-        returns: NumericDict {player: stack}
-        """
-        res = NumericDict(int)
+    def chip_net_won(self) -> Dict[str, int]:
+        """Returns net chip won for every player in hand"""
+        res = self.chip_fact() - self.chips
+        return res
 
-    def chip_won(self, player: str) -> int:
-        """Returns net chip won by player"""
-        return sum(self.winnings_chips.get(player, [0])) - self.total_bets.get(player, 0)
-
-    def chip_fact(self) -> NumericDict:
+    def chip_fact(self) -> Dict[str, int]:
         """Return real outcome of played hand
         chip count after hand been played
         returns: NumericDict {player: stack}
@@ -394,19 +388,24 @@ class EV:
             res[p] = sum(winnings[p]) + uncalled[p] + chips[p] - total_bets_amounts[p]
         return res
 
-    def chip_ev_ai_adj(self, player) -> float:
-        """Net won chips All in EV adjasted
+    def chip_ev_adj(self) -> float:
+        """expected to won chips All in adjusted
+        pwin - probabiliti for player to win on showdown
+        sWin - chips in case player win
+        sLose - chips in case player lose
+
+        chip_ev_adj = pWin * sWin + (1 - pWin) * sLose
+
         calculates only for 2 players in all in
-        returns: dict {player: stack}
+        returns: float
         """
         if self.should_return_chip_fact():
             return self.chip_fact().get(player)
 
         ai_players = self.ai_players
-        if not player:
-            player = self.hand.hero
-
-        res = NumericDict(int)
+        player = self.player
+        #  TODO: if hand has not been calculated yet raise exception, or what??
+        # <24-11-20, yourname> # 
         eq = self.probs
         pwin = eq.get(player, 0)
         hero_win_path = ai_players[:] if ai_players[0] == player else ai_players[::-1]
@@ -426,9 +425,10 @@ class EV:
                                           self.uncalled,
                                           self.total_bets,
                                           self.winnings_chips)
-        res = pwin * hero_win_outcome[player] \
-            + (1 - pwin) * hero_lose_outcome[player] \
-            - self.chip_fact().get(player)
+        swin = hero_win_outcome[player]
+        slose = hero_lose_outcome[player]
+
+        res = pwin * swin + (1 - pwin) * slose
         return res
 
     def ev_diff(self):
@@ -439,7 +439,7 @@ class EV:
         total_diff = self.icm_diff + self.ko_diff
         return total_diff
 
-    def icm_ev_ai_adj_pct(self, player):
+    def icm_ev_pct(self, player):
         if self.should_return_chip_fact():
             return self.icm_fact_pct().get(player, 0)  # TODO another conditions to return fact should be
 
@@ -472,17 +472,17 @@ class EV:
             + (1 - pwin) * icm_lose[player]
         return res
 
-    def icm_ev_diff_ai_adj_pct(self, player):
+    def icm_ev_diff_pct(self, player):
         """ ICM ev all in adjasted in percents
         """
         fact = self.icm_fact_pct().get(player, 0)
-        return self.icm_ev_ai_adj_pct(player) - fact
+        return self.icm_ev_pct(player) - fact
 
-    def icm_ev_ai_adj(self, player):
-        return self.icm_ev_ai_adj_pct(player) * self.total_prizes
+    def icm_ev(self, player):
+        return self.icm_ev_pct(player) * self.total_prizes
 
-    def icm_ev_diff_ai_adj(self, player):
-        return self.icm_ev_diff_ai_adj_pct(player) * self.total_prizes
+    def icm_ev_diff(self, player):
+        return self.icm_ev_diff_pct(player) * self.total_prizes
 
     def icm_fact(self):
         prize_won = self.prize_won

@@ -43,12 +43,12 @@ def get_parsed_hand_from_file(fn):
         return parsed_hand
 
 
-def get_ev_calc(player, parsed_hand, prize=((1,0)), ko_model=pokercalc.KOModels.PROPORTIONAL):
-        icm = pokercalc.Icm(prize)
-        ko = pokercalc.Knockout(ko_model)
-        ev_calc = pokercalc.EV(parsed_hand, icm, ko)
-        ev_calc.calc(player)
-        return ev_calc
+def get_ev_calc(player, parsed_hand, prize=((1, 0)), ko_model=pokercalc.KOModels.PROPORTIONAL):
+    icm = pokercalc.Icm(prize)
+    ko = pokercalc.Knockout(ko_model)
+    ev_calc = pokercalc.EV(parsed_hand, icm, ko)
+    ev_calc.calc()
+    return ev_calc
 
 
 class LoadCasesMixin:
@@ -73,7 +73,7 @@ class LoadCasesMixin:
                 # print(hh_text)
                 parsed_hand = hhparser(hh_text)
                 case = pokercalc.EV(parsed_hand, icm, ko)
-                case.calc('DiggErr555')
+                case.calc()
                 cls.case[fn] = case
 
     def get_params(self, params):
@@ -171,7 +171,7 @@ class TestEV(unittest.TestCase):
                 # print(hh_text)
                 parsed_hand = hhparser(hh_text)
                 case = pokercalc.EV(parsed_hand, icm, ko)
-                case.calc('DiggErr555')
+                case.calc()
                 cls.case[fn] = case
 
     def get_params(self, params):
@@ -256,7 +256,6 @@ class TestEV(unittest.TestCase):
         hand = get_parsed_hand_from_file(params.get('fn'))
         hero = hand.hero
         ev_calc = get_ev_calc(hero, hand)
-        ev_calc.calc(hero)
         expected = params.get('expected')
         result = ev_calc.probs.get(params.get('player'))
         self.assertAlmostEqual(result, expected, delta=0.005)
@@ -275,7 +274,6 @@ class TestEV(unittest.TestCase):
         hand = get_parsed_hand_from_file(params.get('fn'))
         hero = hand.hero
         ev_calc = get_ev_calc(hero, hand)
-        ev_calc.calc(hero)
         expected = params.get('expected')
         result = ev_calc.probs.get(params.get('player'))
         self.assertAlmostEqual(result, expected, delta=0.005)
@@ -291,7 +289,6 @@ class TestEV(unittest.TestCase):
         hand = get_parsed_hand_from_file(params.get('fn'))
         hero = hand.hero
         ev_calc = get_ev_calc(hero, hand)
-        ev_calc.calc(hero)
         expected = params.get('expected')
         result = ev_calc.probs.get(params.get('player'))
         self.assertAlmostEqual(result, expected, delta=0.005)
@@ -312,80 +309,108 @@ class TestEV(unittest.TestCase):
          'expected': -88,
          'player': 'DiggErr555'
         },
-        {
-         'fn': 'hh/sat16/round1/2way/hero-call-bvb.txt',
-         'expected': 88,
-         'player': 'bayaraa2222'
-        },
            ])
-    def test_chip_ev_ai_adj(self, params):
+    def test_chip_diff_ev_adj(self, params):
         hand = get_parsed_hand_from_file(params.get('fn'))
         ev_calc = get_ev_calc('DiggErr555', hand)
         expected = params.get('expected')
-        result = ev_calc.chip_ev_ai_adj(params.get('player'))
-        self.assertAlmostEqual(result, expected, places=0)
+        result = ev_calc.chip_diff_ev_adj()
+        self.assertAlmostEqual(round(result, 0), expected, places=0)
 
-    @add_params([{'fn': 'hh/th1.txt',
-             'expected':
-             {
-                 'vIpEr9427': 299,
-                 'Denisov V.': 427,
-                 'Chang Chi': 477,
-                 'sabuco_2110': 850,
-                 'shagvaladyan': 447,
-                 'DiggErr555': 500
-             }},
-            {'fn': 'hh/th7.txt',
-             'expected':
-             {
-                 'sabuco_2110': 0,
-                 'DiggErr555': 3000
-             }},
-            {'fn': 'hh/sat16/round1/2way/hero-push-sb-call.txt',
-             'expected':
-             {
-                 'fozzzi': 100,
-                 'bayaraa2222': 270,
-                 'apos87tolos': 460,
-                 'DiggErr555': 1170
-             }},
-            {'fn': 'hh/sat16/round1/2way/sb-push-hero-call.txt',
-             'expected':
-             {
-                 'fozzzi': 0,
-                 'DiggErr555': 2000,
-             }},
-            {'fn': 'hh/sat16/round1/2way/hero-call-bvb.txt',
-             'expected':
-             {
-                 'fozzzi': 90,
-                 'bayaraa2222': 0,
-                 'apos87tolos': 450,
-                 'DiggErr555': 1460,
-             }},
-            {'fn': 'hh/sat16/round1/hero-fold.txt',
-             'expected':
-             {
-                 'Aurade': 445,
-                 'Joshje': 625,
-                 'byStereo': 510,
-                 'DiggErr555': 420,
-             }},
-            {'fn': 'hh/sat16/round1/hero-push-bb-fold.txt',
-             'expected':
-             {
-                 'fozzzi': 710,
-                 'bayaraa2222': 340,
-                 'apos87tolos': 200,
-                 'DiggErr555': 750,
-             }},
-            ])
+    @add_params([
+        {'fn': 'hh/th1.txt',
+         'expected':
+         {
+             'vIpEr9427': 299,
+             'Denisov V.': 427,
+             'Chang Chi': 477,
+             'sabuco_2110': 850,
+             'shagvaladyan': 447,
+             'DiggErr555': 500
+         }},
+        {'fn': 'hh/th7.txt',
+         'expected':
+         {
+             'sabuco_2110': 0,
+             'DiggErr555': 3000
+         }},
+        {'fn': 'hh/sat16/round1/2way/hero-push-sb-call.txt',
+         'expected':
+         {
+             'fozzzi': 100,
+             'bayaraa2222': 270,
+             'apos87tolos': 460,
+             'DiggErr555': 1170
+         }},
+        {'fn': 'hh/sat16/round1/2way/sb-push-hero-call.txt',
+         'expected':
+         {
+             'fozzzi': 0,
+             'DiggErr555': 2000,
+         }},
+        {'fn': 'hh/sat16/round1/2way/hero-call-bvb.txt',
+         'expected':
+         {
+             'fozzzi': 90,
+             'bayaraa2222': 0,
+             'apos87tolos': 450,
+             'DiggErr555': 1460,
+         }},
+        {'fn': 'hh/sat16/round1/hero-fold.txt',
+         'expected':
+         {
+             'Aurade': 445,
+             'Joshje': 625,
+             'byStereo': 510,
+             'DiggErr555': 420,
+         }},
+        {'fn': 'hh/sat16/round1/hero-push-bb-fold.txt',
+         'expected':
+         {
+             'fozzzi': 710,
+             'bayaraa2222': 340,
+             'apos87tolos': 200,
+             'DiggErr555': 750,
+         }},
+        ])
     def test_chip_fact(self, params):
         hand = get_parsed_hand_from_file(params.get('fn'))
         hero = hand.hero
         ev_calc = get_ev_calc(hero, hand)
         expected = params.get('expected')
         result = ev_calc.chip_fact()
+        self.assertDictEqual(result, expected)
+
+    @add_params([
+        {'fn': 'hh/sat16/round1/2way/sb-push-hero-call.txt',
+         'expected':
+         {
+             'fozzzi': -710,
+             'DiggErr555': 710,
+         }},
+        {'fn': 'hh/sat16/round1/2way/hero-call-bvb.txt',
+         'expected':
+         {
+             'fozzzi': -10,
+             'bayaraa2222': -270,
+             'apos87tolos': -10,
+             'DiggErr555': 290,
+         }},
+        {'fn': 'hh/sat16/round1/hero-push-bb-fold.txt',
+         'expected':
+         {
+             'fozzzi': -10,
+             'bayaraa2222': -10,
+             'apos87tolos': -60,
+             'DiggErr555': 80,
+         }},
+        ])
+    def test_chip_net_won(self, params):
+        hand = get_parsed_hand_from_file(params.get('fn'))
+        hero = hand.hero
+        ev_calc = get_ev_calc(hero, hand)
+        expected = params.get('expected')
+        result = ev_calc.chip_net_won()
         self.assertDictEqual(result, expected)
 
     @add_params([
@@ -406,7 +431,8 @@ class TestEV(unittest.TestCase):
         result = ev_calc.chip_fact()
         self.assertDictEqual(result, expected)
 
-    @add_params([{'fn': 'hh/th1.txt',
+    @add_params([
+            {'fn': 'hh/th1.txt',
              'expected':
              {
                  'vIpEr9427': 299,
@@ -443,14 +469,13 @@ class TestEV(unittest.TestCase):
              'expected': 0.00978,
              },
             ])
-    def test_icm_ev_diff_ai_adj_pct(self, params):
+    def test_icm_ev_diff_pct(self, params):
         hand = get_parsed_hand_from_file(params.get('fn'))
         expected = params.get('expected')
         prize = params.get('prize', ((1,)))
         hero = hand.hero
         ev_calc = get_ev_calc(hero, hand, prize)
-        ev_calc.calc(hero)
-        result = ev_calc.icm_ev_diff_ai_adj_pct(hero)
+        result = ev_calc.icm_ev_diff_pct(hero)
         self.assertAlmostEqual(result, expected, 4)
 
     @add_params([
@@ -458,14 +483,13 @@ class TestEV(unittest.TestCase):
              'expected': 0,
              },
             ])
-    def test_icm_ev_diff_ai_adj_pct_3way(self, params):
+    def test_icm_ev_diff_pct_3way(self, params):
         hand = get_parsed_hand_from_file(params.get('fn'))
         expected = params.get('expected')
         prize = params.get('prize', ((1,)))
         hero = hand.hero
         ev_calc = get_ev_calc(hero, hand, prize)
-        ev_calc.calc(hero)
-        result = ev_calc.icm_ev_diff_ai_adj_pct(hero)
+        result = ev_calc.icm_ev_diff_pct(hero)
         #print(f'result: {result}')
         #print(f'expected: {expected}')
         self.assertAlmostEqual(result, expected, 4)

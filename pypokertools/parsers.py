@@ -9,6 +9,7 @@ import numpy as np
 import itertools
 from datetime import datetime
 from bs4 import BeautifulSoup as bs
+from typing import List, Dict
 
 ACTIONS = {
     'calls': 'c',
@@ -325,7 +326,7 @@ class PSHandHistory(HandHistoryParser):
 
         self.sb = 0
         self.bb = 0
-        self._stacks_list = []
+        self._chips_list = []
         self.players = []
         self.small_blind = 0
         self.big_blind = 0
@@ -340,15 +341,15 @@ class PSHandHistory(HandHistoryParser):
         tuples = re.findall(regex, self.hand_history)
 
         self.players = [x[0] for x in tuples]
-        self._stacks_list = [float(x[1].replace(",", "")) for x in tuples]
-        self._stacks = {x[0]: float(x[1].replace(",", "")) for x in tuples}
+        self._chips_list = [float(x[1].replace(",", "")) for x in tuples]
+        self._chips = {x[0]: float(x[1].replace(",", "")) for x in tuples}
         #       удаление нулевых стэков
         try:
-            self._stacks_list.index(0.0)
-            print(self._stacks_list.index(0.0))
-            while self._stacks_list.index(0.0) + 1:
-                n = self._stacks_list.index(0.0)
-                self._stacks_list.remove(0.0)
+            self._chips_list.index(0.0)
+            print(self._chips_list.index(0.0))
+            while self._chips_list.index(0.0) + 1:
+                n = self._chips_list.index(0.0)
+                self._chips_list.remove(0.0)
                 self.players.pop(n)
         except ValueError:
             pass
@@ -382,10 +383,10 @@ class PSHandHistory(HandHistoryParser):
         except ValueError:
             return -1
 
-        sp = self._stacks_list[i]
+        sp = self._chips_list[i]
         result = 1
         #
-        for s in self._stacks_list:
+        for s in self._chips_list:
             if s > sp:
                 result += 1
 
@@ -416,11 +417,11 @@ class PSHandHistory(HandHistoryParser):
             print("no player " + player)
             return -1
 
-        sp = self._stacks_list[i]
+        sp = self._chips_list[i]
         result = 1
 
         i = self.preflop_order.index(player)
-        for s in [self._stacks_list[ind1]
+        for s in [self._chips_list[ind1]
                   for ind1 in [self.players.index(p)
                                for p in self.preflop_order[i:]]]:
             if s > sp:
@@ -440,25 +441,25 @@ class PSHandHistory(HandHistoryParser):
                 print("no player " + player)
                 return -1
 
-            sp = self._stacks_list[i]
+            sp = self._chips_list[i]
 
         if type(player) is int:
             try:
-                sp = self._stacks_list[player]
+                sp = self._chips_list[player]
             except IndexError:
                 print("no such index " + player)
                 return -1
 
         return sp
 
-    def stacks(self):
+    def chips(self):
         # returns dict {player: stack}
-        return self._stacks
+        return self._chips
 
     def stack_list(self):
         #       возвращает сисок стэков
         #
-        return self._stacks_list
+        return self._chips_list
 
     def flg_chiplead_left(self, player):
 
@@ -470,7 +471,7 @@ class PSHandHistory(HandHistoryParser):
     def players_number(self):
         #   возвращает число игроков
         #
-        return len(self._stacks_list)
+        return len(self._chips_list)
 
     def flg_knockout(self):
         return True if self.bounty > 0 else False
@@ -545,7 +546,8 @@ class PSHandHistory(HandHistoryParser):
         return res
 
     @cached_property
-    def p_actions(self):
+    def p_actions(self) -> Dict[str, List[str]]:
+        """returns list of preflop actions for every player"""
         return self._process_regexp(
             self.ACTIONS_REGEX,
             self.preflop_str,
@@ -555,7 +557,8 @@ class PSHandHistory(HandHistoryParser):
         )
 
     @cached_property
-    def f_actions(self):
+    def f_actions(self) -> Dict[str, List[str]]:
+        """returns list of flop actions for every player"""
         return self._process_regexp(
             self.ACTIONS_REGEX,
             self.flop_str,
@@ -565,7 +568,8 @@ class PSHandHistory(HandHistoryParser):
         )
 
     @cached_property
-    def t_actions(self):
+    def t_actions(self) -> Dict[str, List[str]]:
+        """returns list of turn actions for every player"""
         return self._process_regexp(
             self.ACTIONS_REGEX,
             self.turn_str,
@@ -575,7 +579,8 @@ class PSHandHistory(HandHistoryParser):
         )
 
     @cached_property
-    def r_actions(self):
+    def r_actions(self) -> Dict[str, List[str]]:
+        """returns list of river actions for every player"""
         return self._process_regexp(self.ACTIONS_REGEX,
                                     self.river_str,
                                     type_func=lambda x: ACTIONS[x],
@@ -583,7 +588,7 @@ class PSHandHistory(HandHistoryParser):
                                     **self.ACTIONS_DICT)
 
     @cached_property
-    def p_ai_players(self):
+    def p_ai_players(self) -> Dict[str, List[str]]:
         # TODO сюда не попадают игроки которые заколили или поставили игрока 
         # под аи оставив в своем стэке фишки
 
@@ -594,24 +599,24 @@ class PSHandHistory(HandHistoryParser):
                                     reslist=True)
 
     @cached_property
-    def f_ai_players(self):
-        #       returns list of players which is all in preflop
+    def f_ai_players(self) -> Dict[str, List[str]]:
+        #       returns list of players which is all in flop 
         return self._process_regexp(self.AI_PLAYERS_REGEX,
                                     self.flop_str,
                                     'player',
                                     reslist=True)
 
     @cached_property
-    def t_ai_players(self):
-        #       returns list of players which is all in preflop
+    def t_ai_players(self) -> Dict[str, List[str]]:
+        #       returns list of players which is all in turn 
         return self._process_regexp(self.AI_PLAYERS_REGEX,
                                     self.turn_str,
                                     'player',
                                     reslist=True)
 
     @cached_property
-    def r_ai_players(self):
-        #       returns list of players which is all in preflop
+    def r_ai_players(self) -> Dict[str, List[str]]:
+        #       returns list of players which is all in river 
         return self._process_regexp(self.AI_PLAYERS_REGEX,
                                     self.river_str,
                                     'player',
@@ -621,7 +626,7 @@ class PSHandHistory(HandHistoryParser):
     def pot_list(self):
         """
         returns list with 1st item is total pot and all
-        af the side pots if presents
+        the side pots if presents
         """
         return self._process_regexp(self.POT_LIST_REGEX,
                                     self.summary_str,
@@ -662,11 +667,12 @@ class PSHandHistory(HandHistoryParser):
                                     reslist=True,
                                     **self.ACTIONS_AMOUNTS_DICT)
 
-    def total_bets_amounts(self):
-        # total bets sum on every street including blinds and antes
+    def total_bets_amounts(self) -> Dict[str, int]:
+        """ total bets sum on every street including blinds and antes, for every player
+        """
         res = {}
 
-        for k in list(self._stacks.keys()):
+        for k in list(self._chips.keys()):
 
             actions = self.p_actions.get(k, [0])
             if 'r' in actions:
@@ -704,7 +710,7 @@ class PSHandHistory(HandHistoryParser):
 
     def p_last_action(self):
         res = {}
-        for k in list(self._stacks.keys()):
+        for k in list(self._chips.keys()):
             p_actions = self.p_actions.get(k, '')
             if p_actions:
                 res[k] = p_actions[len(p_actions) - 1]
@@ -712,7 +718,7 @@ class PSHandHistory(HandHistoryParser):
 
     def f_last_action(self):
         res = {}
-        for k in list(self._stacks.keys()):
+        for k in list(self._chips.keys()):
             actions = self.f_actions.get(k, '')
             if actions:
                 res[k] = actions[len(actions) - 1]
@@ -720,7 +726,7 @@ class PSHandHistory(HandHistoryParser):
 
     def t_last_action(self):
         res = {}
-        for k in list(self._stacks.keys()):
+        for k in list(self._chips.keys()):
             actions = self.t_actions.get(k, '')
             if actions:
                 res[k] = actions[len(actions) - 1]
@@ -728,15 +734,16 @@ class PSHandHistory(HandHistoryParser):
 
     def r_last_action(self):
         res = {}
-        for k in list(self._stacks.keys()):
+        for k in list(self._chips.keys()):
             actions = self.r_actions.get(k, '')
             if actions:
                 res[k] = actions[len(actions) - 1]
         return res
 
     @cached_property
-    def hero(self):
-        #       returns hero name
+    def hero(self) -> str:
+        """returns hero name
+        """
         return self._process_regexp(
                 self.HERO_REGEX,
                 self.preflop_str,
@@ -744,7 +751,9 @@ class PSHandHistory(HandHistoryParser):
             )
 
     @cached_property
-    def hero_cards(self):
+    def hero_cards(self) -> str:
+        """returns pocket cards
+        """
         return self._process_regexp(
                 self.HERO_CARDS_REGEX,
                 self.preflop_str,
@@ -752,14 +761,18 @@ class PSHandHistory(HandHistoryParser):
             )
 
     @cached_property
-    def known_cards(self):
+    def known_cards(self) -> Dict[str, str]:
+        """returns known cards, if there are showdown in hand, for every player
+        """
         return self._process_regexp(self.KNOWN_CARDS_REGEX,
                                     self.summary_str,
                                     **self.KNOWN_CARDS_DICT,
                                     )
 
     @cached_property
-    def flop(self):
+    def flop(self) -> str:
+        """ flop cards
+        """
         return self._process_regexp(self.FLOP_REGEX,
                                     self.flop_str,
                                     'flop',
@@ -767,13 +780,17 @@ class PSHandHistory(HandHistoryParser):
                                     )
 
     @cached_property
-    def turn(self):
+    def turn(self) -> str:
+        """ turn cards
+        """
         return self._process_regexp(self.TURN_REGEX,
                                     self.turn_str,
                                     'turn')
 
     @cached_property
-    def river(self):
+    def river(self) -> str:
+        """ river cards
+        """
         return self._process_regexp(self.RIVER_REGEX,
                                     self.river_str,
                                     'river')
@@ -799,7 +816,9 @@ class PSHandHistory(HandHistoryParser):
         return res
 
     @cached_property
-    def prize_won(self):
+    def prize_won(self) -> Dict[str, float]:
+        """ returns prize player won
+        """
         if str.strip(self.showdown_str) == '':
             # in case if where no showdown
             search_str = self.preflop_str
@@ -812,7 +831,9 @@ class PSHandHistory(HandHistoryParser):
                                     **{'player': 'prize'})
 
     @cached_property
-    def chip_won(self):
+    def chip_won(self) -> Dict[str, List[int]]:
+        """ returns how much chips total player collected from pot
+        """
         return self._process_regexp(self.CHIPWON_REGEX,
                                     self.showdown_str + self.preflop_str,
                                     type_func=lambda x: int(x),
@@ -976,8 +997,8 @@ class PSHandHistory(HandHistoryParser):
         if stacks is not None:
             SZ = np.size(stacks)
         else:
-            SZ = np.size(self._stacks_list)
-            stacks = np.copy(self._stacks_list)
+            SZ = np.size(self._chips_list)
+            stacks = np.copy(self._chips_list)
 
         ind1 = range(0, SZ)
 
@@ -998,8 +1019,8 @@ class PSHandHistory(HandHistoryParser):
         if stacks is not None:
             SZ = np.size(stacks)
         else:
-            SZ = np.size(self._stacks_list)
-            stacks = np.copy(self._stacks_list)
+            SZ = np.size(self._chips_list)
+            stacks = np.copy(self._chips_list)
         ind1 = range(0, SZ)
         min_place = min(SZ, np.size(self.PRIZE))
         p1 = np.zeros(shape=(min_place, SZ))
@@ -1015,7 +1036,7 @@ class PSHandHistory(HandHistoryParser):
 
     def tie_factor(self):
         eq = self.icm_eq()
-        st = np.array(self._stacks_list)
+        st = np.array(self._chips_list)
         sz = np.size(st)
         result = np.zeros((sz, sz))
         for i in range(sz):
