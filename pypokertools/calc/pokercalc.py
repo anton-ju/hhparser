@@ -10,7 +10,7 @@ import eval7
 from eval7 import py_equities_2hands, py_equities_3hands, py_equities_4hands
 from anytree import NodeMixin, RenderTree
 from enum import Enum
-from typing import Dict
+from typing import Dict, List
 
 logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
@@ -263,16 +263,15 @@ class EV:
     def __init__(self,
                  hand: hh,
                  icm: Icm = None,
-                 ko: int = KOModels.PROPORTIONAL,
+                 ko: KOModels = KOModels.PROPORTIONAL,
                  trials: int = 1000000):
         """
         hand: parsed hand object of HandHistoryParser subclass
         icm: icmcalc class
         ko: Knockout calculation model
         trials: trials for monte carlo algorithm
-        #todo add param: player to filter results
 
-        Functions to calculate expected value of played hand for hero
+        Functions to calculate expected value of played hand
         """
         self.hand = hand
         #if no icm provided calculate as winner takes all case
@@ -281,10 +280,10 @@ class EV:
         self.icm = icm
         self.ko = ko
         # players who went all in on different streets
-        self.ai_players = []
-        self.p_ai_players = []
-        self.f_ai_players = []
-        self.t_ai_players = []
+        self.ai_players: List[str] = []
+        self.p_ai_players: List[str] = []
+        self.f_ai_players: List[str] = []
+        self.t_ai_players: List[str] = []
 
         # chip collected from pot total
         self.winnings_chips = NumericDict(list, hand.chip_won)
@@ -302,6 +301,7 @@ class EV:
         self.trials = trials
 
         self.total_prizes = (self.hand.bi - self.hand.rake - self.hand.bounty) * 4 #TODO tour types
+        # default player for calculation is always hero
         self.player = self.hand.hero
         self.flg_calculated = False
 
@@ -351,21 +351,30 @@ class EV:
         self.ai_players.sort(key=lambda v: self.chips[v], reverse=True)
 
     def should_return_chip_fact(self) -> bool:
-
         if not(self.hand.flg_showdown()):
             return True
 
-        if not(self.ai_players) or (len(self.ai_players) >2):
+        if not(self.ai_players) or (len(self.ai_players) > 2):
             return True
 
-    def calc(self):
-        self.ai_players, self.p_ai_players, self.f_ai_players, self.t_ai_players = self.detect_ai_players(self.hand)
-        self.sort_ai_players_by_chipcount()
-        self.probs = self.calculate_probs()
-        self.flg_calculated = True
+        return False
+
+    def calc(self, player: str) -> None:
+        """
+        calculates probabilities and detects all in players
+        sets up active player for which results of calculations returns
+        """
+        if self.flg_calculated:
+            self.player = player
+        else:
+            self.player = player
+            self.ai_players, self.p_ai_players, self.f_ai_players, self.t_ai_players = self.detect_ai_players(self.hand)
+            self.sort_ai_players_by_chipcount()
+            self.probs = self.calculate_probs()
+            self.flg_calculated = True
 
     def chip_diff_ev_adj(self) -> float:
-        fact = self.chip_fact().get(self.player)
+        fact = self.chip_fact().get(self.player, 0.0)
         return self.chip_ev_adj() - fact
 
     def chip_net_won(self) -> Dict[str, int]:
@@ -400,7 +409,7 @@ class EV:
         returns: float
         """
         if self.should_return_chip_fact():
-            return self.chip_fact().get(player)
+            return self.chip_fact().get(self.player, 0.0)
 
         ai_players = self.ai_players
         player = self.player
@@ -439,13 +448,20 @@ class EV:
         total_diff = self.icm_diff + self.ko_diff
         return total_diff
 
-    def icm_ev_pct(self, player):
+    def icm_ev_pct(self) -> float:
+        """
+        calculates expected value of stack in percents of prize fund according to the icm model
+        pwin - probability for player to win on showdown
+        icm_win - icm value for players stack in case player win
+        icm_lose - icm value for players stack in case player lose
+        icm_ev_pct = pwin * icm_win + (1 - pwin) * icm_lose
+        """
+        # TODO another conditions to return fact should be
         if self.should_return_chip_fact():
-            return self.icm_fact_pct().get(player, 0)  # TODO another conditions to return fact should be
+            return self.icm_fact_pct()
 
         ai_players = self.ai_players
-        if not player:
-            player = self.hand.hero
+        player = self.player
 
         eq = self.probs
         pwin = eq.get(player, 0)
@@ -472,28 +488,45 @@ class EV:
             + (1 - pwin) * icm_lose[player]
         return res
 
-    def icm_ev_diff_pct(self, player):
-        """ ICM ev all in adjasted in percents
+    def icm_ev_diff_pct(self) -> float:
         """
-        fact = self.icm_fact_pct().get(player, 0)
-        return self.icm_ev_pct(player) - fact
+        calculates difference between EV and fact in percent according to the icm model
 
-    def icm_ev(self, player):
-        return self.icm_ev_pct(player) * self.total_prizes
+        icm_ev_diff_pct = icm_ev_pct - icm_fact
+        """
+        fact = self.icm_fact_pct()
+        return self.icm_ev_pct() - fact
 
-    def icm_ev_diff(self, player):
-        return self.icm_ev_diff_pct(player) * self.total_prizes
+    def icm_ev(self) -> float:
+        """
+        calculates expected value of players stack in currency according to the icm model
+        """
+        return self.icm_ev_pct() * self.total_prizes
 
-    def icm_fact(self):
+    def icm_ev_diff(self):
+        """
+        calculates difference between EV and fact in currency according to the icm model
+        """
+        return self.icm_ev_diff_pct() * self.total_prizes
+
+    def icm_fact(self) -> float:
+        """
+        calculates fact value of players stack in currency according to the icm model
+        returns actual amount player won if tournament finished in the hand
+        """
         prize_won = self.prize_won
         icm_fact_pct = self.icm_fact_pct()
         if self.prize_won:
             res = prize_won
         else:
             res = self.total_prizes * icm_fact_pct
-        return res
+        return res.get(self.player, 0)
 
-    def icm_fact_pct(self):
+    def icm_fact_pct(self) -> float:
+        """
+        calculates fact value of players stack in percents according to the icm model
+        returns actual amount player won in percents if tournament finished in the hand
+        """
         chip_fact = self.chip_fact()
         prize_won = self.prize_won
         if prize_won:
@@ -501,12 +534,13 @@ class EV:
         else:
             res = NumericDict(float, self.icm.calc(chip_fact))
 
-        return res
+        return res.get(self.player, 0)
 
     def ko_ev(self):
-        res = self.ko_ev_pct() * self.hand.bounty
+        # res = self.ko_ev_pct() * self.hand.bounty
 
-        return res
+        # return res
+        pass
 
     def ko_ev_pct(self):
         # returns: float
@@ -515,25 +549,27 @@ class EV:
         # посчитаем также как и icm_ev
         # если игрок выиграл и выбил другого игрока, то добавим к его нокаутам количество игроков которых он выбил
         # ev = p_win * ko_ev(win) + (1 - p_win) * ko_ev(lose)
-        if not self.ko:
-            return 0
+        # if not self.ko:
+        #     return 0
 
-        p_win = self.probs.get(self.player, 0)
-        ev_win = self.ko.calc(self.chip_win()).get(self.player, 0)
-        ko_get = self.non_zero_values(self.chips) - self.non_zero_values(self.chip_win())
-        ev_win += ko_get
-        ev_lose = self.ko.calc(self.chip_lose()).get(self.player, 0)
+        # p_win = self.probs.get(self.player, 0)
+        # ev_win = self.ko.calc(self.chip_win()).get(self.player, 0)
+        # ko_get = self.non_zero_values(self.chips) - self.non_zero_values(self.chip_win())
+        # ev_win += ko_get
+        # ev_lose = self.ko.calc(self.chip_lose()).get(self.player, 0)
         # logger.debug(p_win)
         # logger.debug(ev_win)
         # logger.debug(self.chip_lose)
 
-        ev = p_win * ev_win + (1 - p_win) * ev_lose
+        # ev = p_win * ev_win + (1 - p_win) * ev_lose
 
-        return ev
+        # return ev
+        pass
 
     def ko_fact(self):
 
-        return self.hand.bounty * self.ko_fact_pct()
+        # return self.hand.bounty * self.ko_fact_pct()
+        pass
 
     def ko_fact_pct(self):
         res = {}
@@ -545,21 +581,22 @@ class EV:
 
         return res
 
-
     @property
     def ko_diff(self):
         # returns: float
         # Возвращает разницу между ожиданием и факту по KO
-        return self.ko_diff_pct * self.hand.bounty
+        # return self.ko_diff_pct * self.hand.bounty
+        pass
 
     @property
     def ko_diff_pct(self):
         # returns: float
         # Возвращает разницу между ожиданием и факту по KO
-        if self.ko:
-            return self.ko_ev_pct - self.ko_fact_pct.get(self.player, 0)
-        else:
-            return 0
+        # if self.ko:
+        #     return self.ko_ev_pct - self.ko_fact_pct.get(self.player, 0)
+        # else:
+        #     return 0
+        pass
 
     def calculate_probs(self):
 
