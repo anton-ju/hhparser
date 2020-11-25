@@ -47,7 +47,7 @@ def get_ev_calc(player, parsed_hand, prize=((1, 0)), ko_model=pokercalc.KOModels
     icm = pokercalc.Icm(prize)
     ko = pokercalc.Knockout(ko_model)
     ev_calc = pokercalc.EV(parsed_hand, icm, ko)
-    ev_calc.calc()
+    ev_calc.calc(player)
     return ev_calc
 
 
@@ -171,7 +171,7 @@ class TestEV(unittest.TestCase):
                 # print(hh_text)
                 parsed_hand = hhparser(hh_text)
                 case = pokercalc.EV(parsed_hand, icm, ko)
-                case.calc()
+                case.calc(parsed_hand.hero)
                 cls.case[fn] = case
 
     def get_params(self, params):
@@ -257,7 +257,7 @@ class TestEV(unittest.TestCase):
         hero = hand.hero
         ev_calc = get_ev_calc(hero, hand)
         expected = params.get('expected')
-        result = ev_calc.probs.get(params.get('player'))
+        result = ev_calc.get_probs(params.get('player'))
         self.assertAlmostEqual(result, expected, delta=0.005)
 
     @add_params([
@@ -275,7 +275,7 @@ class TestEV(unittest.TestCase):
         hero = hand.hero
         ev_calc = get_ev_calc(hero, hand)
         expected = params.get('expected')
-        result = ev_calc.probs.get(params.get('player'))
+        result = ev_calc.get_probs(params.get('player'))
         self.assertAlmostEqual(result, expected, delta=0.005)
 
     @add_params([
@@ -290,7 +290,7 @@ class TestEV(unittest.TestCase):
         hero = hand.hero
         ev_calc = get_ev_calc(hero, hand)
         expected = params.get('expected')
-        result = ev_calc.probs.get(params.get('player'))
+        result = ev_calc.get_probs(params.get('player'))
         self.assertAlmostEqual(result, expected, delta=0.005)
 
     @add_params([
@@ -475,7 +475,7 @@ class TestEV(unittest.TestCase):
         prize = params.get('prize', ((1,)))
         hero = hand.hero
         ev_calc = get_ev_calc(hero, hand, prize)
-        result = ev_calc.icm_ev_diff_pct(hero)
+        result = ev_calc.icm_ev_diff_pct()
         self.assertAlmostEqual(result, expected, 4)
 
     @add_params([
@@ -489,7 +489,7 @@ class TestEV(unittest.TestCase):
         prize = params.get('prize', ((1,)))
         hero = hand.hero
         ev_calc = get_ev_calc(hero, hand, prize)
-        result = ev_calc.icm_ev_diff_pct(hero)
+        result = ev_calc.icm_ev_diff_pct()
         #print(f'result: {result}')
         #print(f'expected: {expected}')
         self.assertAlmostEqual(result, expected, 4)
@@ -536,9 +536,7 @@ class TestEV(unittest.TestCase):
         prize = params.get('prize', ((1,)))
         ev_calc = get_ev_calc(hero, hand, prize)
         result = ev_calc.icm_fact_pct()
-        #print(f'result: {result}')
-        #print(f'expected: {expected}'
-        self.assertDictEqual(result, expected)
+        self.assertEqual(result, expected.get(hero))
 
     @add_params([
             {'fn': 'hh/sat16/round1/3way/3way-ai-preflop.txt',
@@ -554,9 +552,9 @@ class TestEV(unittest.TestCase):
         prize = params.get('prize', ((1,)))
         ev_calc = get_ev_calc(hero, hand, prize)
         result = ev_calc.icm_fact_pct()
-        #print(f'result: {result}')
-        #print(f'expected: {expected}'
-        self.assertDictEqual(result, expected)
+
+        self.assertEqual(result, expected.get(hero, 0))
+
     @add_params([
              # {'fn': 'hh/th1.txt',
              #  'expected':
@@ -583,7 +581,7 @@ class TestEV(unittest.TestCase):
         self.assertEqual(pokercalc.EV.sum_dict_values({1: 1, 2: 2, 3: 'sdf', 4: 0}), 0)
         self.assertEqual(pokercalc.EV.sum_dict_values([1, 2, 3]), 0)
 
-class TestOutcome(LoadCasesMixin, unittest.TestCase):
+class TestOutcome(unittest.TestCase):
     def test_add_cildren(self):
         aiplayers = ['DiggErr555', 'fozzzi']
         root = pokercalc.OutCome('root')

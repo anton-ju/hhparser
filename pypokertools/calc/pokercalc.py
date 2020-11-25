@@ -300,9 +300,12 @@ class EV:
             self.pots = self.pots[1:]
         self.trials = trials
 
-        self.total_prizes = (self.hand.bi - self.hand.rake - self.hand.bounty) * 4 #TODO tour types
+        self.total_prizes = (self.hand.bi - self.hand.rake - self.hand.bounty) * 4
+        # TODO tournament types detection?
+
         # default player for calculation is always hero
         self.player = self.hand.hero
+        self._probs: Dict[str, int]
         self.flg_calculated = False
 
     @staticmethod
@@ -359,6 +362,19 @@ class EV:
 
         return False
 
+    def get_probs(self, player: str) -> float:
+        """
+        :returns: probabilities of win on showdown for given player,
+        returns 0 if player not participated in all in
+
+        """
+        if self.flg_calculated:
+            return self._probs.get(player, 0)
+        else:
+            self._probs = self.calculate_probs()
+            self.flg_calculated = True
+            return self._probs.get(player, 0)
+
     def calc(self, player: str) -> None:
         """
         calculates probabilities and detects all in players
@@ -370,7 +386,7 @@ class EV:
             self.player = player
             self.ai_players, self.p_ai_players, self.f_ai_players, self.t_ai_players = self.detect_ai_players(self.hand)
             self.sort_ai_players_by_chipcount()
-            self.probs = self.calculate_probs()
+            self._probs = self.calculate_probs()
             self.flg_calculated = True
 
     def chip_diff_ev_adj(self) -> float:
@@ -415,7 +431,7 @@ class EV:
         player = self.player
         #  TODO: if hand has not been calculated yet raise exception, or what??
         # <24-11-20, yourname> # 
-        eq = self.probs
+        eq = self._probs
         pwin = eq.get(player, 0)
         hero_win_path = ai_players[:] if ai_players[0] == player else ai_players[::-1]
         hero_lose_path = hero_win_path[::-1]
@@ -463,7 +479,7 @@ class EV:
         ai_players = self.ai_players
         player = self.player
 
-        eq = self.probs
+        eq = self._probs
         pwin = eq.get(player, 0)
         hero_win_path = ai_players[:] if ai_players[0] == player else ai_players[::-1]
         hero_lose_path = hero_win_path[::-1]
@@ -552,7 +568,7 @@ class EV:
         # if not self.ko:
         #     return 0
 
-        # p_win = self.probs.get(self.player, 0)
+        # p_win = self._probs.get(self.player, 0)
         # ev_win = self.ko.calc(self.chip_win()).get(self.player, 0)
         # ko_get = self.non_zero_values(self.chips) - self.non_zero_values(self.chip_win())
         # ev_win += ko_get
@@ -598,8 +614,10 @@ class EV:
         #     return 0
         pass
 
-    def calculate_probs(self):
-
+    def calculate_probs(self) -> Dict[str, float]:
+        """
+        calculates probabilities of win on showdown for 2 or 3 players
+        """
         params = []
         shd_players = list(self.cards.keys())
         if self.p_ai_players:
