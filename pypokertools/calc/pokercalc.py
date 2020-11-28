@@ -10,7 +10,7 @@ import eval7
 from eval7 import py_equities_2hands, py_equities_3hands, py_equities_4hands
 from anytree import NodeMixin, RenderTree
 from enum import Enum
-from typing import Dict, List
+from typing import Dict, List, Tuple
 
 logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
@@ -180,11 +180,29 @@ def fill_probs(root, cards):
         if not node.is_leaf:
             pass
 
+#  TODO:  <28-11-20, anton-ju> make class for this functions # 
 
-def build_outcome(path, aiplayers, chips, pots, uncalled, total_bets, winnings):
-    """returns chipcount for outcome path: list of players in order of winning
+
+def build_outcome(path: List[str],
+                  aiplayers: List[str],
+                  chips: Dict[str, int],
+                  pots: List[float],
+                  uncalled: Dict[str, int],
+                  total_bets: Dict[str, int],
+                  winnings: Dict[str, int]) -> Dict[str, int]:
     """
-    
+    Returns chipcount for outcome path
+    :path: list of player names who win pots
+        [player1, player2] means player1 wins, player2 lose
+        [player1, player2, player3] means player1 wins main pot, player2 win side pot, player3 lose
+    :aiplayers: players who went all in
+    :chips: chipcount of original hand history
+    :pots: pots from main to all side posts
+    :uncalled: uncalled from hand history
+    :total_bets: total bets on all streets for every player
+    :winnings: total winnings for every player
+    """
+
     # players with bigger stack first
     aiplayers.sort(key=lambda v: chips[v], reverse=True)
     not_aiplayers = [p for p in chips.keys() if p not in aiplayers]
@@ -194,7 +212,7 @@ def build_outcome(path, aiplayers, chips, pots, uncalled, total_bets, winnings):
     players_in_pot = list(reversed([aiplayers[:l] for l in range(len(pots)+1, 1, -1)]))
     # uncalled for top1 player
     result = {}
-    if len (aiplayers) < 2:
+    if len(aiplayers) < 2:
         # no all in in hand return fact resalts
         for p in chips.keys():
             result[p] = sum(winnings[p]) + uncalled[p] + chips[p] - total_bets[p]
@@ -233,8 +251,14 @@ def build_outcome(path, aiplayers, chips, pots, uncalled, total_bets, winnings):
     return {p: int(v) for p, v in result.items()}
 
 
-def build_outcome_tree(aiplayers, stacks, pots, uncalled, total_bets, winnings):
-    """Returns tree, with leafs representing 1 posible outcome
+def build_outcome_tree(aiplayers: List[str],
+                       chips: Dict[str, int],
+                       pots: List[float],
+                       uncalled: Dict[str, int],
+                       total_bets: Dict[str, int],
+                       winnings: Dict[str, int]) -> Dict[str, int]:
+    """
+    Returns tree, with leafs representing 1 posible outcome
     aiplayers: list of players in all-in
     stacks: dict with stack distribution {'player': chips}
     pots: list with amount of chips in pots that been playing from main pot to all side pots
@@ -252,9 +276,9 @@ def build_outcome_tree(aiplayers, stacks, pots, uncalled, total_bets, winnings):
             # not including first path element, because it is always root
             path = list(reversed(path[1:]))
 
-            stack = build_outcome(path, aiplayers, stacks, pots, uncalled, total_bets, winnings) 
+            stack = build_outcome(path, aiplayers, chips, pots, uncalled, total_bets, winnings)
             node.chips = stack
-            fill_knocks(node, stacks)
+            fill_knocks(node, chips)
             fill_probs(node, None)
     return root
 
@@ -273,10 +297,11 @@ class EV:
 
         Functions to calculate expected value of played hand
         """
+        #  TODO:  deep copy? # 
         self.hand = hand
-        #if no icm provided calculate as winner takes all case
+        # if no icm provided calculate as winner takes all case
         if not icm:
-            icm = Icm((1,0))
+            icm = Icm((1, 0))
         self.icm = icm
         self.ko = ko
         # players who went all in on different streets
@@ -309,17 +334,9 @@ class EV:
         self.flg_calculated = False
 
     @staticmethod
-    def outcome(self, players):
-        """players: list of players in winnig order
-        hand: parsed hand object of HandHistoryParser subclass
-        returns chipcount for given outcome
-        """
-        pass
-
-    @staticmethod
-    def detect_ai_players(hand):
+    def detect_ai_players(hand: hh)-> Tuple[List[str], List[str], List[str], List[str]]:
         """ returns tupple with players who went all in on every street
-        params::: parsed hand
+        :params: parsed hand
         """
 
         ai_players = list(hand.known_cards.keys())
@@ -349,8 +366,12 @@ class EV:
                     r_ai_players.append(p)
         return ai_players, p_ai_players, f_ai_players, t_ai_players
 
-    def sort_ai_players_by_chipcount(self):
-        # sort players list by chip count
+    def sort_ai_players_by_chipcount(self) -> None:
+        """
+        sort players list by chip count
+        change self.ai_players
+        doc
+        """
         self.ai_players.sort(key=lambda v: self.chips[v], reverse=True)
 
     def should_return_chip_fact(self) -> bool:
@@ -430,7 +451,6 @@ class EV:
         ai_players = self.ai_players
         player = self.player
         #  TODO: if hand has not been calculated yet raise exception, or what??
-        # <24-11-20, yourname> # 
         eq = self._probs
         pwin = eq.get(player, 0)
         hero_win_path = ai_players[:] if ai_players[0] == player else ai_players[::-1]
@@ -473,6 +493,7 @@ class EV:
         icm_ev_pct = pwin * icm_win + (1 - pwin) * icm_lose
         """
         # TODO another conditions to return fact should be
+        # TODO calculations for 3way all in
         if self.should_return_chip_fact():
             return self.icm_fact_pct()
 
@@ -556,7 +577,7 @@ class EV:
         # res = self.ko_ev_pct() * self.hand.bounty
 
         # return res
-        pass
+        raise NotImplementedError
 
     def ko_ev_pct(self):
         # returns: float
@@ -580,14 +601,15 @@ class EV:
         # ev = p_win * ev_win + (1 - p_win) * ev_lose
 
         # return ev
-        pass
+        raise NotImplementedError
 
     def ko_fact(self):
 
         # return self.hand.bounty * self.ko_fact_pct()
-        pass
+        raise NotImplementedError
 
     def ko_fact_pct(self):
+        raise NotImplementedError
         res = {}
         who_won_bounty = self.hand.bounty_won.keys()
         chips = self.chip_fact()
@@ -602,7 +624,7 @@ class EV:
         # returns: float
         # Возвращает разницу между ожиданием и факту по KO
         # return self.ko_diff_pct * self.hand.bounty
-        pass
+        raise NotImplementedError
 
     @property
     def ko_diff_pct(self):
@@ -612,11 +634,12 @@ class EV:
         #     return self.ko_ev_pct - self.ko_fact_pct.get(self.player, 0)
         # else:
         #     return 0
-        pass
+        raise NotImplementedError
 
     def calculate_probs(self) -> Dict[str, float]:
         """
-        calculates probabilities of win on showdown for 2 or 3 players
+        calculates probabilities of win on showdown for 2 or 3 players,
+        returns 0.0 for every player in other cases
         """
         params = []
         shd_players = list(self.cards.keys())
@@ -643,16 +666,18 @@ class EV:
             equity_func = py_equities_3hands
             params = [hand1, hand2, hand3, board]
         else:
-            return {}
+            return {shd_players[i]: 0.0 for i in range(len(shd_players))}
 
         result = equity_func(*params)
         return {shd_players[i]: result[i] for i in range(len(shd_players))}
 
     @staticmethod
     def non_zero_values(d: dict):
+        #  TODO: move to utils <28-11-20, anton-ju> # 
         counter = 0
         for v in d.values():
-            if v: counter+=1
+            if v:
+                counter += 1
         return counter
 
     @staticmethod

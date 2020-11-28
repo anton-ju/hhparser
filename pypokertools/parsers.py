@@ -1061,17 +1061,3 @@ class PSHandHistory(HandHistoryParser):
                 bubble_factor = (eq[i] - eq_lose[i]) / (eq_win[i] - eq[i])
                 result[i, j] = bubble_factor / (1 + bubble_factor)
         return result
-
-
-if __name__ == '__main__':
-
-    def read_html(path):
-        with open(path) as f:
-            html = f.read()
-
-        return html
-
-    html = read_html('hrc_output.html')
-    parser = HRCOutput(html)
-    print(parser.get_hand_ev('22', 'TH0090,DiggErr555'))
-

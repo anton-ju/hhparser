@@ -154,6 +154,7 @@ def getEquityVsHandFast(hand, villainHand, ea):
 
 
 # precalculated preflop array
+#  TODO: not here, how to choose start precalculation or not? # 
 EA = EquityArray()
 
 
@@ -181,6 +182,7 @@ class cached_property(object):
 
 class NumericDict(defaultdict):
     """
+    #  TODO: add examples of usage <28-11-20 anton-ju> #
     allows addiction, substraction, multiplication and divizion beetwen NumericDicts ind scalars
     """
     @classmethod

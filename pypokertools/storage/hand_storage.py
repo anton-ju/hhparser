@@ -3,6 +3,9 @@
 Created on Fri Jul 13 00:33:55 2018
 
 @author: user
+Implements interface to read hand histories from different storages:
+HandStoragePgsql: postgresql DB
+HandStorage: files from disk
 """
 import glob
 import os
@@ -51,7 +54,7 @@ class HandStorage(object):
             if not os.path.exists(path):
                 raise IOError
             self.path = path
-        else: 
+        else:
             self.path = os.getcwd()
 
     def read_hand(self):
@@ -62,7 +65,7 @@ class HandStorage(object):
                     s = f.read()
                     s = s.split('\n\n')
                     for ss in s:
-                        if ss == '\n\n' or ss==None or ss == '':
+                        if ss == '\n\n' or ss is None or ss == '':
                             continue
                         yield ss
                 except:
