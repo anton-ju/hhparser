@@ -1,3 +1,4 @@
+from decimal import Decimal
 import numpy as np
 import itertools
 import copy
@@ -10,7 +11,7 @@ import eval7
 from eval7 import py_equities_2hands, py_equities_3hands, py_equities_4hands
 from anytree import NodeMixin, RenderTree
 from enum import Enum
-from typing import Dict, List, Tuple
+from typing import Dict, List, Tuple, Union
 
 logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
@@ -55,83 +56,112 @@ class Knockout:
 
 class Icm:
 
-    def __init__(self, prize):
-        if isinstance(prize, (list, dict, tuple)):
-            self.prize = prize
+    def __init__(self, payouts):
+        if isinstance(payouts, (list, dict, tuple)):
+            self.payouts = payouts
         else:
             raise RuntimeError("Invalid prize structure")
 
-    def calc(self, stacks_players):
-        if stacks_players is None:
-            exit(1)
-        flg_dict = False
-        if isinstance(stacks_players, (dict, NumericDict)):
-            flg_dict = True
-            stacks = list(stacks_players.values())
-            players = list(stacks_players.keys())
+#    def calc(self, stacks_players):
+#        if stacks_players is None:
+#            exit(1)
+#        flg_dict = False
+#        if isinstance(stacks_players, (dict, NumericDict)):
+#            flg_dict = True
+#            stacks = list(stacks_players.values())
+#            players = list(stacks_players.keys())
+#        else:
+#            stacks = stacks_players
+#        sz = np.size(stacks)
+#        stacks = np.copy(stacks)
+#        ind1 = range(0, sz)
+#
+#        min_place = min(sz, np.size(self.prize))
+#        p1 = np.zeros(shape=(min_place, sz))
+#        ind2 = range(0, min_place)
+#        # p1 строка - занятое место, столбец - номер игрока
+#        for i in ind1:
+#            for j in ind2:
+#                p1[j, i] = self._p1p(i, j + 1, stacks)
+#                # в функции место нумеруются с 1 до 3, в матрице с 0 до 2
+#       #
+#        eq = np.dot(self.prize[:min_place], p1)
+#
+#        if flg_dict:
+#            res = {players[i]: np.round(eq[i],4) for i in range(len(players))}
+#        else:
+#            res = eq.round(4)
+#        return res
+
+#    def _p1p(self, ind, place, stacks):
+#        #       вероятность place го места для игрока ind
+#        #       s - список стэков игроков
+#        #       ind - индекс стэка для которого считаестя вероятность
+#        #       place - место целое число, должно быть не больше чем длина списка s
+#
+#        sz = len(stacks)
+#        if place > sz:
+#            return 0
+#        if ind + 1 > sz:
+#            return 0
+#        #       если стэк 0 сразу вернем 0
+#
+#        if stacks[ind] == 0:
+#            if sz - 1 >= np.size(self.prize):
+#                return 0
+#            else:
+#                return self.prize[sz - 1]
+#
+#        p = []
+#        # получаем все возможные варианты распределения мест
+#        #           индекс в списке соответствует месту игрока
+#        for i in itertools.permutations(range(sz), sz):
+#            #               выбираем только те распределения где игрок ind на месте place
+#            if i[place - 1] == ind:
+#                #                    из списка издексов с распределением мест,
+#                #                    формируем список со значениями стеков
+#                si = []
+#                for j in i:
+#                    si.append(stacks[j])
+#                #                    with Profiler() as pr:
+#                pi = 1
+#                for j in range(sz):
+#                    sum_ = sum(si[j:])
+#                    if sum_ != 0:
+#                        pi = pi * si[j] / sum_
+#
+#                p.append(pi)
+#
+#        result = sum(p)
+#        return result
+
+    def calc(self, chips_players: Union[List[int], Dict[str, int]]) -> Dict[str, float]:
+        result: List[float] = []
+        if isinstance(chips_players, dict):
+
+            players, chips = chips_players.items()
+        elif isinstance(chips_players, list):
+            chips = chips_players[:]
         else:
-            stacks = stacks_players
-        sz = np.size(stacks)
-        stacks = np.copy(stacks)
-        ind1 = range(0, sz)
+            raise RuntimeError("Invalid type")
 
-        min_place = min(sz, np.size(self.prize))
-        p1 = np.zeros(shape=(min_place, sz))
-        ind2 = range(0, min_place)
-        # p1 строка - занятое место, столбец - номер игрока
-        for i in ind1:
-            for j in ind2:
-                p1[j, i] = self._p1p(i, j + 1, stacks)
-                # в функции место нумеруются с 1 до 3, в матрице с 0 до 2
-       #
-        eq = np.dot(self.prize[:min_place], p1)
+        total: int = sum(chips)
+        for k, v in enumerate(chips):
+            result.append(round(Decimal(str(self.get_equities(chips, total, k, 0))), 6))
 
-        if flg_dict:
-            res = {players[i]: np.round(eq[i],4) for i in range(len(players))}
-        else:
-            res = eq.round(4)
-        return res
+        return result
 
-    def _p1p(self, ind, place, stacks):
-        #       вероятность place го места для игрока ind
-        #       s - список стэков игроков
-        #       ind - индекс стэка для которого считаестя вероятность
-        #       place - место целое число, должно быть не больше чем длина списка s
-
-        sz = len(stacks)
-        if place > sz:
-            return 0
-        if ind + 1 > sz:
-            return 0
-        #       если стэк 0 сразу вернем 0
-
-        if stacks[ind] == 0:
-            if sz - 1 >= np.size(self.prize):
-                return 0
-            else:
-                return self.prize[sz - 1]
-
-        p = []
-        # получаем все возможные варианты распределения мест
-        #           индекс в списке соответствует месту игрока
-        for i in itertools.permutations(range(sz), sz):
-            #               выбираем только те распределения где игрок ind на месте place
-            if i[place - 1] == ind:
-                #                    из списка издексов с распределением мест,
-                #                    формируем список со значениями стеков
-                si = []
-                for j in i:
-                    si.append(stacks[j])
-                #                    with Profiler() as pr:
-                pi = 1
-                for j in range(sz):
-                    sum_ = sum(si[j:])
-                    if sum_ != 0:
-                        pi = pi * si[j] / sum_
-
-                p.append(pi)
-
-        result = sum(p)
+    def get_equities(self, chips: List[int], total: int, player, depth: int) -> float:
+        D = Decimal
+        result: float = D(chips[player]) / total * D(str(self.payouts[depth]))
+        if depth + 1 < len(self.payouts):
+            i: int = 0
+            for stack in chips:
+                if i != player and stack > 0.0:
+                    chips[i] = 0.0
+                    result += self.get_equities(chips, (total - stack), player, (depth + 1)) * (stack / D(total))
+                    chips[i] = stack
+                    i += 1
         return result
 
 
