@@ -340,18 +340,26 @@ class EV:
 
         return False
 
-    def get_probs(self, player: str) -> float:
+    def get_probs(self, player: Union[str, List[str]], npot: int = 0) -> Union[float, Dict[str, float]]:
         """
-        :returns: probabilities of win on showdown for given player,
+        :npot: pot number - 0 for mainpot, 1 for side pot 1 and so on, default: 0
+        :returns: probabilities of win on showdown for given player, or for a list of players
         returns 0 if player not participated in all in
 
         """
-        if self.flg_calculated:
-            return self._probs.get(player, 0)
-        else:
+        if not self.flg_calculated:
             self._probs = self.calculate_probs()
             self.flg_calculated = True
-            return self._probs.get(player, 0)
+
+        if isinstance(player, str):
+            result = self._probs[npot].get(player, 0)
+        elif isinstance(player, list):
+            probs: dict = self._probs[npot]
+            result = {p: probs.get(p, 0) for p in player}
+        else:
+            raise RuntimeError("Invalid parameter 'player'!")
+
+        return result
 
     def calc(self, player: str) -> None:
         """
@@ -393,6 +401,19 @@ class EV:
 
     def chip_ev_adj(self) -> float:
         """expected to won chips All in adjusted
+        returns: float
+        """
+        if self.should_return_chip_fact():
+            return self.chip_fact().get(self.player, 0.0)
+
+        ai_players = self.ai_players
+        if len(ai_players) == 2:
+            return self.chip_ev_2way()
+        elif len(ai_players) == 3:
+            return self.chip_ev_3way()
+
+    def chip_ev_2way(self) -> float:
+        """expected to won chips All in adjusted
         pwin - probabiliti for player to win on showdown
         sWin - chips in case player win
         sLose - chips in case player lose
@@ -402,14 +423,9 @@ class EV:
         calculates only for 2 players in all in
         returns: float
         """
-        if self.should_return_chip_fact():
-            return self.chip_fact().get(self.player, 0.0)
-
         ai_players = self.ai_players
         player = self.player
-        #  TODO: if hand has not been calculated yet raise exception, or what??
-        eq = self._probs
-        pwin = eq.get(player, 0)
+        pwin = self.get_probs(player)
         hero_win_path = ai_players[:] if ai_players[0] == player else ai_players[::-1]
         hero_lose_path = hero_win_path[::-1]
 
@@ -432,6 +448,66 @@ class EV:
 
         res = pwin * swin + (1 - pwin) * slose
         return res
+
+    def chip_ev_3way(self):
+        """
+        calculations for 3way spots
+        P1 = top 1 player in all in by chips
+        p1win - probabiliti for P1 to win on showdown
+        p2win - probabiliti for P2 to win on showdown
+        p3win - probabiliti for P3 to win on showdown
+        p1sp1win - probabiliti between P1 and P2 for P1 to win on showdown
+        sP1Win - chips in case P1 win
+        sP2Win - chips in case P2 win
+        sP3P1Win - chips in case P3 win main pot and P1 win side pot
+        sP3P2Win - chips in case P3 win main pot and P2 win side pot = 1 - sP3P1Win
+
+        chip_ev_3way =  P1Win * sP1Win + P2Win * sP2Win + P3Win * (P1WinSP * sP3P1Win + (1 - P1WinSP) * sP3P2Win)
+
+        returns: float
+        """
+        player = self.player
+        p1, p2, p3 = self.ai_players
+        c_p1win = build_outcome([p1, p2, p3],
+                                [p1, p2, p3],
+                                self.chips,
+                                self.pots,
+                                self.uncalled,
+                                self.total_bets,
+                                self.winnings_chips)
+        c_p1win = c_p1win[player]
+
+        c_p2win = build_outcome([p2, p1, p3],
+                                [p1, p2, p3],
+                                self.chips,
+                                self.pots,
+                                self.uncalled,
+                                self.total_bets,
+                                self.winnings_chips)
+        c_p2win = c_p2win[player]
+
+        c_p3p1win = build_outcome([p3, p1, p2],
+                                  [p1, p2, p3],
+                                  self.chips,
+                                  self.pots,
+                                  self.uncalled,
+                                  self.total_bets,
+                                  self.winnings_chips)
+        c_p3p1win = c_p3p1win[player]
+
+        c_p3p2win = build_outcome([p3, p2, p1],
+                                  [p1, p2, p3],
+                                  self.chips,
+                                  self.pots,
+                                  self.uncalled,
+                                  self.total_bets,
+                                  self.winnings_chips)
+        c_p3p2win = c_p3p2win[player]
+        p1win, p2win, p3win = self.get_probs(player)
+        p1sp1win = self.get_probs(player)
+        p1sp2win = 1 - p1sp1win
+        result = p1win * c_p1win + p2win * c_p2win + p3win * (p1sp1win * c_p3p1win + p1sp2win * c_p3p2win)
+        return result
 
     def ev_diff(self):
         total_diff = self.icm_diff + self.ko_diff
@@ -593,13 +669,17 @@ class EV:
         #     return 0
         raise NotImplementedError
 
-    def calculate_probs(self) -> Dict[str, float]:
+    def calculate_probs(self) -> List[Dict[str, float]]:
         """
         calculates probabilities of win on showdown for 2 or 3 players,
+        list index corresponds to number of pot, 0 for main pot, 1 for sidepot 1 and so on.
         returns 0.0 for every player in other cases
         """
         params = []
-        shd_players = list(self.cards.keys())
+        shd_players = self.ai_players
+        tasks: list = []
+        tasks_result: list = []
+        result: list = []
         if self.p_ai_players:
             board = str_to_cards("")
         elif self.f_ai_players:
@@ -616,17 +696,41 @@ class EV:
             else:
                 equity_func = py_equities_2hands
                 params = [hand1, hand2, board]
+
+            tasks.append((equity_func, params))
+
         elif len(shd_players) == 3:
             hand1 = str_to_cards(self.cards.get(shd_players[0]))
             hand2 = str_to_cards(self.cards.get(shd_players[1]))
             hand3 = str_to_cards(self.cards.get(shd_players[2]))
             equity_func = py_equities_3hands
             params = [hand1, hand2, hand3, board]
-        else:
-            return {shd_players[i]: 0.0 for i in range(len(shd_players))}
+            tasks.append((equity_func, params))
 
-        result = equity_func(*params)
-        return {shd_players[i]: result[i] for i in range(len(shd_players))}
+            # top 2 players in side pot 1 calculation
+            if board == '' or board is None:
+                equity_func = py_equities_2hands_fast
+                params = [hand1, hand2]
+            else:
+                equity_func = py_equities_2hands
+                params = [hand1, hand2, board]
+            tasks.append((equity_func, params))
+        else:
+            return [{shd_players[i]: 0.0 for i in range(len(shd_players))}]
+
+        for t in tasks:
+            equity_func, params = t
+            tasks_result.append(equity_func(*params))
+
+        for r in tasks_result:
+            i = 0
+            d = {}
+            for p in r:
+                d[shd_players[i]] = p
+                i += 1
+            result.append(d)
+
+        return result
 
     @staticmethod
     def non_zero_values(d: dict):
