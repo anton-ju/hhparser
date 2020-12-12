@@ -258,6 +258,7 @@ class TestEV(unittest.TestCase):
         ev_calc = get_ev_calc(hero, hand)
         expected = params.get('expected')
         result = ev_calc.get_probs(params.get('player'))
+        print(ev_calc._probs)
         self.assertAlmostEqual(result, expected, delta=0.005)
 
     @add_params([
@@ -480,7 +481,7 @@ class TestEV(unittest.TestCase):
 
     @add_params([
             {'fn': 'hh/sat16/round1/3way/3way-ai-preflop.txt',
-             'expected': 0,
+             'expected': 0.2233,
              },
             ])
     def test_icm_ev_diff_pct_3way(self, params):
@@ -793,6 +794,68 @@ class TestOutcome(unittest.TestCase):
         path = params.get('path')
         result = pokercalc.build_outcome(path, aiplayers, chips, pots, uncalled, total_bets, winnings)
         self.assertDictEqual(result, expected)
+
+    @add_params([
+            {'fn': 'hh/sat16/round1/3way/3way-ai-preflop.txt',
+             'path': ['dreber@77', 'OrangemanXD', 'DiggErr555'],
+             'expected':
+             {
+                 'DiggErr555': 0,
+                 'dreber@77': 1480,
+                 'mjanisz': 455,
+                 'OrangemanXD': 65,
+             }},
+            {'fn': 'hh/sat16/round1/3way/3way-ai-preflop.txt',
+             'path': ['OrangemanXD', 'dreber@77', 'DiggErr555'],
+             'expected':
+             {
+                 'dreber@77': 0,
+                 'DiggErr555': 0,
+                 'mjanisz': 455,
+                 'OrangemanXD': 1545,
+             }},
+            {'fn': 'hh/sat16/round1/3way/3way-ai-preflop.txt',
+             'path': ['dreber@77', 'DiggErr555', 'OrangemanXD', ],
+             'expected':
+             {
+                 'DiggErr555': 0,
+                 'dreber@77': 1480,
+                 'mjanisz': 455,
+                 'OrangemanXD': 65,
+             }},
+            {'fn': 'hh/sat16/round1/3way/3way-ai-preflop.txt',
+             'path': ['dreber@77', 'OrangemanXD', 'DiggErr555', ],
+             'expected':
+             {
+                 'DiggErr555': 0,
+                 'dreber@77': 1480,
+                 'mjanisz': 455,
+                 'OrangemanXD': 65,
+             }},
+            {'fn': 'hh/sat16/round1/3way/3way-ai-preflop.txt',
+             'path': ['DiggErr555', 'OrangemanXD', 'dreber@77', ],
+             'expected':
+             {
+                 'dreber@77': 0,
+                 'DiggErr555': 1480,
+                 'mjanisz': 455,
+                 'OrangemanXD': 65,
+             }},
+    ])
+    def test_outcome_3way(self, params):
+        hand = get_parsed_hand_from_file(params.get('fn'))
+        ev_calc = get_ev_calc('DiggErr555', hand, ((1,)), pokercalc.KOModels.PROPORTIONAL)
+        expected = params.get('expected')
+        aiplayers = ev_calc.ai_players
+        chips = ev_calc.chips
+        pots = ev_calc.pots
+        uncalled = ev_calc.uncalled
+        total_bets = ev_calc.total_bets
+        winnings = ev_calc.winnings_chips
+        path = params.get('path')
+        result = pokercalc.build_outcome(path, aiplayers, chips, pots, uncalled, total_bets, winnings)
+        self.assertDictEqual(result, expected)
+
 
 class TestNumericDict(unittest.TestCase):
     def test_add(self):

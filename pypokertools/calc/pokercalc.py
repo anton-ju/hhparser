@@ -178,17 +178,35 @@ def build_outcome(path: List[str],
     elif len(aiplayers) == 2:
         result[path[0]] = pots[0] + chips[path[0]] - total_bets[path[0]]
         result[path[1]] = chips[path[1]] - total_bets[path[1]]
-    else:
-        p_index = 0
-        for i, pot in enumerate(pots):
-            if path[p_index] in players_in_pot[i]:
-                try:
-                    result[path[p_index]] += pots[i]
-                except KeyError:
-                    result[path[p_index]] = pots[i]
-                p_index = p_index + 1 if p_index < len(path) - 1 else p_index
-            else:
-                result[path[p_index-1]] = result[path[p_index-1]] + pots[i]
+
+    elif len(aiplayers) == 3:
+        # players by chipcount
+        p1, p2, p3 = aiplayers
+        mainpot = pots[0]
+        try:
+            sidepot = pots[1]
+        except IndexError:
+            sidepot = 0
+        # top1 player wins
+        if path[0] == p1:
+            result[p1] = mainpot + sidepot + chips[p1] - total_bets[p1]
+            result[p2] = 0
+            result[p3] = 0
+        # top 2 player wins
+        elif path[0] == p2:
+            result[p1] = chips[p1] - total_bets[p1]
+            result[p2] = mainpot + sidepot + chips[p2] - total_bets[p2]
+            result[p3] = 0
+        # top 3 player wins
+        elif path[0] == p3:
+            # top 3 gets main pot
+            result[p3] = mainpot
+            # who wins side pot
+            result[path[1]] = sidepot + chips[path[1]] - total_bets[path[1]]
+            try:
+                result[path[2]] = chips[path[2]] - total_bets[path[2]]
+            except IndexError:
+                pass
 
     # stacks for players that is not take part in pots remains the same - blinds ante
     for p in not_aiplayers:
@@ -335,7 +353,7 @@ class EV:
         if not(self.hand.flg_showdown()):
             return True
 
-        if not(self.ai_players) or (len(self.ai_players) > 2):
+        if not(self.ai_players) or (len(self.ai_players) > 3):
             return True
 
         return False
@@ -503,8 +521,13 @@ class EV:
                                   self.total_bets,
                                   self.winnings_chips)
         c_p3p2win = c_p3p2win[player]
-        p1win, p2win, p3win = self.get_probs(player)
-        p1sp1win = self.get_probs(player)
+
+        probs = self.get_probs([p1, p2, p3])
+        p1win = probs.get(p1, 0.0)
+        p2win = probs.get(p2, 0.0)
+        p3win = probs.get(p3, 0.0)
+        # probabilities for side pot
+        p1sp1win = self.get_probs(player, 1)
         p1sp2win = 1 - p1sp1win
         result = p1win * c_p1win + p2win * c_p2win + p3win * (p1sp1win * c_p3p1win + p1sp2win * c_p3p2win)
         return result
@@ -531,9 +554,20 @@ class EV:
             return self.icm_fact_pct()
 
         ai_players = self.ai_players
-        player = self.player
 
-        eq = self._probs
+        if len(ai_players) == 2:
+            return self.icm_ev_2way()
+        elif len(ai_players) == 3:
+            return self.icm_ev_3way()
+
+    def icm_ev_2way(self):
+        """
+        :returns: TODO
+
+        """
+        ai_players = self.ai_players
+        player = self.player
+        eq = self._probs[0]
         pwin = eq.get(player, 0)
         hero_win_path = ai_players[:] if ai_players[0] == player else ai_players[::-1]
         hero_lose_path = hero_win_path[::-1]
@@ -553,10 +587,70 @@ class EV:
                                           self.total_bets,
                                           self.winnings_chips)
         icm_win = self.icm.calc(hero_win_outcome)
+        icm_win = icm_win.get(player, 0.0)
         icm_lose = self.icm.calc(hero_lose_outcome)
-        res = pwin * icm_win[player] \
-            + (1 - pwin) * icm_lose[player]
+        icm_lose = icm_lose.get(player, 0.0)
+        res = pwin * icm_win + (1 - pwin) * icm_lose
         return res
+
+    def icm_ev_3way(self):
+        """
+
+        :f: TODO
+        :returns: TODO
+
+        """
+        player = self.player
+        p1, p2, p3 = self.ai_players
+        c_p1win = build_outcome([p1, p2, p3],
+                                [p1, p2, p3],
+                                self.chips,
+                                self.pots,
+                                self.uncalled,
+                                self.total_bets,
+                                self.winnings_chips)
+        icm_p1win = self.icm.calc(c_p1win)
+        icm_p1win = icm_p1win.get(player, 0.0)
+
+        c_p2win = build_outcome([p2, p1, p3],
+                                [p1, p2, p3],
+                                self.chips,
+                                self.pots,
+                                self.uncalled,
+                                self.total_bets,
+                                self.winnings_chips)
+        icm_p2win = self.icm.calc(c_p2win)
+        icm_p2win = icm_p2win.get(player, 0.0)
+
+        c_p3p1win = build_outcome([p3, p1, p2],
+                                  [p1, p2, p3],
+                                  self.chips,
+                                  self.pots,
+                                  self.uncalled,
+                                  self.total_bets,
+                                  self.winnings_chips)
+        icm_p3p1win = self.icm.calc(c_p3p1win)
+        icm_p3p1win = icm_p3p1win.get(player, 0.0)
+
+        c_p3p2win = build_outcome([p3, p2, p1],
+                                  [p1, p2, p3],
+                                  self.chips,
+                                  self.pots,
+                                  self.uncalled,
+                                  self.total_bets,
+                                  self.winnings_chips)
+        icm_p3p2win = self.icm.calc(c_p3p2win)
+        icm_p3p2win = icm_p3p2win.get(player, 0.0)
+
+        probs = self.get_probs([p1, p2, p3])
+        p1win = probs.get(p1, 0.0)
+        p2win = probs.get(p2, 0.0)
+        p3win = probs.get(p3, 0.0)
+        p1sp1win = self.get_probs(player, 1)
+        p1sp2win = 1 - p1sp1win
+        print(p1win, p2win, p3win, icm_p1win, p1sp1win, icm_p3p1win)
+        result = p1win * icm_p1win + p2win * icm_p2win + p3win * (p1sp1win * icm_p3p1win + p1sp2win * icm_p3p2win)
+        return result
 
     def icm_ev_diff_pct(self) -> float:
         """
