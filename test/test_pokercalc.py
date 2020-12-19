@@ -349,6 +349,12 @@ class TestEV(unittest.TestCase):
              'fozzzi': 0,
              'DiggErr555': 2000,
          }},
+        {'fn': 'hh/sat16/round1/hu.txt',
+         'expected':
+         {
+             'L.A.Ruseman': 2000,
+             'DiggErr555': 0,
+         }},
         {'fn': 'hh/sat16/round1/2way/hero-call-bvb.txt',
          'expected':
          {
@@ -372,6 +378,12 @@ class TestEV(unittest.TestCase):
              'bayaraa2222': 340,
              'apos87tolos': 200,
              'DiggErr555': 750,
+         }},
+        {'fn': 'hh/sat16/round1/hu-noai-postflop.txt',
+         'expected':
+         {
+             'benekIP': 1560,
+             'DiggErr555': 440,
          }},
         ])
     def test_chip_fact(self, params):
@@ -469,6 +481,9 @@ class TestEV(unittest.TestCase):
             {'fn': 'hh/sat16/round1/auto-ai.txt',
              'expected': 0.00978,
              },
+            {'fn': 'hh/sat16/round1/hu.txt',
+             'expected': 0.20073,
+             },
             ])
     def test_icm_ev_diff_pct(self, params):
         hand = get_parsed_hand_from_file(params.get('fn'))
@@ -476,6 +491,28 @@ class TestEV(unittest.TestCase):
         prize = params.get('prize', ((1,)))
         hero = hand.hero
         ev_calc = get_ev_calc(hero, hand, prize)
+        result = ev_calc.icm_ev_diff_pct()
+        self.assertAlmostEqual(result, expected, 4)
+
+    @add_params([
+            {'fn': 'hh/sat16/round1/hu.txt',
+             'expected': 0.20073,
+             },
+            ])
+    def test_icm_calc(self, params):
+        """
+
+        :params: TODO
+        :returns: TODO
+
+        """
+        hand = get_parsed_hand_from_file(params.get('fn'))
+        expected = params.get('expected')
+        prize = params.get('prize', ((1,)))
+        hero = hand.hero
+
+        ev_calc = get_ev_calc(hero, hand, prize)
+        probs = ev_calc.get_probs(hero)
         result = ev_calc.icm_ev_diff_pct()
         self.assertAlmostEqual(result, expected, 4)
 

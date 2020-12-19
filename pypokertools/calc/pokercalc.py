@@ -73,8 +73,8 @@ class Icm:
             raise RuntimeError("Invalid type")
 
         total: int = sum(chips)
-        for k, v in enumerate(chips):
-            eq = round(self.get_equities(chips, total, k, 0), 4)
+        for player, _ in enumerate(chips):
+            eq = round(self.get_equities(chips[:], total, player, 0), 4)
             result.append(eq)
 
         return result if isinstance(chips_players, list) else dict(zip(chips_players.keys(), result))

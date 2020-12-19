@@ -1,0 +1,39 @@
+PokerStars Hand #201458116362: Tournament #2631484900, $2.79+$0.06 USD Hold'em No Limit - Match Round I, Level I (25/50) - 2019/06/16 16:41:41 ET
+Table '2631484900 2' 4-max Seat #1 is the button
+Seat 1: jffj13 (385 in chips)
+Seat 2: UnstablePoke (385 in chips)
+Seat 3: NL_Classic (570 in chips)
+Seat 4: MATECO (660 in chips)
+jffj13: posts the ante 10
+UnstablePoke: posts the ante 10
+NL_Classic: posts the ante 10
+MATECO: posts the ante 10
+UnstablePoke: posts small blind 25
+NL_Classic: posts big blind 50
+*** HOLE CARDS ***
+Dealt to NL_Classic [7s 9c]
+MATECO: folds
+jffj13: calls 50
+UnstablePoke: calls 25
+NL_Classic: checks
+*** FLOP *** [Qh 8s 9s]
+UnstablePoke: checks
+NL_Classic: bets 510 and is all-in
+jffj13: calls 325 and is all-in
+UnstablePoke: calls 325 and is all-in
+Uncalled bet (185) returned to NL_Classic
+*** TURN *** [Qh 8s 9s] [Ac]
+*** RIVER *** [Qh 8s 9s Ac] [5h]
+*** SHOW DOWN ***
+UnstablePoke: shows [8d Js] (a pair of Eights)
+NL_Classic: shows [7s 9c] (a pair of Nines)
+jffj13: shows [Th Qd] (a pair of Queens)
+jffj13 collected 1165 from pot
+UnstablePoke finished the tournament in 9th place
+*** SUMMARY ***
+Total pot 1165 | Rake 0
+Board [Qh 8s 9s Ac 5h]
+Seat 1: jffj13 (button) showed [Th Qd] and won (1165) with a pair of Queens
+Seat 2: UnstablePoke (small blind) showed [8d Js] and lost with a pair of Eights
+Seat 3: NL_Classic (big blind) showed [7s 9c] and lost with a pair of Nines
+Seat 4: MATECO folded before Flop (didn't bet)

@@ -835,7 +835,7 @@ class PSHandHistory(HandHistoryParser):
         """ returns how much chips total player collected from pot
         """
         return self._process_regexp(self.CHIPWON_REGEX,
-                                    self.showdown_str + self.preflop_str,
+                                    self.showdown_str + self.preflop_str + self.flop_str + self.turn_str + self.river_str,
                                     type_func=lambda x: int(x),
                                     reslist=True,
                                     **self.CHIPWON_DICT)

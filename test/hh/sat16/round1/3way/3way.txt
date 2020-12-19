@@ -1,0 +1,35 @@
+PokerStars Hand #220925641894: Tournament #3061564977, $14.71+$0.29 USD Hold'em No Limit - Match Round I, Level I (25/50) - 2020/11/29 21:42:55 MSK [2020/11/29 13:42:55 ET]
+Table '3061564977 4' 4-max Seat #3 is the button
+Seat 1: DiggErr555 (595 in chips)
+Seat 2: O.BELMANE (455 in chips)
+Seat 3: AnotherBirde (405 in chips)
+Seat 4: FragdenInder (545 in chips)
+DiggErr555: posts the ante 10
+O.BELMANE: posts the ante 10
+AnotherBirde: posts the ante 10
+FragdenInder: posts the ante 10
+FragdenInder: posts small blind 25
+DiggErr555: posts big blind 50
+*** HOLE CARDS ***
+Dealt to DiggErr555 [9h 9s]
+O.BELMANE: folds
+AnotherBirde: raises 345 to 395 and is all-in
+FragdenInder: raises 140 to 535 and is all-in
+DiggErr555: calls 485
+*** FLOP *** [Jh Qd 6h]
+*** TURN *** [Jh Qd 6h] [Ac]
+*** RIVER *** [Jh Qd 6h Ac] [6s]
+*** SHOW DOWN ***
+FragdenInder: shows [7d Ah] (two pair, Aces and Sixes)
+DiggErr555: shows [9h 9s] (two pair, Nines and Sixes)
+FragdenInder collected 280 from side pot
+AnotherBirde: shows [4h As] (two pair, Aces and Sixes)
+FragdenInder collected 613 from main pot
+AnotherBirde collected 612 from main pot
+*** SUMMARY ***
+Total pot 1505 Main pot 1225. Side pot 280. | Rake 0
+Board [Jh Qd 6h Ac 6s]
+Seat 1: DiggErr555 (big blind) showed [9h 9s] and lost with two pair, Nines and Sixes
+Seat 2: O.BELMANE folded before Flop (didn't bet)
+Seat 3: AnotherBirde (button) showed [4h As] and won (612) with two pair, Aces and Sixes
+Seat 4: FragdenInder (small blind) showed [7d Ah] and won (893) with two pair, Aces and Sixes
