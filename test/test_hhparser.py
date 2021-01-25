@@ -913,22 +913,6 @@ class TestPSHandHistory(unittest.TestCase):
         hh = self.case10
         self.assertEqual(hh.finishes, {'FoodProm': 2, 'DiggErr555': 1})
 
-
-    def test_icm_eq(self):
-        hh = self.case8
-        self.assertDictEqual(hh.icm_eq_dict(), {'DiggErr555': 0.3032,
-                                            'SHAOLINWH': 0.2042,
-                                         'LikeTonyG': 0.4926})
-        hh = self.case7
-        self.assertDictEqual(hh.icm_eq_dict(), {'sabuco_2110': 0.500,
-                                            'DiggErr555': 0.500})
-        hh = self.case0
-        self.assertDictEqual(hh.icm_eq_dict(), {'da_mauso': 0.2894,
-                                           'DiggErr555': 0.1633,
-                                           'baluoteli': 0.0076,
-                                           'bigboyby': 0.1944,
-                                           '2Ran128': 0.1727,
-                                            'zaxar393': 0.1727})
     def test_positions(self):
         hh = self.case8
         self.assertDictEqual(hh.positions(), {'DiggErr555': 'SB',
@@ -945,7 +929,6 @@ class TestPSHandHistory(unittest.TestCase):
                                            'bigboyby': 'SB',
                                            '2Ran128': 'BB',
                                             'zaxar393': 'MP1'})
-
 
     def test_tablePosition(self):
        # hh = self.case0

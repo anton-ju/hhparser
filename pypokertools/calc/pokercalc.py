@@ -763,6 +763,20 @@ class EV:
         #     return 0
         raise NotImplementedError
 
+    def get_board_before_allin(self) -> str:
+        """
+        :returns: board before player all in
+
+        """
+        board = ()
+        if self.p_ai_players:
+            board = str_to_cards("")
+        if self.f_ai_players:
+            board = str_to_cards(self.hand.flop)
+        elif self.t_ai_players:
+            board = str_to_cards(self.hand.flop + ' ' + self.hand.turn)
+        return board
+
     def calculate_probs(self) -> List[Dict[str, float]]:
         """
         calculates probabilities of win on showdown for 2 or 3 players,
@@ -774,40 +788,35 @@ class EV:
         tasks: list = []
         tasks_result: list = []
         result: list = []
-        if self.p_ai_players:
-            board = str_to_cards("")
-        elif self.f_ai_players:
-            board = str_to_cards(self.hand.flop)
-        elif self.t_ai_players:
-            board = str_to_cards(self.hand.flop + ' ' + self.hand.turn)
+        board = self.get_board_before_allin()
 
         if len(shd_players) == 2:
-            hand1 = str_to_cards(self.cards.get(shd_players[0]))
-            hand2 = str_to_cards(self.cards.get(shd_players[1]))
-            if board == '' or board is None:
+            hand1 = self.cards.get(shd_players[0])
+            hand2 = self.cards.get(shd_players[1])
+            if not board:
                 equity_func = py_equities_2hands_fast
                 params = [hand1, hand2]
             else:
                 equity_func = py_equities_2hands
-                params = [hand1, hand2, board]
+                params = [str_to_cards(hand1), str_to_cards(hand2), board]
 
             tasks.append((equity_func, params))
 
         elif len(shd_players) == 3:
-            hand1 = str_to_cards(self.cards.get(shd_players[0]))
-            hand2 = str_to_cards(self.cards.get(shd_players[1]))
-            hand3 = str_to_cards(self.cards.get(shd_players[2]))
+            hand1 = self.cards.get(shd_players[0])
+            hand2 = self.cards.get(shd_players[1])
+            hand3 = self.cards.get(shd_players[2])
             equity_func = py_equities_3hands
-            params = [hand1, hand2, hand3, board]
+            params = [str_to_cards(hand1), str_to_cards(hand2), str_to_cards(hand3), board]
             tasks.append((equity_func, params))
 
             # top 2 players in side pot 1 calculation
-            if board == '' or board is None:
+            if not board:
                 equity_func = py_equities_2hands_fast
                 params = [hand1, hand2]
             else:
                 equity_func = py_equities_2hands
-                params = [hand1, hand2, board]
+                params = [str_to_cards(hand1), str_to_cards(hand2), board]
             tasks.append((equity_func, params))
         else:
             return [{shd_players[i]: 0.0 for i in range(len(shd_players))}]

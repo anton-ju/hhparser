@@ -165,8 +165,8 @@ def py_equities_2hands_fast(hand1: str, hand2: str) -> tuple:
     """
     h1 = hand1.split()
     h2 = hand2.split()
-    h1.reverse()
-    h2.reverse()
+    h1 = sorted(h1, key=lambda card: CARDS.index(card))
+    h2 = sorted(h2, key=lambda card: CARDS.index(card))
     result = getEquityVsHandFast(pe_string2card(h1), pe_string2card(h2), EA)
     return (result, 1 - result)
 
