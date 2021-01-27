@@ -1,0 +1,31 @@
+PokerStars Hand #223007229376: Tournament #3110738456, $26.96+$0.54 USD Hold'em No Limit - Match Round I, Level I (25/50) - 2021/01/24 21:46:41 MSK [2021/01/24 13:46:41 ET]
+Table '3110738456 3' 4-max Seat #3 is the button
+Seat 3: dreber@77 (950 in chips) 
+Seat 4: DiggErr555 (1050 in chips) 
+dreber@77: posts the ante 10
+DiggErr555: posts the ante 10
+dreber@77: posts small blind 25
+DiggErr555: posts big blind 50
+*** HOLE CARDS ***
+Dealt to DiggErr555 [8c 9d]
+dreber@77: calls 25
+DiggErr555: checks 
+*** FLOP *** [8s 7s 5c]
+DiggErr555: checks 
+dreber@77: bets 63
+DiggErr555: calls 63
+*** TURN *** [8s 7s 5c] [7c]
+DiggErr555: bets 165
+dreber@77: calls 165
+*** RIVER *** [8s 7s 5c 7c] [2h]
+DiggErr555: checks 
+dreber@77: checks 
+*** SHOW DOWN ***
+DiggErr555: shows [8c 9d] (two pair, Eights and Sevens)
+dreber@77: mucks hand 
+DiggErr555 collected 576 from pot
+*** SUMMARY ***
+Total pot 576 | Rake 0 
+Board [8s 7s 5c 7c 2h]
+Seat 3: dreber@77 (button) (small blind) mucked [Ah 5h]
+Seat 4: DiggErr555 (big blind) showed [8c 9d] and won (576) with two pair, Eights and Sevens

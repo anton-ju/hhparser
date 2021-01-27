@@ -309,7 +309,7 @@ class EV:
         self.flg_calculated = False
 
     @staticmethod
-    def detect_ai_players(hand: hh)-> Tuple[List[str], List[str], List[str], List[str]]:
+    def detect_ai_players(hand: hh) -> Tuple[List[str], List[str], List[str], List[str]]:
         """ returns tupple with players who went all in on every street
         :params: parsed hand
         """
@@ -323,22 +323,26 @@ class EV:
         f_actions = hand.f_last_action()
         t_actions = hand.t_last_action()
         r_actions = hand.r_last_action()
-        for p in ai_players:
-            if hand.p_ai_players:
-                if p_actions.get(p, 'c') != 'f':
-                    p_ai_players.append(p)
+        if len(ai_players) > 1:
+            for p in ai_players:
+                if hand.p_ai_players:
+                    if p_actions.get(p, 'c') != 'f':
+                        p_ai_players.append(p)
 
-            if hand.f_ai_players:
-                if f_actions.get(p, 'f') != 'f':
-                    f_ai_players.append(p)
+                if hand.f_ai_players:
+                    if f_actions.get(p, 'f') != 'f':
+                        f_ai_players.append(p)
 
-            if hand.t_ai_players:
-                if t_actions.get(p, 'f') != 'f':
-                    t_ai_players.append(p)
+                if hand.t_ai_players:
+                    if t_actions.get(p, 'f') != 'f':
+                        t_ai_players.append(p)
 
-            if hand.r_ai_players:
-                if r_actions.get(p, 'f') != 'f':
-                    r_ai_players.append(p)
+                if hand.r_ai_players:
+                    if r_actions.get(p, 'f') != 'f':
+                        r_ai_players.append(p)
+        else:
+            ai_players.clear()
+
         return ai_players, p_ai_players, f_ai_players, t_ai_players
 
     def sort_ai_players_by_chipcount(self) -> None:

@@ -210,11 +210,18 @@ class TestEV(unittest.TestCase):
          'fn': 'hh/sat16/round1/auto-ai.txt',
          'expected': ['Skrotnes', 'NL_Classic'],
         },
+        {'fn': 'hh/sat16/round1/hu-noai-postflop.txt',
+         'expected': [],
+         },
+        {'fn': 'hh/sat16/round1/hu-noai-postflop2.txt',
+         'expected': [],
+         },
     ])
     def test_detect_ai_players(self, params):
         expected = params.get('expected')
         hand = get_parsed_hand_from_file(params.get('fn'))
         ai_players, p_ai_players, f_ai_players, t_ai_players = pokercalc.EV.detect_ai_players(hand)
+        logger.debug((p_ai_players, f_ai_players, t_ai_players))
         self.assertListEqual(expected, ai_players)
 
     @add_params([
@@ -507,6 +514,9 @@ class TestEV(unittest.TestCase):
             {'fn': 'hh/sat16/round1/hu.txt',
              'expected': 0.20073,
              },
+            {'fn': 'hh/sat16/round1/hu-noai-postflop2.txt',
+             'expected': 0,
+             },
             ])
     def test_icm_ev_diff_pct(self, params):
         hand = get_parsed_hand_from_file(params.get('fn'))
@@ -516,6 +526,21 @@ class TestEV(unittest.TestCase):
         ev_calc = get_ev_calc(hero, hand, prize)
         result = ev_calc.icm_ev_diff_pct()
         self.assertAlmostEqual(result, expected, delta=0.001)
+
+    @add_params([
+            {'fn': 'hh/sat16/round1/hu-noai-postflop2.txt',
+             'expected': True,
+             },
+            ])
+    def test_should_return_chip_fact(self, params):
+        hand = get_parsed_hand_from_file(params.get('fn'))
+        expected = params.get('expected')
+        prize = params.get('prize', ((1,)))
+        hero = hand.hero
+        ev_calc = get_ev_calc(hero, hand, prize)
+        logger.debug(ev_calc.ai_players)
+        result = ev_calc.should_return_chip_fact()
+        self.assertTrue(result, expected)
 
     @add_params([
             {'fn': 'hh/sat16/round1/hu.txt',
