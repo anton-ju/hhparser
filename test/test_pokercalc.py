@@ -44,7 +44,7 @@ def get_parsed_hand_from_file(fn):
         return parsed_hand
 
 
-def get_ev_calc(player, parsed_hand, prize=((1, 0)), ko_model=pokercalc.KOModels.PROPORTIONAL):
+def get_ev_calc(player, parsed_hand, prize=((1, 0)), ko_model=pokercalc.KOModels.PROPORTIONAL) -> pokercalc.EV:
     icm = pokercalc.Icm(prize)
     ko = pokercalc.Knockout(ko_model)
     ev_calc = pokercalc.EV(parsed_hand, icm, ko)
@@ -106,6 +106,11 @@ class TestPokercalc(unittest.TestCase):
         self.assertListEqual(list(icm_ko.calc([954, 20, 466, 568, 496, 496])),
                              [0.2602, 0.0089, 0.1722, 0.1980, 0.1803, 0.1803])
 
+        icm_ko = pokercalc.Icm((0.3333, 0.3333, 0.3333))
+
+        self.assertListEqual(list(icm_ko.calc([954, 0, 466])),
+                             [0.3333, 0.3333])
+
         icm_ko = pokercalc.Icm((0.5, 0.5))
         self.assertDictEqual(icm_ko.calc({'da_mauso': 954,
                                           'DiggErr555': 466,
@@ -120,34 +125,74 @@ class TestPokercalc(unittest.TestCase):
                               '2Ran128': 0.1727,
                               'zaxar393': 0.1727})
 
-        self.assertDictEqual(icm_ko.calc({'da_mauso': 974,
-                                  'DiggErr555': 466,
-                                  'baluoteli': 0,
-                                  'bigboyby': 568,
-                                  '2Ran128': 496,
-                                  'zaxar393': 496}),
-                             {'da_mauso': 0.2944,
-                              'DiggErr555': 0.1639,
-                              'baluoteli': 0,
-                              'bigboyby': 0.1951,
-                              '2Ran128': 0.1733,
-                              'zaxar393': 0.1733})
+        self.assertDictEqual(icm_ko.calc(
+           {
+            'da_mauso': 974,
+            'DiggErr555': 466,
+            'baluoteli': 0,
+            'bigboyby': 568,
+            '2Ran128': 496,
+            'zaxar393': 496
+           }),
+           {
+            'da_mauso': 0.2944,
+            'DiggErr555': 0.1639,
+            'bigboyby': 0.1951,
+            '2Ran128': 0.1733,
+            'zaxar393': 0.1733
+            })
 
-        self.assertDictEqual(icm_ko.calc({'vIpEr9427': 299,
-                                  'Denisov V.': 427,
-                                  'Chang Chi': 477,
-                                  'sabuco_2110': 850,
-                                  'shagvaladyan': 447,
-                                  'DiggErr555': 500}),
-                             {'vIpEr9427': 0.1059,
-                              'Denisov V.': 0.1473,
-                              'Chang Chi': 0.1627,
-                              'sabuco_2110': 0.2608,
-                              'shagvaladyan': 0.1535,
-                              'DiggErr555': 0.1697})
+        self.assertDictEqual(icm_ko.calc(
+           {
+            'vIpEr9427': 299,
+            'Denisov V.': 427,
+            'Chang Chi': 477,
+            'sabuco_2110': 850,
+            'shagvaladyan': 447,
+            'DiggErr555': 500
+           }),
+           {
+            'vIpEr9427': 0.1059,
+            'Denisov V.': 0.1473,
+            'Chang Chi': 0.1627,
+            'sabuco_2110': 0.2608,
+            'shagvaladyan': 0.1535,
+            'DiggErr555': 0.1697
+           })
+
+        icm_sat = pokercalc.Icm((0.4, 0.4, 0.2))
+        self.assertDictEqual(icm_sat.calc(
+           {
+                 'FutureofMe': 990,
+                 'DiggErr555': 1010,
+                 'Sunwavebeach': 0,
+           }),
+           {
+                 'FutureofMe': 0.4,
+                 'DiggErr555': 0.4,
+           })
 
     def test__p1p(self):
         pass
+
+    def test__check_chips(self):
+        """TODO: Docstring for test__remove_zeros.
+
+        :params: TODO
+        :returns: TODO
+
+        """
+        icm_sat = pokercalc.Icm((0.4, 0.4, 0.2))
+        self.assertDictEqual(icm_sat._check_chips(
+           {
+                 'FutureofMe': 990,
+                 'DiggErr555': 1010,
+                 'Sunwavebeach': 0,
+           }),
+           {
+                 'FutureofMe': 990,
+                 'DiggErr555': 1010,
+           })
 
 
 class TestEqArray(unittest.TestCase):
@@ -543,8 +588,9 @@ class TestEV(unittest.TestCase):
         self.assertTrue(result, expected)
 
     @add_params([
-            {'fn': 'hh/sat16/round1/hu.txt',
+            {'fn': 'hh/sat16/diverror-icmcalc.txt',
              'expected': 0.20073,
+             'prize': (0.4631, .4631, .0738),
              },
             ])
     def test_icm_calc(self, params):
@@ -556,13 +602,13 @@ class TestEV(unittest.TestCase):
         """
         hand = get_parsed_hand_from_file(params.get('fn'))
         expected = params.get('expected')
-        prize = params.get('prize', ((1,)))
+        payouts = params.get('prize', ((1,)))
         hero = hand.hero
 
-        ev_calc = get_ev_calc(hero, hand, prize)
-        probs = ev_calc.get_probs(hero)
-        result = ev_calc.icm_ev_diff_pct()
-        self.assertAlmostEqual(result, expected, 3)
+        icm_calc = pokercalc.Icm(payouts)
+
+        result = icm_calc.calc(hand.chips())
+        self.assertAlmostEqual(result.get(hero, 0), expected, delta=0.001)
 
     @profile('test-icm-ev-diff-pct-3way.prof')
     @add_params([
@@ -776,6 +822,14 @@ class TestOutcome(unittest.TestCase):
                  'bayaraa2222': 340,
                  'apos87tolos': 200,
                  'DiggErr555': 750,
+             }},
+            {'fn': 'hh/sat16/diverror-icmcalc.txt',
+             'path': ['DiggErr555', 'Sunwavebeach'],
+             'expected':
+             {
+                 'FutureofMe': 990,
+                 'DiggErr555': 1010,
+                 'Sunwavebeach': 0,
              }},
     ])
     def test_outcome_win(self, params):

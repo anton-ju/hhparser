@@ -64,8 +64,9 @@ class Icm:
 
     def calc(self, chips_players: Union[List[int], Dict[str, int]]) -> Union[List[float], Dict[str, float]]:
         result: List[float] = []
-        if isinstance(chips_players, dict):
+        chips_players = self._check_chips(chips_players)
 
+        if isinstance(chips_players, dict):
             chips = list(chips_players.values())
         elif isinstance(chips_players, list):
             chips = chips_players[:]
@@ -74,19 +75,33 @@ class Icm:
 
         total: int = sum(chips)
         for player, _ in enumerate(chips):
-            eq = round(self.get_equities(chips[:], total, player, 0), 4)
+            eq = round(self._qet_equities(chips[:], total, player, 0), 4)
             result.append(eq)
 
         return result if isinstance(chips_players, list) else dict(zip(chips_players.keys(), result))
 
-    def get_equities(self, chips: List[int], total: int, player, depth: int) -> float:
+    def _check_chips(self, chips_players: Union[List[int], Dict[str, int]]) -> Union[List[int], Dict[str, int]]:
+        """Remove zeros from list or dict
+        Returns: dict or list
+        """
+        if isinstance(chips_players, dict):
+            result = {k: v for k, v in chips_players.items() if v != 0}
+        elif isinstance(chips_players, list):
+            result = chips_players[:]
+            try:
+                result.remove(0)
+            except ValueError:
+                pass
+        return result
+
+    def _qet_equities(self, chips: List[int], total: int, player, depth: int) -> float:
         result = chips[player] / total * self.payouts[depth]
         if depth + 1 < len(self.payouts):
             i: int = 0
             for stack in chips:
                 if i != player and stack > 0.0:
                     chips[i] = 0.0
-                    result += self.get_equities(chips, (total - stack), player, (depth + 1)) * (stack / total)
+                    result += self._qet_equities(chips, (total - stack), player, (depth + 1)) * (stack / total)
                     chips[i] = stack
                 i += 1
         return result
