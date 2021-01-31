@@ -4,6 +4,7 @@ Created on Sat Jun  2 23:24:47 2018
 
 @author: user
 """
+import functools
 import unittest
 from unittest import skip
 import logging
@@ -487,6 +488,16 @@ Seat 6: shortop (button) folded before Flop (didn't bet)
 """
 
 
+def add_params(params):
+    def decorator(f):
+        @functools.wraps(f)
+        def wrapper(*args):
+            for c in params:
+                new_args = args + (c if isinstance(c, tuple) else (c,))
+                f(*new_args)
+        return wrapper
+    return decorator
+
 def get_parsed_hand_from_file(fn):
     with open(fn) as f:
         hh_text = f.read()
@@ -881,10 +892,20 @@ class TestPSHandHistory(unittest.TestCase):
         hh = self.case6
         self.assertEqual(hh.uncalled, {'DiggErr555': 671,})
 
-    def test_prize_won(self):
-        hh = self.case7
-        self.assertEqual(hh.prize_won, {'sabuco_2110': 36.03,
-                                            'DiggErr555': 36.03})
+    @add_params([
+        {
+         'fn': 'hh/sat16/diverror-icmcalc.txt',
+         'expected':
+         {
+             'FutureofMe': 109.0,
+             'DiggErr555': 109.0,
+             'Sunwavebeach': 17.36,
+         }},
+    ])
+    def test_prize_won(self, params):
+        expected = params.get('expected')
+        hand = get_parsed_hand_from_file(params.get('fn'))
+        self.assertEqual(hand.prize_won, expected)
 
     def test_bounty_won(self):
         hh = self.case7
