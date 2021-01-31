@@ -168,7 +168,7 @@ class HandHistoryParser:
     CHIPWON_REGEX = "(?P<player>.*) collected (?P<chipwon>\d+)"
     CHIPWON_DICT = {'player': 'chipwon'}
     FINISHES_REGEX = "(?P<player>.*?) (?:finished.*in (?P<place>\d+)(?:nd|rd|th)|wins the tournament)"
-    PRIZE_WON_REGEX = "(?P<player>.*) (?:wins|finished).*and (?:received|receives) \$(?P<prize>\d+\.\d+)(?:.|\s)"
+    PRIZE_WON_REGEX = "(?P<player>.*) (?:wins|finished).*and (?:received|receives) \$(?P<prize>\d+\.?\d+)(?:.|\s)"
     BLINDS_ANTE_REGEX = "(?P<player>.*): posts .*?(?P<bet>\d+)"
     BOUNTY_WON_REGEX = "(?P<player>.*) wins the \$(?P<bounty>.*) bounty"
     RIVER_REGEX = "RIVER.*\[(?:.*)\] \[(?P<river>.{2})\]"
