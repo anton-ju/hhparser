@@ -184,7 +184,7 @@ class HandHistoryParser:
     ACTIONS_AMOUNTS_REGEX = "(?P<player>.*?): (?:calls|raises.*to|bets|checks) (?P<amount>\d+)?"
     ACTIONS_AMOUNTS_DICT = {'player': 'amount'}
     AI_PLAYERS_REGEX = "(?P<player>.*):.* all-in"
-    KNOWN_CARDS_REGEX = "Seat \d: (?P<player>.*?)\s?(?:\(button\) showed|\(small blind\) showed|\(button\) \(small blind\) showed|\(big blind\) showed| showed)\s\[(?P<knowncards>.*)\]"
+    KNOWN_CARDS_REGEX = "Seat \d: (?P<player>.*?)\s(?:\(button\)\s|\(button\)\s\(small blind\)\s|\(small blind\)\s|\(big blind\)\s)?(?:showed|mucked)\s\[(?P<knowncards>.*)\]"
     KNOWN_CARDS_DICT = {'player': 'knowncards'}
     FLOP_REGEX = "FLOP.*\[(?P<flop>.*)\]"
     POT_LIST_REGEX = "(Total|Main|Side) (pot|pot-1|pot-2|pot-3|pot-4|pot-5)\s(?P<pot>\d*)"

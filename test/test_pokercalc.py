@@ -3,10 +3,14 @@ import unittest
 import logging
 import random
 from profiler import profile
+import pprint
+import eval7
 
 from unittest import skip
 from pypokertools.calc import pokercalc
 from pypokertools.parsers import PSHandHistory as hhparser
+from pypokertools.calc.pokercalc import OutcomeBuilder
+from pypokertools.calc.pokercalc import str_to_cards
 
 logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
@@ -261,15 +265,48 @@ class TestEV(unittest.TestCase):
         {'fn': 'hh/sat16/round1/hu-noai-postflop2.txt',
          'expected': [],
          },
+        {'fn': 'hh/sat16/round2/3way-bu-call-sb-call.txt',
+         'expected': ['wycioreks', 'slavikus555', 'DiggErr555'],
+         },
     ])
     def test_detect_ai_players(self, params):
         expected = params.get('expected')
         hand = get_parsed_hand_from_file(params.get('fn'))
         ai_players, p_ai_players, f_ai_players, t_ai_players = pokercalc.EV.detect_ai_players(hand)
-        logger.debug((p_ai_players, f_ai_players, t_ai_players))
+        #logger.debug((p_ai_players, f_ai_players, t_ai_players))
+        try:
+            expected.sort()
+            ai_players.sort()
+        except:
+            pass
         self.assertListEqual(expected, ai_players)
 
     @add_params([
+        {
+         'fn': 'hh/sat16/round1/2way/hero-push-sb-call.txt',
+         'expected': ['fozzzi', 'DiggErr555'],
+        },
+        {
+         'fn':  'hh/sat16/round1/2way/sb-push-hero-call.txt',
+         'expected': ['fozzzi', 'DiggErr555'],
+        },
+        {
+         'fn': 'hh/sat16/round1/2way/hero-call-bvb.txt',
+         'expected': ['bayaraa2222', 'DiggErr555'],
+        },
+        {
+         'fn': 'hh/sat16/round1/auto-ai.txt',
+         'expected': ['Skrotnes', 'NL_Classic'],
+        },
+        {'fn': 'hh/sat16/round1/hu-noai-postflop.txt',
+         'expected': [],
+         },
+        {'fn': 'hh/sat16/round1/hu-noai-postflop2.txt',
+         'expected': [],
+         },
+        {'fn': 'hh/sat16/round2/3way-bu-call-sb-call.txt',
+         'expected': ['wycioreks', 'slavikus555', 'DiggErr555'],
+         },
         {
          'fn': 'hh/sat16/round1/auto-ai.txt',
          'expected': ['Skrotnes', 'NL_Classic'],
@@ -279,9 +316,14 @@ class TestEV(unittest.TestCase):
         expected = params.get('expected')
         hand = get_parsed_hand_from_file(params.get('fn'))
         ai_players, p_ai_players, f_ai_players, t_ai_players = pokercalc.EV.detect_ai_players(hand)
+        try:
+            expected.sort()
+            p_ai_players.sort()
+        except:
+            pass
         self.assertListEqual(expected, p_ai_players)
 
-    @profile('test_equities.txt')
+    @profile('test_get_probs.prof')
     @add_params([
         {
          'fn': 'hh/th1.txt',
@@ -319,16 +361,15 @@ class TestEV(unittest.TestCase):
          'player': 'NL_Classic'
         },
            ])
-    def test_equities(self, params):
+    def test_get_probs(self, params):
         hand = get_parsed_hand_from_file(params.get('fn'))
         hero = hand.hero
         ev_calc = get_ev_calc(hero, hand)
         expected = params.get('expected')
         result = ev_calc.get_probs(params.get('player'))
-        print(ev_calc._probs)
         self.assertAlmostEqual(result, expected, delta=0.005)
 
-    @profile('test_equities_3way.txt')
+    @profile('test_equities_3way.prof')
     @add_params([
         {'fn': 'hh/sat16/round1/3way/3way-ai-preflop.txt',
          'expected': 0.5038,
@@ -347,21 +388,42 @@ class TestEV(unittest.TestCase):
         result = ev_calc.get_probs(params.get('player'))
         self.assertAlmostEqual(result, expected, delta=0.005)
 
-    @profile('test-hu-ai-postflop.prof')
     @add_params([
-        {
-         'fn': 'hh/sat16/round1/hu-ai-postflop.txt',
-         'expected': 0.7879,
-         'player': 'NL_Classic'
-        },
-           ])
-    def test_equities_flop(self, params):
+        {'fn': 'hh/sat16/round1/3way/3way-ai-preflop.txt',
+         'expected': 0.0107,
+         'outcome': '122'
+         },
+        {'fn': 'hh/sat16/round1/3way/3way-ai-preflop.txt',
+         'expected': 0.1631,
+         'outcome': '321'
+         },
+        ])
+    def test_calculate_outcome_probs(self, params):
         hand = get_parsed_hand_from_file(params.get('fn'))
         hero = hand.hero
         ev_calc = get_ev_calc(hero, hand)
+        outcome = params.get('outcome')
         expected = params.get('expected')
-        result = ev_calc.get_probs(params.get('player'))
+        probs = ev_calc.calculate_outcome_probs()
+        result = probs.get(outcome)
         self.assertAlmostEqual(result, expected, delta=0.005)
+
+
+#    @profile('test-hu-ai-postflop.prof')
+#    @add_params([
+#        {
+#         'fn': 'hh/sat16/round1/hu-ai-postflop.txt',
+#         'expected': 0.7879,
+#         'player': 'NL_Classic'
+#        },
+#           ])
+#    def test_equities_flop(self, params):
+#        hand = get_parsed_hand_from_file(params.get('fn'))
+#        hero = hand.hero
+#        ev_calc = get_ev_calc(hero, hand)
+#        expected = params.get('expected')
+#        result = ev_calc.get_probs(params.get('player'))
+#        self.assertAlmostEqual(result, expected, delta=0.005)
 
     @profile('test-chip-diff-ev-adj.prof')
     @add_params([
@@ -589,7 +651,7 @@ class TestEV(unittest.TestCase):
 
     @add_params([
             {'fn': 'hh/sat16/diverror-icmcalc.txt',
-             'expected': 0.20073,
+             'expected': 0.3527,
              'prize': (0.4631, .4631, .0738),
              },
             ])
@@ -613,7 +675,7 @@ class TestEV(unittest.TestCase):
     @profile('test-icm-ev-diff-pct-3way.prof')
     @add_params([
             {'fn': 'hh/sat16/round1/3way/3way-ai-preflop.txt',
-             'expected': 0.2233,
+             'expected': 0.2202,
              },
             ])
     def test_icm_ev_diff_pct_3way(self, params):
@@ -717,7 +779,7 @@ class TestEV(unittest.TestCase):
 
     @add_params([
             {'fn': 'hh/sat16/round1/2way/hero-call-bvb.txt',
-             'expected': ()
+             'expected': '',
              },
             ])
     def test_get_board_before_allin(self, params):
@@ -732,6 +794,526 @@ class TestEV(unittest.TestCase):
         ev_calc = get_ev_calc(hero, hand, prize)
         result = ev_calc.get_board_before_allin()
         self.assertEqual(result, expected)
+
+
+class TestOutcomeBuilder(unittest.TestCase):
+    """
+                {'fn': 'hh/sat16/round1/3way/3way-ai-preflop.txt',
+    Seat 1: dreber@77 (490 in chips)
+    Seat 2: mjanisz (465 in chips)
+    Seat 3: OrangemanXD (555 in chips)
+    Seat 4: DiggErr555 (490 in chips)
+                {'fn': 'hh/sat16/round2/3way-bu-call-sb-call.txt',
+    Seat 2: slavikus555 (730 in chips) 
+    Seat 3: DiggErr555 (1175 in chips) 
+    Seat 4: wycioreks (95 in chips) 
+    """
+    @add_params([
+            {'fn': 'hh/sat16/round2/3way-bu-call-sb-call.txt',
+             'expected':
+             {
+                 'slavikus555': 610,
+                 'DiggErr555': 1390,
+                 'wycioreks': 0,
+             }},
+            {'fn': 'hh/sat16/round1/3way/3way-ai-preflop.txt',
+             'expected':
+             {
+                 'dreber@77': 0,
+                 'DiggErr555': 0,
+                 'mjanisz': 455,
+                 'OrangemanXD': 1545,
+             }},
+    ])
+    def test_outcome123(self, params):
+        hand = get_parsed_hand_from_file(params.get('fn'))
+        ev_calc = get_ev_calc('DiggErr555', hand, ((1,)), pokercalc.KOModels.PROPORTIONAL)
+        expected = params.get('expected')
+        aiplayers = ev_calc.ai_players
+        chips = ev_calc.chips
+        pots = ev_calc.pots
+        uncalled = ev_calc.uncalled
+        total_bets = ev_calc.total_bets
+        winnings = ev_calc.winnings_chips
+        ob = OutcomeBuilder(aiplayers, chips, pots, uncalled, total_bets, winnings)
+        outcome = ob.outcome123()
+        self.assertDictEqual(outcome, expected)
+        totalchips = 2000
+        result = sum(list(outcome.values()))
+        self.assertEqual(result, totalchips)
+
+    @add_params([
+            {'fn': 'hh/sat16/round2/3way-bu-call-sb-call.txt',
+             'expected':
+             {
+                 'slavikus555': 610,
+                 'DiggErr555': 1390,
+                 'wycioreks': 0,
+             }},
+            {'fn': 'hh/sat16/round1/3way/3way-ai-preflop.txt',
+             'expected':
+             {
+                 'dreber@77': 0,
+                 'DiggErr555': 0,
+                 'mjanisz': 455,
+                 'OrangemanXD': 1545,
+             }},
+    ])
+    def test_outcome132(self, params):
+        hand = get_parsed_hand_from_file(params.get('fn'))
+        ev_calc = get_ev_calc('DiggErr555', hand, ((1,)), pokercalc.KOModels.PROPORTIONAL)
+        expected = params.get('expected')
+        aiplayers = ev_calc.ai_players
+        chips = ev_calc.chips
+        pots = ev_calc.pots
+        uncalled = ev_calc.uncalled
+        total_bets = ev_calc.total_bets
+        winnings = ev_calc.winnings_chips
+        ob = OutcomeBuilder(aiplayers, chips, pots, uncalled, total_bets, winnings)
+        outcome = ob.outcome132()
+        self.assertDictEqual(outcome, expected)
+        totalchips = 2000
+        result = sum(list(outcome.values()))
+        self.assertEqual(result, totalchips)
+
+    @add_params([
+            {'fn': 'hh/sat16/round2/3way-bu-call-sb-call.txt',
+             'expected':
+             {
+                 'slavikus555': 610,
+                 'DiggErr555': 1390,
+                 'wycioreks': 0,
+             }},
+             {'fn': 'hh/sat16/round1/3way/3way-ai-preflop.txt',
+             'expected':
+             {
+                 'dreber@77': 0,
+                 'DiggErr555': 0,
+                 'mjanisz': 455,
+                 'OrangemanXD': 1545,
+             }},
+    ])
+    def test_outcome122(self, params):
+        hand = get_parsed_hand_from_file(params.get('fn'))
+        ev_calc = get_ev_calc('DiggErr555', hand, ((1,)), pokercalc.KOModels.PROPORTIONAL)
+        expected = params.get('expected')
+        aiplayers = ev_calc.ai_players
+        chips = ev_calc.chips
+        pots = ev_calc.pots
+        uncalled = ev_calc.uncalled
+        total_bets = ev_calc.total_bets
+        winnings = ev_calc.winnings_chips
+        ob = OutcomeBuilder(aiplayers, chips, pots, uncalled, total_bets, winnings)
+        outcome = ob.outcome122()
+        self.assertDictEqual(outcome, expected)
+        totalchips = 2000
+        result = sum(list(outcome.values()))
+        self.assertEqual(result, totalchips)
+
+    @add_params([
+            {'fn': 'hh/sat16/round2/3way-bu-call-sb-call.txt',
+             'expected':
+             {
+                 'slavikus555': 945,
+                 'DiggErr555': 1055,
+                 'wycioreks': 0,
+             }},
+             {'fn': 'hh/sat16/round1/3way/3way-ai-preflop.txt',
+             'expected':
+             {
+                 'dreber@77': 1480,
+                 'DiggErr555': 0,
+                 'mjanisz': 455,
+                 'OrangemanXD': 65,
+             }},
+    ])
+    def test_outcome213(self, params):
+        hand = get_parsed_hand_from_file(params.get('fn'))
+        ev_calc = get_ev_calc('DiggErr555', hand, ((1,)), pokercalc.KOModels.PROPORTIONAL)
+        expected = params.get('expected')
+        aiplayers = ev_calc.ai_players
+        chips = ev_calc.chips
+        pots = ev_calc.pots
+        uncalled = ev_calc.uncalled
+        total_bets = ev_calc.total_bets
+        winnings = ev_calc.winnings_chips
+        ob = OutcomeBuilder(aiplayers, chips, pots, uncalled, total_bets, winnings)
+        outcome = ob.outcome213()
+        self.assertDictEqual(outcome, expected)
+        totalchips = 2000
+        result = sum(list(outcome.values()))
+        self.assertEqual(result, totalchips)
+
+    @add_params([
+            {'fn': 'hh/sat16/round2/3way-bu-call-sb-call.txt',
+             'expected':
+             {
+                 'slavikus555': 945,
+                 'DiggErr555': 1055,
+                 'wycioreks': 0,
+             }},
+            {'fn': 'hh/sat16/round1/3way/3way-ai-preflop.txt',
+             'expected':
+             {
+                 'dreber@77': 1480,
+                 'DiggErr555': 0,
+                 'mjanisz': 455,
+                 'OrangemanXD': 65,
+             }},
+    ])
+    def test_outcome312(self, params):
+        hand = get_parsed_hand_from_file(params.get('fn'))
+        ev_calc = get_ev_calc('DiggErr555', hand, ((1,)), pokercalc.KOModels.PROPORTIONAL)
+        expected = params.get('expected')
+        aiplayers = ev_calc.ai_players
+        chips = ev_calc.chips
+        pots = ev_calc.pots
+        uncalled = ev_calc.uncalled
+        total_bets = ev_calc.total_bets
+        winnings = ev_calc.winnings_chips
+        ob = OutcomeBuilder(aiplayers, chips, pots, uncalled, total_bets, winnings)
+        outcome = ob.outcome312()
+        self.assertDictEqual(outcome, expected)
+        totalchips = 2000
+        result = sum(list(outcome.values()))
+        self.assertEqual(result, totalchips)
+
+    @add_params([
+            {'fn': 'hh/sat16/round2/3way-bu-call-sb-call.txt',
+             'expected':
+             {
+                 'slavikus555': 945,
+                 'DiggErr555': 1055,
+                 'wycioreks': 0,
+             }},
+            {'fn': 'hh/sat16/round1/3way/3way-ai-preflop.txt',
+             'expected':
+             {
+                 'dreber@77': 1480,
+                 'DiggErr555': 0,
+                 'mjanisz': 455,
+                 'OrangemanXD': 65,
+             }},
+    ])
+    def test_outcome212(self, params):
+        hand = get_parsed_hand_from_file(params.get('fn'))
+        ev_calc = get_ev_calc('DiggErr555', hand, ((1,)), pokercalc.KOModels.PROPORTIONAL)
+        expected = params.get('expected')
+        aiplayers = ev_calc.ai_players
+        chips = ev_calc.chips
+        pots = ev_calc.pots
+        uncalled = ev_calc.uncalled
+        total_bets = ev_calc.total_bets
+        winnings = ev_calc.winnings_chips
+        ob = OutcomeBuilder(aiplayers, chips, pots, uncalled, total_bets, winnings)
+        outcome = ob.outcome212()
+        self.assertDictEqual(outcome, expected)
+        totalchips = 2000
+        result = sum(list(outcome.values()))
+        self.assertEqual(result, totalchips)
+
+
+    @add_params([
+            {'fn': 'hh/sat16/round2/3way-bu-call-sb-call.txt',
+             'expected':
+             {
+                 'slavikus555': 730,
+                 'DiggErr555': 1175,
+                 'wycioreks': 95,
+             }},
+            {'fn': 'hh/sat16/round1/3way/3way-ai-preflop.txt',
+             'expected':
+             {
+                 'dreber@77': 493,
+                 'DiggErr555': 494,
+                 'mjanisz': 455,
+                 'OrangemanXD': 558,
+             }},
+    ])
+    def test_outcome111(self, params):
+        hand = get_parsed_hand_from_file(params.get('fn'))
+        ev_calc = get_ev_calc('DiggErr555', hand, ((1,)), pokercalc.KOModels.PROPORTIONAL)
+        expected = params.get('expected')
+        aiplayers = ev_calc.ai_players
+        chips = ev_calc.chips
+        pots = ev_calc.pots
+        uncalled = ev_calc.uncalled
+        total_bets = ev_calc.total_bets
+        winnings = ev_calc.winnings_chips
+        ob = OutcomeBuilder(aiplayers, chips, pots, uncalled, total_bets, winnings)
+        outcome = ob.outcome111()
+        self.assertDictEqual(outcome, expected)
+        totalchips = 2000
+        result = sum(list(outcome.values()))
+        self.assertEqual(result, totalchips)
+
+    @add_params([
+            {'fn': 'hh/sat16/round2/3way-bu-call-sb-call.txt',
+             'expected':
+             {
+                 'slavikus555': 778,
+                 'DiggErr555': 1222,
+                 'wycioreks': 0,
+             }},
+            {'fn': 'hh/sat16/round1/3way/3way-ai-preflop.txt',
+             'expected':
+             {
+                 'dreber@77': 740,
+                 'DiggErr555': 0,
+                 'mjanisz': 455,
+                 'OrangemanXD': 805,
+             }},
+    ])
+    def test_outcome113(self, params):
+        hand = get_parsed_hand_from_file(params.get('fn'))
+        ev_calc = get_ev_calc('DiggErr555', hand, ((1,)), pokercalc.KOModels.PROPORTIONAL)
+        expected = params.get('expected')
+        aiplayers = ev_calc.ai_players
+        chips = ev_calc.chips
+        pots = ev_calc.pots
+        uncalled = ev_calc.uncalled
+        total_bets = ev_calc.total_bets
+        winnings = ev_calc.winnings_chips
+        ob = OutcomeBuilder(aiplayers, chips, pots, uncalled, total_bets, winnings)
+        outcome = ob.outcome113()
+        self.assertDictEqual(outcome, expected)
+        totalchips = 2000
+        result = sum(list(outcome.values()))
+        self.assertEqual(result, totalchips)
+
+    @add_params([
+            {'fn': 'hh/sat16/round2/3way-bu-call-sb-call.txt',
+             'expected':
+             {
+                 'slavikus555': 610,
+                 'DiggErr555': 1247,
+                 'wycioreks': 143,
+             }},
+            {'fn': 'hh/sat16/round1/3way/3way-ai-preflop.txt',
+             'expected':
+             {
+                 'dreber@77': 0,
+                 'DiggErr555': 740,
+                 'mjanisz': 455,
+                 'OrangemanXD': 805,
+             }},
+    ])
+    def test_outcome131(self, params):
+        hand = get_parsed_hand_from_file(params.get('fn'))
+        ev_calc = get_ev_calc('DiggErr555', hand, ((1,)), pokercalc.KOModels.PROPORTIONAL)
+        expected = params.get('expected')
+        aiplayers = ev_calc.ai_players
+        chips = ev_calc.chips
+        pots = ev_calc.pots
+        uncalled = ev_calc.uncalled
+        total_bets = ev_calc.total_bets
+        winnings = ev_calc.winnings_chips
+        ob = OutcomeBuilder(aiplayers, chips, pots, uncalled, total_bets, winnings)
+        outcome = ob.outcome131()
+        self.assertDictEqual(outcome, expected)
+        totalchips = 2000
+        result = sum(list(outcome.values()))
+        self.assertEqual(result, totalchips)
+
+    @add_params([
+            {'fn': 'hh/sat16/round2/3way-bu-call-sb-call.txt',
+             'expected':
+             {
+                 'slavikus555': 802,
+                 'DiggErr555': 1055,
+                 'wycioreks': 143,
+             }},
+            {'fn': 'hh/sat16/round1/3way/3way-ai-preflop.txt',
+             'expected':
+             {
+                 'dreber@77': 740,
+                 'DiggErr555': 740,
+                 'mjanisz': 455,
+                 'OrangemanXD': 65,
+             }},
+    ])
+    def test_outcome311(self, params):
+        hand = get_parsed_hand_from_file(params.get('fn'))
+        ev_calc = get_ev_calc('DiggErr555', hand, ((1,)), pokercalc.KOModels.PROPORTIONAL)
+        expected = params.get('expected')
+        aiplayers = ev_calc.ai_players
+        chips = ev_calc.chips
+        pots = ev_calc.pots
+        uncalled = ev_calc.uncalled
+        total_bets = ev_calc.total_bets
+        winnings = ev_calc.winnings_chips
+        ob = OutcomeBuilder(aiplayers, chips, pots, uncalled, total_bets, winnings)
+        outcome = ob.outcome311()
+        self.assertDictEqual(outcome, expected)
+        totalchips = 2000
+        result = sum(list(outcome.values()))
+        self.assertEqual(result, totalchips)
+
+    @add_params([
+            {'fn': 'hh/sat16/round2/3way-bu-call-sb-call.txt',
+             'expected':
+             {
+                 'slavikus555': 610,
+                 'DiggErr555': 1105,
+                 'wycioreks': 285,
+             }},
+            {'fn': 'hh/sat16/round1/3way/3way-ai-preflop.txt',
+             'expected':
+             {
+                 'dreber@77': 0,
+                 'DiggErr555': 1480,
+                 'mjanisz': 455,
+                 'OrangemanXD': 65,
+             }},
+    ])
+    def test_outcome231(self, params):
+        hand = get_parsed_hand_from_file(params.get('fn'))
+        ev_calc = get_ev_calc('DiggErr555', hand, ((1,)), pokercalc.KOModels.PROPORTIONAL)
+        expected = params.get('expected')
+        aiplayers = ev_calc.ai_players
+        chips = ev_calc.chips
+        pots = ev_calc.pots
+        uncalled = ev_calc.uncalled
+        total_bets = ev_calc.total_bets
+        winnings = ev_calc.winnings_chips
+        ob = OutcomeBuilder(aiplayers, chips, pots, uncalled, total_bets, winnings)
+        outcome = ob.outcome231()
+        self.assertDictEqual(outcome, expected)
+        totalchips = 2000
+        result = sum(list(outcome.values()))
+        self.assertEqual(result, totalchips)
+
+    @add_params([
+            {'fn': 'hh/sat16/round2/3way-bu-call-sb-call.txt',
+             'expected':
+             {
+                 'slavikus555': 660,
+                 'DiggErr555': 1055,
+                 'wycioreks': 285,
+             }},
+            {'fn': 'hh/sat16/round1/3way/3way-ai-preflop.txt',
+             'expected':
+             {
+                 'dreber@77': 0,
+                 'DiggErr555': 1480,
+                 'mjanisz': 455,
+                 'OrangemanXD': 65,
+             }},
+    ])
+    def test_outcome321(self, params):
+        hand = get_parsed_hand_from_file(params.get('fn'))
+        ev_calc = get_ev_calc('DiggErr555', hand, ((1,)), pokercalc.KOModels.PROPORTIONAL)
+        expected = params.get('expected')
+        aiplayers = ev_calc.ai_players
+        chips = ev_calc.chips
+        pots = ev_calc.pots
+        uncalled = ev_calc.uncalled
+        total_bets = ev_calc.total_bets
+        winnings = ev_calc.winnings_chips
+        ob = OutcomeBuilder(aiplayers, chips, pots, uncalled, total_bets, winnings)
+        outcome = ob.outcome321()
+        self.assertDictEqual(outcome, expected)
+        totalchips = 2000
+        result = sum(list(outcome.values()))
+        self.assertEqual(result, totalchips)
+
+
+    @add_params([
+            {'fn': 'hh/sat16/round2/3way-bu-call-sb-call.txt',
+             'expected':
+             {
+                 'slavikus555': 635,
+                 'DiggErr555': 1080,
+                 'wycioreks': 285,
+             }},
+            {'fn': 'hh/sat16/round1/3way/3way-ai-preflop.txt',
+             'expected':
+             {
+                 'dreber@77': 0,
+                 'DiggErr555': 1480,
+                 'mjanisz': 455,
+                 'OrangemanXD': 65,
+             }},
+    ])
+    def test_outcome221(self, params):
+        hand = get_parsed_hand_from_file(params.get('fn'))
+        ev_calc = get_ev_calc('DiggErr555', hand, ((1,)), pokercalc.KOModels.PROPORTIONAL)
+        expected = params.get('expected')
+        aiplayers = ev_calc.ai_players
+        chips = ev_calc.chips
+        pots = ev_calc.pots
+        uncalled = ev_calc.uncalled
+        total_bets = ev_calc.total_bets
+        winnings = ev_calc.winnings_chips
+        ob = OutcomeBuilder(aiplayers, chips, pots, uncalled, total_bets, winnings)
+        outcome = ob.outcome221()
+        self.assertDictEqual(outcome, expected)
+        totalchips = 2000
+        result = sum(list(outcome.values()))
+        self.assertEqual(result, totalchips)
+
+    @skip
+    @add_params([
+            {'fn': 'hh/sat16/round1/3way/3way-ai-preflop.txt',
+             'outcome': '312',
+             'expected':
+             {
+                 'DiggErr555': 0,
+                 'dreber@77': 1480,
+                 'mjanisz': 455,
+                 'OrangemanXD': 65,
+             }},
+            {'fn': 'hh/sat16/round1/3way/3way-ai-preflop.txt',
+             'outcome': '123',
+             'expected':
+             {
+                 'dreber@77': 0,
+                 'DiggErr555': 0,
+                 'mjanisz': 455,
+                 'OrangemanXD': 1545,
+             }},
+            {'fn': 'hh/sat16/round1/3way/3way-ai-preflop.txt',
+             'outcome': '312',
+             'expected':
+             {
+                 'DiggErr555': 0,
+                 'dreber@77': 1480,
+                 'mjanisz': 455,
+                 'OrangemanXD': 65,
+             }},
+            {'fn': 'hh/sat16/round1/3way/3way-ai-preflop.txt',
+             'outcome': '321',
+             'expected':
+             {
+                 'DiggErr555': 0,
+                 'dreber@77': 1480,
+                 'mjanisz': 455,
+                 'OrangemanXD': 65,
+             }},
+            {'fn': 'hh/sat16/round1/3way/3way-ai-preflop.txt',
+             'outcome': '123',
+             'expected':
+             {
+                 'dreber@77': 0,
+                 'DiggErr555': 1480,
+                 'mjanisz': 455,
+                 'OrangemanXD': 65,
+             }},
+    ])
+    def test_build_outcome(self, params):
+        hand = get_parsed_hand_from_file(params.get('fn'))
+        ev_calc = get_ev_calc('DiggErr555', hand, ((1,)), pokercalc.KOModels.PROPORTIONAL)
+        expected = params.get('expected')
+        aiplayers = ev_calc.ai_players
+        chips = ev_calc.chips
+        pots = ev_calc.pots
+        uncalled = ev_calc.uncalled
+        total_bets = ev_calc.total_bets
+        winnings = ev_calc.winnings_chips
+        path = params.get('path')
+        ob = OutcomeBuilder(aiplayers, chips, pots, uncalled, total_bets, winnings)
+        outcomes = ob.build_outcomes()
+        self.assertDictEqual(outcomes[params.get('outcome')], expected)
 
 
 class TestOutcome(unittest.TestCase):
