@@ -1,7 +1,7 @@
 from utils import EquityArray, str_to_cards, getEquityVsHandFast, pe_string2card, NUM_CARDS, pe_card2string
 from utils import printProgressBar, py_equities_2hands_fast
 from time import perf_counter
-from eval7 import py_equities_2hands, py_hand_vs_range_monte_carlo, HandRange
+from eval7 import py_equities_2hands, py_hand_vs_range_monte_carlo, HandRange, py_outcome_breakdown
 from itertools import permutations
 
 # generates preflop array
@@ -27,6 +27,12 @@ result = py_equities_2hands(hand1, hand2, board)
 t2 = perf_counter()
 
 print(f"py_equities_2hands: {t2 - t1:0.8f} sec, result={result[0]:2.8f}")
+
+t1 = perf_counter()
+result = py_outcome_breakdown(board, hand1, hand2)
+t2 = perf_counter()
+
+print(f"py_outcome_breakdown: {t2 - t1:0.8f} sec, result={result}")
 
 hand2 = HandRange(h2)
 t1 = perf_counter()
@@ -70,16 +76,16 @@ perm = list(perm)
 total_len = len(perm)
 print(f'Total hand vs hand : {total_len}')
 counter = 0
-printProgressBar(counter, total_len)
-for p in perm:
-    hand1 = " ".join([p[0], p[1]])
-    hand2 = " ".join([p[2], p[3]])
-    result = py_equities_2hands_fast(hand1, hand2)
-    counter += 1
-    printProgressBar(counter, total_len)
-    if result == 0 or result is None:
-        print(f"result is {result} for {hand1} vs {hand2}")
-        break
+#printProgressBar(counter, total_len)
+#for p in perm:
+#    hand1 = " ".join([p[0], p[1]])
+#    hand2 = " ".join([p[2], p[3]])
+#    result = py_equities_2hands_fast(hand1, hand2)
+#    counter += 1
+#    printProgressBar(counter, total_len)
+#    if result == 0 or result is None:
+#        print(f"result is {result} for {hand1} vs {hand2}")
+#        break
 # for i in range(NUM_CARDS):
 #    for j in range(NUM_CARDS):
 #        for a in range(NUM_CARDS):
